@@ -1,0 +1,838 @@
+{
+  "aspect-ratio": [
+    {
+      "year": 2021,
+      "label": "interop-2021-aspect-ratio",
+      "url": "https://wpt.fyi/interop-2021?feature=interop-2021-aspect-ratio"
+    },
+    {
+      "year": 2022,
+      "label": "interop-2021-aspect-ratio",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2021-aspect-ratio"
+    }
+  ],
+  "flexbox": [
+    {
+      "year": 2021,
+      "label": "interop-2021-flexbox",
+      "url": "https://wpt.fyi/interop-2021?feature=interop-2021-flexbox"
+    },
+    {
+      "year": 2022,
+      "label": "interop-2021-flexbox",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2021-flexbox"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-flexbox",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-flexbox"
+    },
+    {
+      "year": 2024,
+      "label": "interop-2024-layout",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-layout"
+    },
+    {
+      "year": 2025,
+      "label": "interop-2024-layout",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2024-layout"
+    }
+  ],
+  "grid": [
+    {
+      "year": 2021,
+      "label": "interop-2021-grid",
+      "url": "https://wpt.fyi/interop-2021?feature=interop-2021-grid"
+    },
+    {
+      "year": 2022,
+      "label": "interop-2021-grid",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2021-grid"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-grid",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-grid"
+    },
+    {
+      "year": 2024,
+      "label": "interop-2024-layout",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-layout"
+    },
+    {
+      "year": 2025,
+      "label": "interop-2024-layout",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2024-layout"
+    }
+  ],
+  "sticky-positioning": [
+    {
+      "year": 2021,
+      "label": "interop-2021-position-sticky",
+      "url": "https://wpt.fyi/interop-2021?feature=interop-2021-position-sticky"
+    },
+    {
+      "year": 2022,
+      "label": "interop-2021-position-sticky",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2021-position-sticky"
+    }
+  ],
+  "transforms2d": [
+    {
+      "year": 2021,
+      "label": "interop-2021-transforms",
+      "url": "https://wpt.fyi/interop-2021?feature=interop-2021-transforms"
+    },
+    {
+      "year": 2022,
+      "label": "interop-2021-transforms",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2021-transforms"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2021-transforms",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2021-transforms"
+    }
+  ],
+  "transforms3d": [
+    {
+      "year": 2021,
+      "label": "interop-2021-transforms",
+      "url": "https://wpt.fyi/interop-2021?feature=interop-2021-transforms"
+    },
+    {
+      "year": 2022,
+      "label": "interop-2021-transforms",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2021-transforms"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2021-transforms",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2021-transforms"
+    }
+  ],
+  "cascade-layers": [
+    {
+      "year": 2022,
+      "label": "interop-2022-cascade",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-cascade"
+    }
+  ],
+  "color-mix": [
+    {
+      "year": 2022,
+      "label": "interop-2022-color",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-color"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-color",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+    }
+  ],
+  "hsl": [
+    {
+      "year": 2022,
+      "label": "interop-2022-color",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-color"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-color",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+    }
+  ],
+  "hwb": [
+    {
+      "year": 2022,
+      "label": "interop-2022-color",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-color"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-color",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+    }
+  ],
+  "lab": [
+    {
+      "year": 2022,
+      "label": "interop-2022-color",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-color"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-color",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+    }
+  ],
+  "oklab": [
+    {
+      "year": 2022,
+      "label": "interop-2022-color",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-color"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-color",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+    }
+  ],
+  "rgb": [
+    {
+      "year": 2022,
+      "label": "interop-2022-color",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-color"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-color",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+    }
+  ],
+  "color-function": [
+    {
+      "year": 2022,
+      "label": "interop-2022-color",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-color"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-color",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+    }
+  ],
+  "contain": [
+    {
+      "year": 2022,
+      "label": "interop-2022-contain",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-contain"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-contain",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
+    }
+  ],
+  "contain-layout": [
+    {
+      "year": 2022,
+      "label": "interop-2022-contain",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-contain"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-contain",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
+    }
+  ],
+  "contain-paint": [
+    {
+      "year": 2022,
+      "label": "interop-2022-contain",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-contain"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-contain",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
+    }
+  ],
+  "contain-size": [
+    {
+      "year": 2022,
+      "label": "interop-2022-contain",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-contain"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2023-contain",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
+    }
+  ],
+  "dialog": [
+    {
+      "year": 2022,
+      "label": "interop-2022-dialog",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-dialog"
+    }
+  ],
+  "overscroll-behavior": [
+    {
+      "year": 2022,
+      "label": "interop-2022-scrolling",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-scrolling"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2022-scrolling",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2022-scrolling"
+    }
+  ],
+  "scroll-snap": [
+    {
+      "year": 2022,
+      "label": "interop-2022-scrolling",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-scrolling"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2022-scrolling",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2022-scrolling"
+    }
+  ],
+  "scroll-behavior": [
+    {
+      "year": 2022,
+      "label": "interop-2022-scrolling",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-scrolling"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2022-scrolling",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2022-scrolling"
+    }
+  ],
+  "subgrid": [
+    {
+      "year": 2022,
+      "label": "interop-2022-subgrid",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-subgrid"
+    },
+    {
+      "year": 2023,
+      "label": "interop-2022-subgrid",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2022-subgrid"
+    },
+    {
+      "year": 2024,
+      "label": "interop-2024-layout",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-layout"
+    },
+    {
+      "year": 2025,
+      "label": "interop-2024-layout",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2024-layout"
+    }
+  ],
+  "font-variant": [
+    {
+      "year": 2022,
+      "label": "interop-2022-text",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+    }
+  ],
+  "font-variant-alternates": [
+    {
+      "year": 2022,
+      "label": "interop-2022-text",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+    }
+  ],
+  "font-variant-caps": [
+    {
+      "year": 2022,
+      "label": "interop-2022-text",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+    }
+  ],
+  "font-variant-east-asian": [
+    {
+      "year": 2022,
+      "label": "interop-2022-text",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+    }
+  ],
+  "font-variant-ligatures": [
+    {
+      "year": 2022,
+      "label": "interop-2022-text",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+    }
+  ],
+  "font-variant-numeric": [
+    {
+      "year": 2022,
+      "label": "interop-2022-text",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+    }
+  ],
+  "font-variant-position": [
+    {
+      "year": 2022,
+      "label": "interop-2022-text",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+    }
+  ],
+  "ic": [
+    {
+      "year": 2022,
+      "label": "interop-2022-text",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
+    }
+  ],
+  "viewport-units": [
+    {
+      "year": 2022,
+      "label": "interop-2022-viewport",
+      "url": "https://wpt.fyi/interop-2022?feature=interop-2022-viewport"
+    }
+  ],
+  "border-image": [
+    {
+      "year": 2023,
+      "label": "interop-2023-cssborderimage",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-cssborderimage"
+    }
+  ],
+  "gradient-interpolation": [
+    {
+      "year": 2023,
+      "label": "interop-2023-color",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-color"
+    }
+  ],
+  "container-queries": [
+    {
+      "year": 2023,
+      "label": "interop-2023-container",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-container"
+    }
+  ],
+  "content-visibility": [
+    {
+      "year": 2023,
+      "label": "interop-2023-contain",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
+    }
+  ],
+  "contain-intrinsic-size": [
+    {
+      "year": 2023,
+      "label": "interop-2023-contain",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
+    }
+  ],
+  "trig-functions": [
+    {
+      "year": 2023,
+      "label": "interop-2023-mathfunctions",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-mathfunctions"
+    }
+  ],
+  "exp-functions": [
+    {
+      "year": 2023,
+      "label": "interop-2023-mathfunctions",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-mathfunctions"
+    }
+  ],
+  "dir-pseudo": [
+    {
+      "year": 2023,
+      "label": "interop-2023-pseudos",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-pseudos"
+    }
+  ],
+  "nth-child-of": [
+    {
+      "year": 2023,
+      "label": "interop-2023-pseudos",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-pseudos"
+    }
+  ],
+  "user-pseudos": [
+    {
+      "year": 2023,
+      "label": "interop-2023-pseudos",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-pseudos"
+    }
+  ],
+  "registered-custom-properties": [
+    {
+      "year": 2023,
+      "label": "interop-2023-property",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-property"
+    },
+    {
+      "year": 2024,
+      "label": "interop-2023-property",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2023-property"
+    }
+  ],
+  "supports": [
+    {
+      "year": 2023,
+      "label": "interop-2023-fonts",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-fonts"
+    }
+  ],
+  "font-palette": [
+    {
+      "year": 2023,
+      "label": "interop-2023-fonts",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-fonts"
+    }
+  ],
+  "has": [
+    {
+      "year": 2023,
+      "label": "interop-2023-has",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-has"
+    }
+  ],
+  "inert": [
+    {
+      "year": 2023,
+      "label": "interop-2023-inert",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-inert"
+    }
+  ],
+  "clip-path": [
+    {
+      "year": 2023,
+      "label": "interop-2023-cssmasking",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-cssmasking"
+    }
+  ],
+  "media-queries": [
+    {
+      "year": 2023,
+      "label": "interop-2023-mediaqueries",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-mediaqueries"
+    }
+  ],
+  "media-query-range-syntax": [
+    {
+      "year": 2023,
+      "label": "interop-2023-mediaqueries",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-mediaqueries"
+    }
+  ],
+  "import-maps": [
+    {
+      "year": 2023,
+      "label": "interop-2023-modules",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-modules"
+    }
+  ],
+  "js-modules-workers": [
+    {
+      "year": 2023,
+      "label": "interop-2023-modules",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-modules"
+    }
+  ],
+  "motion-path": [
+    {
+      "year": 2023,
+      "label": "interop-2023-motion",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-motion"
+    }
+  ],
+  "offscreen-canvas": [
+    {
+      "year": 2023,
+      "label": "interop-2023-offscreencanvas",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-offscreencanvas"
+    }
+  ],
+  "mouse-events": [
+    {
+      "year": 2023,
+      "label": "interop-2023-events",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-events"
+    },
+    {
+      "year": 2024,
+      "label": "interop-2023-events",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2023-events"
+    },
+    {
+      "year": 2025,
+      "label": "interop-2023-events",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2023-events"
+    }
+  ],
+  "pointer-events-api": [
+    {
+      "year": 2023,
+      "label": "interop-2023-events",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-events"
+    },
+    {
+      "year": 2024,
+      "label": "interop-2023-events",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2023-events"
+    },
+    {
+      "year": 2025,
+      "label": "interop-2023-events",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2023-events"
+    }
+  ],
+  "url": [
+    {
+      "year": 2023,
+      "label": "interop-2023-url",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-url"
+    },
+    {
+      "year": 2024,
+      "label": "interop-2023-url",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2023-url"
+    }
+  ],
+  "webcodecs": [
+    {
+      "year": 2023,
+      "label": "interop-2023-webcodecs",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-webcodecs"
+    }
+  ],
+  "constructed-stylesheets": [
+    {
+      "year": 2023,
+      "label": "interop-2023-webcomponents",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-webcomponents"
+    }
+  ],
+  "form-associated-custom-elements": [
+    {
+      "year": 2023,
+      "label": "interop-2023-webcomponents",
+      "url": "https://wpt.fyi/interop-2023?feature=interop-2023-webcomponents"
+    }
+  ],
+  "nesting": [
+    {
+      "year": 2024,
+      "label": "interop-2024-nesting",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-nesting"
+    }
+  ],
+  "declarative-shadow-dom": [
+    {
+      "year": 2024,
+      "label": "interop-2024-dsd",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-dsd"
+    }
+  ],
+  "font-size-adjust": [
+    {
+      "year": 2024,
+      "label": "interop-2024-font-size-adjust",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-font-size-adjust"
+    }
+  ],
+  "indexeddb": [
+    {
+      "year": 2024,
+      "label": "interop-2024-indexeddb",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-indexeddb"
+    }
+  ],
+  "popover": [
+    {
+      "year": 2024,
+      "label": "interop-2024-popover",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-popover"
+    }
+  ],
+  "relative-color": [
+    {
+      "year": 2024,
+      "label": "interop-2024-relative-color",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-relative-color"
+    }
+  ],
+  "request-video-frame-callback": [
+    {
+      "year": 2024,
+      "label": "interop-2024-video-rvfc",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-video-rvfc"
+    }
+  ],
+  "scrollbar-gutter": [
+    {
+      "year": 2024,
+      "label": "interop-2024-scrollbar",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-scrollbar"
+    }
+  ],
+  "scrollbar-width": [
+    {
+      "year": 2024,
+      "label": "interop-2024-scrollbar",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-scrollbar"
+    }
+  ],
+  "starting-style": [
+    {
+      "year": 2024,
+      "label": "interop-2024-starting-style-transition-behavior",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-starting-style-transition-behavior"
+    }
+  ],
+  "transition-behavior": [
+    {
+      "year": 2024,
+      "label": "interop-2024-starting-style-transition-behavior",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-starting-style-transition-behavior"
+    }
+  ],
+  "text-wrap": [
+    {
+      "year": 2024,
+      "label": "interop-2024-text-wrap",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-text-wrap"
+    }
+  ],
+  "text-wrap-balance": [
+    {
+      "year": 2024,
+      "label": "interop-2024-text-wrap",
+      "url": "https://wpt.fyi/interop-2024?feature=interop-2024-text-wrap"
+    }
+  ],
+  "backdrop-filter": [
+    {
+      "year": 2025,
+      "label": "interop-2025-backdrop-filter",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-backdrop-filter"
+    }
+  ],
+  "largest-contentful-paint": [
+    {
+      "year": 2025,
+      "label": "interop-2025-core-web-vitals",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-core-web-vitals"
+    }
+  ],
+  "anchor-positioning": [
+    {
+      "year": 2025,
+      "label": "interop-2025-anchor-positioning",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-anchor-positioning"
+    }
+  ],
+  "details": [
+    {
+      "year": 2025,
+      "label": "interop-2025-details",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-details"
+    }
+  ],
+  "json-modules": [
+    {
+      "year": 2025,
+      "label": "interop-2025-modules",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-modules"
+    }
+  ],
+  "navigation": [
+    {
+      "year": 2025,
+      "label": "interop-2025-navigation",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-navigation"
+    }
+  ],
+  "mutation-events": [
+    {
+      "year": 2025,
+      "label": "interop-2025-remove-mutation-events",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-remove-mutation-events"
+    }
+  ],
+  "scope": [
+    {
+      "year": 2025,
+      "label": "interop-2025-scope",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-scope"
+    }
+  ],
+  "scrollend": [
+    {
+      "year": 2025,
+      "label": "interop-2025-scrollend",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-scrollend"
+    }
+  ],
+  "storage-access": [
+    {
+      "year": 2025,
+      "label": "interop-2025-storageaccess",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-storageaccess"
+    }
+  ],
+  "text-decoration": [
+    {
+      "year": 2025,
+      "label": "interop-2025-textdecoration",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-textdecoration"
+    }
+  ],
+  "urlpattern": [
+    {
+      "year": 2025,
+      "label": "interop-2025-urlpattern",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-urlpattern"
+    }
+  ],
+  "view-transitions": [
+    {
+      "year": 2025,
+      "label": "interop-2025-view-transitions",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-view-transitions"
+    }
+  ],
+  "view-transition-class": [
+    {
+      "year": 2025,
+      "label": "interop-2025-view-transitions",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-view-transitions"
+    }
+  ],
+  "wasm-string-builtins": [
+    {
+      "year": 2025,
+      "label": "interop-2025-webassembly",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webassembly"
+    }
+  ],
+  "appearance": [
+    {
+      "year": 2025,
+      "label": "interop-2025-webcompat",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webcompat"
+    }
+  ],
+  "zoom": [
+    {
+      "year": 2025,
+      "label": "interop-2025-webcompat",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webcompat"
+    }
+  ],
+  "list-style": [
+    {
+      "year": 2025,
+      "label": "interop-2025-webcompat",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webcompat"
+    }
+  ],
+  "webrtc-encoded-transform": [
+    {
+      "year": 2025,
+      "label": "interop-2025-webrtc",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webrtc"
+    }
+  ],
+  "writing-mode": [
+    {
+      "year": 2025,
+      "label": "interop-2025-writingmodes",
+      "url": "https://wpt.fyi/interop-2025?feature=interop-2025-writingmodes"
+    }
+  ]
+}

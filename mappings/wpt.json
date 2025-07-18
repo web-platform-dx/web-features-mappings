@@ -1,0 +1,2376 @@
+{
+  "request-animation-frame-workers": {
+    "url": "https://wpt.fyi/results?q=feature:request-animation-frame-workers",
+    "tests": [
+      "workers/WorkerGlobalScope_requestAnimationFrame.worker.js"
+    ]
+  },
+  "ua-client-hints": {
+    "url": "https://wpt.fyi/results?q=feature:ua-client-hints",
+    "tests": [
+      "workers/WorkerNavigator_userAgentData.http.html",
+      "workers/WorkerNavigator_userAgentData.https.html",
+      "workers/WorkerNavigator_userAgentData.https.tentative.html",
+      "ua-client-hints/*",
+      "client-hints/permissions-policy/*",
+      "html/webappapis/system-state-and-capabilities/the-navigator-object/navigator_user_agent.tentative.html",
+      "html/webappapis/system-state-and-capabilities/the-navigator-object/navigator_user_agent.https.tentative.html"
+    ]
+  },
+  "webusb": {
+    "url": "https://wpt.fyi/results?q=feature:webusb",
+    "tests": [
+      "webusb/*"
+    ]
+  },
+  "webtransport": {
+    "url": "https://wpt.fyi/results?q=feature:webtransport",
+    "tests": [
+      "webtransport/*"
+    ]
+  },
+  "webrtc-encoded-transform": {
+    "url": "https://wpt.fyi/results?q=feature:webrtc-encoded-transform",
+    "tests": [
+      "webrtc-encoded-transform/*"
+    ]
+  },
+  "web-midi": {
+    "url": "https://wpt.fyi/results?q=feature:web-midi",
+    "tests": [
+      "webmidi/*"
+    ]
+  },
+  "webrtc-sctp": {
+    "url": "https://wpt.fyi/results?q=feature:webrtc-sctp",
+    "tests": [
+      "webrtc/RTCSctpTransport-*"
+    ]
+  },
+  "messageerror": {
+    "url": "https://wpt.fyi/results?q=feature:messageerror",
+    "tests": [
+      "webmessaging/messageerror.html",
+      "webmessaging/postMessage_CryptoKey_insecure.sub.html"
+    ]
+  },
+  "webhid": {
+    "url": "https://wpt.fyi/results?q=feature:webhid",
+    "tests": [
+      "webhid/*"
+    ]
+  },
+  "webcodecs": {
+    "url": "https://wpt.fyi/results?q=feature:webcodecs",
+    "tests": [
+      "webcodecs/*"
+    ]
+  },
+  "webauthn-public-key-easy": {
+    "url": "https://wpt.fyi/results?q=feature:webauthn-public-key-easy",
+    "tests": [
+      "webauthn/createcredential-getpublickey.https.html"
+    ]
+  },
+  "web-locks": {
+    "url": "https://wpt.fyi/results?q=feature:web-locks",
+    "tests": [
+      "web-locks/*"
+    ]
+  },
+  "web-animations": {
+    "url": "https://wpt.fyi/results?q=feature:web-animations",
+    "tests": [
+      "web-animations/*"
+    ]
+  },
+  "visual-viewport": {
+    "url": "https://wpt.fyi/results?q=feature:visual-viewport",
+    "tests": [
+      "visual-viewport/*"
+    ]
+  },
+  "viewport-segments": {
+    "url": "https://wpt.fyi/results?q=feature:viewport-segments",
+    "tests": [
+      "viewport-segments/*"
+    ]
+  },
+  "viewport": {
+    "url": "https://wpt.fyi/results?q=feature:viewport",
+    "tests": [
+      "viewport/*"
+    ]
+  },
+  "request-video-frame-callback": {
+    "url": "https://wpt.fyi/results?q=feature:request-video-frame-callback",
+    "tests": [
+      "video-rvfc/*"
+    ]
+  },
+  "urlpattern": {
+    "url": "https://wpt.fyi/results?q=feature:urlpattern",
+    "tests": [
+      "urlpattern/*"
+    ]
+  },
+  "url-canparse": {
+    "url": "https://wpt.fyi/results?q=feature:url-canparse",
+    "tests": [
+      "url/url-statics-canparse.*"
+    ]
+  },
+  "trusted-types": {
+    "url": "https://wpt.fyi/results?q=feature:trusted-types",
+    "tests": [
+      "trusted-types/*"
+    ]
+  },
+  "streams": {
+    "url": "https://wpt.fyi/results?q=feature:streams",
+    "tests": [
+      "streams/*",
+      "streams/writable-streams/*",
+      "streams/transform-streams/*",
+      "streams/transform-streams/!cancel.any.js",
+      "streams/readable-streams/*",
+      "streams/readable-streams/!async-iterator.any.js",
+      "streams/readable-streams/!from.any.js",
+      "streams/readable-streams/!owning-type*",
+      "streams/piping/*",
+      "streams/readable-streams/crashtests/strategy-worker.js"
+    ]
+  },
+  "speech-recognition": {
+    "url": "https://wpt.fyi/results?q=feature:speech-recognition",
+    "tests": [
+      "speech-api/SpeechRecognition*"
+    ]
+  },
+  "speech-synthesis": {
+    "url": "https://wpt.fyi/results?q=feature:speech-synthesis",
+    "tests": [
+      "speech-api/SpeechSynthesis*"
+    ]
+  },
+  "speculation-rules": {
+    "url": "https://wpt.fyi/results?q=feature:speculation-rules",
+    "tests": [
+      "speculation-rules/*"
+    ]
+  },
+  "storage-access": {
+    "url": "https://wpt.fyi/results?q=feature:storage-access",
+    "tests": [
+      "storage-access-api/*"
+    ]
+  },
+  "shadow-dom": {
+    "url": "https://wpt.fyi/results?q=feature:shadow-dom",
+    "tests": [
+      "shadow-dom/*"
+    ]
+  },
+  "slot-assign": {
+    "url": "https://wpt.fyi/results?q=feature:slot-assign",
+    "tests": [
+      "shadow-dom/imperative-slot-*"
+    ]
+  },
+  "document-caretpositionfrompoint": {
+    "url": "https://wpt.fyi/results?q=feature:document-caretpositionfrompoint",
+    "tests": [
+      "shadow-dom/Document-caretPositionFromPoint.tentative.html",
+      "css/cssom/caretPositionFromPoint-with-transformation.html",
+      "css/cssom/caretPositionFromPoint.html"
+    ]
+  },
+  "server-timing": {
+    "url": "https://wpt.fyi/results?q=feature:server-timing",
+    "tests": [
+      "server-timing/*"
+    ]
+  },
+  "scroll-driven-animations": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-driven-animations",
+    "tests": [
+      "scroll-animations/*"
+    ]
+  },
+  "scroll-to-text-fragment": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-to-text-fragment",
+    "tests": [
+      "scroll-to-text-fragment/*",
+      "html/rendering/the-details-element/auto-expand-details-text-fragment.html",
+      "html/editing/the-hidden-attribute/beforematch-scroll-to-text-fragment.html",
+      "html/editing/the-hidden-attribute/hidden-until-found-text-fragment.html",
+      "css/css-contain/content-visibility/content-visibility-048.html",
+      "css/css-contain/content-visibility/content-visibility-auto-text-fragment.html"
+    ]
+  },
+  "screen-wake-lock": {
+    "url": "https://wpt.fyi/results?q=feature:screen-wake-lock",
+    "tests": [
+      "screen-wake-lock/*"
+    ]
+  },
+  "scheduler": {
+    "url": "https://wpt.fyi/results?q=feature:scheduler",
+    "tests": [
+      "scheduler/*"
+    ]
+  },
+  "requestidlecallback": {
+    "url": "https://wpt.fyi/results?q=feature:requestidlecallback",
+    "tests": [
+      "requestidlecallback/*"
+    ]
+  },
+  "remote-playback": {
+    "url": "https://wpt.fyi/results?q=feature:remote-playback",
+    "tests": [
+      "remote-playback/*"
+    ]
+  },
+  "modulepreload": {
+    "url": "https://wpt.fyi/results?q=feature:modulepreload",
+    "tests": [
+      "preload/*modulepreload*"
+    ]
+  },
+  "preloading-responsive-images": {
+    "url": "https://wpt.fyi/results?q=feature:preloading-responsive-images",
+    "tests": [
+      "preload/dynamic-adding-preload-imagesrcset.html",
+      "preload/link-header-preload-imagesrcset.html"
+    ]
+  },
+  "pointer-lock": {
+    "url": "https://wpt.fyi/results?q=feature:pointer-lock",
+    "tests": [
+      "pointerlock/*"
+    ]
+  },
+  "picture-in-picture": {
+    "url": "https://wpt.fyi/results?q=feature:picture-in-picture",
+    "tests": [
+      "picture-in-picture/*"
+    ]
+  },
+  "page-visibility-state": {
+    "url": "https://wpt.fyi/results?q=feature:page-visibility-state",
+    "tests": [
+      "page-visibility/visibility-state-entry.tentative.html"
+    ]
+  },
+  "device-orientation-events": {
+    "url": "https://wpt.fyi/results?q=feature:device-orientation-events",
+    "tests": [
+      "orientation-event/*"
+    ]
+  },
+  "navigation": {
+    "url": "https://wpt.fyi/results?q=feature:navigation",
+    "tests": [
+      "navigation-api/*"
+    ]
+  },
+  "media-playback-quality": {
+    "url": "https://wpt.fyi/results?q=feature:media-playback-quality",
+    "tests": [
+      "media-playback-quality/*"
+    ]
+  },
+  "mathml": {
+    "url": "https://wpt.fyi/results?q=feature:mathml",
+    "tests": [
+      "mathml/*"
+    ]
+  },
+  "layout-instability": {
+    "url": "https://wpt.fyi/results?q=feature:layout-instability",
+    "tests": [
+      "layout-instability/*"
+    ]
+  },
+  "largest-contentful-paint": {
+    "url": "https://wpt.fyi/results?q=feature:largest-contentful-paint",
+    "tests": [
+      "largest-contentful-paint/*"
+    ]
+  },
+  "long-animation-frames": {
+    "url": "https://wpt.fyi/results?q=feature:long-animation-frames",
+    "tests": [
+      "long-animation-frame/*"
+    ]
+  },
+  "profiler": {
+    "url": "https://wpt.fyi/results?q=feature:profiler",
+    "tests": [
+      "js-self-profiling/*"
+    ]
+  },
+  "jpegxl": {
+    "url": "https://wpt.fyi/results?q=feature:jpegxl",
+    "tests": [
+      "jpegxl/*"
+    ]
+  },
+  "intersection-observer": {
+    "url": "https://wpt.fyi/results?q=feature:intersection-observer",
+    "tests": [
+      "intersection-observer/*"
+    ]
+  },
+  "inert": {
+    "url": "https://wpt.fyi/results?q=feature:inert",
+    "tests": [
+      "inert/*"
+    ]
+  },
+  "import-maps": {
+    "url": "https://wpt.fyi/results?q=feature:import-maps",
+    "tests": [
+      "import-maps/*"
+    ]
+  },
+  "idle-detection": {
+    "url": "https://wpt.fyi/results?q=feature:idle-detection",
+    "tests": [
+      "idle-detection/*"
+    ]
+  },
+  "html-media-capture": {
+    "url": "https://wpt.fyi/results?q=feature:html-media-capture",
+    "tests": [
+      "html-media-capture/*"
+    ]
+  },
+  "forced-colors": {
+    "url": "https://wpt.fyi/results?q=feature:forced-colors",
+    "tests": [
+      "forced-colors-mode/*",
+      "forced-colors-mode/backplate/*",
+      "css/mediaqueries/forced-colors.html",
+      "css/css-forced-color-adjust/*",
+      "css/css-forced-color-adjust/parsing/*"
+    ]
+  },
+  "file-system-access": {
+    "url": "https://wpt.fyi/results?q=feature:file-system-access",
+    "tests": [
+      "file-system-access/*"
+    ]
+  },
+  "origin-private-file-system": {
+    "url": "https://wpt.fyi/results?q=feature:origin-private-file-system",
+    "tests": [
+      "file-system-access/getDirectory.https.any.js",
+      "file-system-access/opaque-origin.https.window.js"
+    ]
+  },
+  "event-timing": {
+    "url": "https://wpt.fyi/results?q=feature:event-timing",
+    "tests": [
+      "event-timing/*"
+    ]
+  },
+  "fullscreen": {
+    "url": "https://wpt.fyi/results?q=feature:fullscreen",
+    "tests": [
+      "fullscreen/*"
+    ]
+  },
+  "document-picture-in-picture": {
+    "url": "https://wpt.fyi/results?q=feature:document-picture-in-picture",
+    "tests": [
+      "document-picture-in-picture/*"
+    ]
+  },
+  "device-posture": {
+    "url": "https://wpt.fyi/results?q=feature:device-posture",
+    "tests": [
+      "device-posture/*"
+    ]
+  },
+  "autonomous-custom-elements": {
+    "url": "https://wpt.fyi/results?q=feature:autonomous-custom-elements",
+    "tests": [
+      "custom-elements/*",
+      "custom-elements/!builtin-coverage.html",
+      "custom-elements/!customized-built-in-constructor-exceptions.html",
+      "custom-elements/!Document-createElement-customized-builtins.html",
+      "custom-elements/!Document-createElementNS-customized-builtins.html",
+      "custom-elements/!HTMLElement-constructor-customized-builtins.html",
+      "custom-elements/!pseudo-class-defined-customized-builtins.html",
+      "custom-elements/upgrading/Document-importNode.html",
+      "custom-elements/upgrading/Node-cloneNode.html",
+      "custom-elements/upgrading/upgrading-enqueue-reactions.html",
+      "custom-elements/upgrading/upgrading-parser-created-element.html",
+      "custom-elements/registries/define.html",
+      "custom-elements/registries/per-global.html",
+      "custom-elements/registries/upgrade.html",
+      "custom-elements/parser/parser-constructs-custom-element-in-document-write.html",
+      "custom-elements/parser/parser-constructs-custom-element-synchronously.html",
+      "custom-elements/parser/parser-constructs-custom-elements-with-is.html",
+      "custom-elements/parser/parser-constructs-custom-elements.html",
+      "custom-elements/parser/parser-custom-element-in-foreign-content.html",
+      "custom-elements/parser/parser-fallsback-to-unknown-element.html",
+      "custom-elements/parser/parser-sets-attributes-and-children.html",
+      "custom-elements/parser/parser-uses-constructed-element.html",
+      "custom-elements/parser/parser-uses-registry-of-owner-document.html",
+      "custom-elements/reactions/*",
+      "custom-elements/htmlconstructor/newtarget.html"
+    ]
+  },
+  "customized-built-in-elements": {
+    "url": "https://wpt.fyi/results?q=feature:customized-built-in-elements",
+    "tests": [
+      "custom-elements/builtin-coverage.html",
+      "custom-elements/customized-built-in-constructor-exceptions.html",
+      "custom-elements/Document-createElement-customized-builtins.html",
+      "custom-elements/Document-createElementNS-customized-builtins.html",
+      "custom-elements/HTMLElement-constructor-customized-builtins.html",
+      "custom-elements/pseudo-class-defined-customized-builtins.html",
+      "custom-elements/upgrading/Document-importNode-customized-builtins.html",
+      "custom-elements/upgrading/Node-cloneNode-customized-builtins.html",
+      "custom-elements/registries/define-customized-builtins.html",
+      "custom-elements/parser/serializing-html-fragments-customized-builtins.html",
+      "custom-elements/htmlconstructor/newtarget-customized-builtins.html",
+      "custom-elements/reactions/customized-builtins/*"
+    ]
+  },
+  "compute-pressure": {
+    "url": "https://wpt.fyi/results?q=feature:compute-pressure",
+    "tests": [
+      "compute-pressure/*"
+    ]
+  },
+  "compression-streams": {
+    "url": "https://wpt.fyi/results?q=feature:compression-streams",
+    "tests": [
+      "compression/*"
+    ]
+  },
+  "closewatcher": {
+    "url": "https://wpt.fyi/results?q=feature:closewatcher",
+    "tests": [
+      "close-watcher/*",
+      "html/semantics/popovers/popover-close-request.html",
+      "html/semantics/interactive-elements/the-dialog-element/dialog-cancel-events.html",
+      "html/semantics/interactive-elements/the-dialog-element/dialog-canceling.html"
+    ]
+  },
+  "async-clipboard": {
+    "url": "https://wpt.fyi/results?q=feature:async-clipboard",
+    "tests": [
+      "clipboard-apis/async-*",
+      "clipboard-apis/clipboard-item.https.html",
+      "clipboard-apis/text-write-read/*",
+      "clipboard-apis/permissions/*",
+      "clipboard-apis/detached-iframe/*"
+    ]
+  },
+  "clear-site-data": {
+    "url": "https://wpt.fyi/results?q=feature:clear-site-data",
+    "tests": [
+      "clear-site-data/*"
+    ]
+  },
+  "web-bluetooth": {
+    "url": "https://wpt.fyi/results?q=feature:web-bluetooth",
+    "tests": [
+      "bluetooth/*"
+    ]
+  },
+  "badging": {
+    "url": "https://wpt.fyi/results?q=feature:badging",
+    "tests": [
+      "badging/*"
+    ]
+  },
+  "contenteditable-plaintextonly": {
+    "url": "https://wpt.fyi/results?q=feature:contenteditable-plaintextonly",
+    "tests": [
+      "contenteditable/plaintext-only.html"
+    ]
+  },
+  "background-fetch": {
+    "url": "https://wpt.fyi/results?q=feature:background-fetch",
+    "tests": [
+      "background-fetch/*"
+    ]
+  },
+  "avif": {
+    "url": "https://wpt.fyi/results?q=feature:avif",
+    "tests": [
+      "avif/*"
+    ]
+  },
+  "js-modules-workers": {
+    "url": "https://wpt.fyi/results?q=feature:js-modules-workers",
+    "tests": [
+      "workers/modules/dedicated-worker-*"
+    ]
+  },
+  "js-modules-shared-workers": {
+    "url": "https://wpt.fyi/results?q=feature:js-modules-shared-workers",
+    "tests": [
+      "workers/modules/shared-worker-*"
+    ]
+  },
+  "broadcast-channel": {
+    "url": "https://wpt.fyi/results?q=feature:broadcast-channel",
+    "tests": [
+      "webmessaging/broadcastchannel/*"
+    ]
+  },
+  "fetch-priority": {
+    "url": "https://wpt.fyi/results?q=feature:fetch-priority",
+    "tests": [
+      "svg/scripted/attr-script-fetchpriority.html",
+      "svg/embedded/attr-image-fetchpriority.html",
+      "html/semantics/the-link-element/attr-link-fetchpriority.html",
+      "html/scripting/the-script-element/attr-script-fetchpriority.html",
+      "html/embedded-content/the-img-element/attr-img-fetchpriority.html",
+      "fetch/api/request/request-init-priority.any.js"
+    ]
+  },
+  "transformstream-transformer-cancel": {
+    "url": "https://wpt.fyi/results?q=feature:transformstream-transformer-cancel",
+    "tests": [
+      "streams/transform-streams/cancel.any.js"
+    ]
+  },
+  "transferable-streams": {
+    "url": "https://wpt.fyi/results?q=feature:transferable-streams",
+    "tests": [
+      "streams/transferable/*"
+    ]
+  },
+  "async-iterable-streams": {
+    "url": "https://wpt.fyi/results?q=feature:async-iterable-streams",
+    "tests": [
+      "streams/readable-streams/async-iterator.any.js"
+    ]
+  },
+  "readablestream-from": {
+    "url": "https://wpt.fyi/results?q=feature:readablestream-from",
+    "tests": [
+      "streams/readable-streams/from.any.js",
+      "streams/readable-streams/crashtests/from-cross-realm.https.html"
+    ]
+  },
+  "readable-byte-streams": {
+    "url": "https://wpt.fyi/results?q=feature:readable-byte-streams",
+    "tests": [
+      "streams/readable-byte-streams/*"
+    ]
+  },
+  "storage-buckets": {
+    "url": "https://wpt.fyi/results?q=feature:storage-buckets",
+    "tests": [
+      "storage/buckets/*"
+    ]
+  },
+  "js-modules-service-workers": {
+    "url": "https://wpt.fyi/results?q=feature:js-modules-service-workers",
+    "tests": [
+      "service-workers/service-worker/registration-script-module.https.html",
+      "service-workers/service-worker/update-registration-with-type.https.html"
+    ]
+  },
+  "declarative-shadow-dom": {
+    "url": "https://wpt.fyi/results?q=feature:declarative-shadow-dom",
+    "tests": [
+      "shadow-dom/declarative/*"
+    ]
+  },
+  "gethtml": {
+    "url": "https://wpt.fyi/results?q=feature:gethtml",
+    "tests": [
+      "shadow-dom/declarative/gethtml*"
+    ]
+  },
+  "intersection-observer-v2": {
+    "url": "https://wpt.fyi/results?q=feature:intersection-observer-v2",
+    "tests": [
+      "intersection-observer/v2/*"
+    ]
+  },
+  "user-activation": {
+    "url": "https://wpt.fyi/results?q=feature:user-activation",
+    "tests": [
+      "html/user-activation/*"
+    ]
+  },
+  "aria-attribute-reflection": {
+    "url": "https://wpt.fyi/results?q=feature:aria-attribute-reflection",
+    "tests": [
+      "html/dom/aria-attribute-reflection.html"
+    ]
+  },
+  "fetch-metadata": {
+    "url": "https://wpt.fyi/results?q=feature:fetch-metadata",
+    "tests": [
+      "fetch/metadata/*"
+    ]
+  },
+  "edit-context": {
+    "url": "https://wpt.fyi/results?q=feature:edit-context",
+    "tests": [
+      "editing/edit-context/*"
+    ]
+  },
+  "observable": {
+    "url": "https://wpt.fyi/results?q=feature:observable",
+    "tests": [
+      "dom/observable/*"
+    ]
+  },
+  "aborting": {
+    "url": "https://wpt.fyi/results?q=feature:aborting",
+    "tests": [
+      "dom/abort/*"
+    ]
+  },
+  "abortsignal-any": {
+    "url": "https://wpt.fyi/results?q=feature:abortsignal-any",
+    "tests": [
+      "dom/abort/abort-signal-any.any.js"
+    ]
+  },
+  "state": {
+    "url": "https://wpt.fyi/results?q=feature:state",
+    "tests": [
+      "custom-elements/state/*",
+      "css/selectors/parsing/parse-state.html",
+      "css/selectors/invalidation/state-in-has.html"
+    ]
+  },
+  "form-associated-custom-elements": {
+    "url": "https://wpt.fyi/results?q=feature:form-associated-custom-elements",
+    "tests": [
+      "custom-elements/form-associated/*"
+    ]
+  },
+  "dir-pseudo": {
+    "url": "https://wpt.fyi/results?q=feature:dir-pseudo",
+    "tests": [
+      "css/selectors/dir-pseudo-*",
+      "css/selectors/dir-selector-*",
+      "css/selectors/dir-style-*",
+      "html/semantics/selectors/pseudo-classes/dir-*",
+      "html/semantics/selectors/pseudo-classes/dir.html",
+      "html/semantics/selectors/pseudo-classes/dir01.html"
+    ]
+  },
+  "focus-visible": {
+    "url": "https://wpt.fyi/results?q=feature:focus-visible",
+    "tests": [
+      "css/selectors/focus-visible-*",
+      "css/selectors/parsing/parse-focus-visible.html"
+    ]
+  },
+  "has": {
+    "url": "https://wpt.fyi/results?q=feature:has",
+    "tests": [
+      "css/selectors/has-*",
+      "css/selectors/parsing/parse-has.html",
+      "css/selectors/parsing/parse-has-*",
+      "css/selectors/invalidation/has-*",
+      "css/selectors/invalidation/*-in-has.*",
+      "css/selectors/invalidation/*-in-has-*"
+    ]
+  },
+  "read-write-pseudos": {
+    "url": "https://wpt.fyi/results?q=feature:read-write-pseudos",
+    "tests": [
+      "css/selectors/selector-read-write-*",
+      "html/semantics/selectors/pseudo-classes/readwrite-readonly-type-change.html",
+      "html/semantics/selectors/pseudo-classes/readwrite-readonly.html"
+    ]
+  },
+  "modal": {
+    "url": "https://wpt.fyi/results?q=feature:modal",
+    "tests": [
+      "css/selectors/modal-pseudo-class.html",
+      "css/selectors/invalidation/modal-pseudo-class-in-has.html"
+    ]
+  },
+  "nth-child-of": {
+    "url": "https://wpt.fyi/results?q=feature:nth-child-of",
+    "tests": [
+      "css/selectors/nth-child-of-*",
+      "css/selectors/invalidation/nth-child-of-*"
+    ]
+  },
+  "user-pseudos": {
+    "url": "https://wpt.fyi/results?q=feature:user-pseudos",
+    "tests": [
+      "css/selectors/user-invalid.html",
+      "css/selectors/user-valid.html",
+      "css/selectors/invalidation/user-valid-user-invalid.html"
+    ]
+  },
+  "motion-path": {
+    "url": "https://wpt.fyi/results?q=feature:motion-path",
+    "tests": [
+      "css/motion/*"
+    ]
+  },
+  "prefers-color-scheme": {
+    "url": "https://wpt.fyi/results?q=feature:prefers-color-scheme",
+    "tests": [
+      "css/mediaqueries/prefers-color-scheme.html",
+      "css/mediaqueries/prefers-color-scheme-*"
+    ]
+  },
+  "prefers-contrast": {
+    "url": "https://wpt.fyi/results?q=feature:prefers-contrast",
+    "tests": [
+      "css/mediaqueries/prefers-contrast.html"
+    ]
+  },
+  "prefers-reduced-transparency": {
+    "url": "https://wpt.fyi/results?q=feature:prefers-reduced-transparency",
+    "tests": [
+      "css/mediaqueries/prefers-reduced-transparency.html"
+    ]
+  },
+  "overflow": {
+    "url": "https://wpt.fyi/results?q=feature:overflow",
+    "tests": [
+      "css/mediaqueries/overflow-media-features.html"
+    ]
+  },
+  "dynamic-range": {
+    "url": "https://wpt.fyi/results?q=feature:dynamic-range",
+    "tests": [
+      "css/mediaqueries/dynamic-range.html"
+    ]
+  },
+  "display-mode": {
+    "url": "https://wpt.fyi/results?q=feature:display-mode",
+    "tests": [
+      "css/mediaqueries/display-mode.html",
+      "css/mediaqueries/display-mode.tentative.html"
+    ]
+  },
+  "update": {
+    "url": "https://wpt.fyi/results?q=feature:update",
+    "tests": [
+      "css/mediaqueries/update-media-feature.html"
+    ]
+  },
+  "scripting": {
+    "url": "https://wpt.fyi/results?q=feature:scripting",
+    "tests": [
+      "css/mediaqueries/scripting.html",
+      "css/mediaqueries/scripting-*"
+    ]
+  },
+  "check-visibility": {
+    "url": "https://wpt.fyi/results?q=feature:check-visibility",
+    "tests": [
+      "css/cssom-view/checkVisibility.html"
+    ]
+  },
+  "scroll-into-view": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-into-view",
+    "tests": [
+      "css/cssom-view/scrollIntoView-*",
+      "css/cssom-view/scrollintoview.html"
+    ]
+  },
+  "constructed-stylesheets": {
+    "url": "https://wpt.fyi/results?q=feature:constructed-stylesheets",
+    "tests": [
+      "css/cssom/adoptedstylesheets-observablearray.html",
+      "css/cssom/CSSStyleSheet-constructable-*",
+      "css/cssom/CSSStyleSheet-constructable.html",
+      "css/cssom/CSSStyleSheet-template-adoption.html"
+    ]
+  },
+  "backdrop-filter": {
+    "url": "https://wpt.fyi/results?q=feature:backdrop-filter",
+    "tests": [
+      "css/filter-effects/backdrop-filter-*",
+      "css/filter-effects/backdrop-filters-*",
+      "css/filter-effects/css-backdrop-filters-*",
+      "css/filter-effects/repaint-added-backdrop-filter.html",
+      "css/filter-effects/parsing/backdrop-filter-*",
+      "css/filter-effects/animation/backdrop-filter-*"
+    ]
+  },
+  "custom-properties": {
+    "url": "https://wpt.fyi/results?q=feature:custom-properties",
+    "tests": [
+      "css/css-variables/*"
+    ]
+  },
+  "abs-sign": {
+    "url": "https://wpt.fyi/results?q=feature:abs-sign",
+    "tests": [
+      "css/css-values/signs-abs-*",
+      "css/css-transforms/transform-with-sign-function.html"
+    ]
+  },
+  "cap": {
+    "url": "https://wpt.fyi/results?q=feature:cap",
+    "tests": [
+      "css/css-values/cap-*"
+    ]
+  },
+  "rcap": {
+    "url": "https://wpt.fyi/results?q=feature:rcap",
+    "tests": [
+      "css/css-values/rcap-*"
+    ]
+  },
+  "exp-functions": {
+    "url": "https://wpt.fyi/results?q=feature:exp-functions",
+    "tests": [
+      "css/css-values/exp-log-*",
+      "css/css-values/hypot-pow-sqrt-*"
+    ]
+  },
+  "ic": {
+    "url": "https://wpt.fyi/results?q=feature:ic",
+    "tests": [
+      "css/css-values/ic-*"
+    ]
+  },
+  "ric": {
+    "url": "https://wpt.fyi/results?q=feature:ric",
+    "tests": [
+      "css/css-values/ric-*"
+    ]
+  },
+  "if": {
+    "url": "https://wpt.fyi/results?q=feature:if",
+    "tests": [
+      "css/css-values/if-*"
+    ]
+  },
+  "lh": {
+    "url": "https://wpt.fyi/results?q=feature:lh",
+    "tests": [
+      "css/css-values/lh-*"
+    ]
+  },
+  "rlh": {
+    "url": "https://wpt.fyi/results?q=feature:rlh",
+    "tests": [
+      "css/css-values/rlh-*"
+    ]
+  },
+  "ch": {
+    "url": "https://wpt.fyi/results?q=feature:ch",
+    "tests": [
+      "css/css-values/ch-*"
+    ]
+  },
+  "rch": {
+    "url": "https://wpt.fyi/results?q=feature:rch",
+    "tests": [
+      "css/css-values/rch-*"
+    ]
+  },
+  "rex": {
+    "url": "https://wpt.fyi/results?q=feature:rex",
+    "tests": [
+      "css/css-values/rex-*"
+    ]
+  },
+  "round-mod-rem": {
+    "url": "https://wpt.fyi/results?q=feature:round-mod-rem",
+    "tests": [
+      "css/css-values/round-function.html",
+      "css/css-values/round-mod-rem-*"
+    ]
+  },
+  "trig-functions": {
+    "url": "https://wpt.fyi/results?q=feature:trig-functions",
+    "tests": [
+      "css/css-values/acos-asin-atan-atan2-*",
+      "css/css-values/sin-cos-tan-*"
+    ]
+  },
+  "calc-constants": {
+    "url": "https://wpt.fyi/results?q=feature:calc-constants",
+    "tests": [
+      "css/css-values/calc-infinity-*"
+    ]
+  },
+  "viewport-unit-variants": {
+    "url": "https://wpt.fyi/results?q=feature:viewport-unit-variants",
+    "tests": [
+      "css/css-values/viewport-units-compute.html",
+      "css/css-values/viewport-units-invalidation.html",
+      "css/css-values/viewport-units-keyframes.html",
+      "css/css-values/viewport-units-media-queries.html",
+      "css/css-values/viewport-units-parsing.html",
+      "css/css-values/viewport-units-writing-mode-font-size.html",
+      "css/css-values/viewport-units-writing-mode.html"
+    ]
+  },
+  "view-transitions": {
+    "url": "https://wpt.fyi/results?q=feature:view-transitions",
+    "tests": [
+      "css/css-view-transitions/*"
+    ]
+  },
+  "view-transition-class": {
+    "url": "https://wpt.fyi/results?q=feature:view-transition-class",
+    "tests": [
+      "css/css-view-transitions/class-specificity.html",
+      "css/css-view-transitions/pseudo-with-classes-*",
+      "css/css-view-transitions/parsing/view-transition-class-*"
+    ]
+  },
+  "active-view-transition": {
+    "url": "https://wpt.fyi/results?q=feature:active-view-transition",
+    "tests": [
+      "css/css-view-transitions/active-view-transition-*"
+    ]
+  },
+  "css-typed-om": {
+    "url": "https://wpt.fyi/results?q=feature:css-typed-om",
+    "tests": [
+      "css/css-typed-om/*"
+    ]
+  },
+  "numeric-factory-functions": {
+    "url": "https://wpt.fyi/results?q=feature:numeric-factory-functions",
+    "tests": [
+      "css/css-typed-om/factory-*"
+    ]
+  },
+  "starting-style": {
+    "url": "https://wpt.fyi/results?q=feature:starting-style",
+    "tests": [
+      "css/css-transitions/starting-style-*",
+      "css/css-transitions/parsing/starting-style-*"
+    ]
+  },
+  "transition-behavior": {
+    "url": "https://wpt.fyi/results?q=feature:transition-behavior",
+    "tests": [
+      "css/css-transitions/transition-behavior.html",
+      "css/css-transitions/parsing/transition-behavior.html"
+    ]
+  },
+  "accent-color": {
+    "url": "https://wpt.fyi/results?q=feature:accent-color",
+    "tests": [
+      "css/css-ui/accent-color-*",
+      "css/css-ui/animation/accent-color-*"
+    ]
+  },
+  "appearance": {
+    "url": "https://wpt.fyi/results?q=feature:appearance",
+    "tests": [
+      "css/css-ui/appearance-*"
+    ]
+  },
+  "outline": {
+    "url": "https://wpt.fyi/results?q=feature:outline",
+    "tests": [
+      "css/css-ui/outline-*"
+    ]
+  },
+  "user-select": {
+    "url": "https://wpt.fyi/results?q=feature:user-select",
+    "tests": [
+      "css/css-ui/user-select-*",
+      "css/css-ui/parsing/user-select-*"
+    ]
+  },
+  "text-emphasis": {
+    "url": "https://wpt.fyi/results?q=feature:text-emphasis",
+    "tests": [
+      "css/css-text-decor/text-emphasis-*",
+      "css/css-text-decor/parsing/*"
+    ]
+  },
+  "text-underline-offset": {
+    "url": "https://wpt.fyi/results?q=feature:text-underline-offset",
+    "tests": [
+      "css/css-text-decor/text-underline-offset-*",
+      "css/css-text-decor/animations/text-underline-offset-*"
+    ]
+  },
+  "nesting": {
+    "url": "https://wpt.fyi/results?q=feature:nesting",
+    "tests": [
+      "css/css-syntax/custom-property-rule-ambiguity.html",
+      "css/css-syntax/trailing-braces.html",
+      "css/css-syntax/var-with-blocks.html",
+      "css/css-nesting/*"
+    ]
+  },
+  "individual-transforms": {
+    "url": "https://wpt.fyi/results?q=feature:individual-transforms",
+    "tests": [
+      "css/css-transforms/transform-and-individual-transform-properties-computed-style.html",
+      "css/css-transforms/parsing/rotate-parsing-computed.html",
+      "css/css-transforms/parsing/rotate-parsing-valid.html",
+      "css/css-transforms/individual-transform/*",
+      "css/css-transforms/animation/rotate-animation-on-svg.html",
+      "css/css-transforms/animation/rotate-animation-with-will-change-transform-001.html",
+      "css/css-transforms/animation/scale-and-rotate-both-specified-on-animation-keyframes.html",
+      "css/css-transforms/animation/scale-animation-on-svg.html",
+      "css/css-transforms/animation/translate-animation-on-svg.html"
+    ]
+  },
+  "transforms3d": {
+    "url": "https://wpt.fyi/results?q=feature:transforms3d",
+    "tests": [
+      "css/css-transforms/*3d*",
+      "css/css-transforms/backface-visibility-*",
+      "css/css-transforms/perspective-*",
+      "css/css-transforms/parsing/backface-visibility-*",
+      "css/css-transforms/parsing/perspective-*",
+      "css/css-transforms/animation/backface-visibility-*",
+      "css/css-transforms/animation/perspective-*"
+    ]
+  },
+  "scroll-snap": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-snap",
+    "tests": [
+      "css/css-scroll-snap/*"
+    ]
+  },
+  "scrollbar-color": {
+    "url": "https://wpt.fyi/results?q=feature:scrollbar-color",
+    "tests": [
+      "css/css-scrollbars/input-scrollbar-color.html",
+      "css/css-scrollbars/scrollbar-color-*",
+      "css/css-scrollbars/scrollbar-width-paint-003.html",
+      "css/css-scrollbars/transparent-on-root.html",
+      "css/css-scrollbars/viewport-scrollbar-body.html",
+      "css/css-scrollbars/viewport-scrollbar.html"
+    ]
+  },
+  "scrollbar-width": {
+    "url": "https://wpt.fyi/results?q=feature:scrollbar-width",
+    "tests": [
+      "css/css-scrollbars/scrollbar-width-*",
+      "css/css-scrollbars/textarea-scrollbar-width-none.html"
+    ]
+  },
+  "has-slotted": {
+    "url": "https://wpt.fyi/results?q=feature:has-slotted",
+    "tests": [
+      "css/css-scoping/has-slotted-*",
+      "css/selectors/parsing/parse-has-slotted.tentative.html"
+    ]
+  },
+  "ruby-align": {
+    "url": "https://wpt.fyi/results?q=feature:ruby-align",
+    "tests": [
+      "css/css-ruby/ruby-align-*",
+      "css/css-ruby/parsing/ruby-align-*"
+    ]
+  },
+  "ruby-position": {
+    "url": "https://wpt.fyi/results?q=feature:ruby-position",
+    "tests": [
+      "css/css-ruby/ruby-position*",
+      "css/css-ruby/parsing/ruby-position-*"
+    ]
+  },
+  "registered-custom-properties": {
+    "url": "https://wpt.fyi/results?q=feature:registered-custom-properties",
+    "tests": [
+      "css/css-properties-values-api/*"
+    ]
+  },
+  "target-text": {
+    "url": "https://wpt.fyi/results?q=feature:target-text",
+    "tests": [
+      "css/css-pseudo/target-text-*"
+    ]
+  },
+  "spelling-grammar-error": {
+    "url": "https://wpt.fyi/results?q=feature:spelling-grammar-error",
+    "tests": [
+      "css/css-pseudo/spelling-error-*",
+      "css/css-pseudo/grammar-spelling-errors-*"
+    ]
+  },
+  "marker": {
+    "url": "https://wpt.fyi/results?q=feature:marker",
+    "tests": [
+      "css/css-pseudo/marker-*",
+      "css/css-pseudo/first-letter-exclude-block-child-marker.html",
+      "css/css-pseudo/first-letter-exclude-inline-child-marker.html",
+      "css/css-pseudo/first-letter-exclude-inline-marker.html",
+      "css/css-pseudo/first-letter-skip-marker.html",
+      "css/css-pseudo/first-line-and-marker.html",
+      "css/css-pseudo/outside-marker-paint-order.html",
+      "css/css-pseudo/parsing/marker-*"
+    ]
+  },
+  "file-selector-button": {
+    "url": "https://wpt.fyi/results?q=feature:file-selector-button",
+    "tests": [
+      "css/css-pseudo/file-selector-button-*"
+    ]
+  },
+  "first-letter": {
+    "url": "https://wpt.fyi/results?q=feature:first-letter",
+    "tests": [
+      "css/css-pseudo/first-letter-*"
+    ]
+  },
+  "first-line": {
+    "url": "https://wpt.fyi/results?q=feature:first-line",
+    "tests": [
+      "css/css-pseudo/first-line-*"
+    ]
+  },
+  "page-orientation": {
+    "url": "https://wpt.fyi/results?q=feature:page-orientation",
+    "tests": [
+      "css/css-page/page-orientation*",
+      "css/css-page/parsing/page-orientation-*"
+    ]
+  },
+  "page-selectors": {
+    "url": "https://wpt.fyi/results?q=feature:page-selectors",
+    "tests": [
+      "css/css-page/page-left-right-*",
+      "css/css-page/pseudo-first-*"
+    ]
+  },
+  "function": {
+    "url": "https://wpt.fyi/results?q=feature:function",
+    "tests": [
+      "css/css-mixins/at-function-*",
+      "css/css-mixins/dashed-function-*",
+      "css/css-mixins/function-*",
+      "css/css-mixins/local-*-substitution.html",
+      "css/css-mixins/parameter-types.tentative.html"
+    ]
+  },
+  "mixin": {
+    "url": "https://wpt.fyi/results?q=feature:mixin",
+    "tests": [
+      "css/css-mixins/basic.html",
+      "css/css-mixins/declarations.html",
+      "css/css-mixins/mixins-including-mixins.html"
+    ]
+  },
+  "masonry": {
+    "url": "https://wpt.fyi/results?q=feature:masonry",
+    "tests": [
+      "css/css-masonry/*",
+      "css/css-grid/masonry/*"
+    ]
+  },
+  "masks": {
+    "url": "https://wpt.fyi/results?q=feature:masks",
+    "tests": [
+      "css/css-masking/mask-shorthand-subproperties-reset.html",
+      "css/css-masking/parsing/mask-composite-*",
+      "css/css-masking/parsing/mask-computed.html",
+      "css/css-masking/parsing/mask-invalid.html",
+      "css/css-masking/parsing/mask-position-*",
+      "css/css-masking/parsing/mask-repeat-*",
+      "css/css-masking/mask-image/*",
+      "css/css-masking/animations/mask-image-interpolation.html",
+      "css/css-masking/animations/mask-no-interpolation.html",
+      "css/css-masking/animations/mask-position-interpolation.html"
+    ]
+  },
+  "logical-properties": {
+    "url": "https://wpt.fyi/results?q=feature:logical-properties",
+    "tests": [
+      "css/css-logical/*"
+    ]
+  },
+  "scrollbar-gutter": {
+    "url": "https://wpt.fyi/results?q=feature:scrollbar-gutter",
+    "tests": [
+      "css/css-overflow/scrollbar-gutter-*",
+      "css/css-overflow/parsing/scrollbar-gutter-*"
+    ]
+  },
+  "overflow-shorthand": {
+    "url": "https://wpt.fyi/results?q=feature:overflow-shorthand",
+    "tests": [
+      "css/css-overflow/overflow-*",
+      "css/css-overflow/!overflow-auto-scrollbar-gutter-intrinsic-*",
+      "css/css-overflow/!overflow-scroll-*",
+      "css/css-overflow/!overflow-no-interpolation.html"
+    ]
+  },
+  "counter-set": {
+    "url": "https://wpt.fyi/results?q=feature:counter-set",
+    "tests": [
+      "css/css-lists/counter-set-*"
+    ]
+  },
+  "highlight": {
+    "url": "https://wpt.fyi/results?q=feature:highlight",
+    "tests": [
+      "css/css-highlight-api/*"
+    ]
+  },
+  "grid": {
+    "url": "https://wpt.fyi/results?q=feature:grid",
+    "tests": [
+      "css/css-grid/*"
+    ]
+  },
+  "conic-gradients": {
+    "url": "https://wpt.fyi/results?q=feature:conic-gradients",
+    "tests": [
+      "css/css-images/*conic*"
+    ]
+  },
+  "object-view-box": {
+    "url": "https://wpt.fyi/results?q=feature:object-view-box",
+    "tests": [
+      "css/css-images/object-view-box-*",
+      "css/css-images/animation/object-view-box-*"
+    ]
+  },
+  "font-metric-overrides": {
+    "url": "https://wpt.fyi/results?q=feature:font-metric-overrides",
+    "tests": [
+      "css/css-font-loading/fontface-override-descriptor-getter-setter.sub.html",
+      "css/css-fonts/ascent-descent-override.html",
+      "css/css-fonts/line-gap-override.html",
+      "css/css-fonts/metrics-override-normal-keyword.html"
+    ]
+  },
+  "linear-easing": {
+    "url": "https://wpt.fyi/results?q=feature:linear-easing",
+    "tests": [
+      "css/css-easing/linear-timing-*"
+    ]
+  },
+  "quotes": {
+    "url": "https://wpt.fyi/results?q=feature:quotes",
+    "tests": [
+      "css/css-content/quotes-*"
+    ]
+  },
+  "font-palette": {
+    "url": "https://wpt.fyi/results?q=feature:font-palette",
+    "tests": [
+      "css/css-fonts/font-palette.html",
+      "css/css-fonts/font-palette-*",
+      "css/css-fonts/palette-values-rule-*",
+      "css/css-fonts/parsing/font-palette-*",
+      "css/css-fonts/parsing/font-palette-values-*"
+    ]
+  },
+  "font-size-adjust": {
+    "url": "https://wpt.fyi/results?q=feature:font-size-adjust",
+    "tests": [
+      "css/css-fonts/font-size-adjust-*",
+      "css/css-fonts/size-adjust-02.html",
+      "css/css-fonts/size-adjust-03.html",
+      "css/css-fonts/parsing/font-size-adjust-*",
+      "css/css-fonts/animations/font-size-adjust-*"
+    ]
+  },
+  "font-synthesis": {
+    "url": "https://wpt.fyi/results?q=feature:font-synthesis",
+    "tests": [
+      "css/css-fonts/font-synthesis-0*.html",
+      "css/css-fonts/parsing/font-synthesis-computed.html",
+      "css/css-fonts/parsing/font-synthesis-invalid.html",
+      "css/css-fonts/parsing/font-synthesis-valid.html"
+    ]
+  },
+  "font-synthesis-position": {
+    "url": "https://wpt.fyi/results?q=feature:font-synthesis-position",
+    "tests": [
+      "css/css-fonts/font-synthesis-position*",
+      "css/css-fonts/parsing/font-synthesis-position*"
+    ]
+  },
+  "font-synthesis-small-caps": {
+    "url": "https://wpt.fyi/results?q=feature:font-synthesis-small-caps",
+    "tests": [
+      "css/css-fonts/font-synthesis-small-caps*",
+      "css/css-fonts/parsing/font-synthesis-small-caps*"
+    ]
+  },
+  "font-synthesis-style": {
+    "url": "https://wpt.fyi/results?q=feature:font-synthesis-style",
+    "tests": [
+      "css/css-fonts/font-synthesis-style*",
+      "css/css-fonts/parsing/font-synthesis-style*"
+    ]
+  },
+  "font-synthesis-weight": {
+    "url": "https://wpt.fyi/results?q=feature:font-synthesis-weight",
+    "tests": [
+      "css/css-fonts/font-synthesis-weight*",
+      "css/css-fonts/parsing/font-synthesis-weight*"
+    ]
+  },
+  "font-variant-alternates": {
+    "url": "https://wpt.fyi/results?q=feature:font-variant-alternates",
+    "tests": [
+      "css/css-fonts/alternates-order.html",
+      "css/css-fonts/font-variant-alternates-*",
+      "css/css-fonts/parsing/font-variant-alternates-*"
+    ]
+  },
+  "font-variant-emoji": {
+    "url": "https://wpt.fyi/results?q=feature:font-variant-emoji",
+    "tests": [
+      "css/css-fonts/font-variant-emoji-*",
+      "css/css-fonts/parsing/font-variant-emoji-*"
+    ]
+  },
+  "font-variant-position": {
+    "url": "https://wpt.fyi/results?q=feature:font-variant-position",
+    "tests": [
+      "css/css-fonts/font-variant-position-*",
+      "css/css-fonts/parsing/font-variant-position-*"
+    ]
+  },
+  "contain-inline-size": {
+    "url": "https://wpt.fyi/results?q=feature:contain-inline-size",
+    "tests": [
+      "css/css-contain/contain-inline-size-*"
+    ]
+  },
+  "cascade-layers": {
+    "url": "https://wpt.fyi/results?q=feature:cascade-layers",
+    "tests": [
+      "css/css-cascade/layer-*",
+      "css/css-cascade/parsing/layer.html"
+    ]
+  },
+  "scope": {
+    "url": "https://wpt.fyi/results?q=feature:scope",
+    "tests": [
+      "css/css-cascade/at-scope-*",
+      "css/css-cascade/scope-*"
+    ]
+  },
+  "revert-value": {
+    "url": "https://wpt.fyi/results?q=feature:revert-value",
+    "tests": [
+      "css/css-cascade/revert-val-*"
+    ]
+  },
+  "color-function": {
+    "url": "https://wpt.fyi/results?q=feature:color-function",
+    "tests": [
+      "css/css-color/a98rgb-*",
+      "css/css-color/display-p3-*",
+      "css/css-color/predefined-*",
+      "css/css-color/prophoto-rgb-*",
+      "css/css-color/rec2020-*",
+      "css/css-color/srgb-*",
+      "css/css-color/xyz-*"
+    ]
+  },
+  "color-mix": {
+    "url": "https://wpt.fyi/results?q=feature:color-mix",
+    "tests": [
+      "css/css-color/color-mix-*",
+      "css/css-color/nested-color-mix-with-currentcolor.html",
+      "css/css-color/parsing/*-color-mix-*",
+      "css/css-color/parsing/color-mix-out-of-gamut.html"
+    ]
+  },
+  "lab": {
+    "url": "https://wpt.fyi/results?q=feature:lab",
+    "tests": [
+      "css/css-color/lab-*",
+      "css/css-color/lch-*"
+    ]
+  },
+  "light-dark": {
+    "url": "https://wpt.fyi/results?q=feature:light-dark",
+    "tests": [
+      "css/css-color/light-dark-*"
+    ]
+  },
+  "oklab": {
+    "url": "https://wpt.fyi/results?q=feature:oklab",
+    "tests": [
+      "css/css-color/oklab-*",
+      "css/css-color/oklch-*"
+    ]
+  },
+  "hwb": {
+    "url": "https://wpt.fyi/results?q=feature:hwb",
+    "tests": [
+      "css/css-color/hwb-*"
+    ]
+  },
+  "relative-color": {
+    "url": "https://wpt.fyi/results?q=feature:relative-color",
+    "tests": [
+      "css/css-color/relative-*",
+      "css/css-color/parsing/relative-*",
+      "css/css-color/parsing/*-relative-*"
+    ]
+  },
+  "flexbox": {
+    "url": "https://wpt.fyi/results?q=feature:flexbox",
+    "tests": [
+      "css/css-flexbox/*"
+    ]
+  },
+  "box-decoration-break": {
+    "url": "https://wpt.fyi/results?q=feature:box-decoration-break",
+    "tests": [
+      "css/css-break/box-decoration-break-*",
+      "css/css-break/parsing/box-decoration-break-*"
+    ]
+  },
+  "page-break-aliases": {
+    "url": "https://wpt.fyi/results?q=feature:page-break-aliases",
+    "tests": [
+      "css/css-break/page-break-legacy-shorthands.html"
+    ]
+  },
+  "animation-composition": {
+    "url": "https://wpt.fyi/results?q=feature:animation-composition",
+    "tests": [
+      "css/css-animations/animation-composition.html",
+      "css/css-animations/animation-composition-*",
+      "css/css-animations/parsing/animation-composition-*"
+    ]
+  },
+  "display-animation": {
+    "url": "https://wpt.fyi/results?q=feature:display-animation",
+    "tests": [
+      "css/css-animations/display-interpolation.html"
+    ]
+  },
+  "anchor-positioning": {
+    "url": "https://wpt.fyi/results?q=feature:anchor-positioning",
+    "tests": [
+      "css/css-anchor-position/*"
+    ]
+  },
+  "background-clip": {
+    "url": "https://wpt.fyi/results?q=feature:background-clip",
+    "tests": [
+      "css/css-backgrounds/background-clip*",
+      "css/css-backgrounds/css3-background-clip*",
+      "css/css-backgrounds/parsing/background-clip-*",
+      "css/css-backgrounds/background-clip/clip-border-box*",
+      "css/css-backgrounds/background-clip/clip-content-box*",
+      "css/css-backgrounds/background-clip/clip-padding-box*",
+      "css/css-backgrounds/background-clip/clip-rounded-corner.html"
+    ]
+  },
+  "border-image": {
+    "url": "https://wpt.fyi/results?q=feature:border-image",
+    "tests": [
+      "css/css-backgrounds/border-image*",
+      "css/css-backgrounds/css3-border-image*",
+      "css/css-backgrounds/parsing/border-image-*",
+      "css/css-backgrounds/animations/border-image-*"
+    ]
+  },
+  "webvtt": {
+    "url": "https://wpt.fyi/results?q=feature:webvtt",
+    "tests": [
+      "webvtt/parsing/file-parsing/signature-invalid.html",
+      "webvtt/api/VTTCue/align.html",
+      "webvtt/api/VTTCue/constructor-exceptions.html",
+      "webvtt/api/VTTCue/getCueAsHTML.html",
+      "webvtt/api/VTTCue/line.html",
+      "webvtt/api/VTTCue/position.html",
+      "webvtt/api/VTTCue/size.html",
+      "webvtt/api/VTTCue/snapToLines.html",
+      "webvtt/api/VTTCue/text.html",
+      "webvtt/api/VTTCue/vertical.html",
+      "webvtt/parsing/file-parsing/tests/arrows.html",
+      "webvtt/parsing/file-parsing/tests/comment-in-cue-text.html",
+      "webvtt/parsing/file-parsing/tests/header-garbage.html",
+      "webvtt/parsing/file-parsing/tests/header-space.html",
+      "webvtt/parsing/file-parsing/tests/header-tab.html",
+      "webvtt/parsing/file-parsing/tests/header-timings.html",
+      "webvtt/parsing/file-parsing/tests/ids.html",
+      "webvtt/parsing/file-parsing/tests/newlines.html",
+      "webvtt/parsing/file-parsing/tests/nulls.html",
+      "webvtt/parsing/file-parsing/tests/settings-align.html",
+      "webvtt/parsing/file-parsing/tests/settings-multiple.html",
+      "webvtt/parsing/file-parsing/tests/settings-size.html",
+      "webvtt/parsing/file-parsing/tests/settings-vertical.html",
+      "webvtt/parsing/file-parsing/tests/signature-bom.html",
+      "webvtt/parsing/file-parsing/tests/signature-no-newline.html",
+      "webvtt/parsing/file-parsing/tests/signature-space-no-newline.html",
+      "webvtt/parsing/file-parsing/tests/signature-space.html",
+      "webvtt/parsing/file-parsing/tests/signature-tab-no-newline.html",
+      "webvtt/parsing/file-parsing/tests/signature-tab.html",
+      "webvtt/parsing/file-parsing/tests/signature-timings.html",
+      "webvtt/parsing/file-parsing/tests/stylesheets.html",
+      "webvtt/parsing/file-parsing/tests/timings-60.html",
+      "webvtt/parsing/file-parsing/tests/timings-eof.html",
+      "webvtt/parsing/file-parsing/tests/timings-garbage.html",
+      "webvtt/parsing/file-parsing/tests/timings-negative.html",
+      "webvtt/parsing/file-parsing/tests/timings-omitted-hours.html",
+      "webvtt/parsing/file-parsing/tests/timings-too-long.html",
+      "webvtt/parsing/file-parsing/tests/timings-too-short.html",
+      "webvtt/parsing/file-parsing/tests/whitespace-chars.html",
+      "webvtt/parsing/cue-text-parsing/tests/*",
+      "webvtt/rendering/cues-with-video/processing-model/*"
+    ]
+  },
+  "webvtt-regions": {
+    "url": "https://wpt.fyi/results?q=feature:webvtt-regions",
+    "tests": [
+      "webvtt/api/VTTRegion/*",
+      "webvtt/api/VTTCue/region.html",
+      "webvtt/parsing/file-parsing/tests/header-regions.html",
+      "webvtt/parsing/file-parsing/tests/regions-edge-case.html",
+      "webvtt/parsing/file-parsing/tests/regions-id.html",
+      "webvtt/parsing/file-parsing/tests/regions-lines.html",
+      "webvtt/parsing/file-parsing/tests/regions-old.html",
+      "webvtt/parsing/file-parsing/tests/regions-regionanchor.html",
+      "webvtt/parsing/file-parsing/tests/regions-scroll.html",
+      "webvtt/parsing/file-parsing/tests/regions-viewportanchor.html",
+      "webvtt/parsing/file-parsing/tests/settings-region.html",
+      "webvtt/rendering/cues-with-video/processing-model/regions/*",
+      "webvtt/rendering/cues-with-video/processing-model/selectors/cue-region_function/*",
+      "webvtt/rendering/cues-with-video/processing-model/selectors/cue-region/*"
+    ]
+  },
+  "webvtt-cue-alignment": {
+    "url": "https://wpt.fyi/results?q=feature:webvtt-cue-alignment",
+    "tests": [
+      "webvtt/api/VTTCue/lineAlign.html",
+      "webvtt/api/VTTCue/positionAlign.html",
+      "webvtt/parsing/file-parsing/tests/settings-line.html",
+      "webvtt/parsing/file-parsing/tests/settings-position.html"
+    ]
+  },
+  "webdriver-bidi": {
+    "url": "https://wpt.fyi/results?q=feature:webdriver-bidi",
+    "tests": [
+      "webdriver/tests/bidi/*"
+    ]
+  },
+  "web-audio": {
+    "url": "https://wpt.fyi/results?q=feature:web-audio",
+    "tests": [
+      "webaudio/the-audio-api/the-waveshapernode-interface/*",
+      "webaudio/the-audio-api/the-stereopanner-interface/*",
+      "webaudio/the-audio-api/the-scriptprocessornode-interface/*",
+      "webaudio/the-audio-api/the-pannernode-interface/*",
+      "webaudio/the-audio-api/the-oscillatornode-interface/*",
+      "webaudio/the-audio-api/the-periodicwave-interface/*",
+      "webaudio/the-audio-api/the-mediastreamaudiosourcenode-interface/*",
+      "webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/*",
+      "webaudio/the-audio-api/the-mediastreamaudiodestinationnode-interface/*",
+      "webaudio/the-audio-api/the-iirfilternode-interface/*",
+      "webaudio/the-audio-api/the-gainnode-interface/*",
+      "webaudio/the-audio-api/the-destinationnode-interface/*",
+      "webaudio/the-audio-api/the-dynamicscompressornode-interface/*",
+      "webaudio/the-audio-api/the-convolvernode-interface/*",
+      "webaudio/the-audio-api/the-constantsourcenode-interface/*",
+      "webaudio/the-audio-api/the-channelsplitternode-interface/*",
+      "webaudio/the-audio-api/the-channelmergernode-interface/*",
+      "webaudio/the-audio-api/the-biquadfilternode-interface/*",
+      "webaudio/the-audio-api/the-audioparam-interface/*",
+      "webaudio/the-audio-api/the-audionode-interface/*",
+      "webaudio/the-audio-api/the-audiobuffersourcenode-interface/*",
+      "webaudio/the-audio-api/the-audiocontext-interface/*",
+      "webaudio/the-audio-api/the-analysernode-interface/*",
+      "webaudio/the-audio-api/the-audiobuffer-interface/*",
+      "webaudio/the-audio-api/the-delaynode-interface/*",
+      "webaudio/the-audio-api/processing-model/*"
+    ]
+  },
+  "offline-audio-context": {
+    "url": "https://wpt.fyi/results?q=feature:offline-audio-context",
+    "tests": [
+      "webaudio/the-audio-api/the-offlineaudiocontext-interface/*"
+    ]
+  },
+  "audio-worklet": {
+    "url": "https://wpt.fyi/results?q=feature:audio-worklet",
+    "tests": [
+      "webaudio/the-audio-api/the-audioworklet-interface/*"
+    ]
+  },
+  "context-fill-stroke": {
+    "url": "https://wpt.fyi/results?q=feature:context-fill-stroke",
+    "tests": [
+      "svg/painting/reftests/paint-context-*"
+    ]
+  },
+  "structured-clone": {
+    "url": "https://wpt.fyi/results?q=feature:structured-clone",
+    "tests": [
+      "html/webappapis/structured-clone/*"
+    ]
+  },
+  "popover": {
+    "url": "https://wpt.fyi/results?q=feature:popover",
+    "tests": [
+      "html/semantics/popovers/*"
+    ]
+  },
+  "details": {
+    "url": "https://wpt.fyi/results?q=feature:details",
+    "tests": [
+      "html/rendering/the-details-element/*"
+    ]
+  },
+  "details-content": {
+    "url": "https://wpt.fyi/results?q=feature:details-content",
+    "tests": [
+      "html/rendering/the-details-element/details-pseudo-elements-001.html",
+      "html/rendering/the-details-element/details-pseudo-elements-002.html",
+      "html/rendering/the-details-element/details-pseudo-elements-003.html",
+      "html/rendering/the-details-element/details-pseudo-elements-004.html",
+      "html/rendering/the-details-element/details-pseudo-elements-005.html",
+      "html/rendering/the-details-element/details-pseudo-elements-006.html"
+    ]
+  },
+  "field-sizing": {
+    "url": "https://wpt.fyi/results?q=feature:field-sizing",
+    "tests": [
+      "html/rendering/widgets/field-sizing-*",
+      "css/css-ui/parsing/field-sizing-*"
+    ]
+  },
+  "tabindex": {
+    "url": "https://wpt.fyi/results?q=feature:tabindex",
+    "tests": [
+      "html/interaction/focus/tabindex-focus-flag.html",
+      "html/interaction/focus/sequential-focus-navigation-and-the-tabindex-attribute/*"
+    ]
+  },
+  "blocking-render": {
+    "url": "https://wpt.fyi/results?q=feature:blocking-render",
+    "tests": [
+      "html/dom/render-blocking/*"
+    ]
+  },
+  "offscreen-canvas": {
+    "url": "https://wpt.fyi/results?q=feature:offscreen-canvas",
+    "tests": [
+      "html/canvas/offscreen/*"
+    ]
+  },
+  "zstd": {
+    "url": "https://wpt.fyi/results?q=feature:zstd",
+    "tests": [
+      "fetch/content-encoding/zstd/*"
+    ]
+  },
+  "fetch-request-streams": {
+    "url": "https://wpt.fyi/results?q=feature:fetch-request-streams",
+    "tests": [
+      "fetch/api/basic/request-upload*"
+    ]
+  },
+  "scrollend": {
+    "url": "https://wpt.fyi/results?q=feature:scrollend",
+    "tests": [
+      "dom/events/scrolling/scrollend-*"
+    ]
+  },
+  "move-before": {
+    "url": "https://wpt.fyi/results?q=feature:move-before",
+    "tests": [
+      "dom/nodes/moveBefore/*"
+    ]
+  },
+  "media-pseudos": {
+    "url": "https://wpt.fyi/results?q=feature:media-pseudos",
+    "tests": [
+      "css/selectors/media/*"
+    ]
+  },
+  "zoom": {
+    "url": "https://wpt.fyi/results?q=feature:zoom",
+    "tests": [
+      "css/css-viewport/zoom/*"
+    ]
+  },
+  "interpolate-size": {
+    "url": "https://wpt.fyi/results?q=feature:interpolate-size",
+    "tests": [
+      "css/css-values/calc-size/interpolate-size-*",
+      "css/css-values/calc-size/animation/interpolate-size-*"
+    ]
+  },
+  "calc-size": {
+    "url": "https://wpt.fyi/results?q=feature:calc-size",
+    "tests": [
+      "css/css-values/calc-size/calc-size-*",
+      "css/css-values/calc-size/animation/calc-size-*"
+    ]
+  },
+  "cross-document-view-transitions": {
+    "url": "https://wpt.fyi/results?q=feature:cross-document-view-transitions",
+    "tests": [
+      "css/css-view-transitions/navigation/*"
+    ]
+  },
+  "text-spacing-trim": {
+    "url": "https://wpt.fyi/results?q=feature:text-spacing-trim",
+    "tests": [
+      "css/css-text/text-spacing-trim/*",
+      "css/css-text/parsing/text-spacing-trim-*"
+    ]
+  },
+  "text-indent": {
+    "url": "https://wpt.fyi/results?q=feature:text-indent",
+    "tests": [
+      "css/css-text/text-indent/*"
+    ]
+  },
+  "text-wrap-balance": {
+    "url": "https://wpt.fyi/results?q=feature:text-wrap-balance",
+    "tests": [
+      "css/css-text/white-space/text-wrap-balance-*"
+    ]
+  },
+  "text-wrap-nowrap": {
+    "url": "https://wpt.fyi/results?q=feature:text-wrap-nowrap",
+    "tests": [
+      "css/css-text/white-space/text-wrap-nowrap-*"
+    ]
+  },
+  "white-space-collapse": {
+    "url": "https://wpt.fyi/results?q=feature:white-space-collapse",
+    "tests": [
+      "css/css-text/white-space/white-space-collapse-*",
+      "css/css-text/white-space/line-edge-white-space-collapse-*",
+      "css/css-text/parsing/white-space-collapse-*"
+    ]
+  },
+  "text-wrap-pretty": {
+    "url": "https://wpt.fyi/results?q=feature:text-wrap-pretty",
+    "tests": [
+      "css/css-text/parsing/text-wrap-pretty.html"
+    ]
+  },
+  "text-wrap-style": {
+    "url": "https://wpt.fyi/results?q=feature:text-wrap-style",
+    "tests": [
+      "css/css-text/parsing/text-wrap-style-*"
+    ]
+  },
+  "text-wrap": {
+    "url": "https://wpt.fyi/results?q=feature:text-wrap",
+    "tests": [
+      "css/css-text/parsing/text-wrap-computed.html",
+      "css/css-text/parsing/text-wrap-invalid.html",
+      "css/css-text/parsing/text-wrap-valid.html"
+    ]
+  },
+  "text-wrap-mode": {
+    "url": "https://wpt.fyi/results?q=feature:text-wrap-mode",
+    "tests": [
+      "css/css-text/parsing/text-wrap-mode-*"
+    ]
+  },
+  "hyphens": {
+    "url": "https://wpt.fyi/results?q=feature:hyphens",
+    "tests": [
+      "css/css-text/hyphens/hyphens-*"
+    ]
+  },
+  "hyphenate-character": {
+    "url": "https://wpt.fyi/results?q=feature:hyphenate-character",
+    "tests": [
+      "css/css-text/hyphens/hyphenate-character-*"
+    ]
+  },
+  "hyphenate-limit-chars": {
+    "url": "https://wpt.fyi/results?q=feature:hyphenate-limit-chars",
+    "tests": [
+      "css/css-text/hyphens/hyphenate-limit-chars-*"
+    ]
+  },
+  "vertical-form-controls": {
+    "url": "https://wpt.fyi/results?q=feature:vertical-form-controls",
+    "tests": [
+      "css/css-writing-modes/forms/*vertical*",
+      "css/css-writing-modes/forms/*vlr*",
+      "css/css-writing-modes/forms/*vrl*"
+    ]
+  },
+  "transform-box": {
+    "url": "https://wpt.fyi/results?q=feature:transform-box",
+    "tests": [
+      "css/css-transforms/transform-box/*"
+    ]
+  },
+  "scroll-snap-events": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-snap-events",
+    "tests": [
+      "css/css-scroll-snap/snap-events/snap-events-with-pseudo-target.tentative.html",
+      "css/css-scroll-snap/snap-events/snapevents-at-document-bubble-to-window.html",
+      "css/css-scroll-snap/snap-events/scrollsnapchanging/*",
+      "css/css-scroll-snap/snap-events/scrollsnapchange/*"
+    ]
+  },
+  "scroll-initial-target": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-initial-target",
+    "tests": [
+      "css/css-scroll-snap/scroll-initial-target/*"
+    ]
+  },
+  "contain-intrinsic-size": {
+    "url": "https://wpt.fyi/results?q=feature:contain-intrinsic-size",
+    "tests": [
+      "css/css-sizing/contain-intrinsic-size/*"
+    ]
+  },
+  "aspect-ratio": {
+    "url": "https://wpt.fyi/results?q=feature:aspect-ratio",
+    "tests": [
+      "css/css-sizing/aspect-ratio/*"
+    ]
+  },
+  "sticky-positioning": {
+    "url": "https://wpt.fyi/results?q=feature:sticky-positioning",
+    "tests": [
+      "css/css-position/sticky/*"
+    ]
+  },
+  "overlay": {
+    "url": "https://wpt.fyi/results?q=feature:overlay",
+    "tests": [
+      "css/css-position/overlay/*"
+    ]
+  },
+  "clip-path-boxes": {
+    "url": "https://wpt.fyi/results?q=feature:clip-path-boxes",
+    "tests": [
+      "css/css-masking/hit-test/clip-path-svg-geometry-box.html",
+      "css/css-masking/clip-path-svg-content/clip-path-inset-stroke-001.svg",
+      "css/css-masking/clip-path-svg-content/clip-path-inset-stroke-002.svg",
+      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-003.svg",
+      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-004.svg",
+      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-005.svg",
+      "css/css-masking/clip-path/clip-path-fillBox-1a.html",
+      "css/css-masking/clip-path/clip-path-fillBox-1b.html",
+      "css/css-masking/clip-path/clip-path-strokeBox-1a.html",
+      "css/css-masking/clip-path/clip-path-strokeBox-1b.html",
+      "css/css-masking/clip-path/clip-path-strokeBox-1c.html",
+      "css/css-masking/clip-path/clip-path-viewBox-1a.html",
+      "css/css-masking/clip-path/clip-path-viewBox-1b.html",
+      "css/css-masking/clip-path/clip-path-viewBox-1c.html",
+      "css/css-masking/clip-path/clip-path-viewBox-1d.html"
+    ]
+  },
+  "clip-path": {
+    "url": "https://wpt.fyi/results?q=feature:clip-path",
+    "tests": [
+      "css/css-masking/clip-path/*"
+    ]
+  },
+  "alignment-baseline": {
+    "url": "https://wpt.fyi/results?q=feature:alignment-baseline",
+    "tests": [
+      "css/css-inline/parsing/alignment-baseline-*",
+      "css/css-inline/animation/alignment-baseline-*"
+    ]
+  },
+  "baseline-shift": {
+    "url": "https://wpt.fyi/results?q=feature:baseline-shift",
+    "tests": [
+      "css/css-inline/parsing/baseline-shift-*"
+    ]
+  },
+  "baseline-source": {
+    "url": "https://wpt.fyi/results?q=feature:baseline-source",
+    "tests": [
+      "css/css-inline/baseline-source/*"
+    ]
+  },
+  "text-box": {
+    "url": "https://wpt.fyi/results?q=feature:text-box",
+    "tests": [
+      "css/css-inline/text-box-trim/*"
+    ]
+  },
+  "initial-letter": {
+    "url": "https://wpt.fyi/results?q=feature:initial-letter",
+    "tests": [
+      "css/css-inline/initial-letter/*"
+    ]
+  },
+  "subgrid": {
+    "url": "https://wpt.fyi/results?q=feature:subgrid",
+    "tests": [
+      "css/css-grid/subgrid/*"
+    ]
+  },
+  "grid-animation": {
+    "url": "https://wpt.fyi/results?q=feature:grid-animation",
+    "tests": [
+      "css/css-grid/animation/*"
+    ]
+  },
+  "image-orientation": {
+    "url": "https://wpt.fyi/results?q=feature:image-orientation",
+    "tests": [
+      "css/css-images/parsing/image-orientation-*",
+      "css/css-images/image-orientation/*"
+    ]
+  },
+  "gradient-interpolation": {
+    "url": "https://wpt.fyi/results?q=feature:gradient-interpolation",
+    "tests": [
+      "css/css-images/parsing/gradient-interpolation-*"
+    ]
+  },
+  "image-set": {
+    "url": "https://wpt.fyi/results?q=feature:image-set",
+    "tests": [
+      "css/css-images/image-set/*"
+    ]
+  },
+  "two-value-display": {
+    "url": "https://wpt.fyi/results?q=feature:two-value-display",
+    "tests": [
+      "css/css-display/parsing/*"
+    ]
+  },
+  "counter-style": {
+    "url": "https://wpt.fyi/results?q=feature:counter-style",
+    "tests": [
+      "css/css-counter-styles/cssom/cssom-additive-symbols-setter-invalid.html",
+      "css/css-counter-styles/cssom/cssom-additive-symbols-setter.html",
+      "css/css-counter-styles/cssom/cssom-fallback-setter-invalid.html",
+      "css/css-counter-styles/cssom/cssom-fallback-setter.html",
+      "css/css-counter-styles/cssom/cssom-name-setter-invalid.html",
+      "css/css-counter-styles/cssom/cssom-name-setter.html",
+      "css/css-counter-styles/cssom/cssom-negative-setter-invalid.html",
+      "css/css-counter-styles/cssom/cssom-negative-setter.html",
+      "css/css-counter-styles/cssom/cssom-pad-setter-invalid.html",
+      "css/css-counter-styles/cssom/cssom-pad-setter.html",
+      "css/css-counter-styles/cssom/cssom-prefix-suffix-setter-invalid.html",
+      "css/css-counter-styles/cssom/cssom-prefix-suffix-setter.html",
+      "css/css-counter-styles/cssom/cssom-range-setter-invalid.html",
+      "css/css-counter-styles/cssom/cssom-range-setter.html",
+      "css/css-counter-styles/cssom/cssom-symbols-setter-invalid.html",
+      "css/css-counter-styles/cssom/cssom-symbols-setter.html",
+      "css/css-counter-styles/cssom/cssom-system-setter-1.html",
+      "css/css-counter-styles/cssom/cssom-system-setter-2.html",
+      "css/css-counter-styles/cssom/cssom-system-setter-invalid.html",
+      "css/css-counter-styles/counter-style-at-rule/*"
+    ]
+  },
+  "font-optical-sizing": {
+    "url": "https://wpt.fyi/results?q=feature:font-optical-sizing",
+    "tests": [
+      "css/css-fonts/variations/variable-opsz*",
+      "css/css-fonts/parsing/font-optical-sizing-*"
+    ]
+  },
+  "font-palette-animation": {
+    "url": "https://wpt.fyi/results?q=feature:font-palette-animation",
+    "tests": [
+      "css/css-fonts/animations/font-palette-animation-not-specified-endpoints.html",
+      "css/css-fonts/animations/font-palette-interpolation.html",
+      "css/css-fonts/animations/multiple-elements-font-palette-animation.html"
+    ]
+  },
+  "container-queries": {
+    "url": "https://wpt.fyi/results?q=feature:container-queries",
+    "tests": [
+      "css/css-conditional/container-queries/animation-container-size.html",
+      "css/css-conditional/container-queries/animation-container-type-dynamic.html",
+      "css/css-conditional/container-queries/animation-nested-animation.html",
+      "css/css-conditional/container-queries/animation-nested-transition.html",
+      "css/css-conditional/container-queries/aspect-ratio-feature-evaluation.html",
+      "css/css-conditional/container-queries/at-container-parsing.html",
+      "css/css-conditional/container-queries/at-container-serialization.html",
+      "css/css-conditional/container-queries/auto-scrollbars.html",
+      "css/css-conditional/container-queries/backdrop-invalidation.html",
+      "css/css-conditional/container-queries/calc-evaluation.html",
+      "css/css-conditional/container-queries/canvas-as-container-001.html",
+      "css/css-conditional/container-queries/canvas-as-container-002.html",
+      "css/css-conditional/container-queries/canvas-as-container-003.html",
+      "css/css-conditional/container-queries/canvas-as-container-004.html",
+      "css/css-conditional/container-queries/canvas-as-container-005.html",
+      "css/css-conditional/container-queries/canvas-as-container-006.html",
+      "css/css-conditional/container-queries/change-display-in-container.html",
+      "css/css-conditional/container-queries/chrome-legacy-skip-recalc.html",
+      "css/css-conditional/container-queries/column-spanner-in-container.html",
+      "css/css-conditional/container-queries/conditional-container-status.html",
+      "css/css-conditional/container-queries/container-computed.html",
+      "css/css-conditional/container-queries/container-for-cue.html",
+      "css/css-conditional/container-queries/container-for-shadow-dom.html",
+      "css/css-conditional/container-queries/container-inheritance.html",
+      "css/css-conditional/container-queries/container-inner-at-rules.html",
+      "css/css-conditional/container-queries/container-inside-multicol-with-table.html",
+      "css/css-conditional/container-queries/container-longhand-animation-type.html",
+      "css/css-conditional/container-queries/container-name-computed.html",
+      "css/css-conditional/container-queries/container-name-invalidation.html",
+      "css/css-conditional/container-queries/container-name-parsing.html",
+      "css/css-conditional/container-queries/container-name-tree-scoped.html",
+      "css/css-conditional/container-queries/container-nested.html",
+      "css/css-conditional/container-queries/container-parsing.html",
+      "css/css-conditional/container-queries/container-selection.html",
+      "css/css-conditional/container-queries/container-size-*",
+      "css/css-conditional/container-queries/container-type-computed.html",
+      "css/css-conditional/container-queries/container-type-containment.html",
+      "css/css-conditional/container-queries/container-type-invalidation.html",
+      "css/css-conditional/container-queries/container-type-layout-invalidation.html",
+      "css/css-conditional/container-queries/container-type-parsing.html",
+      "css/css-conditional/container-queries/container-units-*",
+      "css/css-conditional/container-queries/counters-flex-circular.html",
+      "css/css-conditional/container-queries/counters-in-container-dynamic.html",
+      "css/css-conditional/container-queries/counters-in-container.html",
+      "css/css-conditional/container-queries/custom-layout-container-001.https.html",
+      "css/css-conditional/container-queries/deep-nested-inline-size-containers.html",
+      "css/css-conditional/container-queries/dialog-backdrop-create.html",
+      "css/css-conditional/container-queries/dialog-backdrop-remove.html",
+      "css/css-conditional/container-queries/display-contents.html",
+      "css/css-conditional/container-queries/display-in-container.html",
+      "css/css-conditional/container-queries/display-none.html",
+      "css/css-conditional/container-queries/fieldset-legend-change.html",
+      "css/css-conditional/container-queries/flex-basis-with-container-type.html",
+      "css/css-conditional/container-queries/font-relative-calc-dynamic.html",
+      "css/css-conditional/container-queries/font-relative-units-dynamic.html",
+      "css/css-conditional/container-queries/font-relative-units.html",
+      "css/css-conditional/container-queries/fragmented-container-001.html",
+      "css/css-conditional/container-queries/get-animations.html",
+      "css/css-conditional/container-queries/grid-container.html",
+      "css/css-conditional/container-queries/grid-item-container.html",
+      "css/css-conditional/container-queries/idlharness.html",
+      "css/css-conditional/container-queries/iframe-in-container-invalidation.html",
+      "css/css-conditional/container-queries/iframe-invalidation.html",
+      "css/css-conditional/container-queries/ineligible-containment.html",
+      "css/css-conditional/container-queries/inheritance-from-container.html",
+      "css/css-conditional/container-queries/inline-size-and-min-width.html",
+      "css/css-conditional/container-queries/inline-size-bfc-floats.html",
+      "css/css-conditional/container-queries/inline-size-containment-vertical-rl.html",
+      "css/css-conditional/container-queries/inline-size-containment.html",
+      "css/css-conditional/container-queries/inner-first-line-non-matching.html",
+      "css/css-conditional/container-queries/layout-dependent-focus.html",
+      "css/css-conditional/container-queries/multicol-container-001.html",
+      "css/css-conditional/container-queries/multicol-inside-container.html",
+      "css/css-conditional/container-queries/multiple-size-containers-comma-separated-queries.html",
+      "css/css-conditional/container-queries/nested-query-containers.html",
+      "css/css-conditional/container-queries/never-match-container.html",
+      "css/css-conditional/container-queries/no-layout-containment-abspos-dynamic.html",
+      "css/css-conditional/container-queries/no-layout-containment-abspos.html",
+      "css/css-conditional/container-queries/no-layout-containment-baseline.html",
+      "css/css-conditional/container-queries/no-layout-containment-fixedpos-dynamic.html",
+      "css/css-conditional/container-queries/no-layout-containment-fixedpos.html",
+      "css/css-conditional/container-queries/no-layout-containment-scroll.html",
+      "css/css-conditional/container-queries/no-layout-containment-subgrid-crash.html",
+      "css/css-conditional/container-queries/orthogonal-wm-container-query.html",
+      "css/css-conditional/container-queries/percentage-padding-orthogonal.html",
+      "css/css-conditional/container-queries/pseudo-elements-001.html",
+      "css/css-conditional/container-queries/pseudo-elements-002.html",
+      "css/css-conditional/container-queries/pseudo-elements-002b.html",
+      "css/css-conditional/container-queries/pseudo-elements-003.html",
+      "css/css-conditional/container-queries/pseudo-elements-004.html",
+      "css/css-conditional/container-queries/pseudo-elements-006.html",
+      "css/css-conditional/container-queries/pseudo-elements-007.html",
+      "css/css-conditional/container-queries/pseudo-elements-008.html",
+      "css/css-conditional/container-queries/pseudo-elements-009.html",
+      "css/css-conditional/container-queries/pseudo-elements-010.html",
+      "css/css-conditional/container-queries/pseudo-elements-011.html",
+      "css/css-conditional/container-queries/pseudo-elements-012.html",
+      "css/css-conditional/container-queries/pseudo-elements-013.html",
+      "css/css-conditional/container-queries/query-container-name.html",
+      "css/css-conditional/container-queries/query-content-box.html",
+      "css/css-conditional/container-queries/query-evaluation.html",
+      "css/css-conditional/container-queries/reattach-container-with-dirty-child.html",
+      "css/css-conditional/container-queries/resize-while-content-visibility-hidden.html",
+      "css/css-conditional/container-queries/scrollbar-container-units-block.html",
+      "css/css-conditional/container-queries/scrollbar-container-units-inline.html",
+      "css/css-conditional/container-queries/sibling-layout-dependency.html",
+      "css/css-conditional/container-queries/size-container-*",
+      "css/css-conditional/container-queries/size-feature-evaluation.html",
+      "css/css-conditional/container-queries/size-query-with-var.html",
+      "css/css-conditional/container-queries/style-change-in-container.html",
+      "css/css-conditional/container-queries/style-not-sharing-float.html",
+      "css/css-conditional/container-queries/svg-foreignobject-child-container.html",
+      "css/css-conditional/container-queries/svg-foreignobject-no-size-container.html",
+      "css/css-conditional/container-queries/svg-g-no-size-container.html",
+      "css/css-conditional/container-queries/svg-root-size-container.html",
+      "css/css-conditional/container-queries/table-inside-container-changing-display.html",
+      "css/css-conditional/container-queries/top-layer-dialog-backdrop.html",
+      "css/css-conditional/container-queries/top-layer-dialog-container.html",
+      "css/css-conditional/container-queries/top-layer-dialog.html",
+      "css/css-conditional/container-queries/top-layer-nested-dialog.html",
+      "css/css-conditional/container-queries/transition-scrollbars.html",
+      "css/css-conditional/container-queries/transition-style-change-event-002.html",
+      "css/css-conditional/container-queries/transition-style-change-event.html",
+      "css/css-conditional/container-queries/unsupported-axis.html",
+      "css/css-conditional/container-queries/var-evaluation.html",
+      "css/css-conditional/container-queries/viewport-units-dynamic.html",
+      "css/css-conditional/container-queries/viewport-units.html",
+      "css/css-conditional/container-queries/whitespace-update-after-removal.html"
+    ]
+  },
+  "container-style-queries": {
+    "url": "https://wpt.fyi/results?q=feature:container-style-queries",
+    "tests": [
+      "css/css-conditional/container-queries/at-container-style-*",
+      "css/css-conditional/container-queries/custom-property-style-*",
+      "css/css-conditional/container-queries/display-contents-dynamic-style-queries.html",
+      "css/css-conditional/container-queries/multiple-style-containers-comma-separated-queries.html",
+      "css/css-conditional/container-queries/nested-size-style-container-invalidation.html",
+      "css/css-conditional/container-queries/pseudo-elements-005.html",
+      "css/css-conditional/container-queries/query-evaluation-style.html",
+      "css/css-conditional/container-queries/registered-color-style-queries.html",
+      "css/css-conditional/container-queries/style-container-*",
+      "css/css-conditional/container-queries/style-query-*"
+    ]
+  },
+  "print-color-adjust": {
+    "url": "https://wpt.fyi/results?q=feature:print-color-adjust",
+    "tests": [
+      "css/css-color-adjust/parsing/print-color-adjust.html"
+    ]
+  },
+  "content-visibility": {
+    "url": "https://wpt.fyi/results?q=feature:content-visibility",
+    "tests": [
+      "css/css-contain/content-visibility/*"
+    ]
+  },
+  "align-content-block": {
+    "url": "https://wpt.fyi/results?q=feature:align-content-block",
+    "tests": [
+      "css/css-align/blocks/align-content-block-*"
+    ]
+  },
+  "background-clip-text": {
+    "url": "https://wpt.fyi/results?q=feature:background-clip-text",
+    "tests": [
+      "css/css-backgrounds/background-clip/clip-text-*"
+    ]
+  },
+  "pdf-viewer": {
+    "url": "https://wpt.fyi/results?q=feature:pdf-viewer",
+    "tests": [
+      "html/webappapis/system-state-and-capabilities/the-navigator-object/plugins-and-mimetypes.html"
+    ]
+  },
+  "parse-html-unsafe": {
+    "url": "https://wpt.fyi/results?q=feature:parse-html-unsafe",
+    "tests": [
+      "html/webappapis/dynamic-markup-insertion/html-unsafe-methods/*"
+    ]
+  },
+  "autofill": {
+    "url": "https://wpt.fyi/results?q=feature:autofill",
+    "tests": [
+      "html/semantics/selectors/pseudo-classes/autofill.html"
+    ]
+  },
+  "default": {
+    "url": "https://wpt.fyi/results?q=feature:default",
+    "tests": [
+      "html/semantics/selectors/pseudo-classes/default.html"
+    ]
+  },
+  "indeterminate": {
+    "url": "https://wpt.fyi/results?q=feature:indeterminate",
+    "tests": [
+      "html/semantics/selectors/pseudo-classes/checked-indeterminate.window.js",
+      "html/semantics/selectors/pseudo-classes/indeterminate*"
+    ]
+  },
+  "template": {
+    "url": "https://wpt.fyi/results?q=feature:template",
+    "tests": [
+      "html/semantics/scripting-1/the-template-element/*",
+      "html/syntax/parsing/template/*"
+    ]
+  },
+  "details-name": {
+    "url": "https://wpt.fyi/results?q=feature:details-name",
+    "tests": [
+      "html/semantics/interactive-elements/the-details-element/name-attribute.html"
+    ]
+  },
+  "constraint-validation": {
+    "url": "https://wpt.fyi/results?q=feature:constraint-validation",
+    "tests": [
+      "html/semantics/forms/the-textarea-element/textarea-setcustomvalidity.html",
+      "html/semantics/forms/the-textarea-element/textarea-validity-clone.html",
+      "html/semantics/forms/the-textarea-element/textarea-validity-valueMissing-inside-datalist.html",
+      "html/semantics/forms/the-select-element/select-setcustomvalidity.html",
+      "html/semantics/forms/the-select-element/select-validity.html",
+      "html/semantics/forms/the-select-element/select-willvalidate-readonly-attribute.html",
+      "html/semantics/forms/the-output-element/output-setcustomvalidity.html",
+      "html/semantics/forms/the-output-element/output-validity.html",
+      "html/semantics/forms/the-form-element/form-checkvalidity.html",
+      "html/semantics/forms/the-fieldset-element/fieldset-checkvalidity.html",
+      "html/semantics/forms/the-fieldset-element/fieldset-setcustomvalidity.html",
+      "html/semantics/forms/the-fieldset-element/fieldset-validationmessage.html",
+      "html/semantics/forms/the-fieldset-element/fieldset-validity.html",
+      "html/semantics/forms/the-fieldset-element/fieldset-willvalidate.html",
+      "html/semantics/forms/the-input-element/input-checkvalidity.html",
+      "html/semantics/forms/the-input-element/input-setcustomvalidity.html",
+      "html/semantics/forms/the-input-element/input-validationmessage.html",
+      "html/semantics/forms/the-input-element/input-validity.html",
+      "html/semantics/forms/the-input-element/input-willvalidate.html",
+      "html/semantics/forms/the-button-element/button-checkvalidity.html",
+      "html/semantics/forms/the-button-element/button-setcustomvalidity.html",
+      "html/semantics/forms/the-button-element/button-validation.html",
+      "html/semantics/forms/the-button-element/button-validationmessage.html",
+      "html/semantics/forms/the-button-element/button-validity.html",
+      "html/semantics/forms/the-button-element/button-willvalidate-readonly-attribute.html",
+      "html/semantics/forms/the-button-element/button-willvalidate.html",
+      "html/semantics/forms/constraints/*",
+      "html/semantics/embedded-content/the-object-element/object-setcustomvalidity.html"
+    ]
+  },
+  "dialog": {
+    "url": "https://wpt.fyi/results?q=feature:dialog",
+    "tests": [
+      "html/semantics/interactive-elements/the-dialog-element/*"
+    ]
+  },
+  "requestclose": {
+    "url": "https://wpt.fyi/results?q=feature:requestclose",
+    "tests": [
+      "html/semantics/interactive-elements/the-dialog-element/dialog-requestclose.html",
+      "html/semantics/interactive-elements/the-dialog-element/dialog-requestclose-*"
+    ]
+  },
+  "show-picker-select": {
+    "url": "https://wpt.fyi/results?q=feature:show-picker-select",
+    "tests": [
+      "html/semantics/forms/the-select-element/show-picker-*"
+    ]
+  },
+  "progress": {
+    "url": "https://wpt.fyi/results?q=feature:progress",
+    "tests": [
+      "html/semantics/forms/the-progress-element/*"
+    ]
+  },
+  "meter": {
+    "url": "https://wpt.fyi/results?q=feature:meter",
+    "tests": [
+      "html/semantics/forms/the-meter-element/*"
+    ]
+  },
+  "datalist": {
+    "url": "https://wpt.fyi/results?q=feature:datalist",
+    "tests": [
+      "html/semantics/forms/the-datalist-element/*"
+    ]
+  },
+  "show-picker-input": {
+    "url": "https://wpt.fyi/results?q=feature:show-picker-input",
+    "tests": [
+      "html/semantics/forms/the-input-element/show-picker-*"
+    ]
+  },
+  "dirname": {
+    "url": "https://wpt.fyi/results?q=feature:dirname",
+    "tests": [
+      "html/semantics/forms/attributes-common-to-form-controls/dirname-*"
+    ]
+  },
+  "loading-lazy": {
+    "url": "https://wpt.fyi/results?q=feature:loading-lazy",
+    "tests": [
+      "html/semantics/embedded-content/the-img-element/*loading-lazy*",
+      "html/semantics/embedded-content/the-img-element/image-loading-subpixel-clip.html",
+      "html/semantics/embedded-content/the-img-element/move-element-and-scroll.html",
+      "html/semantics/embedded-content/the-img-element/relevant-mutations-lazy.html",
+      "html/semantics/embedded-content/the-img-element/remove-element-and-scroll.html",
+      "html/semantics/embedded-content/the-img-element/scrolling-below-viewport-image-lazy-loading-in-iframe.html",
+      "html/semantics/embedded-content/the-iframe-element/iframe-loading-lazy*"
+    ]
+  },
+  "preserves-pitch": {
+    "url": "https://wpt.fyi/results?q=feature:preserves-pitch",
+    "tests": [
+      "html/semantics/embedded-content/media-elements/preserves-pitch.html"
+    ]
+  },
+  "search": {
+    "url": "https://wpt.fyi/results?q=feature:search",
+    "tests": [
+      "html/rendering/non-replaced-elements/flow-content-0/search-*"
+    ]
+  },
+  "writingsuggestions": {
+    "url": "https://wpt.fyi/results?q=feature:writingsuggestions",
+    "tests": [
+      "html/editing/editing-0/writing-suggestions/*"
+    ]
+  },
+  "canvas-2d-color-management": {
+    "url": "https://wpt.fyi/results?q=feature:canvas-2d-color-management",
+    "tests": [
+      "html/canvas/offscreen/wide-gamut-canvas/*",
+      "html/canvas/element/wide-gamut-canvas/*",
+      "html/canvas/offscreen/manual/wide-gamut-canvas/*",
+      "html/canvas/element/manual/wide-gamut-canvas/*"
+    ]
+  },
+  "canvas-reset": {
+    "url": "https://wpt.fyi/results?q=feature:canvas-reset",
+    "tests": [
+      "html/canvas/offscreen/reset/*",
+      "html/canvas/element/reset/*"
+    ]
+  },
+  "canvas-roundrect": {
+    "url": "https://wpt.fyi/results?q=feature:canvas-roundrect",
+    "tests": [
+      "html/canvas/offscreen/path-objects/2d.path.roundrect.*",
+      "html/canvas/element/path-objects/2d.path.roundrect.*"
+    ]
+  },
+  "canvas-createconicgradient": {
+    "url": "https://wpt.fyi/results?q=feature:canvas-createconicgradient",
+    "tests": [
+      "html/canvas/offscreen/fill-and-stroke-styles/2d.gradient.conic.*",
+      "html/canvas/element/fill-and-stroke-styles/2d.gradient.conic.*",
+      "html/canvas/element/manual/fill-and-stroke-styles/conic-gradient.html",
+      "html/canvas/element/manual/fill-and-stroke-styles/conic-gradient-rotation.html"
+    ]
+  },
+  "container-scroll-state-queries": {
+    "url": "https://wpt.fyi/results?q=feature:container-scroll-state-queries",
+    "tests": [
+      "css/css-conditional/container-queries/scroll-state/*"
+    ]
+  },
+  "color-scheme": {
+    "url": "https://wpt.fyi/results?q=feature:color-scheme",
+    "tests": [
+      "css/css-color-adjust/rendering/dark-color-scheme/*"
+    ]
+  },
+  "css-modules": {
+    "url": "https://wpt.fyi/results?q=feature:css-modules",
+    "tests": [
+      "html/semantics/scripting-1/the-script-element/css-module/*"
+    ]
+  },
+  "canvas-2d-alpha": {
+    "url": "https://wpt.fyi/results?q=feature:canvas-2d-alpha",
+    "tests": [
+      "html/canvas/element/manual/context-attributes/initial_color_alpha_false.html",
+      "html/canvas/element/manual/context-attributes/clearRect_alpha_false.html",
+      "html/canvas/element/manual/context-attributes/drawImage_alpha_false.html",
+      "html/canvas/element/manual/context-attributes/fill_alpha_false.html",
+      "html/canvas/element/manual/context-attributes/fillRect_alpha_false.html",
+      "html/canvas/element/manual/context-attributes/reset_color_alpha_false.html"
+    ]
+  }
+}

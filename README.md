@@ -18,7 +18,7 @@ If you maintain data about features of the web platform, consider creating a res
 
 ## About the files in this repository
 
-There are two types of mapping files in this repository:
+There are two types of mapping files in this repository, under the `/mappings/` folder:
 
 * Files for data sources which do not yet map to web-features IDs.
 * Files for data sources which already map to web-features IDs.
@@ -42,3 +42,25 @@ Examples of data sources which already map to web-features IDs and for which we 
 * Interop focus areas.
 * Chrome use counters.
 * web-platform-tests.
+
+## The scripts folder
+
+The `/script/` folder contains the JavaScript files that are responsible for updating the mapping files.
+
+To run these scripts:
+
+1. `cd scripts`
+1. `npm install`
+1. `node <the-script-you-want-to-run>.js`
+
+## Mapping format
+
+TODO: create a schema file.
+
+The mappings are JSON files that are formatted as follows:
+
+```json
+{
+  "a web-features id": <data that's specific to this mapping file>
+}
+```
