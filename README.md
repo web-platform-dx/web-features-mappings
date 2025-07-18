@@ -36,3 +36,9 @@ Examples of data sources which are mapped in this repository:
 ### Data sources which already map to web-features IDs
 
 Data sources which already maintain a mapping to web-features on their own still have mapping files in this repository. These files are typically updated automatically, on a schedule, for convenience. This way, this repository can be used to retrieve all currently known web-features-mapped data, whether the mapping is maintained here or elsewhere.
+
+Examples of data sources which already map to web-features IDs and for which we automatically update files in this repository:
+
+* Interop focus areas.
+* Chrome use counters.
+* web-platform-tests.
