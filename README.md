@@ -55,8 +55,6 @@ To run these scripts:
 
 ## Mapping format
 
-TODO: create a schema file.
-
 The mappings are JSON files that are formatted as follows:
 
 ```json
@@ -64,3 +62,10 @@ The mappings are JSON files that are formatted as follows:
   "a web-features id": <data that's specific to this mapping file>
 }
 ```
+
+## TODO
+
+* Add missing mapping files and scripts.
+* Run scripts on a schedule.
+* Publish consolidated data to NPM.
+* Add a schema file.
