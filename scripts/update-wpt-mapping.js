@@ -51,14 +51,14 @@ async function parseYamlFile(file) {
 }
 
 async function main() {
-  // // Create a temp folder for the wpt repo.
-  // console.log(`Create a temporary folder to clone the wpt repository.`);
-  // const tempFolder = path.join(__dirname, TEMP_FOLDER);
-  // await fs.mkdir(tempFolder, { recursive: true });
+  // Create a temp folder for the wpt repo.
+  console.log(`Create a temporary folder to clone the wpt repository.`);
+  const tempFolder = path.join(__dirname, TEMP_FOLDER);
+  await fs.mkdir(tempFolder, { recursive: true });
 
-  // // Clone the wpt repo.
-  // console.log(`Cloning ${REPO} into ${tempFolder} ...`);
-  // execSync(`git clone --depth 1 ${REPO} --branch ${BRANCH} --single-branch ${tempFolder}`);
+  // Clone the wpt repo.
+  console.log(`Cloning ${REPO} into ${tempFolder} ...`);
+  execSync(`git clone --depth 1 ${REPO} --branch ${BRANCH} --single-branch ${tempFolder}`);
 
   // Find all web features files in the repo.
   const webFeatureFiles = await findWebFeaturesFiles();
@@ -96,8 +96,8 @@ async function main() {
   await fs.writeFile(OUTPUT_FILE, JSON.stringify(mapping, null, 2));
 
   // Delete the temp folder.
-  // console.log(`Delete temporary folder ${tempFolder}.`);
-  // await fs.rm(tempFolder, { recursive: true });
+  console.log(`Delete temporary folder ${tempFolder}.`);
+  await fs.rm(tempFolder, { recursive: true });
 }
 
 main();
