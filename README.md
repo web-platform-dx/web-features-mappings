@@ -65,8 +65,12 @@ The mappings are JSON files that are formatted as follows:
 
 ## TODO
 
-* Add missing mapping files and scripts.
+* Add missing mapping files and scripts: origin-trials and standard-positions.
+* Add mapping to chromestatus entries (via spec URLs?)
+* Try to find a better way than matching on spec URLs.
+* Add mapping to TAG reviews.
 * Run scripts on a schedule.
 * Publish consolidated data to NPM.
 * Add a schema file.
 * Add mechanism to bump deps. web-features, BCD, and mdn inventory need to be up to date.
+* Migrate the explorer to use this data instead of its own.
