@@ -69,3 +69,4 @@ The mappings are JSON files that are formatted as follows:
 * Run scripts on a schedule.
 * Publish consolidated data to NPM.
 * Add a schema file.
+* Add mechanism to bump deps. web-features, BCD, and mdn inventory need to be up to date.
