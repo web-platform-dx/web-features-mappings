@@ -71,6 +71,7 @@ The mappings are JSON files that are formatted as follows:
 * Add mapping to TAG reviews.
 * Run scripts on a schedule.
 * Publish consolidated data to NPM.
+* Also create releases on GitHub so consumers can download JSON from there too.
 * Add a schema file.
 * Add mechanism to bump deps. web-features, BCD, and mdn inventory need to be up to date.
 * Migrate the explorer to use this data instead of its own.
