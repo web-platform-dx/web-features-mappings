@@ -5,8 +5,13 @@
   "devDependencies": {
     "@ddbeck/mdn-content-inventory": "^0.2.20250718",
     "@mdn/browser-compat-data": "^6.0.33",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
     "glob": "^11.0.3",
     "js-yaml": "^4.1.0",
     "web-features": "^2.41.2"
+  },
+  "scripts": {
+    "lint:schemas": "node lint-schemas.js"
   }
 }

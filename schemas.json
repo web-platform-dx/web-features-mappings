@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CombinedWebFeatureData",
+  "description": "A consolidated view of web feature data, keyed by feature ID. Data is sourced from multiple files.",
+  "type": "object",
+  "patternProperties": {
+    ".*": {
+      "$ref": "#/$defs/featureRecord"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "featureRecord": {
+      "description": "An object containing all available data for a single feature, organized by source.",
+      "type": "object",
+      "properties": {
+        "chromeUseCounters": {
+          "$ref": "#/$defs/useCounterValue"
+        },
+        "interop": {
+          "$ref": "#/$defs/interopHistory"
+        },
+        "mdnDocs": {
+          "$ref": "#/$defs/mdnLinkArray"
+        },
+        "stateOfSurveys": {
+          "$ref": "#/$defs/surveyRecordArray"
+        },
+        "wpt": {
+          "$ref": "#/$defs/wptRecord"
+        }
+      },
+      "minProperties": 1,
+      "additionalProperties": false
+    },
+    "useCounterValue": {
+      "type": "object",
+      "description": "The usage metrics for a single web feature from chrome-use-counters.json.",
+      "properties": {
+        "percentageOfPageLoad": {
+          "type": "number"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "percentageOfPageLoad",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "interopHistory": {
+      "description": "An array of Interop records from interop.json.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/interopRecord"
+      },
+      "minItems": 1
+    },
+    "interopRecord": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "integer"
+        },
+        "label": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "year",
+        "label",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "mdnLinkArray": {
+      "description": "An array of MDN documentation links from mdn-docs.json.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mdnLink"
+      },
+      "minItems": 1
+    },
+    "mdnLink": {
+      "type": "object",
+      "properties": {
+        "slug": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "slug",
+        "title",
+        "anchor",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "surveyRecordArray": {
+      "description": "An array of survey records from state-of-surveys.json.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/surveyRecord"
+      },
+      "minItems": 1
+    },
+    "surveyRecord": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "question": {
+          "type": "string"
+        },
+        "subQuestion": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "url",
+        "question",
+        "subQuestion",
+        "path"
+      ],
+      "additionalProperties": false
+    },
+    "wptRecord": {
+      "type": "object",
+      "description": "A record of Web Platform Tests from wpt.json.",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "tests": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "url",
+        "tests"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
