@@ -1,0 +1,2351 @@
+{
+  "abortsignal-any": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/774",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/166",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "accelerometer": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/347",
+      "position": "oppose",
+      "concerns": [
+        "duplication",
+        "privacy",
+        "venue",
+        "use cases",
+        "power",
+        "device independence"
+      ]
+    }
+  ],
+  "accent-color": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/540",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "active-view-transition": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/266",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "anchor-positioning": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/794",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/167",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "app-protocol-handlers": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/340",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "app-share-targets": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/176",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/11",
+      "position": "neutral",
+      "concerns": [
+        "security",
+        "integration"
+      ]
+    }
+  ],
+  "app-shortcuts": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/338",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "async-iterable-streams": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/319",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "atomics-wait-async": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/433",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "attr": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/885",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "attribution-reporting": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/791",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/180",
+      "concerns": [
+        "interoperability",
+        "venue"
+      ],
+      "position": ""
+    }
+  ],
+  "background-clip-border-area": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/379",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "background-fetch": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/30",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/149",
+      "concerns": [
+        "privacy",
+        "maintenance"
+      ],
+      "position": ""
+    }
+  ],
+  "background-sync": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/173",
+      "position": "negative",
+      "concerns": []
+    }
+  ],
+  "baseline-source": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/727",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/118",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "bigint": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/65",
+      "position": "neutral",
+      "concerns": []
+    }
+  ],
+  "blocking-render": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/608",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/300",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "calc-size": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1022",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/348",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "cascade-layers": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/471",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "clear-site-data": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/90",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/230",
+      "position": "blocked",
+      "concerns": []
+    }
+  ],
+  "clipboard-custom-format": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/43",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "clipboard-svg": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/549",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "clipboard-unsanitized-formats": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/769",
+      "position": "neutral",
+      "concerns": []
+    }
+  ],
+  "closewatcher": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/215",
+      "position": "neutral",
+      "concerns": []
+    }
+  ],
+  "colrv1": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/415",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "composed-ranges": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1055",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/376",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "compute-pressure": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/521",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/255",
+      "position": "oppose",
+      "concerns": [
+        "privacy",
+        "device independence"
+      ]
+    }
+  ],
+  "constructed-stylesheets": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/103",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/42",
+      "position": "support",
+      "concerns": [
+        "interoperability"
+      ]
+    }
+  ],
+  "contact-picker": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/153",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "contain-intrinsic-size": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/827",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/205",
+      "position": "neutral",
+      "concerns": []
+    }
+  ],
+  "container-queries": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/118",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "container-style-queries": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/686",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/57",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "content-visibility": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/135",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "controls-list": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/534",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "cookie-store": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/94",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/36",
+      "position": "blocked",
+      "concerns": [
+        "complexity",
+        "integration",
+        "API design"
+      ]
+    }
+  ],
+  "credential-management": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/172",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "cross-document-view-transitions": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/193",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "cross-fade": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/937",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/288",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "csp": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/666",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/355",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "css-modules": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/541",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/77",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "css-typed-om": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1091",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "customizable-select": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1060",
+      "position": "positive",
+      "concerns": [
+        "compatibility"
+      ]
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/386",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "customized-built-in-elements": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/97",
+      "position": "oppose",
+      "concerns": []
+    }
+  ],
+  "declarative-shadow-dom": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/335",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/12",
+      "position": "support",
+      "concerns": [
+        "integration"
+      ]
+    }
+  ],
+  "details-name": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/831",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/209",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "device-posture": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/882",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/328",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "dialog": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/388",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "display-animation": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/762",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/147",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "display-contents": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/772",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/164",
+      "position": "neutral",
+      "concerns": [
+        "accessibility"
+      ]
+    }
+  ],
+  "document-caretpositionfrompoint": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1012",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/301",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "document-picture-in-picture": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/670",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/41",
+      "concerns": [
+        "portability",
+        "device independence"
+      ],
+      "position": ""
+    }
+  ],
+  "dom": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/375",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "edit-context": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/199",
+      "position": "positive",
+      "concerns": [
+        "compatibility"
+      ]
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/243",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "element-capture": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/857",
+      "position": "negative",
+      "concerns": []
+    }
+  ],
+  "element-timing": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/192",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/84",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "event-timing": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/283",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/420",
+      "concerns": [
+        "duplication",
+        "interoperability"
+      ],
+      "position": ""
+    }
+  ],
+  "eyedropper": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/557",
+      "concerns": [
+        "integration",
+        "API design"
+      ],
+      "position": ""
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/29",
+      "concerns": [
+        "API design",
+        "maintenance"
+      ],
+      "position": ""
+    }
+  ],
+  "fedcm": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/618",
+      "position": "neutral",
+      "concerns": []
+    }
+  ],
+  "fencedframe": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/781",
+      "position": "negative",
+      "concerns": [
+        "complexity",
+        "privacy",
+        "security",
+        "use cases"
+      ]
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/173",
+      "position": "blocked",
+      "concerns": []
+    }
+  ],
+  "fetchlater": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/703",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/85",
+      "position": "support",
+      "concerns": [
+        "complexity",
+        "privacy",
+        "integration",
+        "venue",
+        "API design",
+        "maintenance"
+      ]
+    }
+  ],
+  "field-sizing": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/849",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/231",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "file-system-access": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/154",
+      "position": "negative",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/28",
+      "position": "oppose",
+      "concerns": [
+        "security"
+      ]
+    }
+  ],
+  "font-palette": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/617",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "font-palette-animation": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/925",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/276",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "forced-colors": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/463",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "form-associated-custom-elements": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/47",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "gamepad-vr": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/1",
+      "position": "support",
+      "concerns": [
+        "integration"
+      ]
+    }
+  ],
+  "geolocation": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/36",
+      "position": "negative",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/32",
+      "position": "oppose",
+      "concerns": [
+        "duplication"
+      ]
+    }
+  ],
+  "gyroscope": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/347",
+      "position": "oppose",
+      "concerns": [
+        "duplication",
+        "privacy",
+        "venue",
+        "use cases",
+        "power",
+        "device independence"
+      ]
+    }
+  ],
+  "has": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/528",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "has-slotted": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1079",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/404",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "hidden-until-found": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/612",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/246",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "highlight": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/482",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/3",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "idle-detection": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/453",
+      "position": "negative",
+      "concerns": []
+    }
+  ],
+  "if": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1167",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/453",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "iframe-credentialless": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/628",
+      "concerns": [
+        "venue"
+      ],
+      "position": ""
+    }
+  ],
+  "image-function": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/856",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "import-maps": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/146",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/39",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "inert": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/174",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "initial-letter": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/711",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/94",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "ink": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/518",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "interpolate-size": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1022",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/348",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "inverted-colors": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/853",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "jpegxl": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/522",
+      "position": "neutral",
+      "concerns": []
+    }
+  ],
+  "keyboard-lock": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/196",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/182",
+      "concerns": [
+        "compatibility",
+        "internationalization",
+        "security",
+        "integration",
+        "portability",
+        "API design",
+        "annoyance",
+        "device independence",
+        "accessibility",
+        "dependencies"
+      ],
+      "position": ""
+    }
+  ],
+  "keyboard-map": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/300",
+      "position": "negative",
+      "concerns": []
+    }
+  ],
+  "largest-contentful-paint": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/191",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/242",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "layout-instability": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/374",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "lh": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/699",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "linear-easing": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/649",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/130",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "loading-lazy": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/151",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "long-animation-frames": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/929",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/283",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "longtasks": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/171",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/52",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "managed-media-source": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/845",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "margin-trim": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/994",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "masonry": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/105",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "media-session": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/28",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "mixed-content": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/668",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/124",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "modulepreload": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/81",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "motion-path": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/802",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/187",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "navigation": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/543",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/34",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "nesting": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1048",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/369",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "network-information": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/117",
+      "position": "negative",
+      "concerns": []
+    }
+  ],
+  "non-cookie-storage-access": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/898",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "observable": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/945",
+      "concerns": [
+        "complexity",
+        "venue"
+      ],
+      "position": ""
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/292",
+      "position": "support",
+      "concerns": [
+        "venue"
+      ]
+    }
+  ],
+  "open-closed": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1085",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/413",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "orientation-sensor": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/347",
+      "position": "oppose",
+      "concerns": [
+        "duplication",
+        "privacy",
+        "venue",
+        "use cases",
+        "power",
+        "device independence"
+      ]
+    }
+  ],
+  "overflow-clip-margin": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1111",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/427",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "overlay": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/777",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/169",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "page-orientation": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/346",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "paint": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1089",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "partitioned-cookies": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/678",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/50",
+      "position": "support",
+      "concerns": [
+        "performance"
+      ]
+    }
+  ],
+  "payment-handler": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/23",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "performance": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/424",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "permissions": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/19",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "picture-in-picture": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/187",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "popover": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/698",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "portal": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/157",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "prefers-color-scheme": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/393",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "prefers-contrast": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/393",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "prefers-reduced-data": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/219",
+      "concerns": [
+        "privacy"
+      ],
+      "position": ""
+    }
+  ],
+  "prefers-reduced-motion": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/393",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "prefers-reduced-transparency": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/145",
+      "concerns": [
+        "privacy"
+      ],
+      "position": ""
+    }
+  ],
+  "preloading-responsive-images": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/130",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "presentation-api": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/180",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "private-click-measurement": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/161",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "private-network-access": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/143",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "profiler": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/477",
+      "concerns": [
+        "security"
+      ],
+      "position": ""
+    }
+  ],
+  "readable-byte-streams": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/430",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "reading-flow": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1056",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/378",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "relative-color": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/841",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "reporting": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/104",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "request-video-frame-callback": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/250",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "resource-timing": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1108",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/424",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "rlh": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/699",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "scheduler": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/546",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "scope": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/472",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/13",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "screen-wake-lock": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/210",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/63",
+      "position": "support",
+      "concerns": [
+        "power"
+      ]
+    }
+  ],
+  "scroll-driven-animations": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/347",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/152",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "scroll-snap-events": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1008",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/333",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "scroll-to-text-fragment": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/194",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "scrollbar-color": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/134",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "scrollbar-gutter": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/488",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/135",
+      "position": "neutral",
+      "concerns": []
+    }
+  ],
+  "scrollbar-width": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/133",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "scrollend": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/150",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "search": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/610",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "serial": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/336",
+      "position": "neutral",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/199",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "shadow-dom": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1094",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "share": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/27",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "shared-storage": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/646",
+      "position": "negative",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/10",
+      "concerns": [
+        "complexity",
+        "interoperability",
+        "privacy",
+        "dependencies"
+      ],
+      "position": ""
+    }
+  ],
+  "show-picker-select": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/897",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/258",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "sibling-count": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1194",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/471",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "speculation-rules": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/620",
+      "position": "neutral",
+      "concerns": [
+        "complexity"
+      ]
+    }
+  ],
+  "speech-recognition": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/170",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "speech-synthesis": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/170",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "starting-style": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/833",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/210",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "storage-access": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/280",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "storage-buckets": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/475",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/181",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "streams": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/430",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "stretch": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1054",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/401",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "subgrid": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/125",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "summarizer": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1067",
+      "position": "negative",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/393",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "template": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1098",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "temporal": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/498",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "text-box": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/432",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "text-spacing-trim": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/903",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "text-wrap-balance": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/755",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/143",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "text-wrap-pretty": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/993",
+      "position": "positive",
+      "concerns": [
+        "compatibility",
+        "complexity"
+      ]
+    }
+  ],
+  "text-wrap-style": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/993",
+      "position": "positive",
+      "concerns": [
+        "compatibility",
+        "complexity"
+      ]
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/324",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "transition-behavior": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/763",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/148",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "trusted-types": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/20",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/186",
+      "position": "support",
+      "concerns": [
+        "complexity"
+      ]
+    }
+  ],
+  "ua-client-hints": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/202",
+      "position": "neutral",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/70",
+      "position": "blocked",
+      "concerns": [
+        "interoperability",
+        "privacy"
+      ]
+    }
+  ],
+  "url": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/759",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "urlpattern": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/566",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/61",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "user-activation": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/838",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "vibration": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/907",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/267",
+      "position": "oppose",
+      "concerns": [
+        "integration",
+        "use cases",
+        "portability",
+        "power",
+        "annoyance",
+        "device independence"
+      ]
+    }
+  ],
+  "view-transition-class": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/988",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/321",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "view-transitions": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/677",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/48",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "viewport-units": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/605",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "virtual-keyboard": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/16",
+      "concerns": [
+        "device independence"
+      ],
+      "position": ""
+    }
+  ],
+  "virtual-pressure-sources": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/255",
+      "position": "oppose",
+      "concerns": [
+        "privacy",
+        "device independence"
+      ]
+    }
+  ],
+  "wasm-exception-handling": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/573",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "wasm-simd": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/491",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "wasm-simd-relaxed": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/651",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/4",
+      "position": "neutral",
+      "concerns": []
+    }
+  ],
+  "web-bluetooth": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/95",
+      "position": "negative",
+      "concerns": []
+    }
+  ],
+  "web-cryptography": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/67",
+      "position": "support",
+      "concerns": [
+        "venue"
+      ]
+    }
+  ],
+  "web-locks": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/64",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "web-midi": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/58",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "web-nfc": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/238",
+      "position": "negative",
+      "concerns": []
+    }
+  ],
+  "webauthn": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/163",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "webcodecs": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/209",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "webdriver-bidi": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/632",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/240",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "webgpu": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/239",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "webhid": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/459",
+      "position": "negative",
+      "concerns": []
+    }
+  ],
+  "webrtc-encoded-transform": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/330",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "webrtc-stats": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1202",
+      "position": "positive",
+      "concerns": []
+    }
+  ],
+  "webtransport": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/167",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/18",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "webusb": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/100",
+      "position": "negative",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/68",
+      "concerns": [
+        "privacy",
+        "security",
+        "device independence"
+      ],
+      "position": ""
+    }
+  ],
+  "webxr-anchors": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/351",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "webxr-camera": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/667",
+      "position": "defer",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/37",
+      "position": "oppose",
+      "concerns": [
+        "privacy"
+      ]
+    }
+  ],
+  "webxr-depth-sensing": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/487",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "webxr-device": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/218",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/155",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "webxr-hand-input": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1070",
+      "position": "defer",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/395",
+      "position": "support",
+      "concerns": []
+    }
+  ],
+  "webxr-hit-test": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/259",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "webxr-layers": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/412",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "window-controls-overlay": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/529",
+      "position": "defer",
+      "concerns": []
+    }
+  ],
+  "word-break-auto-phrase": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/877",
+      "position": "",
+      "concerns": []
+    }
+  ],
+  "zoom": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/977",
+      "position": "positive",
+      "concerns": []
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/311",
+      "position": "",
+      "concerns": []
+    }
+  ]
+}

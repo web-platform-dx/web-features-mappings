@@ -65,10 +65,11 @@ The mappings are JSON files that are formatted as follows:
 
 ## TODO
 
-* Add missing mapping files and scripts: origin-trials and standard-positions.
+* Add mapping to origin trials.
+* Add mapping to TAG reviews.
 * Add mapping to chromestatus entries (via spec URLs?)
 * Try to find a better way than matching on spec URLs.
-* Add mapping to TAG reviews.
+* Find a way to detect new standards positions automatically.
 * Run scripts on a schedule.
 * Publish consolidated data to NPM.
 * Also create releases on GitHub so consumers can download JSON from there too.
