@@ -45,7 +45,7 @@ Examples of data sources which already map to web-features IDs and for which we 
 
 ## The scripts folder
 
-The `/script/` folder contains the JavaScript files that are responsible for updating the mapping files.
+The `/scripts/` folder contains the JavaScript files that are responsible for updating the mapping files.
 
 To run these scripts:
 
@@ -60,6 +60,20 @@ The mappings are JSON files that are formatted as follows:
 ```json
 {
   "a web-features id": <data that's specific to this mapping file>
+}
+```
+
+## Combined data
+
+The `combine` script generates a `web-features-mappings.combined.json` file in the root of the repository. This file contains all the mapping data from the `mappings` folder, combined into a single file.
+
+The format of the combined file is as follows:
+
+```json
+{
+  "chrome-use-counters": { ... },
+  "interop": { ... },
+  ...
 }
 ```
 
