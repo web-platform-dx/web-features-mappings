@@ -3,10 +3,10 @@
   "name": "web-features-mappings",
   "description": "Maintain mapping files between web-features IDs and web platform-related data sources.",
   "devDependencies": {
-    "@ddbeck/mdn-content-inventory": "^0.2.20250718",
-    "@mdn/browser-compat-data": "^6.0.33",
+    "@ddbeck/mdn-content-inventory": "^0.2.20250828",
+    "@mdn/browser-compat-data": "^7.1.0",
     "glob": "^11.0.3",
     "js-yaml": "^4.1.0",
-    "web-features": "^2.41.2"
+    "web-features": "^2.45.0"
   }
 }

@@ -1,7 +1,7 @@
 // The script partially updates the mdn-docs.json mapping file.
 // Partially, because the mdn-docs.json file is mostly maintained manually.
 // This script adds missing web-features IDs to the mdn-docs.json file
-// and updates docs URLs whenpossible, meaning when the BCD keys which a 
+// and updates docs URLs when possible, meaning when the BCD keys which a 
 // feature depends on have a single MDN URL.
 // Indeed, if we unconditionally used all the MDN URLs from the BCD keys of
 // a feature, we would sometimes end up with many URLs for a single feature,
@@ -92,7 +92,7 @@ async function main() {
 
     // If there's only a few MDN URLs, add them to the mapping, it's most
     // likely the right ones.
-    if (mdnSlugsBasedOnBCDKeys.length >= MAX_NUMBER_OF_ALLOWED_MDN_URLS) {
+    if (mdnSlugsBasedOnBCDKeys.length > 0 && mdnSlugsBasedOnBCDKeys.length <= MAX_NUMBER_OF_ALLOWED_MDN_URLS) {
       existingMapping[id] = mdnSlugsBasedOnBCDKeys.map(slug => {
         return { slug };
       });
