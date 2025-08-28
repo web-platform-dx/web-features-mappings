@@ -10084,5 +10084,147 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Tag/type"
     }
+  ],
+  "active-view-transition": [
+    {
+      "slug": "Web/CSS/:active-view-transition",
+      "title": ":active-view-transition",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/:active-view-transition"
+    }
+  ],
+  "early-data": [
+    {
+      "slug": "Web/HTTP/Reference/Headers/Early-Data",
+      "title": "Early-Data header",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Early-Data"
+    },
+    {
+      "slug": "Web/HTTP/Reference/Status/425",
+      "title": "425 Too Early",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Status/425"
+    }
+  ],
+  "escape-unescape": [
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/escape",
+      "title": "escape()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/escape"
+    },
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/unescape",
+      "title": "unescape()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/unescape"
+    }
+  ],
+  "if": [
+    {
+      "slug": "Web/CSS/if",
+      "title": "if()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/if"
+    }
+  ],
+  "imagebitmaprenderingcontext": [
+    {
+      "slug": "Web/API/ImageBitmapRenderingContext",
+      "title": "ImageBitmapRenderingContext",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext"
+    },
+    {
+      "slug": "Web/API/ImageBitmapRenderingContext/canvas",
+      "title": "ImageBitmapRenderingContext: canvas property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext/canvas"
+    },
+    {
+      "slug": "Web/API/ImageBitmapRenderingContext/transferFromImageBitmap",
+      "title": "ImageBitmapRenderingContext: transferFromImageBitmap() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext/transferFromImageBitmap"
+    }
+  ],
+  "is-input-pending": [
+    {
+      "slug": "Web/API/Navigator/scheduling",
+      "title": "Navigator: scheduling property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Navigator/scheduling"
+    },
+    {
+      "slug": "Web/API/Scheduling",
+      "title": "Scheduling",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Scheduling"
+    },
+    {
+      "slug": "Web/API/Scheduling/isInputPending",
+      "title": "Scheduling: isInputPending() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Scheduling/isInputPending"
+    }
+  ],
+  "object-hasown": [
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/Object/hasOwn",
+      "title": "Object.hasOwn()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn"
+    }
+  ],
+  "ruby-overhang": [
+    {
+      "slug": "Web/CSS/ruby-overhang",
+      "title": "ruby-overhang",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-overhang"
+    }
+  ],
+  "scroll-markers": [
+    {
+      "slug": "Web/CSS/scroll-marker-group",
+      "title": "scroll-marker-group",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-marker-group"
+    },
+    {
+      "slug": "Web/CSS/::scroll-marker",
+      "title": "::scroll-marker",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/::scroll-marker"
+    },
+    {
+      "slug": "Web/CSS/::scroll-marker-group",
+      "title": "::scroll-marker-group",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/::scroll-marker-group"
+    }
+  ],
+  "sibling-count": [
+    {
+      "slug": "Web/CSS/sibling-count",
+      "title": "sibling-count()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/sibling-count"
+    },
+    {
+      "slug": "Web/CSS/sibling-index",
+      "title": "sibling-index()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/sibling-index"
+    }
+  ],
+  "transferable-streams": [
+    {
+      "slug": "Web/API/Web_Workers_API/Transferable_objects",
+      "title": "Transferable objects",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Transferable_objects"
+    }
   ]
 }

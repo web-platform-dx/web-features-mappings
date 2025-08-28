@@ -394,11 +394,9 @@
     {
       "vendor": "webkit",
       "url": "https://github.com/WebKit/standards-positions/issues/36",
-      "position": "blocked",
+      "position": "support",
       "concerns": [
-        "complexity",
-        "integration",
-        "API design"
+        "integration"
       ]
     }
   ],
@@ -592,8 +590,10 @@
     {
       "vendor": "mozilla",
       "url": "https://github.com/mozilla/standards-positions/issues/670",
-      "position": "",
-      "concerns": []
+      "position": "positive",
+      "concerns": [
+        "device independence"
+      ]
     },
     {
       "vendor": "webkit",
@@ -619,7 +619,8 @@
       "url": "https://github.com/mozilla/standards-positions/issues/199",
       "position": "positive",
       "concerns": [
-        "compatibility"
+        "compatibility",
+        "accessibility"
       ]
     },
     {
@@ -1731,7 +1732,7 @@
     {
       "vendor": "mozilla",
       "url": "https://github.com/mozilla/standards-positions/issues/1194",
-      "position": "",
+      "position": "positive",
       "concerns": []
     },
     {
@@ -2239,7 +2240,7 @@
         "security",
         "device independence"
       ],
-      "position": ""
+      "position": "oppose"
     }
   ],
   "webxr-anchors": [
@@ -2344,7 +2345,7 @@
     {
       "vendor": "webkit",
       "url": "https://github.com/WebKit/standards-positions/issues/311",
-      "position": "",
+      "position": "support",
       "concerns": []
     }
   ]
