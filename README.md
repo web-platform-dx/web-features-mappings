@@ -70,9 +70,9 @@ The mappings are JSON files that are formatted as follows:
 * Add mapping to chromestatus entries (via spec URLs?)
 * Try to find a better way than matching on spec URLs.
 * Find a way to detect new standards positions automatically.
+* Add mechanism to bump deps. web-features, BCD, and mdn inventory need to be up to date.
 * Run scripts on a schedule.
 * Publish consolidated data to NPM.
 * Also create releases on GitHub so consumers can download JSON from there too.
-* Add a schema file.
-* Add mechanism to bump deps. web-features, BCD, and mdn inventory need to be up to date.
+* Add a schema file (see #1).
 * Migrate the explorer to use this data instead of its own.
