@@ -1,4 +1,10 @@
 {
+  "xhr": {
+    "url": "https://wpt.fyi/results?q=feature:xhr",
+    "tests": [
+      "xhr/*"
+    ]
+  },
   "request-animation-frame-workers": {
     "url": "https://wpt.fyi/results?q=feature:request-animation-frame-workers",
     "tests": [
@@ -29,16 +35,16 @@
       "webtransport/*"
     ]
   },
+  "websockets": {
+    "url": "https://wpt.fyi/results?q=feature:websockets",
+    "tests": [
+      "websockets/*"
+    ]
+  },
   "webrtc-encoded-transform": {
     "url": "https://wpt.fyi/results?q=feature:webrtc-encoded-transform",
     "tests": [
       "webrtc-encoded-transform/*"
-    ]
-  },
-  "web-midi": {
-    "url": "https://wpt.fyi/results?q=feature:web-midi",
-    "tests": [
-      "webmidi/*"
     ]
   },
   "webrtc-sctp": {
@@ -47,17 +53,23 @@
       "webrtc/RTCSctpTransport-*"
     ]
   },
-  "messageerror": {
-    "url": "https://wpt.fyi/results?q=feature:messageerror",
+  "web-midi": {
+    "url": "https://wpt.fyi/results?q=feature:web-midi",
     "tests": [
-      "webmessaging/messageerror.html",
-      "webmessaging/postMessage_CryptoKey_insecure.sub.html"
+      "webmidi/*"
     ]
   },
   "webhid": {
     "url": "https://wpt.fyi/results?q=feature:webhid",
     "tests": [
       "webhid/*"
+    ]
+  },
+  "messageerror": {
+    "url": "https://wpt.fyi/results?q=feature:messageerror",
+    "tests": [
+      "webmessaging/messageerror.html",
+      "webmessaging/postMessage_CryptoKey_insecure.sub.html"
     ]
   },
   "webcodecs": {
@@ -70,12 +82,6 @@
     "url": "https://wpt.fyi/results?q=feature:webauthn-public-key-easy",
     "tests": [
       "webauthn/createcredential-getpublickey.https.html"
-    ]
-  },
-  "web-locks": {
-    "url": "https://wpt.fyi/results?q=feature:web-locks",
-    "tests": [
-      "web-locks/*"
     ]
   },
   "web-animations": {
@@ -96,10 +102,10 @@
       "viewport-segments/*"
     ]
   },
-  "viewport": {
-    "url": "https://wpt.fyi/results?q=feature:viewport",
+  "web-locks": {
+    "url": "https://wpt.fyi/results?q=feature:web-locks",
     "tests": [
-      "viewport/*"
+      "web-locks/*"
     ]
   },
   "request-video-frame-callback": {
@@ -108,16 +114,40 @@
       "video-rvfc/*"
     ]
   },
+  "vibration": {
+    "url": "https://wpt.fyi/results?q=feature:vibration",
+    "tests": [
+      "vibration/*"
+    ]
+  },
+  "viewport": {
+    "url": "https://wpt.fyi/results?q=feature:viewport",
+    "tests": [
+      "viewport/*"
+    ]
+  },
   "urlpattern": {
     "url": "https://wpt.fyi/results?q=feature:urlpattern",
     "tests": [
       "urlpattern/*"
     ]
   },
+  "upgrade-insecure-requests": {
+    "url": "https://wpt.fyi/results?q=feature:upgrade-insecure-requests",
+    "tests": [
+      "upgrade-insecure-requests/*"
+    ]
+  },
   "url-canparse": {
     "url": "https://wpt.fyi/results?q=feature:url-canparse",
     "tests": [
       "url/url-statics-canparse.*"
+    ]
+  },
+  "touch-events": {
+    "url": "https://wpt.fyi/results?q=feature:touch-events",
+    "tests": [
+      "touch-events/*"
     ]
   },
   "trusted-types": {
@@ -141,6 +171,12 @@
       "streams/readable-streams/crashtests/strategy-worker.js"
     ]
   },
+  "storage-access": {
+    "url": "https://wpt.fyi/results?q=feature:storage-access",
+    "tests": [
+      "storage-access-api/*"
+    ]
+  },
   "speech-recognition": {
     "url": "https://wpt.fyi/results?q=feature:speech-recognition",
     "tests": [
@@ -157,12 +193,6 @@
     "url": "https://wpt.fyi/results?q=feature:speculation-rules",
     "tests": [
       "speculation-rules/*"
-    ]
-  },
-  "storage-access": {
-    "url": "https://wpt.fyi/results?q=feature:storage-access",
-    "tests": [
-      "storage-access-api/*"
     ]
   },
   "shadow-dom": {
@@ -191,10 +221,16 @@
       "server-timing/*"
     ]
   },
-  "scroll-driven-animations": {
-    "url": "https://wpt.fyi/results?q=feature:scroll-driven-animations",
+  "serial": {
+    "url": "https://wpt.fyi/results?q=feature:serial",
     "tests": [
-      "scroll-animations/*"
+      "serial/*"
+    ]
+  },
+  "selection-api": {
+    "url": "https://wpt.fyi/results?q=feature:selection-api",
+    "tests": [
+      "selection/*"
     ]
   },
   "scroll-to-text-fragment": {
@@ -208,10 +244,34 @@
       "css/css-contain/content-visibility/content-visibility-auto-text-fragment.html"
     ]
   },
+  "scroll-driven-animations": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-driven-animations",
+    "tests": [
+      "scroll-animations/*"
+    ]
+  },
   "screen-wake-lock": {
     "url": "https://wpt.fyi/results?q=feature:screen-wake-lock",
     "tests": [
       "screen-wake-lock/*"
+    ]
+  },
+  "screen-orientation": {
+    "url": "https://wpt.fyi/results?q=feature:screen-orientation",
+    "tests": [
+      "screen-orientation/*"
+    ]
+  },
+  "window-management": {
+    "url": "https://wpt.fyi/results?q=feature:window-management",
+    "tests": [
+      "screen-details/*"
+    ]
+  },
+  "screen-capture": {
+    "url": "https://wpt.fyi/results?q=feature:screen-capture",
+    "tests": [
+      "screen-capture/*"
     ]
   },
   "scheduler": {
@@ -220,16 +280,64 @@
       "scheduler/*"
     ]
   },
+  "savedata": {
+    "url": "https://wpt.fyi/results?q=feature:savedata",
+    "tests": [
+      "savedata/*"
+    ]
+  },
+  "sanitizer": {
+    "url": "https://wpt.fyi/results?q=feature:sanitizer",
+    "tests": [
+      "sanitizer-api/*"
+    ]
+  },
+  "resize-observer": {
+    "url": "https://wpt.fyi/results?q=feature:resize-observer",
+    "tests": [
+      "resize-observer/*"
+    ]
+  },
   "requestidlecallback": {
     "url": "https://wpt.fyi/results?q=feature:requestidlecallback",
     "tests": [
       "requestidlecallback/*"
     ]
   },
+  "reporting": {
+    "url": "https://wpt.fyi/results?q=feature:reporting",
+    "tests": [
+      "reporting/*"
+    ]
+  },
   "remote-playback": {
     "url": "https://wpt.fyi/results?q=feature:remote-playback",
     "tests": [
       "remote-playback/*"
+    ]
+  },
+  "resource-timing": {
+    "url": "https://wpt.fyi/results?q=feature:resource-timing",
+    "tests": [
+      "resource-timing/*"
+    ]
+  },
+  "referrer-policy": {
+    "url": "https://wpt.fyi/results?q=feature:referrer-policy",
+    "tests": [
+      "referrer-policy/*"
+    ]
+  },
+  "private-click-measurement": {
+    "url": "https://wpt.fyi/results?q=feature:private-click-measurement",
+    "tests": [
+      "private-click-measurement/*"
+    ]
+  },
+  "presentation-api": {
+    "url": "https://wpt.fyi/results?q=feature:presentation-api",
+    "tests": [
+      "presentation-api/*"
     ]
   },
   "modulepreload": {
@@ -251,10 +359,40 @@
       "pointerlock/*"
     ]
   },
+  "pointer-events-api": {
+    "url": "https://wpt.fyi/results?q=feature:pointer-events-api",
+    "tests": [
+      "pointerevents/*"
+    ]
+  },
   "picture-in-picture": {
     "url": "https://wpt.fyi/results?q=feature:picture-in-picture",
     "tests": [
       "picture-in-picture/*"
+    ]
+  },
+  "permissions": {
+    "url": "https://wpt.fyi/results?q=feature:permissions",
+    "tests": [
+      "permissions/*"
+    ]
+  },
+  "payment-request": {
+    "url": "https://wpt.fyi/results?q=feature:payment-request",
+    "tests": [
+      "payment-request/*"
+    ]
+  },
+  "payment-handler": {
+    "url": "https://wpt.fyi/results?q=feature:payment-handler",
+    "tests": [
+      "payment-handler/*"
+    ]
+  },
+  "paint-timing": {
+    "url": "https://wpt.fyi/results?q=feature:paint-timing",
+    "tests": [
+      "paint-timing/*"
     ]
   },
   "page-visibility-state": {
@@ -263,16 +401,76 @@
       "page-visibility/visibility-state-entry.tentative.html"
     ]
   },
+  "page-lifecycle": {
+    "url": "https://wpt.fyi/results?q=feature:page-lifecycle",
+    "tests": [
+      "page-lifecycle/*"
+    ]
+  },
+  "orientation-sensor": {
+    "url": "https://wpt.fyi/results?q=feature:orientation-sensor",
+    "tests": [
+      "orientation-sensor/*"
+    ]
+  },
   "device-orientation-events": {
     "url": "https://wpt.fyi/results?q=feature:device-orientation-events",
     "tests": [
       "orientation-event/*"
     ]
   },
+  "notifications": {
+    "url": "https://wpt.fyi/results?q=feature:notifications",
+    "tests": [
+      "notifications/*"
+    ]
+  },
+  "network-information": {
+    "url": "https://wpt.fyi/results?q=feature:network-information",
+    "tests": [
+      "netinfo/*"
+    ]
+  },
+  "navigation-timing": {
+    "url": "https://wpt.fyi/results?q=feature:navigation-timing",
+    "tests": [
+      "navigation-timing/*"
+    ]
+  },
   "navigation": {
     "url": "https://wpt.fyi/results?q=feature:navigation",
     "tests": [
       "navigation-api/*"
+    ]
+  },
+  "mixed-content": {
+    "url": "https://wpt.fyi/results?q=feature:mixed-content",
+    "tests": [
+      "mixed-content/*"
+    ]
+  },
+  "media-session": {
+    "url": "https://wpt.fyi/results?q=feature:media-session",
+    "tests": [
+      "mediasession/*"
+    ]
+  },
+  "mediastream-recording": {
+    "url": "https://wpt.fyi/results?q=feature:mediastream-recording",
+    "tests": [
+      "mediacapture-record/*"
+    ]
+  },
+  "media-source": {
+    "url": "https://wpt.fyi/results?q=feature:media-source",
+    "tests": [
+      "media-source/*"
+    ]
+  },
+  "media-capabilities": {
+    "url": "https://wpt.fyi/results?q=feature:media-capabilities",
+    "tests": [
+      "media-capabilities/*"
     ]
   },
   "media-playback-quality": {
@@ -287,6 +485,30 @@
       "mathml/*"
     ]
   },
+  "measure-memory": {
+    "url": "https://wpt.fyi/results?q=feature:measure-memory",
+    "tests": [
+      "measure-memory/*"
+    ]
+  },
+  "magnetometer": {
+    "url": "https://wpt.fyi/results?q=feature:magnetometer",
+    "tests": [
+      "magnetometer/*"
+    ]
+  },
+  "long-animation-frames": {
+    "url": "https://wpt.fyi/results?q=feature:long-animation-frames",
+    "tests": [
+      "long-animation-frame/*"
+    ]
+  },
+  "longtasks": {
+    "url": "https://wpt.fyi/results?q=feature:longtasks",
+    "tests": [
+      "longtask-timing/*"
+    ]
+  },
   "layout-instability": {
     "url": "https://wpt.fyi/results?q=feature:layout-instability",
     "tests": [
@@ -297,12 +519,6 @@
     "url": "https://wpt.fyi/results?q=feature:largest-contentful-paint",
     "tests": [
       "largest-contentful-paint/*"
-    ]
-  },
-  "long-animation-frames": {
-    "url": "https://wpt.fyi/results?q=feature:long-animation-frames",
-    "tests": [
-      "long-animation-frame/*"
     ]
   },
   "profiler": {
@@ -335,6 +551,12 @@
       "import-maps/*"
     ]
   },
+  "indexeddb": {
+    "url": "https://wpt.fyi/results?q=feature:indexeddb",
+    "tests": [
+      "IndexedDB/*"
+    ]
+  },
   "idle-detection": {
     "url": "https://wpt.fyi/results?q=feature:idle-detection",
     "tests": [
@@ -347,6 +569,42 @@
       "html-media-capture/*"
     ]
   },
+  "hsts": {
+    "url": "https://wpt.fyi/results?q=feature:hsts",
+    "tests": [
+      "hsts/*"
+    ]
+  },
+  "gyroscope": {
+    "url": "https://wpt.fyi/results?q=feature:gyroscope",
+    "tests": [
+      "gyroscope/*"
+    ]
+  },
+  "geolocation": {
+    "url": "https://wpt.fyi/results?q=feature:geolocation",
+    "tests": [
+      "geolocation/*"
+    ]
+  },
+  "gamepad": {
+    "url": "https://wpt.fyi/results?q=feature:gamepad",
+    "tests": [
+      "gamepad/*"
+    ]
+  },
+  "fullscreen": {
+    "url": "https://wpt.fyi/results?q=feature:fullscreen",
+    "tests": [
+      "fullscreen/*"
+    ]
+  },
+  "local-fonts": {
+    "url": "https://wpt.fyi/results?q=feature:local-fonts",
+    "tests": [
+      "font-access/*"
+    ]
+  },
   "forced-colors": {
     "url": "https://wpt.fyi/results?q=feature:forced-colors",
     "tests": [
@@ -355,6 +613,12 @@
       "css/mediaqueries/forced-colors.html",
       "css/css-forced-color-adjust/*",
       "css/css-forced-color-adjust/parsing/*"
+    ]
+  },
+  "file": {
+    "url": "https://wpt.fyi/results?q=feature:file",
+    "tests": [
+      "FileAPI/*"
     ]
   },
   "file-system-access": {
@@ -370,16 +634,40 @@
       "file-system-access/opaque-origin.https.window.js"
     ]
   },
+  "fedcm": {
+    "url": "https://wpt.fyi/results?q=feature:fedcm",
+    "tests": [
+      "fedcm/*"
+    ]
+  },
+  "eyedropper": {
+    "url": "https://wpt.fyi/results?q=feature:eyedropper",
+    "tests": [
+      "eyedropper/*"
+    ]
+  },
+  "fencedframe": {
+    "url": "https://wpt.fyi/results?q=feature:fencedframe",
+    "tests": [
+      "fenced-frame/*"
+    ]
+  },
+  "server-sent-events": {
+    "url": "https://wpt.fyi/results?q=feature:server-sent-events",
+    "tests": [
+      "eventsource/*"
+    ]
+  },
   "event-timing": {
     "url": "https://wpt.fyi/results?q=feature:event-timing",
     "tests": [
       "event-timing/*"
     ]
   },
-  "fullscreen": {
-    "url": "https://wpt.fyi/results?q=feature:fullscreen",
+  "encrypted-media-extensions": {
+    "url": "https://wpt.fyi/results?q=feature:encrypted-media-extensions",
     "tests": [
-      "fullscreen/*"
+      "encrypted-media/*"
     ]
   },
   "document-picture-in-picture": {
@@ -392,6 +680,12 @@
     "url": "https://wpt.fyi/results?q=feature:device-posture",
     "tests": [
       "device-posture/*"
+    ]
+  },
+  "device-memory": {
+    "url": "https://wpt.fyi/results?q=feature:device-memory",
+    "tests": [
+      "device-memory/*"
     ]
   },
   "autonomous-custom-elements": {
@@ -411,6 +705,7 @@
       "custom-elements/registries/define.html",
       "custom-elements/registries/per-global.html",
       "custom-elements/registries/upgrade.html",
+      "custom-elements/reactions/*",
       "custom-elements/parser/parser-constructs-custom-element-in-document-write.html",
       "custom-elements/parser/parser-constructs-custom-element-synchronously.html",
       "custom-elements/parser/parser-constructs-custom-elements-with-is.html",
@@ -420,7 +715,6 @@
       "custom-elements/parser/parser-sets-attributes-and-children.html",
       "custom-elements/parser/parser-uses-constructed-element.html",
       "custom-elements/parser/parser-uses-registry-of-owner-document.html",
-      "custom-elements/reactions/*",
       "custom-elements/htmlconstructor/newtarget.html"
     ]
   },
@@ -439,6 +733,42 @@
       "custom-elements/parser/serializing-html-fragments-customized-builtins.html",
       "custom-elements/htmlconstructor/newtarget-customized-builtins.html",
       "custom-elements/reactions/customized-builtins/*"
+    ]
+  },
+  "credential-management": {
+    "url": "https://wpt.fyi/results?q=feature:credential-management",
+    "tests": [
+      "credential-management/*"
+    ]
+  },
+  "cors": {
+    "url": "https://wpt.fyi/results?q=feature:cors",
+    "tests": [
+      "cors/*"
+    ]
+  },
+  "cookie-store": {
+    "url": "https://wpt.fyi/results?q=feature:cookie-store",
+    "tests": [
+      "cookiestore/*"
+    ]
+  },
+  "contenteditable-plaintextonly": {
+    "url": "https://wpt.fyi/results?q=feature:contenteditable-plaintextonly",
+    "tests": [
+      "contenteditable/plaintext-only.html"
+    ]
+  },
+  "content-index": {
+    "url": "https://wpt.fyi/results?q=feature:content-index",
+    "tests": [
+      "content-index/*"
+    ]
+  },
+  "contact-picker": {
+    "url": "https://wpt.fyi/results?q=feature:contact-picker",
+    "tests": [
+      "contacts/*"
     ]
   },
   "compute-pressure": {
@@ -462,6 +792,12 @@
       "html/semantics/interactive-elements/the-dialog-element/dialog-canceling.html"
     ]
   },
+  "clear-site-data": {
+    "url": "https://wpt.fyi/results?q=feature:clear-site-data",
+    "tests": [
+      "clear-site-data/*"
+    ]
+  },
   "async-clipboard": {
     "url": "https://wpt.fyi/results?q=feature:async-clipboard",
     "tests": [
@@ -472,16 +808,22 @@
       "clipboard-apis/detached-iframe/*"
     ]
   },
-  "clear-site-data": {
-    "url": "https://wpt.fyi/results?q=feature:clear-site-data",
-    "tests": [
-      "clear-site-data/*"
-    ]
-  },
   "web-bluetooth": {
     "url": "https://wpt.fyi/results?q=feature:web-bluetooth",
     "tests": [
       "bluetooth/*"
+    ]
+  },
+  "beacons": {
+    "url": "https://wpt.fyi/results?q=feature:beacons",
+    "tests": [
+      "beacon/*"
+    ]
+  },
+  "battery": {
+    "url": "https://wpt.fyi/results?q=feature:battery",
+    "tests": [
+      "battery-status/*"
     ]
   },
   "badging": {
@@ -490,10 +832,10 @@
       "badging/*"
     ]
   },
-  "contenteditable-plaintextonly": {
-    "url": "https://wpt.fyi/results?q=feature:contenteditable-plaintextonly",
+  "background-sync": {
+    "url": "https://wpt.fyi/results?q=feature:background-sync",
     "tests": [
-      "contenteditable/plaintext-only.html"
+      "background-sync/*"
     ]
   },
   "background-fetch": {
@@ -506,6 +848,30 @@
     "url": "https://wpt.fyi/results?q=feature:avif",
     "tests": [
       "avif/*"
+    ]
+  },
+  "manifest": {
+    "url": "https://wpt.fyi/results?q=feature:manifest",
+    "tests": [
+      "appmanifest/*"
+    ]
+  },
+  "attribution-reporting": {
+    "url": "https://wpt.fyi/results?q=feature:attribution-reporting",
+    "tests": [
+      "attribution-reporting/*"
+    ]
+  },
+  "ambient-light": {
+    "url": "https://wpt.fyi/results?q=feature:ambient-light",
+    "tests": [
+      "ambient-light/*"
+    ]
+  },
+  "accelerometer": {
+    "url": "https://wpt.fyi/results?q=feature:accelerometer",
+    "tests": [
+      "accelerometer/*"
     ]
   },
   "js-modules-workers": {
@@ -531,8 +897,8 @@
     "tests": [
       "svg/scripted/attr-script-fetchpriority.html",
       "svg/embedded/attr-image-fetchpriority.html",
-      "html/semantics/the-link-element/attr-link-fetchpriority.html",
       "html/scripting/the-script-element/attr-script-fetchpriority.html",
+      "html/semantics/the-link-element/attr-link-fetchpriority.html",
       "html/embedded-content/the-img-element/attr-img-fetchpriority.html",
       "fetch/api/request/request-init-priority.any.js"
     ]
@@ -699,6 +1065,14 @@
       "css/selectors/invalidation/modal-pseudo-class-in-has.html"
     ]
   },
+  "not": {
+    "url": "https://wpt.fyi/results?q=feature:not",
+    "tests": [
+      "css/selectors/not-*",
+      "css/selectors/parsing/parse-not.html",
+      "css/selectors/invalidation/not-*"
+    ]
+  },
   "nth-child-of": {
     "url": "https://wpt.fyi/results?q=feature:nth-child-of",
     "tests": [
@@ -784,15 +1158,6 @@
       "css/cssom-view/scrollintoview.html"
     ]
   },
-  "constructed-stylesheets": {
-    "url": "https://wpt.fyi/results?q=feature:constructed-stylesheets",
-    "tests": [
-      "css/cssom/adoptedstylesheets-observablearray.html",
-      "css/cssom/CSSStyleSheet-constructable-*",
-      "css/cssom/CSSStyleSheet-constructable.html",
-      "css/cssom/CSSStyleSheet-template-adoption.html"
-    ]
-  },
   "backdrop-filter": {
     "url": "https://wpt.fyi/results?q=feature:backdrop-filter",
     "tests": [
@@ -804,10 +1169,51 @@
       "css/filter-effects/animation/backdrop-filter-*"
     ]
   },
+  "constructed-stylesheets": {
+    "url": "https://wpt.fyi/results?q=feature:constructed-stylesheets",
+    "tests": [
+      "css/cssom/adoptedstylesheets-observablearray.html",
+      "css/cssom/CSSStyleSheet-constructable-*",
+      "css/cssom/CSSStyleSheet-constructable.html",
+      "css/cssom/CSSStyleSheet-template-adoption.html"
+    ]
+  },
+  "view-transitions": {
+    "url": "https://wpt.fyi/results?q=feature:view-transitions",
+    "tests": [
+      "css/css-view-transitions/*"
+    ]
+  },
+  "view-transition-class": {
+    "url": "https://wpt.fyi/results?q=feature:view-transition-class",
+    "tests": [
+      "css/css-view-transitions/class-specificity.html",
+      "css/css-view-transitions/pseudo-with-classes-*",
+      "css/css-view-transitions/parsing/view-transition-class-*"
+    ]
+  },
+  "active-view-transition": {
+    "url": "https://wpt.fyi/results?q=feature:active-view-transition",
+    "tests": [
+      "css/css-view-transitions/active-view-transition-*"
+    ]
+  },
   "custom-properties": {
     "url": "https://wpt.fyi/results?q=feature:custom-properties",
     "tests": [
       "css/css-variables/*"
+    ]
+  },
+  "css-typed-om": {
+    "url": "https://wpt.fyi/results?q=feature:css-typed-om",
+    "tests": [
+      "css/css-typed-om/*"
+    ]
+  },
+  "numeric-factory-functions": {
+    "url": "https://wpt.fyi/results?q=feature:numeric-factory-functions",
+    "tests": [
+      "css/css-typed-om/factory-*"
     ]
   },
   "abs-sign": {
@@ -815,6 +1221,12 @@
     "tests": [
       "css/css-values/signs-abs-*",
       "css/css-transforms/transform-with-sign-function.html"
+    ]
+  },
+  "attr": {
+    "url": "https://wpt.fyi/results?q=feature:attr",
+    "tests": [
+      "css/css-values/attr-*"
     ]
   },
   "cap": {
@@ -916,38 +1328,6 @@
       "css/css-values/viewport-units-writing-mode.html"
     ]
   },
-  "view-transitions": {
-    "url": "https://wpt.fyi/results?q=feature:view-transitions",
-    "tests": [
-      "css/css-view-transitions/*"
-    ]
-  },
-  "view-transition-class": {
-    "url": "https://wpt.fyi/results?q=feature:view-transition-class",
-    "tests": [
-      "css/css-view-transitions/class-specificity.html",
-      "css/css-view-transitions/pseudo-with-classes-*",
-      "css/css-view-transitions/parsing/view-transition-class-*"
-    ]
-  },
-  "active-view-transition": {
-    "url": "https://wpt.fyi/results?q=feature:active-view-transition",
-    "tests": [
-      "css/css-view-transitions/active-view-transition-*"
-    ]
-  },
-  "css-typed-om": {
-    "url": "https://wpt.fyi/results?q=feature:css-typed-om",
-    "tests": [
-      "css/css-typed-om/*"
-    ]
-  },
-  "numeric-factory-functions": {
-    "url": "https://wpt.fyi/results?q=feature:numeric-factory-functions",
-    "tests": [
-      "css/css-typed-om/factory-*"
-    ]
-  },
   "starting-style": {
     "url": "https://wpt.fyi/results?q=feature:starting-style",
     "tests": [
@@ -1002,15 +1382,6 @@
       "css/css-text-decor/animations/text-underline-offset-*"
     ]
   },
-  "nesting": {
-    "url": "https://wpt.fyi/results?q=feature:nesting",
-    "tests": [
-      "css/css-syntax/custom-property-rule-ambiguity.html",
-      "css/css-syntax/trailing-braces.html",
-      "css/css-syntax/var-with-blocks.html",
-      "css/css-nesting/*"
-    ]
-  },
   "individual-transforms": {
     "url": "https://wpt.fyi/results?q=feature:individual-transforms",
     "tests": [
@@ -1037,10 +1408,13 @@
       "css/css-transforms/animation/perspective-*"
     ]
   },
-  "scroll-snap": {
-    "url": "https://wpt.fyi/results?q=feature:scroll-snap",
+  "nesting": {
+    "url": "https://wpt.fyi/results?q=feature:nesting",
     "tests": [
-      "css/css-scroll-snap/*"
+      "css/css-syntax/custom-property-rule-ambiguity.html",
+      "css/css-syntax/trailing-braces.html",
+      "css/css-syntax/var-with-blocks.html",
+      "css/css-nesting/*"
     ]
   },
   "scrollbar-color": {
@@ -1059,6 +1433,12 @@
     "tests": [
       "css/css-scrollbars/scrollbar-width-*",
       "css/css-scrollbars/textarea-scrollbar-width-none.html"
+    ]
+  },
+  "scroll-snap": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-snap",
+    "tests": [
+      "css/css-scroll-snap/*"
     ]
   },
   "has-slotted": {
@@ -1146,6 +1526,13 @@
       "css/css-page/pseudo-first-*"
     ]
   },
+  "masonry": {
+    "url": "https://wpt.fyi/results?q=feature:masonry",
+    "tests": [
+      "css/css-masonry/*",
+      "css/css-grid/masonry/*"
+    ]
+  },
   "function": {
     "url": "https://wpt.fyi/results?q=feature:function",
     "tests": [
@@ -1162,13 +1549,6 @@
       "css/css-mixins/basic.html",
       "css/css-mixins/declarations.html",
       "css/css-mixins/mixins-including-mixins.html"
-    ]
-  },
-  "masonry": {
-    "url": "https://wpt.fyi/results?q=feature:masonry",
-    "tests": [
-      "css/css-masonry/*",
-      "css/css-grid/masonry/*"
     ]
   },
   "masks": {
@@ -1199,6 +1579,12 @@
       "css/css-overflow/parsing/scrollbar-gutter-*"
     ]
   },
+  "overflow-overlay": {
+    "url": "https://wpt.fyi/results?q=feature:overflow-overlay",
+    "tests": [
+      "css/css-overflow/overflow-overlay.html"
+    ]
+  },
   "overflow-shorthand": {
     "url": "https://wpt.fyi/results?q=feature:overflow-shorthand",
     "tests": [
@@ -1208,16 +1594,16 @@
       "css/css-overflow/!overflow-no-interpolation.html"
     ]
   },
-  "counter-set": {
-    "url": "https://wpt.fyi/results?q=feature:counter-set",
-    "tests": [
-      "css/css-lists/counter-set-*"
-    ]
-  },
   "highlight": {
     "url": "https://wpt.fyi/results?q=feature:highlight",
     "tests": [
       "css/css-highlight-api/*"
+    ]
+  },
+  "counter-set": {
+    "url": "https://wpt.fyi/results?q=feature:counter-set",
+    "tests": [
+      "css/css-lists/counter-set-*"
     ]
   },
   "grid": {
@@ -1248,16 +1634,19 @@
       "css/css-fonts/metrics-override-normal-keyword.html"
     ]
   },
+  "paint-order": {
+    "url": "https://wpt.fyi/results?q=feature:paint-order",
+    "tests": [
+      "css/css-fill-stroke/paint-order-*",
+      "svg/painting/scripted/paint-order-*",
+      "svg/painting/parsing/paint-order-*",
+      "svg/painting/reftests/paint-order-*"
+    ]
+  },
   "linear-easing": {
     "url": "https://wpt.fyi/results?q=feature:linear-easing",
     "tests": [
       "css/css-easing/linear-timing-*"
-    ]
-  },
-  "quotes": {
-    "url": "https://wpt.fyi/results?q=feature:quotes",
-    "tests": [
-      "css/css-content/quotes-*"
     ]
   },
   "font-palette": {
@@ -1339,6 +1728,109 @@
       "css/css-fonts/parsing/font-variant-position-*"
     ]
   },
+  "attr-contents": {
+    "url": "https://wpt.fyi/results?q=feature:attr-contents",
+    "tests": [
+      "css/css-content/attr-case-sensitivity-001.html",
+      "css/css-content/attr-case-sensitivity-002.html",
+      "css/css-content/attr-case-sensitivity-003.html",
+      "css/CSS2/generated-content/content-037.xht",
+      "css/CSS2/generated-content/content-038.xht",
+      "css/CSS2/generated-content/content-039.xht",
+      "css/CSS2/generated-content/content-040.xht",
+      "css/CSS2/generated-content/content-041.xht",
+      "css/CSS2/generated-content/content-042.xht",
+      "css/CSS2/generated-content/content-043.xht",
+      "css/CSS2/generated-content/content-046.xht",
+      "css/CSS2/generated-content/content-047.xht",
+      "css/CSS2/generated-content/content-048.xht",
+      "css/CSS2/generated-content/content-049.xht",
+      "css/CSS2/generated-content/content-050.xht",
+      "css/CSS2/generated-content/content-051.xht",
+      "css/CSS2/generated-content/content-052.xht",
+      "css/CSS2/generated-content/content-053.xht",
+      "css/CSS2/generated-content/content-054.xht",
+      "css/CSS2/generated-content/content-056.xht",
+      "css/CSS2/generated-content/content-057.xht",
+      "css/CSS2/generated-content/content-063.xht",
+      "css/CSS2/generated-content/content-065.xht",
+      "css/CSS2/generated-content/content-066.xht",
+      "css/CSS2/generated-content/content-067.xht",
+      "css/CSS2/generated-content/content-068.xht",
+      "css/CSS2/generated-content/content-070.xht",
+      "css/CSS2/generated-content/content-072.xht",
+      "css/CSS2/generated-content/content-073.xht",
+      "css/CSS2/generated-content/content-075.xht",
+      "css/CSS2/generated-content/content-076.xht",
+      "css/CSS2/generated-content/content-077.xht",
+      "css/CSS2/generated-content/content-078.xht",
+      "css/CSS2/generated-content/content-080.xht",
+      "css/CSS2/generated-content/content-081.xht",
+      "css/CSS2/generated-content/content-082.xht",
+      "css/CSS2/generated-content/content-083.xht",
+      "css/CSS2/generated-content/content-085.xht",
+      "css/CSS2/generated-content/content-086.xht",
+      "css/CSS2/generated-content/content-089.xht",
+      "css/CSS2/generated-content/content-090.xht",
+      "css/CSS2/generated-content/content-091.xht",
+      "css/CSS2/generated-content/content-096.xht",
+      "css/CSS2/generated-content/content-097.xht",
+      "css/CSS2/generated-content/content-099.xht",
+      "css/CSS2/generated-content/content-100.xht",
+      "css/CSS2/generated-content/content-103.xht",
+      "css/CSS2/generated-content/content-105.xht",
+      "css/CSS2/generated-content/content-107.xht",
+      "css/CSS2/generated-content/content-108.xht",
+      "css/CSS2/generated-content/content-109.xht",
+      "css/CSS2/generated-content/content-110.xht",
+      "css/CSS2/generated-content/content-111.xht",
+      "css/CSS2/generated-content/content-112.xht",
+      "css/CSS2/generated-content/content-113.xht",
+      "css/CSS2/generated-content/content-114.xht",
+      "css/CSS2/generated-content/content-115.xht",
+      "css/CSS2/generated-content/content-116.xht",
+      "css/CSS2/generated-content/content-117.xht",
+      "css/CSS2/generated-content/content-118.xht",
+      "css/CSS2/generated-content/content-119.xht",
+      "css/CSS2/generated-content/content-121.xht",
+      "css/CSS2/generated-content/content-122.xht",
+      "css/CSS2/generated-content/content-123.xht",
+      "css/CSS2/generated-content/content-126.xht",
+      "css/CSS2/generated-content/content-127.xht",
+      "css/CSS2/generated-content/content-129.xht",
+      "css/CSS2/generated-content/content-130.xht",
+      "css/CSS2/generated-content/content-131.xht",
+      "css/CSS2/generated-content/content-132.xht",
+      "css/CSS2/generated-content/content-135.xht",
+      "css/CSS2/generated-content/content-136.xht",
+      "css/CSS2/generated-content/content-138.xht",
+      "css/CSS2/generated-content/content-140.xht",
+      "css/CSS2/generated-content/content-141.xht",
+      "css/CSS2/generated-content/content-142.xht",
+      "css/CSS2/generated-content/content-143.xht",
+      "css/CSS2/generated-content/content-144.xht",
+      "css/CSS2/generated-content/content-145.xht",
+      "css/CSS2/generated-content/content-146.xht",
+      "css/CSS2/generated-content/content-147.xht",
+      "css/CSS2/generated-content/content-149.xht",
+      "css/CSS2/generated-content/content-150.xht",
+      "css/CSS2/generated-content/content-151.xht",
+      "css/CSS2/generated-content/content-152.xht",
+      "css/CSS2/generated-content/content-153.xht",
+      "css/CSS2/generated-content/content-155.xht",
+      "css/CSS2/generated-content/content-attr-001.xht",
+      "css/CSS2/generated-content/content-attr-002.xht",
+      "css/CSS2/generated-content/content-attr-case-001.html",
+      "css/CSS2/generated-content/content-attr-case-002.xht",
+      "css/CSS2/generated-content/other-attribute-001.xht"
+    ]
+  },
+  "quotes": {
+    "url": "https://wpt.fyi/results?q=feature:quotes",
+    "tests": [
+      "css/css-content/quotes-*"
+    ]
+  },
   "contain-inline-size": {
     "url": "https://wpt.fyi/results?q=feature:contain-inline-size",
     "tests": [
@@ -1363,6 +1855,12 @@
     "url": "https://wpt.fyi/results?q=feature:revert-value",
     "tests": [
       "css/css-cascade/revert-val-*"
+    ]
+  },
+  "flexbox": {
+    "url": "https://wpt.fyi/results?q=feature:flexbox",
+    "tests": [
+      "css/css-flexbox/*"
     ]
   },
   "color-function": {
@@ -1420,10 +1918,18 @@
       "css/css-color/parsing/*-relative-*"
     ]
   },
-  "flexbox": {
-    "url": "https://wpt.fyi/results?q=feature:flexbox",
+  "animation-composition": {
+    "url": "https://wpt.fyi/results?q=feature:animation-composition",
     "tests": [
-      "css/css-flexbox/*"
+      "css/css-animations/animation-composition.html",
+      "css/css-animations/animation-composition-*",
+      "css/css-animations/parsing/animation-composition-*"
+    ]
+  },
+  "display-animation": {
+    "url": "https://wpt.fyi/results?q=feature:display-animation",
+    "tests": [
+      "css/css-animations/display-interpolation.html"
     ]
   },
   "box-decoration-break": {
@@ -1437,20 +1943,6 @@
     "url": "https://wpt.fyi/results?q=feature:page-break-aliases",
     "tests": [
       "css/css-break/page-break-legacy-shorthands.html"
-    ]
-  },
-  "animation-composition": {
-    "url": "https://wpt.fyi/results?q=feature:animation-composition",
-    "tests": [
-      "css/css-animations/animation-composition.html",
-      "css/css-animations/animation-composition-*",
-      "css/css-animations/parsing/animation-composition-*"
-    ]
-  },
-  "display-animation": {
-    "url": "https://wpt.fyi/results?q=feature:display-animation",
-    "tests": [
-      "css/css-animations/display-interpolation.html"
     ]
   },
   "anchor-positioning": {
@@ -1493,6 +1985,7 @@
       "webvtt/api/VTTCue/snapToLines.html",
       "webvtt/api/VTTCue/text.html",
       "webvtt/api/VTTCue/vertical.html",
+      "webvtt/rendering/cues-with-video/processing-model/*",
       "webvtt/parsing/file-parsing/tests/arrows.html",
       "webvtt/parsing/file-parsing/tests/comment-in-cue-text.html",
       "webvtt/parsing/file-parsing/tests/header-garbage.html",
@@ -1522,8 +2015,7 @@
       "webvtt/parsing/file-parsing/tests/timings-too-long.html",
       "webvtt/parsing/file-parsing/tests/timings-too-short.html",
       "webvtt/parsing/file-parsing/tests/whitespace-chars.html",
-      "webvtt/parsing/cue-text-parsing/tests/*",
-      "webvtt/rendering/cues-with-video/processing-model/*"
+      "webvtt/parsing/cue-text-parsing/tests/*"
     ]
   },
   "webvtt-regions": {
@@ -1563,31 +2055,31 @@
   "web-audio": {
     "url": "https://wpt.fyi/results?q=feature:web-audio",
     "tests": [
-      "webaudio/the-audio-api/the-waveshapernode-interface/*",
       "webaudio/the-audio-api/the-stereopanner-interface/*",
+      "webaudio/the-audio-api/the-waveshapernode-interface/*",
       "webaudio/the-audio-api/the-scriptprocessornode-interface/*",
+      "webaudio/the-audio-api/the-periodicwave-interface/*",
       "webaudio/the-audio-api/the-pannernode-interface/*",
       "webaudio/the-audio-api/the-oscillatornode-interface/*",
-      "webaudio/the-audio-api/the-periodicwave-interface/*",
       "webaudio/the-audio-api/the-mediastreamaudiosourcenode-interface/*",
-      "webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/*",
       "webaudio/the-audio-api/the-mediastreamaudiodestinationnode-interface/*",
+      "webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/*",
       "webaudio/the-audio-api/the-iirfilternode-interface/*",
       "webaudio/the-audio-api/the-gainnode-interface/*",
-      "webaudio/the-audio-api/the-destinationnode-interface/*",
       "webaudio/the-audio-api/the-dynamicscompressornode-interface/*",
-      "webaudio/the-audio-api/the-convolvernode-interface/*",
+      "webaudio/the-audio-api/the-destinationnode-interface/*",
+      "webaudio/the-audio-api/the-delaynode-interface/*",
       "webaudio/the-audio-api/the-constantsourcenode-interface/*",
+      "webaudio/the-audio-api/the-convolvernode-interface/*",
       "webaudio/the-audio-api/the-channelsplitternode-interface/*",
       "webaudio/the-audio-api/the-channelmergernode-interface/*",
       "webaudio/the-audio-api/the-biquadfilternode-interface/*",
-      "webaudio/the-audio-api/the-audioparam-interface/*",
       "webaudio/the-audio-api/the-audionode-interface/*",
-      "webaudio/the-audio-api/the-audiobuffersourcenode-interface/*",
+      "webaudio/the-audio-api/the-audioparam-interface/*",
       "webaudio/the-audio-api/the-audiocontext-interface/*",
-      "webaudio/the-audio-api/the-analysernode-interface/*",
+      "webaudio/the-audio-api/the-audiobuffersourcenode-interface/*",
       "webaudio/the-audio-api/the-audiobuffer-interface/*",
-      "webaudio/the-audio-api/the-delaynode-interface/*",
+      "webaudio/the-audio-api/the-analysernode-interface/*",
       "webaudio/the-audio-api/processing-model/*"
     ]
   },
@@ -1621,6 +2113,13 @@
       "html/semantics/popovers/*"
     ]
   },
+  "field-sizing": {
+    "url": "https://wpt.fyi/results?q=feature:field-sizing",
+    "tests": [
+      "html/rendering/widgets/field-sizing-*",
+      "css/css-ui/parsing/field-sizing-*"
+    ]
+  },
   "details": {
     "url": "https://wpt.fyi/results?q=feature:details",
     "tests": [
@@ -1638,18 +2137,18 @@
       "html/rendering/the-details-element/details-pseudo-elements-006.html"
     ]
   },
-  "field-sizing": {
-    "url": "https://wpt.fyi/results?q=feature:field-sizing",
-    "tests": [
-      "html/rendering/widgets/field-sizing-*",
-      "css/css-ui/parsing/field-sizing-*"
-    ]
-  },
   "tabindex": {
     "url": "https://wpt.fyi/results?q=feature:tabindex",
     "tests": [
       "html/interaction/focus/tabindex-focus-flag.html",
       "html/interaction/focus/sequential-focus-navigation-and-the-tabindex-attribute/*"
+    ]
+  },
+  "hidden-until-found": {
+    "url": "https://wpt.fyi/results?q=feature:hidden-until-found",
+    "tests": [
+      "html/editing/the-hidden-attribute/beforematch-*",
+      "html/editing/the-hidden-attribute/hidden-until-found-*"
     ]
   },
   "blocking-render": {
@@ -1700,6 +2199,18 @@
       "css/css-viewport/zoom/*"
     ]
   },
+  "cross-document-view-transitions": {
+    "url": "https://wpt.fyi/results?q=feature:cross-document-view-transitions",
+    "tests": [
+      "css/css-view-transitions/navigation/*"
+    ]
+  },
+  "sibling-count": {
+    "url": "https://wpt.fyi/results?q=feature:sibling-count",
+    "tests": [
+      "css/css-values/tree-counting/*"
+    ]
+  },
   "interpolate-size": {
     "url": "https://wpt.fyi/results?q=feature:interpolate-size",
     "tests": [
@@ -1712,12 +2223,6 @@
     "tests": [
       "css/css-values/calc-size/calc-size-*",
       "css/css-values/calc-size/animation/calc-size-*"
-    ]
-  },
-  "cross-document-view-transitions": {
-    "url": "https://wpt.fyi/results?q=feature:cross-document-view-transitions",
-    "tests": [
-      "css/css-view-transitions/navigation/*"
     ]
   },
   "text-spacing-trim": {
@@ -1751,6 +2256,17 @@
       "css/css-text/white-space/white-space-collapse-*",
       "css/css-text/white-space/line-edge-white-space-collapse-*",
       "css/css-text/parsing/white-space-collapse-*"
+    ]
+  },
+  "line-break": {
+    "url": "https://wpt.fyi/results?q=feature:line-break",
+    "tests": [
+      "css/css-text/parsing/line-break-*",
+      "css/css-text/line-break/*",
+      "css/css-text/i18n/zh/css-text-line-break-*",
+      "css/css-text/i18n/unknown-lang/css-text-line-break-*",
+      "css/css-text/i18n/other-lang/css-text-line-break-*",
+      "css/css-text/i18n/ja/css-text-line-break-*"
     ]
   },
   "text-wrap-pretty": {
@@ -1811,6 +2327,12 @@
       "css/css-transforms/transform-box/*"
     ]
   },
+  "contain-intrinsic-size": {
+    "url": "https://wpt.fyi/results?q=feature:contain-intrinsic-size",
+    "tests": [
+      "css/css-sizing/contain-intrinsic-size/*"
+    ]
+  },
   "scroll-snap-events": {
     "url": "https://wpt.fyi/results?q=feature:scroll-snap-events",
     "tests": [
@@ -1820,22 +2342,16 @@
       "css/css-scroll-snap/snap-events/scrollsnapchange/*"
     ]
   },
-  "scroll-initial-target": {
-    "url": "https://wpt.fyi/results?q=feature:scroll-initial-target",
-    "tests": [
-      "css/css-scroll-snap/scroll-initial-target/*"
-    ]
-  },
-  "contain-intrinsic-size": {
-    "url": "https://wpt.fyi/results?q=feature:contain-intrinsic-size",
-    "tests": [
-      "css/css-sizing/contain-intrinsic-size/*"
-    ]
-  },
   "aspect-ratio": {
     "url": "https://wpt.fyi/results?q=feature:aspect-ratio",
     "tests": [
       "css/css-sizing/aspect-ratio/*"
+    ]
+  },
+  "scroll-initial-target": {
+    "url": "https://wpt.fyi/results?q=feature:scroll-initial-target",
+    "tests": [
+      "css/css-scroll-snap/scroll-initial-target/*"
     ]
   },
   "sticky-positioning": {
@@ -1854,11 +2370,6 @@
     "url": "https://wpt.fyi/results?q=feature:clip-path-boxes",
     "tests": [
       "css/css-masking/hit-test/clip-path-svg-geometry-box.html",
-      "css/css-masking/clip-path-svg-content/clip-path-inset-stroke-001.svg",
-      "css/css-masking/clip-path-svg-content/clip-path-inset-stroke-002.svg",
-      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-003.svg",
-      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-004.svg",
-      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-005.svg",
       "css/css-masking/clip-path/clip-path-fillBox-1a.html",
       "css/css-masking/clip-path/clip-path-fillBox-1b.html",
       "css/css-masking/clip-path/clip-path-strokeBox-1a.html",
@@ -1867,7 +2378,12 @@
       "css/css-masking/clip-path/clip-path-viewBox-1a.html",
       "css/css-masking/clip-path/clip-path-viewBox-1b.html",
       "css/css-masking/clip-path/clip-path-viewBox-1c.html",
-      "css/css-masking/clip-path/clip-path-viewBox-1d.html"
+      "css/css-masking/clip-path/clip-path-viewBox-1d.html",
+      "css/css-masking/clip-path-svg-content/clip-path-inset-stroke-001.svg",
+      "css/css-masking/clip-path-svg-content/clip-path-inset-stroke-002.svg",
+      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-003.svg",
+      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-004.svg",
+      "css/css-masking/clip-path-svg-content/clip-path-shape-circle-005.svg"
     ]
   },
   "clip-path": {
@@ -1889,12 +2405,6 @@
       "css/css-inline/parsing/baseline-shift-*"
     ]
   },
-  "baseline-source": {
-    "url": "https://wpt.fyi/results?q=feature:baseline-source",
-    "tests": [
-      "css/css-inline/baseline-source/*"
-    ]
-  },
   "text-box": {
     "url": "https://wpt.fyi/results?q=feature:text-box",
     "tests": [
@@ -1905,6 +2415,12 @@
     "url": "https://wpt.fyi/results?q=feature:initial-letter",
     "tests": [
       "css/css-inline/initial-letter/*"
+    ]
+  },
+  "baseline-source": {
+    "url": "https://wpt.fyi/results?q=feature:baseline-source",
+    "tests": [
+      "css/css-inline/baseline-source/*"
     ]
   },
   "subgrid": {
@@ -1944,6 +2460,21 @@
       "css/css-display/parsing/*"
     ]
   },
+  "font-optical-sizing": {
+    "url": "https://wpt.fyi/results?q=feature:font-optical-sizing",
+    "tests": [
+      "css/css-fonts/variations/variable-opsz*",
+      "css/css-fonts/parsing/font-optical-sizing-*"
+    ]
+  },
+  "font-palette-animation": {
+    "url": "https://wpt.fyi/results?q=feature:font-palette-animation",
+    "tests": [
+      "css/css-fonts/animations/font-palette-animation-not-specified-endpoints.html",
+      "css/css-fonts/animations/font-palette-interpolation.html",
+      "css/css-fonts/animations/multiple-elements-font-palette-animation.html"
+    ]
+  },
   "counter-style": {
     "url": "https://wpt.fyi/results?q=feature:counter-style",
     "tests": [
@@ -1969,19 +2500,10 @@
       "css/css-counter-styles/counter-style-at-rule/*"
     ]
   },
-  "font-optical-sizing": {
-    "url": "https://wpt.fyi/results?q=feature:font-optical-sizing",
+  "print-color-adjust": {
+    "url": "https://wpt.fyi/results?q=feature:print-color-adjust",
     "tests": [
-      "css/css-fonts/variations/variable-opsz*",
-      "css/css-fonts/parsing/font-optical-sizing-*"
-    ]
-  },
-  "font-palette-animation": {
-    "url": "https://wpt.fyi/results?q=feature:font-palette-animation",
-    "tests": [
-      "css/css-fonts/animations/font-palette-animation-not-specified-endpoints.html",
-      "css/css-fonts/animations/font-palette-interpolation.html",
-      "css/css-fonts/animations/multiple-elements-font-palette-animation.html"
+      "css/css-color-adjust/parsing/print-color-adjust.html"
     ]
   },
   "container-queries": {
@@ -2132,12 +2654,6 @@
       "css/css-conditional/container-queries/style-query-*"
     ]
   },
-  "print-color-adjust": {
-    "url": "https://wpt.fyi/results?q=feature:print-color-adjust",
-    "tests": [
-      "css/css-color-adjust/parsing/print-color-adjust.html"
-    ]
-  },
   "content-visibility": {
     "url": "https://wpt.fyi/results?q=feature:content-visibility",
     "tests": [
@@ -2168,6 +2684,13 @@
       "html/webappapis/dynamic-markup-insertion/html-unsafe-methods/*"
     ]
   },
+  "template": {
+    "url": "https://wpt.fyi/results?q=feature:template",
+    "tests": [
+      "html/syntax/parsing/template/*",
+      "html/semantics/scripting-1/the-template-element/*"
+    ]
+  },
   "autofill": {
     "url": "https://wpt.fyi/results?q=feature:autofill",
     "tests": [
@@ -2187,11 +2710,25 @@
       "html/semantics/selectors/pseudo-classes/indeterminate*"
     ]
   },
-  "template": {
-    "url": "https://wpt.fyi/results?q=feature:template",
+  "dialog": {
+    "url": "https://wpt.fyi/results?q=feature:dialog",
     "tests": [
-      "html/semantics/scripting-1/the-template-element/*",
-      "html/syntax/parsing/template/*"
+      "html/semantics/interactive-elements/the-dialog-element/*"
+    ]
+  },
+  "dialog-closedby": {
+    "url": "https://wpt.fyi/results?q=feature:dialog-closedby",
+    "tests": [
+      "html/semantics/interactive-elements/the-dialog-element/dialog-closedby.html",
+      "html/semantics/interactive-elements/the-dialog-element/dialog-closedby-*",
+      "html/semantics/interactive-elements/the-dialog-element/dialog-popover-closedby-*"
+    ]
+  },
+  "requestclose": {
+    "url": "https://wpt.fyi/results?q=feature:requestclose",
+    "tests": [
+      "html/semantics/interactive-elements/the-dialog-element/dialog-requestclose.html",
+      "html/semantics/interactive-elements/the-dialog-element/dialog-requestclose-*"
     ]
   },
   "details-name": {
@@ -2211,12 +2748,12 @@
       "html/semantics/forms/the-select-element/select-willvalidate-readonly-attribute.html",
       "html/semantics/forms/the-output-element/output-setcustomvalidity.html",
       "html/semantics/forms/the-output-element/output-validity.html",
-      "html/semantics/forms/the-form-element/form-checkvalidity.html",
       "html/semantics/forms/the-fieldset-element/fieldset-checkvalidity.html",
       "html/semantics/forms/the-fieldset-element/fieldset-setcustomvalidity.html",
       "html/semantics/forms/the-fieldset-element/fieldset-validationmessage.html",
       "html/semantics/forms/the-fieldset-element/fieldset-validity.html",
       "html/semantics/forms/the-fieldset-element/fieldset-willvalidate.html",
+      "html/semantics/forms/the-form-element/form-checkvalidity.html",
       "html/semantics/forms/the-input-element/input-checkvalidity.html",
       "html/semantics/forms/the-input-element/input-setcustomvalidity.html",
       "html/semantics/forms/the-input-element/input-validationmessage.html",
@@ -2231,19 +2768,6 @@
       "html/semantics/forms/the-button-element/button-willvalidate.html",
       "html/semantics/forms/constraints/*",
       "html/semantics/embedded-content/the-object-element/object-setcustomvalidity.html"
-    ]
-  },
-  "dialog": {
-    "url": "https://wpt.fyi/results?q=feature:dialog",
-    "tests": [
-      "html/semantics/interactive-elements/the-dialog-element/*"
-    ]
-  },
-  "requestclose": {
-    "url": "https://wpt.fyi/results?q=feature:requestclose",
-    "tests": [
-      "html/semantics/interactive-elements/the-dialog-element/dialog-requestclose.html",
-      "html/semantics/interactive-elements/the-dialog-element/dialog-requestclose-*"
     ]
   },
   "show-picker-select": {
@@ -2264,16 +2788,16 @@
       "html/semantics/forms/the-meter-element/*"
     ]
   },
-  "datalist": {
-    "url": "https://wpt.fyi/results?q=feature:datalist",
-    "tests": [
-      "html/semantics/forms/the-datalist-element/*"
-    ]
-  },
   "show-picker-input": {
     "url": "https://wpt.fyi/results?q=feature:show-picker-input",
     "tests": [
       "html/semantics/forms/the-input-element/show-picker-*"
+    ]
+  },
+  "datalist": {
+    "url": "https://wpt.fyi/results?q=feature:datalist",
+    "tests": [
+      "html/semantics/forms/the-datalist-element/*"
     ]
   },
   "dirname": {
@@ -2344,16 +2868,16 @@
       "html/canvas/element/manual/fill-and-stroke-styles/conic-gradient-rotation.html"
     ]
   },
-  "container-scroll-state-queries": {
-    "url": "https://wpt.fyi/results?q=feature:container-scroll-state-queries",
-    "tests": [
-      "css/css-conditional/container-queries/scroll-state/*"
-    ]
-  },
   "color-scheme": {
     "url": "https://wpt.fyi/results?q=feature:color-scheme",
     "tests": [
       "css/css-color-adjust/rendering/dark-color-scheme/*"
+    ]
+  },
+  "container-scroll-state-queries": {
+    "url": "https://wpt.fyi/results?q=feature:container-scroll-state-queries",
+    "tests": [
+      "css/css-conditional/container-queries/scroll-state/*"
     ]
   },
   "css-modules": {
