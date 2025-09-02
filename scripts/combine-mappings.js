@@ -4,19 +4,31 @@ import { glob } from "glob";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const OUTPUT_FILE = path.join(__dirname, "../mappings/combined-data.json");
 
 async function main() {
   console.log("Combining mapping files...");
 
+  // Delete the output file if it exists, so we don't actually include it
+  // in the next step.
+  try {
+    await fs.unlink(OUTPUT_FILE);
+  } catch (err) {}
+
+  // Find all JSON files in the mappings directory.
   const mappingFilesPattern = path.join(__dirname, "../mappings/*.json").replace(/\\/g, "/");
   const mappingFiles = await glob(mappingFilesPattern);
 
   const combinedData = {};
 
+  // Go over each JSON file.
   for (const file of mappingFiles) {
     const fileKey = path.basename(file, ".json");
     const fileData = JSON.parse(await fs.readFile(file, "utf-8"));
 
+    console.log(`Processing ${fileKey} (${Object.keys(fileData).length} entries)...`);
+
+    // Merge the file's data into the combined file.
     for (const featureId in fileData) {
       if (!combinedData[featureId]) {
         combinedData[featureId] = {};
@@ -26,10 +38,17 @@ async function main() {
     }
   }
 
-  const outputFile = path.join(__dirname, "../web-features-mappings.combined.json");
-  await fs.writeFile(outputFile, JSON.stringify(combinedData, null, 2));
+  // Sort the data by feature id, so changes are easier to track.
+  const sortedCombinedData = {};
+  Object.keys(combinedData).sort().forEach((key) => {
+    sortedCombinedData[key] = combinedData[key];
+  });
 
-  console.log(`Combined data written to ${outputFile}`);
+  // Write the combined data to the output file.
+  console.log(`Writing combined data to ${OUTPUT_FILE}`);  
+  await fs.writeFile(OUTPUT_FILE, JSON.stringify(sortedCombinedData, null, 2));
+
+  console.log(`Combined data written to ${OUTPUT_FILE}`);
 }
 
 main().catch((err) => {
