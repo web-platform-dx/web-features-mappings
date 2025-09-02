@@ -8,6 +8,7 @@ import { execSync } from "child_process";
 import { glob } from 'glob';
 import yaml from 'js-yaml';
 import { fileURLToPath } from "url";
+import { features } from "web-features";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -71,6 +72,11 @@ async function main() {
     const parsedContent = await parseYamlFile(path.join(TEMP_FOLDER, file));
 
     for (const feature of parsedContent.features) {
+      if (!features[feature.name]) {
+        console.warn(`Feature ID "${feature.name}" in ${file} is not a valid web-features ID, skipping.`);
+        continue;
+      }
+
       if (!mapping[feature.name]) {
         mapping[feature.name] = {
           url: `https://wpt.fyi/results?q=feature:${feature.name}`,
