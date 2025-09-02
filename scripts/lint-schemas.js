@@ -18,7 +18,8 @@ async function main() {
   const mainSchema = JSON.parse(await fs.readFile(schemaPath, "utf-8"));
   ajv.addSchema(mainSchema, "schemas.json");
 
-  const mappingFiles = await glob(path.join(__dirname, "../mappings/*.json"));
+  const mappingFilesPattern = path.join(__dirname, "../mappings/*.json").replace(/\\/g, "/");
+  const mappingFiles = await glob(mappingFilesPattern);
 
   const schemaKeys = new Set(Object.keys(mainSchema.properties));
   const mappingFileKeys = new Set(

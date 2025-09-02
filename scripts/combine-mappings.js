@@ -8,14 +8,22 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 async function main() {
   console.log("Combining mapping files...");
 
-  const mappingFiles = await glob(path.join(__dirname, "../mappings/*.json"));
+  const mappingFilesPattern = path.join(__dirname, "../mappings/*.json").replace(/\\/g, "/");
+  const mappingFiles = await glob(mappingFilesPattern);
 
   const combinedData = {};
 
   for (const file of mappingFiles) {
     const fileKey = path.basename(file, ".json");
-    const data = JSON.parse(await fs.readFile(file, "utf-8"));
-    combinedData[fileKey] = data;
+    const fileData = JSON.parse(await fs.readFile(file, "utf-8"));
+
+    for (const featureId in fileData) {
+      if (!combinedData[featureId]) {
+        combinedData[featureId] = {};
+      }
+
+      combinedData[featureId][fileKey] = fileData[featureId];
+    }
   }
 
   const outputFile = path.join(__dirname, "../web-features-mappings.combined.json");
