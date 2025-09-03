@@ -4,12 +4,12 @@
 
 The [web-features](https://github.com/web-platform-dx/web-features) project provides the minimum amount of data that's needed to support [Baseline](https://web-platform-dx.github.io/web-features/) and otherwise acts as a repository of unique feature IDs, which other projects can point to.
 
-This was done for maintainability reasons, to avoid adding a lot of third-party data to the web-features project to support other use cases than Baseline. This means that third-party data sources can map their own data to web-features IDs, and are responsible for maintaining the mapping.
+This was done for maintainability reasons, to avoid adding a lot of third-party data to the web-features project to support other use cases than Baseline. This means that third-party data sources can map their own data to web-features IDs, and are responsible for maintaining that mapping.
 
 Examples of data sources which map to web-features include:
 
-* [web-platform-tests](https://wpt.fyi), which maps certain tests to web-features via search keywords, e.g. [the `feature:grid` keyword](https://wpt.fyi/results/?q=feature:grid).
-* [browser-compat-data](https://github.com/mdn/browser-compat-data/), which maps BCD keys to web-features via tags, e.g. [the `web-features:selection-api` tag](https://github.com/search?q=repo%3Amdn%2Fbrowser-compat-data%20web-features%3Aselection-api&type=code).
+* The [web-platform-tests project](https://wpt.fyi), which maps certain tests to web-features via search keywords, e.g. [the `feature:grid` keyword](https://wpt.fyi/results/?q=feature:grid).
+* The [browser-compat-data project](https://github.com/mdn/browser-compat-data/), which maps BCD keys to web-features via tags, e.g. [the `web-features:selection-api` tag](https://github.com/search?q=repo%3Amdn%2Fbrowser-compat-data%20web-features%3Aselection-api&type=code).
 * Chrome Platform Status' [Web features usage metrics](https://chromestatus.com/metrics/webfeature/popularity), which maps Chrome page loads to web-features.
 
 ## Adding new mappings
@@ -53,6 +53,12 @@ To run these scripts:
 1. `npm install`
 1. `node <the-script-you-want-to-run>.js`
 
+Or, to run all scripts:
+
+1. `cd scripts`
+1. `npm install`
+1. `npm run update:all`
+
 ## Mapping format
 
 The mappings are JSON files that are formatted as follows:
@@ -65,17 +71,31 @@ The mappings are JSON files that are formatted as follows:
 
 ## Combined data
 
-The `combine` script generates a `web-features-mappings.combined.json` file in the root of the repository. This file contains all the mapping data from the `mappings` folder, combined into a single file.
+The `combine` script generates a `combined-data.json` file in the `mappings` directory. This file contains all the mapping data from the `mappings` folder, combined into a single file.
 
 The format of the combined file is as follows:
 
 ```json
 {
-  "chrome-use-counters": { ... },
-  "interop": { ... },
+  "<feature-id>": {
+    "chrome-use-counters": { ... },
+    "mdn-docs": [ ... ],
+    "wpt": { ... }
+    ...
+  },
   ...
 }
 ```
+
+## Updating the data
+
+The data is updated automatically, once a day, by the GitHub Actions workflow in `.github/workflows/update.yml`.
+
+To update the data locally:
+
+1. `cd scripts`
+1. `npm bump` to make sure you have the latest versions of the dependencies locally.
+1. `npm run build` to update all individual data files, check their format, and re-generate the combined data file.
 
 ## TODO
 
