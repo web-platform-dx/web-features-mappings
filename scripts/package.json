@@ -3,23 +3,25 @@
   "name": "web-features-mappings",
   "description": "Maintain mapping files between web-features IDs and web platform-related data sources.",
   "devDependencies": {
-    "@ddbeck/mdn-content-inventory": "^0.2.20250828",
-    "@mdn/browser-compat-data": "^7.1.0",
+    "@ddbeck/mdn-content-inventory": "^0.2.20250903",
+    "@mdn/browser-compat-data": "^7.1.1",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "glob": "^11.0.3",
     "js-yaml": "^4.1.0",
-    "web-features": "^2.45.0"
+    "web-features": "^2.46.0"
   },
   "scripts": {
-    "lint:schemas": "node lint-schemas.js",
+    "bump": "npx npm-check-updates -u && npm install",
+    "build": "npm run update:all && npm run lint:schemas && npm run combine",
+    "update:all": "npm run update:chrome-use-counters && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt",
     "update:chrome-use-counters": "node update-chrome-use-counters-mapping.js",
     "update:interop": "node update-interop-mapping.js",
     "update:mdn-docs": "node update-mdn-docs-mapping.js",
     "update:standards-positions": "node update-standards-positions-mapping.js",
     "update:state-of-surveys": "node update-state-of-surveys-mapping.js",
     "update:wpt": "node update-wpt-mapping.js",
-    "update:all": "npm run update:chrome-use-counters && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt",
+    "lint:schemas": "node lint-schemas.js",
     "combine": "node combine-mappings.js"
   }
 }
