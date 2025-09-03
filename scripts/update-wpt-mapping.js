@@ -1,6 +1,10 @@
 // This script clones the WPT repo, and then finds all the WEB_FEATURES.yml files
-// in the repo. It then parses these files to extract web features and their test paths
+// in the repo. It then parses these files to extract web features
 // and writes the data to a local file named wpt.json.
+// The mapping may seem overly simple: { "<feature-id>": { "url": "https://wpt.fyi/results?q=feature:<feature-id>" } }
+// but that's because there isn't (for now) any additional data to add. And the existance
+// of a mapping for a given feature id, means that there are WPT tests for that feature.
+// Feature IDs that are missing from the mapping file are features that don't have any WPT tests.
 
 import fs from "fs/promises";
 import path from "path";
@@ -68,7 +72,6 @@ async function main() {
   const mapping = {};
 
   for (const file of webFeatureFiles) {
-    const dirName = path.dirname(file);
     const parsedContent = await parseYamlFile(path.join(TEMP_FOLDER, file));
 
     for (const feature of parsedContent.features) {
@@ -77,22 +80,10 @@ async function main() {
         continue;
       }
 
-      if (!mapping[feature.name]) {
-        mapping[feature.name] = {
-          url: `https://wpt.fyi/results?q=feature:${feature.name}`,
-          tests: new Set()
-        };
-      }
-
-      for (const testFile of feature.files) {
-        mapping[feature.name].tests.add(path.join(dirName, testFile).replaceAll(path.sep, '/'));
-      }
+      mapping[feature.name] = {
+        url: `https://wpt.fyi/results?q=feature:${feature.name}`
+      };
     }
-  }
-
-  // Convert the tests Set to an Array for each feature.
-  for (const featureName in mapping) {
-    mapping[featureName].tests = Array.from(mapping[featureName].tests);
   }
 
   console.log(`\nSuccessfully parsed ${webFeatureFiles.length} files.`);

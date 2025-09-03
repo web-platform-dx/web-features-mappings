@@ -284,18 +284,10 @@
         "url": {
           "type": "string",
           "format": "uri"
-        },
-        "tests": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "minItems": 1
         }
       },
       "required": [
-        "url",
-        "tests"
+        "url"
       ],
       "additionalProperties": false
     }
