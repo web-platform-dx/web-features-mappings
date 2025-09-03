@@ -84,9 +84,7 @@ The format of the combined file is as follows:
 * Add mapping to chromestatus entries (via spec URLs?)
 * Try to find a better way than matching on spec URLs.
 * Find a way to detect new standards positions automatically.
-* Add mechanism to bump deps. web-features, BCD, and mdn inventory need to be up to date.
-* Run scripts on a schedule.
+* Sometimes MDN doc pages get removed (:target-within was removed recently). Find a way to remove the mapping.
 * Publish consolidated data to NPM.
 * Also create releases on GitHub so consumers can download JSON from there too.
-* Add a schema file (see #1).
 * Migrate the explorer to use this data instead of its own.
