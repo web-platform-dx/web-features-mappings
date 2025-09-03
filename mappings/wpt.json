@@ -93,8 +93,8 @@
     "tests": [
       "clipboard-apis/async-*",
       "clipboard-apis/clipboard-item.https.html",
-      "clipboard-apis/permissions/*",
       "clipboard-apis/text-write-read/*",
+      "clipboard-apis/permissions/*",
       "clipboard-apis/detached-iframe/*"
     ]
   },
@@ -530,20 +530,21 @@
   "constraint-validation": {
     "url": "https://wpt.fyi/results?q=feature:constraint-validation",
     "tests": [
+      "html/semantics/embedded-content/the-object-element/object-setcustomvalidity.html",
       "html/semantics/forms/the-textarea-element/textarea-setcustomvalidity.html",
       "html/semantics/forms/the-textarea-element/textarea-validity-clone.html",
       "html/semantics/forms/the-textarea-element/textarea-validity-valueMissing-inside-datalist.html",
+      "html/semantics/forms/the-output-element/output-setcustomvalidity.html",
+      "html/semantics/forms/the-output-element/output-validity.html",
       "html/semantics/forms/the-select-element/select-setcustomvalidity.html",
       "html/semantics/forms/the-select-element/select-validity.html",
       "html/semantics/forms/the-select-element/select-willvalidate-readonly-attribute.html",
-      "html/semantics/forms/the-output-element/output-setcustomvalidity.html",
-      "html/semantics/forms/the-output-element/output-validity.html",
-      "html/semantics/forms/the-form-element/form-checkvalidity.html",
       "html/semantics/forms/the-fieldset-element/fieldset-checkvalidity.html",
       "html/semantics/forms/the-fieldset-element/fieldset-setcustomvalidity.html",
       "html/semantics/forms/the-fieldset-element/fieldset-validationmessage.html",
       "html/semantics/forms/the-fieldset-element/fieldset-validity.html",
       "html/semantics/forms/the-fieldset-element/fieldset-willvalidate.html",
+      "html/semantics/forms/the-form-element/form-checkvalidity.html",
       "html/semantics/forms/the-input-element/input-checkvalidity.html",
       "html/semantics/forms/the-input-element/input-setcustomvalidity.html",
       "html/semantics/forms/the-input-element/input-validationmessage.html",
@@ -556,8 +557,7 @@
       "html/semantics/forms/the-button-element/button-validity.html",
       "html/semantics/forms/the-button-element/button-willvalidate-readonly-attribute.html",
       "html/semantics/forms/the-button-element/button-willvalidate.html",
-      "html/semantics/forms/constraints/*",
-      "html/semantics/embedded-content/the-object-element/object-setcustomvalidity.html"
+      "html/semantics/forms/constraints/*"
     ]
   },
   "constructed-stylesheets": {
@@ -1033,8 +1033,8 @@
       "svg/scripted/attr-script-fetchpriority.html",
       "svg/embedded/attr-image-fetchpriority.html",
       "html/semantics/the-link-element/attr-link-fetchpriority.html",
-      "html/embedded-content/the-img-element/attr-img-fetchpriority.html",
       "html/scripting/the-script-element/attr-script-fetchpriority.html",
+      "html/embedded-content/the-img-element/attr-img-fetchpriority.html",
       "fetch/api/request/request-init-priority.any.js"
     ]
   },
@@ -1492,8 +1492,8 @@
   "line-break": {
     "url": "https://wpt.fyi/results?q=feature:line-break",
     "tests": [
-      "css/css-text/line-break/*",
       "css/css-text/parsing/line-break-*",
+      "css/css-text/line-break/*",
       "css/css-text/i18n/zh/css-text-line-break-*",
       "css/css-text/i18n/unknown-lang/css-text-line-break-*",
       "css/css-text/i18n/other-lang/css-text-line-break-*",
@@ -2209,8 +2209,8 @@
     "tests": [
       "css/css-scroll-snap/snap-events/snap-events-with-pseudo-target.tentative.html",
       "css/css-scroll-snap/snap-events/snapevents-at-document-bubble-to-window.html",
-      "css/css-scroll-snap/snap-events/scrollsnapchange/*",
-      "css/css-scroll-snap/snap-events/scrollsnapchanging/*"
+      "css/css-scroll-snap/snap-events/scrollsnapchanging/*",
+      "css/css-scroll-snap/snap-events/scrollsnapchange/*"
     ]
   },
   "scroll-to-text-fragment": {
@@ -2665,18 +2665,18 @@
   "web-audio": {
     "url": "https://wpt.fyi/results?q=feature:web-audio",
     "tests": [
-      "webaudio/the-audio-api/the-waveshapernode-interface/*",
       "webaudio/the-audio-api/the-stereopanner-interface/*",
+      "webaudio/the-audio-api/the-waveshapernode-interface/*",
+      "webaudio/the-audio-api/the-scriptprocessornode-interface/*",
       "webaudio/the-audio-api/the-periodicwave-interface/*",
       "webaudio/the-audio-api/the-pannernode-interface/*",
       "webaudio/the-audio-api/the-oscillatornode-interface/*",
-      "webaudio/the-audio-api/the-scriptprocessornode-interface/*",
       "webaudio/the-audio-api/the-mediastreamaudiosourcenode-interface/*",
       "webaudio/the-audio-api/the-mediastreamaudiodestinationnode-interface/*",
-      "webaudio/the-audio-api/the-iirfilternode-interface/*",
       "webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/*",
-      "webaudio/the-audio-api/the-dynamicscompressornode-interface/*",
+      "webaudio/the-audio-api/the-iirfilternode-interface/*",
       "webaudio/the-audio-api/the-gainnode-interface/*",
+      "webaudio/the-audio-api/the-dynamicscompressornode-interface/*",
       "webaudio/the-audio-api/the-destinationnode-interface/*",
       "webaudio/the-audio-api/the-delaynode-interface/*",
       "webaudio/the-audio-api/the-convolvernode-interface/*",
@@ -2684,12 +2684,12 @@
       "webaudio/the-audio-api/the-channelsplitternode-interface/*",
       "webaudio/the-audio-api/the-channelmergernode-interface/*",
       "webaudio/the-audio-api/the-biquadfilternode-interface/*",
-      "webaudio/the-audio-api/the-audioparam-interface/*",
       "webaudio/the-audio-api/the-audionode-interface/*",
+      "webaudio/the-audio-api/the-audioparam-interface/*",
       "webaudio/the-audio-api/the-audiocontext-interface/*",
-      "webaudio/the-audio-api/the-analysernode-interface/*",
       "webaudio/the-audio-api/the-audiobuffer-interface/*",
       "webaudio/the-audio-api/the-audiobuffersourcenode-interface/*",
+      "webaudio/the-audio-api/the-analysernode-interface/*",
       "webaudio/the-audio-api/processing-model/*"
     ]
   },
@@ -2768,6 +2768,7 @@
   "webvtt": {
     "url": "https://wpt.fyi/results?q=feature:webvtt",
     "tests": [
+      "webvtt/parsing/file-parsing/signature-invalid.html",
       "webvtt/api/VTTCue/align.html",
       "webvtt/api/VTTCue/constructor-exceptions.html",
       "webvtt/api/VTTCue/getCueAsHTML.html",
@@ -2777,8 +2778,6 @@
       "webvtt/api/VTTCue/snapToLines.html",
       "webvtt/api/VTTCue/text.html",
       "webvtt/api/VTTCue/vertical.html",
-      "webvtt/parsing/file-parsing/signature-invalid.html",
-      "webvtt/rendering/cues-with-video/processing-model/*",
       "webvtt/parsing/file-parsing/tests/arrows.html",
       "webvtt/parsing/file-parsing/tests/comment-in-cue-text.html",
       "webvtt/parsing/file-parsing/tests/header-garbage.html",
@@ -2808,6 +2807,7 @@
       "webvtt/parsing/file-parsing/tests/timings-too-long.html",
       "webvtt/parsing/file-parsing/tests/timings-too-short.html",
       "webvtt/parsing/file-parsing/tests/whitespace-chars.html",
+      "webvtt/rendering/cues-with-video/processing-model/*",
       "webvtt/parsing/cue-text-parsing/tests/*"
     ]
   },
