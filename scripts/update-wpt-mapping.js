@@ -97,9 +97,15 @@ async function main() {
 
   console.log(`\nSuccessfully parsed ${webFeatureFiles.length} files.`);
 
+  // Sort the mapping by feature id.
+  const sortedMapping = {};
+  Object.keys(mapping).sort().forEach((key) => {
+    sortedMapping[key] = mapping[key];
+  });
+
   // Write the web features to a JSON file
   console.log(`Writing the data to ${OUTPUT_FILE}`);
-  await fs.writeFile(OUTPUT_FILE, JSON.stringify(mapping, null, 2));
+  await fs.writeFile(OUTPUT_FILE, JSON.stringify(sortedMapping, null, 2));
 
   // Delete the temp folder.
   console.log(`Delete temporary folder ${tempFolder}.`);
