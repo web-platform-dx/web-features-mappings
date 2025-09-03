@@ -3,15 +3,16 @@
   "name": "web-features-mappings",
   "description": "Maintain mapping files between web-features IDs and web platform-related data sources.",
   "devDependencies": {
-    "@ddbeck/mdn-content-inventory": "^0.2.20250828",
-    "@mdn/browser-compat-data": "^7.1.0",
+    "@ddbeck/mdn-content-inventory": "^0.2.20250903",
+    "@mdn/browser-compat-data": "^7.1.1",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "glob": "^11.0.3",
     "js-yaml": "^4.1.0",
-    "web-features": "^2.45.0"
+    "web-features": "^2.46.0"
   },
   "scripts": {
+    "bump": "npx npm-check-updates -u && npm install",
     "lint:schemas": "node lint-schemas.js",
     "update:chrome-use-counters": "node update-chrome-use-counters-mapping.js",
     "update:interop": "node update-interop-mapping.js",
