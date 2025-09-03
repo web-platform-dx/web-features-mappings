@@ -13,14 +13,15 @@
   },
   "scripts": {
     "bump": "npx npm-check-updates -u && npm install",
-    "lint:schemas": "node lint-schemas.js",
+    "build": "npm run update:all && npm run lint:schemas && npm run combine",
+    "update:all": "npm run update:chrome-use-counters && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt",
     "update:chrome-use-counters": "node update-chrome-use-counters-mapping.js",
     "update:interop": "node update-interop-mapping.js",
     "update:mdn-docs": "node update-mdn-docs-mapping.js",
     "update:standards-positions": "node update-standards-positions-mapping.js",
     "update:state-of-surveys": "node update-state-of-surveys-mapping.js",
     "update:wpt": "node update-wpt-mapping.js",
-    "update:all": "npm run update:chrome-use-counters && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt",
+    "lint:schemas": "node lint-schemas.js",
     "combine": "node combine-mappings.js"
   }
 }

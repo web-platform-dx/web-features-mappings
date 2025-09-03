@@ -1,0 +1,39 @@
+name: Update web-features-mappings
+
+on:
+  # Run once a day
+  schedule:
+    - cron: "0 0 * * *"
+  # Or when manually triggered
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check-out the repository
+        uses: actions/checkout@v5
+
+      - name: Bump dependencies
+        run: |
+          cd scripts
+          npm run bump
+
+      - name: Build the mappings
+        run: |
+          cd scripts
+          npm run build
+
+      - name: Commit changes if needed
+        run: |
+          if ! git diff --quiet; then
+            echo "Committing changes to the mapping files."
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add .
+            git commit -m "Updated web-features-mappings"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
