@@ -14,8 +14,9 @@
   "scripts": {
     "bump": "npx npm-check-updates -u && npm install",
     "build": "npm run update:all && npm run lint:schemas && npm run combine",
-    "update:all": "npm run update:chrome-use-counters && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt",
+    "update:all": "npm run update:chrome-use-counters && npm run update:developer-signals && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt",
     "update:chrome-use-counters": "node update-chrome-use-counters-mapping.js",
+    "update:developer-signals": "node update-developer-signals.js",
     "update:interop": "node update-interop-mapping.js",
     "update:mdn-docs": "node update-mdn-docs-mapping.js",
     "update:standards-positions": "node update-standards-positions-mapping.js",
