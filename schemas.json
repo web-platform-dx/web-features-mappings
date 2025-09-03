@@ -7,6 +7,9 @@
     "chrome-use-counters": {
       "$ref": "#/$defs/chromeUseCountersFile"
     },
+    "developer-signals": {
+      "$ref": "#/$defs/developerSignalsFile"
+    },
     "interop": {
       "$ref": "#/$defs/interopFile"
     },
@@ -32,6 +35,16 @@
       "patternProperties": {
         ".*": {
           "$ref": "#/$defs/useCounterValue"
+        }
+      },
+      "additionalProperties": false
+    },
+    "developerSignalsFile": {
+      "description": "Schema for developer-signals.json. An object where keys are feature IDs and values are signals from developers about a feature.",
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/$defs/developerSignal"
         }
       },
       "additionalProperties": false
@@ -101,6 +114,25 @@
       "required": [
         "percentageOfPageLoad",
         "url"
+      ],
+      "additionalProperties": false
+    },
+    "developerSignal": {
+      "type": "object",
+      "description": "The developer signals for a single web feature from developer-signals.json.",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "votes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "url",
+        "votes"
       ],
       "additionalProperties": false
     },

@@ -19,7 +19,8 @@ async function main() {
   ajv.addSchema(mainSchema, "schemas.json");
 
   const mappingFilesPattern = path.join(__dirname, "../mappings/*.json").replace(/\\/g, "/");
-  const mappingFiles = await glob(mappingFilesPattern);
+  const ignoredPattern = path.join(__dirname, "../mappings/combined-data.json").replace(/\\/g, "/");
+  const mappingFiles = await glob(mappingFilesPattern, { ignore: ignoredPattern });
 
   const schemaKeys = new Set(Object.keys(mainSchema.properties));
   const mappingFileKeys = new Set(

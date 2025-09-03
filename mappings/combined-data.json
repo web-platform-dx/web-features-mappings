@@ -213,6 +213,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/accent-color"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/146",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.018847,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/6"
@@ -279,6 +283,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/:active-view-transition"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/243",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0007356,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/217"
@@ -351,7 +359,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/alignment-baseline"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/15",
+      "votes": 0
+    }
   },
   "all": {
     "mdn-docs": [
@@ -381,7 +393,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/rel/alternate_stylesheet"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/13",
+      "votes": 0
+    }
   },
   "ambient-light": {
     "wpt": {
@@ -397,7 +413,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/292",
+      "votes": 0
+    }
   },
   "anchor-positioning": {
     "wpt": {
@@ -528,6 +548,10 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-anchor-positioning"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/245",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00235215,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/97"
@@ -600,6 +624,10 @@
         "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/file_handlers"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/173",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 5e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/299"
@@ -614,6 +642,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Launch_Handler_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/190",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0096567,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/309"
@@ -636,6 +668,10 @@
         "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/protocol_handlers"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/157",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00307741,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/300"
@@ -667,6 +703,10 @@
         "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/share_target"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/107",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00263596,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/304"
@@ -689,6 +729,10 @@
         "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/124",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.01750232,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/305"
@@ -1221,6 +1265,10 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for-await...of"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/191",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00033594,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/279"
@@ -1263,6 +1311,10 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/waitAsync"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/136",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00005288,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/242"
@@ -1306,7 +1358,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/attr"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/293",
+      "votes": 0
+    }
   },
   "attr-contents": {
     "wpt": {
@@ -1447,6 +1503,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Attribution_Reporting_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/271",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.22241618,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/282"
@@ -1462,6 +1522,12 @@
       }
     ]
   },
+  "audio-session": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/200",
+      "votes": 0
+    }
+  },
   "audio-video-tracks": {
     "mdn-docs": [
       {
@@ -1476,7 +1542,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/videoTracks"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/43",
+      "votes": 0
+    }
   },
   "audio-worklet": {
     "wpt": {
@@ -1506,7 +1576,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/autocapitalize"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/66",
+      "votes": 0
+    }
   },
   "autocorrect": {
     "mdn-docs": [
@@ -1516,7 +1590,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/autocorrect"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/282",
+      "votes": 0
+    }
   },
   "autofill": {
     "wpt": {
@@ -1566,7 +1644,6 @@
         "custom-elements/registries/define.html",
         "custom-elements/registries/per-global.html",
         "custom-elements/registries/upgrade.html",
-        "custom-elements/reactions/*",
         "custom-elements/parser/parser-constructs-custom-element-in-document-write.html",
         "custom-elements/parser/parser-constructs-custom-element-synchronously.html",
         "custom-elements/parser/parser-constructs-custom-elements-with-is.html",
@@ -1576,6 +1653,7 @@
         "custom-elements/parser/parser-sets-attributes-and-children.html",
         "custom-elements/parser/parser-uses-constructed-element.html",
         "custom-elements/parser/parser-uses-registry-of-owner-document.html",
+        "custom-elements/reactions/*",
         "custom-elements/htmlconstructor/newtarget.html"
       ]
     },
@@ -1744,7 +1822,11 @@
         "anchor": "border-area",
         "url": "https://developer.mozilla.org/docs/Web/CSS/background-clip#border-area"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/266",
+      "votes": 0
+    }
   },
   "background-clip-text": {
     "wpt": {
@@ -1761,6 +1843,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/background-clip#text"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/129",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.42602217,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/131"
@@ -1807,7 +1893,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Background_Fetch_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/97",
+      "votes": 0
+    }
   },
   "background-image": {
     "mdn-docs": [
@@ -1898,6 +1988,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Badging_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/117",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00119141,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/301"
@@ -1911,7 +2005,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Barcode_Detection_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/121",
+      "votes": 0
+    }
   },
   "barprop": {
     "mdn-docs": [
@@ -1959,6 +2057,10 @@
       "tests": [
         "css/css-inline/parsing/baseline-shift-*"
       ]
+    },
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/14",
+      "votes": 0
     }
   },
   "baseline-source": {
@@ -1982,6 +2084,10 @@
         "concerns": []
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/192",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00027842,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/214"
@@ -2007,7 +2113,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Navigator/getBattery"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/45",
+      "votes": 0
+    }
   },
   "bdi": {
     "mdn-docs": [
@@ -2070,6 +2180,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Window/beforeinstallprompt_event"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/106",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.13498488,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/303"
@@ -2084,6 +2198,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Window/beforeunload_event"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/10",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.57848749,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/275"
@@ -2104,6 +2222,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/notRestoredReasons"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/246",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.09906155,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/276"
@@ -2222,6 +2344,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLStyleElement/blocking"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/180",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.10497504,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/12"
@@ -2313,6 +2439,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/box-decoration-break"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/41",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.02458093,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/218"
@@ -2471,6 +2601,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/calc-size"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/252",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00124963,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/234"
@@ -2530,6 +2664,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/getContext"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/34",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.42228494,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/202"
@@ -2553,6 +2691,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/getContext#colorspace"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/144",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00021648,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/203"
@@ -2567,6 +2709,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/getContext#desynchronized"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/100",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00221973,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/204"
@@ -2601,6 +2747,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/webglcontextrestored_event"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/163",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.000531,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/15"
@@ -2699,7 +2849,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/captureStream"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/77",
+      "votes": 0
+    }
   },
   "capture-stream-canvas": {
     "mdn-docs": [
@@ -2826,7 +2980,11 @@
         "anchor": "s",
         "url": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors#s"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/95",
+      "votes": 0
+    }
   },
   "ch": {
     "wpt": {
@@ -3062,6 +3220,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/ClipboardItem/supports_static#type"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/176",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00002566,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/271"
@@ -3120,6 +3282,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/ClipboardItem"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/239",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00000194,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/272"
@@ -3142,6 +3308,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Clipboard/read#unsanitized"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/230",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00003219,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/123"
@@ -3173,6 +3343,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/CloseWatcher"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/249",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00007201,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/259"
@@ -3441,7 +3615,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/@font-face"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/161",
+      "votes": 0
+    }
   },
   "column-breaks": {
     "mdn-docs": [
@@ -3463,7 +3641,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/break-inside"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/171",
+      "votes": 0
+    }
   },
   "column-fill": {
     "state-of-surveys": [
@@ -3497,6 +3679,12 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/column-fill"
       }
     ]
+  },
+  "column-pseudo": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/294",
+      "votes": 0
+    }
   },
   "column-span": {
     "mdn-docs": [
@@ -3567,6 +3755,10 @@
         "url": "https://developer.mozilla.org/docs/Web/HTTP/Guides/Compression_dictionary_transport"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/258",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.04415509,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/315"
@@ -3681,21 +3873,20 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:constraint-validation",
       "tests": [
-        "html/semantics/embedded-content/the-object-element/object-setcustomvalidity.html",
         "html/semantics/forms/the-textarea-element/textarea-setcustomvalidity.html",
         "html/semantics/forms/the-textarea-element/textarea-validity-clone.html",
         "html/semantics/forms/the-textarea-element/textarea-validity-valueMissing-inside-datalist.html",
-        "html/semantics/forms/the-output-element/output-setcustomvalidity.html",
-        "html/semantics/forms/the-output-element/output-validity.html",
         "html/semantics/forms/the-select-element/select-setcustomvalidity.html",
         "html/semantics/forms/the-select-element/select-validity.html",
         "html/semantics/forms/the-select-element/select-willvalidate-readonly-attribute.html",
+        "html/semantics/forms/the-output-element/output-setcustomvalidity.html",
+        "html/semantics/forms/the-output-element/output-validity.html",
+        "html/semantics/forms/the-form-element/form-checkvalidity.html",
         "html/semantics/forms/the-fieldset-element/fieldset-checkvalidity.html",
         "html/semantics/forms/the-fieldset-element/fieldset-setcustomvalidity.html",
         "html/semantics/forms/the-fieldset-element/fieldset-validationmessage.html",
         "html/semantics/forms/the-fieldset-element/fieldset-validity.html",
         "html/semantics/forms/the-fieldset-element/fieldset-willvalidate.html",
-        "html/semantics/forms/the-form-element/form-checkvalidity.html",
         "html/semantics/forms/the-input-element/input-checkvalidity.html",
         "html/semantics/forms/the-input-element/input-setcustomvalidity.html",
         "html/semantics/forms/the-input-element/input-validationmessage.html",
@@ -3708,7 +3899,8 @@
         "html/semantics/forms/the-button-element/button-validity.html",
         "html/semantics/forms/the-button-element/button-willvalidate-readonly-attribute.html",
         "html/semantics/forms/the-button-element/button-willvalidate.html",
-        "html/semantics/forms/constraints/*"
+        "html/semantics/forms/constraints/*",
+        "html/semantics/embedded-content/the-object-element/object-setcustomvalidity.html"
       ]
     },
     "mdn-docs": [
@@ -3788,7 +3980,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Contact_Picker_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/114",
+      "votes": 0
+    }
   },
   "contain": {
     "mdn-docs": [
@@ -4193,6 +4389,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/272",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0022581,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/280"
@@ -4280,6 +4480,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/@container"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/196",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00362819,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/20"
@@ -4309,7 +4513,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Content_Index_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/125",
+      "votes": 0
+    }
   },
   "content-visibility": {
     "wpt": {
@@ -4341,6 +4549,10 @@
         "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/183",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.05142571,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/148"
@@ -4416,6 +4628,10 @@
         "url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/stroke"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/199",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00005428,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/155"
@@ -4438,7 +4654,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/color_value/contrast-color"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/295",
+      "votes": 0
+    }
   },
   "controls-list": {
     "state-of-surveys": [
@@ -4486,7 +4706,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/controlsList"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/68",
+      "votes": 0
+    }
   },
   "cookie-enabled": {
     "mdn-docs": [
@@ -4529,6 +4753,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Cookie_Store_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/135",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0347443,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/283"
@@ -4574,7 +4802,11 @@
         "anchor": "reversed_counters",
         "url": "https://developer.mozilla.org/docs/Web/CSS/counter-reset#reversed_counters"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/160",
+      "votes": 0
+    }
   },
   "counter-set": {
     "wpt": {
@@ -4693,7 +4925,11 @@
         "anchor": "crisp-edges",
         "url": "https://developer.mozilla.org/docs/Web/CSS/image-rendering#crisp-edges"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/32",
+      "votes": 0
+    }
   },
   "cross-document-view-transitions": {
     "wpt": {
@@ -4797,6 +5033,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/@view-transition"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/248",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.10946891,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/232"
@@ -4824,7 +5064,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/cross-fade"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/55",
+      "votes": 0
+    }
   },
   "csp": {
     "state-of-surveys": [
@@ -4919,6 +5163,10 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/233",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 5e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/23"
@@ -4988,7 +5236,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/CSS_Typed_OM_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/85",
+      "votes": 0
+    }
   },
   "cubic-bezier-easing": {
     "mdn-docs": [
@@ -5018,7 +5270,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/cursor"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/35",
+      "votes": 0
+    }
   },
   "custom-ellipses": {
     "mdn-docs": [
@@ -5028,7 +5284,11 @@
         "anchor": "string",
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-overflow#string"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/21",
+      "votes": 0
+    }
   },
   "custom-properties": {
     "wpt": {
@@ -5094,6 +5354,10 @@
         "url": "https://developer.mozilla.org/docs/Learn_web_development/Extensions/Forms/Customizable_select"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/278",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00003829,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/342"
@@ -5241,6 +5505,10 @@
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/datalist"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/51",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.02150265,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/84"
@@ -5302,17 +5570,17 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
-        "question": "web_components",
-        "subQuestion": "web_components_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.5.entity"
-      },
-      {
-        "name": "State of HTML 2024",
         "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
         "question": "web_components",
         "subQuestion": "web_component_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.5.entity"
+      },
+      {
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
+        "question": "web_components",
+        "subQuestion": "web_components_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.5.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -5711,6 +5979,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/::details-content"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/261",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00134,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/354"
@@ -5822,7 +6094,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Device_Memory_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/79",
+      "votes": 0
+    }
   },
   "device-orientation-events": {
     "wpt": {
@@ -5872,7 +6148,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Device_Posture_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/270",
+      "votes": 0
+    }
   },
   "device-queries": {
     "mdn-docs": [
@@ -5904,7 +6184,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Window/devicePixelRatio"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/16",
+      "votes": 0
+    }
   },
   "dfn": {
     "mdn-docs": [
@@ -6047,9 +6331,19 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/closedBy"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/279",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00008,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/350"
+    }
+  },
+  "digital-goods": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/168",
+      "votes": 0
     }
   },
   "dir-pseudo": {
@@ -6145,6 +6439,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility#animating_and_transitioning_content-visibility"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/210",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.01206143,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/233"
@@ -6190,7 +6488,11 @@
         "anchor": "contents",
         "url": "https://developer.mozilla.org/docs/Web/CSS/display#contents"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/296",
+      "votes": 0
+    }
   },
   "display-flow-root": {
     "mdn-docs": [
@@ -6228,6 +6530,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/@media/display-mode"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/237",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.15238785,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/199"
@@ -6241,7 +6547,11 @@
         "anchor": "ruby",
         "url": "https://developer.mozilla.org/docs/Web/CSS/display#ruby"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/142",
+      "votes": 0
+    }
   },
   "display-table": {
     "mdn-docs": [
@@ -6317,6 +6627,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Document/caretPositionFromPoint"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/29",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.04843514,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/144"
@@ -6390,6 +6704,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Document_Picture-in-Picture_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/260",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00033076,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/26"
@@ -6525,7 +6843,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Status/425"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/78",
+      "votes": 0
+    }
   },
   "edit-context": {
     "wpt": {
@@ -6582,6 +6904,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/EditContext_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/228",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00392858,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/125"
@@ -6595,7 +6921,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/element"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/297",
+      "votes": 0
+    }
   },
   "element-capture": {
     "standards-positions": [
@@ -6657,7 +6987,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Element/elementTiming"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/110",
+      "votes": 0
+    }
   },
   "em": {
     "mdn-docs": [
@@ -6782,7 +7116,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/105",
+      "votes": 0
+    }
   },
   "events": {
     "mdn-docs": [
@@ -6882,6 +7220,12 @@
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/184"
     }
   },
+  "explicit-resource-management": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/366",
+      "votes": 0
+    }
+  },
   "exponentiation": {
     "mdn-docs": [
       {
@@ -6936,7 +7280,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/298",
+      "votes": 0
+    }
   },
   "ext-float-blend": {
     "mdn-docs": [
@@ -6946,7 +7294,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/EXT_float_blend"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/99",
+      "votes": 0
+    }
   },
   "ext-frag-depth": {
     "mdn-docs": [
@@ -6956,7 +7308,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/EXT_frag_depth"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/44",
+      "votes": 0
+    }
   },
   "ext-shader-texture-lod": {
     "mdn-docs": [
@@ -6966,7 +7322,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/EXT_shader_texture_lod"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/42",
+      "votes": 0
+    }
   },
   "ext-srgb": {
     "mdn-docs": [
@@ -6986,7 +7346,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/EXT_texture_compression_bptc"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/103",
+      "votes": 0
+    }
   },
   "ext-texture-compression-rgtc": {
     "mdn-docs": [
@@ -6996,7 +7360,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/EXT_texture_compression_rgtc"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/120",
+      "votes": 0
+    }
   },
   "ext-texture-filter-anisotropic": {
     "mdn-docs": [
@@ -7016,7 +7384,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/EXT_texture_norm16"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/134",
+      "votes": 0
+    }
   },
   "eyedropper": {
     "wpt": {
@@ -7053,6 +7425,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/EyeDropper_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/158",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0000291,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/130"
@@ -7066,7 +7442,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/fastSeek"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/38",
+      "votes": 0
+    }
   },
   "fedcm": {
     "wpt": {
@@ -7091,6 +7471,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/IdentityCredential"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/208",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.01918861,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/247"
@@ -7104,7 +7488,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/FederatedCredential"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/56",
+      "votes": 0
+    }
   },
   "fencedframe": {
     "wpt": {
@@ -7290,7 +7678,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Request/body"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/83",
+      "votes": 0
+    }
   },
   "fetchlater": {
     "standards-positions": [
@@ -7322,6 +7714,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/fetchLater_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/286",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0377643,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/306"
@@ -7373,6 +7769,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/234",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00874969,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/113"
@@ -7637,7 +8037,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/fit-content_function"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/299",
+      "votes": 0
+    }
   },
   "fixed-positioning": {
     "mdn-docs": [
@@ -7856,6 +8260,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/font-family#math"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/185",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.000469,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/351"
@@ -7879,7 +8287,11 @@
         "anchor": "generic-name",
         "url": "https://developer.mozilla.org/docs/Web/CSS/font-family#generic-name"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/115",
+      "votes": 0
+    }
   },
   "font-feature-settings": {
     "mdn-docs": [
@@ -7909,7 +8321,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/font-language-override"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/49",
+      "votes": 0
+    }
   },
   "font-loading": {
     "mdn-docs": [
@@ -7939,6 +8355,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/@font-face"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/132",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.078596,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/353"
@@ -8034,7 +8454,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/font-palette/palette-mix"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/229",
+      "votes": 0
+    }
   },
   "font-shorthand": {
     "mdn-docs": [
@@ -8145,7 +8569,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis-position"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/217",
+      "votes": 0
+    }
   },
   "font-synthesis-small-caps": {
     "wpt": {
@@ -8312,6 +8740,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-emoji"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/262",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00057299,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/285"
@@ -8374,6 +8806,10 @@
         "url": "https://wpt.fyi/interop-2022?feature=interop-2022-text"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/48",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00290867,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/179"
@@ -8414,6 +8850,12 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/font-weight"
       }
     ]
+  },
+  "font-width": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/285",
+      "votes": 0
+    }
   },
   "forced-colors": {
     "wpt": {
@@ -8496,17 +8938,17 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
-        "question": "web_components",
-        "subQuestion": "web_components_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.8.entity"
-      },
-      {
-        "name": "State of HTML 2024",
         "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
         "question": "web_components",
         "subQuestion": "web_component_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.8.entity"
+      },
+      {
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
+        "question": "web_components",
+        "subQuestion": "web_components_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.8.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -8614,7 +9056,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Fullscreen_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/93",
+      "votes": 0
+    }
   },
   "function": {
     "wpt": {
@@ -8643,6 +9089,10 @@
         "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.57.entity"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/300",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00002901,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/310"
@@ -8708,7 +9158,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Gamepad/vibrationActuator"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/87",
+      "votes": 0
+    }
   },
   "gamepad-touch": {
     "mdn-docs": [
@@ -8718,7 +9172,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/GamepadButton/touched"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/67",
+      "votes": 0
+    }
   },
   "gamepad-vr": {
     "standards-positions": [
@@ -8744,7 +9202,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Gamepad/pose"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/74",
+      "votes": 0
+    }
   },
   "gap-decorations": {
     "standards-positions": [
@@ -8760,7 +9222,11 @@
         "position": "",
         "concerns": []
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/362",
+      "votes": 0
+    }
   },
   "generators": {
     "mdn-docs": [
@@ -8813,6 +9279,12 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle"
       }
     ]
+  },
+  "getboxquads": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/301",
+      "votes": 0
+    }
   },
   "gethtml": {
     "wpt": {
@@ -8868,7 +9340,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Sec-GPC"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/222",
+      "votes": 0
+    }
   },
   "gradient-interpolation": {
     "wpt": {
@@ -9118,7 +9594,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/302",
+      "votes": 0
+    }
   },
   "hardware-concurrency": {
     "mdn-docs": [
@@ -9292,7 +9772,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/:has-slotted"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/276",
+      "votes": 0
+    }
   },
   "hashbang-comments": {
     "mdn-docs": [
@@ -9390,6 +9874,10 @@
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/hidden"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/170",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0015771,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/86"
@@ -9447,6 +9935,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/CSS_Custom_Highlight_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/179",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00031666,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/269"
@@ -9486,7 +9978,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/:host-context"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/60",
+      "votes": 0
+    }
   },
   "hr": {
     "mdn-docs": [
@@ -9604,7 +10100,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/capture"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/27",
+      "votes": 0
+    }
   },
   "html-wrapper-methods": {
     "mdn-docs": [
@@ -9815,6 +10315,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-limit-chars"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/184",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00105972,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/212"
@@ -9950,6 +10454,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/if"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/303",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00112939,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/311"
@@ -9984,6 +10492,10 @@
         "url": "https://developer.mozilla.org/docs/Web/Security/IFrame_credentialless"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/188",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00014589,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/325"
@@ -10025,7 +10537,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/image/image"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/304",
+      "votes": 0
+    }
   },
   "image-maps": {
     "mdn-docs": [
@@ -10445,6 +10961,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/189",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00073984,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/210"
@@ -10477,6 +10997,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Ink_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/148",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00005681,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/263"
@@ -10520,7 +11044,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/color"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/22",
+      "votes": 0
+    }
   },
   "input-date-time": {
     "mdn-docs": [
@@ -10710,7 +11238,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/251",
+      "votes": 0
+    }
   },
   "interaction": {
     "mdn-docs": [
@@ -10723,6 +11255,10 @@
     ]
   },
   "interactivity": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/305",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00016972,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/293"
@@ -10758,6 +11294,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/interpolate-size"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/253",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.02151656,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/235"
@@ -10798,6 +11338,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Intersection_Observer_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/98",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0875475,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/44"
@@ -10870,6 +11414,10 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/213",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.01412663,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/244"
@@ -10955,7 +11503,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/@media/inverted-colors"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/54",
+      "votes": 0
+    }
   },
   "invoker-commands": {
     "mdn-docs": [
@@ -10965,7 +11517,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Invoker_Commands_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/287",
+      "votes": 0
+    }
   },
   "is": {
     "mdn-docs": [
@@ -10990,6 +11546,10 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/isError"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/277",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00610847,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/270"
@@ -11091,7 +11651,11 @@
         "position": "neutral",
         "concerns": []
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/215",
+      "votes": 30
+    }
   },
   "js-modules": {
     "state-of-surveys": [
@@ -11145,7 +11709,11 @@
         "anchor": "module",
         "url": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/register#module"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/143",
+      "votes": 0
+    }
   },
   "js-modules-shared-workers": {
     "wpt": {
@@ -11162,6 +11730,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/SharedWorker"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/113",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.007045,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/109"
@@ -11251,7 +11823,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/203",
+      "votes": 0
+    }
   },
   "kbd": {
     "mdn-docs": [
@@ -11313,6 +11889,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Keyboard/lock"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/88",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00006552,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/119"
@@ -11348,7 +11928,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/KHR_parallel_shader_compile"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/104",
+      "votes": 0
+    }
   },
   "lab": {
     "wpt": {
@@ -11470,7 +12054,11 @@
         "label": "interop-2025-core-web-vitals",
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-core-web-vitals"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/109",
+      "votes": 0
+    }
   },
   "layout-direction-override": {
     "mdn-docs": [
@@ -11511,6 +12099,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/LayoutShift"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/122",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.37071344,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/277"
@@ -11711,7 +12303,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/line-clamp"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/267",
+      "votes": 0
+    }
   },
   "line-height": {
     "mdn-docs": [
@@ -11791,7 +12387,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/rel/dns-prefetch"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/359",
+      "votes": 0
+    }
   },
   "link-rel-expect": {
     "mdn-docs": [
@@ -11802,6 +12402,10 @@
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/rel#expect"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/240",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.10428733,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/340"
@@ -11825,7 +12429,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/rel/prefetch"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/306",
+      "votes": 0
+    }
   },
   "link-rel-preload": {
     "mdn-docs": [
@@ -11965,9 +12573,19 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Window/queryLocalFonts"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/174",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00000783,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/287"
+    }
+  },
+  "local-network-access": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/367",
+      "votes": 0
     }
   },
   "localstorage": {
@@ -12096,6 +12714,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/235",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.12835481,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/236"
@@ -12129,7 +12751,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/PerformanceLongTaskTiming"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/69",
+      "votes": 0
+    }
   },
   "magnetometer": {
     "wpt": {
@@ -12145,7 +12771,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Magnetometer"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/307",
+      "votes": 0
+    }
   },
   "main": {
     "mdn-docs": [
@@ -12173,7 +12803,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Media_Source_Extensions_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/216",
+      "votes": 0
+    }
   },
   "manifest": {
     "wpt": {
@@ -12190,6 +12824,10 @@
         "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/57",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.21061066,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/302"
@@ -12231,7 +12869,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/201",
+      "votes": 0
+    }
   },
   "mark": {
     "mdn-docs": [
@@ -12265,6 +12907,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/::marker"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/128",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.10145025,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/197"
@@ -12278,7 +12924,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/225",
+      "votes": 0
+    }
   },
   "mask-type": {
     "mdn-docs": [
@@ -12365,7 +13015,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Masonry_layout"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/308",
+      "votes": 0
+    }
   },
   "matchmedia": {
     "mdn-docs": [
@@ -12385,7 +13039,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sumPrecise"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/283",
+      "votes": 0
+    }
   },
   "mathml": {
     "wpt": {
@@ -12422,6 +13080,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Performance/measureUserAgentSpecificMemory"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/138",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00001945,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/288"
@@ -12493,7 +13155,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/:playing"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/166",
+      "votes": 0
+    }
   },
   "media-queries": {
     "mdn-docs": [
@@ -12572,6 +13238,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Navigator/mediaSession"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/65",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.02638904,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/48"
@@ -12591,7 +13261,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Media_Source_Extensions_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/33",
+      "votes": 0
+    }
   },
   "mediacontroller": {
     "mdn-docs": [
@@ -12671,6 +13345,10 @@
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/meta/name#other_names"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/280",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.000005,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/349"
@@ -12684,7 +13362,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/meta/name/theme-color"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/145",
+      "votes": 0
+    }
   },
   "meter": {
     "wpt": {
@@ -13040,6 +13722,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/moveBefore"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/273",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00000246,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/229"
@@ -13148,6 +13834,10 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-navigation"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/172",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00068733,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/89"
@@ -13343,6 +14033,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/247",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00055014,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/265"
@@ -13384,7 +14078,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Notifications_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/23",
+      "votes": 0
+    }
   },
   "notifications-apps": {
     "mdn-docs": [
@@ -13536,7 +14234,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/86",
+      "votes": 0
+    }
   },
   "numeric-seperators": {
     "mdn-docs": [
@@ -13606,6 +14308,10 @@
         "css/css-images/animation/object-view-box-*"
       ]
     },
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/177",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00032948,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/156"
@@ -13636,7 +14342,11 @@
           "venue"
         ]
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/288",
+      "votes": 0
+    }
   },
   "oes-element-index-uint": {
     "mdn-docs": [
@@ -13706,7 +14416,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/OES_texture_half_float_linear"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/31",
+      "votes": 0
+    }
   },
   "oes-vertex-array-object": {
     "mdn-docs": [
@@ -13913,7 +14627,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/:open"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/310",
+      "votes": 0
+    }
   },
   "optional-catch-binding": {
     "mdn-docs": [
@@ -14075,7 +14793,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-anchor"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/63",
+      "votes": 0
+    }
   },
   "overflow-clip": {
     "mdn-docs": [
@@ -14113,7 +14835,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/311",
+      "votes": 0
+    }
   },
   "overflow-overlay": {
     "wpt": {
@@ -14193,6 +14919,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/overlay"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/211",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00042864,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/134"
@@ -14258,7 +14988,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/OVR_multiview2"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/147",
+      "votes": 0
+    }
   },
   "p": {
     "mdn-docs": [
@@ -14336,6 +15070,10 @@
       "tests": [
         "page-lifecycle/*"
       ]
+    },
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/89",
+      "votes": 0
     }
   },
   "page-orientation": {
@@ -14362,6 +15100,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/@page/page-orientation"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/126",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00354327,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/219"
@@ -14394,7 +15136,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/:right"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/24",
+      "votes": 0
+    }
   },
   "page-setup": {
     "mdn-docs": [
@@ -14447,6 +15193,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/VisibilityStateEntry"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/206",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00681007,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/237"
@@ -14468,7 +15218,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/CSS_Painting_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/80",
+      "votes": 0
+    }
   },
   "paint-order": {
     "wpt": {
@@ -14488,6 +15242,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/paint-order"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/91",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0074534,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/126"
@@ -14507,7 +15265,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/PerformancePaintTiming"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/312",
+      "votes": 0
+    }
   },
   "parse-html-unsafe": {
     "wpt": {
@@ -14547,6 +15309,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Document/parseHTMLUnsafe_static"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/360",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0001469,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/122"
@@ -14576,7 +15342,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Set-Cookie"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/204",
+      "votes": 0
+    }
   },
   "password-credentials": {
     "mdn-docs": [
@@ -14586,7 +15356,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/PasswordCredential"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/73",
+      "votes": 0
+    }
   },
   "path-shape": {
     "mdn-docs": [
@@ -14596,7 +15370,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/313",
+      "votes": 0
+    }
   },
   "payment-handler": {
     "wpt": {
@@ -14620,7 +15398,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Payment_Handler_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/92",
+      "votes": 0
+    }
   },
   "payment-request": {
     "wpt": {
@@ -14636,7 +15418,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Payment_Request_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/58",
+      "votes": 0
+    }
   },
   "pdf-viewer": {
     "wpt": {
@@ -14777,6 +15563,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Picture-in-Picture_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/90",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00012398,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/51"
@@ -14790,7 +15580,11 @@
         "anchor": "ping",
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/a#ping"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/20",
+      "votes": 0
+    }
   },
   "placeholder": {
     "mdn-docs": [
@@ -14870,6 +15664,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Pointer_Lock_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/40",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00010279,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/52"
@@ -15005,6 +15803,10 @@
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/popover#hint"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/274",
+      "votes": 1
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00001165,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/296"
@@ -15182,7 +15984,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-data"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/314",
+      "votes": 0
+    }
   },
   "prefers-reduced-motion": {
     "state-of-surveys": [
@@ -15250,6 +16056,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-transparency"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/220",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.02347907,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/175"
@@ -15332,7 +16142,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Presentation_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/53",
+      "votes": 0
+    }
   },
   "preserves-pitch": {
     "wpt": {
@@ -15414,7 +16228,11 @@
         "position": "defer",
         "concerns": []
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/167",
+      "votes": 0
+    }
   },
   "private-network-access": {
     "standards-positions": [
@@ -15451,6 +16269,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/JS_Self-Profiling_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/152",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00078022,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/278"
@@ -15669,6 +16491,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/length#rcap"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/218",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00000712,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/158"
@@ -15689,6 +16515,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/length#rch"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/193",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 9.7e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/207"
@@ -15740,7 +16570,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Streams_API/Using_readable_byte_streams"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/137",
+      "votes": 0
+    }
   },
   "readablestream-from": {
     "wpt": {
@@ -15757,7 +16591,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/ReadableStream/from_static"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/209",
+      "votes": 0
+    }
   },
   "reading-flow": {
     "standards-positions": [
@@ -15782,6 +16620,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/reading-flow"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/290",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00026773,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/313"
@@ -15898,6 +16740,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Screen_Capture_API/Element_Region_Capture#the_region_capture_api"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/178",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00000387,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/322"
@@ -15985,7 +16831,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Navigator/unregisterProtocolHandler"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/12",
+      "votes": 0
+    }
   },
   "relative-color": {
     "wpt": {
@@ -16110,6 +16960,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Remote_Playback_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/64",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00216603,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/255"
@@ -16137,7 +16991,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Reporting_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/156",
+      "votes": 0
+    }
   },
   "request-animation-frame": {
     "mdn-docs": [
@@ -16252,6 +17110,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Window/requestIdleCallback"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/52",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.42355841,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/338"
@@ -16285,7 +17147,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/resize"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/17",
+      "votes": 0
+    }
   },
   "resize-observer": {
     "wpt": {
@@ -16427,7 +17293,11 @@
         "anchor": "rex",
         "url": "https://developer.mozilla.org/docs/Web/CSS/length#rex"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/194",
+      "votes": 0
+    }
   },
   "rgb": {
     "mdn-docs": [
@@ -16465,7 +17335,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/line-height-step"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/315",
+      "votes": 0
+    }
   },
   "ric": {
     "wpt": {
@@ -16481,7 +17355,11 @@
         "anchor": "ric",
         "url": "https://developer.mozilla.org/docs/Web/CSS/length#ric"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/195",
+      "votes": 0
+    }
   },
   "rlh": {
     "wpt": {
@@ -16609,7 +17487,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-overhang"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/268",
+      "votes": 0
+    }
   },
   "ruby-position": {
     "wpt": {
@@ -16668,6 +17550,10 @@
       "tests": [
         "sanitizer-api/*"
       ]
+    },
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/363",
+      "votes": 0
     }
   },
   "savedata": {
@@ -16684,7 +17570,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Save-Data"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/81",
+      "votes": 0
+    }
   },
   "scheduler": {
     "wpt": {
@@ -16709,6 +17599,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Prioritized_Task_Scheduling_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/254",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.08677331,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/118"
@@ -16781,6 +17675,10 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-scope"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/219",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00112421,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/54"
@@ -16795,6 +17693,12 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/:scope"
       }
     ]
+  },
+  "scoped-custom-element-registries": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/364",
+      "votes": 0
+    }
   },
   "screen": {
     "mdn-docs": [
@@ -16820,7 +17724,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Screen_Capture_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/47",
+      "votes": 0
+    }
   },
   "screen-orientation": {
     "wpt": {
@@ -16852,7 +17760,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation/unlock"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/46",
+      "votes": 0
+    }
   },
   "screen-wake-lock": {
     "wpt": {
@@ -16960,6 +17872,10 @@
     ]
   },
   "scroll-buttons": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/316",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00003301,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/294"
@@ -17059,6 +17975,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_scroll-driven_animations"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/207",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00985081,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/230"
@@ -17092,6 +18012,10 @@
       "tests": [
         "css/css-scroll-snap/scroll-initial-target/*"
       ]
+    },
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/275",
+      "votes": 0
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00024794,
@@ -17152,6 +18076,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/::scroll-marker-group"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/289",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00027585,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/295"
@@ -17243,6 +18171,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Element/scrollsnapchanging_event"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/255",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00026677,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/228"
@@ -17309,6 +18241,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/94",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.13980214,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/55"
@@ -17452,6 +18388,10 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-scrollend"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/187",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.22461587,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/58"
@@ -17567,7 +18507,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/::selection"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/9",
+      "votes": 0
+    }
   },
   "selection-api": {
     "wpt": {
@@ -17624,6 +18568,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Navigator/serial"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/139",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00000541,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/107"
@@ -17655,7 +18603,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Worker/postMessage"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/108",
+      "votes": 0
+    }
   },
   "server-sent-events": {
     "wpt": {
@@ -17824,17 +18776,17 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
-        "question": "web_components",
-        "subQuestion": "web_components_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.4.entity"
-      },
-      {
-        "name": "State of HTML 2024",
         "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
         "question": "web_components",
         "subQuestion": "web_component_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.4.entity"
+      },
+      {
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
+        "question": "web_components",
+        "subQuestion": "web_components_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.4.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -18026,7 +18978,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Web_Share_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/76",
+      "votes": 0
+    }
   },
   "shared-memory": {
     "mdn-docs": [
@@ -18072,6 +19028,12 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Shared_Storage_API"
       }
     ]
+  },
+  "shared-storage-locks": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/281",
+      "votes": 0
+    }
   },
   "shared-workers": {
     "mdn-docs": [
@@ -18123,7 +19085,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/name"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/19",
+      "votes": 0
+    }
   },
   "show-picker-input": {
     "wpt": {
@@ -18184,6 +19150,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/showPicker"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/162",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00001353,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/61"
@@ -18218,6 +19188,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/showPicker"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/226",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 8e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/127"
@@ -18273,7 +19247,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/sibling-index"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/361",
+      "votes": 0
+    }
   },
   "sizes-auto": {
     "mdn-docs": [
@@ -18284,6 +19262,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/250",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.006607,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/346"
@@ -18329,17 +19311,17 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
-        "question": "web_components",
-        "subQuestion": "web_components_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.7.entity"
-      },
-      {
-        "name": "State of HTML 2024",
         "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
         "question": "web_components",
         "subQuestion": "web_component_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.7.entity"
+      },
+      {
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
+        "question": "web_components",
+        "subQuestion": "web_components_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.7.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -18410,7 +19392,11 @@
         "anchor": "smooth",
         "url": "https://developer.mozilla.org/docs/Web/CSS/image-rendering#smooth"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/154",
+      "votes": 0
+    }
   },
   "source": {
     "mdn-docs": [
@@ -18442,6 +19428,12 @@
       }
     ]
   },
+  "speak": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/317",
+      "votes": 0
+    }
+  },
   "speak-as": {
     "mdn-docs": [
       {
@@ -18450,7 +19442,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/speak-as"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/84",
+      "votes": 0
+    }
   },
   "speculation-rules": {
     "wpt": {
@@ -18477,6 +19473,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Speculation_Rules_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/186",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.11180842,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/317"
@@ -18505,6 +19505,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Web_Speech_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/318",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00027607,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/63"
@@ -18634,6 +19638,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/::spelling-error"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/227",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00156114,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/192"
@@ -18866,6 +19874,10 @@
         "concerns": []
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/231",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00118935,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/66"
@@ -18936,7 +19948,11 @@
         "anchor": "stretch",
         "url": "https://developer.mozilla.org/docs/Web/CSS/height#stretch"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/319",
+      "votes": 0
+    }
   },
   "string-at": {
     "mdn-docs": [
@@ -19729,11 +20745,15 @@
     "mdn-docs": [
       {
         "slug": "Web/CSS",
-        "title": ":target-within",
+        "title": "CSS: Cascading Style Sheets",
         "anchor": null,
-        "url": "https://developer.mozilla.org/docs/Web/CSS/:target-within"
+        "url": "https://developer.mozilla.org/docs/Web/CSS"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/320",
+      "votes": 0
+    }
   },
   "template": {
     "wpt": {
@@ -19746,17 +20766,17 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
-        "question": "web_components",
-        "subQuestion": "web_components_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.0.entity"
-      },
-      {
-        "name": "State of HTML 2024",
         "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
         "question": "web_components",
         "subQuestion": "web_component_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.0.entity"
+      },
+      {
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_components_features",
+        "question": "web_components",
+        "subQuestion": "web_components_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.0.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -19827,7 +20847,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/291",
+      "votes": 0
+    }
   },
   "text-align": {
     "mdn-docs": [
@@ -19848,6 +20872,12 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-align-last"
       }
     ]
+  },
+  "text-autospace": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/284",
+      "votes": 0
+    }
   },
   "text-box": {
     "wpt": {
@@ -19872,6 +20902,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-box"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/265",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00456787,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/318"
@@ -19922,7 +20956,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/::selection"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/181",
+      "votes": 0
+    }
   },
   "text-emphasis": {
     "wpt": {
@@ -19983,7 +21021,11 @@
         "anchor": "each-line",
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-indent#each-line"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/149",
+      "votes": 0
+    }
   },
   "text-indent-hanging": {
     "mdn-docs": [
@@ -19993,7 +21035,11 @@
         "anchor": "hanging",
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-indent#hanging"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/150",
+      "votes": 0
+    }
   },
   "text-justify": {
     "mdn-docs": [
@@ -20003,7 +21049,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-justify"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/75",
+      "votes": 0
+    }
   },
   "text-orientation": {
     "mdn-docs": [
@@ -20043,7 +21093,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/61",
+      "votes": 0
+    }
   },
   "text-spacing-trim": {
     "wpt": {
@@ -20069,6 +21123,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-spacing-trim"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/236",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00376557,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/70"
@@ -20335,6 +21393,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap#pretty"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/212",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.01138828,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/72"
@@ -20382,6 +21444,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap-style"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/259",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0006365,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/182"
@@ -20422,6 +21488,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/:past"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/25",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.000936,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/355"
@@ -20485,7 +21555,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Touch_events"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/18",
+      "votes": 0
+    }
   },
   "transferable-arraybuffer": {
     "mdn-docs": [
@@ -20521,7 +21595,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Transferable_objects"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/133",
+      "votes": 0
+    }
   },
   "transform-box": {
     "wpt": {
@@ -20615,6 +21693,10 @@
       "tests": [
         "streams/transform-streams/cancel.any.js"
       ]
+    },
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/321",
+      "votes": 0
     }
   },
   "transition-behavior": {
@@ -20854,7 +21936,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Trusted_Types_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/118",
+      "votes": 0
+    }
   },
   "two-value-display": {
     "wpt": {
@@ -21020,6 +22106,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/User-Agent_Client_Hints_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/242",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.73649943,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/341"
@@ -21046,6 +22136,10 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromBase64"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/264",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.021817,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/334"
@@ -21193,6 +22287,10 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-urlpattern"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/155",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.02045203,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/326"
@@ -21304,7 +22402,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/user-select"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/59",
+      "votes": 0
+    }
   },
   "var": {
     "mdn-docs": [
@@ -21409,7 +22511,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/@media/video-dynamic-range"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/169",
+      "votes": 0
+    }
   },
   "view-transition-class": {
     "wpt": {
@@ -21449,6 +22555,10 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-view-transitions"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/244",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00054118,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/245"
@@ -21490,6 +22600,10 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-view-transitions"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/197",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0019745,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/2"
@@ -21573,6 +22687,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/VirtualKeyboard_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/153",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00363228,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/264"
@@ -21590,6 +22708,12 @@
         ]
       }
     ]
+  },
+  "virtual-sensors": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/224",
+      "votes": 0
+    }
   },
   "visibility": {
     "mdn-docs": [
@@ -21697,6 +22821,12 @@
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/356"
     }
   },
+  "wasm-exnref-exceptions": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/256",
+      "votes": 0
+    }
+  },
   "wasm-garbage-collection": {
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.003107,
@@ -21704,6 +22834,10 @@
     }
   },
   "wasm-memory64": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/269",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.000002,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/366"
@@ -21717,7 +22851,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Memory"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/223",
+      "votes": 0
+    }
   },
   "wasm-multi-value": {
     "chrome-use-counters": {
@@ -21778,6 +22916,10 @@
         "concerns": []
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/205",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.000055,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/361"
@@ -21791,6 +22933,10 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webassembly"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/257",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.003106,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/364"
@@ -21888,8 +23034,8 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:web-audio",
       "tests": [
-        "webaudio/the-audio-api/the-stereopanner-interface/*",
         "webaudio/the-audio-api/the-waveshapernode-interface/*",
+        "webaudio/the-audio-api/the-stereopanner-interface/*",
         "webaudio/the-audio-api/the-scriptprocessornode-interface/*",
         "webaudio/the-audio-api/the-periodicwave-interface/*",
         "webaudio/the-audio-api/the-pannernode-interface/*",
@@ -21897,20 +23043,20 @@
         "webaudio/the-audio-api/the-mediastreamaudiosourcenode-interface/*",
         "webaudio/the-audio-api/the-mediastreamaudiodestinationnode-interface/*",
         "webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/*",
-        "webaudio/the-audio-api/the-iirfilternode-interface/*",
         "webaudio/the-audio-api/the-gainnode-interface/*",
+        "webaudio/the-audio-api/the-iirfilternode-interface/*",
         "webaudio/the-audio-api/the-dynamicscompressornode-interface/*",
         "webaudio/the-audio-api/the-destinationnode-interface/*",
         "webaudio/the-audio-api/the-delaynode-interface/*",
-        "webaudio/the-audio-api/the-convolvernode-interface/*",
         "webaudio/the-audio-api/the-constantsourcenode-interface/*",
+        "webaudio/the-audio-api/the-convolvernode-interface/*",
         "webaudio/the-audio-api/the-channelsplitternode-interface/*",
         "webaudio/the-audio-api/the-channelmergernode-interface/*",
-        "webaudio/the-audio-api/the-biquadfilternode-interface/*",
         "webaudio/the-audio-api/the-audionode-interface/*",
         "webaudio/the-audio-api/the-audioparam-interface/*",
-        "webaudio/the-audio-api/the-audiocontext-interface/*",
+        "webaudio/the-audio-api/the-biquadfilternode-interface/*",
         "webaudio/the-audio-api/the-audiobuffer-interface/*",
+        "webaudio/the-audio-api/the-audiocontext-interface/*",
         "webaudio/the-audio-api/the-audiobuffersourcenode-interface/*",
         "webaudio/the-audio-api/the-analysernode-interface/*",
         "webaudio/the-audio-api/processing-model/*"
@@ -22037,6 +23183,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Web_Locks_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/50",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.000049,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/153"
@@ -22073,6 +23223,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/WebOTP_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/123",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0002519,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/248"
@@ -22146,6 +23300,10 @@
         "url": "https://wpt.fyi/interop-2023?feature=interop-2023-webcodecs"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/151",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00061118,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/76"
@@ -22159,7 +23317,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/WebDriver"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/96",
+      "votes": 0
+    }
   },
   "webdriver-bidi": {
     "wpt": {
@@ -22181,7 +23343,11 @@
         "position": "support",
         "concerns": []
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/175",
+      "votes": 0
+    }
   },
   "webgl": {
     "mdn-docs": [
@@ -22237,7 +23403,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/62",
+      "votes": 0
+    }
   },
   "webgl-compressed-texture-etc1": {
     "mdn-docs": [
@@ -22247,7 +23417,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc1"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/37",
+      "votes": 0
+    }
   },
   "webgl-compressed-texture-pvrtc": {
     "mdn-docs": [
@@ -22257,7 +23431,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_pvrtc"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/30",
+      "votes": 0
+    }
   },
   "webgl-compressed-texture-s3tc": {
     "mdn-docs": [
@@ -22267,7 +23445,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_s3tc"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/28",
+      "votes": 0
+    }
   },
   "webgl-compressed-texture-s3tc-srgb": {
     "mdn-docs": [
@@ -22277,7 +23459,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_s3tc_srgb"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/71",
+      "votes": 0
+    }
   },
   "webgl-debug-renderer-info": {
     "mdn-docs": [
@@ -22309,6 +23495,12 @@
       }
     ]
   },
+  "webgl-desynchronized": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/101",
+      "votes": 0
+    }
+  },
   "webgl-draw-buffers": {
     "mdn-docs": [
       {
@@ -22317,7 +23509,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_draw_buffers"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/36",
+      "votes": 0
+    }
   },
   "webgl-lose-context": {
     "mdn-docs": [
@@ -22337,7 +23533,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/WEBGL_multi_draw"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/130",
+      "votes": 0
+    }
   },
   "webgl-oes-draw-buffers-indexed": {
     "mdn-docs": [
@@ -22363,7 +23563,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/72",
+      "votes": 0
+    }
   },
   "webgl2": {
     "mdn-docs": [
@@ -22393,7 +23597,11 @@
         "anchor": "desynchronized",
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/getContext#desynchronized"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/102",
+      "votes": 0
+    }
   },
   "webgpu": {
     "standards-positions": [
@@ -22412,6 +23620,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/WebGPU_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/202",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.01539026,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/290"
@@ -22443,6 +23655,12 @@
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.001063,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/77"
+    }
+  },
+  "webnn": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/322",
+      "votes": 0
     }
   },
   "webp": {
@@ -22498,7 +23716,11 @@
         "label": "interop-2025-webrtc",
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webrtc"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/164",
+      "votes": 0
+    }
   },
   "webrtc-sctp": {
     "wpt": {
@@ -22591,6 +23813,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/WebTransport_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/159",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00000102,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/80"
@@ -22648,7 +23874,6 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:webvtt",
       "tests": [
-        "webvtt/parsing/file-parsing/signature-invalid.html",
         "webvtt/api/VTTCue/align.html",
         "webvtt/api/VTTCue/constructor-exceptions.html",
         "webvtt/api/VTTCue/getCueAsHTML.html",
@@ -22658,6 +23883,8 @@
         "webvtt/api/VTTCue/snapToLines.html",
         "webvtt/api/VTTCue/text.html",
         "webvtt/api/VTTCue/vertical.html",
+        "webvtt/parsing/file-parsing/signature-invalid.html",
+        "webvtt/rendering/cues-with-video/processing-model/*",
         "webvtt/parsing/file-parsing/tests/arrows.html",
         "webvtt/parsing/file-parsing/tests/comment-in-cue-text.html",
         "webvtt/parsing/file-parsing/tests/header-garbage.html",
@@ -22687,7 +23914,6 @@
         "webvtt/parsing/file-parsing/tests/timings-too-long.html",
         "webvtt/parsing/file-parsing/tests/timings-too-short.html",
         "webvtt/parsing/file-parsing/tests/whitespace-chars.html",
-        "webvtt/rendering/cues-with-video/processing-model/*",
         "webvtt/parsing/cue-text-parsing/tests/*"
       ]
     },
@@ -22727,7 +23953,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/VTTCue/positionAlign"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/39",
+      "votes": 0
+    }
   },
   "webvtt-cue-settings": {
     "mdn-docs": [
@@ -22766,7 +23996,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/VTTRegion"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/82",
+      "votes": 0
+    }
   },
   "webxr-anchors": {
     "standards-positions": [
@@ -22784,7 +24018,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/XRAnchor"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/127",
+      "votes": 0
+    }
   },
   "webxr-ar": {
     "mdn-docs": [
@@ -22794,7 +24032,11 @@
         "anchor": "mode",
         "url": "https://developer.mozilla.org/docs/Web/API/XRSystem/requestSession#mode"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/131",
+      "votes": 0
+    }
   },
   "webxr-camera": {
     "standards-positions": [
@@ -22838,7 +24080,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/XRDepthInformation"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/140",
+      "votes": 0
+    }
   },
   "webxr-device": {
     "standards-positions": [
@@ -22862,7 +24108,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/WebXR_Device_API"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/111",
+      "votes": 0
+    }
   },
   "webxr-dom-overlays": {
     "mdn-docs": [
@@ -22872,7 +24122,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/XRSession/domOverlayState"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/119",
+      "votes": 0
+    }
   },
   "webxr-gamepads": {
     "mdn-docs": [
@@ -22882,7 +24136,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/XRInputSource/gamepad"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/112",
+      "votes": 0
+    }
   },
   "webxr-hand-input": {
     "standards-positions": [
@@ -22906,7 +24164,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/XRHand"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/263",
+      "votes": 0
+    }
   },
   "webxr-hit-test": {
     "standards-positions": [
@@ -22924,7 +24186,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/XRFrame/getHitTestResults"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/116",
+      "votes": 0
+    }
   },
   "webxr-layers": {
     "standards-positions": [
@@ -22942,7 +24208,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/XRCompositionLayer"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/323",
+      "votes": 0
+    }
   },
   "webxr-lighting-estimation": {
     "mdn-docs": [
@@ -22958,7 +24228,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/XRLightEstimate"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/141",
+      "votes": 0
+    }
   },
   "wheel-events": {
     "mdn-docs": [
@@ -22968,7 +24242,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Element/wheel_event"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/26",
+      "votes": 0
+    }
   },
   "where": {
     "state-of-surveys": [
@@ -23074,7 +24352,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/orphans"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/11",
+      "votes": 0
+    }
   },
   "width-height": {
     "mdn-docs": [
@@ -23163,6 +24445,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Window_Controls_Overlay_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/182",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0011663,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/267"
@@ -23183,6 +24469,10 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Window_Management_API"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/198",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00032842,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/332"
@@ -23229,6 +24519,10 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/word-break#auto-phrase"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/221",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00038555,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/196"
@@ -23312,6 +24606,10 @@
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/writingsuggestions"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/238",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00176188,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/262"
@@ -23425,6 +24723,10 @@
         "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Content-Encoding"
       }
     ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/232",
+      "votes": 0
+    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.3808065,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/291"
