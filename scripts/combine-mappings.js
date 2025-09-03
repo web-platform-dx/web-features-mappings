@@ -9,15 +9,10 @@ const OUTPUT_FILE = path.join(__dirname, "../mappings/combined-data.json");
 async function main() {
   console.log("Combining mapping files...");
 
-  // Delete the output file if it exists, so we don't actually include it
-  // in the next step.
-  try {
-    await fs.unlink(OUTPUT_FILE);
-  } catch (err) {}
-
   // Find all JSON files in the mappings directory.
   const mappingFilesPattern = path.join(__dirname, "../mappings/*.json").replace(/\\/g, "/");
-  const mappingFiles = await glob(mappingFilesPattern);
+  const ignoredPattern = path.join(__dirname, "../mappings/combined-data.json").replace(/\\/g, "/");
+  const mappingFiles = await glob(mappingFilesPattern, { ignore: ignoredPattern });
 
   const combinedData = {};
 
