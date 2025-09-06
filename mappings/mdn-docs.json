@@ -10218,5 +10218,33 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Transferable_objects"
     }
+  ],
+  "heading-selectors": [
+    {
+      "slug": "Web/CSS/:heading",
+      "title": ":heading",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/:heading"
+    }
+  ],
+  "webauthn-signals": [
+    {
+      "slug": "Web/API/PublicKeyCredential/signalAllAcceptedCredentials_static",
+      "title": "PublicKeyCredential: signalAllAcceptedCredentials() static method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/signalAllAcceptedCredentials_static"
+    },
+    {
+      "slug": "Web/API/PublicKeyCredential/signalCurrentUserDetails_static",
+      "title": "PublicKeyCredential: signalCurrentUserDetails() static method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/signalCurrentUserDetails_static"
+    },
+    {
+      "slug": "Web/API/PublicKeyCredential/signalUnknownCredential_static",
+      "title": "PublicKeyCredential: signalUnknownCredential() static method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/signalUnknownCredential_static"
+    }
   ]
 }
