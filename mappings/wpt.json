@@ -173,6 +173,9 @@
   "conic-gradients": {
     "url": "https://wpt.fyi/results?q=feature:conic-gradients"
   },
+  "console": {
+    "url": "https://wpt.fyi/results?q=feature:console"
+  },
   "constraint-validation": {
     "url": "https://wpt.fyi/results?q=feature:constraint-validation"
   },
@@ -295,6 +298,9 @@
   },
   "edit-context": {
     "url": "https://wpt.fyi/results?q=feature:edit-context"
+  },
+  "element-timing": {
+    "url": "https://wpt.fyi/results?q=feature:element-timing"
   },
   "encrypted-media-extensions": {
     "url": "https://wpt.fyi/results?q=feature:encrypted-media-extensions"
@@ -491,6 +497,9 @@
   "intersection-observer-v2": {
     "url": "https://wpt.fyi/results?q=feature:intersection-observer-v2"
   },
+  "is-input-pending": {
+    "url": "https://wpt.fyi/results?q=feature:is-input-pending"
+  },
   "jpegxl": {
     "url": "https://wpt.fyi/results?q=feature:jpegxl"
   },
@@ -502,6 +511,12 @@
   },
   "js-modules-workers": {
     "url": "https://wpt.fyi/results?q=feature:js-modules-workers"
+  },
+  "keyboard-lock": {
+    "url": "https://wpt.fyi/results?q=feature:keyboard-lock"
+  },
+  "keyboard-map": {
+    "url": "https://wpt.fyi/results?q=feature:keyboard-map"
   },
   "lab": {
     "url": "https://wpt.fyi/results?q=feature:lab"
@@ -544,6 +559,9 @@
   },
   "manifest": {
     "url": "https://wpt.fyi/results?q=feature:manifest"
+  },
+  "margin-trim": {
+    "url": "https://wpt.fyi/results?q=feature:margin-trim"
   },
   "marker": {
     "url": "https://wpt.fyi/results?q=feature:marker"
@@ -691,6 +709,9 @@
   },
   "pdf-viewer": {
     "url": "https://wpt.fyi/results?q=feature:pdf-viewer"
+  },
+  "periodic-background-sync": {
+    "url": "https://wpt.fyi/results?q=feature:periodic-background-sync"
   },
   "permissions": {
     "url": "https://wpt.fyi/results?q=feature:permissions"
@@ -1040,6 +1061,9 @@
   "viewport-unit-variants": {
     "url": "https://wpt.fyi/results?q=feature:viewport-unit-variants"
   },
+  "virtual-keyboard": {
+    "url": "https://wpt.fyi/results?q=feature:virtual-keyboard"
+  },
   "visual-viewport": {
     "url": "https://wpt.fyi/results?q=feature:visual-viewport"
   },
@@ -1058,6 +1082,12 @@
   "web-midi": {
     "url": "https://wpt.fyi/results?q=feature:web-midi"
   },
+  "web-nfc": {
+    "url": "https://wpt.fyi/results?q=feature:web-nfc"
+  },
+  "web-otp": {
+    "url": "https://wpt.fyi/results?q=feature:web-otp"
+  },
   "webauthn-public-key-easy": {
     "url": "https://wpt.fyi/results?q=feature:webauthn-public-key-easy"
   },
@@ -1067,14 +1097,23 @@
   "webdriver-bidi": {
     "url": "https://wpt.fyi/results?q=feature:webdriver-bidi"
   },
+  "webgpu": {
+    "url": "https://wpt.fyi/results?q=feature:webgpu"
+  },
   "webhid": {
     "url": "https://wpt.fyi/results?q=feature:webhid"
+  },
+  "webnn": {
+    "url": "https://wpt.fyi/results?q=feature:webnn"
   },
   "webrtc-encoded-transform": {
     "url": "https://wpt.fyi/results?q=feature:webrtc-encoded-transform"
   },
   "webrtc-sctp": {
     "url": "https://wpt.fyi/results?q=feature:webrtc-sctp"
+  },
+  "webrtc-stats": {
+    "url": "https://wpt.fyi/results?q=feature:webrtc-stats"
   },
   "websockets": {
     "url": "https://wpt.fyi/results?q=feature:websockets"

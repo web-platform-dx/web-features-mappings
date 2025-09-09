@@ -10246,5 +10246,27 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/signalUnknownCredential_static"
     }
+  ],
+  "scroll-buttons": [
+    {
+      "slug": "Web/CSS/::scroll-button",
+      "title": "::scroll-button()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/::scroll-button"
+    }
+  ],
+  "secure-payment-confirmation": [
+    {
+      "slug": "Web/API/Web_Authentication_API/WebAuthn_extensions#payment",
+      "title": "Web Authentication extensions",
+      "anchor": "payment",
+      "url": "https://developer.mozilla.org/docs/Web/API/Web_Authentication_API/WebAuthn_extensions#payment"
+    },
+    {
+      "slug": "Web/API/PaymentRequest/securePaymentConfirmationAvailability_static",
+      "title": "PaymentRequest: securePaymentConfirmationAvailability() static method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/securePaymentConfirmationAvailability_static"
+    }
   ]
 }
