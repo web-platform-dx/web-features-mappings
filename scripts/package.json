@@ -3,7 +3,7 @@
   "name": "web-features-mappings",
   "description": "Maintain mapping files between web-features IDs and web platform-related data sources.",
   "devDependencies": {
-    "@ddbeck/mdn-content-inventory": "^0.2.20250928",
+    "@ddbeck/mdn-content-inventory": "^0.2.20250929",
     "@mdn/browser-compat-data": "^7.1.8",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
