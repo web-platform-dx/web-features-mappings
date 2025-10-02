@@ -110,6 +110,9 @@
   "broadcast-channel": {
     "url": "https://wpt.fyi/results?q=feature:broadcast-channel"
   },
+  "calc": {
+    "url": "https://wpt.fyi/results?q=feature:calc"
+  },
   "calc-constants": {
     "url": "https://wpt.fyi/results?q=feature:calc-constants"
   },
@@ -148,6 +151,9 @@
   },
   "clip-path": {
     "url": "https://wpt.fyi/results?q=feature:clip-path"
+  },
+  "clip-path-animatable": {
+    "url": "https://wpt.fyi/results?q=feature:clip-path-animatable"
   },
   "clip-path-boxes": {
     "url": "https://wpt.fyi/results?q=feature:clip-path-boxes"
@@ -605,6 +611,9 @@
   "meter": {
     "url": "https://wpt.fyi/results?q=feature:meter"
   },
+  "min-max-clamp": {
+    "url": "https://wpt.fyi/results?q=feature:min-max-clamp"
+  },
   "mixed-content": {
     "url": "https://wpt.fyi/results?q=feature:mixed-content"
   },
@@ -670,6 +679,9 @@
   },
   "overflow": {
     "url": "https://wpt.fyi/results?q=feature:overflow"
+  },
+  "overflow-anchor": {
+    "url": "https://wpt.fyi/results?q=feature:overflow-anchor"
   },
   "overflow-overlay": {
     "url": "https://wpt.fyi/results?q=feature:overflow-overlay"
@@ -1067,6 +1079,9 @@
   "viewport-unit-variants": {
     "url": "https://wpt.fyi/results?q=feature:viewport-unit-variants"
   },
+  "viewport-units": {
+    "url": "https://wpt.fyi/results?q=feature:viewport-units"
+  },
   "virtual-keyboard": {
     "url": "https://wpt.fyi/results?q=feature:virtual-keyboard"
   },
@@ -1144,6 +1159,9 @@
   },
   "white-space-collapse": {
     "url": "https://wpt.fyi/results?q=feature:white-space-collapse"
+  },
+  "widows-orphans": {
+    "url": "https://wpt.fyi/results?q=feature:widows-orphans"
   },
   "window-management": {
     "url": "https://wpt.fyi/results?q=feature:window-management"
