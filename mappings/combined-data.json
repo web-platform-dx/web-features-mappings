@@ -5940,6 +5940,14 @@
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.10.entity"
       }
     ],
+    "standards-positions": [
+      {
+        "vendor": "webkit",
+        "url": "https://github.com/WebKit/standards-positions/issues/329",
+        "position": "support",
+        "concerns": []
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/API/HTMLDialogElement/closedBy",
