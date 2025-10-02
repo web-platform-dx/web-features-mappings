@@ -94,7 +94,7 @@ The data is updated automatically, once a day, by the GitHub Actions workflow in
 To update the data locally:
 
 1. `cd scripts`
-1. `npm bump` to make sure you have the latest versions of the dependencies locally.
+1. `npm run bump` to make sure you have the latest versions of the dependencies locally.
 1. `npm run build` to update all individual data files, check their format, and re-generate the combined data file.
 
 ## TODO
