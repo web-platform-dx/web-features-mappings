@@ -110,6 +110,9 @@
   "broadcast-channel": {
     "url": "https://wpt.fyi/results?q=feature:broadcast-channel"
   },
+  "calc": {
+    "url": "https://wpt.fyi/results?q=feature:calc"
+  },
   "calc-constants": {
     "url": "https://wpt.fyi/results?q=feature:calc-constants"
   },
@@ -148,6 +151,9 @@
   },
   "clip-path": {
     "url": "https://wpt.fyi/results?q=feature:clip-path"
+  },
+  "clip-path-animatable": {
+    "url": "https://wpt.fyi/results?q=feature:clip-path-animatable"
   },
   "clip-path-boxes": {
     "url": "https://wpt.fyi/results?q=feature:clip-path-boxes"
@@ -352,6 +358,9 @@
   },
   "focus-visible": {
     "url": "https://wpt.fyi/results?q=feature:focus-visible"
+  },
+  "font-language-override": {
+    "url": "https://wpt.fyi/results?q=feature:font-language-override"
   },
   "font-metric-overrides": {
     "url": "https://wpt.fyi/results?q=feature:font-metric-overrides"
@@ -602,6 +611,9 @@
   "meter": {
     "url": "https://wpt.fyi/results?q=feature:meter"
   },
+  "min-max-clamp": {
+    "url": "https://wpt.fyi/results?q=feature:min-max-clamp"
+  },
   "mixed-content": {
     "url": "https://wpt.fyi/results?q=feature:mixed-content"
   },
@@ -667,6 +679,9 @@
   },
   "overflow": {
     "url": "https://wpt.fyi/results?q=feature:overflow"
+  },
+  "overflow-anchor": {
+    "url": "https://wpt.fyi/results?q=feature:overflow-anchor"
   },
   "overflow-overlay": {
     "url": "https://wpt.fyi/results?q=feature:overflow-overlay"
@@ -841,6 +856,9 @@
   },
   "scope": {
     "url": "https://wpt.fyi/results?q=feature:scope"
+  },
+  "scoped-custom-element-registries": {
+    "url": "https://wpt.fyi/results?q=feature:scoped-custom-element-registries"
   },
   "screen-capture": {
     "url": "https://wpt.fyi/results?q=feature:screen-capture"
@@ -1061,11 +1079,17 @@
   "viewport-unit-variants": {
     "url": "https://wpt.fyi/results?q=feature:viewport-unit-variants"
   },
+  "viewport-units": {
+    "url": "https://wpt.fyi/results?q=feature:viewport-units"
+  },
   "virtual-keyboard": {
     "url": "https://wpt.fyi/results?q=feature:virtual-keyboard"
   },
   "visual-viewport": {
     "url": "https://wpt.fyi/results?q=feature:visual-viewport"
+  },
+  "wasm-simd": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-simd"
   },
   "web-animations": {
     "url": "https://wpt.fyi/results?q=feature:web-animations"
@@ -1135,6 +1159,9 @@
   },
   "white-space-collapse": {
     "url": "https://wpt.fyi/results?q=feature:white-space-collapse"
+  },
+  "widows-orphans": {
+    "url": "https://wpt.fyi/results?q=feature:widows-orphans"
   },
   "window-management": {
     "url": "https://wpt.fyi/results?q=feature:window-management"
