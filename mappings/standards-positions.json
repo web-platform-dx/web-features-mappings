@@ -403,11 +403,15 @@
   "corner-shape": [
     {
       "vendor": "webkit",
-      "url": "https://github.com/WebKit/standards-positions/issues/229"
+      "url": "https://github.com/WebKit/standards-positions/issues/229",
+      "position": "support",
+      "concerns": []
     },
     {
       "vendor": "mozilla",
-      "url": "https://github.com/mozilla/standards-positions/issues/823"
+      "url": "https://github.com/mozilla/standards-positions/issues/823",
+      "position": "",
+      "concerns": []
     }
   ],
   "credential-management": [

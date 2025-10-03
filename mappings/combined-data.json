@@ -4309,6 +4309,20 @@
     ]
   },
   "corner-shape": {
+    "standards-positions": [
+      {
+        "vendor": "webkit",
+        "url": "https://github.com/WebKit/standards-positions/issues/229",
+        "position": "support",
+        "concerns": []
+      },
+      {
+        "vendor": "mozilla",
+        "url": "https://github.com/mozilla/standards-positions/issues/823",
+        "position": "",
+        "concerns": []
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/398",
       "votes": 0
@@ -11127,7 +11141,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/287",
-      "votes": 1
+      "votes": 2
     }
   },
   "is": {
