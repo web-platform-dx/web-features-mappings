@@ -400,6 +400,20 @@
       ]
     }
   ],
+  "corner-shape": [
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/229",
+      "position": "support",
+      "concerns": []
+    },
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/823",
+      "position": "",
+      "concerns": []
+    }
+  ],
   "credential-management": [
     {
       "vendor": "mozilla",
@@ -1007,6 +1021,14 @@
       "vendor": "mozilla",
       "url": "https://github.com/mozilla/standards-positions/issues/518",
       "position": "",
+      "concerns": []
+    }
+  ],
+  "input-color-alpha": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1230",
+      "position": "positive",
       "concerns": []
     }
   ],
