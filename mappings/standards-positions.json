@@ -91,6 +91,16 @@
       "concerns": []
     }
   ],
+  "arianotify": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1049"
+    },
+    {
+      "vendor": "webkit",
+      "url": "https://github.com/WebKit/standards-positions/issues/370"
+    }
+  ],
   "async-iterable-streams": [
     {
       "vendor": "webkit",
