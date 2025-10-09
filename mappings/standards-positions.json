@@ -94,11 +94,19 @@
   "arianotify": [
     {
       "vendor": "mozilla",
-      "url": "https://github.com/mozilla/standards-positions/issues/1049"
+      "url": "https://github.com/mozilla/standards-positions/issues/1049",
+      "position": "positive",
+      "concerns": []
     },
     {
       "vendor": "webkit",
-      "url": "https://github.com/WebKit/standards-positions/issues/370"
+      "url": "https://github.com/WebKit/standards-positions/issues/370",
+      "position": "support",
+      "concerns": [
+        "internationalization",
+        "portability",
+        "annoyance"
+      ]
     }
   ],
   "async-iterable-streams": [
