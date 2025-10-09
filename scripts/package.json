@@ -13,7 +13,7 @@
   },
   "scripts": {
     "bump": "npx npm-check-updates -u && npm install",
-    "build": "npm run update:all && npm run lint:schemas && npm run combine",
+    "build": "npm run update:all && npm run lint:schemas && npm run combine:schemas&& npm run combine",
     "update:all": "npm run update:chrome-use-counters && npm run update:developer-signals && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt",
     "update:chrome-use-counters": "node update-chrome-use-counters-mapping.js",
     "update:developer-signals": "node update-developer-signals.js",
@@ -23,6 +23,7 @@
     "update:state-of-surveys": "node update-state-of-surveys-mapping.js",
     "update:wpt": "node update-wpt-mapping.js",
     "lint:schemas": "node lint-schemas.js",
+    "combine:schemas": "node generate-combined-schema.js",
     "combine": "node combine-mappings.js"
   }
 }
