@@ -116,11 +116,7 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/sign"
       }
-    ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/165",
-      "votes": 0
-    }
+    ]
   },
   "absolute-positioning": {
     "mdn-docs": [
@@ -3496,10 +3492,6 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Selection/getComposedRanges"
       }
     ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/214",
-      "votes": 0
-    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00002527,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/314"
@@ -4067,7 +4059,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/196",
-      "votes": 0
+      "votes": 1
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00386083,
@@ -4128,10 +4120,6 @@
         "url": "https://wpt.fyi/interop-2023?feature=interop-2023-contain"
       }
     ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/183",
-      "votes": 0
-    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.05186214,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/148"
@@ -4475,11 +4463,7 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Window/createImageBitmap"
       }
-    ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/70",
-      "votes": 0
-    }
+    ]
   },
   "credential-management": {
     "wpt": {
@@ -12063,11 +12047,7 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/rel/dns-prefetch"
       }
-    ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/359",
-      "votes": 0
-    }
+    ]
   },
   "link-rel-expect": {
     "state-of-surveys": [
@@ -12592,7 +12572,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/225",
-      "votes": 0
+      "votes": 1
     }
   },
   "mask-type": {
@@ -12925,11 +12905,7 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/MediaStream_Recording_API"
       }
-    ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/309",
-      "votes": 0
-    }
+    ]
   },
   "menu": {
     "mdn-docs": [
@@ -14815,11 +14791,7 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/PerformancePaintTiming"
       }
-    ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/312",
-      "votes": 0
-    }
+    ]
   },
   "parse-html-unsafe": {
     "wpt": {
@@ -14863,10 +14835,6 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Document/parseHTMLUnsafe_static"
       }
     ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/360",
-      "votes": 0
-    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0001736,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/122"
@@ -21629,10 +21597,6 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromBase64"
       }
     ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/264",
-      "votes": 0
-    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.01034096,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/334"
@@ -21768,10 +21732,6 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-urlpattern"
       }
     ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/155",
-      "votes": 0
-    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.03293929,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/326"
