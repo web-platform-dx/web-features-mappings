@@ -1,33 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Web Feature Mappings Data",
-  "description": "A collection of schemas for each of the web feature mapping files.",
+  "title": "Combined Web Feature Mappings Data",
+  "description": "Schema for combined-data.json.",
   "type": "object",
-  "properties": {
-    "chrome-use-counters": {
-      "$ref": "#/definitions/chromeUseCountersFile"
-    },
-    "developer-signals": {
-      "$ref": "#/definitions/developerSignalsFile"
-    },
-    "interop": {
-      "$ref": "#/definitions/interopFile"
-    },
-    "mdn-docs": {
-      "$ref": "#/definitions/mdnDocsFile"
-    },
-    "standards-positions": {
-      "$ref": "#/definitions/standardsPositionsFile"
-    },
-    "state-of-surveys": {
-      "$ref": "#/definitions/stateOfSurveysFile"
-    },
-    "wpt": {
-      "$ref": "#/definitions/wptFile"
-    }
-  },
-  "$comment": "The properties are the file names of the files in the mapping directory",
-  "additionalProperties": false,
   "definitions": {
     "chromeUseCountersFile": {
       "description": "Schema for chrome-use-counters.json. An object where keys are feature IDs and values are usage metrics.",
@@ -323,5 +298,32 @@
       ],
       "additionalProperties": false
     }
+  },
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "chrome-use-counters": {
+        "$ref": "#/definitions/useCounterValue"
+      },
+      "developer-signals": {
+        "$ref": "#/definitions/developerSignal"
+      },
+      "interop": {
+        "$ref": "#/definitions/interopHistory"
+      },
+      "mdn-docs": {
+        "$ref": "#/definitions/mdnLinkArray"
+      },
+      "standards-positions": {
+        "$ref": "#/definitions/standardsPositionArray"
+      },
+      "state-of-surveys": {
+        "$ref": "#/definitions/surveyRecordArray"
+      },
+      "wpt": {
+        "$ref": "#/definitions/wptRecord"
+      }
+    },
+    "additionalProperties": false
   }
 }
