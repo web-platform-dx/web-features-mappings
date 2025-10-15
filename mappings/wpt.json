@@ -59,6 +59,9 @@
   "audio-worklet": {
     "url": "https://wpt.fyi/results?q=feature:audio-worklet"
   },
+  "autocapitalize": {
+    "url": "https://wpt.fyi/results?q=feature:autocapitalize"
+  },
   "autofill": {
     "url": "https://wpt.fyi/results?q=feature:autofill"
   },
@@ -233,6 +236,9 @@
   "credential-management": {
     "url": "https://wpt.fyi/results?q=feature:credential-management"
   },
+  "crisp-edges": {
+    "url": "https://wpt.fyi/results?q=feature:crisp-edges"
+  },
   "cross-document-view-transitions": {
     "url": "https://wpt.fyi/results?q=feature:cross-document-view-transitions"
   },
@@ -359,6 +365,9 @@
   "focus-visible": {
     "url": "https://wpt.fyi/results?q=feature:focus-visible"
   },
+  "font-family-ui": {
+    "url": "https://wpt.fyi/results?q=feature:font-family-ui"
+  },
   "font-language-override": {
     "url": "https://wpt.fyi/results?q=feature:font-language-override"
   },
@@ -415,6 +424,9 @@
   },
   "gamepad": {
     "url": "https://wpt.fyi/results?q=feature:gamepad"
+  },
+  "gamepad-haptics": {
+    "url": "https://wpt.fyi/results?q=feature:gamepad-haptics"
   },
   "geolocation": {
     "url": "https://wpt.fyi/results?q=feature:geolocation"
@@ -479,6 +491,9 @@
   "image-set": {
     "url": "https://wpt.fyi/results?q=feature:image-set"
   },
+  "imagebitmaprenderingcontext": {
+    "url": "https://wpt.fyi/results?q=feature:imagebitmaprenderingcontext"
+  },
   "import-maps": {
     "url": "https://wpt.fyi/results?q=feature:import-maps"
   },
@@ -496,6 +511,12 @@
   },
   "initial-letter": {
     "url": "https://wpt.fyi/results?q=feature:initial-letter"
+  },
+  "input-date-time": {
+    "url": "https://wpt.fyi/results?q=feature:input-date-time"
+  },
+  "input-file": {
+    "url": "https://wpt.fyi/results?q=feature:input-file"
   },
   "interpolate-size": {
     "url": "https://wpt.fyi/results?q=feature:interpolate-size"
@@ -734,6 +755,9 @@
   "picture-in-picture": {
     "url": "https://wpt.fyi/results?q=feature:picture-in-picture"
   },
+  "ping": {
+    "url": "https://wpt.fyi/results?q=feature:ping"
+  },
   "pointer-events-api": {
     "url": "https://wpt.fyi/results?q=feature:pointer-events-api"
   },
@@ -796,6 +820,9 @@
   },
   "registered-custom-properties": {
     "url": "https://wpt.fyi/results?q=feature:registered-custom-properties"
+  },
+  "registerprotocolhandler": {
+    "url": "https://wpt.fyi/results?q=feature:registerprotocolhandler"
   },
   "relative-color": {
     "url": "https://wpt.fyi/results?q=feature:relative-color"
@@ -986,6 +1013,9 @@
   "text-indent": {
     "url": "https://wpt.fyi/results?q=feature:text-indent"
   },
+  "text-indent-each-line": {
+    "url": "https://wpt.fyi/results?q=feature:text-indent-each-line"
+  },
   "text-spacing-trim": {
     "url": "https://wpt.fyi/results?q=feature:text-spacing-trim"
   },
@@ -1009,6 +1039,9 @@
   },
   "text-wrap-style": {
     "url": "https://wpt.fyi/results?q=feature:text-wrap-style"
+  },
+  "time-relative-selectors": {
+    "url": "https://wpt.fyi/results?q=feature:time-relative-selectors"
   },
   "touch-events": {
     "url": "https://wpt.fyi/results?q=feature:touch-events"
