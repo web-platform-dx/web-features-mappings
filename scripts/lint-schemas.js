@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import Ajv from "ajv/dist/2020.js";
+import Ajv from "ajv";
 import addFormats from "ajv-formats";
 import { glob } from "glob";
 import { fileURLToPath } from "url";
