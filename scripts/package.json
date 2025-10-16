@@ -9,7 +9,7 @@
     "ajv-formats": "^3.0.1",
     "glob": "^11.0.3",
     "js-yaml": "^4.1.0",
-    "web-features": "^3.4.0"
+    "web-features": "^3.5.0"
   },
   "scripts": {
     "bump": "npx npm-check-updates -u && npm install",
