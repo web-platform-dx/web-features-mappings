@@ -819,7 +819,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Element/ariaNotify"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/423",
+      "votes": 0
+    }
   },
   "array": {
     "mdn-docs": [
@@ -2701,7 +2705,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/caret-shape"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/424",
+      "votes": 0
+    }
   },
   "cascade-layers": {
     "wpt": {
@@ -3113,6 +3121,12 @@
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00003577,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/123"
+    }
+  },
+  "clipboardchange": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/425",
+      "votes": 0
     }
   },
   "closewatcher": {
@@ -5630,10 +5644,6 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/::details-content"
       }
     ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/261",
-      "votes": 0
-    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00207966,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/354"
@@ -8892,6 +8902,12 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle"
       }
     ]
+  },
+  "getallrecords": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/422",
+      "votes": 0
+    }
   },
   "getboxquads": {
     "developer-signals": {
@@ -23262,11 +23278,7 @@
         "label": "interop-2025-webrtc",
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webrtc"
       }
-    ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/164",
-      "votes": 0
-    }
+    ]
   },
   "webrtc-sctp": {
     "wpt": {
