@@ -531,7 +531,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/245",
-      "votes": 1
+      "votes": 2
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00291802,
@@ -8901,6 +8901,20 @@
     ]
   },
   "getallrecords": {
+    "mdn-docs": [
+      {
+        "slug": "Web/API/IDBIndex/getAllRecords",
+        "title": "IDBIndex: getAllRecords() method",
+        "anchor": null,
+        "url": "https://developer.mozilla.org/docs/Web/API/IDBIndex/getAllRecords"
+      },
+      {
+        "slug": "Web/API/IDBObjectStore/getAllRecords",
+        "title": "IDBObjectStore: getAllRecords() method",
+        "anchor": null,
+        "url": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getAllRecords"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/422",
       "votes": 0
@@ -22036,10 +22050,6 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-view-transitions"
       }
     ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/244",
-      "votes": 0
-    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00061818,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/245"
@@ -22078,10 +22088,6 @@
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-view-transitions"
       }
     ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/197",
-      "votes": 0
-    },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00159074,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/2"
