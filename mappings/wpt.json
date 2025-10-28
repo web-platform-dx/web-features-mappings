@@ -1,4 +1,10 @@
 {
+  "a": {
+    "url": "https://wpt.fyi/results?q=feature:a"
+  },
+  "abortable-fetch": {
+    "url": "https://wpt.fyi/results?q=feature:abortable-fetch"
+  },
   "aborting": {
     "url": "https://wpt.fyi/results?q=feature:aborting"
   },
@@ -8,20 +14,38 @@
   "abs-sign": {
     "url": "https://wpt.fyi/results?q=feature:abs-sign"
   },
+  "absolute-positioning": {
+    "url": "https://wpt.fyi/results?q=feature:absolute-positioning"
+  },
   "accelerometer": {
     "url": "https://wpt.fyi/results?q=feature:accelerometer"
   },
   "accent-color": {
     "url": "https://wpt.fyi/results?q=feature:accent-color"
   },
+  "accesskey": {
+    "url": "https://wpt.fyi/results?q=feature:accesskey"
+  },
   "active-view-transition": {
     "url": "https://wpt.fyi/results?q=feature:active-view-transition"
+  },
+  "alerts": {
+    "url": "https://wpt.fyi/results?q=feature:alerts"
   },
   "align-content-block": {
     "url": "https://wpt.fyi/results?q=feature:align-content-block"
   },
   "alignment-baseline": {
     "url": "https://wpt.fyi/results?q=feature:alignment-baseline"
+  },
+  "all": {
+    "url": "https://wpt.fyi/results?q=feature:all"
+  },
+  "alt-text-generated-content": {
+    "url": "https://wpt.fyi/results?q=feature:alt-text-generated-content"
+  },
+  "alternative-style-sheets": {
+    "url": "https://wpt.fyi/results?q=feature:alternative-style-sheets"
   },
   "ambient-light": {
     "url": "https://wpt.fyi/results?q=feature:ambient-light"
@@ -31,6 +55,9 @@
   },
   "animation-composition": {
     "url": "https://wpt.fyi/results?q=feature:animation-composition"
+  },
+  "app-file-handlers": {
+    "url": "https://wpt.fyi/results?q=feature:app-file-handlers"
   },
   "appearance": {
     "url": "https://wpt.fyi/results?q=feature:appearance"
@@ -649,6 +676,9 @@
   },
   "move-before": {
     "url": "https://wpt.fyi/results?q=feature:move-before"
+  },
+  "mutation-events": {
+    "url": "https://wpt.fyi/results?q=feature:mutation-events"
   },
   "navigation": {
     "url": "https://wpt.fyi/results?q=feature:navigation"
