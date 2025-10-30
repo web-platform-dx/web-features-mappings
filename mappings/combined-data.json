@@ -8928,6 +8928,20 @@
     ]
   },
   "getallrecords": {
+    "standards-positions": [
+      {
+        "vendor": "mozilla",
+        "url": "https://github.com/mozilla/standards-positions/issues/1261",
+        "position": "positive",
+        "concerns": []
+      },
+      {
+        "vendor": "webkit",
+        "url": "https://github.com/WebKit/standards-positions/issues/521",
+        "position": "support",
+        "concerns": []
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/API/IDBIndex/getAllRecords",
@@ -23593,6 +23607,9 @@
     }
   },
   "webxr-anchors": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-anchors"
+    },
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -23615,6 +23632,9 @@
     }
   },
   "webxr-ar": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-ar"
+    },
     "mdn-docs": [
       {
         "slug": "Web/API/XRSystem/requestSession#mode",
@@ -23633,6 +23653,9 @@
     }
   },
   "webxr-camera": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-camera"
+    },
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -23659,6 +23682,9 @@
     ]
   },
   "webxr-depth-sensing": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-depth-sensing"
+    },
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -23681,6 +23707,9 @@
     }
   },
   "webxr-device": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-device"
+    },
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -23709,6 +23738,9 @@
     }
   },
   "webxr-dom-overlays": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-dom-overlays"
+    },
     "mdn-docs": [
       {
         "slug": "Web/API/XRSession/domOverlayState",
@@ -23723,6 +23755,9 @@
     }
   },
   "webxr-gamepads": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-gamepads"
+    },
     "mdn-docs": [
       {
         "slug": "Web/API/XRInputSource/gamepad",
@@ -23737,6 +23772,9 @@
     }
   },
   "webxr-hand-input": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-hand-input"
+    },
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -23765,6 +23803,9 @@
     }
   },
   "webxr-hit-test": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-hit-test"
+    },
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -23787,6 +23828,9 @@
     }
   },
   "webxr-layers": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-layers"
+    },
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -23809,6 +23853,9 @@
     }
   },
   "webxr-lighting-estimation": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:webxr-lighting-estimation"
+    },
     "mdn-docs": [
       {
         "slug": "Web/API/XRLightProbe",
