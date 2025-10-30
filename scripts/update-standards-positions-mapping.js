@@ -15,7 +15,7 @@
 // Each position object is structured as follows:
 //
 // {
-//   vendor: "mozilla" | "webkit",
+//   vendor: "mozilla" | "apple",
 //   url: "<url>", // The URL of the vendor's issue about the feature.
 //   position: "<position>", // The vendor's position on the feature.
 //   concerns: ["<concern>"], // An array of concerns the vendor has.
@@ -31,7 +31,7 @@
 //       "position": "positive"
 //     },
 //     {
-//       "vendor": "webkit",
+//       "vendor": "apple",
 //       "url": "https://github.com/WebKit/standards-positions/issues/57",
 //       "position": "support"
 //     }
@@ -108,7 +108,7 @@ async function getWebkitPosition(url) {
 
 async function getPosition(vendor, url) {
   switch (vendor) {
-    case "webkit":
+    case "apple":
       return await getWebkitPosition(url);
     case "mozilla":
       return await getMozillaPosition(url);
