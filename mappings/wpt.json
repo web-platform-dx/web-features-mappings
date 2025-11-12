@@ -56,8 +56,17 @@
   "animation-composition": {
     "url": "https://wpt.fyi/results?q=feature:animation-composition"
   },
+  "animations-css": {
+    "url": "https://wpt.fyi/results?q=feature:animations-css"
+  },
   "app-file-handlers": {
     "url": "https://wpt.fyi/results?q=feature:app-file-handlers"
+  },
+  "app-protocol-handlers": {
+    "url": "https://wpt.fyi/results?q=feature:app-protocol-handlers"
+  },
+  "app-shortcuts": {
+    "url": "https://wpt.fyi/results?q=feature:app-shortcuts"
   },
   "appearance": {
     "url": "https://wpt.fyi/results?q=feature:appearance"
@@ -83,20 +92,35 @@
   "attribution-reporting": {
     "url": "https://wpt.fyi/results?q=feature:attribution-reporting"
   },
+  "audio": {
+    "url": "https://wpt.fyi/results?q=feature:audio"
+  },
   "audio-worklet": {
     "url": "https://wpt.fyi/results?q=feature:audio-worklet"
   },
   "autocapitalize": {
     "url": "https://wpt.fyi/results?q=feature:autocapitalize"
   },
+  "autocorrect": {
+    "url": "https://wpt.fyi/results?q=feature:autocorrect"
+  },
   "autofill": {
     "url": "https://wpt.fyi/results?q=feature:autofill"
+  },
+  "autofocus": {
+    "url": "https://wpt.fyi/results?q=feature:autofocus"
   },
   "autonomous-custom-elements": {
     "url": "https://wpt.fyi/results?q=feature:autonomous-custom-elements"
   },
   "avif": {
     "url": "https://wpt.fyi/results?q=feature:avif"
+  },
+  "b": {
+    "url": "https://wpt.fyi/results?q=feature:b"
+  },
+  "backdrop": {
+    "url": "https://wpt.fyi/results?q=feature:backdrop"
   },
   "backdrop-filter": {
     "url": "https://wpt.fyi/results?q=feature:backdrop-filter"
@@ -274,6 +298,9 @@
   },
   "css-typed-om": {
     "url": "https://wpt.fyi/results?q=feature:css-typed-om"
+  },
+  "cubic-bezier-easing": {
+    "url": "https://wpt.fyi/results?q=feature:cubic-bezier-easing"
   },
   "custom-properties": {
     "url": "https://wpt.fyi/results?q=feature:custom-properties"
@@ -1006,6 +1033,9 @@
   },
   "state": {
     "url": "https://wpt.fyi/results?q=feature:state"
+  },
+  "steps-easing": {
+    "url": "https://wpt.fyi/results?q=feature:steps-easing"
   },
   "sticky-positioning": {
     "url": "https://wpt.fyi/results?q=feature:sticky-positioning"
