@@ -5009,7 +5009,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/398",
-      "votes": 2
+      "votes": 4
     }
   },
   "cors": {
@@ -13569,16 +13569,16 @@
     ],
     "mdn-docs": [
       {
-        "slug": "Web/JavaScript/Reference/Operators/Logical_AND",
-        "title": "Logical AND (&&)",
+        "slug": "Web/JavaScript/Reference/Operators/Logical_AND_assignment",
+        "title": "Logical AND assignment (&&=)",
         "anchor": null,
-        "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_AND"
+        "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment"
       },
       {
-        "slug": "Web/JavaScript/Reference/Operators/Logical_OR",
-        "title": "Logical OR (||)",
+        "slug": "Web/JavaScript/Reference/Operators/Logical_OR_assignment",
+        "title": "Logical OR assignment (||=)",
         "anchor": null,
-        "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_OR"
+        "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment"
       }
     ],
     "chrome-use-counters": {
@@ -22607,7 +22607,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/291",
-      "votes": 3
+      "votes": 4
     }
   },
   "text-align": {
