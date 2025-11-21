@@ -625,7 +625,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/245",
-      "votes": 5
+      "votes": 6
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00327555,
@@ -5009,7 +5009,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/398",
-      "votes": 4
+      "votes": 5
     }
   },
   "cors": {
@@ -20232,6 +20232,9 @@
     }
   },
   "setinterval": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:setinterval"
+    },
     "mdn-docs": [
       {
         "slug": "Web/API/Window/setInterval",
@@ -20248,6 +20251,9 @@
     ]
   },
   "settimeout": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:settimeout"
+    },
     "mdn-docs": [
       {
         "slug": "Web/API/Window/setTimeout",
@@ -24519,7 +24525,7 @@
     },
     "mdn-docs": [
       {
-        "slug": "Web/API/Visual_Viewport_API",
+        "slug": "Web/API/VisualViewport",
         "title": "Visual Viewport API",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Visual_Viewport_API"
@@ -26488,6 +26494,9 @@
     }
   },
   "word-break": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:word-break"
+    },
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/Properties/word-break",
@@ -26498,6 +26507,9 @@
     ]
   },
   "word-break-auto-phrase": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:word-break-auto-phrase"
+    },
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -26524,6 +26536,9 @@
     }
   },
   "word-break-break-word": {
+    "wpt": {
+      "url": "https://wpt.fyi/results?q=feature:word-break-break-word"
+    },
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/Properties/word-break",

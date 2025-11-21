@@ -1031,6 +1031,12 @@
   "server-timing": {
     "url": "https://wpt.fyi/results?q=feature:server-timing"
   },
+  "setinterval": {
+    "url": "https://wpt.fyi/results?q=feature:setinterval"
+  },
+  "settimeout": {
+    "url": "https://wpt.fyi/results?q=feature:settimeout"
+  },
   "shadow-dom": {
     "url": "https://wpt.fyi/results?q=feature:shadow-dom"
   },
@@ -1330,6 +1336,15 @@
   },
   "window-management": {
     "url": "https://wpt.fyi/results?q=feature:window-management"
+  },
+  "word-break": {
+    "url": "https://wpt.fyi/results?q=feature:word-break"
+  },
+  "word-break-auto-phrase": {
+    "url": "https://wpt.fyi/results?q=feature:word-break-auto-phrase"
+  },
+  "word-break-break-word": {
+    "url": "https://wpt.fyi/results?q=feature:word-break-break-word"
   },
   "writingsuggestions": {
     "url": "https://wpt.fyi/results?q=feature:writingsuggestions"
