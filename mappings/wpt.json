@@ -170,6 +170,12 @@
   "badging": {
     "url": "https://wpt.fyi/results?q=feature:badging"
   },
+  "barprop": {
+    "url": "https://wpt.fyi/results?q=feature:barprop"
+  },
+  "base64encodedecode": {
+    "url": "https://wpt.fyi/results?q=feature:base64encodedecode"
+  },
   "baseline-shift": {
     "url": "https://wpt.fyi/results?q=feature:baseline-shift"
   },
@@ -179,8 +185,23 @@
   "battery": {
     "url": "https://wpt.fyi/results?q=feature:battery"
   },
+  "bdi": {
+    "url": "https://wpt.fyi/results?q=feature:bdi"
+  },
+  "bdo": {
+    "url": "https://wpt.fyi/results?q=feature:bdo"
+  },
   "beacons": {
     "url": "https://wpt.fyi/results?q=feature:beacons"
+  },
+  "before-after": {
+    "url": "https://wpt.fyi/results?q=feature:before-after"
+  },
+  "beforeunload": {
+    "url": "https://wpt.fyi/results?q=feature:beforeunload"
+  },
+  "bfcache-blocking-reasons": {
+    "url": "https://wpt.fyi/results?q=feature:bfcache-blocking-reasons"
   },
   "blocking-render": {
     "url": "https://wpt.fyi/results?q=feature:blocking-render"
@@ -1327,6 +1348,9 @@
   },
   "webxr-lighting-estimation": {
     "url": "https://wpt.fyi/results?q=feature:webxr-lighting-estimation"
+  },
+  "wheel-events": {
+    "url": "https://wpt.fyi/results?q=feature:wheel-events"
   },
   "white-space-collapse": {
     "url": "https://wpt.fyi/results?q=feature:white-space-collapse"
