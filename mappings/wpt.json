@@ -170,6 +170,9 @@
   "badging": {
     "url": "https://wpt.fyi/results?q=feature:badging"
   },
+  "barcode": {
+    "url": "https://wpt.fyi/results?q=feature:barcode"
+  },
   "barprop": {
     "url": "https://wpt.fyi/results?q=feature:barprop"
   },
@@ -242,17 +245,35 @@
   "cap": {
     "url": "https://wpt.fyi/results?q=feature:cap"
   },
+  "capture-stream-audio-video": {
+    "url": "https://wpt.fyi/results?q=feature:capture-stream-audio-video"
+  },
+  "capture-stream-canvas": {
+    "url": "https://wpt.fyi/results?q=feature:capture-stream-canvas"
+  },
+  "caret-color": {
+    "url": "https://wpt.fyi/results?q=feature:caret-color"
+  },
   "cascade-layers": {
     "url": "https://wpt.fyi/results?q=feature:cascade-layers"
   },
   "ch": {
     "url": "https://wpt.fyi/results?q=feature:ch"
   },
+  "change-event": {
+    "url": "https://wpt.fyi/results?q=feature:change-event"
+  },
+  "channel-messaging": {
+    "url": "https://wpt.fyi/results?q=feature:channel-messaging"
+  },
   "check-visibility": {
     "url": "https://wpt.fyi/results?q=feature:check-visibility"
   },
   "clear-site-data": {
     "url": "https://wpt.fyi/results?q=feature:clear-site-data"
+  },
+  "clip": {
+    "url": "https://wpt.fyi/results?q=feature:clip"
   },
   "clip-path": {
     "url": "https://wpt.fyi/results?q=feature:clip-path"
@@ -422,17 +443,29 @@
   "edit-context": {
     "url": "https://wpt.fyi/results?q=feature:edit-context"
   },
+  "element-capture": {
+    "url": "https://wpt.fyi/results?q=feature:element-capture"
+  },
   "element-from-point": {
     "url": "https://wpt.fyi/results?q=feature:element-from-point"
   },
   "element-timing": {
     "url": "https://wpt.fyi/results?q=feature:element-timing"
   },
+  "em-unit": {
+    "url": "https://wpt.fyi/results?q=feature:em-unit"
+  },
+  "embed": {
+    "url": "https://wpt.fyi/results?q=feature:embed"
+  },
   "encrypted-media-extensions": {
     "url": "https://wpt.fyi/results?q=feature:encrypted-media-extensions"
   },
   "event-timing": {
     "url": "https://wpt.fyi/results?q=feature:event-timing"
+  },
+  "ex": {
+    "url": "https://wpt.fyi/results?q=feature:ex"
   },
   "exp-functions": {
     "url": "https://wpt.fyi/results?q=feature:exp-functions"
@@ -884,6 +917,9 @@
   "popover": {
     "url": "https://wpt.fyi/results?q=feature:popover"
   },
+  "postmessage": {
+    "url": "https://wpt.fyi/results?q=feature:postmessage"
+  },
   "prefers-color-scheme": {
     "url": "https://wpt.fyi/results?q=feature:prefers-color-scheme"
   },
@@ -998,6 +1034,9 @@
   "ruby-position": {
     "url": "https://wpt.fyi/results?q=feature:ruby-position"
   },
+  "safe-area-inset": {
+    "url": "https://wpt.fyi/results?q=feature:safe-area-inset"
+  },
   "sanitizer": {
     "url": "https://wpt.fyi/results?q=feature:sanitizer"
   },
@@ -1079,6 +1118,18 @@
   "shadow-dom": {
     "url": "https://wpt.fyi/results?q=feature:shadow-dom"
   },
+  "shadow-parts": {
+    "url": "https://wpt.fyi/results?q=feature:shadow-parts"
+  },
+  "share": {
+    "url": "https://wpt.fyi/results?q=feature:share"
+  },
+  "shared-storage": {
+    "url": "https://wpt.fyi/results?q=feature:shared-storage"
+  },
+  "shared-storage-locks": {
+    "url": "https://wpt.fyi/results?q=feature:shared-storage-locks"
+  },
   "show-picker-input": {
     "url": "https://wpt.fyi/results?q=feature:show-picker-input"
   },
@@ -1091,6 +1142,18 @@
   "slot-assign": {
     "url": "https://wpt.fyi/results?q=feature:slot-assign"
   },
+  "smil-svg-animations": {
+    "url": "https://wpt.fyi/results?q=feature:smil-svg-animations"
+  },
+  "smooth": {
+    "url": "https://wpt.fyi/results?q=feature:smooth"
+  },
+  "speak": {
+    "url": "https://wpt.fyi/results?q=feature:speak"
+  },
+  "speak-as": {
+    "url": "https://wpt.fyi/results?q=feature:speak-as"
+  },
   "speculation-rules": {
     "url": "https://wpt.fyi/results?q=feature:speculation-rules"
   },
@@ -1100,8 +1163,14 @@
   "speech-synthesis": {
     "url": "https://wpt.fyi/results?q=feature:speech-synthesis"
   },
+  "spellcheck": {
+    "url": "https://wpt.fyi/results?q=feature:spellcheck"
+  },
   "spelling-grammar-error": {
     "url": "https://wpt.fyi/results?q=feature:spelling-grammar-error"
+  },
+  "srcset": {
+    "url": "https://wpt.fyi/results?q=feature:srcset"
   },
   "starting-style": {
     "url": "https://wpt.fyi/results?q=feature:starting-style"
@@ -1123,6 +1192,9 @@
   },
   "streams": {
     "url": "https://wpt.fyi/results?q=feature:streams"
+  },
+  "stretch": {
+    "url": "https://wpt.fyi/results?q=feature:stretch"
   },
   "structured-clone": {
     "url": "https://wpt.fyi/results?q=feature:structured-clone"
@@ -1268,6 +1340,9 @@
   "wasm-simd": {
     "url": "https://wpt.fyi/results?q=feature:wasm-simd"
   },
+  "wbr": {
+    "url": "https://wpt.fyi/results?q=feature:wbr"
+  },
   "web-animations": {
     "url": "https://wpt.fyi/results?q=feature:web-animations"
   },
@@ -1276,6 +1351,9 @@
   },
   "web-bluetooth": {
     "url": "https://wpt.fyi/results?q=feature:web-bluetooth"
+  },
+  "web-cryptography": {
+    "url": "https://wpt.fyi/results?q=feature:web-cryptography"
   },
   "web-locks": {
     "url": "https://wpt.fyi/results?q=feature:web-locks"
@@ -1289,14 +1367,23 @@
   "web-otp": {
     "url": "https://wpt.fyi/results?q=feature:web-otp"
   },
+  "webauthn": {
+    "url": "https://wpt.fyi/results?q=feature:webauthn"
+  },
   "webauthn-public-key-easy": {
     "url": "https://wpt.fyi/results?q=feature:webauthn-public-key-easy"
+  },
+  "webauthn-signals": {
+    "url": "https://wpt.fyi/results?q=feature:webauthn-signals"
   },
   "webcodecs": {
     "url": "https://wpt.fyi/results?q=feature:webcodecs"
   },
   "webdriver-bidi": {
     "url": "https://wpt.fyi/results?q=feature:webdriver-bidi"
+  },
+  "webgl": {
+    "url": "https://wpt.fyi/results?q=feature:webgl"
   },
   "webgpu": {
     "url": "https://wpt.fyi/results?q=feature:webgpu"
@@ -1306,6 +1393,9 @@
   },
   "webnn": {
     "url": "https://wpt.fyi/results?q=feature:webnn"
+  },
+  "webrtc": {
+    "url": "https://wpt.fyi/results?q=feature:webrtc"
   },
   "webrtc-encoded-transform": {
     "url": "https://wpt.fyi/results?q=feature:webrtc-encoded-transform"
@@ -1325,11 +1415,17 @@
   "webusb": {
     "url": "https://wpt.fyi/results?q=feature:webusb"
   },
+  "webvr": {
+    "url": "https://wpt.fyi/results?q=feature:webvr"
+  },
   "webvtt": {
     "url": "https://wpt.fyi/results?q=feature:webvtt"
   },
   "webvtt-cue-alignment": {
     "url": "https://wpt.fyi/results?q=feature:webvtt-cue-alignment"
+  },
+  "webvtt-cue-settings": {
+    "url": "https://wpt.fyi/results?q=feature:webvtt-cue-settings"
   },
   "webvtt-regions": {
     "url": "https://wpt.fyi/results?q=feature:webvtt-regions"
@@ -1378,6 +1474,9 @@
   },
   "will-change": {
     "url": "https://wpt.fyi/results?q=feature:will-change"
+  },
+  "window-controls-overlay": {
+    "url": "https://wpt.fyi/results?q=feature:window-controls-overlay"
   },
   "window-management": {
     "url": "https://wpt.fyi/results?q=feature:window-management"
