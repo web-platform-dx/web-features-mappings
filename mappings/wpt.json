@@ -1211,11 +1211,29 @@
   "summarizer": {
     "url": "https://wpt.fyi/results?q=feature:summarizer"
   },
+  "svg-discouraged": {
+    "url": "https://wpt.fyi/results?q=feature:svg-discouraged"
+  },
+  "svg-filters": {
+    "url": "https://wpt.fyi/results?q=feature:svg-filters"
+  },
+  "system-color": {
+    "url": "https://wpt.fyi/results?q=feature:system-color"
+  },
   "tab-size": {
     "url": "https://wpt.fyi/results?q=feature:tab-size"
   },
   "tabindex": {
     "url": "https://wpt.fyi/results?q=feature:tabindex"
+  },
+  "table": {
+    "url": "https://wpt.fyi/results?q=feature:table"
+  },
+  "table-discouraged": {
+    "url": "https://wpt.fyi/results?q=feature:table-discouraged"
+  },
+  "target": {
+    "url": "https://wpt.fyi/results?q=feature:target"
   },
   "target-text": {
     "url": "https://wpt.fyi/results?q=feature:target-text"
@@ -1343,14 +1361,41 @@
   "wasm-bulk-memory": {
     "url": "https://wpt.fyi/results?q=feature:wasm-bulk-memory"
   },
+  "wasm-exception-handling": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-exception-handling"
+  },
+  "wasm-exnref-exceptions": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-exnref-exceptions"
+  },
+  "wasm-garbage-collection": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-garbage-collection"
+  },
   "wasm-memory64": {
     "url": "https://wpt.fyi/results?q=feature:wasm-memory64"
   },
   "wasm-multi-memory": {
     "url": "https://wpt.fyi/results?q=feature:wasm-multi-memory"
   },
+  "wasm-mutable-globals": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-mutable-globals"
+  },
+  "wasm-reference-types": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-reference-types"
+  },
   "wasm-simd": {
     "url": "https://wpt.fyi/results?q=feature:wasm-simd"
+  },
+  "wasm-simd-relaxed": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-simd-relaxed"
+  },
+  "wasm-string-builtins": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-string-builtins"
+  },
+  "wasm-tail-call-optimization": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-tail-call-optimization"
+  },
+  "wasm-typed-fun-refs": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-typed-fun-refs"
   },
   "wbr": {
     "url": "https://wpt.fyi/results?q=feature:wbr"
