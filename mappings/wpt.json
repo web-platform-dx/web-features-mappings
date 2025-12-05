@@ -284,11 +284,32 @@
   "clip-path-boxes": {
     "url": "https://wpt.fyi/results?q=feature:clip-path-boxes"
   },
+  "clipboard-custom-format": {
+    "url": "https://wpt.fyi/results?q=feature:clipboard-custom-format"
+  },
+  "clipboard-events": {
+    "url": "https://wpt.fyi/results?q=feature:clipboard-events"
+  },
+  "clipboard-svg": {
+    "url": "https://wpt.fyi/results?q=feature:clipboard-svg"
+  },
+  "clipboard-unsanitized-formats": {
+    "url": "https://wpt.fyi/results?q=feature:clipboard-unsanitized-formats"
+  },
+  "clipboardchange": {
+    "url": "https://wpt.fyi/results?q=feature:clipboardchange"
+  },
   "closewatcher": {
     "url": "https://wpt.fyi/results?q=feature:closewatcher"
   },
+  "color-contrast": {
+    "url": "https://wpt.fyi/results?q=feature:color-contrast"
+  },
   "color-function": {
     "url": "https://wpt.fyi/results?q=feature:color-function"
+  },
+  "color-gamut": {
+    "url": "https://wpt.fyi/results?q=feature:color-gamut"
   },
   "color-mix": {
     "url": "https://wpt.fyi/results?q=feature:color-mix"
@@ -431,6 +452,9 @@
   "document-picture-in-picture": {
     "url": "https://wpt.fyi/results?q=feature:document-picture-in-picture"
   },
+  "domparser": {
+    "url": "https://wpt.fyi/results?q=feature:domparser"
+  },
   "download": {
     "url": "https://wpt.fyi/results?q=feature:download"
   },
@@ -458,6 +482,9 @@
   "embed": {
     "url": "https://wpt.fyi/results?q=feature:embed"
   },
+  "empty": {
+    "url": "https://wpt.fyi/results?q=feature:empty"
+  },
   "encrypted-media-extensions": {
     "url": "https://wpt.fyi/results?q=feature:encrypted-media-extensions"
   },
@@ -467,6 +494,9 @@
   "ex": {
     "url": "https://wpt.fyi/results?q=feature:ex"
   },
+  "execcommand": {
+    "url": "https://wpt.fyi/results?q=feature:execcommand"
+  },
   "exp-functions": {
     "url": "https://wpt.fyi/results?q=feature:exp-functions"
   },
@@ -475,6 +505,9 @@
   },
   "fedcm": {
     "url": "https://wpt.fyi/results?q=feature:fedcm"
+  },
+  "federated-credentials": {
+    "url": "https://wpt.fyi/results?q=feature:federated-credentials"
   },
   "fencedframe": {
     "url": "https://wpt.fyi/results?q=feature:fencedframe"
@@ -491,6 +524,12 @@
   "field-sizing": {
     "url": "https://wpt.fyi/results?q=feature:field-sizing"
   },
+  "fieldset": {
+    "url": "https://wpt.fyi/results?q=feature:fieldset"
+  },
+  "figure": {
+    "url": "https://wpt.fyi/results?q=feature:figure"
+  },
   "file": {
     "url": "https://wpt.fyi/results?q=feature:file"
   },
@@ -505,6 +544,9 @@
   },
   "first-line": {
     "url": "https://wpt.fyi/results?q=feature:first-line"
+  },
+  "fit-content": {
+    "url": "https://wpt.fyi/results?q=feature:fit-content"
   },
   "flexbox": {
     "url": "https://wpt.fyi/results?q=feature:flexbox"
@@ -1052,11 +1094,17 @@
   "scoped-custom-element-registries": {
     "url": "https://wpt.fyi/results?q=feature:scoped-custom-element-registries"
   },
+  "screen": {
+    "url": "https://wpt.fyi/results?q=feature:screen"
+  },
   "screen-capture": {
     "url": "https://wpt.fyi/results?q=feature:screen-capture"
   },
   "screen-orientation": {
     "url": "https://wpt.fyi/results?q=feature:screen-orientation"
+  },
+  "screen-orientation-lock": {
+    "url": "https://wpt.fyi/results?q=feature:screen-orientation-lock"
   },
   "screen-wake-lock": {
     "url": "https://wpt.fyi/results?q=feature:screen-wake-lock"
@@ -1211,6 +1259,12 @@
   "summarizer": {
     "url": "https://wpt.fyi/results?q=feature:summarizer"
   },
+  "supports": {
+    "url": "https://wpt.fyi/results?q=feature:supports"
+  },
+  "supports-compat": {
+    "url": "https://wpt.fyi/results?q=feature:supports-compat"
+  },
   "svg-discouraged": {
     "url": "https://wpt.fyi/results?q=feature:svg-discouraged"
   },
@@ -1241,11 +1295,23 @@
   "template": {
     "url": "https://wpt.fyi/results?q=feature:template"
   },
+  "text-align": {
+    "url": "https://wpt.fyi/results?q=feature:text-align"
+  },
+  "text-align-last": {
+    "url": "https://wpt.fyi/results?q=feature:text-align-last"
+  },
   "text-box": {
     "url": "https://wpt.fyi/results?q=feature:text-box"
   },
+  "text-combine-upright": {
+    "url": "https://wpt.fyi/results?q=feature:text-combine-upright"
+  },
   "text-emphasis": {
     "url": "https://wpt.fyi/results?q=feature:text-emphasis"
+  },
+  "text-encoding": {
+    "url": "https://wpt.fyi/results?q=feature:text-encoding"
   },
   "text-indent": {
     "url": "https://wpt.fyi/results?q=feature:text-indent"
@@ -1253,8 +1319,17 @@
   "text-indent-each-line": {
     "url": "https://wpt.fyi/results?q=feature:text-indent-each-line"
   },
+  "text-indent-hanging": {
+    "url": "https://wpt.fyi/results?q=feature:text-indent-hanging"
+  },
   "text-spacing-trim": {
     "url": "https://wpt.fyi/results?q=feature:text-spacing-trim"
+  },
+  "text-stroke-fill": {
+    "url": "https://wpt.fyi/results?q=feature:text-stroke-fill"
+  },
+  "text-tracks": {
+    "url": "https://wpt.fyi/results?q=feature:text-tracks"
   },
   "text-underline-offset": {
     "url": "https://wpt.fyi/results?q=feature:text-underline-offset"
@@ -1277,8 +1352,20 @@
   "text-wrap-style": {
     "url": "https://wpt.fyi/results?q=feature:text-wrap-style"
   },
+  "textarea": {
+    "url": "https://wpt.fyi/results?q=feature:textarea"
+  },
+  "time": {
+    "url": "https://wpt.fyi/results?q=feature:time"
+  },
   "time-relative-selectors": {
     "url": "https://wpt.fyi/results?q=feature:time-relative-selectors"
+  },
+  "title": {
+    "url": "https://wpt.fyi/results?q=feature:title"
+  },
+  "title-attr": {
+    "url": "https://wpt.fyi/results?q=feature:title-attr"
   },
   "touch-events": {
     "url": "https://wpt.fyi/results?q=feature:touch-events"
@@ -1316,14 +1403,23 @@
   "upgrade-insecure-requests": {
     "url": "https://wpt.fyi/results?q=feature:upgrade-insecure-requests"
   },
+  "url": {
+    "url": "https://wpt.fyi/results?q=feature:url"
+  },
   "url-canparse": {
     "url": "https://wpt.fyi/results?q=feature:url-canparse"
   },
   "urlpattern": {
     "url": "https://wpt.fyi/results?q=feature:urlpattern"
   },
+  "user-action-pseudos": {
+    "url": "https://wpt.fyi/results?q=feature:user-action-pseudos"
+  },
   "user-activation": {
     "url": "https://wpt.fyi/results?q=feature:user-activation"
+  },
+  "user-agent-sniffing": {
+    "url": "https://wpt.fyi/results?q=feature:user-agent-sniffing"
   },
   "user-pseudos": {
     "url": "https://wpt.fyi/results?q=feature:user-pseudos"
@@ -1358,6 +1454,9 @@
   "visual-viewport": {
     "url": "https://wpt.fyi/results?q=feature:visual-viewport"
   },
+  "wasm": {
+    "url": "https://wpt.fyi/results?q=feature:wasm"
+  },
   "wasm-bulk-memory": {
     "url": "https://wpt.fyi/results?q=feature:wasm-bulk-memory"
   },
@@ -1376,6 +1475,9 @@
   "wasm-multi-memory": {
     "url": "https://wpt.fyi/results?q=feature:wasm-multi-memory"
   },
+  "wasm-multi-value": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-multi-value"
+  },
   "wasm-mutable-globals": {
     "url": "https://wpt.fyi/results?q=feature:wasm-mutable-globals"
   },
@@ -1393,6 +1495,9 @@
   },
   "wasm-tail-call-optimization": {
     "url": "https://wpt.fyi/results?q=feature:wasm-tail-call-optimization"
+  },
+  "wasm-threads": {
+    "url": "https://wpt.fyi/results?q=feature:wasm-threads"
   },
   "wasm-typed-fun-refs": {
     "url": "https://wpt.fyi/results?q=feature:wasm-typed-fun-refs"
@@ -1555,6 +1660,9 @@
   },
   "xhr": {
     "url": "https://wpt.fyi/results?q=feature:xhr"
+  },
+  "xml-serializer": {
+    "url": "https://wpt.fyi/results?q=feature:xml-serializer"
   },
   "xpath": {
     "url": "https://wpt.fyi/results?q=feature:xpath"
