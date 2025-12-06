@@ -335,13 +335,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.8.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
       "question": "usage",
       "subQuestion": "html_interoperability_features",
@@ -359,14 +352,14 @@
       "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points_interop_issues_1",
       "question": "system_capabilities",
       "subQuestion": "system_capabilities_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.nestedBuckets.0.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points_interop_issues_1.freeform.allEditions.0.buckets.0.nestedBuckets.0.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points",
       "question": "system_capabilities",
       "subQuestion": "system_capabilities_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points.freeform.allEditions.0.buckets.2.nestedBuckets.0.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points.freeform.allEditions.0.buckets.1.nestedBuckets.0.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -486,21 +479,28 @@
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_limitations_1",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_limitations_1.freeform.allEditions.0.buckets.15.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_limitations_1.freeform.allEditions.0.buckets.12.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_interop_issues_1",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.16.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.14.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_features",
+      "question": "graphics_multimedia",
+      "subQuestion": "graphics_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_features.freeform.allEditions.0.buckets.3.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points.freeform.allEditions.0.buckets.14.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points.freeform.allEditions.0.buckets.12.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -570,17 +570,17 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.1.buckets.12.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_interop_issues_1",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.17.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.15.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_features",
+      "question": "graphics_multimedia",
+      "subQuestion": "graphics_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_features.freeform.allEditions.0.buckets.5.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -662,7 +662,21 @@
       "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_other_pain_points_limitations_1",
       "question": "web_components",
       "subQuestion": "web_components_other_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_other_pain_points_limitations_1.freeform.allEditions.0.buckets.2.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_other_pain_points_limitations_1.freeform.allEditions.0.buckets.1.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_other_pain_points_interop_issues_1",
+      "question": "web_components",
+      "subQuestion": "web_components_other_pain_points_interop_issues_1",
+      "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_other_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_other_pain_points_features",
+      "question": "web_components",
+      "subQuestion": "web_components_other_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_other_pain_points_features.freeform.allEditions.0.buckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -687,13 +701,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.1.buckets.14.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features_features_only",
       "question": "usage",
       "subQuestion": "html_functionality_features_features_only",
@@ -701,10 +708,24 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features2",
-      "question": "usage",
-      "subQuestion": "html_functionality_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features2.freeform.allEditions.1.buckets.1.nestedBuckets.0.entity"
+      "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_features",
+      "question": "interactivity",
+      "subQuestion": "interactivity_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_features.freeform.allEditions.1.buckets.3.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points",
+      "question": "interactivity",
+      "subQuestion": "interactivity_pain_points",
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points.freeform.allEditions.1.buckets.18.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_features",
+      "question": "forms",
+      "subQuestion": "forms_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_features.freeform.allEditions.1.buckets.7.nestedBuckets.2.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -718,14 +739,21 @@
       "url": "https://2025.stateofhtml.com/en-US/content/#content_pain_points_limitations_1",
       "question": "content",
       "subQuestion": "content_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points_limitations_1.freeform.allEditions.0.buckets.5.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points_limitations_1.freeform.allEditions.0.buckets.4.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/content/#content_pain_points_features",
+      "question": "content",
+      "subQuestion": "content_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points_features.freeform.allEditions.1.buckets.1.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/content/#content_pain_points",
       "question": "content",
       "subQuestion": "content_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.1.buckets.7.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.1.buckets.6.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2024",
@@ -804,7 +832,14 @@
       "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_other_pain_points_limitations_1",
       "question": "web_components",
       "subQuestion": "web_components_other_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_other_pain_points_limitations_1.freeform.allEditions.0.buckets.2.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_other_pain_points_limitations_1.freeform.allEditions.0.buckets.1.nestedBuckets.1.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_other_pain_points_features",
+      "question": "web_components",
+      "subQuestion": "web_components_other_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.web_components.web_components_other_pain_points_features.freeform.allEditions.0.buckets.0.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -832,14 +867,21 @@
       "url": "https://2025.stateofhtml.com/en-US/content/#content_pain_points_limitations_1",
       "question": "content",
       "subQuestion": "content_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points_limitations_1.freeform.allEditions.0.buckets.5.nestedBuckets.0.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points_limitations_1.freeform.allEditions.0.buckets.4.nestedBuckets.0.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/content/#content_pain_points_features",
+      "question": "content",
+      "subQuestion": "content_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points_features.freeform.allEditions.1.buckets.1.nestedBuckets.0.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/content/#content_pain_points",
       "question": "content",
       "subQuestion": "content_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.1.buckets.7.nestedBuckets.0.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.1.buckets.6.nestedBuckets.0.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2024",
@@ -1070,13 +1112,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features2",
-      "question": "usage",
-      "subQuestion": "html_functionality_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features2.freeform.allEditions.0.buckets.4.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features",
       "question": "usage",
       "subQuestion": "html_functionality_features",
@@ -1177,13 +1212,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.3.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
       "question": "usage",
       "subQuestion": "html_interoperability_features",
@@ -1198,13 +1226,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features2",
-      "question": "usage",
-      "subQuestion": "html_functionality_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features2.freeform.allEditions.0.buckets.2.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features",
       "question": "usage",
       "subQuestion": "html_functionality_features",
@@ -1215,14 +1236,21 @@
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_limitations_1",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.2.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.1.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_interop_issues_1",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.3.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_features",
+      "question": "interactivity",
+      "subQuestion": "interactivity_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_features.freeform.allEditions.0.buckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -1244,6 +1272,13 @@
       "question": "features",
       "subQuestion": "all_features",
       "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.9.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/accessibility/#accessibility_pain_points_features",
+      "question": "accessibility",
+      "subQuestion": "accessibility_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.accessibility.accessibility_pain_points_features.freeform.allEditions.1.buckets.1.entity"
     },
     {
       "name": "State of HTML 2024",
@@ -1361,13 +1396,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.7.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
       "question": "usage",
       "subQuestion": "html_interoperability_features",
@@ -1379,13 +1407,6 @@
       "question": "usage",
       "subQuestion": "html_functionality_features_features_only",
       "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features_features_only.freeform.allEditions.0.buckets.3.entity"
-    },
-    {
-      "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features2",
-      "question": "usage",
-      "subQuestion": "html_functionality_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features2.freeform.allEditions.0.buckets.3.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -1406,14 +1427,21 @@
       "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_interop_issues_1",
       "question": "forms",
       "subQuestion": "forms_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_interop_issues_1.freeform.allEditions.0.buckets.17.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_interop_issues_1.freeform.allEditions.0.buckets.15.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_features",
+      "question": "forms",
+      "subQuestion": "forms_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_features.freeform.allEditions.1.buckets.8.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points",
       "question": "forms",
       "subQuestion": "forms_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points.freeform.allEditions.0.buckets.17.nestedBuckets.4.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points.freeform.allEditions.0.buckets.17.nestedBuckets.7.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -1527,7 +1555,7 @@
       "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points",
       "question": "performance",
       "subQuestion": "performance_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points.freeform.allEditions.0.buckets.2.nestedBuckets.1.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points.freeform.allEditions.0.buckets.1.nestedBuckets.1.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -1541,14 +1569,21 @@
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_interop_issues_1",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.2.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_features",
+      "question": "graphics_multimedia",
+      "subQuestion": "graphics_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_features.freeform.allEditions.0.buckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points.freeform.allEditions.0.buckets.2.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points.freeform.allEditions.0.buckets.1.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -1633,13 +1668,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.0.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
       "question": "usage",
       "subQuestion": "html_interoperability_features",
@@ -1654,13 +1682,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features2",
-      "question": "usage",
-      "subQuestion": "html_functionality_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features2.freeform.allEditions.0.buckets.5.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features",
       "question": "usage",
       "subQuestion": "html_functionality_features",
@@ -1671,14 +1692,21 @@
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_limitations_1",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.1.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_interop_issues_1",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.0.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_features",
+      "question": "interactivity",
+      "subQuestion": "interactivity_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_features.freeform.allEditions.0.buckets.1.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -1693,6 +1721,13 @@
       "question": "interactivity",
       "subQuestion": "interactivity_features",
       "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_features.5.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_features",
+      "question": "forms",
+      "subQuestion": "forms_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_features.freeform.allEditions.1.buckets.12.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -1803,13 +1838,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.1.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
       "question": "usage",
       "subQuestion": "html_interoperability_features",
@@ -1824,31 +1852,45 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features2",
+      "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features",
       "question": "usage",
-      "subQuestion": "html_functionality_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features2.freeform.allEditions.0.buckets.12.entity"
+      "subQuestion": "html_functionality_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features.freeform.allEditions.1.buckets.17.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_limitations_1",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.12.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.9.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_interop_issues_1",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.5.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.2.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_features",
+      "question": "interactivity",
+      "subQuestion": "interactivity_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_features.freeform.allEditions.1.buckets.2.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points.freeform.allEditions.1.buckets.19.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points.freeform.allEditions.1.buckets.16.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_features",
+      "question": "forms",
+      "subQuestion": "forms_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_features.freeform.allEditions.1.buckets.13.entity"
     },
     {
       "name": "State of HTML 2024",
@@ -1987,13 +2029,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.2.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
       "question": "usage",
       "subQuestion": "html_interoperability_features",
@@ -2115,24 +2150,10 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.5.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features_features_only",
       "question": "usage",
       "subQuestion": "html_functionality_features_features_only",
       "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features_features_only.freeform.allEditions.1.buckets.0.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features2",
-      "question": "usage",
-      "subQuestion": "html_functionality_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features2.freeform.allEditions.1.buckets.0.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -2150,10 +2171,17 @@
     },
     {
       "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points_features",
+      "question": "forms",
+      "subQuestion": "forms_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points_features.freeform.allEditions.1.buckets.0.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/forms/#forms_pain_points",
       "question": "forms",
       "subQuestion": "forms_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points.freeform.allEditions.1.buckets.3.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.forms.forms_pain_points.freeform.allEditions.1.buckets.2.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -2205,13 +2233,6 @@
       "question": "usage",
       "subQuestion": "html_interoperability_features_features_only",
       "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.0.buckets.9.entity"
-    },
-    {
-      "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.9.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -2322,13 +2343,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.11.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
       "question": "usage",
       "subQuestion": "html_interoperability_features",
@@ -2365,13 +2379,6 @@
       "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.0.buckets.14.entity"
     },
     {
-      "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.14.entity"
-    },
-    {
       "name": "State of HTML 2024",
       "url": "https://2024.stateofhtml.com/en-US/features/interactivity/#interactivity_features",
       "question": "interactivity",
@@ -2396,24 +2403,17 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.0.buckets.16.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points_interop_issues_1",
       "question": "system_capabilities",
       "subQuestion": "system_capabilities_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points_interop_issues_1.freeform.allEditions.0.buckets.1.nestedBuckets.2.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points_interop_issues_1.freeform.allEditions.0.buckets.0.nestedBuckets.1.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points",
       "question": "system_capabilities",
       "subQuestion": "system_capabilities_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points.freeform.allEditions.0.buckets.2.nestedBuckets.2.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points.freeform.allEditions.0.buckets.1.nestedBuckets.2.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -2458,13 +2458,6 @@
       "question": "usage",
       "subQuestion": "html_interoperability_features_features_only",
       "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.1.buckets.3.nestedBuckets.1.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.1.buckets.3.nestedBuckets.1.nestedBuckets.0.entity"
     },
     {
       "name": "State of CSS 2025",
@@ -2561,13 +2554,6 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.1.buckets.4.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_features",
       "question": "interactivity",
       "subQuestion": "interactivity_features",
@@ -2591,24 +2577,31 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.1.buckets.6.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
       "question": "usage",
       "subQuestion": "html_interoperability_features",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features.freeform.allEditions.1.buckets.17.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features.freeform.allEditions.1.buckets.15.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_limitations_1",
+      "question": "interactivity",
+      "subQuestion": "interactivity_pain_points_limitations_1",
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.19.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_interop_issues_1",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.14.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_interop_issues_1.freeform.allEditions.0.buckets.10.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_features",
+      "question": "interactivity",
+      "subQuestion": "interactivity_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_features.freeform.allEditions.1.buckets.4.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -2632,13 +2625,6 @@
       "question": "usage",
       "subQuestion": "html_interoperability_features_features_only",
       "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.1.buckets.10.entity"
-    },
-    {
-      "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.1.buckets.10.entity"
     },
     {
       "name": "State of CSS 2025",
@@ -2770,24 +2756,24 @@
     },
     {
       "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.1.buckets.11.entity"
-    },
-    {
-      "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points_limitations_1",
       "question": "performance",
       "subQuestion": "performance_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points_limitations_1.freeform.allEditions.0.buckets.7.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points_limitations_1.freeform.allEditions.0.buckets.5.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points_features",
+      "question": "performance",
+      "subQuestion": "performance_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points_features.freeform.allEditions.0.buckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points",
       "question": "performance",
       "subQuestion": "performance_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points.freeform.allEditions.0.buckets.17.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points.freeform.allEditions.0.buckets.15.entity"
     },
     {
       "name": "State of HTML 2024",
@@ -2883,13 +2869,6 @@
       "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features_features_only.freeform.allEditions.1.buckets.13.entity"
     },
     {
-      "name": "State of HTML 2025",
-      "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features2",
-      "question": "usage",
-      "subQuestion": "html_interoperability_features2",
-      "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features2.freeform.allEditions.1.buckets.13.entity"
-    },
-    {
       "name": "State of CSS 2025",
       "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
       "question": "reading_list",
@@ -2924,7 +2903,7 @@
       "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_pain_points",
       "question": "system_capabilities",
       "subQuestion": "system_capabilities_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points.freeform.allEditions.0.buckets.2.nestedBuckets.5.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.system_capabilities.system_capabilities_pain_points.freeform.allEditions.0.buckets.1.nestedBuckets.4.entity"
     },
     {
       "name": "State of HTML 2024",
@@ -3152,7 +3131,7 @@
       "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points",
       "question": "performance",
       "subQuestion": "performance_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points.freeform.allEditions.0.buckets.0.nestedBuckets.1.nestedBuckets.1.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.performance.performance_pain_points.freeform.allEditions.0.buckets.0.nestedBuckets.1.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -3367,7 +3346,7 @@
       "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_limitations_1",
       "question": "interactivity",
       "subQuestion": "interactivity_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.18.nestedBuckets.1.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.interactivity.interactivity_pain_points_limitations_1.freeform.allEditions.0.buckets.15.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -3515,21 +3494,28 @@
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_limitations_1",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points_limitations_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_limitations_1.freeform.allEditions.0.buckets.3.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_limitations_1.freeform.allEditions.0.buckets.2.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_interop_issues_1",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points_interop_issues_1",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.7.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_interop_issues_1.freeform.allEditions.0.buckets.5.entity"
+    },
+    {
+      "name": "State of HTML 2025",
+      "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_features",
+      "question": "graphics_multimedia",
+      "subQuestion": "graphics_pain_points_features",
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points_features.freeform.allEditions.0.buckets.1.entity"
     },
     {
       "name": "State of HTML 2025",
       "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points",
       "question": "graphics_multimedia",
       "subQuestion": "graphics_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points.freeform.allEditions.0.buckets.4.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.graphics_multimedia.graphics_pain_points.freeform.allEditions.0.buckets.3.entity"
     },
     {
       "name": "State of HTML 2025",
@@ -3686,7 +3672,7 @@
       "url": "https://2025.stateofhtml.com/en-US/content/#content_pain_points",
       "question": "content",
       "subQuestion": "content_pain_points",
-      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.1.buckets.5.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.1.buckets.4.nestedBuckets.0.entity"
     },
     {
       "name": "State of HTML 2025",

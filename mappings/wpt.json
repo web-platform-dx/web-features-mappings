@@ -176,6 +176,9 @@
   "barprop": {
     "url": "https://wpt.fyi/results?q=feature:barprop"
   },
+  "base": {
+    "url": "https://wpt.fyi/results?q=feature:base"
+  },
   "base64encodedecode": {
     "url": "https://wpt.fyi/results?q=feature:base64encodedecode"
   },
@@ -211,6 +214,12 @@
   },
   "border-image": {
     "url": "https://wpt.fyi/results?q=feature:border-image"
+  },
+  "border-radius": {
+    "url": "https://wpt.fyi/results?q=feature:border-radius"
+  },
+  "borders": {
+    "url": "https://wpt.fyi/results?q=feature:borders"
   },
   "box-decoration-break": {
     "url": "https://wpt.fyi/results?q=feature:box-decoration-break"
@@ -265,6 +274,9 @@
   },
   "channel-messaging": {
     "url": "https://wpt.fyi/results?q=feature:channel-messaging"
+  },
+  "charset": {
+    "url": "https://wpt.fyi/results?q=feature:charset"
   },
   "check-visibility": {
     "url": "https://wpt.fyi/results?q=feature:check-visibility"
@@ -548,6 +560,9 @@
   "fit-content": {
     "url": "https://wpt.fyi/results?q=feature:fit-content"
   },
+  "fixed-positioning": {
+    "url": "https://wpt.fyi/results?q=feature:fixed-positioning"
+  },
   "flexbox": {
     "url": "https://wpt.fyi/results?q=feature:flexbox"
   },
@@ -766,6 +781,9 @@
   },
   "local-fonts": {
     "url": "https://wpt.fyi/results?q=feature:local-fonts"
+  },
+  "local-network-access": {
+    "url": "https://wpt.fyi/results?q=feature:local-network-access"
   },
   "logical-properties": {
     "url": "https://wpt.fyi/results?q=feature:logical-properties"
@@ -1145,6 +1163,9 @@
   "search": {
     "url": "https://wpt.fyi/results?q=feature:search"
   },
+  "secure-payment-confirmation": {
+    "url": "https://wpt.fyi/results?q=feature:secure-payment-confirmation"
+  },
   "selection-api": {
     "url": "https://wpt.fyi/results?q=feature:selection-api"
   },
@@ -1384,6 +1405,9 @@
   },
   "transition-behavior": {
     "url": "https://wpt.fyi/results?q=feature:transition-behavior"
+  },
+  "transitions": {
+    "url": "https://wpt.fyi/results?q=feature:transitions"
   },
   "trig-functions": {
     "url": "https://wpt.fyi/results?q=feature:trig-functions"
