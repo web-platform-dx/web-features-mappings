@@ -3,7 +3,7 @@ name: Update web-features-mappings
 on:
   # Run once a day
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 7 * * *"
   # Or when manually triggered
   workflow_dispatch:
 
