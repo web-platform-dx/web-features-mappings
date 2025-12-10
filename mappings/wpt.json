@@ -422,6 +422,9 @@
   "default": {
     "url": "https://wpt.fyi/results?q=feature:default"
   },
+  "del": {
+    "url": "https://wpt.fyi/results?q=feature:del"
+  },
   "details": {
     "url": "https://wpt.fyi/results?q=feature:details"
   },
@@ -668,6 +671,9 @@
   "highlight": {
     "url": "https://wpt.fyi/results?q=feature:highlight"
   },
+  "hr": {
+    "url": "https://wpt.fyi/results?q=feature:hr"
+  },
   "hsts": {
     "url": "https://wpt.fyi/results?q=feature:hsts"
   },
@@ -727,6 +733,9 @@
   },
   "input-file": {
     "url": "https://wpt.fyi/results?q=feature:input-file"
+  },
+  "ins": {
+    "url": "https://wpt.fyi/results?q=feature:ins"
   },
   "interpolate-size": {
     "url": "https://wpt.fyi/results?q=feature:interpolate-size"
