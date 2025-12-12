@@ -142,17 +142,17 @@ async function main() {
       const { survey, edition, name, url, question, subQuestion } = extractSurveyTitleAndUrl(objectPath);
       const featureId = object.webFeature.id;
 
+      // Verify that the survey results have been published.
+      if (!(await isSurveyPublished(survey, edition))) {
+        continue;
+      }
+
       if (!mapping[featureId]) {
         mapping[featureId] = [];
       }
 
       // Find if there's already a reference to the exact same survey url.
       if (mapping[featureId].some((ref) => ref.url === url)) {
-        continue;
-      }
-
-      // Verify that the survey results have been published.
-      if (!(await isSurveyPublished(survey, edition))) {
         continue;
       }
 
