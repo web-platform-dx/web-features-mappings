@@ -44,7 +44,11 @@ function extractWebFeatureReferences(data) {
     }
 
     if (object.webFeature) {
-      webFeatureRefs.push({ objectPath, object });
+      // Only consider web-feature references that are inside a
+      // survey object: {dataAPI: {surveys: {...}}}
+      if (objectPath[0] === "dataAPI" && objectPath[1] === "surveys") {
+        webFeatureRefs.push({ objectPath, object });
+      }
     }
 
     for (const key in object) {
@@ -79,10 +83,24 @@ function extractSurveyTitleAndUrl(path) {
       url,
       question,
       subQuestion,
+      survey,
+      edition
     };
   }
 
   return null;
+}
+
+async function isSurveyPublished(survey, edition) {
+  const configPath = path.join(__dirname, TEMP_FOLDER, survey, edition, "config.yml");
+
+  try {
+    const content = await fs.readFile(configPath, "utf-8");
+    return content.includes("resultsStatus: 3");
+  } catch (e) {
+    console.error(`Error reading config file ${configPath}: ${e.message}`);
+    return false;
+  }
 }
 
 async function main() {
@@ -121,7 +139,7 @@ async function main() {
     const refs = extractWebFeatureReferences(data);
     for (const ref of refs) {
       const { objectPath, object } = ref;
-      const { name, url, question, subQuestion } = extractSurveyTitleAndUrl(objectPath);
+      const { survey, edition, name, url, question, subQuestion } = extractSurveyTitleAndUrl(objectPath);
       const featureId = object.webFeature.id;
 
       if (!mapping[featureId]) {
@@ -130,6 +148,11 @@ async function main() {
 
       // Find if there's already a reference to the exact same survey url.
       if (mapping[featureId].some((ref) => ref.url === url)) {
+        continue;
+      }
+
+      // Verify that the survey results have been published.
+      if (!(await isSurveyPublished(survey, edition))) {
         continue;
       }
 
