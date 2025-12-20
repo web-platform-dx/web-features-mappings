@@ -224,6 +224,9 @@
   "box-decoration-break": {
     "url": "https://wpt.fyi/results?q=feature:box-decoration-break"
   },
+  "br": {
+    "url": "https://wpt.fyi/results?q=feature:br"
+  },
   "broadcast-channel": {
     "url": "https://wpt.fyi/results?q=feature:broadcast-channel"
   },
@@ -431,6 +434,9 @@
   "declarative-shadow-dom": {
     "url": "https://wpt.fyi/results?q=feature:declarative-shadow-dom"
   },
+  "dedicated-workers": {
+    "url": "https://wpt.fyi/results?q=feature:dedicated-workers"
+  },
   "default": {
     "url": "https://wpt.fyi/results?q=feature:default"
   },
@@ -496,6 +502,9 @@
   },
   "dynamic-range": {
     "url": "https://wpt.fyi/results?q=feature:dynamic-range"
+  },
+  "early-data": {
+    "url": "https://wpt.fyi/results?q=feature:early-data"
   },
   "edit-context": {
     "url": "https://wpt.fyi/results?q=feature:edit-context"
@@ -716,8 +725,14 @@
   "history": {
     "url": "https://wpt.fyi/results?q=feature:history"
   },
+  "host-context": {
+    "url": "https://wpt.fyi/results?q=feature:host-context"
+  },
   "hr": {
     "url": "https://wpt.fyi/results?q=feature:hr"
+  },
+  "hsl": {
+    "url": "https://wpt.fyi/results?q=feature:hsl"
   },
   "hsts": {
     "url": "https://wpt.fyi/results?q=feature:hsts"
@@ -1172,8 +1187,14 @@
   "round-mod-rem": {
     "url": "https://wpt.fyi/results?q=feature:round-mod-rem"
   },
+  "ruby": {
+    "url": "https://wpt.fyi/results?q=feature:ruby"
+  },
   "ruby-align": {
     "url": "https://wpt.fyi/results?q=feature:ruby-align"
+  },
+  "ruby-overhang": {
+    "url": "https://wpt.fyi/results?q=feature:ruby-overhang"
   },
   "ruby-position": {
     "url": "https://wpt.fyi/results?q=feature:ruby-position"
@@ -1286,6 +1307,9 @@
   "shared-storage-locks": {
     "url": "https://wpt.fyi/results?q=feature:shared-storage-locks"
   },
+  "shared-workers": {
+    "url": "https://wpt.fyi/results?q=feature:shared-workers"
+  },
   "show-picker-input": {
     "url": "https://wpt.fyi/results?q=feature:show-picker-input"
   },
@@ -1303,6 +1327,9 @@
   },
   "smooth": {
     "url": "https://wpt.fyi/results?q=feature:smooth"
+  },
+  "source": {
+    "url": "https://wpt.fyi/results?q=feature:source"
   },
   "speak": {
     "url": "https://wpt.fyi/results?q=feature:speak"
