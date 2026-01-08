@@ -224,11 +224,17 @@
   "box-decoration-break": {
     "url": "https://wpt.fyi/results?q=feature:box-decoration-break"
   },
+  "box-shadow": {
+    "url": "https://wpt.fyi/results?q=feature:box-shadow"
+  },
   "br": {
     "url": "https://wpt.fyi/results?q=feature:br"
   },
   "broadcast-channel": {
     "url": "https://wpt.fyi/results?q=feature:broadcast-channel"
+  },
+  "button": {
+    "url": "https://wpt.fyi/results?q=feature:button"
   },
   "calc": {
     "url": "https://wpt.fyi/results?q=feature:calc"
@@ -332,6 +338,9 @@
   "color-scheme": {
     "url": "https://wpt.fyi/results?q=feature:color-scheme"
   },
+  "compression-dictionary-transport": {
+    "url": "https://wpt.fyi/results?q=feature:compression-dictionary-transport"
+  },
   "compression-streams": {
     "url": "https://wpt.fyi/results?q=feature:compression-streams"
   },
@@ -385,6 +394,9 @@
   },
   "contrast-color": {
     "url": "https://wpt.fyi/results?q=feature:contrast-color"
+  },
+  "controls-list": {
+    "url": "https://wpt.fyi/results?q=feature:controls-list"
   },
   "cookie-store": {
     "url": "https://wpt.fyi/results?q=feature:cookie-store"
@@ -476,6 +488,9 @@
   "dialog-closedby": {
     "url": "https://wpt.fyi/results?q=feature:dialog-closedby"
   },
+  "digital-goods": {
+    "url": "https://wpt.fyi/results?q=feature:digital-goods"
+  },
   "dir-pseudo": {
     "url": "https://wpt.fyi/results?q=feature:dir-pseudo"
   },
@@ -542,6 +557,9 @@
   "event-timing": {
     "url": "https://wpt.fyi/results?q=feature:event-timing"
   },
+  "events": {
+    "url": "https://wpt.fyi/results?q=feature:events"
+  },
   "ex": {
     "url": "https://wpt.fyi/results?q=feature:ex"
   },
@@ -563,6 +581,9 @@
   "fencedframe": {
     "url": "https://wpt.fyi/results?q=feature:fencedframe"
   },
+  "fetch": {
+    "url": "https://wpt.fyi/results?q=feature:fetch"
+  },
   "fetch-metadata": {
     "url": "https://wpt.fyi/results?q=feature:fetch-metadata"
   },
@@ -571,6 +592,9 @@
   },
   "fetch-request-streams": {
     "url": "https://wpt.fyi/results?q=feature:fetch-request-streams"
+  },
+  "fetchlater": {
+    "url": "https://wpt.fyi/results?q=feature:fetchlater"
   },
   "field-sizing": {
     "url": "https://wpt.fyi/results?q=feature:field-sizing"
@@ -611,8 +635,14 @@
   "float-clear": {
     "url": "https://wpt.fyi/results?q=feature:float-clear"
   },
+  "focus-events": {
+    "url": "https://wpt.fyi/results?q=feature:focus-events"
+  },
   "focus-visible": {
     "url": "https://wpt.fyi/results?q=feature:focus-visible"
+  },
+  "focus-within": {
+    "url": "https://wpt.fyi/results?q=feature:focus-within"
   },
   "font-display": {
     "url": "https://wpt.fyi/results?q=feature:font-display"
@@ -740,6 +770,12 @@
   "has-slotted": {
     "url": "https://wpt.fyi/results?q=feature:has-slotted"
   },
+  "heading-selectors": {
+    "url": "https://wpt.fyi/results?q=feature:heading-selectors"
+  },
+  "headings": {
+    "url": "https://wpt.fyi/results?q=feature:headings"
+  },
   "hidden-until-found": {
     "url": "https://wpt.fyi/results?q=feature:hidden-until-found"
   },
@@ -818,11 +854,38 @@
   "initial-letter": {
     "url": "https://wpt.fyi/results?q=feature:initial-letter"
   },
+  "input-button": {
+    "url": "https://wpt.fyi/results?q=feature:input-button"
+  },
+  "input-color": {
+    "url": "https://wpt.fyi/results?q=feature:input-color"
+  },
   "input-date-time": {
     "url": "https://wpt.fyi/results?q=feature:input-date-time"
   },
+  "input-email-tel-url": {
+    "url": "https://wpt.fyi/results?q=feature:input-email-tel-url"
+  },
   "input-file": {
     "url": "https://wpt.fyi/results?q=feature:input-file"
+  },
+  "input-hidden": {
+    "url": "https://wpt.fyi/results?q=feature:input-hidden"
+  },
+  "input-image": {
+    "url": "https://wpt.fyi/results?q=feature:input-image"
+  },
+  "input-password": {
+    "url": "https://wpt.fyi/results?q=feature:input-password"
+  },
+  "input-range": {
+    "url": "https://wpt.fyi/results?q=feature:input-range"
+  },
+  "input-reset": {
+    "url": "https://wpt.fyi/results?q=feature:input-reset"
+  },
+  "input-submit": {
+    "url": "https://wpt.fyi/results?q=feature:input-submit"
   },
   "ins": {
     "url": "https://wpt.fyi/results?q=feature:ins"
@@ -886,6 +949,9 @@
   },
   "line-clamp": {
     "url": "https://wpt.fyi/results?q=feature:line-clamp"
+  },
+  "line-height": {
+    "url": "https://wpt.fyi/results?q=feature:line-height"
   },
   "linear-easing": {
     "url": "https://wpt.fyi/results?q=feature:linear-easing"
@@ -983,6 +1049,9 @@
   "mutationobserver": {
     "url": "https://wpt.fyi/results?q=feature:mutationobserver"
   },
+  "named-color": {
+    "url": "https://wpt.fyi/results?q=feature:named-color"
+  },
   "navigation": {
     "url": "https://wpt.fyi/results?q=feature:navigation"
   },
@@ -994,6 +1063,9 @@
   },
   "network-information": {
     "url": "https://wpt.fyi/results?q=feature:network-information"
+  },
+  "non-cookie-storage-access": {
+    "url": "https://wpt.fyi/results?q=feature:non-cookie-storage-access"
   },
   "not": {
     "url": "https://wpt.fyi/results?q=feature:not"
@@ -1028,6 +1100,12 @@
   "online": {
     "url": "https://wpt.fyi/results?q=feature:online"
   },
+  "opacity": {
+    "url": "https://wpt.fyi/results?q=feature:opacity"
+  },
+  "opacity-svg": {
+    "url": "https://wpt.fyi/results?q=feature:opacity-svg"
+  },
   "open-pseudo": {
     "url": "https://wpt.fyi/results?q=feature:open-pseudo"
   },
@@ -1058,8 +1136,14 @@
   "overlay": {
     "url": "https://wpt.fyi/results?q=feature:overlay"
   },
+  "overscroll-behavior": {
+    "url": "https://wpt.fyi/results?q=feature:overscroll-behavior"
+  },
   "p": {
     "url": "https://wpt.fyi/results?q=feature:p"
+  },
+  "padding": {
+    "url": "https://wpt.fyi/results?q=feature:padding"
   },
   "page-break-aliases": {
     "url": "https://wpt.fyi/results?q=feature:page-break-aliases"
@@ -1210,6 +1294,9 @@
   },
   "resize-observer": {
     "url": "https://wpt.fyi/results?q=feature:resize-observer"
+  },
+  "resource-size": {
+    "url": "https://wpt.fyi/results?q=feature:resource-size"
   },
   "resource-timing": {
     "url": "https://wpt.fyi/results?q=feature:resource-timing"
@@ -1550,6 +1637,9 @@
   "title-attr": {
     "url": "https://wpt.fyi/results?q=feature:title-attr"
   },
+  "touch-action": {
+    "url": "https://wpt.fyi/results?q=feature:touch-action"
+  },
   "touch-events": {
     "url": "https://wpt.fyi/results?q=feature:touch-events"
   },
@@ -1558,6 +1648,9 @@
   },
   "transform-box": {
     "url": "https://wpt.fyi/results?q=feature:transform-box"
+  },
+  "transforms2d": {
+    "url": "https://wpt.fyi/results?q=feature:transforms2d"
   },
   "transforms3d": {
     "url": "https://wpt.fyi/results?q=feature:transforms3d"
@@ -1585,6 +1678,9 @@
   },
   "ua-client-hints": {
     "url": "https://wpt.fyi/results?q=feature:ua-client-hints"
+  },
+  "unset-value": {
+    "url": "https://wpt.fyi/results?q=feature:unset-value"
   },
   "update": {
     "url": "https://wpt.fyi/results?q=feature:update"
@@ -1642,6 +1738,9 @@
   },
   "virtual-keyboard": {
     "url": "https://wpt.fyi/results?q=feature:virtual-keyboard"
+  },
+  "visibility": {
+    "url": "https://wpt.fyi/results?q=feature:visibility"
   },
   "visual-viewport": {
     "url": "https://wpt.fyi/results?q=feature:visual-viewport"
@@ -1733,6 +1832,9 @@
   "webcodecs": {
     "url": "https://wpt.fyi/results?q=feature:webcodecs"
   },
+  "webdriver": {
+    "url": "https://wpt.fyi/results?q=feature:webdriver"
+  },
   "webdriver-bidi": {
     "url": "https://wpt.fyi/results?q=feature:webdriver-bidi"
   },
@@ -1820,11 +1922,17 @@
   "wheel-events": {
     "url": "https://wpt.fyi/results?q=feature:wheel-events"
   },
+  "white-space": {
+    "url": "https://wpt.fyi/results?q=feature:white-space"
+  },
   "white-space-collapse": {
     "url": "https://wpt.fyi/results?q=feature:white-space-collapse"
   },
   "widows-orphans": {
     "url": "https://wpt.fyi/results?q=feature:widows-orphans"
+  },
+  "width-height": {
+    "url": "https://wpt.fyi/results?q=feature:width-height"
   },
   "will-change": {
     "url": "https://wpt.fyi/results?q=feature:will-change"
@@ -1850,6 +1958,12 @@
   "word-spacing": {
     "url": "https://wpt.fyi/results?q=feature:word-spacing"
   },
+  "writing-mode": {
+    "url": "https://wpt.fyi/results?q=feature:writing-mode"
+  },
+  "writing-mode-svg-values": {
+    "url": "https://wpt.fyi/results?q=feature:writing-mode-svg-values"
+  },
   "writingsuggestions": {
     "url": "https://wpt.fyi/results?q=feature:writingsuggestions"
   },
@@ -1861,9 +1975,6 @@
   },
   "xpath": {
     "url": "https://wpt.fyi/results?q=feature:xpath"
-  },
-  "xslt": {
-    "url": "https://wpt.fyi/results?q=feature:xslt"
   },
   "z-index": {
     "url": "https://wpt.fyi/results?q=feature:z-index"
