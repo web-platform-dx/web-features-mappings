@@ -338,6 +338,21 @@
   "color-scheme": {
     "url": "https://wpt.fyi/results?q=feature:color-scheme"
   },
+  "column-breaks": {
+    "url": "https://wpt.fyi/results?q=feature:column-breaks"
+  },
+  "column-fill": {
+    "url": "https://wpt.fyi/results?q=feature:column-fill"
+  },
+  "column-pseudo": {
+    "url": "https://wpt.fyi/results?q=feature:column-pseudo"
+  },
+  "column-span": {
+    "url": "https://wpt.fyi/results?q=feature:column-span"
+  },
+  "composition-events": {
+    "url": "https://wpt.fyi/results?q=feature:composition-events"
+  },
   "compression-dictionary-transport": {
     "url": "https://wpt.fyi/results?q=feature:compression-dictionary-transport"
   },
@@ -362,11 +377,26 @@
   "contact-picker": {
     "url": "https://wpt.fyi/results?q=feature:contact-picker"
   },
+  "contain": {
+    "url": "https://wpt.fyi/results?q=feature:contain"
+  },
   "contain-inline-size": {
     "url": "https://wpt.fyi/results?q=feature:contain-inline-size"
   },
   "contain-intrinsic-size": {
     "url": "https://wpt.fyi/results?q=feature:contain-intrinsic-size"
+  },
+  "contain-layout": {
+    "url": "https://wpt.fyi/results?q=feature:contain-layout"
+  },
+  "contain-paint": {
+    "url": "https://wpt.fyi/results?q=feature:contain-paint"
+  },
+  "contain-size": {
+    "url": "https://wpt.fyi/results?q=feature:contain-size"
+  },
+  "contain-style": {
+    "url": "https://wpt.fyi/results?q=feature:contain-style"
   },
   "container-queries": {
     "url": "https://wpt.fyi/results?q=feature:container-queries"
@@ -398,8 +428,14 @@
   "controls-list": {
     "url": "https://wpt.fyi/results?q=feature:controls-list"
   },
+  "cookie-enabled": {
+    "url": "https://wpt.fyi/results?q=feature:cookie-enabled"
+  },
   "cookie-store": {
     "url": "https://wpt.fyi/results?q=feature:cookie-store"
+  },
+  "cookies": {
+    "url": "https://wpt.fyi/results?q=feature:cookies"
   },
   "cors": {
     "url": "https://wpt.fyi/results?q=feature:cors"
@@ -488,9 +524,6 @@
   "dialog-closedby": {
     "url": "https://wpt.fyi/results?q=feature:dialog-closedby"
   },
-  "digital-goods": {
-    "url": "https://wpt.fyi/results?q=feature:digital-goods"
-  },
   "dir-pseudo": {
     "url": "https://wpt.fyi/results?q=feature:dir-pseudo"
   },
@@ -509,8 +542,14 @@
   "document-caretpositionfrompoint": {
     "url": "https://wpt.fyi/results?q=feature:document-caretpositionfrompoint"
   },
+  "document-colors": {
+    "url": "https://wpt.fyi/results?q=feature:document-colors"
+  },
   "document-picture-in-picture": {
     "url": "https://wpt.fyi/results?q=feature:document-picture-in-picture"
+  },
+  "document-write": {
+    "url": "https://wpt.fyi/results?q=feature:document-write"
   },
   "dominant-baseline": {
     "url": "https://wpt.fyi/results?q=feature:dominant-baseline"
@@ -728,6 +767,9 @@
   "forced-colors": {
     "url": "https://wpt.fyi/results?q=feature:forced-colors"
   },
+  "form": {
+    "url": "https://wpt.fyi/results?q=feature:form"
+  },
   "form-associated-custom-elements": {
     "url": "https://wpt.fyi/results?q=feature:form-associated-custom-elements"
   },
@@ -784,6 +826,9 @@
   },
   "history": {
     "url": "https://wpt.fyi/results?q=feature:history"
+  },
+  "host": {
+    "url": "https://wpt.fyi/results?q=feature:host"
   },
   "host-context": {
     "url": "https://wpt.fyi/results?q=feature:host-context"
@@ -850,6 +895,9 @@
   },
   "inert": {
     "url": "https://wpt.fyi/results?q=feature:inert"
+  },
+  "inherit-value": {
+    "url": "https://wpt.fyi/results?q=feature:inherit-value"
   },
   "initial-letter": {
     "url": "https://wpt.fyi/results?q=feature:initial-letter"
@@ -920,6 +968,9 @@
   "js-modules-workers": {
     "url": "https://wpt.fyi/results?q=feature:js-modules-workers"
   },
+  "keyboard-events": {
+    "url": "https://wpt.fyi/results?q=feature:keyboard-events"
+  },
   "keyboard-lock": {
     "url": "https://wpt.fyi/results?q=feature:keyboard-lock"
   },
@@ -931,6 +982,9 @@
   },
   "label": {
     "url": "https://wpt.fyi/results?q=feature:label"
+  },
+  "lang": {
+    "url": "https://wpt.fyi/results?q=feature:lang"
   },
   "largest-contentful-paint": {
     "url": "https://wpt.fyi/results?q=feature:largest-contentful-paint"
@@ -1046,6 +1100,9 @@
   "move-before": {
     "url": "https://wpt.fyi/results?q=feature:move-before"
   },
+  "multi-column": {
+    "url": "https://wpt.fyi/results?q=feature:multi-column"
+  },
   "mutationobserver": {
     "url": "https://wpt.fyi/results?q=feature:mutationobserver"
   },
@@ -1148,6 +1205,9 @@
   "page-break-aliases": {
     "url": "https://wpt.fyi/results?q=feature:page-break-aliases"
   },
+  "page-breaks": {
+    "url": "https://wpt.fyi/results?q=feature:page-breaks"
+  },
   "page-lifecycle": {
     "url": "https://wpt.fyi/results?q=feature:page-lifecycle"
   },
@@ -1157,8 +1217,17 @@
   "page-selectors": {
     "url": "https://wpt.fyi/results?q=feature:page-selectors"
   },
+  "page-setup": {
+    "url": "https://wpt.fyi/results?q=feature:page-setup"
+  },
+  "page-visibility": {
+    "url": "https://wpt.fyi/results?q=feature:page-visibility"
+  },
   "page-visibility-state": {
     "url": "https://wpt.fyi/results?q=feature:page-visibility-state"
+  },
+  "paint": {
+    "url": "https://wpt.fyi/results?q=feature:paint"
   },
   "paint-order": {
     "url": "https://wpt.fyi/results?q=feature:paint-order"
@@ -1168,6 +1237,12 @@
   },
   "parse-html-unsafe": {
     "url": "https://wpt.fyi/results?q=feature:parse-html-unsafe"
+  },
+  "password-credentials": {
+    "url": "https://wpt.fyi/results?q=feature:password-credentials"
+  },
+  "path-shape": {
+    "url": "https://wpt.fyi/results?q=feature:path-shape"
   },
   "payment-handler": {
     "url": "https://wpt.fyi/results?q=feature:payment-handler"
@@ -1183,6 +1258,9 @@
   },
   "permissions": {
     "url": "https://wpt.fyi/results?q=feature:permissions"
+  },
+  "physical-properties": {
+    "url": "https://wpt.fyi/results?q=feature:physical-properties"
   },
   "picture": {
     "url": "https://wpt.fyi/results?q=feature:picture"
@@ -1406,8 +1484,14 @@
   "search": {
     "url": "https://wpt.fyi/results?q=feature:search"
   },
+  "search-input-type": {
+    "url": "https://wpt.fyi/results?q=feature:search-input-type"
+  },
   "secure-payment-confirmation": {
     "url": "https://wpt.fyi/results?q=feature:secure-payment-confirmation"
+  },
+  "select": {
+    "url": "https://wpt.fyi/results?q=feature:select"
   },
   "selection-api": {
     "url": "https://wpt.fyi/results?q=feature:selection-api"
@@ -1420,6 +1504,9 @@
   },
   "server-timing": {
     "url": "https://wpt.fyi/results?q=feature:server-timing"
+  },
+  "service-workers": {
+    "url": "https://wpt.fyi/results?q=feature:service-workers"
   },
   "setinterval": {
     "url": "https://wpt.fyi/results?q=feature:setinterval"
@@ -1496,6 +1583,9 @@
   "state": {
     "url": "https://wpt.fyi/results?q=feature:state"
   },
+  "static-positioning": {
+    "url": "https://wpt.fyi/results?q=feature:static-positioning"
+  },
   "steps-easing": {
     "url": "https://wpt.fyi/results?q=feature:steps-easing"
   },
@@ -1507,6 +1597,9 @@
   },
   "storage-buckets": {
     "url": "https://wpt.fyi/results?q=feature:storage-buckets"
+  },
+  "storage-manager": {
+    "url": "https://wpt.fyi/results?q=feature:storage-manager"
   },
   "streams": {
     "url": "https://wpt.fyi/results?q=feature:streams"
@@ -1570,6 +1663,9 @@
   },
   "text-align-last": {
     "url": "https://wpt.fyi/results?q=feature:text-align-last"
+  },
+  "text-autospace": {
+    "url": "https://wpt.fyi/results?q=feature:text-autospace"
   },
   "text-box": {
     "url": "https://wpt.fyi/results?q=feature:text-box"
@@ -1711,6 +1807,9 @@
   },
   "user-select": {
     "url": "https://wpt.fyi/results?q=feature:user-select"
+  },
+  "vertical-align": {
+    "url": "https://wpt.fyi/results?q=feature:vertical-align"
   },
   "vertical-form-controls": {
     "url": "https://wpt.fyi/results?q=feature:vertical-form-controls"
