@@ -227,6 +227,9 @@
   "box-shadow": {
     "url": "https://wpt.fyi/results?q=feature:box-shadow"
   },
+  "box-sizing": {
+    "url": "https://wpt.fyi/results?q=feature:box-sizing"
+  },
   "br": {
     "url": "https://wpt.fyi/results?q=feature:br"
   },
@@ -500,6 +503,9 @@
   "del": {
     "url": "https://wpt.fyi/results?q=feature:del"
   },
+  "description-list": {
+    "url": "https://wpt.fyi/results?q=feature:description-list"
+  },
   "details": {
     "url": "https://wpt.fyi/results?q=feature:details"
   },
@@ -689,6 +695,12 @@
   "font-face": {
     "url": "https://wpt.fyi/results?q=feature:font-face"
   },
+  "font-family": {
+    "url": "https://wpt.fyi/results?q=feature:font-family"
+  },
+  "font-family-system": {
+    "url": "https://wpt.fyi/results?q=feature:font-family-system"
+  },
   "font-family-ui": {
     "url": "https://wpt.fyi/results?q=feature:font-family-ui"
   },
@@ -715,6 +727,9 @@
   },
   "font-palette-animation": {
     "url": "https://wpt.fyi/results?q=feature:font-palette-animation"
+  },
+  "font-shorthand": {
+    "url": "https://wpt.fyi/results?q=feature:font-shorthand"
   },
   "font-size": {
     "url": "https://wpt.fyi/results?q=feature:font-size"
@@ -902,6 +917,9 @@
   "initial-letter": {
     "url": "https://wpt.fyi/results?q=feature:initial-letter"
   },
+  "ink": {
+    "url": "https://wpt.fyi/results?q=feature:ink"
+  },
   "input-button": {
     "url": "https://wpt.fyi/results?q=feature:input-button"
   },
@@ -938,6 +956,9 @@
   "ins": {
     "url": "https://wpt.fyi/results?q=feature:ins"
   },
+  "insertable-streams": {
+    "url": "https://wpt.fyi/results?q=feature:insertable-streams"
+  },
   "interpolate-size": {
     "url": "https://wpt.fyi/results?q=feature:interpolate-size"
   },
@@ -946,6 +967,9 @@
   },
   "intersection-observer-v2": {
     "url": "https://wpt.fyi/results?q=feature:intersection-observer-v2"
+  },
+  "is": {
+    "url": "https://wpt.fyi/results?q=feature:is"
   },
   "is-input-pending": {
     "url": "https://wpt.fyi/results?q=feature:is-input-pending"
@@ -986,11 +1010,23 @@
   "lang": {
     "url": "https://wpt.fyi/results?q=feature:lang"
   },
+  "lang-attr": {
+    "url": "https://wpt.fyi/results?q=feature:lang-attr"
+  },
+  "language": {
+    "url": "https://wpt.fyi/results?q=feature:language"
+  },
   "largest-contentful-paint": {
     "url": "https://wpt.fyi/results?q=feature:largest-contentful-paint"
   },
+  "layout-direction-override": {
+    "url": "https://wpt.fyi/results?q=feature:layout-direction-override"
+  },
   "layout-instability": {
     "url": "https://wpt.fyi/results?q=feature:layout-instability"
+  },
+  "letter-spacing": {
+    "url": "https://wpt.fyi/results?q=feature:letter-spacing"
   },
   "lh": {
     "url": "https://wpt.fyi/results?q=feature:lh"
@@ -1085,6 +1121,9 @@
   "min-max-clamp": {
     "url": "https://wpt.fyi/results?q=feature:min-max-clamp"
   },
+  "mix-blend-mode": {
+    "url": "https://wpt.fyi/results?q=feature:mix-blend-mode"
+  },
   "mixed-content": {
     "url": "https://wpt.fyi/results?q=feature:mixed-content"
   },
@@ -1096,6 +1135,9 @@
   },
   "motion-path": {
     "url": "https://wpt.fyi/results?q=feature:motion-path"
+  },
+  "mouse-events": {
+    "url": "https://wpt.fyi/results?q=feature:mouse-events"
   },
   "move-before": {
     "url": "https://wpt.fyi/results?q=feature:move-before"
@@ -1130,8 +1172,14 @@
   "notifications": {
     "url": "https://wpt.fyi/results?q=feature:notifications"
   },
+  "nth-child": {
+    "url": "https://wpt.fyi/results?q=feature:nth-child"
+  },
   "nth-child-of": {
     "url": "https://wpt.fyi/results?q=feature:nth-child-of"
+  },
+  "nth-of-type": {
+    "url": "https://wpt.fyi/results?q=feature:nth-of-type"
   },
   "numeric-factory-functions": {
     "url": "https://wpt.fyi/results?q=feature:numeric-factory-functions"
@@ -1397,6 +1445,9 @@
   "rlh": {
     "url": "https://wpt.fyi/results?q=feature:rlh"
   },
+  "root": {
+    "url": "https://wpt.fyi/results?q=feature:root"
+  },
   "round-mod-rem": {
     "url": "https://wpt.fyi/results?q=feature:round-mod-rem"
   },
@@ -1493,6 +1544,9 @@
   "select": {
     "url": "https://wpt.fyi/results?q=feature:select"
   },
+  "selection": {
+    "url": "https://wpt.fyi/results?q=feature:selection"
+  },
   "selection-api": {
     "url": "https://wpt.fyi/results?q=feature:selection-api"
   },
@@ -1540,6 +1594,9 @@
   },
   "sibling-count": {
     "url": "https://wpt.fyi/results?q=feature:sibling-count"
+  },
+  "sizes-auto": {
+    "url": "https://wpt.fyi/results?q=feature:sizes-auto"
   },
   "slot-assign": {
     "url": "https://wpt.fyi/results?q=feature:slot-assign"
@@ -1687,6 +1744,9 @@
   },
   "text-indent-hanging": {
     "url": "https://wpt.fyi/results?q=feature:text-indent-hanging"
+  },
+  "text-overflow": {
+    "url": "https://wpt.fyi/results?q=feature:text-overflow"
   },
   "text-spacing-trim": {
     "url": "https://wpt.fyi/results?q=feature:text-spacing-trim"
@@ -2020,6 +2080,9 @@
   },
   "wheel-events": {
     "url": "https://wpt.fyi/results?q=feature:wheel-events"
+  },
+  "where": {
+    "url": "https://wpt.fyi/results?q=feature:where"
   },
   "white-space": {
     "url": "https://wpt.fyi/results?q=feature:white-space"
