@@ -500,6 +500,12 @@
   "cubic-bezier-easing": {
     "url": "https://wpt.fyi/results?q=feature:cubic-bezier-easing"
   },
+  "currentcolor": {
+    "url": "https://wpt.fyi/results?q=feature:currentcolor"
+  },
+  "custom-ellipses": {
+    "url": "https://wpt.fyi/results?q=feature:custom-ellipses"
+  },
   "custom-properties": {
     "url": "https://wpt.fyi/results?q=feature:custom-properties"
   },
@@ -848,8 +854,14 @@
   "gamepad-haptics": {
     "url": "https://wpt.fyi/results?q=feature:gamepad-haptics"
   },
+  "gap-decorations": {
+    "url": "https://wpt.fyi/results?q=feature:gap-decorations"
+  },
   "geolocation": {
     "url": "https://wpt.fyi/results?q=feature:geolocation"
+  },
+  "getboxquads": {
+    "url": "https://wpt.fyi/results?q=feature:getboxquads"
   },
   "gethtml": {
     "url": "https://wpt.fyi/results?q=feature:gethtml"
@@ -871,6 +883,12 @@
   },
   "gyroscope": {
     "url": "https://wpt.fyi/results?q=feature:gyroscope"
+  },
+  "hanging-punctuation": {
+    "url": "https://wpt.fyi/results?q=feature:hanging-punctuation"
+  },
+  "hardware-concurrency": {
+    "url": "https://wpt.fyi/results?q=feature:hardware-concurrency"
   },
   "has": {
     "url": "https://wpt.fyi/results?q=feature:has"
@@ -1199,6 +1217,9 @@
   "media-capabilities": {
     "url": "https://wpt.fyi/results?q=feature:media-capabilities"
   },
+  "media-capture": {
+    "url": "https://wpt.fyi/results?q=feature:media-capture"
+  },
   "media-playback-quality": {
     "url": "https://wpt.fyi/results?q=feature:media-playback-quality"
   },
@@ -1282,6 +1303,9 @@
   },
   "notifications": {
     "url": "https://wpt.fyi/results?q=feature:notifications"
+  },
+  "notifications-apps": {
+    "url": "https://wpt.fyi/results?q=feature:notifications-apps"
   },
   "nth-child": {
     "url": "https://wpt.fyi/results?q=feature:nth-child"
@@ -1433,6 +1457,15 @@
   "ping": {
     "url": "https://wpt.fyi/results?q=feature:ping"
   },
+  "placeholder": {
+    "url": "https://wpt.fyi/results?q=feature:placeholder"
+  },
+  "placeholder-shown": {
+    "url": "https://wpt.fyi/results?q=feature:placeholder-shown"
+  },
+  "pointer-events": {
+    "url": "https://wpt.fyi/results?q=feature:pointer-events"
+  },
   "pointer-events-api": {
     "url": "https://wpt.fyi/results?q=feature:pointer-events-api"
   },
@@ -1441,6 +1474,9 @@
   },
   "popover": {
     "url": "https://wpt.fyi/results?q=feature:popover"
+  },
+  "popover-hint": {
+    "url": "https://wpt.fyi/results?q=feature:popover-hint"
   },
   "postmessage": {
     "url": "https://wpt.fyi/results?q=feature:postmessage"
@@ -1472,8 +1508,14 @@
   "preserves-pitch": {
     "url": "https://wpt.fyi/results?q=feature:preserves-pitch"
   },
+  "print": {
+    "url": "https://wpt.fyi/results?q=feature:print"
+  },
   "print-color-adjust": {
     "url": "https://wpt.fyi/results?q=feature:print-color-adjust"
+  },
+  "print-events": {
+    "url": "https://wpt.fyi/results?q=feature:print-events"
   },
   "private-click-measurement": {
     "url": "https://wpt.fyi/results?q=feature:private-click-measurement"
@@ -1514,6 +1556,9 @@
   "referrer-policy": {
     "url": "https://wpt.fyi/results?q=feature:referrer-policy"
   },
+  "region-capture": {
+    "url": "https://wpt.fyi/results?q=feature:region-capture"
+  },
   "registered-custom-properties": {
     "url": "https://wpt.fyi/results?q=feature:registered-custom-properties"
   },
@@ -1534,6 +1579,9 @@
   },
   "reporting": {
     "url": "https://wpt.fyi/results?q=feature:reporting"
+  },
+  "request-animation-frame": {
+    "url": "https://wpt.fyi/results?q=feature:request-animation-frame"
   },
   "request-animation-frame-workers": {
     "url": "https://wpt.fyi/results?q=feature:request-animation-frame-workers"
