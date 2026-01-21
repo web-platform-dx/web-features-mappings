@@ -503,6 +503,9 @@
   "currentcolor": {
     "url": "https://wpt.fyi/results?q=feature:currentcolor"
   },
+  "cursor": {
+    "url": "https://wpt.fyi/results?q=feature:cursor"
+  },
   "custom-ellipses": {
     "url": "https://wpt.fyi/results?q=feature:custom-ellipses"
   },
@@ -1202,6 +1205,12 @@
   "marker": {
     "url": "https://wpt.fyi/results?q=feature:marker"
   },
+  "mask-border": {
+    "url": "https://wpt.fyi/results?q=feature:mask-border"
+  },
+  "mask-type": {
+    "url": "https://wpt.fyi/results?q=feature:mask-type"
+  },
   "masks": {
     "url": "https://wpt.fyi/results?q=feature:masks"
   },
@@ -1321,6 +1330,12 @@
   },
   "object": {
     "url": "https://wpt.fyi/results?q=feature:object"
+  },
+  "object-fit": {
+    "url": "https://wpt.fyi/results?q=feature:object-fit"
+  },
+  "object-position": {
+    "url": "https://wpt.fyi/results?q=feature:object-position"
   },
   "object-view-box": {
     "url": "https://wpt.fyi/results?q=feature:object-view-box"
@@ -1478,6 +1493,9 @@
   "popover-hint": {
     "url": "https://wpt.fyi/results?q=feature:popover-hint"
   },
+  "position": {
+    "url": "https://wpt.fyi/results?q=feature:position"
+  },
   "postmessage": {
     "url": "https://wpt.fyi/results?q=feature:postmessage"
   },
@@ -1519,6 +1537,9 @@
   },
   "private-click-measurement": {
     "url": "https://wpt.fyi/results?q=feature:private-click-measurement"
+  },
+  "private-network-access": {
+    "url": "https://wpt.fyi/results?q=feature:private-network-access"
   },
   "profiler": {
     "url": "https://wpt.fyi/results?q=feature:profiler"
