@@ -335,6 +335,9 @@
   "closewatcher": {
     "url": "https://wpt.fyi/results?q=feature:closewatcher"
   },
+  "color": {
+    "url": "https://wpt.fyi/results?q=feature:color"
+  },
   "color-contrast": {
     "url": "https://wpt.fyi/results?q=feature:color-contrast"
   },
@@ -973,6 +976,15 @@
   },
   "if": {
     "url": "https://wpt.fyi/results?q=feature:if"
+  },
+  "iframe": {
+    "url": "https://wpt.fyi/results?q=feature:iframe"
+  },
+  "iframe-sandbox": {
+    "url": "https://wpt.fyi/results?q=feature:iframe-sandbox"
+  },
+  "iframe-srcdoc": {
+    "url": "https://wpt.fyi/results?q=feature:iframe-srcdoc"
   },
   "image-function": {
     "url": "https://wpt.fyi/results?q=feature:image-function"
