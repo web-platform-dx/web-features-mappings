@@ -74,6 +74,16 @@
       },
       "additionalProperties": false
     },
+    "bugsFile": {
+      "description": "Schema for bugs.json. An object where keys are feature IDs and values are relevant bugs, per browser.",
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/bugsRecord"
+        }
+      },
+      "additionalProperties": false
+    },
     "useCounterValue": {
       "type": "object",
       "description": "The usage metrics for a single web feature from chrome-use-counters.json.",
@@ -297,6 +307,24 @@
         "url"
       ],
       "additionalProperties": false
+    },
+    "bugsRecord": {
+      "type": "object",
+      "description": "The list of bugs, per browser, for a single web feature from bugs.json.",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/bugLinkArray"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bugLinkArray": {
+      "description": "An array of implementation bug links from bugs.json.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
     }
   },
   "additionalProperties": {
@@ -322,6 +350,9 @@
       },
       "wpt": {
         "$ref": "#/definitions/wptRecord"
+      },
+      "bugs": {
+        "$ref": "#/definitions/bugsRecord"
       }
     },
     "additionalProperties": false

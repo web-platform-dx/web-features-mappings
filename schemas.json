@@ -24,6 +24,9 @@
     },
     "wpt": {
       "$ref": "#/definitions/wptFile"
+    },
+    "bugs": {
+      "$ref": "#/definitions/bugsFile"
     }
   },
   "$comment": "The properties are the file names of the files in the mapping directory",
@@ -95,6 +98,16 @@
       "patternProperties": {
         ".*": {
           "$ref": "#/definitions/wptRecord"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bugsFile": {
+      "description": "Schema for bugs.json. An object where keys are feature IDs and values are relevant bugs, per browser.",
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/bugsRecord"
         }
       },
       "additionalProperties": false
@@ -322,6 +335,24 @@
         "url"
       ],
       "additionalProperties": false
+    },
+    "bugsRecord": {
+      "type": "object",
+      "description": "The list of bugs, per browser, for a single web feature from bugs.json.",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/bugLinkArray"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bugLinkArray": {
+      "description": "An array of implementation bug links from bugs.json.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
     }
   }
 }
