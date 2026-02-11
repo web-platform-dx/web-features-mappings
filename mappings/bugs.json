@@ -460,36 +460,6 @@
       "https://bugzil.la/1703961"
     ]
   },
-  "media-pseudos": {
-    "firefox": [
-      "https://bugzil.la/1707584"
-    ],
-    "chrome": [
-      "https://crbug.com/40246121",
-      "https://crbug.com/40748199"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40748199"
-    ],
-    "edge": [
-      "https://crbug.com/40748199"
-    ],
-    "oculus": [
-      "https://crbug.com/40748199"
-    ],
-    "opera": [
-      "https://crbug.com/40748199"
-    ],
-    "opera_android": [
-      "https://crbug.com/40748199"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40748199"
-    ],
-    "webview_android": [
-      "https://crbug.com/40748199"
-    ]
-  },
   "css-modules": {
     "firefox": [
       "https://bugzil.la/1720570"
@@ -960,6 +930,36 @@
     ],
     "webview_android": [
       "https://crbug.com/41492543"
+    ]
+  },
+  "media-pseudos": {
+    "firefox": [
+      "https://bugzil.la/2013367"
+    ],
+    "chrome": [
+      "https://crbug.com/40246121",
+      "https://crbug.com/40748199"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40748199"
+    ],
+    "edge": [
+      "https://crbug.com/40748199"
+    ],
+    "oculus": [
+      "https://crbug.com/40748199"
+    ],
+    "opera": [
+      "https://crbug.com/40748199"
+    ],
+    "opera_android": [
+      "https://crbug.com/40748199"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40748199"
+    ],
+    "webview_android": [
+      "https://crbug.com/40748199"
     ]
   },
   "ambient-light": {
@@ -1901,6 +1901,23 @@
       "https://bugzil.la/1834877"
     ]
   },
+  "display-mode": {
+    "chrome_android": [
+      "https://crbug.com/40831406"
+    ],
+    "oculus": [
+      "https://crbug.com/40831406"
+    ],
+    "opera_android": [
+      "https://crbug.com/40831406"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40831406"
+    ],
+    "webview_android": [
+      "https://crbug.com/40831406"
+    ]
+  },
   "document-picture-in-picture": {
     "firefox": [
       "https://bugzil.la/1858562"
@@ -2038,6 +2055,38 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1797715"
+    ]
+  },
+  "filter-function": {
+    "chrome": [
+      "https://crbug.com/41208242"
+    ],
+    "chrome_android": [
+      "https://crbug.com/41208242"
+    ],
+    "edge": [
+      "https://crbug.com/41208242"
+    ],
+    "firefox": [
+      "https://bugzil.la/1191043"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1191043"
+    ],
+    "oculus": [
+      "https://crbug.com/41208242"
+    ],
+    "opera": [
+      "https://crbug.com/41208242"
+    ],
+    "opera_android": [
+      "https://crbug.com/41208242"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/41208242"
+    ],
+    "webview_android": [
+      "https://crbug.com/41208242"
     ]
   },
   "flexbox": {
