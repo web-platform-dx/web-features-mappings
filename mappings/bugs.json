@@ -1139,11 +1139,6 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1212668"
     ]
   },
-  "getorinsert": {
-    "chrome": [
-      "https://issues.chromium.org/u/1/issues/434977728"
-    ]
-  },
   "gpc": {
     "chrome": [
       "https://issues.chromium.org/issues/40745270"
@@ -1217,6 +1212,11 @@
   "mutation-events": {
     "chrome": [
       "https://crbug.com/40268638"
+    ]
+  },
+  "navigator-install": {
+    "chrome": [
+      "https://issues.chromium.org/issues/333795265"
     ]
   },
   "portal": {
@@ -1311,20 +1311,6 @@
       "https://bugzil.la/1869577",
       "https://bugzil.la/1986500",
       "https://bugzil.la/1980111"
-    ]
-  },
-  "text-justify": {
-    "chrome": [
-      "https://issues.chromium.org/issues/40321528"
-    ],
-    "safari": [
-      "https://webkit.org/b/99945"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/99945"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/99945"
     ]
   },
   "view-transitions-element-scoped": {
@@ -1855,6 +1841,16 @@
       "https://webkit.org/b/182671"
     ]
   },
+  "datalist": {
+    "firefox": [
+      "https://bugzil.la/2007533",
+      "https://bugzil.la/1905313"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/2007533",
+      "https://bugzil.la/1905313"
+    ]
+  },
   "dedicated-workers": {
     "chrome": [
       "https://crbug.com/40554522"
@@ -1890,6 +1886,11 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/284592"
+    ]
+  },
+  "digital-credentials": {
+    "webview_ios": [
+      "https://webkit.org/b/293646"
     ]
   },
   "display-animation": {
@@ -3079,6 +3080,17 @@
     ],
     "webview_android": [
       "https://crbug.com/40675832"
+    ]
+  },
+  "text-justify": {
+    "safari": [
+      "https://webkit.org/b/99945"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/99945"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/99945"
     ]
   },
   "text-tracks": {
