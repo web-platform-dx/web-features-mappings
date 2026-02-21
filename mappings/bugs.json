@@ -780,13 +780,13 @@
       "https://bugzil.la/1974276"
     ],
     "safari": [
-      "https://webkit.org/b/301929"
+      "https://webkit.org/b/286642"
     ],
     "safari_ios": [
-      "https://webkit.org/b/301929"
+      "https://webkit.org/b/286642"
     ],
     "webview_ios": [
-      "https://webkit.org/b/301929"
+      "https://webkit.org/b/286642"
     ]
   },
   "interpolate-size": {
@@ -1491,17 +1491,6 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/194593"
-    ]
-  },
-  "async-iterable-streams": {
-    "safari": [
-      "https://webkit.org/b/194379"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/194379"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/194379"
     ]
   },
   "audio-session": {
@@ -2335,29 +2324,26 @@
       "https://hg.mozilla.org/mozilla-central/rev/60a72a6c7c1d",
       "https://hg.mozilla.org/mozilla-central/rev/12294b20e4d9"
     ],
+    "chrome": [
+      "https://crbug.com/40289400"
+    ],
     "safari": [
-      "https://webkit.org/b/202303",
       "https://trac.webkit.org/changeset/203679",
       "https://trac.webkit.org/changeset/159504",
       "https://trac.webkit.org/changeset/267578",
       "https://trac.webkit.org/changeset/203104"
     ],
     "safari_ios": [
-      "https://webkit.org/b/202303",
       "https://trac.webkit.org/changeset/203679",
       "https://trac.webkit.org/changeset/159504",
       "https://trac.webkit.org/changeset/267578",
       "https://trac.webkit.org/changeset/203104"
     ],
     "webview_ios": [
-      "https://webkit.org/b/202303",
       "https://trac.webkit.org/changeset/203679",
       "https://trac.webkit.org/changeset/159504",
       "https://trac.webkit.org/changeset/267578",
       "https://trac.webkit.org/changeset/203104"
-    ],
-    "chrome": [
-      "https://crbug.com/40289400"
     ]
   },
   "media-capture": {
