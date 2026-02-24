@@ -729,7 +729,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/245",
-      "votes": 168
+      "votes": 170
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00348225,
@@ -6818,7 +6818,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/278",
-      "votes": 149
+      "votes": 150
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00012895,
@@ -12234,11 +12234,7 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/getOrInsertComputed"
       }
-    ],
-    "developer-signals": {
-      "url": "https://github.com/web-platform-dx/developer-signals/issues/399",
-      "votes": 15
-    }
+    ]
   },
   "globalthis": {
     "mdn-docs": [
@@ -14732,6 +14728,12 @@
         "https://crbug.com/1300528",
         "https://crbug.com/1142955"
       ]
+    }
+  },
+  "install": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/522",
+      "votes": 0
     }
   },
   "interaction": {
@@ -18361,7 +18363,11 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/NavigationPrecommitController/redirect"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/523",
+      "votes": 0
+    }
   },
   "navigation-timing": {
     "wpt": {
@@ -23411,6 +23417,20 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:scoped-custom-element-registries"
     },
+    "mdn-docs": [
+      {
+        "slug": "Web/API/CustomElementRegistry/CustomElementRegistry",
+        "title": "CustomElementRegistry: CustomElementRegistry() constructor",
+        "anchor": null,
+        "url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/CustomElementRegistry"
+      },
+      {
+        "slug": "Web/API/CustomElementRegistry/initialize",
+        "title": "CustomElementRegistry: initialize() method",
+        "anchor": null,
+        "url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/initialize"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/364",
       "votes": 8
@@ -27860,7 +27880,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/291",
-      "votes": 143
+      "votes": 144
     },
     "bugs": {
       "safari": [
@@ -30307,6 +30327,12 @@
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00260612,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/358"
+    }
+  },
+  "wasm-jspi": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/521",
+      "votes": 0
     }
   },
   "wasm-memory64": {
