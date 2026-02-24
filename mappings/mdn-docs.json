@@ -6951,6 +6951,14 @@
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:scope"
     }
   ],
+  "scoped-custom-element-registries": [
+    {
+      "slug": "Web/API/CustomElementRegistry/CustomElementRegistry"
+    },
+    {
+      "slug": "Web/API/CustomElementRegistry/initialize"
+    }
+  ],
   "screen": [
     {
       "slug": "Web/API/Window/screen",
