@@ -583,6 +583,11 @@
       "https://bugzil.la/1856430"
     ]
   },
+  "closewatcher": {
+    "firefox": [
+      "https://bugzil.la/1859702"
+    ]
+  },
   "partitioned-cookies": {
     "firefox": [
       "https://bugzil.la/1865198"
@@ -978,7 +983,6 @@
       "https://issues.chromium.org/issues/40059176"
     ],
     "firefox": [
-      "https://bugzil.la/1838746",
       "https://bugzil.la/1972610"
     ]
   },
@@ -1559,17 +1563,6 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/219102"
-    ]
-  },
-  "canvas-2d": {
-    "safari": [
-      "https://webkit.org/b/198416"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/198416"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/198416"
     ]
   },
   "capture-stream-canvas": {
