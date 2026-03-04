@@ -938,6 +938,12 @@
       "https://crbug.com/41492543"
     ]
   },
+  "document-picture-in-picture": {
+    "firefox": [
+      "https://bugzil.la/2012979",
+      "https://bugzil.la/1858562"
+    ]
+  },
   "media-pseudos": {
     "firefox": [
       "https://bugzil.la/2013367"
@@ -1910,11 +1916,6 @@
     ],
     "webview_android": [
       "https://crbug.com/40831406"
-    ]
-  },
-  "document-picture-in-picture": {
-    "firefox": [
-      "https://bugzil.la/1858562"
     ]
   },
   "empty": {
