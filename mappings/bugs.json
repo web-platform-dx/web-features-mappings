@@ -608,9 +608,6 @@
   "popover-hint": {
     "firefox": [
       "https://bugzil.la/1867743"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1867743"
     ]
   },
   "writingsuggestions": {
@@ -817,6 +814,9 @@
   "text-spacing-trim": {
     "firefox": [
       "https://bugzil.la/1951795"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1951795"
     ]
   },
   "text-wrap-pretty": {
@@ -855,6 +855,9 @@
   },
   "if": {
     "firefox": [
+      "https://bugzil.la/1981485"
+    ],
+    "firefox_android": [
       "https://bugzil.la/1981485"
     ],
     "safari": [
