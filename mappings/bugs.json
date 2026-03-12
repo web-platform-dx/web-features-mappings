@@ -2353,6 +2353,26 @@
       "https://trac.webkit.org/changeset/203104"
     ]
   },
+  "mathml-full": {
+    "firefox": [
+      "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c"
+    ],
+    "firefox_android": [
+      "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c"
+    ],
+    "safari": [
+      "https://trac.webkit.org/changeset/62968",
+      "https://trac.webkit.org/changeset/63079"
+    ],
+    "safari_ios": [
+      "https://trac.webkit.org/changeset/62968",
+      "https://trac.webkit.org/changeset/63079"
+    ],
+    "webview_ios": [
+      "https://trac.webkit.org/changeset/62968",
+      "https://trac.webkit.org/changeset/63079"
+    ]
+  },
   "media-capture": {
     "safari": [
       "https://webkit.org/b/169871"
@@ -3054,7 +3074,7 @@
       "https://crbug.com/401065166"
     ]
   },
-  "text-decoration": {
+  "text-decoration-skip-ink-all": {
     "chrome": [
       "https://crbug.com/40675832"
     ],
