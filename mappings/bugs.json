@@ -19,26 +19,7 @@
   },
   "attr": {
     "firefox": [
-      "https://bugzil.la/435426",
-      "https://bugzil.la/1871819",
-      "https://bugzil.la/1448251",
-      "https://bugzil.la/1871815",
-      "https://bugzil.la/1871818",
-      "https://bugzil.la/1871816",
-      "https://bugzil.la/1871817",
-      "https://bugzil.la/1871820",
-      "https://bugzil.la/1448252"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/435426",
-      "https://bugzil.la/1871819",
-      "https://bugzil.la/1448251",
-      "https://bugzil.la/1871815",
-      "https://bugzil.la/1871818",
-      "https://bugzil.la/1871816",
-      "https://bugzil.la/1871817",
-      "https://bugzil.la/1871820",
-      "https://bugzil.la/1448252"
+      "https://bugzil.la/435426"
     ],
     "safari": [
       "https://webkit.org/b/26609"
@@ -203,6 +184,9 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1387483"
+    ],
+    "oculus": [
+      "https://crbug.com/40505032"
     ],
     "opera": [
       "https://crbug.com/40505032"
@@ -647,6 +631,9 @@
       "https://crbug.com/40948547"
     ],
     "edge": [
+      "https://crbug.com/40948547"
+    ],
+    "oculus": [
       "https://crbug.com/40948547"
     ],
     "opera": [
@@ -1213,6 +1200,11 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1109698"
     ]
   },
+  "loading-lazy-media": {
+    "chrome": [
+      "https://issues.chromium.org/issues/469111735"
+    ]
+  },
   "local-network-access": {
     "chrome": [
       "https://issues.chromium.org/issues/465491626",
@@ -1472,6 +1464,9 @@
     "edge": [
       "https://crbug.com/40276317"
     ],
+    "oculus": [
+      "https://crbug.com/40276317"
+    ],
     "opera": [
       "https://crbug.com/40276317"
     ],
@@ -1539,6 +1534,9 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1855668"
+    ],
+    "oculus": [
+      "https://crbug.com/40569411"
     ],
     "opera": [
       "https://crbug.com/40569411"
@@ -1710,6 +1708,9 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1795622"
+    ],
+    "oculus": [
+      "https://crbug.com/40217044"
     ],
     "opera": [
       "https://crbug.com/40217044"
@@ -2228,6 +2229,9 @@
       "https://crbug.com/40284803"
     ],
     "edge": [
+      "https://crbug.com/40284803"
+    ],
+    "oculus": [
       "https://crbug.com/40284803"
     ],
     "opera": [
@@ -2992,6 +2996,9 @@
       "https://crbug.com/40244647"
     ],
     "edge": [
+      "https://crbug.com/40244647"
+    ],
+    "oculus": [
       "https://crbug.com/40244647"
     ],
     "opera": [
