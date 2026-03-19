@@ -21,6 +21,10 @@
     "firefox": [
       "https://bugzil.la/435426"
     ],
+    "chrome": [
+      "https://crbug.com/400981738",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=246571"
+    ],
     "safari": [
       "https://webkit.org/b/26609"
     ],
@@ -615,9 +619,6 @@
   "scoped-custom-element-registries": {
     "firefox": [
       "https://bugzil.la/1874414"
-    ],
-    "chrome": [
-      "https://issues.chromium.org/issues/40826514"
     ]
   },
   "link-rel-expect": {
@@ -1187,11 +1188,6 @@
   "inverted-colors": {
     "chrome": [
       "http://crbug.com/1462210"
-    ]
-  },
-  "iterator-concat": {
-    "chrome": [
-      "https://issues.chromium.org/u/1/issues/434977727"
     ]
   },
   "jpegxl": {
