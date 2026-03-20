@@ -653,6 +653,9 @@
   "background-clip-border-area": {
     "firefox": [
       "https://bugzil.la/1880365"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/329302543"
     ]
   },
   "compression-dictionary-transport": {
