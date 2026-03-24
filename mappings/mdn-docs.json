@@ -2817,6 +2817,12 @@
   ],
   "fetch-priority": [
     {
+      "slug": "Web/HTML/Reference/Attributes/fetchpriority",
+      "title": "HTML attribute: fetchpriority",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/fetchpriority"
+    },
+    {
       "slug": "Web/HTML/Reference/Elements/script#fetchpriority",
       "title": "<script>: The Script element",
       "anchor": "fetchpriority",
@@ -2833,12 +2839,6 @@
       "title": "<img>: The Image Embed element",
       "anchor": "fetchpriority",
       "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/img#fetchpriority"
-    },
-    {
-      "slug": "Web/API/Window/fetch",
-      "title": "Window: fetch() method",
-      "anchor": null,
-      "url": "https://developer.mozilla.org/docs/Web/API/Window/fetch"
     }
   ],
   "fetch-request-streams": [

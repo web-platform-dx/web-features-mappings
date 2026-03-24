@@ -311,6 +311,13 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:active-view-transition"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-view-transitions",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
+      }
+    ],
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00096816,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/217"
@@ -668,6 +675,11 @@
         "year": 2025,
         "label": "interop-2025-anchor-positioning",
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-anchor-positioning"
+      },
+      {
+        "year": 2026,
+        "label": "interop-2025-anchor-positioning",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2025-anchor-positioning"
       }
     ],
     "developer-signals": {
@@ -756,6 +768,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.60.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
         "question": "system_capabilities",
         "subQuestion": "system_capabilities_features",
@@ -767,13 +786,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.60.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.60.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -858,6 +870,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.59.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
         "question": "system_capabilities",
         "subQuestion": "system_capabilities_features",
@@ -869,13 +888,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.59.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.59.entity"
       }
     ],
     "standards-positions": [
@@ -1650,6 +1662,13 @@
         "title": "attr()",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/attr"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-attr",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-attr"
       }
     ],
     "developer-signals": {
@@ -2658,6 +2677,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.39.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/performance/#performance_features",
         "question": "performance",
         "subQuestion": "performance_features",
@@ -2669,13 +2695,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.39.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.39.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -2752,6 +2771,13 @@
         "title": "HTMLStyleElement: blocking property",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLStyleElement/blocking"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-view-transitions",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
       }
     ],
     "developer-signals": {
@@ -3062,6 +3088,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.18.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_limitations_1",
         "question": "graphics_multimedia",
         "subQuestion": "graphics_pain_points_limitations_1",
@@ -3101,13 +3134,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.18.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.18.entity"
       }
     ],
     "mdn-docs": [
@@ -3166,6 +3192,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.19.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_multimedia_features",
         "question": "graphics_multimedia",
         "subQuestion": "graphics_multimedia_features",
@@ -3177,13 +3210,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.19.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.19.entity"
       }
     ],
     "mdn-docs": [
@@ -5042,6 +5068,13 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@container#container_style_queries"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-container-style-queries",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-container-style-queries"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/196",
       "votes": 41
@@ -5178,6 +5211,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.6.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/forms/#forms_features",
         "question": "forms",
         "subQuestion": "forms_features",
@@ -5189,13 +5229,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.6.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.6.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -5274,6 +5307,13 @@
         "title": "contrast-color()",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/contrast-color"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-contrast-color",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-contrast-color"
       }
     ],
     "developer-signals": {
@@ -5751,6 +5791,13 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@view-transition"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-view-transitions",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/248",
       "votes": 35
@@ -5823,6 +5870,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.28.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
         "question": "features",
         "subQuestion": "all_features",
@@ -5848,13 +5902,6 @@
         "question": "content",
         "subQuestion": "content_features",
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.2.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.28.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -6185,6 +6232,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.2.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
         "question": "usage",
         "subQuestion": "html_interoperability_features_features_only",
@@ -6238,13 +6292,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.2.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.2.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -6381,6 +6428,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.0.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_styling_issues",
         "question": "usage",
         "subQuestion": "html_styling_issues",
@@ -6455,13 +6509,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.0.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.0.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -6624,6 +6671,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.47.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_other_pain_points_limitations_1",
         "question": "web_components",
         "subQuestion": "web_components_other_pain_points_limitations_1",
@@ -6679,11 +6733,11 @@
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.1.buckets.6.nestedBuckets.0.nestedBuckets.0.entity"
       },
       {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.47.entity"
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
+        "question": "web_components",
+        "subQuestion": "web_component_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.5.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -6691,13 +6745,6 @@
         "question": "web_components",
         "subQuestion": "web_components_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.5.entity"
-      },
-      {
-        "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
-        "question": "web_components",
-        "subQuestion": "web_component_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.5.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -7034,6 +7081,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.7.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_styling_issues",
         "question": "usage",
         "subQuestion": "html_styling_issues",
@@ -7101,13 +7155,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.7.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.7.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -7211,6 +7258,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.8.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_pain_points_limitations_1",
         "question": "interactivity",
         "subQuestion": "interactivity_pain_points_limitations_1",
@@ -7236,13 +7290,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.8.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.8.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -7453,6 +7500,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.9.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_styling_issues",
         "question": "usage",
         "subQuestion": "html_styling_issues",
@@ -7541,13 +7595,6 @@
         "question": "accessibility",
         "subQuestion": "accessibility_pain_points",
         "path": "dataAPI.surveys.state_of_html.html2025.accessibility.accessibility_pain_points.freeform.allEditions.1.buckets.24.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.9.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -7662,6 +7709,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.10.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
         "question": "usage",
         "subQuestion": "html_interoperability_features_features_only",
@@ -7680,13 +7734,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.10.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.10.entity"
       }
     ],
     "standards-positions": [
@@ -7703,6 +7750,13 @@
         "title": "HTMLDialogElement: closedBy property",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/closedBy"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-dialogs-and-popovers",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-dialogs-and-popovers"
       }
     ],
     "developer-signals": {
@@ -9297,6 +9351,13 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Response/formData"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-fetch",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-fetch"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/537",
       "votes": 0
@@ -9355,6 +9416,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.38.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/performance/#performance_features",
         "question": "performance",
         "subQuestion": "performance_features",
@@ -9366,13 +9434,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.38.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.38.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -9419,6 +9480,12 @@
     ],
     "mdn-docs": [
       {
+        "slug": "Web/HTML/Reference/Attributes/fetchpriority",
+        "title": "HTML attribute: fetchpriority",
+        "anchor": null,
+        "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/fetchpriority"
+      },
+      {
         "slug": "Web/HTML/Reference/Elements/script#fetchpriority",
         "title": "<script>: The Script element",
         "anchor": "fetchpriority",
@@ -9435,12 +9502,6 @@
         "title": "<img>: The Image Embed element",
         "anchor": "fetchpriority",
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/img#fetchpriority"
-      },
-      {
-        "slug": "Web/API/Window/fetch",
-        "title": "Window: fetch() method",
-        "anchor": null,
-        "url": "https://developer.mozilla.org/docs/Web/API/Window/fetch"
       }
     ],
     "chrome-use-counters": {
@@ -9466,6 +9527,13 @@
         "title": "Request: body property",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Request/body"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-fetch",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-fetch"
       }
     ],
     "developer-signals": {
@@ -9728,6 +9796,13 @@
       },
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.57.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
         "question": "usage",
         "subQuestion": "html_interoperability_features_features_only",
@@ -9781,13 +9856,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.57.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.57.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -10001,6 +10069,11 @@
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/299",
       "votes": 3
+    },
+    "bugs": {
+      "chrome": [
+        "https://issues.chromium.org/issues/40847362"
+      ]
     }
   },
   "fixed-positioning": {
@@ -11021,6 +11094,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.50.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_features",
         "question": "web_components",
         "subQuestion": "web_components_features",
@@ -11034,11 +11114,11 @@
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.50.entity"
       },
       {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.50.entity"
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
+        "question": "web_components",
+        "subQuestion": "web_component_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.8.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -11046,13 +11126,6 @@
         "question": "web_components",
         "subQuestion": "web_components_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.8.entity"
-      },
-      {
-        "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
-        "question": "web_components",
-        "subQuestion": "web_component_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.8.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -11472,6 +11545,13 @@
         "title": "IDBObjectStore: getAllRecords() method",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getAllRecords"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-indexeddb",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-indexeddb"
       }
     ],
     "developer-signals": {
@@ -11998,6 +12078,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.52.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_features",
         "question": "web_components",
         "subQuestion": "web_components_features",
@@ -12009,13 +12096,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.52.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.52.entity"
       }
     ],
     "standards-positions": [
@@ -12166,6 +12246,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.30.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
         "question": "features",
         "subQuestion": "all_features",
@@ -12177,13 +12264,6 @@
         "question": "content",
         "subQuestion": "content_features",
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.4.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.30.entity"
       }
     ],
     "standards-positions": [
@@ -12264,6 +12344,13 @@
         "title": "CSS Custom Highlight API",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/CSS_Custom_Highlight_API"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-custom-highlights",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-custom-highlights"
       }
     ],
     "developer-signals": {
@@ -13474,6 +13561,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.3.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_styling_issues",
         "question": "usage",
         "subQuestion": "html_styling_issues",
@@ -13492,13 +13586,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.3.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.3.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -14080,6 +14167,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.32.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
         "question": "features",
         "subQuestion": "all_features",
@@ -14091,13 +14185,6 @@
         "question": "content",
         "subQuestion": "content_features",
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.6.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.32.entity"
       }
     ],
     "mdn-docs": [
@@ -14151,6 +14238,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.31.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
         "question": "features",
         "subQuestion": "all_features",
@@ -14162,13 +14256,6 @@
         "question": "content",
         "subQuestion": "content_features",
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.5.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.31.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -14249,6 +14336,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.14.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
         "question": "usage",
         "subQuestion": "html_interoperability_features_features_only",
@@ -14302,13 +14396,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.14.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.14.entity"
       }
     ],
     "standards-positions": [
@@ -14495,6 +14582,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.25.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
         "question": "usage",
         "subQuestion": "html_interoperability_features_features_only",
@@ -14513,13 +14607,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.25.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.25.entity"
       }
     ],
     "standards-positions": [
@@ -15358,6 +15445,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.40.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/performance/#performance_features",
         "question": "performance",
         "subQuestion": "performance_features",
@@ -15369,13 +15463,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.40.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.40.entity"
       }
     ],
     "mdn-docs": [
@@ -15384,6 +15471,13 @@
         "title": "HTML attribute: rel",
         "anchor": "expect",
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/rel#expect"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-view-transitions",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
       }
     ],
     "developer-signals": {
@@ -15544,6 +15638,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.35.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points_limitations_1",
         "question": "performance",
         "subQuestion": "performance_pain_points_limitations_1",
@@ -15576,13 +15677,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.35.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.35.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -16290,6 +16384,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.26.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
         "question": "features",
         "subQuestion": "all_features",
@@ -16301,13 +16402,6 @@
         "question": "content",
         "subQuestion": "content_features",
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.0.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.26.entity"
       }
     ],
     "mdn-docs": [
@@ -16471,6 +16565,13 @@
         "title": ":playing",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:playing"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-media-pseudo-classes",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-media-pseudo-classes"
       }
     ],
     "developer-signals": {
@@ -17109,6 +17210,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.16.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_features",
         "question": "interactivity",
         "subQuestion": "interactivity_features",
@@ -17120,13 +17228,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.16.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.16.entity"
       }
     ],
     "mdn-docs": [
@@ -17287,6 +17388,11 @@
         "year": 2025,
         "label": "interop-2025-navigation",
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-navigation"
+      },
+      {
+        "year": 2026,
+        "label": "interop-2026-navigation",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-navigation"
       }
     ],
     "chrome-use-counters": {
@@ -17313,6 +17419,13 @@
         "title": "NavigationPrecommitController: redirect() method",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/NavigationPrecommitController/redirect"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-navigation",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-navigation"
       }
     ],
     "developer-signals": {
@@ -18259,6 +18372,13 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:open"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-dialogs-and-popovers",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-dialogs-and-popovers"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/310",
       "votes": 18
@@ -19199,6 +19319,13 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/path"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-shape",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-shape"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/313",
       "votes": 3
@@ -19241,6 +19368,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.65.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
         "question": "system_capabilities",
         "subQuestion": "system_capabilities_features",
@@ -19252,13 +19386,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.65.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.65.entity"
       }
     ],
     "mdn-docs": [
@@ -19635,6 +19762,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.12.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_styling_issues",
         "question": "usage",
         "subQuestion": "html_styling_issues",
@@ -19716,13 +19850,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.12.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.12.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -19844,6 +19971,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.13.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_features",
         "question": "interactivity",
         "subQuestion": "interactivity_features",
@@ -19855,13 +19989,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.13.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.13.entity"
       }
     ],
     "mdn-docs": [
@@ -19870,6 +19997,13 @@
         "title": "HTML popover global attribute",
         "anchor": "hint",
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/popover#hint"
+      }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-dialogs-and-popovers",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-dialogs-and-popovers"
       }
     ],
     "developer-signals": {
@@ -20212,6 +20346,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.36.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/performance/#performance_features",
         "question": "performance",
         "subQuestion": "performance_features",
@@ -20223,13 +20364,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.36.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.36.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -20909,6 +21043,13 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/xywh"
       }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-shape",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-shape"
+      }
     ]
   },
   "referencetarget": {
@@ -21129,6 +21270,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.61.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
         "question": "system_capabilities",
         "subQuestion": "system_capabilities_features",
@@ -21140,13 +21288,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.61.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.61.entity"
       }
     ],
     "mdn-docs": [
@@ -21484,6 +21625,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.11.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/interactivity/#interactivity_features",
         "question": "interactivity",
         "subQuestion": "interactivity_features",
@@ -21495,13 +21643,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.11.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.11.entity"
       }
     ],
     "mdn-docs": [
@@ -22167,6 +22308,13 @@
         "url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/initialize"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-scoped-custom-element-registries",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-scoped-custom-element-registries"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/364",
       "votes": 21
@@ -22483,6 +22631,13 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Scroll-driven_animations"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-scroll-driven-animations",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-scroll-driven-animations"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/207",
       "votes": 21
@@ -22687,6 +22842,11 @@
         "year": 2023,
         "label": "interop-2022-scrolling",
         "url": "https://wpt.fyi/interop-2023?feature=interop-2022-scrolling"
+      },
+      {
+        "year": 2026,
+        "label": "interop-2026-scroll-snap",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-scroll-snap"
       }
     ],
     "chrome-use-counters": {
@@ -22947,6 +23107,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.56.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
         "question": "features",
         "subQuestion": "all_features",
@@ -22958,13 +23125,6 @@
         "question": "accessibility",
         "subQuestion": "accessibility_features",
         "path": "dataAPI.surveys.state_of_html.html2025.accessibility.accessibility_features.3.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.56.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -23467,6 +23627,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.46.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_other_pain_points_limitations_1",
         "question": "web_components",
         "subQuestion": "web_components_other_pain_points_limitations_1",
@@ -23578,11 +23745,11 @@
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.1.buckets.6.nestedBuckets.0.entity"
       },
       {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.46.entity"
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
+        "question": "web_components",
+        "subQuestion": "web_component_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.4.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -23590,13 +23757,6 @@
         "question": "web_components",
         "subQuestion": "web_components_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.4.entity"
-      },
-      {
-        "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
-        "question": "web_components",
-        "subQuestion": "web_component_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.4.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -23698,6 +23858,13 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/shape"
       }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-shape",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-shape"
+      }
     ]
   },
   "shape-outside": {
@@ -23766,6 +23933,13 @@
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/xywh"
       }
+    ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-shape",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-shape"
+      }
     ]
   },
   "share": {
@@ -23773,6 +23947,13 @@
       "url": "https://wpt.fyi/results?q=feature:share"
     },
     "state-of-surveys": [
+      {
+        "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.58.entity"
+      },
       {
         "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
@@ -23814,13 +23995,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.58.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.58.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -24017,6 +24191,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.1.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/forms/#forms_features",
         "question": "forms",
         "subQuestion": "forms_features",
@@ -24028,13 +24209,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.1.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.1.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -24213,6 +24387,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.37.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/performance/#performance_features",
         "question": "performance",
         "subQuestion": "performance_features",
@@ -24224,13 +24405,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.37.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.37.entity"
       }
     ],
     "mdn-docs": [
@@ -24274,6 +24448,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.48.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_features",
         "question": "web_components",
         "subQuestion": "web_components_features",
@@ -24285,13 +24466,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.48.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.48.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -24328,6 +24502,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.49.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/web_components/#web_components_features",
         "question": "web_components",
         "subQuestion": "web_components_features",
@@ -24341,11 +24522,11 @@
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.49.entity"
       },
       {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.49.entity"
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
+        "question": "web_components",
+        "subQuestion": "web_component_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.7.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -24353,13 +24534,6 @@
         "question": "web_components",
         "subQuestion": "web_components_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.7.entity"
-      },
-      {
-        "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
-        "question": "web_components",
-        "subQuestion": "web_component_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.7.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -24529,6 +24703,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.41.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/performance/#performance_pain_points_features",
         "question": "performance",
         "subQuestion": "performance_pain_points_features",
@@ -24554,13 +24735,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.41.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.41.entity"
       }
     ],
     "standards-positions": [
@@ -24613,6 +24787,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.64.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
         "question": "usage",
         "subQuestion": "html_interoperability_features_features_only",
@@ -24631,13 +24812,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.64.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.64.entity"
       }
     ],
     "standards-positions": [
@@ -25667,6 +25841,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.17.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_styling_issues",
         "question": "usage",
         "subQuestion": "html_styling_issues",
@@ -25741,13 +25922,6 @@
         "question": "content",
         "subQuestion": "content_pain_points",
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_pain_points.freeform.allEditions.0.buckets.0.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.17.entity"
       },
       {
         "name": "State of CSS 2025",
@@ -25884,6 +26058,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.54.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
         "question": "features",
         "subQuestion": "all_features",
@@ -25895,13 +26076,6 @@
         "question": "accessibility",
         "subQuestion": "accessibility_features",
         "path": "dataAPI.surveys.state_of_html.html2025.accessibility.accessibility_features.1.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.54.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -26208,6 +26382,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.34.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/features/#all_features",
         "question": "features",
         "subQuestion": "all_features",
@@ -26242,11 +26423,11 @@
         "path": "dataAPI.surveys.state_of_html.html2025.content.content_features.8.entity"
       },
       {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.34.entity"
+        "name": "State of HTML 2024",
+        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
+        "question": "web_components",
+        "subQuestion": "web_component_features",
+        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.0.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -26254,13 +26435,6 @@
         "question": "web_components",
         "subQuestion": "web_components_features",
         "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_components_features.0.entity"
-      },
-      {
-        "name": "State of HTML 2024",
-        "url": "https://2024.stateofhtml.com/en-US/features/web_components/#web_component_features",
-        "question": "web_components",
-        "subQuestion": "web_component_features",
-        "path": "dataAPI.surveys.state_of_html.html2024.web_components.web_component_features.0.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -26333,17 +26507,17 @@
       },
       {
         "name": "State of JS 2025",
-        "url": "https://2025.stateofjs.com/en-US/features/#browser_apis_pain_points",
-        "question": "features",
-        "subQuestion": "browser_apis_pain_points",
-        "path": "dataAPI.surveys.state_of_js.js2025.features.browser_apis_pain_points.freeform.allEditions.0.buckets.17.entity"
-      },
-      {
-        "name": "State of JS 2025",
         "url": "https://2025.stateofjs.com/en-US/features/#browser_api_features",
         "question": "features",
         "subQuestion": "browser_api_features",
         "path": "dataAPI.surveys.state_of_js.js2025.features.browser_api_features.combined.allEditions.0.buckets.9.entity"
+      },
+      {
+        "name": "State of JS 2025",
+        "url": "https://2025.stateofjs.com/en-US/features/#browser_apis_pain_points",
+        "question": "features",
+        "subQuestion": "browser_apis_pain_points",
+        "path": "dataAPI.surveys.state_of_js.js2025.features.browser_apis_pain_points.freeform.allEditions.0.buckets.17.entity"
       },
       {
         "name": "State of HTML 2025",
@@ -27277,6 +27451,13 @@
         "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/await#top_level_await"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-webcompat",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webcompat"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/441",
       "votes": 53
@@ -28182,6 +28363,13 @@
         "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/user-select"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-webcompat",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webcompat"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/59",
       "votes": 9
@@ -28363,6 +28551,11 @@
         "year": 2025,
         "label": "interop-2025-view-transitions",
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-view-transitions"
+      },
+      {
+        "year": 2026,
+        "label": "interop-2026-view-transitions",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
       }
     ],
     "chrome-use-counters": {
@@ -28734,6 +28927,13 @@
     }
   },
   "wasm-jspi": {
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-jspi-for-wasm",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-jspi-for-wasm"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/521",
       "votes": 0
@@ -29079,6 +29279,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.62.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
         "question": "usage",
         "subQuestion": "html_interoperability_features_features_only",
@@ -29104,13 +29311,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.62.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.62.entity"
       },
       {
         "name": "State of HTML 2024",
@@ -29288,6 +29488,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.66.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/system_capabilities/#system_capabilities_features",
         "question": "system_capabilities",
         "subQuestion": "system_capabilities_features",
@@ -29299,13 +29506,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.66.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.66.entity"
       }
     ],
     "standards-positions": [
@@ -29543,6 +29743,13 @@
       },
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.24.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_limitations_1",
         "question": "graphics_multimedia",
         "subQuestion": "graphics_pain_points_limitations_1",
@@ -29582,13 +29789,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.24.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.24.entity"
       }
     ],
     "mdn-docs": [
@@ -30045,6 +30245,13 @@
         "url": "https://developer.mozilla.org/docs/Web/API/WebRTC_API"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-webrtc",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webrtc"
+      }
+    ],
     "bugs": {
       "firefox": [
         "https://bugzil.la/1561441"
@@ -30088,6 +30295,11 @@
         "year": 2025,
         "label": "interop-2025-webrtc",
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webrtc"
+      },
+      {
+        "year": 2026,
+        "label": "interop-2026-webrtc",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webrtc"
       }
     ]
   },
@@ -30193,6 +30405,13 @@
         "url": "https://developer.mozilla.org/docs/Web/API/WebTransport_API"
       }
     ],
+    "interop": [
+      {
+        "year": 2026,
+        "label": "interop-2026-webtransport",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webtransport"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/159",
       "votes": 36
@@ -30238,6 +30457,13 @@
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.63.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features_features_only",
         "question": "usage",
         "subQuestion": "html_interoperability_features_features_only",
@@ -30277,13 +30503,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.63.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.63.entity"
       }
     ],
     "standards-positions": [
@@ -30572,6 +30791,13 @@
       },
       {
         "name": "State of HTML 2025",
+        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
+        "question": "_all_features",
+        "subQuestion": "all_features",
+        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.22.entity"
+      },
+      {
+        "name": "State of HTML 2025",
         "url": "https://2025.stateofhtml.com/en-US/graphics_multimedia/#graphics_pain_points_interop_issues_1",
         "question": "graphics_multimedia",
         "subQuestion": "graphics_pain_points_interop_issues_1",
@@ -30597,13 +30823,6 @@
         "question": "features",
         "subQuestion": "all_features",
         "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.22.entity"
-      },
-      {
-        "name": "State of HTML 2025",
-        "url": "https://2025.stateofhtml.com/en-US/_all_features/#all_features",
-        "question": "_all_features",
-        "subQuestion": "all_features",
-        "path": "dataAPI.surveys.state_of_html.html2025._all_features.all_features.22.entity"
       }
     ],
     "standards-positions": [
@@ -31405,6 +31624,11 @@
         "year": 2025,
         "label": "interop-2025-webcompat",
         "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webcompat"
+      },
+      {
+        "year": 2026,
+        "label": "interop-2026-zoom",
+        "url": "https://wpt.fyi/interop-2026?feature=interop-2026-zoom"
       }
     ],
     "bugs": {

@@ -279,6 +279,11 @@
       "year": 2023,
       "label": "interop-2022-scrolling",
       "url": "https://wpt.fyi/interop-2023?feature=interop-2022-scrolling"
+    },
+    {
+      "year": 2026,
+      "label": "interop-2026-scroll-snap",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-scroll-snap"
     }
   ],
   "scroll-behavior": [
@@ -714,6 +719,11 @@
       "year": 2025,
       "label": "interop-2025-anchor-positioning",
       "url": "https://wpt.fyi/interop-2025?feature=interop-2025-anchor-positioning"
+    },
+    {
+      "year": 2026,
+      "label": "interop-2025-anchor-positioning",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2025-anchor-positioning"
     }
   ],
   "details": [
@@ -735,6 +745,11 @@
       "year": 2025,
       "label": "interop-2025-navigation",
       "url": "https://wpt.fyi/interop-2025?feature=interop-2025-navigation"
+    },
+    {
+      "year": 2026,
+      "label": "interop-2026-navigation",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-navigation"
     }
   ],
   "mutation-events": [
@@ -784,6 +799,11 @@
       "year": 2025,
       "label": "interop-2025-view-transitions",
       "url": "https://wpt.fyi/interop-2025?feature=interop-2025-view-transitions"
+    },
+    {
+      "year": 2026,
+      "label": "interop-2026-view-transitions",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
     }
   ],
   "view-transition-class": [
@@ -812,6 +832,11 @@
       "year": 2025,
       "label": "interop-2025-webcompat",
       "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webcompat"
+    },
+    {
+      "year": 2026,
+      "label": "interop-2026-zoom",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-zoom"
     }
   ],
   "list-style": [
@@ -826,6 +851,11 @@
       "year": 2025,
       "label": "interop-2025-webrtc",
       "url": "https://wpt.fyi/interop-2025?feature=interop-2025-webrtc"
+    },
+    {
+      "year": 2026,
+      "label": "interop-2026-webrtc",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webrtc"
     }
   ],
   "writing-mode": [
@@ -833,6 +863,195 @@
       "year": 2025,
       "label": "interop-2025-writingmodes",
       "url": "https://wpt.fyi/interop-2025?feature=interop-2025-writingmodes"
+    }
+  ],
+  "attr": [
+    {
+      "year": 2026,
+      "label": "interop-2026-attr",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-attr"
+    }
+  ],
+  "container-style-queries": [
+    {
+      "year": 2026,
+      "label": "interop-2026-container-style-queries",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-container-style-queries"
+    }
+  ],
+  "contrast-color": [
+    {
+      "year": 2026,
+      "label": "interop-2026-contrast-color",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-contrast-color"
+    }
+  ],
+  "highlight": [
+    {
+      "year": 2026,
+      "label": "interop-2026-custom-highlights",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-custom-highlights"
+    }
+  ],
+  "dialog-closedby": [
+    {
+      "year": 2026,
+      "label": "interop-2026-dialogs-and-popovers",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-dialogs-and-popovers"
+    }
+  ],
+  "open-pseudo": [
+    {
+      "year": 2026,
+      "label": "interop-2026-dialogs-and-popovers",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-dialogs-and-popovers"
+    }
+  ],
+  "popover-hint": [
+    {
+      "year": 2026,
+      "label": "interop-2026-dialogs-and-popovers",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-dialogs-and-popovers"
+    }
+  ],
+  "fetch-request-streams": [
+    {
+      "year": 2026,
+      "label": "interop-2026-fetch",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-fetch"
+    }
+  ],
+  "fetch-formdata": [
+    {
+      "year": 2026,
+      "label": "interop-2026-fetch",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-fetch"
+    }
+  ],
+  "getallrecords": [
+    {
+      "year": 2026,
+      "label": "interop-2026-indexeddb",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-indexeddb"
+    }
+  ],
+  "wasm-jspi": [
+    {
+      "year": 2026,
+      "label": "interop-2026-jspi-for-wasm",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-jspi-for-wasm"
+    }
+  ],
+  "media-pseudos": [
+    {
+      "year": 2026,
+      "label": "interop-2026-media-pseudo-classes",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-media-pseudo-classes"
+    }
+  ],
+  "navigation-precommit-handlers": [
+    {
+      "year": 2026,
+      "label": "interop-2026-navigation",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-navigation"
+    }
+  ],
+  "scoped-custom-element-registries": [
+    {
+      "year": 2026,
+      "label": "interop-2026-scoped-custom-element-registries",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-scoped-custom-element-registries"
+    }
+  ],
+  "scroll-driven-animations": [
+    {
+      "year": 2026,
+      "label": "interop-2026-scroll-driven-animations",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-scroll-driven-animations"
+    }
+  ],
+  "shape-function": [
+    {
+      "year": 2026,
+      "label": "interop-2026-shape",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-shape"
+    }
+  ],
+  "shapes": [
+    {
+      "year": 2026,
+      "label": "interop-2026-shape",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-shape"
+    }
+  ],
+  "path-shape": [
+    {
+      "year": 2026,
+      "label": "interop-2026-shape",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-shape"
+    }
+  ],
+  "rect-xywx": [
+    {
+      "year": 2026,
+      "label": "interop-2026-shape",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-shape"
+    }
+  ],
+  "blocking-render": [
+    {
+      "year": 2026,
+      "label": "interop-2026-view-transitions",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
+    }
+  ],
+  "link-rel-expect": [
+    {
+      "year": 2026,
+      "label": "interop-2026-view-transitions",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
+    }
+  ],
+  "active-view-transition": [
+    {
+      "year": 2026,
+      "label": "interop-2026-view-transitions",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
+    }
+  ],
+  "cross-document-view-transitions": [
+    {
+      "year": 2026,
+      "label": "interop-2026-view-transitions",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-view-transitions"
+    }
+  ],
+  "top-level-await": [
+    {
+      "year": 2026,
+      "label": "interop-2026-webcompat",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webcompat"
+    }
+  ],
+  "user-select": [
+    {
+      "year": 2026,
+      "label": "interop-2026-webcompat",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webcompat"
+    }
+  ],
+  "webrtc": [
+    {
+      "year": 2026,
+      "label": "interop-2026-webrtc",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webrtc"
+    }
+  ],
+  "webtransport": [
+    {
+      "year": 2026,
+      "label": "interop-2026-webtransport",
+      "url": "https://wpt.fyi/interop-2026?feature=interop-2026-webtransport"
     }
   ]
 }
