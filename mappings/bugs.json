@@ -1345,6 +1345,7 @@
   },
   "webgpu": {
     "chrome": [
+      "https://crbug.com/tint/482840564",
       "https://issues.chromium.org/issues/462620664",
       "https://crbug.com/459500757",
       "https://crbug.com/454653380",
