@@ -1206,7 +1206,29 @@
   },
   "loading-lazy-media": {
     "chrome": [
-      "https://issues.chromium.org/issues/469111735"
+      "https://issues.chromium.org/issues/469111735",
+      "https://crbug.com/469111735"
+    ],
+    "chrome_android": [
+      "https://crbug.com/469111735"
+    ],
+    "edge": [
+      "https://crbug.com/469111735"
+    ],
+    "firefox": [
+      "https://bugzil.la/2005072"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/2005072"
+    ],
+    "safari": [
+      "https://webkit.org/b/303995"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/303995"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/303995"
     ]
   },
   "local-network-access": {
