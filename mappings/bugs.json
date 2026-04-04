@@ -618,7 +618,8 @@
   },
   "scoped-custom-element-registries": {
     "firefox": [
-      "https://bugzil.la/1874414"
+      "https://bugzil.la/1874414",
+      "https://bugzil.la/2018900"
     ]
   },
   "link-rel-expect": {
@@ -2281,6 +2282,14 @@
       "https://webkit.org/b/262914"
     ]
   },
+  "link-rel-preload": {
+    "firefox": [
+      "https://bugzil.la/1886145"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1886145"
+    ]
+  },
   "local-fonts": {
     "chrome_android": [
       "https://crbug.com/40840834"
@@ -3166,17 +3175,6 @@
       "https://crbug.com/41338648"
     ]
   },
-  "toggleevent-source": {
-    "safari": [
-      "https://webkit.org/b/293686"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/293686"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/293686"
-    ]
-  },
   "touch-action": {
     "firefox": [
       "https://bugzil.la/1285685"
@@ -3413,6 +3411,14 @@
   "webusb": {
     "webview_android": [
       "https://crbug.com/41441927"
+    ]
+  },
+  "webvtt": {
+    "firefox": [
+      "https://bugzil.la/1321489"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1321489"
     ]
   },
   "webxr-anchors": {
