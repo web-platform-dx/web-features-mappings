@@ -2022,7 +2022,7 @@
   "customized-built-in-elements": [
     {
       "slug": "Web/HTML/Reference/Global_attributes/is",
-      "title": "HTML is global attribute",
+      "title": "`is` HTML global attribute",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/is"
     }
@@ -4254,7 +4254,7 @@
   "input-number": [
     {
       "slug": "Web/HTML/Reference/Elements/input/number",
-      "title": "<input type=\"number\">",
+      "title": "`<input type=\"number\">` HTML attribute value",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/number"
     }
@@ -10795,6 +10795,66 @@
       "title": "HTMLMediaElement: loading property",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/loading"
+    }
+  ],
+  "bmp": [
+    {
+      "slug": "Web/Media/Guides/Formats/Image_types#bmp_bitmap_file",
+      "title": "Image file type and format guide",
+      "anchor": "bmp_bitmap_file",
+      "url": "https://developer.mozilla.org/docs/Web/Media/Guides/Formats/Image_types#bmp_bitmap_file"
+    }
+  ],
+  "dynamic-range-limit": [
+    {
+      "slug": "Web/CSS/Reference/Properties/dynamic-range-limit",
+      "title": "dynamic-range-limit",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/dynamic-range-limit"
+    },
+    {
+      "slug": "Web/CSS/Reference/Values/dynamic-range-limit-mix",
+      "title": "dynamic-range-limit-mix()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix"
+    }
+  ],
+  "gif": [
+    {
+      "slug": "Web/Media/Guides/Formats/Image_types#gif_graphics_interchange_format",
+      "title": "Image file type and format guide",
+      "anchor": "gif_graphics_interchange_format",
+      "url": "https://developer.mozilla.org/docs/Web/Media/Guides/Formats/Image_types#gif_graphics_interchange_format"
+    }
+  ],
+  "jpeg": [
+    {
+      "slug": "Web/Media/Guides/Formats/Image_types#jpeg_joint_photographic_experts_group_image",
+      "title": "Image file type and format guide",
+      "anchor": "jpeg_joint_photographic_experts_group_image",
+      "url": "https://developer.mozilla.org/docs/Web/Media/Guides/Formats/Image_types#jpeg_joint_photographic_experts_group_image"
+    }
+  ],
+  "rect-xywh": [
+    {
+      "slug": "Web/CSS/Reference/Values/basic-shape/rect",
+      "title": "rect()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/rect"
+    },
+    {
+      "slug": "Web/CSS/Reference/Values/basic-shape/xywh",
+      "title": "xywh()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/xywh"
+    }
+  ],
+  "web-animations-iterationcomposite": [
+    {
+      "slug": "Web/API/KeyframeEffect/iterationComposite",
+      "title": "KeyframeEffect: iterationComposite property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/iterationComposite"
     }
   ]
 }
