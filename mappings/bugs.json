@@ -39,22 +39,16 @@
     "firefox": [
       "https://bugzil.la/643325"
     ],
-    "chrome_android": [
-      "https://crbug.com/40290702",
-      "https://crbug.com/40554522"
-    ],
-    "oculus": [
-      "https://crbug.com/40290702",
-      "https://crbug.com/40554522"
-    ],
-    "webview_android": [
-      "https://crbug.com/40290702",
-      "https://crbug.com/40554522"
-    ],
     "chrome": [
       "https://crbug.com/40554522"
     ],
+    "chrome_android": [
+      "https://crbug.com/40554522"
+    ],
     "edge": [
+      "https://crbug.com/40554522"
+    ],
+    "oculus": [
       "https://crbug.com/40554522"
     ],
     "opera": [
@@ -64,8 +58,10 @@
       "https://crbug.com/40554522"
     ],
     "samsunginternet_android": [
-      "https://crbug.com/40554522",
-      "https://crbug.com/40290702"
+      "https://crbug.com/40554522"
+    ],
+    "webview_android": [
+      "https://crbug.com/40554522"
     ]
   },
   "web-bluetooth": {
@@ -524,9 +520,6 @@
   },
   "sizes-auto": {
     "firefox": [
-      "https://bugzil.la/1819581"
-    ],
-    "firefox_android": [
       "https://bugzil.la/1819581"
     ],
     "safari": [
@@ -1257,12 +1250,6 @@
       "https://issues.chromium.org/issues/469111735",
       "https://crbug.com/469111735"
     ],
-    "chrome_android": [
-      "https://crbug.com/469111735"
-    ],
-    "edge": [
-      "https://crbug.com/469111735"
-    ],
     "firefox": [
       "https://bugzil.la/2005072"
     ],
@@ -1277,6 +1264,15 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/303995"
+    ],
+    "chrome_android": [
+      "https://crbug.com/469111735"
+    ],
+    "edge": [
+      "https://crbug.com/469111735"
+    ],
+    "opera": [
+      "https://crbug.com/469111735"
     ]
   },
   "manifest-localization": {
@@ -3118,32 +3114,6 @@
     ],
     "webview_android": [
       "https://crbug.com/401065166"
-    ]
-  },
-  "text-decoration-skip-ink-all": {
-    "chrome": [
-      "https://crbug.com/40675832"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40675832"
-    ],
-    "edge": [
-      "https://crbug.com/40675832"
-    ],
-    "oculus": [
-      "https://crbug.com/40675832"
-    ],
-    "opera": [
-      "https://crbug.com/40675832"
-    ],
-    "opera_android": [
-      "https://crbug.com/40675832"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40675832"
-    ],
-    "webview_android": [
-      "https://crbug.com/40675832"
     ]
   },
   "text-justify": {
