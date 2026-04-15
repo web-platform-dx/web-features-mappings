@@ -1001,11 +1001,6 @@
       "https://bugzil.la/1553738"
     ]
   },
-  "border-shape": {
-    "chrome": [
-      "https://issues.chromium.org/issues/370041145"
-    ]
-  },
   "clear-site-data": {
     "chrome": [
       "https://issues.chromium.org/issues/398149359",
@@ -1280,11 +1275,6 @@
       "https://issues.chromium.org/issues/380491647"
     ]
   },
-  "math-sum-precise": {
-    "chrome": [
-      "https://issues.chromium.org/u/1/issues/374310075"
-    ]
-  },
   "meta-theme-color": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1200528",
@@ -1487,9 +1477,9 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=690014"
     ]
   },
-  "webxr-layers": {
+  "xslt": {
     "chrome": [
-      "https://buganizer.corp.google.com/issues/409255534"
+      "https://crbug.com/435623334"
     ]
   },
   "accesskey": {
