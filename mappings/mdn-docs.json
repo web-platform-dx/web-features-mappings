@@ -48,13 +48,13 @@
   "abs-sign": [
     {
       "slug": "Web/CSS/Reference/Values/abs",
-      "title": "abs()",
+      "title": "`abs()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/abs"
     },
     {
       "slug": "Web/CSS/Reference/Values/sign",
-      "title": "sign()",
+      "title": "`sign()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sign"
     }
@@ -588,7 +588,7 @@
   "attr": [
     {
       "slug": "Web/CSS/Reference/Values/attr",
-      "title": "attr()",
+      "title": "`attr()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/attr"
     }
@@ -596,7 +596,7 @@
   "attr-contents": [
     {
       "slug": "Web/CSS/Reference/Values/attr",
-      "title": "attr()",
+      "title": "`attr()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/attr"
     }
@@ -1086,7 +1086,7 @@
   "calc": [
     {
       "slug": "Web/CSS/Reference/Values/calc",
-      "title": "calc()",
+      "title": "`calc()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc"
     }
@@ -1102,7 +1102,7 @@
   "calc-size": [
     {
       "slug": "Web/CSS/Reference/Values/calc-size",
-      "title": "calc-size()",
+      "title": "`calc-size()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc-size"
     }
@@ -1450,7 +1450,7 @@
   "color-function": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/color",
-      "title": "color()",
+      "title": "`color()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color"
     }
@@ -1466,7 +1466,7 @@
   "color-mix": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/color-mix",
-      "title": "color-mix()",
+      "title": "`color-mix()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color-mix"
     }
@@ -1586,13 +1586,13 @@
   "conic-gradients": [
     {
       "slug": "Web/CSS/Reference/Values/gradient/conic-gradient",
-      "title": "conic-gradient()",
+      "title": "`conic-gradient()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/conic-gradient"
     },
     {
       "slug": "Web/CSS/Reference/Values/gradient/repeating-conic-gradient",
-      "title": "repeating-conic-gradient()",
+      "title": "`repeating-conic-gradient()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient"
     }
@@ -1766,7 +1766,7 @@
   "contrast-color": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/contrast-color",
-      "title": "contrast-color()",
+      "title": "`contrast-color()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/contrast-color"
     }
@@ -1898,7 +1898,7 @@
   "cross-fade": [
     {
       "slug": "Web/CSS/Reference/Values/cross-fade",
-      "title": "cross-fade()",
+      "title": "`cross-fade()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/cross-fade"
     }
@@ -2476,7 +2476,7 @@
   "element": [
     {
       "slug": "Web/CSS/Reference/Values/element",
-      "title": "element()",
+      "title": "`element()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/element"
     }
@@ -2602,31 +2602,31 @@
   "exp-functions": [
     {
       "slug": "Web/CSS/Reference/Values/pow",
-      "title": "pow()",
+      "title": "`pow()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/pow"
     },
     {
       "slug": "Web/CSS/Reference/Values/sqrt",
-      "title": "sqrt()",
+      "title": "`sqrt()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sqrt"
     },
     {
       "slug": "Web/CSS/Reference/Values/hypot",
-      "title": "hypot()",
+      "title": "`hypot()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/hypot"
     },
     {
       "slug": "Web/CSS/Reference/Values/log",
-      "title": "log()",
+      "title": "`log()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/log"
     },
     {
       "slug": "Web/CSS/Reference/Values/exp",
-      "title": "exp()",
+      "title": "`exp()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/exp"
     }
@@ -2982,7 +2982,7 @@
   "fit-content-function": [
     {
       "slug": "Web/CSS/Reference/Values/fit-content_function",
-      "title": "fit-content()",
+      "title": "`fit-content()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/fit-content_function"
     }
@@ -3182,7 +3182,7 @@
   "font-palette-animation": [
     {
       "slug": "Web/CSS/Reference/Properties/font-palette/palette-mix",
-      "title": "palette-mix()",
+      "title": "`palette-mix()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-palette/palette-mix"
     }
@@ -3758,7 +3758,7 @@
   "hsl": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/hsl",
-      "title": "hsl()",
+      "title": "`hsl()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hsl"
     }
@@ -3914,7 +3914,7 @@
   "hwb": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/hwb",
-      "title": "hwb()",
+      "title": "`hwb()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hwb"
     }
@@ -4002,7 +4002,7 @@
   "image-function": [
     {
       "slug": "Web/CSS/Reference/Values/image/image",
-      "title": "image()",
+      "title": "`image()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image"
     }
@@ -4040,7 +4040,7 @@
   "image-set": [
     {
       "slug": "Web/CSS/Reference/Values/image/image-set",
-      "title": "image-set()",
+      "title": "`image-set()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set"
     }
@@ -4096,19 +4096,19 @@
   "individual-transforms": [
     {
       "slug": "Web/CSS/Reference/Values/transform-function/translate",
-      "title": "translate()",
+      "title": "`translate()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translate"
     },
     {
       "slug": "Web/CSS/Reference/Values/transform-function/rotate",
-      "title": "rotate()",
+      "title": "`rotate()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotate"
     },
     {
       "slug": "Web/CSS/Reference/Values/transform-function/scale",
-      "title": "scale()",
+      "title": "`scale()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scale"
     }
@@ -4648,13 +4648,13 @@
   "lab": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/lab",
-      "title": "lab()",
+      "title": "`lab()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/lab"
     },
     {
       "slug": "Web/CSS/Reference/Values/color_value/lch",
-      "title": "lch()",
+      "title": "`lch()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/lch"
     }
@@ -4760,7 +4760,7 @@
   "light-dark": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/light-dark",
-      "title": "light-dark()",
+      "title": "`light-dark()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/light-dark"
     }
@@ -5248,19 +5248,19 @@
   "min-max-clamp": [
     {
       "slug": "Web/CSS/Reference/Values/min",
-      "title": "min()",
+      "title": "`min()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/min"
     },
     {
       "slug": "Web/CSS/Reference/Values/max",
-      "title": "max()",
+      "title": "`max()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/max"
     },
     {
       "slug": "Web/CSS/Reference/Values/clamp",
-      "title": "clamp()",
+      "title": "`clamp()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/clamp"
     }
@@ -5688,13 +5688,13 @@
   "oklab": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/oklab",
-      "title": "oklab()",
+      "title": "`oklab()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklab"
     },
     {
       "slug": "Web/CSS/Reference/Values/color_value/oklch",
-      "title": "oklch()",
+      "title": "`oklch()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklch"
     }
@@ -6068,7 +6068,7 @@
   "path-shape": [
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/path",
-      "title": "path()",
+      "title": "`path()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/path"
     }
@@ -6800,7 +6800,7 @@
   "rgb": [
     {
       "slug": "Web/CSS/Reference/Values/color_value/rgb",
-      "title": "rgb()",
+      "title": "`rgb()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/rgb"
     },
@@ -6846,19 +6846,19 @@
   "round-mod-rem": [
     {
       "slug": "Web/CSS/Reference/Values/mod",
-      "title": "mod()",
+      "title": "`mod()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/mod"
     },
     {
       "slug": "Web/CSS/Reference/Values/rem",
-      "title": "rem()",
+      "title": "`rem()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/rem"
     },
     {
       "slug": "Web/CSS/Reference/Values/round",
-      "title": "round()",
+      "title": "`round()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/round"
     }
@@ -6898,7 +6898,7 @@
   "safe-area-inset": [
     {
       "slug": "Web/CSS/Reference/Values/env",
-      "title": "env()",
+      "title": "`env()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env"
     }
@@ -7372,43 +7372,43 @@
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/circle",
-      "title": "circle()",
+      "title": "`circle()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/circle"
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/ellipse",
-      "title": "ellipse()",
+      "title": "`ellipse()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/ellipse"
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/inset",
-      "title": "inset()",
+      "title": "`inset()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/inset"
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/polygon",
-      "title": "polygon()",
+      "title": "`polygon()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/polygon"
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/rect",
-      "title": "rect()",
+      "title": "`rect()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/rect"
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/shape",
-      "title": "shape()",
+      "title": "`shape()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/shape"
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/xywh",
-      "title": "xywh()",
+      "title": "`xywh()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/xywh"
     }
@@ -8416,43 +8416,43 @@
   "trig-functions": [
     {
       "slug": "Web/CSS/Reference/Values/sin",
-      "title": "sin()",
+      "title": "`sin()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sin"
     },
     {
       "slug": "Web/CSS/Reference/Values/cos",
-      "title": "cos()",
+      "title": "`cos()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/cos"
     },
     {
       "slug": "Web/CSS/Reference/Values/tan",
-      "title": "tan()",
+      "title": "`tan()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/tan"
     },
     {
       "slug": "Web/CSS/Reference/Values/asin",
-      "title": "asin()",
+      "title": "`asin()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/asin"
     },
     {
       "slug": "Web/CSS/Reference/Values/acos",
-      "title": "acos()",
+      "title": "`acos()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/acos"
     },
     {
       "slug": "Web/CSS/Reference/Values/atan",
-      "title": "atan()",
+      "title": "`atan()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/atan"
     },
     {
       "slug": "Web/CSS/Reference/Values/atan2",
-      "title": "atan2()",
+      "title": "`atan2()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/atan2"
     }
@@ -10160,7 +10160,7 @@
   "if": [
     {
       "slug": "Web/CSS/Reference/Values/if",
-      "title": "if()",
+      "title": "`if()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/if"
     }
@@ -10244,13 +10244,13 @@
   "sibling-count": [
     {
       "slug": "Web/CSS/Reference/Values/sibling-count",
-      "title": "sibling-count()",
+      "title": "`sibling-count()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sibling-count"
     },
     {
       "slug": "Web/CSS/Reference/Values/sibling-index",
-      "title": "sibling-index()",
+      "title": "`sibling-index()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sibling-index"
     }
@@ -10502,7 +10502,7 @@
   "progress-function": [
     {
       "slug": "Web/CSS/Reference/Values/progress",
-      "title": "progress()",
+      "title": "`progress()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/progress"
     }
@@ -10510,13 +10510,13 @@
   "rect-xywx": [
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/rect",
-      "title": "rect()",
+      "title": "`rect()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/rect"
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/xywh",
-      "title": "xywh()",
+      "title": "`xywh()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/xywh"
     }
@@ -10524,7 +10524,7 @@
   "shape-function": [
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/shape",
-      "title": "shape()",
+      "title": "`shape()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/shape"
     }
@@ -10784,7 +10784,7 @@
   "random-function": [
     {
       "slug": "Web/CSS/Reference/Values/random",
-      "title": "random()",
+      "title": "`random()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/random"
     }
@@ -10814,7 +10814,7 @@
     },
     {
       "slug": "Web/CSS/Reference/Values/dynamic-range-limit-mix",
-      "title": "dynamic-range-limit-mix()",
+      "title": "`dynamic-range-limit-mix()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix"
     }
@@ -10838,13 +10838,13 @@
   "rect-xywh": [
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/rect",
-      "title": "rect()",
+      "title": "`rect()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/rect"
     },
     {
       "slug": "Web/CSS/Reference/Values/basic-shape/xywh",
-      "title": "xywh()",
+      "title": "`xywh()` CSS function",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/xywh"
     }
