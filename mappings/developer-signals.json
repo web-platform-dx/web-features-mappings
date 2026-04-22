@@ -27,6 +27,10 @@
     "url": "https://github.com/web-platform-dx/developer-signals/issues/190",
     "votes": 3
   },
+  "app-migration": {
+    "url": "https://github.com/web-platform-dx/developer-signals/issues/563",
+    "votes": 0
+  },
   "app-protocol-handlers": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/157",
     "votes": 4
@@ -299,6 +303,10 @@
     "url": "https://github.com/web-platform-dx/developer-signals/issues/545",
     "votes": 0
   },
+  "device-bound-session-credentials": {
+    "url": "https://github.com/web-platform-dx/developer-signals/issues/564",
+    "votes": 0
+  },
   "device-memory": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/79",
     "votes": 0
@@ -313,7 +321,7 @@
   },
   "dialog-closedby": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/279",
-    "votes": 60
+    "votes": 61
   },
   "digital-credentials": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/513",
@@ -531,10 +539,6 @@
     "url": "https://github.com/web-platform-dx/developer-signals/issues/170",
     "votes": 3
   },
-  "highlight": {
-    "url": "https://github.com/web-platform-dx/developer-signals/issues/179",
-    "votes": 21
-  },
   "highlightsfrompoint": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/408",
     "votes": 6
@@ -702,10 +706,6 @@
   "masonry": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/308",
     "votes": 77
-  },
-  "math-sum-precise": {
-    "url": "https://github.com/web-platform-dx/developer-signals/issues/283",
-    "votes": 1
   },
   "measure-memory": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/138",
@@ -1143,6 +1143,18 @@
     "url": "https://github.com/web-platform-dx/developer-signals/issues/242",
     "votes": 1
   },
+  "url-cross-origin": {
+    "url": "https://github.com/web-platform-dx/developer-signals/issues/561",
+    "votes": 0
+  },
+  "url-integrity": {
+    "url": "https://github.com/web-platform-dx/developer-signals/issues/565",
+    "votes": 0
+  },
+  "url-referrer-policy": {
+    "url": "https://github.com/web-platform-dx/developer-signals/issues/562",
+    "votes": 0
+  },
   "user-select": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/59",
     "votes": 10
@@ -1341,7 +1353,7 @@
   },
   "word-break-auto-phrase": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/221",
-    "votes": 2
+    "votes": 3
   },
   "writingsuggestions": {
     "url": "https://github.com/web-platform-dx/developer-signals/issues/238",

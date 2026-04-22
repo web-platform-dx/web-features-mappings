@@ -1482,11 +1482,6 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=690014"
     ]
   },
-  "xslt": {
-    "chrome": [
-      "https://crbug.com/435623334"
-    ]
-  },
   "accesskey": {
     "chrome": [
       "https://crbug.com/41119923"
@@ -1878,6 +1873,32 @@
     "firefox_android": [
       "https://bugzil.la/2007533",
       "https://bugzil.la/1905313"
+    ]
+  },
+  "declarative-shadow-dom": {
+    "chrome": [
+      "https://crbug.com/493315747"
+    ],
+    "chrome_android": [
+      "https://crbug.com/493315747"
+    ],
+    "edge": [
+      "https://crbug.com/493315747"
+    ],
+    "oculus": [
+      "https://crbug.com/493315747"
+    ],
+    "opera": [
+      "https://crbug.com/493315747"
+    ],
+    "opera_android": [
+      "https://crbug.com/493315747"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/493315747"
+    ],
+    "webview_android": [
+      "https://crbug.com/493315747"
     ]
   },
   "dedicated-workers": {
@@ -3203,6 +3224,58 @@
     ],
     "firefox_android": [
       "https://bugzil.la/935216"
+    ]
+  },
+  "url-cross-origin": {
+    "chrome": [
+      "https://crbug.com/435625756"
+    ],
+    "chrome_android": [
+      "https://crbug.com/435625756"
+    ],
+    "edge": [
+      "https://crbug.com/435625756"
+    ],
+    "oculus": [
+      "https://crbug.com/435625756"
+    ],
+    "opera": [
+      "https://crbug.com/435625756"
+    ],
+    "opera_android": [
+      "https://crbug.com/435625756"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/435625756"
+    ],
+    "webview_android": [
+      "https://crbug.com/435625756"
+    ]
+  },
+  "url-referrer-policy": {
+    "chrome": [
+      "https://crbug.com/435625756"
+    ],
+    "chrome_android": [
+      "https://crbug.com/435625756"
+    ],
+    "edge": [
+      "https://crbug.com/435625756"
+    ],
+    "oculus": [
+      "https://crbug.com/435625756"
+    ],
+    "opera": [
+      "https://crbug.com/435625756"
+    ],
+    "opera_android": [
+      "https://crbug.com/435625756"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/435625756"
+    ],
+    "webview_android": [
+      "https://crbug.com/435625756"
     ]
   },
   "view-transitions": {
