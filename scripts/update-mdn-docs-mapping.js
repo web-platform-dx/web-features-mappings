@@ -81,9 +81,14 @@ async function main() {
   // Go over all features from the web-features package to possibly add
   // new MDN URLs to the mapping file automatically.
   for (const id in features) {
+    if (features[id].kind !== "feature") {
+      continue;
+    }
+
     // If we already have a mapping for this feature, skip it.
     // Mappings are mostly manual, and we don't want to override them.
     if (existingMapping[id] && existingMapping[id].length) {
+      console.log(`${id}: MDN docs already mapped. Skipping.`);
       continue;
     }
 
@@ -96,8 +101,11 @@ async function main() {
       existingMapping[id] = mdnSlugsBasedOnBCDKeys.map(slug => {
         return { slug };
       });
+      console.log(`${id}: auto-adding ${mdnSlugsBasedOnBCDKeys.length} MDN doc links.`);
       continue;
     }
+
+    console.log(`${id}: no MDN docs found. Please add docs manually.`);
   }
 
   // Use the content inventory to add helpful page/section titles.

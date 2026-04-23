@@ -617,6 +617,14 @@
       "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/audio"
     }
   ],
+  "audiolistener": [
+    {
+      "slug": "Web/API/AudioListener",
+      "title": "AudioListener",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/AudioListener"
+    }
+  ],
   "audio-video-tracks": [
     {
       "slug": "Web/API/HTMLMediaElement/audioTracks",
@@ -2643,6 +2651,14 @@
       "title": "Exponentiation assignment (**=)",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Exponentiation_assignment"
+    }
+  ],
+  "external": [
+    {
+      "slug": "Web/API/Window/external",
+      "title": "Window: external property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Window/external"
     }
   ],
   "ext-blend-minmax": [
@@ -5097,6 +5113,14 @@
       "url": "https://developer.mozilla.org/docs/Web/MathML"
     }
   ],
+  "mathml-full": [
+    {
+      "slug": "Web/MathML",
+      "title": "MathML",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/MathML"
+    }
+  ],
   "measure-memory": [
     {
       "slug": "Web/API/Performance/measureUserAgentSpecificMemory",
@@ -6119,6 +6143,14 @@
       "url": "https://developer.mozilla.org/docs/Web/API/Performance/navigation"
     }
   ],
+  "periodic-background-sync": [
+    {
+      "slug": "Web/API/Web_Periodic_Background_Synchronization_API",
+      "title": "Web Periodic Background Synchronization API",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Web_Periodic_Background_Synchronization_API"
+    }
+  ],
   "permissions": [
     {
       "slug": "Web/API/Permissions_API",
@@ -7071,6 +7103,14 @@
       "url": "https://developer.mozilla.org/docs/Web/API/Element/scrollIntoView"
     }
   ],
+  "scroll-into-view-container": [
+    {
+      "slug": "Web/API/Element/scrollIntoView#container",
+      "title": "Element: scrollIntoView() method",
+      "anchor": "container",
+      "url": "https://developer.mozilla.org/docs/Web/API/Element/scrollIntoView#container"
+    }
+  ],
   "scroll-snap": [
     {
       "slug": "Web/CSS/Guides/Scroll_snap",
@@ -7857,6 +7897,14 @@
       "title": "`style` HTML global attribute",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/style"
+    }
+  ],
+  "style-query-range-syntax": [
+    {
+      "slug": "Web/CSS/Reference/At-rules/@container#container_style_queries",
+      "title": "`@container` CSS at-rule",
+      "anchor": "container_style_queries",
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@container#container_style_queries"
     }
   ],
   "sub-sup": [
@@ -8789,6 +8837,26 @@
       "title": "`<length>` CSS type",
       "anchor": "relative_length_units_based_on_viewport",
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length#relative_length_units_based_on_viewport"
+    }
+  ],
+  "viewport-unit-variants": [
+    {
+      "slug": "Web/CSS/Reference/Values/length#small_viewport_units",
+      "title": "`<length>` CSS type",
+      "anchor": "small_viewport_units",
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length#small_viewport_units"
+    },
+    {
+      "slug": "Web/CSS/Reference/Values/length#large_viewport_units",
+      "title": "`<length>` CSS type",
+      "anchor": "large_viewport_units",
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length#large_viewport_units"
+    },
+    {
+      "slug": "Web/CSS/Reference/Values/length#dynamic_viewport_units",
+      "title": "`<length>` CSS type",
+      "anchor": "dynamic_viewport_units",
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length#dynamic_viewport_units"
     }
   ],
   "virtual-keyboard": [
@@ -10743,6 +10811,14 @@
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-width"
     }
   ],
+  "function": [
+    {
+      "slug": "Web/CSS/Reference/At-rules/@function",
+      "title": "`@function` CSS at-rule",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@function"
+    }
+  ],
   "scroll-initial-target": [
     {
       "slug": "Web/CSS/Reference/Properties/scroll-initial-target",
@@ -10833,6 +10909,14 @@
       "title": "Image file type and format guide",
       "anchor": "jpeg_joint_photographic_experts_group_image",
       "url": "https://developer.mozilla.org/docs/Web/Media/Guides/Formats/Image_types#jpeg_joint_photographic_experts_group_image"
+    }
+  ],
+  "justify-self-block": [
+    {
+      "slug": "Web/CSS/Reference/Properties/justify-self",
+      "title": "`justify-self` CSS property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-self"
     }
   ],
   "rect-xywh": [
