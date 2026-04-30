@@ -636,7 +636,9 @@
       "vendor": "apple",
       "url": "https://github.com/WebKit/standards-positions/issues/41",
       "concerns": [
+        "usability",
         "portability",
+        "annoyance",
         "device independence"
       ],
       "position": ""
@@ -1157,6 +1159,20 @@
       "vendor": "mozilla",
       "url": "https://github.com/mozilla/standards-positions/issues/300",
       "position": "negative",
+      "concerns": []
+    }
+  ],
+  "languagemodel": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1213",
+      "position": "negative",
+      "concerns": []
+    },
+    {
+      "vendor": "apple",
+      "url": "https://github.com/WebKit/standards-positions/issues/495",
+      "position": "",
       "concerns": []
     }
   ],
