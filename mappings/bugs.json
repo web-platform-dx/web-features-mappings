@@ -412,27 +412,6 @@
     ],
     "chrome": [
       "https://crbug.com/40142548"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40142548"
-    ],
-    "edge": [
-      "https://crbug.com/40142548"
-    ],
-    "oculus": [
-      "https://crbug.com/40142548"
-    ],
-    "opera": [
-      "https://crbug.com/40142548"
-    ],
-    "opera_android": [
-      "https://crbug.com/40142548"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40142548"
-    ],
-    "webview_android": [
-      "https://crbug.com/40142548"
     ]
   },
   "webdriver-bidi": {
@@ -938,8 +917,7 @@
   },
   "document-picture-in-picture": {
     "firefox": [
-      "https://bugzil.la/2012979",
-      "https://bugzil.la/1858562"
+      "https://bugzil.la/2012979"
     ]
   },
   "media-pseudos": {
@@ -1182,6 +1160,11 @@
   "fit-content-function": {
     "chrome": [
       "https://issues.chromium.org/issues/40847362"
+    ]
+  },
+  "focusgroup": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1286127"
     ]
   },
   "font-variant-position": {
@@ -2068,11 +2051,9 @@
   },
   "fetch": {
     "firefox": [
-      "https://bugzil.la/1387483",
       "https://bugzil.la/1792434"
     ],
     "firefox_android": [
-      "https://bugzil.la/1387483",
       "https://bugzil.la/1792434"
     ],
     "safari": [
@@ -2297,6 +2278,29 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/262914"
+    ]
+  },
+  "light-dark-image": {
+    "chrome": [
+      "https://crbug.com/491829958"
+    ],
+    "chrome_android": [
+      "https://crbug.com/491829958"
+    ],
+    "edge": [
+      "https://crbug.com/491829958"
+    ],
+    "opera": [
+      "https://crbug.com/491829958"
+    ],
+    "safari": [
+      "https://webkit.org/b/309689"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/309689"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/309689"
     ]
   },
   "link-rel-preload": {
@@ -2606,6 +2610,17 @@
       "https://webkit.org/b/236153"
     ]
   },
+  "overscroll-behavior": {
+    "safari": [
+      "https://webkit.org/b/243452"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/243452"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/243452"
+    ]
+  },
   "page-break-aliases": {
     "firefox": [
       "https://bugzil.la/775617"
@@ -2729,8 +2744,7 @@
   },
   "picture-in-picture": {
     "firefox": [
-      "https://bugzil.la/1463402",
-      "https://bugzil.la/1858562"
+      "https://bugzil.la/1463402"
     ],
     "firefox_android": [
       "https://bugzil.la/1463402"

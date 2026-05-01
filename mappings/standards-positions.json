@@ -1173,7 +1173,11 @@
       "vendor": "apple",
       "url": "https://github.com/WebKit/standards-positions/issues/495",
       "position": "",
-      "concerns": []
+      "concerns": [
+        "interoperability",
+        "privacy",
+        "portability"
+      ]
     }
   ],
   "largest-contentful-paint": [
@@ -1810,7 +1814,12 @@
       "vendor": "apple",
       "url": "https://github.com/WebKit/standards-positions/issues/199",
       "position": "",
-      "concerns": []
+      "concerns": [
+        "privacy",
+        "security",
+        "use cases",
+        "device independence"
+      ]
     }
   ],
   "shadow-dom": [
