@@ -524,8 +524,7 @@
   },
   "anchor-positioning": {
     "firefox": [
-      "https://bugzil.la/1838746",
-      "https://bugzil.la/1972610"
+      "https://bugzil.la/1838746"
     ],
     "chrome": [
       "https://issues.chromium.org/issues/382294252",
@@ -967,6 +966,14 @@
       "https://bugzil.la/2036385"
     ]
   },
+  "opaquerange": {
+    "firefox": [
+      "https://bugzil.la/2038248"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/421421332"
+    ]
+  },
   "ambient-light": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=606766"
@@ -1227,11 +1234,6 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1109698"
     ]
   },
-  "languagemodel": {
-    "chrome": [
-      "https://crbug.com/417526788"
-    ]
-  },
   "loading-lazy-media": {
     "chrome": [
       "https://issues.chromium.org/issues/469111735",
@@ -1283,9 +1285,20 @@
       "https://issues.chromium.org/issues/333795265"
     ]
   },
-  "opaquerange": {
+  "network-information": {
     "chrome": [
-      "https://issues.chromium.org/issues/421421332"
+      "https://issues.chromium.org/issues/40487194",
+      "https://code.google.com/p/chromium/issues/detail?id=527449&thanks=527449&ts=1441209489",
+      "https://code.google.com/p/chromium/issues/detail?id=368358"
+    ],
+    "safari": [
+      "https://webkit.org/b/185697"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/185697"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/185697"
     ]
   },
   "portal": {
@@ -1346,6 +1359,12 @@
       "https://crbug.com/370067113"
     ]
   },
+  "shared-storage": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/367440966",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1218540"
+    ]
+  },
   "supports-at-rule": {
     "chrome": [
       "https://issues.chromium.org/issues/40211832"
@@ -1380,11 +1399,6 @@
       "https://bugzil.la/1869577",
       "https://bugzil.la/1986500",
       "https://bugzil.la/1980111"
-    ]
-  },
-  "view-transitions-element-scoped": {
-    "chrome": [
-      "https://issues.chromium.org/issues/394052227"
     ]
   },
   "webdriver": {
@@ -1714,9 +1728,6 @@
     ],
     "edge": [
       "https://crbug.com/40217044"
-    ],
-    "firefox": [
-      "https://bugzil.la/1795622"
     ],
     "oculus": [
       "https://crbug.com/40217044"
@@ -2503,17 +2514,6 @@
       "https://crbug.com/40290045"
     ]
   },
-  "network-information": {
-    "safari": [
-      "https://webkit.org/b/185697"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/185697"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/185697"
-    ]
-  },
   "notifications": {
     "webview_android": [
       "https://crbug.com/40443309"
@@ -2869,6 +2869,11 @@
       "https://crbug.com/40964464"
     ]
   },
+  "reporting-coep-violations": {
+    "firefox": [
+      "https://bugzil.la/1652926"
+    ]
+  },
   "request-video-frame-callback": {
     "firefox": [
       "https://bugzil.la/1800882",
@@ -3062,6 +3067,12 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/277117"
+    ]
+  },
+  "style-query-range-syntax": {
+    "firefox": [
+      "https://bugzil.la/1986631",
+      "https://bugzil.la/1998245"
     ]
   },
   "supports": {

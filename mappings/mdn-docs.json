@@ -10980,5 +10980,55 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/integrity"
     }
+  ],
+  "reporting-csp-violations": [
+    {
+      "slug": "Web/API/CSPViolationReport",
+      "title": "CSPViolationReport",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/CSPViolationReport"
+    },
+    {
+      "slug": "Web/HTTP/Reference/Headers/Content-Security-Policy/report-to",
+      "title": "Content-Security-Policy: report-to directive",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/report-to"
+    }
+  ],
+  "reporting-deprecation": [
+    {
+      "slug": "Web/API/DeprecationReport",
+      "title": "DeprecationReport",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/DeprecationReport"
+    }
+  ],
+  "reporting-integrity-violations": [
+    {
+      "slug": "Web/API/IntegrityViolationReport",
+      "title": "IntegrityViolationReport",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/IntegrityViolationReport"
+    },
+    {
+      "slug": "Web/HTTP/Reference/Headers/Integrity-Policy",
+      "title": "Integrity-Policy header",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Integrity-Policy"
+    },
+    {
+      "slug": "Web/HTTP/Reference/Headers/Integrity-Policy-Report-Only",
+      "title": "Integrity-Policy-Report-Only header",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Integrity-Policy-Report-Only"
+    }
+  ],
+  "reporting-interventions": [
+    {
+      "slug": "Web/API/InterventionReport",
+      "title": "InterventionReport",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/InterventionReport"
+    }
   ]
 }
