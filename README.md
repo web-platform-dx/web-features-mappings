@@ -14,7 +14,7 @@ Examples of data sources which map to web-features include:
 
 ## Adding new mappings
 
-If you maintain data about features of the web platform, consider creating a resource which provides a mapping between your data and IDs from the web-features project and [let us know about it](https://github.com/web-platform-dx/web-features-mappings/issues).
+If you maintain data about features of the web platform, consider creating a data resource which provides a mapping between your data and IDs from the web-features project and [let us know about it](https://github.com/web-platform-dx/web-features-mappings/issues).
 
 ## About the files in this repository
 
@@ -25,17 +25,16 @@ There are two types of mapping files in this repository, under the `/mappings/` 
 
 ### Data sources which don't yet map to web-features IDs
 
-Currently, not all the data sources which are helpful to web developers and/or browser engineers are mapped to web-features IDs. Because these data sources are used on the [Web platform features explorer website](https://web-platform-dx.github.io/web-features-explorer/) but a mapping did not exist, we maintain files in this repository to do the mapping instead.
+Currently, not all the data sources which are helpful to web developers and/or browser engineers are mapped to web-features IDs. Because these data sources are used on the [Web platform features explorer website](https://web-platform-dx.github.io/web-features-explorer/) but a mapping did not exist, we maintain files in this repository to do the mapping ourselves.
 
 Examples of data sources which are mapped in this repository:
 
-* Origin trials
-* MDN documentation
-* Standard positions
+* MDN documentation.
+* Browser vendor standards positions.
 
 ### Data sources which already map to web-features IDs
 
-Data sources which already maintain a mapping to web-features on their own still have mapping files in this repository. These files are typically updated automatically, on a schedule, for convenience. This way, this repository can be used to retrieve all currently known web-features-mapped data, whether the mapping is maintained here or elsewhere.
+Data sources which already maintain a mapping to web-features on their own still have mapping files in this repository. These files are typically updated automatically, on a schedule, for convenience. This way, this repository can be used to retrieve all currently known data which map to web-features IDs, whether the mapping is maintained here or elsewhere.
 
 Examples of data sources which already map to web-features IDs and for which we automatically update files in this repository:
 
@@ -47,17 +46,33 @@ Examples of data sources which already map to web-features IDs and for which we 
 
 The `/scripts/` folder contains the JavaScript files that are responsible for updating the mapping files.
 
-To run these scripts:
+## Updating the mapping files
 
-1. `cd scripts`
-1. `npm install`
-1. `node <the-script-you-want-to-run>.js`
+To update the mapping files:
 
-Or, to run all scripts:
+1. Change directory to the `scripts` folder:
 
-1. `cd scripts`
-1. `npm install`
-1. `npm run update:all`
+   `cd scripts`
+
+1. Update the dependencies and install them:
+
+   `npm run bump`
+
+1. Update the mapping data:
+
+   You can either update a single type of data, by running a single `update-*.js` script:
+   
+   `node update-mdn-docs-mapping.js`
+
+   Or update all the data at once by running:
+
+   `npm run update:all`
+
+You can also update the dependencies and data from the root of the repository by running: `npm run update`
+
+### Auto-updates
+
+The data is updated automatically, once a day, by the GitHub Actions workflow in `.github/workflows/update.yml`.
 
 ## Mapping format
 
@@ -86,16 +101,6 @@ The format of the combined file is as follows:
   ...
 }
 ```
-
-## Updating the data
-
-The data is updated automatically, once a day, by the GitHub Actions workflow in `.github/workflows/update.yml`.
-
-To update the data locally:
-
-1. `cd scripts`
-1. `npm run bump` to make sure you have the latest versions of the dependencies locally.
-1. `npm run build` to update all individual data files, check their format, and re-generate the combined data file.
 
 ## TODO
 

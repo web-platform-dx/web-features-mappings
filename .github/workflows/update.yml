@@ -15,15 +15,8 @@ jobs:
       - name: Check-out the repository
         uses: actions/checkout@v5
 
-      - name: Bump dependencies
-        run: |
-          cd scripts
-          npm run bump
-
-      - name: Build the mappings
-        run: |
-          cd scripts
-          npm run build
+      - name: Bump deps and re-build the mappings
+        run: npm run update
 
       - name: Commit changes if needed
         run: |

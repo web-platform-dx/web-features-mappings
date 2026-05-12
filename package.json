@@ -1,0 +1,19 @@
+{
+  "name": "web-features-mappings",
+  "version": "0.0.1",
+  "description": "Additional data for WebDX web-features",
+  "type": "module",
+  "homepage": "https://github.com/web-platform-dx/web-features-mappings#readme",
+  "bugs": {
+    "url": "https://github.com/web-platform-dx/web-features-mappings/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-platform-dx/web-features-mappings.git"
+  },
+  "license": "Apache-2.0",
+  "exports": "./mappings/combined-data.json",
+  "scripts": {
+    "update": "cd scripts && npm run bump && npm run build"
+  }
+}
