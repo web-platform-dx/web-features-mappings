@@ -27,6 +27,9 @@
     },
     "bugs": {
       "$ref": "#/definitions/bugsFile"
+    },
+    "chrome-status": {
+      "$ref": "#/definitions/chromeStatusFile"
     }
   },
   "$comment": "The properties are the file names of the files in the mapping directory",
@@ -354,6 +357,84 @@
         "type": "string"
       },
       "minItems": 1
+    },
+    "chromeStatusFile": {
+      "description": "Schema for chrome-status.json. An object where keys are feature IDs and values are an array of Chrome Status feature records.",
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/chromeStatusFeatureArray"
+        }
+      },
+      "additionalProperties": false
+    },
+    "chromeStatusFeatureArray": {
+      "description": "An array of Chrome Status feature records from chrome-status.json.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/chromeStatusFeature"
+      },
+      "minItems": 1
+    },
+    "chromeStatusFeature": {
+      "type": "object",
+      "description": "A Chrome Status feature record from chrome-status.json.",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "motivation": {
+          "type": ["string", "null"]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "bug-url": {
+          "type": ["string", "null"]
+        },
+        "spec-link": {
+          "type": ["string", "null"]
+        },
+        "explainer-links": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "updated": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "by": { "type": "string" },
+                "when": { "type": "string" }
+              },
+              "required": ["by", "when"],
+              "additionalProperties": false
+            },
+            { "type": "null" }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "summary",
+        "motivation",
+        "url",
+        "bug-url",
+        "spec-link",
+        "explainer-links",
+        "updated"
+      ],
+      "additionalProperties": false
     }
   }
 }
