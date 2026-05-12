@@ -10,6 +10,7 @@
 
 import { features } from "web-features";
 import bcd from "@mdn/browser-compat-data" with { type: "json" };
+import chromeStatusMapping from "../mappings/chrome-status.json" with { type: "json" };
 import path from "path";
 import fs from "fs/promises";
 
@@ -25,6 +26,10 @@ async function getAllFirefoxBugzillaMappedBugs() {
     throw new Error(`Failed to fetch bugs from Bugzilla: ${response.status} ${response.statusText}`);
   }
   const data = await response.json();
+
+  if (!data.bugs || !Array.isArray(data.bugs)) {
+    throw new Error("No bugs found in Bugzilla response or unexpected format.");
+  }
 
   const bugsMappings = {};
 
@@ -46,42 +51,19 @@ async function getAllFirefoxBugzillaMappedBugs() {
   return bugsMappings;
 }
 
-async function getChromiumBugForFeature(id) {
-  const CHROME_STATUS_API_URL = `https://chromestatus.com/api/v0/features?q=web_feature_id=${id}`;
-
-  console.log(`Fetching feature data from Chrome Status API for feature ID: ${id}...`);
-  const response = await fetch(CHROME_STATUS_API_URL);
-  if (!response.ok) {
-    throw new Error(`Failed to fetch feature data from Chrome Status API: ${response.status} ${response.statusText}`);
-  }
-
-  let text = await response.text();
-  text = text.substring(4);
-  const data = JSON.parse(text);
-
-  const bugURLs = [];
-
-  for (const feature of data.features || []) {
-    if (feature.bug_url) {
-      bugURLs.push(feature.bug_url);
-    }
-  }
-
-  return bugURLs;
-}
-
-async function getAllChromiumMappedBugs() {
+function getAllChromiumMappedBugs() {
   const bugsMappings = {};
 
-  for (const id in features) {
-    const feature = features[id];
-    
-    if (feature.status && feature.status.support && !feature.status.support.chrome) {
-      const bugURLs = await getChromiumBugForFeature(id);
-
-      if (bugURLs.length > 0) {
-        bugsMappings[id] = bugURLs.map(url => ({ url }));
+  for (const id in chromeStatusMapping) {
+    const bugURLs = [];
+    for (const feature of chromeStatusMapping[id]) {
+      if (feature["bug-url"]) {
+        bugURLs.push(feature["bug-url"]);
       }
+    }
+
+    if (bugURLs.length > 0) {
+      bugsMappings[id] = bugURLs.map(url => ({ url }));
     }
   }
 
@@ -141,7 +123,7 @@ function getBugURLsFromBCDKeys() {
 
 async function main() {
   const bugzillaBugs = await getAllFirefoxBugzillaMappedBugs();
-  const chromeStatusBugs = await getAllChromiumMappedBugs();
+  const chromeStatusBugs = getAllChromiumMappedBugs();
   const bugsFromBCDKeys = getBugURLsFromBCDKeys();
 
   // Combine all bug sources into a single mapping object.
