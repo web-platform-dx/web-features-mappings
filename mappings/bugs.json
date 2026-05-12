@@ -15,11 +15,19 @@
   "zoom": {
     "firefox": [
       "https://bugzil.la/390936"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/u/2/issues/393810951",
+      "http://crbug.com/664668"
     ]
   },
   "attr": {
     "firefox": [
       "https://bugzil.la/435426"
+    ],
+    "chrome": [
+      "https://crbug.com/400981738",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=246571"
     ],
     "safari": [
       "https://webkit.org/b/26609"
@@ -36,6 +44,9 @@
       "https://bugzil.la/643325"
     ],
     "chrome": [
+      "https://crbug.com/40290702",
+      "https://issues.chromium.org/issues/400473072",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=695996",
       "https://crbug.com/40554522"
     ],
     "chrome_android": [
@@ -63,6 +74,18 @@
   "web-bluetooth": {
     "firefox": [
       "https://bugzil.la/674737"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1427977",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=518042",
+      "https://crbug.com/1239499",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=707635",
+      "https://crbug.com/672648",
+      "https://crbug.com/654897",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=577953#c13",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=707640",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=897312&desc=2",
+      "https://code.google.com/p/chromium/issues/detail?id=419413"
     ],
     "firefox_android": [
       "https://bugzil.la/674737"
@@ -99,6 +122,9 @@
     "firefox": [
       "https://bugzil.la/1198381"
     ],
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=514656"
+    ],
     "safari": [
       "https://webkit.org/b/164193",
       "https://webkit.org/b/285049"
@@ -116,6 +142,9 @@
     "firefox": [
       "https://bugzil.la/1223880"
     ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1276900"
+    ],
     "firefox_android": [
       "https://bugzil.la/1223880"
     ]
@@ -123,6 +152,10 @@
   "paint": {
     "firefox": [
       "https://bugzil.la/1302328"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=843980",
+      "https://crbug.com/578252"
     ],
     "firefox_android": [
       "https://bugzil.la/1302328"
@@ -140,17 +173,41 @@
   "web-nfc": {
     "firefox": [
       "https://bugzil.la/1308614"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1275576",
+      "https://code.google.com/p/chromium/issues/detail?id=520391"
     ]
   },
   "payment-request": {
     "firefox": [
       "https://bugzil.la/1318984"
+    ],
+    "chrome": [
+      "https://crbug.com/473478138",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1454204",
+      "https://crbug.com/824760",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=861704",
+      "https://crbug.com/839402",
+      "https://crbug.com/825270",
+      "https://crbug.com/817073",
+      "https://crbug.com701254",
+      "http://crbug.com/670291",
+      "http://crbug.com/660926",
+      "http://crbug.com/652148",
+      "http://crbug.com/664619",
+      "http://crbug.com/648051",
+      "http://crbug.com/587995"
     ]
   },
   "scroll-driven-animations": {
     "firefox": [
       "https://bugzil.la/1324602",
       "https://bugzil.la/1676779"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1074052",
+      "http://crbug.com/1023424"
     ],
     "firefox_android": [
       "https://bugzil.la/1676779"
@@ -159,6 +216,10 @@
   "long-animation-frames": {
     "firefox": [
       "https://bugzil.la/1348405"
+    ],
+    "chrome": [
+      "https://issuetracker.google.com/issues/383157188",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1392685"
     ]
   },
   "fetch-request-streams": {
@@ -166,6 +227,7 @@
       "https://bugzil.la/1387483"
     ],
     "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=688906",
       "https://crbug.com/40505032"
     ],
     "chrome_android": [
@@ -201,17 +263,30 @@
   "manifest": {
     "firefox": [
       "https://bugzil.la/1407202"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/396504527",
+      "https://issues.chromium.org/issues/403253129",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1250011",
+      "https://code.google.com/p/chromium/issues/detail?id=522042",
+      "https://code.google.com/p/chromium/issues/detail?id=510402",
+      "https://code.google.com/p/chromium/issues/detail?id=366145"
     ]
   },
   "webxr-device": {
     "firefox": [
       "https://bugzil.la/1419190"
     ],
+    "chrome": [
+      "https://issues.chromium.org/issues/450538226",
+      "https://crbug.com/1377436",
+      "https://crbug.com/1377430",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1133381",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=954531",
+      "https://crbug.com/40762775"
+    ],
     "webview_android": [
       "https://crbug.com/40652382"
-    ],
-    "chrome": [
-      "https://crbug.com/40762775"
     ],
     "chrome_android": [
       "https://crbug.com/40762775"
@@ -265,6 +340,11 @@
     "firefox": [
       "https://bugzil.la/1465682"
     ],
+    "chrome": [
+      "https://crbug.com/1290492",
+      "https://crbug.com/1159510",
+      "https://crbug.com/661608"
+    ],
     "firefox_android": [
       "https://bugzil.la/1465682"
     ]
@@ -274,6 +354,7 @@
       "https://bugzil.la/1506241"
     ],
     "chrome": [
+      "https://issues.chromium.org/issues/40886857",
       "https://crbug.com/40886857"
     ],
     "chrome_android": [
@@ -304,6 +385,10 @@
   "trusted-types": {
     "firefox": [
       "https://bugzil.la/1508286"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/330516530",
+      "https://crbug.com/739170"
     ]
   },
   "webgl-multi-draw": {
@@ -314,6 +399,9 @@
   "canvas-2d-desynchronized": {
     "firefox": [
       "https://bugzil.la/1536809"
+    ],
+    "chrome": [
+      "https://crbug.com/788439"
     ]
   },
   "line-clamp": {
@@ -321,6 +409,7 @@
       "https://bugzil.la/1540681"
     ],
     "chrome": [
+      "https://issues.chromium.org/issues/40336192",
       "https://crbug.com/40336192"
     ],
     "chrome_android": [
@@ -346,6 +435,9 @@
     "firefox": [
       "https://bugzil.la/1582341"
     ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=955497"
+    ],
     "firefox_android": [
       "https://bugzil.la/1582341"
     ]
@@ -353,6 +445,9 @@
   "storage-buckets": {
     "firefox": [
       "https://bugzil.la/1594740"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1099413"
     ],
     "firefox_android": [
       "https://bugzil.la/1594740"
@@ -369,11 +464,24 @@
   "reporting": {
     "firefox": [
       "https://bugzil.la/1631237"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1122656",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1062359",
+      "https://crbug.com/1072283",
+      "https://crbug.com/898860",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=704259",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=731810"
     ]
   },
   "layout-instability": {
     "firefox": [
       "https://bugzil.la/1651528"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/399058544",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1053510",
+      "http://crbug.com/912338"
     ]
   },
   "background-clip-text": {
@@ -384,11 +492,20 @@
   "gamepad-haptics": {
     "firefox": [
       "https://bugzil.la/1658083"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/330194846",
+      "https://crbug.com/1338644",
+      "https://crbug.com/40834175",
+      "http://crbug.com/813940"
     ]
   },
   "json-raw": {
     "firefox": [
       "https://bugzil.la/1658310"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=12955"
     ]
   },
   "wasm-memory64": {
@@ -402,27 +519,6 @@
     ],
     "chrome": [
       "https://crbug.com/40142548"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40142548"
-    ],
-    "edge": [
-      "https://crbug.com/40142548"
-    ],
-    "oculus": [
-      "https://crbug.com/40142548"
-    ],
-    "opera": [
-      "https://crbug.com/40142548"
-    ],
-    "opera_android": [
-      "https://crbug.com/40142548"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40142548"
-    ],
-    "webview_android": [
-      "https://crbug.com/40142548"
     ]
   },
   "webdriver-bidi": {
@@ -433,16 +529,27 @@
   "spelling-grammar-error": {
     "firefox": [
       "https://bugzil.la/1694053"
+    ],
+    "chrome": [
+      "https://crbug.com/415712674",
+      "https://crbug.com/1163437"
     ]
   },
   "highlight": {
     "firefox": [
       "https://bugzil.la/1703961"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/365046212",
+      "https://crbug.com/1164461"
     ]
   },
   "css-modules": {
     "firefox": [
       "https://bugzil.la/1720570"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=992499"
     ],
     "safari": [
       "https://webkit.org/b/227967"
@@ -457,11 +564,18 @@
   "autocorrect": {
     "firefox": [
       "https://bugzil.la/1725806"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/40871769",
+      "https://issues.chromium.org/issues/487613498"
     ]
   },
   "virtual-keyboard": {
     "firefox": [
       "https://bugzil.la/1730568"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=856269"
     ],
     "firefox_android": [
       "https://bugzil.la/1730568"
@@ -485,6 +599,10 @@
     "firefox": [
       "https://bugzil.la/1751383"
     ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1514881",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1271296"
+    ],
     "firefox_android": [
       "https://bugzil.la/1751383"
     ]
@@ -492,22 +610,34 @@
   "object-view-box": {
     "firefox": [
       "https://bugzil.la/1773791"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1303102"
     ]
   },
   "font-family-math": {
     "firefox": [
       "https://bugzil.la/1788937"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=6606"
     ]
   },
   "text-box": {
     "firefox": [
       "https://bugzil.la/1816038",
       "https://bugzil.la/1977183"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1411581"
     ]
   },
   "sizes-auto": {
     "firefox": [
       "https://bugzil.la/1819581"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1359051"
     ],
     "safari": [
       "https://webkit.org/b/253143"
@@ -522,11 +652,17 @@
   "scope": {
     "firefox": [
       "https://bugzil.la/1830512"
+    ],
+    "chrome": [
+      "https://crbug.com/1280240"
     ]
   },
   "field-sizing": {
     "firefox": [
       "https://bugzil.la/1832409"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1447058"
     ],
     "firefox_android": [
       "https://bugzil.la/1832409"
@@ -534,18 +670,33 @@
   },
   "anchor-positioning": {
     "firefox": [
-      "https://bugzil.la/1838746",
-      "https://bugzil.la/1972610"
+      "https://bugzil.la/1838746"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/382294252",
+      "https://issues.chromium.org/issues/373874012",
+      "https://crbug.com/346521300",
+      "https://crbug.com/352360007",
+      "https://issues.chromium.org/issues/40281992",
+      "https://issues.chromium.org/issues/40059176"
     ]
   },
   "canvas-2d-color-management": {
     "firefox": [
       "https://bugzil.la/1841326"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/428575083",
+      "https://crbug.com/1083693",
+      "http://crbug.com/634542"
     ]
   },
   "overlay": {
     "firefox": [
       "https://bugzil.la/1841456"
+    ],
+    "chrome": [
+      "https://crbug.com/1411264"
     ],
     "firefox_android": [
       "https://bugzil.la/1841456"
@@ -556,6 +707,9 @@
       "https://bugzil.la/1843961",
       "https://bugzil.la/1998566"
     ],
+    "chrome": [
+      "https://crbug.com/40273052"
+    ],
     "firefox_android": [
       "https://bugzil.la/1843961"
     ]
@@ -563,6 +717,11 @@
   "invoker-commands": {
     "firefox": [
       "https://bugzil.la/1856430"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/476400454",
+      "https://crbug.com/400647849",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1490919"
     ]
   },
   "closewatcher": {
@@ -573,6 +732,9 @@
   "partitioned-cookies": {
     "firefox": [
       "https://bugzil.la/1865198"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1225444"
     ],
     "safari": [
       "https://webkit.org/b/292975"
@@ -587,11 +749,18 @@
   "popover-hint": {
     "firefox": [
       "https://bugzil.la/1867743"
+    ],
+    "chrome": [
+      "https://crbug.com/499019927",
+      "https://crbug.com/1416284"
     ]
   },
   "writingsuggestions": {
     "firefox": [
       "https://bugzil.la/1871621"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/41486518"
     ],
     "firefox_android": [
       "https://bugzil.la/1871621"
@@ -600,12 +769,18 @@
   "observable": {
     "firefox": [
       "https://bugzil.la/1871732"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1485981"
     ]
   },
   "scoped-custom-element-registries": {
     "firefox": [
       "https://bugzil.la/1874414",
       "https://bugzil.la/2018900"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/40826514"
     ]
   },
   "link-rel-expect": {
@@ -640,6 +815,9 @@
   "background-clip-border-area": {
     "firefox": [
       "https://bugzil.la/1880365"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/329302543"
     ]
   },
   "compression-dictionary-transport": {
@@ -651,6 +829,9 @@
       "https://bugzil.la/1917965",
       "https://bugzil.la/1917979",
       "https://bugzil.la/1917982"
+    ],
+    "chrome": [
+      "https://crbug.com/1413922"
     ],
     "firefox_android": [
       "https://bugzil.la/1918013",
@@ -664,6 +845,9 @@
   "badging": {
     "firefox": [
       "https://bugzil.la/1885552"
+    ],
+    "chrome": [
+      "https://crbug.com/719176"
     ]
   },
   "calc-size": {
@@ -686,6 +870,9 @@
   "intersection-observer-v2": {
     "firefox": [
       "https://bugzil.la/1896900"
+    ],
+    "chrome": [
+      "https://crbug.com/827639"
     ]
   },
   "details-content": {
@@ -696,6 +883,10 @@
   "edit-context": {
     "firefox": [
       "https://bugzil.la/1904161"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/354497121",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=999184"
     ],
     "firefox_android": [
       "https://bugzil.la/1904161"
@@ -713,6 +904,9 @@
   "math-sum-precise": {
     "firefox": [
       "https://bugzil.la/1911378"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/374310075"
     ]
   },
   "move-before": {
@@ -738,6 +932,9 @@
     "firefox": [
       "https://bugzil.la/1936180"
     ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1465781"
+    ],
     "firefox_android": [
       "https://bugzil.la/1936180"
     ],
@@ -754,6 +951,9 @@
   "atomics-wait-async": {
     "firefox": [
       "https://bugzil.la/1941627"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=10239"
     ]
   },
   "interactivity": {
@@ -765,6 +965,11 @@
     "firefox": [
       "https://bugzil.la/1944403",
       "https://bugzil.la/1974276"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/357649033",
+      "https://crbug.com/335456114",
+      "https://crbug.com/40146374"
     ],
     "firefox_android": [
       "https://bugzil.la/1974276"
@@ -800,6 +1005,9 @@
     "firefox": [
       "https://bugzil.la/1951795"
     ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1463891"
+    ],
     "firefox_android": [
       "https://bugzil.la/1951795"
     ]
@@ -807,22 +1015,46 @@
   "text-wrap-pretty": {
     "firefox": [
       "https://bugzil.la/1960910"
+    ],
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1432798"
     ]
   },
   "gap-decorations": {
     "firefox": [
       "https://bugzil.la/1963897"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/357648037"
     ]
   },
   "reading-flow": {
     "firefox": [
       "https://bugzil.la/1966714"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/40932006"
     ]
   },
   "speculation-rules": {
     "firefox": [
       "https://bugzil.la/1969396",
       "https://bugzil.la/1969838"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/346555939",
+      "https://issues.chromium.org/issues/40170951",
+      "https://g-issues.chromium.org/issues/510022186",
+      "https://issues.chromium.org/u/1/issues/428500219",
+      "https://crbug.com/40287486",
+      "https://issues.chromium.org/issues/372053392",
+      "https://issues.chromium.org/issues/381687257",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1517696",
+      "https://issues.chromium.org/issues/40234240",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1406595",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1355146",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1371522",
+      "https://crbug.com/1366940"
     ],
     "firefox_android": [
       "https://bugzil.la/1969396",
@@ -838,6 +1070,9 @@
   "if": {
     "firefox": [
       "https://bugzil.la/1981485"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/346977961"
     ],
     "firefox_android": [
       "https://bugzil.la/1981485"
@@ -858,6 +1093,7 @@
       "https://bugzil.la/1757446"
     ],
     "chrome": [
+      "https://issues.chromium.org/issues/343257585",
       "https://crbug.com/40128480"
     ],
     "chrome_android": [
@@ -889,6 +1125,10 @@
     "firefox": [
       "https://bugzil.la/1988484"
     ],
+    "chrome": [
+      "https://crbug.com/578833",
+      "https://crbug.com/542684"
+    ],
     "webview_android": [
       "https://crbug.com/234081017"
     ]
@@ -898,6 +1138,11 @@
       "https://bugzil.la/2007441"
     ],
     "chrome": [
+      "https://issues.chromium.org/issues/494380213",
+      "https://issues.chromium.org/u/1/issues/416080492",
+      "https://issues.chromium.org/issues/41492543",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1259886",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1011392",
       "https://crbug.com/41492543"
     ],
     "chrome_android": [
@@ -925,6 +1170,12 @@
   "document-picture-in-picture": {
     "firefox": [
       "https://bugzil.la/2012979"
+    ],
+    "chrome": [
+      "https://crbug.com/370423046",
+      "https://issues.chromium.org/331246719",
+      "https://crbug.com/1354325",
+      "https://crbug.com/1315351"
     ]
   },
   "media-pseudos": {
@@ -932,6 +1183,7 @@
       "https://bugzil.la/2013367"
     ],
     "chrome": [
+      "https://crbug.com/40246121",
       "https://crbug.com/40748199"
     ],
     "chrome_android": [
@@ -961,8 +1213,57 @@
       "https://bugzil.la/2036385"
     ]
   },
+  "opaquerange": {
+    "firefox": [
+      "https://bugzil.la/2038248"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/421421332"
+    ]
+  },
+  "a": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=394770"
+    ]
+  },
+  "abortable-fetch": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=750599"
+    ]
+  },
+  "aborting": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1181925",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1273458",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1187117"
+    ]
+  },
+  "abortsignal-any": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1323391"
+    ]
+  },
+  "abs-sign": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40253181",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1407476"
+    ]
+  },
+  "accelerometer": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1163993"
+    ]
+  },
+  "accent-color": {
+    "chrome": [
+      "https://issues.chromium.org/issues/481353056",
+      "https://issues.chromium.org/issues/40764875",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1092093"
+    ]
+  },
   "accesskey": {
     "chrome": [
+      "https://issues.chromium.org/issues/41119923",
       "https://crbug.com/41119923"
     ],
     "chrome_android": [
@@ -989,6 +1290,7 @@
   },
   "active-view-transition": {
     "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1466251",
       "https://crbug.com/40276317"
     ],
     "chrome_android": [
@@ -1013,7 +1315,50 @@
       "https://crbug.com/40276317"
     ]
   },
+  "alerts": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1065085",
+      "https://crbug.com/849816",
+      "https://crbug.com/747117",
+      "http://crbug.com/629964"
+    ]
+  },
+  "align-content-block": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1500511"
+    ]
+  },
+  "all": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=172051"
+    ]
+  },
+  "alt-text-generated-content": {
+    "chrome": [
+      "https://issues.chromium.org/issues/417488055",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=860016"
+    ]
+  },
+  "ambient-light": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=606766"
+    ]
+  },
+  "animation-composition": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1342699"
+    ]
+  },
   "animations-css": {
+    "chrome": [
+      "https://issues.chromium.org/issues/464010037",
+      "https://issues.chromium.org/443719046",
+      "https://issues.chromium.org/issues/40943143",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=772852",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=437132",
+      "https://code.google.com/p/chromium/issues/detail?id=470400",
+      "https://code.google.com/p/chromium/issues/detail?id=154771"
+    ],
     "firefox": [
       "https://bugzil.la/1676779"
     ],
@@ -1030,7 +1375,28 @@
       "https://webkit.org/b/286920"
     ]
   },
+  "app-file-handlers": {
+    "chrome": [
+      "https://crbug.com/40204185",
+      "https://crbug.com/464314997",
+      "https://crbug.com/829689"
+    ]
+  },
+  "app-launch-handler": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1231886"
+    ]
+  },
+  "app-protocol-handlers": {
+    "chrome": [
+      "https://crbug.com/1019239"
+    ]
+  },
   "app-share-targets": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=885313",
+      "https://crbug.com/668389"
+    ],
     "firefox": [
       "https://bugzil.la/1476515"
     ],
@@ -1044,16 +1410,132 @@
       "https://webkit.org/b/194593"
     ]
   },
-  "audio-session": {
-    "firefox": [
-      "https://bugzil.la/1921506"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1921506"
+  "appearance": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=924486",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=963551"
+    ]
+  },
+  "array-at": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=10961"
+    ]
+  },
+  "array-by-copy": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=12764"
+    ]
+  },
+  "array-findlast": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=11990"
+    ]
+  },
+  "array-flat": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7220"
+    ]
+  },
+  "array-fromasync": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=13321"
+    ]
+  },
+  "array-group": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=12499"
+    ]
+  },
+  "array-includes": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=3575"
+    ]
+  },
+  "array-iterators": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4247"
+    ]
+  },
+  "aspect-ratio": {
+    "chrome": [
+      "https://crbug.com/1156160",
+      "https://crbug.com/1045668",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=979891"
+    ]
+  },
+  "async-await": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4483"
+    ]
+  },
+  "async-clipboard": {
+    "chrome": [
+      "https://issues.chromium.org/issues/435051711",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1268679",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1500440",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1408850",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1014310",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=931839",
+      "https://crbug.com/1074489",
+      "https://crbug.com/150835",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=677564"
+    ]
+  },
+  "async-iterable-streams": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40612900"
+    ]
+  },
+  "attribution-reporting": {
+    "chrome": [
+      "https://issues.chromium.org/379275911",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1496976",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1014604"
+    ]
+  },
+  "audio-video-tracks": {
+    "chrome": [
+      "http://code.google.com/p/chromium/issues/detail?id=249427"
+    ]
+  },
+  "audio-worklet": {
+    "chrome": [
+      "https://issues.chromium.org/issues/446920095",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=843982",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1086665",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=469639"
+    ]
+  },
+  "autocapitalize": {
+    "chrome": [
+      "https://crbug.com/776618",
+      "https://crbug.com/466930"
+    ]
+  },
+  "autofill": {
+    "chrome": [
+      "https://crbug.com/1164311"
+    ]
+  },
+  "autofocus": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=995679"
+    ]
+  },
+  "autonomous-custom-elements": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=819482",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=594918"
+    ]
+  },
+  "avif": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=960620"
     ]
   },
   "backdrop": {
     "chrome": [
+      "https://crbug.com/827397",
       "https://crbug.com/40569411"
     ],
     "chrome_android": [
@@ -1093,7 +1575,27 @@
       "https://webkit.org/b/263834"
     ]
   },
+  "backdrop-filter": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/40040614",
+      "https://code.google.com/p/chromium/issues/detail?id=520585"
+    ]
+  },
+  "background-fetch": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=684578"
+    ]
+  },
+  "background-position": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40468636"
+    ]
+  },
   "background-sync": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=532989",
+      "https://code.google.com/p/chromium/issues/detail?id=449443"
+    ],
     "safari": [
       "https://webkit.org/b/182565"
     ],
@@ -1108,22 +1610,141 @@
     ]
   },
   "barcode": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=659138"
+    ],
     "firefox": [
       "https://bugzil.la/1553738"
     ],
     "firefox_android": [
       "https://bugzil.la/1553738"
+    ]
+  },
+  "baseline-source": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1399711"
+    ]
+  },
+  "battery": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1286748",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1007264",
+      "http://crbug.com/122593"
+    ]
+  },
+  "beacons": {
+    "chrome": [
+      "http://crbug.com/720283",
+      "http://crbug.com/360603"
+    ]
+  },
+  "beforeinstallprompt": {
+    "chrome": [
+      "https://crbug.com/621393",
+      "https://code.google.com/p/chromium/issues/detail?id=459839"
     ]
   },
   "beforeunload": {
+    "chrome": [
+      "https://crbug.com/707007",
+      "http://crbug.com/587940"
+    ],
     "safari_ios": [
       "https://webkit.org/b/219102"
     ],
     "webview_ios": [
       "https://webkit.org/b/219102"
+    ]
+  },
+  "bfcache-blocking-reasons": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1326344"
+    ]
+  },
+  "bigint": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6791"
+    ]
+  },
+  "border-image": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=584916",
+      "https://code.google.com/p/chromium/issues/detail?id=559258"
+    ]
+  },
+  "border-radius": {
+    "chrome": [
+      "https://issues.chromium.org/issues/448651073"
+    ]
+  },
+  "border-shape": {
+    "chrome": [
+      "https://issues.chromium.org/issues/370041145"
+    ]
+  },
+  "box-decoration-break": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41295617"
+    ]
+  },
+  "broadcast-channel": {
+    "chrome": [
+      "http://crbug.com/161070"
+    ]
+  },
+  "brotli": {
+    "chrome": [
+      "http://crbug.com/452335"
+    ]
+  },
+  "calc": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1253162",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=931216",
+      "http://www.w3.org/TR/css3-values/#calc"
+    ]
+  },
+  "calc-constants": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1133390"
+    ]
+  },
+  "canvas": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/399653248",
+      "https://crbug.com/500967896",
+      "https://code.google.com/p/chromium/issues/detail?id=67587"
+    ]
+  },
+  "canvas-2d": {
+    "chrome": [
+      "https://issues.chromium.org/issues/467169720",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1129621",
+      "https://crbug.com/919116",
+      "https://crbug.com/277215",
+      "http://crbug.com/742360",
+      "http://crbug.com/277199",
+      "https://code.google.com/p/chromium/issues/detail?id=540761",
+      "https://crbug.com/501642",
+      "http://crbug.com/338804",
+      "http://crbug.com/229468",
+      "http://crbug.com/281529"
+    ]
+  },
+  "canvas-2d-alpha": {
+    "chrome": [
+      "http://crbug.com/234297"
+    ]
+  },
+  "capture-stream-audio-video": {
+    "chrome": [
+      "http://crbug.com/569976"
     ]
   },
   "capture-stream-canvas": {
+    "chrome": [
+      "https://crbug.com/524218"
+    ],
     "firefox": [
       "https://bugzil.la/1231131"
     ],
@@ -1131,42 +1752,53 @@
       "https://bugzil.la/1231131"
     ]
   },
-  "case-sensitive-attributes": {
+  "caret-color": {
     "chrome": [
-      "https://crbug.com/40667738"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40667738"
-    ],
-    "edge": [
-      "https://crbug.com/40667738"
-    ],
-    "oculus": [
-      "https://crbug.com/40667738"
-    ],
-    "opera": [
-      "https://crbug.com/40667738"
-    ],
-    "opera_android": [
-      "https://crbug.com/40667738"
-    ],
-    "safari": [
-      "https://webkit.org/b/272573"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/272573"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40667738"
-    ],
-    "webview_android": [
-      "https://crbug.com/40667738"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/272573"
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=665422"
+    ]
+  },
+  "caret-shape": {
+    "chrome": [
+      "https://issues.chromium.org/issues/353713061"
+    ]
+  },
+  "cascade-layers": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1095765"
+    ]
+  },
+  "case-insensitive-attributes": {
+    "chrome": [
+      "http://code.google.com/p/chromium/issues/detail?id=567732"
+    ]
+  },
+  "channel-messaging": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1495616"
+    ]
+  },
+  "check-visibility": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1309533"
+    ]
+  },
+  "class-syntax": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=11375",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=8330",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5368",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5367",
+      "https://code.google.com/p/v8/issues/detail?id=3887",
+      "https://code.google.com/p/v8/issues/detail?id=3330"
     ]
   },
   "clear-site-data": {
+    "chrome": [
+      "https://issues.chromium.org/issues/398149359",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1464260",
+      "https://crbug.com/607897",
+      "https://crbug.com/40599527"
+    ],
     "firefox": [
       "https://bugzil.la/1838506",
       "https://bugzil.la/1635189"
@@ -1174,9 +1806,6 @@
     "firefox_android": [
       "https://bugzil.la/1838506",
       "https://bugzil.la/1635189"
-    ],
-    "chrome": [
-      "https://crbug.com/40599527"
     ],
     "chrome_android": [
       "https://crbug.com/40599527"
@@ -1198,10 +1827,98 @@
     ],
     "webview_android": [
       "https://crbug.com/40599527"
+    ]
+  },
+  "clip-path": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=633028"
+    ]
+  },
+  "clip-path-boxes": {
+    "chrome": [
+      "https://crbug.com/694218"
+    ]
+  },
+  "clipboard-custom-format": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=106449"
+    ]
+  },
+  "clipboard-events": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=496394"
+    ]
+  },
+  "clipboard-supports": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1483026"
+    ]
+  },
+  "clipboard-svg": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1110511"
+    ]
+  },
+  "clipboardchange": {
+    "chrome": [
+      "https://issues.chromium.org/issues/468821937",
+      "https://issues.chromium.org/issues/41442253"
+    ]
+  },
+  "color-function": {
+    "chrome": [
+      "https://issues.chromium.org/issues/453687644"
+    ]
+  },
+  "color-gamut": {
+    "chrome": [
+      "https://crbug.com/685456"
+    ]
+  },
+  "color-scheme": {
+    "chrome": [
+      "https://crbug.com/1224806",
+      "https://crbug.com/1087115",
+      "https://crbug.com/939811",
+      "http://crbug.com/925935"
+    ]
+  },
+  "colrv1": {
+    "chrome": [
+      "https://crbug.com/1311241",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1170733"
+    ]
+  },
+  "column-fill": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=492297"
+    ]
+  },
+  "compression-streams": {
+    "chrome": [
+      "https://crbug.com/1271220",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=999091"
+    ]
+  },
+  "compute-pressure": {
+    "chrome": [
+      "https://crbug.com/1067627"
+    ]
+  },
+  "conic-gradients": {
+    "chrome": [
+      "http://crbug.com/502970"
+    ]
+  },
+  "console": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=706804"
     ]
   },
   "constructed-stylesheets": {
     "chrome": [
+      "https://crbug.com/1236777",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=807560",
       "https://crbug.com/40207149"
     ],
     "chrome_android": [
@@ -1227,6 +1944,10 @@
     ]
   },
   "contact-picker": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1024911",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=860467"
+    ],
     "firefox": [
       "https://bugzil.la/1756767"
     ],
@@ -1234,7 +1955,32 @@
       "https://bugzil.la/1756767"
     ]
   },
+  "contain": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1220736",
+      "https://crbug.com/947730",
+      "https://crbug.com/561713"
+    ]
+  },
+  "contain-intrinsic-size": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1453733",
+      "https://crbug.com/1157844",
+      "https://crbug.com/991096"
+    ]
+  },
+  "container-queries": {
+    "chrome": [
+      "https://crbug.com/41491726",
+      "https://crbug.com/40287550",
+      "https://crbug.com/1393577",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1145970"
+    ]
+  },
   "container-scroll-state-queries": {
+    "chrome": [
+      "https://crbug.com/40268059"
+    ],
     "firefox": [
       "https://bugzil.la/1931980"
     ],
@@ -1244,6 +1990,8 @@
   },
   "container-style-queries": {
     "chrome": [
+      "https://crbug.com/1442183",
+      "https://crbug.com/1302630",
       "https://crbug.com/40217044"
     ],
     "chrome_android": [
@@ -1251,9 +1999,6 @@
     ],
     "edge": [
       "https://crbug.com/40217044"
-    ],
-    "firefox": [
-      "https://bugzil.la/1795622"
     ],
     "oculus": [
       "https://crbug.com/40217044"
@@ -1269,9 +2014,18 @@
     ],
     "webview_android": [
       "https://crbug.com/40217044"
+    ]
+  },
+  "content-index": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=973844"
     ]
   },
   "content-visibility": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1343432",
+      "http://crbug.com/882663"
+    ],
     "safari": [
       "https://webkit.org/b/283846"
     ],
@@ -1280,9 +2034,25 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/283846"
+    ]
+  },
+  "controls-list": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1211336",
+      "https://crbug.com/685018"
+    ]
+  },
+  "cookie-enabled": {
+    "chrome": [
+      "https://crbug.com/335553590"
     ]
   },
   "cookie-store": {
+    "chrome": [
+      "https://issues.chromium.org/430926231",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=856362",
+      "https://crbug.com/729800"
+    ],
     "safari": [
       "https://webkit.org/b/231750"
     ],
@@ -1291,9 +2061,19 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/231750"
+    ]
+  },
+  "cookies": {
+    "chrome": [
+      "https://crbug.com/953306",
+      "https://crbug.com/567867",
+      "https://crbug.com/459154"
     ]
   },
   "corner-shape": {
+    "chrome": [
+      "https://issues.chromium.org/issues/425897047"
+    ],
     "safari": [
       "https://webkit.org/b/277912"
     ],
@@ -1302,9 +2082,41 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/277912"
+    ]
+  },
+  "cors": {
+    "chrome": [
+      "https://crbug.com/1176753"
+    ]
+  },
+  "counter-reset-reversed": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40760770"
+    ]
+  },
+  "counter-set": {
+    "chrome": [
+      "http://crbug.com/991601"
+    ]
+  },
+  "counter-style": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1166766",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1225033",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=687225"
+    ]
+  },
+  "counters": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40682542"
     ]
   },
   "createimagebitmap": {
+    "chrome": [
+      "https://crbug.com/1013087",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=249382",
+      "http://crbug.com/249384"
+    ],
     "safari": [
       "https://webkit.org/b/182424"
     ],
@@ -1313,9 +2125,20 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/182424"
+    ]
+  },
+  "credential-management": {
+    "chrome": [
+      "http://crbug.com/724464",
+      "http://crbug.com/722242",
+      "http://crbug.com/721399",
+      "https://code.google.com/p/chromium/issues/detail?id=576705"
     ]
   },
   "cross-document-view-transitions": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1372584"
+    ],
     "firefox": [
       "https://bugzil.la/1860854"
     ],
@@ -1332,15 +2155,41 @@
       "https://webkit.org/b/278247"
     ]
   },
-  "cross-fade": {
-    "firefox": [
-      "https://bugzil.la/1657516"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1657516"
+  "csp": {
+    "chrome": [
+      "https://crbug.com/392657736",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1242893",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=932135",
+      "http://crbug.com/880816",
+      "http://crbug.com/771922",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=726634",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=706380",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=606774",
+      "https://crbug.com/665356",
+      "https://crbug.com/662930",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=657737",
+      "https://crbug.com/589380",
+      "https://crbug.com/558232",
+      "https://crbug.com/473904",
+      "http://crbug.com/160081"
+    ]
+  },
+  "css-escape": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=331218"
+    ]
+  },
+  "css-object-model": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=811173",
+      "https://crbug.com/651792",
+      "https://code.google.com/p/chromium/issues/detail?id=496381"
     ]
   },
   "css-typed-om": {
+    "chrome": [
+      "https://crbug.com/545318"
+    ],
     "firefox": [
       "https://bugzil.la/1278697"
     ],
@@ -1348,42 +2197,27 @@
       "https://bugzil.la/1278697"
     ]
   },
-  "custom-media-queries": {
+  "cursor": {
     "chrome": [
-      "https://crbug.com/40781325"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40781325"
-    ],
-    "edge": [
-      "https://crbug.com/40781325"
-    ],
-    "oculus": [
-      "https://crbug.com/40781325"
-    ],
-    "opera": [
-      "https://crbug.com/40781325"
-    ],
-    "opera_android": [
-      "https://crbug.com/40781325"
-    ],
-    "safari": [
-      "https://webkit.org/b/233820"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/233820"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40781325"
-    ],
-    "webview_android": [
-      "https://crbug.com/40781325"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/233820"
+      "https://crbug.com/880863",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=708197"
+    ]
+  },
+  "custom-ellipses": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40731275"
+    ]
+  },
+  "custom-properties": {
+    "chrome": [
+      "https://issues.chromium.org/issues/372475301",
+      "http://crbug.com/465126"
     ]
   },
   "customized-built-in-elements": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=648828"
+    ],
     "safari": [
       "https://webkit.org/b/182671"
     ],
@@ -1394,7 +2228,15 @@
       "https://webkit.org/b/182671"
     ]
   },
+  "data": {
+    "chrome": [
+      "http://crbug.com/737419"
+    ]
+  },
   "datalist": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=242455"
+    ],
     "firefox": [
       "https://bugzil.la/2007533",
       "https://bugzil.la/1905313"
@@ -1402,10 +2244,17 @@
     "firefox_android": [
       "https://bugzil.la/2007533",
       "https://bugzil.la/1905313"
+    ]
+  },
+  "dataset": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=636108"
     ]
   },
   "declarative-shadow-dom": {
     "chrome": [
+      "https://crbug.com/1379513",
+      "https://crbug.com/1042130",
       "https://crbug.com/493315747"
     ],
     "chrome_android": [
@@ -1432,6 +2281,9 @@
   },
   "dedicated-workers": {
     "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=685303",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=721219",
+      "https://crbug.com/31666",
       "https://crbug.com/40554522"
     ],
     "chrome_android": [
@@ -1456,7 +2308,61 @@
       "https://crbug.com/40554522"
     ]
   },
+  "destructuring": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=811"
+    ]
+  },
+  "details": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1185950",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=590014"
+    ]
+  },
+  "details-name": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1444057"
+    ]
+  },
+  "device-memory": {
+    "chrome": [
+      "https://issues.chromium.org/issues/454354290",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=710702"
+    ]
+  },
+  "device-orientation-events": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=947112",
+      "https://crbug.com/932078",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=927965",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=697598",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=651767",
+      "http://crbug.com/44654",
+      "http://crbug.com/135804"
+    ]
+  },
+  "device-posture": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1066842"
+    ]
+  },
+  "devicepixelratio": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=177836"
+    ]
+  },
+  "dialog": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1521813",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1193482",
+      "http://crbug.com/704848",
+      "http://crbug.com/140205"
+    ]
+  },
   "dialog-closedby": {
+    "chrome": [
+      "https://crbug.com/376516550"
+    ],
     "safari": [
       "https://webkit.org/b/284592"
     ],
@@ -1467,23 +2373,20 @@
       "https://webkit.org/b/284592"
     ]
   },
-  "digital-credentials": {
-    "webview_ios": [
-      "https://webkit.org/b/293646"
+  "digital-goods": {
+    "chrome": [
+      "https://crbug.com/1248319"
     ]
   },
-  "display-animation": {
-    "firefox": [
-      "https://bugzil.la/1882408",
-      "https://bugzil.la/1834877"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1882408",
-      "https://bugzil.la/1834877"
+  "dir-pseudo": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=576815"
     ]
   },
   "display-contents": {
     "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1366037",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=657748",
       "https://crbug.com/40866683"
     ],
     "chrome_android": [
@@ -1525,25 +2428,14 @@
       "https://webkit.org/b/255149"
     ]
   },
-  "display-mode": {
-    "chrome_android": [
-      "https://crbug.com/40831406"
-    ],
-    "oculus": [
-      "https://crbug.com/40831406"
-    ],
-    "opera_android": [
-      "https://crbug.com/40831406"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40831406"
-    ],
-    "webview_android": [
-      "https://crbug.com/40831406"
+  "display-flow-root": {
+    "chrome": [
+      "https://crbug.com/672508"
     ]
   },
   "display-ruby": {
     "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=880802",
       "https://crbug.com/40174517"
     ],
     "chrome_android": [
@@ -1566,10 +2458,69 @@
     ],
     "webview_android": [
       "https://crbug.com/40174517"
+    ]
+  },
+  "document-caretpositionfrompoint": {
+    "chrome": [
+      "https://crbug.com/388976"
+    ]
+  },
+  "document-write": {
+    "chrome": [
+      "https://crbug.com/583586"
+    ]
+  },
+  "dom": {
+    "chrome": [
+      "https://issues.chromium.org/issues/469706054",
+      "http://crbug.com/1067384",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=854960",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=820988",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=753271",
+      "http://crbug.com/727433",
+      "http://crbug.com/724906",
+      "http://crbug.com/238234",
+      "http://crbug.com/591919",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=702077",
+      "http://crbug.com/645165",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=632273",
+      "https://code.google.com/p/chromium/issues/detail?id=584612",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=401699",
+      "https://code.google.com/p/chromium/issues/detail?id=305105",
+      "https://crbug.com/471239"
+    ]
+  },
+  "dom-geometry": {
+    "chrome": [
+      "http://crbug.com/388780"
+    ]
+  },
+  "domparser": {
+    "chrome": [
+      "https://issues.chromium.org/issues/491743369"
+    ]
+  },
+  "download": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40589293",
+      "https://crbug.com/714373"
+    ]
+  },
+  "draganddrop": {
+    "chrome": [
+      "https://issues.chromium.org/issues/434151262",
+      "https://issues.chromium.org/issues/452372355",
+      "https://issues.chromium.org/issues/40068941"
+    ]
+  },
+  "dynamic-range": {
+    "chrome": [
+      "https://crbug.com/1224711"
     ]
   },
   "early-data": {
     "chrome": [
+      "https://crbug.com/789599",
       "https://crbug.com/41272059"
     ],
     "chrome_android": [
@@ -1594,46 +2545,99 @@
       "https://crbug.com/41272059"
     ]
   },
-  "empty": {
-    "firefox": [
-      "https://bugzil.la/1106296"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1106296"
+  "element-capture": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1418194"
+    ]
+  },
+  "element-from-point": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=448529"
+    ]
+  },
+  "encrypted-media-extensions": {
+    "chrome": [
+      "https://crbug.com/1208618",
+      "https://crbug.com/1181029",
+      "http://crbug.com/1035153",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=709348",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=672605",
+      "https://crbug.com/605661",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=635693",
+      "http://crbug.com/241496"
+    ]
+  },
+  "enterkeyhint": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=634330"
+    ]
+  },
+  "error-cause": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1192162"
+    ]
+  },
+  "event-timing": {
+    "chrome": [
+      "https://crbug.com/40887145",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1236758",
+      "https://bugs.chromium.org/p/chromium/issues/approval?id=841224",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=543598"
+    ]
+  },
+  "events": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1277431",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1052152",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1146467",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=740576",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=712778",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=675549",
+      "https://crbug.com/674944",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=655494",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=615384",
+      "https://crbug.com/602735",
+      "http://crbug.com/489802",
+      "https://crbug.com/353484",
+      "http://crbug.com/543685",
+      "https://code.google.com/p/chromium/issues/detail?id=160524",
+      "https://code.google.com/p/chromium/issues/detail?id=334015"
+    ]
+  },
+  "execcommand": {
+    "chrome": [
+      "https://crbug.com/437908"
+    ]
+  },
+  "exponentiation": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=3915"
+    ]
+  },
+  "ext-disjoint-timer-query": {
+    "chrome": [
+      "http://crbug.com/560620"
+    ]
+  },
+  "external": {
+    "chrome": [
+      "https://crbug.com/631325"
     ]
   },
   "eyedropper": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=897309"
+    ],
     "webview_android": [
       "https://crbug.com/40791573"
     ]
   },
-  "fast-seek": {
-    "chrome": [
-      "https://crbug.com/41276303"
-    ],
-    "chrome_android": [
-      "https://crbug.com/41276303"
-    ],
-    "edge": [
-      "https://crbug.com/41276303"
-    ],
-    "oculus": [
-      "https://crbug.com/41276303"
-    ],
-    "opera": [
-      "https://crbug.com/41276303"
-    ],
-    "opera_android": [
-      "https://crbug.com/41276303"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/41276303"
-    ],
-    "webview_android": [
-      "https://crbug.com/41276303"
-    ]
-  },
   "feature-policy": {
+    "chrome": [
+      "https://crbug.com/867471",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=703703",
+      "https://crbug.com/623682"
+    ],
     "chrome_android": [
       "https://crbug.com/40628009",
       "https://crbug.com/40840834"
@@ -1673,24 +2677,70 @@
       "https://bugzil.la/1463402"
     ]
   },
-  "federated-credentials": {
-    "firefox": [
-      "https://bugzil.la/1156047"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1156047"
-    ],
-    "safari": [
-      "https://webkit.org/b/172014"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/172014"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/172014"
+  "fedcm": {
+    "chrome": [
+      "https://issues.chromium.org/510015140",
+      "https://issues.chromium.org/issues/498749613",
+      "https://b.corp.google.com/issues/477385178",
+      "https://b.corp.google.com/issues/473826292",
+      "https://crbug.com/455614294",
+      "https://bugs.chromium.org/427474985",
+      "https://issues.chromium.org/346567168",
+      "https://crbug.com/390581529",
+      "https://crbug.com/410533051",
+      "https://crbug.com/382086282",
+      "https://crbug.com/40262526",
+      "https://crbug.com/329145816",
+      "https://issues.chromium.org/issues/40284123",
+      "https://crbug.com/1516640",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1518935",
+      "https://issues.chromium.org/issues/370694829",
+      "https://crbug.com/1477253",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1473135",
+      "https://crbug.com/1304404",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1412893",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1322320",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1348262",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1067455"
+    ]
+  },
+  "fencedframe": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/349080952",
+      "https://g-issues.chromium.org/issues/341884774",
+      "https://launch.corp.google.com/launch/4281098",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1111084"
     ]
   },
   "fetch": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40450316",
+      "https://issues.chromium.org/issues/40487194",
+      "https://crbug.com/417930271",
+      "https://issues.chromium.org/issues/340206277",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1243329",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1409512",
+      "https://crbug.com/1305358",
+      "https://crbug.com/842551",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=759543",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=520460",
+      "https://crbug.com/453190",
+      "https://crbug.com/695939",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=718393",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=624278",
+      "https://crbug.com/645492",
+      "https://crbug.com/669363",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=532385",
+      "https://crbug.com/521475 https://crbug.com/521466",
+      "https://code.google.com/p/chromium/issues/detail?id=537138",
+      "https://code.google.com/p/chromium/issues/detail?id=564479",
+      "https://crbug.com/514092",
+      "https://code.google.com/p/chromium/issues/detail?id=515786",
+      "https://code.google.com/p/chromium/issues/detail?id=510650",
+      "http://code.google.com/p/chromium/issues/detail?id=455116",
+      "https://code.google.com/p/chromium/issues/detail?id=240603",
+      "http://crbug.com/436770"
+    ],
     "firefox": [
       "https://bugzil.la/1387483",
       "https://bugzil.la/1792434"
@@ -1710,6 +2760,9 @@
     ]
   },
   "fetch-metadata": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=843478"
+    ],
     "safari": [
       "https://webkit.org/b/247697"
     ],
@@ -1721,11 +2774,3980 @@
     ]
   },
   "fetch-priority": {
+    "chrome": [
+      "https://crbug.com/821464"
+    ],
     "firefox": [
       "https://bugzil.la/1797715"
     ],
     "firefox_android": [
       "https://bugzil.la/1797715"
+    ]
+  },
+  "fieldset": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=375693",
+      "http://crbug.com/665291"
+    ]
+  },
+  "file": {
+    "chrome": [
+      "http://crbug.com/164933"
+    ]
+  },
+  "file-selector-button": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1086855"
+    ]
+  },
+  "file-system-access": {
+    "chrome": [
+      "https://crbug.com/40276567",
+      "https://crbug.com/1115632",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1153385",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1253174",
+      "https://crbug.com/853326"
+    ]
+  },
+  "filter": {
+    "chrome": [
+      "https://crbug.com/795549",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=776208",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=613441"
+    ]
+  },
+  "fit-content-function": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40847362"
+    ]
+  },
+  "flexbox": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41085247",
+      "https://crbug.com/470421",
+      "https://crbug.com/1011718",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=596743",
+      "http://crbug.com/341310",
+      "http://code.google.com/p/chromium/issues/detail?id=546034",
+      "https://code.google.com/p/chromium/issues/detail?id=517265",
+      "http://crbug.com/240765",
+      "http://wkbug.com/62048",
+      "https://crbug.com/41344054"
+    ],
+    "chrome_android": [
+      "https://crbug.com/41344054"
+    ],
+    "edge": [
+      "https://crbug.com/41344054"
+    ],
+    "oculus": [
+      "https://crbug.com/41344054"
+    ]
+  },
+  "flexbox-gap": {
+    "chrome": [
+      "https://crbug.com/762679"
+    ]
+  },
+  "float16array": {
+    "chrome": [
+      "https://issues.chromium.org/issues/42203953"
+    ]
+  },
+  "focus-events": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/41484175"
+    ],
+    "chrome_android": [
+      "https://crbug.com/41453122"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1544660"
+    ],
+    "oculus": [
+      "https://crbug.com/41453122"
+    ],
+    "opera_android": [
+      "https://crbug.com/41453122"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/41453122"
+    ],
+    "webview_android": [
+      "https://crbug.com/41453122"
+    ]
+  },
+  "focus-visible": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=817199"
+    ]
+  },
+  "focus-within": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=617371"
+    ]
+  },
+  "focusgroup": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1286127"
+    ]
+  },
+  "font-display": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=530015"
+    ]
+  },
+  "font-face": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=973194",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1216460",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1242683",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=627143"
+    ]
+  },
+  "font-family-system": {
+    "chrome": [
+      "https://crbug.com/654679"
+    ]
+  },
+  "font-feature-settings": {
+    "chrome": [
+      "http://crbug.com/537293"
+    ]
+  },
+  "font-kerning": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=324946"
+    ]
+  },
+  "font-language-override": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41170551"
+    ],
+    "safari": [
+      "https://webkit.org/b/150081"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/150081"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/150081"
+    ]
+  },
+  "font-loading": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1416842",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=674539",
+      "http://crbug.com/392075",
+      "http://crbug.com/196457"
+    ]
+  },
+  "font-metric-overrides": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1098355"
+    ]
+  },
+  "font-optical-sizing": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=773697"
+    ]
+  },
+  "font-palette": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1170794"
+    ]
+  },
+  "font-palette-animation": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1400620"
+    ]
+  },
+  "font-shorthand": {
+    "chrome": [
+      "https://crbug.com/1379236"
+    ]
+  },
+  "font-size": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=966249"
+    ]
+  },
+  "font-size-adjust": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1219875",
+      "http://crbug.com/451346"
+    ]
+  },
+  "font-stretch": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=331119"
+    ]
+  },
+  "font-synthesis": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=509989"
+    ]
+  },
+  "font-variant-alternates": {
+    "chrome": [
+      "https://crbug.com/716567"
+    ]
+  },
+  "font-variant-caps": {
+    "chrome": [
+      "https://crbug.com/587094"
+    ]
+  },
+  "font-variant-east-asian": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=755462"
+    ]
+  },
+  "font-variant-emoji": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1379029"
+    ]
+  },
+  "font-variant-ligatures": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=22240"
+    ]
+  },
+  "font-variant-numeric": {
+    "chrome": [
+      "https://crbug.com/609813"
+    ]
+  },
+  "font-variant-position": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1212668"
+    ]
+  },
+  "font-variation-settings": {
+    "chrome": [
+      "https://crbug.com/40246300"
+    ]
+  },
+  "forced-colors": {
+    "chrome": [
+      "https://issues.chromium.org/issues/420857717",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1242706",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=970285"
+    ]
+  },
+  "form": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=931209",
+      "https://crbug.com/1167095",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1014418",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=964062",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=825684"
+    ]
+  },
+  "form-associated-custom-elements": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=905922"
+    ],
+    "safari": [
+      "https://webkit.org/b/197960"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/197960"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/197960"
+    ]
+  },
+  "fullscreen": {
+    "chrome": [
+      "https://crbug.com/852645",
+      "https://crbug.com/383813",
+      "https://crbug.com/875066",
+      "https://crbug.com/666761",
+      "https://crbug.com/829937",
+      "https://crbug.com/800056",
+      "http://crbug.com/728276"
+    ]
+  },
+  "function": {
+    "chrome": [
+      "https://issues.chromium.org/issues/325504770"
+    ]
+  },
+  "functions": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4958",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5051",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=3699",
+      "https://code.google.com/p/v8/issues/detail?id=2159",
+      "https://code.google.com/p/v8/issues/detail?id=2160",
+      "https://code.google.com/p/v8/issues/detail?id=2700"
+    ]
+  },
+  "gamepad": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40175074",
+      "https://crbug.com/708201",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1314560",
+      "https://crbug.com/855188",
+      "https://crbug.com/865642",
+      "http://crbug.com/398642",
+      "http://crbug.com/344556"
+    ]
+  },
+  "gamepad-touch": {
+    "chrome": [
+      "https://crbug.com/830140"
+    ]
+  },
+  "generators": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=2355"
+    ]
+  },
+  "geolocation": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/495852854",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=931847",
+      "https://crbug.com/561641",
+      "https://bugs.webkit.org/show_bug.cgi?id=21475"
+    ]
+  },
+  "get-computed-style": {
+    "chrome": [
+      "https://crbug.com/413205"
+    ]
+  },
+  "gethtml": {
+    "chrome": [
+      "https://crbug.com/41490936"
+    ]
+  },
+  "getorinsert": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/434977728"
+    ]
+  },
+  "globalthis": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5537"
+    ]
+  },
+  "gpc": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40745270"
+    ]
+  },
+  "gradients": {
+    "chrome": [
+      "http://crbug.com/707047"
+    ]
+  },
+  "grid": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1024927",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=846187",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=761904",
+      "http://crbug.com/79180"
+    ]
+  },
+  "grid-animation": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=759665"
+    ]
+  },
+  "hanging-punctuation": {
+    "chrome": [
+      "https://crbug.com/41491716"
+    ]
+  },
+  "hardware-concurrency": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=369629"
+    ]
+  },
+  "has": {
+    "chrome": [
+      "https://crbug.com/669058"
+    ]
+  },
+  "has-slotted": {
+    "chrome": [
+      "https://issues.chromium.org/issues/369883705"
+    ]
+  },
+  "hashbang-comments": {
+    "chrome": [
+      "https://crbug.com/v8/8523"
+    ]
+  },
+  "headings": {
+    "chrome": [
+      "https://issues.chromium.org/issues/394111284"
+    ]
+  },
+  "hidden-until-found": {
+    "chrome": [
+      "https://issues.chromium.org/issues/433545121",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1055002"
+    ]
+  },
+  "history": {
+    "chrome": [
+      "https://crbug.com/40554715",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1254926",
+      "https://code.google.com/p/chromium/issues/detail?id=477353"
+    ]
+  },
+  "hsl": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=786139"
+    ]
+  },
+  "html": {
+    "chrome": [
+      "https://issues.chromium.org/issues/481087638"
+    ]
+  },
+  "html-media-capture": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40291635"
+    ]
+  },
+  "hwb": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1288883"
+    ]
+  },
+  "hyphenate-character": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1281208"
+    ]
+  },
+  "hyphenate-limit-chars": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=924069"
+    ]
+  },
+  "hyphens": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=652964",
+      "http://crbug.com/605840"
+    ]
+  },
+  "ic": {
+    "chrome": [
+      "https://crbug.com/937101"
+    ]
+  },
+  "idle-detection": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=878979"
+    ]
+  },
+  "iframe-credentialless": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1211800"
+    ]
+  },
+  "iframe-sandbox": {
+    "chrome": [
+      "https://crbug.com/1253379",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=539938",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=662506",
+      "https://crbug.com/483624",
+      "https://crbug.com/487157"
+    ]
+  },
+  "image-function": {
+    "chrome": [
+      "https://issues.chromium.org/issues/510426954"
+    ]
+  },
+  "image-maps": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=394770",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=605552"
+    ]
+  },
+  "image-orientation": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=158753"
+    ]
+  },
+  "image-rendering": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41073066"
+    ]
+  },
+  "image-set": {
+    "chrome": [
+      "https://crbug.com/630597"
+    ]
+  },
+  "imagebitmaprenderingcontext": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=658734"
+    ]
+  },
+  "img": {
+    "chrome": [
+      "https://crbug.com/772470",
+      "http://crbug.com/705669"
+    ]
+  },
+  "import": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40266154"
+    ]
+  },
+  "import-assertions": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1132413"
+    ],
+    "safari": [
+      "https://webkit.org/b/227967"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/227967"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/227967"
+    ]
+  },
+  "import-maps": {
+    "chrome": [
+      "https://issues.chromium.org/issues/334251999",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=848607"
+    ]
+  },
+  "indexeddb": {
+    "chrome": [
+      "https://issues.chromium.org/issues/498644996",
+      "https://issues.chromium.org/issues/436880911",
+      "https://issues.chromium.org/issues/40746016",
+      "https://issues.chromium.org/issues/362123231",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=965883",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1294977",
+      "http://crbug.com/943344",
+      "https://crbug.com/898257",
+      "https://crbug.com/886981",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=696010",
+      "https://crbug.com/665243",
+      "http://crbug.com/693661",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=603759",
+      "https://crbug.com/460725",
+      "https://crbug.com/525742",
+      "http://crbug.com/158629"
+    ]
+  },
+  "individual-transforms": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=496550"
+    ]
+  },
+  "inert": {
+    "chrome": [
+      "http://crbug.com/692360"
+    ],
+    "safari": [
+      "https://webkit.org/b/269909"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/269909"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/269909"
+    ]
+  },
+  "ink": {
+    "chrome": [
+      "https://bugs.chromium.org/347647410",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1052145"
+    ]
+  },
+  "input": {
+    "chrome": [
+      "http://crbug.com/622679",
+      "http://crbug.com/535441"
+    ]
+  },
+  "input-color": {
+    "chrome": [
+      "https://crbug.com/416245392"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1796343"
+    ]
+  },
+  "input-date-time": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1040344"
+    ],
+    "firefox": [
+      "https://bugzil.la/888320"
+    ],
+    "safari": [
+      "https://webkit.org/b/200416"
+    ]
+  },
+  "input-event": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41423062",
+      "https://issues.chromium.org/issues/401593412",
+      "https://crbug.com/947408",
+      "https://crbug.com/585875"
+    ]
+  },
+  "inputmode": {
+    "chrome": [
+      "http://crbug.com/244688"
+    ]
+  },
+  "insertable-streams": {
+    "chrome": [
+      "https://crbug.com/1300528",
+      "https://crbug.com/1142955"
+    ]
+  },
+  "interaction": {
+    "chrome": [
+      "http://crbug.com/398943"
+    ]
+  },
+  "intersection-observer": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1469500",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1015183",
+      "https://crbug.com/540528"
+    ]
+  },
+  "intl": {
+    "chrome": [
+      "https://crbug.com/421834885",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=10776",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=10743",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=11661",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9284",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9283",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9154",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7729",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=8702",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=8515",
+      "https://crbug.com/865351",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5244",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5012"
+    ]
+  },
+  "intl-display-names": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=11637",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=8703"
+    ]
+  },
+  "intl-duration-format": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=11660"
+    ]
+  },
+  "intl-list-format": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7871"
+    ]
+  },
+  "intl-locale": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7684"
+    ]
+  },
+  "intl-locale-info": {
+    "chrome": [
+      "https://issues.chromium.org/issues/42203769"
+    ]
+  },
+  "intl-plural-rules": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5601"
+    ]
+  },
+  "intl-relative-time-format": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7869"
+    ]
+  },
+  "intl-segmenter": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6891"
+    ]
+  },
+  "inverted-colors": {
+    "chrome": [
+      "http://crbug.com/1462210"
+    ]
+  },
+  "is-input-pending": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/approval?id=930987"
+    ]
+  },
+  "iterator-concat": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/434977727"
+    ]
+  },
+  "iterator-methods": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=13558"
+    ]
+  },
+  "iterators": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=2214"
+    ]
+  },
+  "jpegxl": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1178058",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1109698"
+    ]
+  },
+  "js-modules": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1296665",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=8101",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=849101",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6693",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5785",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=1569"
+    ]
+  },
+  "js-modules-service-workers": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=824647"
+    ]
+  },
+  "js-modules-shared-workers": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=824646"
+    ]
+  },
+  "js-modules-workers": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=680046"
+    ]
+  },
+  "json": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7782"
+    ]
+  },
+  "json-modules": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=964248"
+    ]
+  },
+  "keyboard-events": {
+    "chrome": [
+      "http://crbug.com/625686",
+      "https://crbug.com/607349",
+      "https://crbug.com/568261",
+      "https://code.google.com/p/chromium/issues/detail?id=227231"
+    ]
+  },
+  "keyboard-lock": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=677559"
+    ]
+  },
+  "keyboard-map": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1258242",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=832811"
+    ]
+  },
+  "lab": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1026287"
+    ]
+  },
+  "lang": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1281157"
+    ]
+  },
+  "language": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=276159",
+      "https://code.google.com/p/chromium/issues/detail?id=365123"
+    ]
+  },
+  "languagemodel": {
+    "chrome": [
+      "https://crbug.com/417526788"
+    ]
+  },
+  "largest-contentful-paint": {
+    "chrome": [
+      "https://issues.chromium.org/issues/482261053",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=965505"
+    ]
+  },
+  "letter-spacing": {
+    "chrome": [
+      "https://issues.chromium.org/issues/327740939"
+    ]
+  },
+  "lh": {
+    "chrome": [
+      "https://crbug.com/937104"
+    ]
+  },
+  "light-dark": {
+    "chrome": [
+      "https://crbug.com/491829958",
+      "https://crbug.com/1490618",
+      "https://crbug.com/40284803"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40284803"
+    ],
+    "edge": [
+      "https://crbug.com/40284803"
+    ],
+    "oculus": [
+      "https://crbug.com/40284803"
+    ],
+    "opera": [
+      "https://crbug.com/40284803"
+    ],
+    "opera_android": [
+      "https://crbug.com/40284803"
+    ],
+    "safari": [
+      "https://webkit.org/b/262914"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/262914"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40284803"
+    ],
+    "webview_android": [
+      "https://crbug.com/40284803"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/262914"
+    ]
+  },
+  "line-break": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=720205",
+      "https://crbug.com/735539"
+    ]
+  },
+  "linear-easing": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1416540"
+    ]
+  },
+  "link": {
+    "chrome": [
+      "https://crbug.com/1087043"
+    ]
+  },
+  "link-rel-preconnect": {
+    "chrome": [
+      "https://crbug.com/449620"
+    ]
+  },
+  "link-rel-prefetch": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40232065"
+    ]
+  },
+  "link-rel-preload": {
+    "chrome": [
+      "http://crbug.com/471199"
+    ],
+    "firefox": [
+      "https://bugzil.la/1886145"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1886145"
+    ]
+  },
+  "link-selectors": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1448609",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=611093",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=788265"
+    ]
+  },
+  "list-elements": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=657972"
+    ]
+  },
+  "list-style": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=590014",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=687946"
+    ]
+  },
+  "loading-lazy": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=709494"
+    ]
+  },
+  "loading-lazy-media": {
+    "chrome": [
+      "https://issues.chromium.org/issues/469111735",
+      "https://crbug.com/469111735"
+    ],
+    "firefox": [
+      "https://bugzil.la/2005072"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/2005072"
+    ],
+    "safari": [
+      "https://webkit.org/b/303995"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/303995"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/303995"
+    ],
+    "chrome_android": [
+      "https://crbug.com/469111735"
+    ],
+    "edge": [
+      "https://crbug.com/469111735"
+    ],
+    "opera": [
+      "https://crbug.com/469111735"
+    ]
+  },
+  "local-fonts": {
+    "chrome": [
+      "https://crbug.com/535764"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40840834"
+    ],
+    "oculus": [
+      "https://crbug.com/40840834"
+    ],
+    "opera_android": [
+      "https://crbug.com/40840834"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40840834"
+    ],
+    "webview_android": [
+      "https://crbug.com/40840834"
+    ]
+  },
+  "local-network-access": {
+    "chrome": [
+      "https://issues.chromium.org/issues/465491626",
+      "https://issues.chromium.org/issues/421216834",
+      "https://crbug.com/421156866",
+      "https://crbug.com/394009026"
+    ]
+  },
+  "localstorage": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=771959",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=651774",
+      "http://wkbug.com/41645"
+    ]
+  },
+  "logical-assignments": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=10372"
+    ]
+  },
+  "logical-properties": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1155270",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=538475",
+      "https://crbug.com/850000",
+      "https://crbug.com/538475"
+    ],
+    "safari": [
+      "https://webkit.org/b/185977"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/185977"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/185977"
+    ]
+  },
+  "longtasks": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41399667",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=651926"
+    ],
+    "firefox": [
+      "https://bugzil.la/1348405"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1348405"
+    ]
+  },
+  "manifest-localization": {
+    "chrome": [
+      "https://issues.chromium.org/issues/380491647"
+    ]
+  },
+  "map": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=1622"
+    ]
+  },
+  "marker": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=457718"
+    ],
+    "safari": [
+      "https://webkit.org/b/204163"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/204163"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/204163"
+    ]
+  },
+  "masks": {
+    "chrome": [
+      "https://crbug.com/1418401"
+    ],
+    "safari": [
+      "https://webkit.org/b/137293"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/137293"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/137293"
+    ]
+  },
+  "matchmedia": {
+    "chrome": [
+      "http://wkbug.com/37205"
+    ]
+  },
+  "mathml": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40120782",
+      "http://crbug.com/6606",
+      "https://crbug.com/40289400"
+    ],
+    "firefox": [
+      "https://bugzil.la/1278697",
+      "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c",
+      "https://hg.mozilla.org/mozilla-central/rev/60a72a6c7c1d",
+      "https://hg.mozilla.org/mozilla-central/rev/12294b20e4d9"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1278697",
+      "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c",
+      "https://hg.mozilla.org/mozilla-central/rev/60a72a6c7c1d",
+      "https://hg.mozilla.org/mozilla-central/rev/12294b20e4d9"
+    ],
+    "safari": [
+      "https://trac.webkit.org/changeset/203679",
+      "https://trac.webkit.org/changeset/159504",
+      "https://trac.webkit.org/changeset/267578",
+      "https://trac.webkit.org/changeset/203104"
+    ],
+    "safari_ios": [
+      "https://trac.webkit.org/changeset/203679",
+      "https://trac.webkit.org/changeset/159504",
+      "https://trac.webkit.org/changeset/267578",
+      "https://trac.webkit.org/changeset/203104"
+    ],
+    "webview_ios": [
+      "https://trac.webkit.org/changeset/203679",
+      "https://trac.webkit.org/changeset/159504",
+      "https://trac.webkit.org/changeset/267578",
+      "https://trac.webkit.org/changeset/203104"
+    ]
+  },
+  "measure-memory": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1049093",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=876553"
+    ]
+  },
+  "media-capabilities": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1048045",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1020943",
+      "https://crbug.com/907952",
+      "https://crbug.com/905153",
+      "https://crbug.com/690364"
+    ]
+  },
+  "media-capture": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=927230",
+      "https://crbug.com/854980",
+      "http://crbug.com/924485",
+      "https://crbug.com/681824",
+      "https://crbug.com/649331",
+      "https://crbug.com/646837",
+      "https://crbug.com/607439",
+      "https://crbug.com/585096",
+      "https://crbug.com/520765",
+      "https://crbug.com/543997",
+      "https://code.google.com/p/chromium/issues/detail?id=388648"
+    ],
+    "safari": [
+      "https://webkit.org/b/169871"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/169871"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/169871"
+    ]
+  },
+  "media-playback-quality": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=644731"
+    ]
+  },
+  "media-session": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/446738067",
+      "https://crbug.com/1457056",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1363548",
+      "https://crbug.com/1178939",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=984620",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=977375",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=940054",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=910436",
+      "https://code.google.com/p/chromium/issues/detail?id=497735"
+    ],
+    "webview_android": [
+      "https://crbug.com/40611412"
+    ]
+  },
+  "media-source": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40474569",
+      "https://crbug.com/878133",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1144908",
+      "http://crbug.com/605134",
+      "https://crbug.com/623698",
+      "https://crbug.com/623678",
+      "https://crbug.com/586376",
+      "http://crbug.com/144669"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/200147"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/200147"
+    ]
+  },
+  "mediastream-recording": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1072056",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=980559",
+      "https://crbug.com/676211",
+      "https://crbug.com/678854",
+      "https://code.google.com/p/chromium/issues/detail?id=261321"
+    ],
+    "firefox": [
+      "https://bugzil.la/1573299"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1573299"
+    ]
+  },
+  "messageerror": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1024132",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=926102",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=714582"
+    ]
+  },
+  "meta-theme-color": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1200528",
+      "https://code.google.com/p/chromium/issues/detail?id=383941"
+    ]
+  },
+  "min-max-clamp": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=825895"
+    ]
+  },
+  "mix-blend-mode": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1275782"
+    ]
+  },
+  "mixed-content": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1172988",
+      "https://crbug.com/1042877",
+      "https://crbug.com/1025274",
+      "https://crbug.com/513163",
+      "https://crbug.com/442662"
+    ]
+  },
+  "modal": {
+    "chrome": [
+      "https://crbug.com/1327113"
+    ]
+  },
+  "modulepreload": {
+    "chrome": [
+      "https://issues.chromium.org/issues/466888680",
+      "https://crbug.com/441933555",
+      "http://crbug.com/740886"
+    ]
+  },
+  "motion-path": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=696412",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=645840",
+      "http://crbug.com/496518"
+    ]
+  },
+  "mouse-events": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40686462",
+      "https://crbug.com/269917",
+      "https://crbug.com/680741",
+      "https://crbug.com/625847",
+      "https://code.google.com/p/chromium/issues/detail?id=276941",
+      "http://crbug.com/532963",
+      "http://crbug.com/236215"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/213953"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/213953"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40290045"
+    ],
+    "oculus": [
+      "https://crbug.com/40290045"
+    ],
+    "opera_android": [
+      "https://crbug.com/40290045"
+    ],
+    "webview_android": [
+      "https://crbug.com/40290045"
+    ]
+  },
+  "multi-column": {
+    "chrome": [
+      "https://issues.chromium.org/issues/403183884",
+      "https://code.google.com/p/chromium/issues/detail?id=334335"
+    ]
+  },
+  "mutation-events": {
+    "chrome": [
+      "https://crbug.com/40268638"
+    ]
+  },
+  "mutationobserver": {
+    "chrome": [
+      "http://wkbug.com/68729"
+    ]
+  },
+  "namespace": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=389549"
+    ]
+  },
+  "navigation": {
+    "chrome": [
+      "https://issues.chromium.org/issues/465487215",
+      "https://issues.chromium.org/issues/447171238",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1336000",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1183545"
+    ]
+  },
+  "navigation-timing": {
+    "chrome": [
+      "https://crbug.com/1425910",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=611276"
+    ]
+  },
+  "navigator-install": {
+    "chrome": [
+      "https://issues.chromium.org/issues/333795265"
+    ]
+  },
+  "nesting": {
+    "chrome": [
+      "https://crbug.com/1095675"
+    ]
+  },
+  "network-information": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40487194",
+      "https://code.google.com/p/chromium/issues/detail?id=527449&thanks=527449&ts=1441209489",
+      "https://code.google.com/p/chromium/issues/detail?id=368358"
+    ],
+    "safari": [
+      "https://webkit.org/b/185697"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/185697"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/185697"
+    ]
+  },
+  "not": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1139865"
+    ]
+  },
+  "notifications": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=679821",
+      "https://crbug.com/614456",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=599859",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=591394",
+      "https://code.google.com/p/chromium/issues/detail?id=585128",
+      "http://crbug.com/442133",
+      "https://crbug.com/579150",
+      "https://code.google.com/p/chromium/issues/detail?id=538720",
+      "https://crbug.com/526158",
+      "https://code.google.com/p/chromium/issues/detail?id=513672",
+      "https://code.google.com/p/chromium/issues/detail?id=442132",
+      "https://code.google.com/p/chromium/issues/detail?id=442143"
+    ],
+    "webview_android": [
+      "https://crbug.com/40443309"
+    ],
+    "safari": [
+      "https://webkit.org/b/280160",
+      "https://webkit.org/b/280162",
+      "https://webkit.org/b/258922"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/280160",
+      "https://webkit.org/b/280162"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/280160"
+    ]
+  },
+  "nth-child-of": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=304163"
+    ]
+  },
+  "nullish-coalescing": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9547"
+    ]
+  },
+  "object": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=601771"
+    ]
+  },
+  "object-hasown": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1213927"
+    ]
+  },
+  "object-object": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9553",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=8021",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4725",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4663",
+      "https://code.google.com/p/v8/issues/detail?id=2409",
+      "https://code.google.com/p/v8/issues/detail?id=3754",
+      "https://code.google.com/p/v8/issues/detail?id=3516"
+    ]
+  },
+  "offline-audio-context": {
+    "chrome": [
+      "http://crbug.com/737200",
+      "http://crbug.com/647261",
+      "http://crbug.com/586595",
+      "https://code.google.com/p/chromium/issues/detail?id=497933",
+      "http://code.google.com/p/chromium/issues/detail?id=420109"
+    ],
+    "firefox": [
+      "https://bugzil.la/1265406"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1265406"
+    ]
+  },
+  "offscreen-canvas": {
+    "chrome": [
+      "https://crbug.com/388437261",
+      "https://crbug.com/1016454",
+      "http://crbug.com/563816"
+    ]
+  },
+  "oklab": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/329106317"
+    ]
+  },
+  "optional-catch-binding": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6889"
+    ]
+  },
+  "origin-private-file-system": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1354273",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1218431"
+    ]
+  },
+  "overflow": {
+    "chrome": [
+      "https://issues.chromium.org/481019005",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=790911"
+    ]
+  },
+  "overflow-overlay": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=554361"
+    ]
+  },
+  "overflow-shorthand": {
+    "chrome": [
+      "https://crbug.com/833105"
+    ]
+  },
+  "overflow-wrap": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=905315"
+    ]
+  },
+  "overscroll-behavior": {
+    "chrome": [
+      "https://issues.chromium.org/issues/499018879",
+      "https://issues.chromium.org/issues/41378182",
+      "https://crbug.com/41453796",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=833953",
+      "https://crbug.com/672921"
+    ],
+    "safari": [
+      "https://webkit.org/b/243452"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/243452"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/243452"
+    ]
+  },
+  "page-visibility": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=917303#c10",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=594049",
+      "https://code.google.com/p/chromium/issues/detail?id=230334"
+    ]
+  },
+  "paint-order": {
+    "chrome": [
+      "https://crbug.com/41372165"
+    ]
+  },
+  "paint-timing": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=720055"
+    ]
+  },
+  "password-credentials": {
+    "chrome": [
+      "http://crbug.com/718416"
+    ],
+    "firefox": [
+      "https://bugzil.la/1156047"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1156047"
+    ],
+    "safari": [
+      "https://webkit.org/b/252908"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/252908"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/252908"
+    ]
+  },
+  "performance": {
+    "chrome": [
+      "https://crbug.com/505208781",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1114172",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=969123",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=922622",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=911314",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=799929",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=740094",
+      "http://crbug.com/778359",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=747989",
+      "http://crbug.com/485613",
+      "http://crbug.com/158638"
+    ]
+  },
+  "performancetiming": {
+    "chrome": [
+      "https://issues.chromium.org/issues/378827535"
+    ]
+  },
+  "periodic-background-sync": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=925297"
+    ],
+    "webview_android": [
+      "https://crbug.com/40151529"
+    ]
+  },
+  "permissions": {
+    "chrome": [
+      "https://crbug.com/443013457",
+      "https://b.corp.google.com/issues/435351699",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1236856",
+      "https://code.google.com/p/chromium/issues/detail?id=432570"
+    ],
+    "webview_android": [
+      "https://crbug.com/40418964"
+    ]
+  },
+  "picture": {
+    "chrome": [
+      "http://crbug.com/233751"
+    ]
+  },
+  "picture-in-picture": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1096350",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=940404",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=917303",
+      "http://crbug.com/806249"
+    ],
+    "firefox": [
+      "https://bugzil.la/1463402"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1463402"
+    ]
+  },
+  "placeholder": {
+    "chrome": [
+      "http://crbug.com/623345"
+    ]
+  },
+  "placeholder-shown": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=451120"
+    ]
+  },
+  "pointer-events-api": {
+    "chrome": [
+      "https://crbug.com/404479704",
+      "https://issues.chromium.org/353538500",
+      "https://issues.chromium.org/40928769",
+      "https://crbug.com/989958",
+      "https://crbug.com/1069500",
+      "https://crbug.com/885299",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=873684",
+      "https://crbug.com/827271",
+      "https://crbug.com/773813",
+      "https://crbug.com/649376",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=674290",
+      "https://crbug.com/656781",
+      "http://crbug.com/196799"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/213953"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/213953"
+    ]
+  },
+  "pointer-lock": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/40290045",
+      "https://crbug.com/982379",
+      "http://crbug.com/72754"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40290045"
+    ],
+    "oculus": [
+      "https://crbug.com/40290045"
+    ],
+    "opera_android": [
+      "https://crbug.com/40290045"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40290045"
+    ],
+    "webview_android": [
+      "https://crbug.com/40290045"
+    ]
+  },
+  "popover": {
+    "chrome": [
+      "https://crbug.com/1520938",
+      "https://crbug.com/1307772"
+    ]
+  },
+  "portal": {
+    "chrome": [
+      "https://crbug.com/1040212"
+    ]
+  },
+  "postmessage": {
+    "chrome": [
+      "https://crbug.com/861735",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=425896",
+      "http://crbug.com/158865"
+    ]
+  },
+  "prefers-color-scheme": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1091806",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=889087"
+    ]
+  },
+  "prefers-contrast": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1107431"
+    ]
+  },
+  "prefers-reduced-data": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1051189",
+      "https://crbug.com/40118365"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40118365"
+    ],
+    "edge": [
+      "https://crbug.com/40118365"
+    ],
+    "oculus": [
+      "https://crbug.com/40118365"
+    ],
+    "opera": [
+      "https://crbug.com/40118365"
+    ],
+    "webview_android": [
+      "https://crbug.com/40118365"
+    ]
+  },
+  "prefers-reduced-motion": {
+    "chrome": [
+      "http://crbug.com/722548"
+    ]
+  },
+  "prefers-reduced-transparency": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1466423",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1424879"
+    ],
+    "firefox": [
+      "https://bugzil.la/1822176"
+    ],
+    "safari": [
+      "https://webkit.org/b/175497"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/175497"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/175497"
+    ]
+  },
+  "preloading-responsive-images": {
+    "chrome": [
+      "https://crbug.com/813452"
+    ]
+  },
+  "presentation-api": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=733381",
+      "http://crbug.com/627655",
+      "https://crbug.com/582574",
+      "https://crbug.com/579360",
+      "https://crbug.com/540803",
+      "https://code.google.com/p/chromium/issues/detail?id=525660",
+      "https://code.google.com/p/chromium/issues/detail?id=412331"
+    ],
+    "safari": [
+      "https://webkit.org/b/149168"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/149168"
+    ],
+    "webview_android": [
+      "https://crbug.com/234081017"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/149168"
+    ]
+  },
+  "preserves-pitch": {
+    "chrome": [
+      "https://crbug.com/1096238"
+    ],
+    "safari": [
+      "https://webkit.org/b/214922"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/214922"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/214922"
+    ]
+  },
+  "print-color-adjust": {
+    "chrome": [
+      "https://issues.chromium.org/376381169"
+    ]
+  },
+  "print-events": {
+    "chrome": [
+      "http://crbug.com/218205"
+    ]
+  },
+  "private-network-access": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1524350",
+      "https://crbug.com/1300021",
+      "https://crbug.com/1338439",
+      "https://crbug.com/1371454",
+      "https://crbug.com/591068",
+      "https://crbug.com/986744"
+    ]
+  },
+  "profiler": {
+    "chrome": [
+      "https://issues.chromium.org/issues/482085416",
+      "https://issues.chromium.org/issues/473861788?pli=1",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=956688"
+    ],
+    "firefox": [
+      "https://bugzil.la/1867361"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1867361"
+    ]
+  },
+  "promise": {
+    "chrome": [
+      "http://crbug.com/243345"
+    ]
+  },
+  "promise-allsettled": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9060"
+    ]
+  },
+  "promise-any": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9808"
+    ]
+  },
+  "promise-finally": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5967"
+    ]
+  },
+  "proxy-reflect": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=3931"
+    ]
+  },
+  "push": {
+    "chrome": [
+      "https://b.corp.google.com/issues/373336950",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=646721",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=802280",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=718837",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=718020",
+      "https://crbug.com/626627",
+      "https://crbug.com/486040",
+      "https://code.google.com/p/chromium/issues/detail?id=477401",
+      "https://code.google.com/p/chromium/issues/detail?id=350378"
+    ]
+  },
+  "q-unit": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=421907"
+    ]
+  },
+  "quotes": {
+    "chrome": [
+      "https://crbug.com/990557"
+    ]
+  },
+  "readable-byte-streams": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=614302"
+    ],
+    "safari": [
+      "https://webkit.org/b/264731"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/264731"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/264731"
+    ]
+  },
+  "referrer-policy": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1014207",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=841673",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=729571",
+      "https://crbug.com/676645",
+      "https://crbug.com/595099",
+      "https://crbug.com/619228",
+      "http://crbug.com/490608"
+    ]
+  },
+  "regexp": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4743",
+      "https://crbug.com/v8/5437",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4545",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6172"
+    ]
+  },
+  "region-capture": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1247761"
+    ]
+  },
+  "registered-custom-properties": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/471016512",
+      "https://crbug.com/911156",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=973830"
+    ]
+  },
+  "registerprotocolhandler": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1321073",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1169258",
+      "https://crbug.com/1199027",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1110842",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1072461",
+      "https://crbug.com/882284",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=971917",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=651311"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40964464"
+    ],
+    "oculus": [
+      "https://crbug.com/40964464"
+    ],
+    "opera_android": [
+      "https://crbug.com/40964464"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40964464"
+    ],
+    "webview_android": [
+      "https://crbug.com/40964464"
+    ]
+  },
+  "relative-color": {
+    "chrome": [
+      "https://issues.chromium.org/issues/325309578",
+      "https://crbug.com/1475009"
+    ]
+  },
+  "request-animation-frame": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=146849",
+      "http://crbug.com/158676"
+    ]
+  },
+  "request-video-frame-callback": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1012063"
+    ],
+    "firefox": [
+      "https://bugzil.la/1800882",
+      "https://bugzil.la/1908245"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1800882",
+      "https://bugzil.la/1908245"
+    ]
+  },
+  "resizable-buffers": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=11111"
+    ]
+  },
+  "resize-observer": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1027684",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=612962"
+    ]
+  },
+  "resolution": {
+    "chrome": [
+      "http://crbug.com/158744"
+    ]
+  },
+  "resource-size": {
+    "chrome": [
+      "http://crbug.com/611278"
+    ]
+  },
+  "resource-timing": {
+    "chrome": [
+      "https://issuetracker.google.com/issues/327941462",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1402089",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1358591",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1366706",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1337256",
+      "https://crbug.com/1184726",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=663175",
+      "https://crbug.com/678547",
+      "https://code.google.com/p/chromium/issues/detail?id=465640",
+      "https://code.google.com/p/chromium/issues/detail?id=515344",
+      "http://crbug.com/159544"
+    ],
+    "firefox": [
+      "https://bugzil.la/1811291"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1811291"
+    ]
+  },
+  "revert-value": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=579788"
+    ]
+  },
+  "rgb": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=788707",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=76362"
+    ]
+  },
+  "rhythmic-sizing": {
+    "chrome": [
+      "http://crbug.com/586413"
+    ]
+  },
+  "round-mod-rem": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40253179"
+    ]
+  },
+  "ruby": {
+    "chrome": [
+      "http://crbug.com/859416"
+    ]
+  },
+  "ruby-align": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40249572"
+    ]
+  },
+  "ruby-overhang": {
+    "chrome": [
+      "https://issues.chromium.org/issues/366873207"
+    ]
+  },
+  "ruby-position": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=196690"
+    ]
+  },
+  "safe-area-inset": {
+    "chrome": [
+      "https://issues.chromium.org/391621941",
+      "https://g-issues.chromium.org/issues/324436581",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=825890"
+    ]
+  },
+  "sanitizer": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40138584",
+      "https://crbug.com/1428276",
+      "https://crbug.com/1101982"
+    ]
+  },
+  "savedata": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=772566",
+      "https://code.google.com/p/chromium/issues/detail?id=485640"
+    ]
+  },
+  "scheduler": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=979020",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=979017"
+    ]
+  },
+  "screen": {
+    "chrome": [
+      "https://crbug.com/701466"
+    ]
+  },
+  "screen-capture": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/383946052",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1480383",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1477706",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1198918",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1337019",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1224912",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1329132",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1329129",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1215480",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1150788",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=326740"
+    ]
+  },
+  "screen-orientation": {
+    "chrome": [
+      "https://code.google.com/p/chromium/issues/detail?id=162827"
+    ]
+  },
+  "screen-wake-lock": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1133696",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1122518",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=257511"
+    ],
+    "webview_android": [
+      "https://crbug.com/40740509"
+    ]
+  },
+  "script": {
+    "chrome": [
+      "https://crbug.com/505063237",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1245528",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=721914"
+    ]
+  },
+  "scripting": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1467097"
+    ]
+  },
+  "scroll-buttons": {
+    "chrome": [
+      "https://crbug.com/370067113"
+    ]
+  },
+  "scroll-elements": {
+    "chrome": [
+      "https://crbug.com/721759",
+      "https://code.google.com/p/chromium/issues/detail?id=475531",
+      "http://crbug.com/157855"
+    ]
+  },
+  "scroll-initial-target": {
+    "chrome": [
+      "https://crbug.com/40909052"
+    ]
+  },
+  "scroll-into-view": {
+    "chrome": [
+      "https://crbug.com/325081538"
+    ],
+    "firefox": [
+      "https://bugzil.la/1389274"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1389274"
+    ]
+  },
+  "scroll-markers": {
+    "chrome": [
+      "https://issues.chromium.org/issues/332396355"
+    ]
+  },
+  "scroll-snap": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=823998",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=497851"
+    ]
+  },
+  "scroll-to-text-fragment": {
+    "chrome": [
+      "https://crbug.com/1214791",
+      "https://crbug.com/1057795",
+      "https://crbug.com/919204"
+    ]
+  },
+  "scrollbar-gutter": {
+    "chrome": [
+      "https://crbug.com/710214"
+    ]
+  },
+  "scrollend": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=907601"
+    ]
+  },
+  "search": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1294294"
+    ]
+  },
+  "search-input-type": {
+    "chrome": [
+      "http://crbug.com/590117"
+    ]
+  },
+  "secure-payment-confirmation": {
+    "chrome": [
+      "https://crbug.com/484043990"
+    ]
+  },
+  "select": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40236878",
+      "https://issues.chromium.org/issues/339141283",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1403735"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/227042"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/227042"
+    ]
+  },
+  "selection-api": {
+    "chrome": [
+      "https://issues.chromium.org/issues/355124441",
+      "https://issues.chromium.org/issues/330766600",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=992606",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=820947",
+      "http://crbug.com/692881",
+      "http://crbug.com/353069",
+      "http://crbug.com/ 691422",
+      "http://crbug.com/691422",
+      "https://code.google.com/p/chromium/issues/detail?id=445218"
+    ]
+  },
+  "serial": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/365514951",
+      "https://g-issues.chromium.org/issues/375245353",
+      "https://crbug.com/1488031",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1182905",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1312010",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1295963",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1043300",
+      "https://crbug.com/884928"
+    ],
+    "webview_android": [
+      "https://crbug.com/40740509"
+    ]
+  },
+  "serializable-errors": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=970079"
+    ]
+  },
+  "server-timing": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=702760",
+      "https://crbug.com/40811358"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40811358"
+    ],
+    "edge": [
+      "https://crbug.com/40811358"
+    ],
+    "oculus": [
+      "https://crbug.com/40811358"
+    ],
+    "opera": [
+      "https://crbug.com/40811358"
+    ],
+    "opera_android": [
+      "https://crbug.com/40811358"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40811358"
+    ],
+    "webview_android": [
+      "https://crbug.com/40811358"
+    ]
+  },
+  "service-workers": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40364838",
+      "https://issues.chromium.org/issues/41337436",
+      "https://crbug.com/41411856",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1347319",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=906991",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1039558",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=977496",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=971571",
+      "https://crbug.com/623464",
+      "https://crbug.com/915685",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=448427",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=778497",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=648295",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=719052",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=720919",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=542499",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=836217",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=771933",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=807818",
+      "https://crbug.com/705685",
+      "https://crbug.com/675540",
+      "https://crbug.com/659074",
+      "https://crbug.com/552310",
+      "https://code.google.com/p/chromium/issues/detail?id=598608",
+      "https://code.google.com/p/chromium/issues/detail?id=552309",
+      "https://code.google.com/p/chromium/issues/detail?id=530540",
+      "https://code.google.com/p/chromium/issues/detail?id=461411",
+      "https://code.google.com/p/chromium/issues/detail?id=513655",
+      "https://code.google.com/p/chromium/issues/detail?id=501380",
+      "https://code.google.com/p/chromium/issues/detail?id=523916",
+      "http://crbug.com/500911",
+      "https://code.google.com/p/chromium/issues/detail?id=510298",
+      "https://code.google.com/p/chromium/issues/detail?id=427652",
+      "https://code.google.com/p/chromium/issues/detail?id=450507",
+      "https://code.google.com/p/chromium/issues/detail?id=498596",
+      "https://code.google.com/p/chromium/issues/detail?id=504222",
+      "https://code.google.com/p/chromium/issues/detail?id=478382",
+      "http://crbug.com/455282",
+      "http://crbug.com/425426",
+      "http://crbug.com/364627",
+      "https://crbug.com/40364838"
+    ],
+    "firefox": [
+      "https://bugzil.la/1855580"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1855580"
+    ],
+    "safari": [
+      "https://webkit.org/b/269893"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/269893"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/269893"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40364838"
+    ],
+    "edge": [
+      "https://crbug.com/40364838"
+    ],
+    "oculus": [
+      "https://crbug.com/40364838"
+    ],
+    "opera": [
+      "https://crbug.com/40364838"
+    ],
+    "opera_android": [
+      "https://crbug.com/40364838"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40364838"
+    ],
+    "webview_android": [
+      "https://crbug.com/40364838"
+    ]
+  },
+  "set": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=1622"
+    ]
+  },
+  "set-methods": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=13556"
+    ]
+  },
+  "setinterval": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41380458"
+    ]
+  },
+  "settimeout": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=402694"
+    ]
+  },
+  "shadow-dom": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=645527",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=599743",
+      "https://crbug.com/531990"
+    ]
+  },
+  "shadow-parts": {
+    "chrome": [
+      "https://issues.chromium.org/40623497",
+      "https://crbug.com/805271"
+    ]
+  },
+  "shape-function": {
+    "chrome": [
+      "https://issues.chromium.org/issues/329302249"
+    ]
+  },
+  "shape-outside": {
+    "chrome": [
+      "https://issues.chromium.org/u/2/issues/502328208",
+      "https://issues.chromium.org/issues/490343453",
+      "http://crbug.com/249140"
+    ]
+  },
+  "shapes": {
+    "chrome": [
+      "https://crbug.com/1481015"
+    ]
+  },
+  "share": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1079104",
+      "https://crbug.com/903010",
+      "https://crbug.com/620973"
+    ],
+    "webview_android": [
+      "https://crbug.com/40540400"
+    ]
+  },
+  "shared-memory": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=923807",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7883"
+    ]
+  },
+  "shared-storage": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/367440966",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1218540"
+    ]
+  },
+  "show-picker-input": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=939561"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/261703"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/261703"
+    ]
+  },
+  "show-picker-select": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1485010"
+    ]
+  },
+  "sibling-count": {
+    "chrome": [
+      "https://crbug.com/40282719"
+    ],
+    "firefox": [
+      "https://bugzil.la/1953973"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1953973"
+    ]
+  },
+  "slot": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1006096",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=795544",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=660265",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=660777"
+    ]
+  },
+  "slot-assign": {
+    "chrome": [
+      "https://crbug.com/1196842",
+      "http://crbug.com/869308"
+    ]
+  },
+  "speech-recognition": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/476168420",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=986771",
+      "http://crbug.com/761371",
+      "http://crbug.com/123688"
+    ],
+    "chrome_android": [
+      "https://crbug.com/41297427"
+    ],
+    "oculus": [
+      "https://crbug.com/41297427"
+    ],
+    "opera_android": [
+      "https://crbug.com/41297427"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/41297427"
+    ],
+    "webview_android": [
+      "https://crbug.com/41297427"
+    ]
+  },
+  "speech-synthesis": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1224942",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=923556",
+      "https://crbug.com/812767",
+      "http://crbug.com/171887"
+    ],
+    "webview_android": [
+      "https://crbug.com/40417848"
+    ]
+  },
+  "spread": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=3018"
+    ]
+  },
+  "srcset": {
+    "chrome": [
+      "http://code.google.com/p/chromium/issues/detail?id=296891"
+    ]
+  },
+  "starting-style": {
+    "chrome": [
+      "https://crbug.com/1412851"
+    ]
+  },
+  "state": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41486953",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1012098"
+    ]
+  },
+  "steps-easing": {
+    "chrome": [
+      "https://crbug.com/893397"
+    ]
+  },
+  "sticky-positioning": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=664246",
+      "https://code.google.com/p/chromium/issues/detail?id=231752"
+    ]
+  },
+  "storage-access": {
+    "chrome": [
+      "https://crbug.com/379030052",
+      "https://crbug.com/989663"
+    ]
+  },
+  "storage-manager": {
+    "chrome": [
+      "http://crbug.com/904000",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=502373",
+      "https://crbug.com/603992",
+      "https://code.google.com/p/chromium/issues/detail?id=502373"
+    ]
+  },
+  "streams": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1093862",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1215992",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1163746",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=998377",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=780689",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=668951",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=658144"
+    ]
+  },
+  "stretch": {
+    "chrome": [
+      "https://crbug.com/41253915"
+    ],
+    "firefox": [
+      "https://bugzil.la/1789477"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1789477"
+    ],
+    "safari": [
+      "https://webkit.org/b/277117"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/277117"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/277117"
+    ]
+  },
+  "string-matchall": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6890"
+    ]
+  },
+  "string-pad": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4954"
+    ]
+  },
+  "string-replaceall": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9801"
+    ]
+  },
+  "string-trim-startend": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6530"
+    ]
+  },
+  "string-wellformed": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=13557"
+    ]
+  },
+  "structured-clone": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1233571"
+    ]
+  },
+  "subgrid": {
+    "chrome": [
+      "https://crbug.com/618969"
+    ]
+  },
+  "summarizer": {
+    "chrome": [
+      "http://crbug.com/486970516",
+      "https://issues.chromium.org/issues/351744634"
+    ]
+  },
+  "supports": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1255685",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=979041",
+      "http://crbug.com/140487",
+      "https://crbug.com/40244647"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40244647"
+    ],
+    "edge": [
+      "https://crbug.com/40244647"
+    ],
+    "oculus": [
+      "https://crbug.com/40244647"
+    ],
+    "opera": [
+      "https://crbug.com/40244647"
+    ],
+    "opera_android": [
+      "https://crbug.com/40244647",
+      "https://crbug.com/40633900"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40244647"
+    ],
+    "webview_android": [
+      "https://crbug.com/40244647"
+    ]
+  },
+  "supports-at-rule": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40211832"
+    ]
+  },
+  "svg": {
+    "chrome": [
+      "https://crbug.com/482223009",
+      "https://issues.chromium.org/issues/374010056",
+      "https://issues.chromium.org/issues/40589293",
+      "https://issues.chromium.org/issues/40377919",
+      "https://issues.chromium.org/issues/40409865",
+      "https://issues.chromium.org/issues/40067618",
+      "https://issues.chromium.org/issues/40313130",
+      "https://issues.chromium.org/issues/40362369",
+      "https://issues.chromium.org/issues/40572887",
+      "https://issues.chromium.org/40134477",
+      "https://issues.chromium.org/issues/324440102",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=842321",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1300195",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=723076"
+    ],
+    "firefox": [
+      "https://bugzil.la/1278697",
+      "https://bugzil.la/890692"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1278697",
+      "https://bugzil.la/890692"
+    ]
+  },
+  "svg-discouraged": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=669498",
+      "https://crbug.com/539385",
+      "http://crbug.com/242735"
+    ],
+    "safari": [
+      "https://webkit.org/b/226721"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/226721"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/226721"
+    ]
+  },
+  "svg-filters": {
+    "chrome": [
+      "https://crbug.com/476646486"
+    ],
+    "safari": [
+      "https://webkit.org/b/246106"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/246106"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/246106"
+    ]
+  },
+  "symbol": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7807",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=4447",
+      "https://bugs.chromium.org/p/v8/issues/detail?id=3502",
+      "https://code.google.com/p/v8/issues/detail?id=2158"
+    ]
+  },
+  "system-color": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40229450?pli=1",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1081945",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1015968#makechanges"
+    ]
+  },
+  "tab-size": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=974090"
+    ]
+  },
+  "table": {
+    "chrome": [
+      "https://crbug.com/494554835",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=715559"
+    ]
+  },
+  "target-text": {
+    "chrome": [
+      "https://crbug.com/1136817"
+    ]
+  },
+  "template": {
+    "chrome": [
+      "http://crbug.com/164794"
+    ]
+  },
+  "template-literals": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=5546",
+      "https://code.google.com/p/v8/issues/detail?id=3230"
+    ]
+  },
+  "temporal": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=11544",
+      "https://crbug.com/401065166"
+    ],
+    "safari": [
+      "https://webkit.org/b/223166"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/223166"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/223166"
+    ],
+    "chrome_android": [
+      "https://crbug.com/401065166"
+    ],
+    "edge": [
+      "https://crbug.com/401065166"
+    ],
+    "oculus": [
+      "https://crbug.com/401065166"
+    ],
+    "opera": [
+      "https://crbug.com/401065166"
+    ],
+    "opera_android": [
+      "https://crbug.com/401065166"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/401065166"
+    ],
+    "webview_android": [
+      "https://crbug.com/401065166"
+    ]
+  },
+  "text-align": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/40787216"
+    ]
+  },
+  "text-autospace": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1463890"
+    ],
+    "firefox": [
+      "https://bugzil.la/1869577",
+      "https://bugzil.la/1986500",
+      "https://bugzil.la/1980111"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1869577",
+      "https://bugzil.la/1986500",
+      "https://bugzil.la/1980111"
+    ]
+  },
+  "text-decoration": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40862777",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=777428",
+      "https://crbug.com/665898"
+    ]
+  },
+  "text-decoration-skip-ink": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40675832"
+    ]
+  },
+  "text-emphasis": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=666433",
+      "https://code.google.com/p/chromium/issues/detail?id=522882"
+    ]
+  },
+  "text-encoding": {
+    "chrome": [
+      "https://crbug.com/920107",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=845427",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=595351",
+      "http://crbug.com/398149"
+    ]
+  },
+  "text-justify": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40321528"
+    ],
+    "safari": [
+      "https://webkit.org/b/99945"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/99945"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/99945"
+    ]
+  },
+  "text-overflow": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41492459"
+    ]
+  },
+  "text-size-adjust": {
+    "chrome": [
+      "https://crbug.com/340389272",
+      "https://crbug.com/623158"
+    ]
+  },
+  "text-tracks": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=608772",
+      "https://crbug.com/535475",
+      "https://crbug.com/41338648"
+    ],
+    "chrome_android": [
+      "https://crbug.com/41338648"
+    ],
+    "oculus": [
+      "https://crbug.com/41338648"
+    ],
+    "opera": [
+      "https://crbug.com/41338648"
+    ],
+    "opera_android": [
+      "https://crbug.com/41338648"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/41338648"
+    ],
+    "webview_android": [
+      "https://crbug.com/41338648"
+    ]
+  },
+  "text-transform": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41297237"
+    ]
+  },
+  "text-underline-position": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=313888"
+    ]
+  },
+  "text-wrap-balance": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1251079"
+    ]
+  },
+  "textarea": {
+    "chrome": [
+      "http://crbug.com/624361"
+    ]
+  },
+  "time": {
+    "chrome": [
+      "http://crbug.com/655921"
+    ]
+  },
+  "top-level-await": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=9344"
+    ]
+  },
+  "touch-action": {
+    "chrome": [
+      "http://crbug.com/626086",
+      "https://crbug.com/626101",
+      "http://crbug.com/258459"
+    ],
+    "firefox": [
+      "https://bugzil.la/1285685"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1285685"
+    ]
+  },
+  "touch-events": {
+    "chrome": [
+      "http://crbug.com/1072364",
+      "https://crbug.com/518868",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=392584",
+      "http://crbug.com/522100",
+      "http://crbug.com/508675",
+      "http://code.google.com/p/chromium/issues/detail?id=493199",
+      "https://code.google.com/p/chromium/issues/detail?id=379150"
+    ]
+  },
+  "transferable-streams": {
+    "chrome": [
+      "https://crbug.com/894838"
+    ]
+  },
+  "transform-box": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=595829"
+    ]
+  },
+  "transforms3d": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1253596",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1008483"
+    ]
+  },
+  "transition-behavior": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1399631"
+    ]
+  },
+  "transitions": {
+    "chrome": [
+      "https://crbug.com/868224",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=926233",
+      "http://crbug.com/695504",
+      "http://crbug.com/711600"
+    ]
+  },
+  "trig-functions": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1190444"
+    ]
+  },
+  "two-value-display": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=995106"
+    ]
+  },
+  "ua-client-hints": {
+    "chrome": [
+      "https://issues.chromium.org/issues/385161047",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1430051",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1288837",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=928669"
+    ],
+    "webview_android": [
+      "https://crbug.com/40609350"
+    ],
+    "firefox": [
+      "https://bugzil.la/935216"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/935216"
+    ]
+  },
+  "update": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=791028"
+    ]
+  },
+  "upgrade-insecure-requests": {
+    "chrome": [
+      "https://crbug.com/455674"
+    ]
+  },
+  "url": {
+    "chrome": [
+      "https://crbug.com/40765949",
+      "https://issues.chromium.org/issues/331041242",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1418374",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=680531",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=682143",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=303152",
+      "https://crbug.com/303152",
+      "https://code.google.com/p/chromium/issues/detail?id=303152"
+    ]
+  },
+  "url-canparse": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1425839"
+    ]
+  },
+  "urlpattern": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/414682820",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1504650",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1482263",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1468446",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1345036",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1141510"
+    ]
+  },
+  "user-action-pseudos": {
+    "chrome": [
+      "https://crbug.com/407769114"
+    ]
+  },
+  "user-activation": {
+    "chrome": [
+      "https://issues.chromium.org/433729626",
+      "https://crbug.com/951898",
+      "https://crbug.com/846858",
+      "http://crbug.com/696617"
+    ]
+  },
+  "vibration": {
+    "chrome": [
+      "https://crbug.com/704650",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=625044",
+      "http://crbug.com/222504"
+    ]
+  },
+  "video": {
+    "chrome": [
+      "https://crbug.com/943877",
+      "https://crbug.com/710617",
+      "https://crbug.com/618000"
+    ]
+  },
+  "view-transition-class": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1519997"
+    ]
+  },
+  "view-transitions": {
+    "chrome": [
+      "https://issues.chromium.org/346976175",
+      "https://issues.chromium.org/439800102",
+      "https://issues.chromium.org/issues/445771450",
+      "https://issues.chromium.org/434949972",
+      "https://issues.chromium.org/427741151",
+      "https://issues.chromium.org/430018991",
+      "https://issues.chromium.org/issues/365997248",
+      "https://issuetracker.google.com/399431227",
+      "https://issues.chromium.org/issues/41495176",
+      "https://crbug.com/1466250",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1328796"
+    ],
+    "firefox": [
+      "https://bugzil.la/1860854",
+      "https://bugzil.la/1881438"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1860854",
+      "https://bugzil.la/1881438"
+    ]
+  },
+  "view-transitions-element-scoped": {
+    "chrome": [
+      "https://issues.chromium.org/issues/394052227"
+    ]
+  },
+  "viewport-unit-variants": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1093055"
+    ]
+  },
+  "virtual-pressure-sources": {
+    "chrome": [
+      "https://issues.chromium.org/u/1/issues/347031400"
+    ]
+  },
+  "virtual-sensors": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1278377"
+    ]
+  },
+  "visual-viewport": {
+    "chrome": [
+      "https://crbug.com/760916",
+      "http://crbug.com/595826"
+    ],
+    "safari": [
+      "https://webkit.org/b/300493"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/300493"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/300493"
+    ]
+  },
+  "wasm": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=12281",
+      "https://crbug.com/1171644",
+      "https://code.google.com/p/chromium/issues/detail?id=575167"
+    ]
+  },
+  "wasm-bigint": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7741"
+    ]
+  },
+  "wasm-bulk-memory": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7747"
+    ]
+  },
+  "wasm-exception-handling": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=8091"
+    ]
+  },
+  "wasm-extended-constant-expressions": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=12089"
+    ]
+  },
+  "wasm-garbage-collection": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7748"
+    ]
+  },
+  "wasm-multi-memory": {
+    "chrome": [
+      "https://crbug.com/v8/13918"
+    ]
+  },
+  "wasm-multi-value": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6672"
+    ]
+  },
+  "wasm-mutable-globals": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7625"
+    ]
+  },
+  "wasm-non-trapping-float-to-int": {
+    "chrome": [
+      "https://crbug.com/v8/7226"
+    ]
+  },
+  "wasm-reference-types": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7581"
+    ]
+  },
+  "wasm-simd": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=6020&desc=2"
+    ]
+  },
+  "wasm-simd-relaxed": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=12284"
+    ]
+  },
+  "wasm-tail-call-optimization": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=7431"
+    ]
+  },
+  "wasm-threads": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=857476"
+    ]
+  },
+  "weak-references": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=8179"
+    ],
+    "firefox": [
+      "https://bugzil.la/1863140"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1863140"
+    ]
+  },
+  "weakmap": {
+    "chrome": [
+      "https://bugs.chromium.org/p/v8/issues/detail?id=12947",
+      "http://crbug.com/97642"
+    ]
+  },
+  "web-animations": {
+    "chrome": [
+      "http://crbug.com/978551",
+      "http://crbug.com/981905",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=827634",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=827630",
+      "http://crbug.com/948657",
+      "http://crbug.com/948253",
+      "http://crbug.com/257235",
+      "https://code.google.com/p/chromium/issues/detail?id=396369"
+    ]
+  },
+  "web-audio": {
+    "chrome": [
+      "https://crbug.com/40637820",
+      "https://issues.chromium.org/issues/374805121",
+      "https://crbug.com/41495720",
+      "https://g-issues.chromium.org/issues/475838360",
+      "https://crbug.com/1216187",
+      "http://crbug.com/785409",
+      "https://crbug.com/1093016",
+      "https://crbug.com/1021552",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1018303",
+      "https://crbug.com/679813",
+      "https://crbug.com/984994",
+      "https://crbug.com/691806",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=432248",
+      "http://crbug.com/845913",
+      "https://crbug.com/828947",
+      "http://crbug.com/764396",
+      "http://crbug.com/496282",
+      "http://crbug.com/704679",
+      "http://crbug.com/663818",
+      "http://crbug.com/678273",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=619533",
+      "http://crbug.com/633795",
+      "https://crbug.com/665887",
+      "http://crbug.com/432934",
+      "http://crbug.com/662164",
+      "http://crbug.com/661207",
+      "http://crbug.com/652712",
+      "http://crbug.com/653234",
+      "http://crbug.com/439644",
+      "http://crbug.com/644438",
+      "https://crbug.com/555608",
+      "http://crbug.com/626449",
+      "http://crbug.com/597432",
+      "https://crbug.com/594594",
+      "https://crbug.com/595022",
+      "http://crbug.com/590000",
+      "http://crbug.com/564276",
+      "https://code.google.com/p/chromium/issues/detail?id=554992",
+      "https://code.google.com/p/chromium/issues/detail?id=497234",
+      "http://crbug.com/514782",
+      "http://crbug.com/499919",
+      "http://crbug.com/455373",
+      "https://code.google.com/p/chromium/issues/detail?id=463279",
+      "https://code.google.com/p/chromium/issues/detail?id=361859",
+      "http://crbug.com/420107",
+      "https://code.google.com/p/chromium/issues/detail?id=441451",
+      "https://code.google.com/p/chromium/issues/detail?id=448071",
+      "http://crbug.com/439241",
+      "http://code.google.com/p/chromium/issues/detail?id=448960",
+      "https://code.google.com/p/chromium/issues/detail?id=432194",
+      "https://code.google.com/p/chromium/issues/detail?id=424356",
+      "http://code.google.com/p/chromium/issues/detail?id=420106",
+      "https://crbug.com/40500817"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40500817"
+    ],
+    "edge": [
+      "https://crbug.com/40500817"
+    ],
+    "oculus": [
+      "https://crbug.com/40500817"
+    ],
+    "opera": [
+      "https://crbug.com/40500817"
+    ],
+    "opera_android": [
+      "https://crbug.com/40500817"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40500817"
+    ],
+    "webview_android": [
+      "https://crbug.com/40500817"
+    ],
+    "firefox": [
+      "https://bugzil.la/1504984",
+      "https://bugzil.la/1308431"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1504984",
+      "https://bugzil.la/1308431"
+    ]
+  },
+  "web-cryptography": {
+    "chrome": [
+      "https://issues.chromium.org/issues/450627017",
+      "https://issues.chromium.org/issues/378856322",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1197594",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1370697",
+      "http://crbug.com/245025"
+    ],
+    "firefox": [
+      "https://bugzil.la/1804788"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1804788"
+    ]
+  },
+  "web-locks": {
+    "chrome": [
+      "https://crbug.com/161072"
+    ]
+  },
+  "web-midi": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1420307",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=924471",
+      "http://crbug.com/599335",
+      "http://crbug.com/163795",
+      "https://crbug.com/40411677"
+    ],
+    "safari": [
+      "https://webkit.org/b/107250"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/107250"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/107250"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40411677"
+    ],
+    "edge": [
+      "https://crbug.com/40411677"
+    ],
+    "oculus": [
+      "https://crbug.com/40411677"
+    ],
+    "opera": [
+      "https://crbug.com/40411677"
+    ],
+    "opera_android": [
+      "https://crbug.com/40411677"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40411677"
+    ],
+    "webview_android": [
+      "https://crbug.com/40411677"
+    ]
+  },
+  "web-otp": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1015645",
+      "https://crbug.com/1136506",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=670299"
+    ]
+  },
+  "webauthn": {
+    "chrome": [
+      "https://issues.chromium.org/issues/506062130",
+      "https://issues.chromium.org/issues/408002783",
+      "https://issues.chromium.org/u/1/issues/41484826",
+      "https://issues.chromium.org/issues/381219428",
+      "https://crbug.com/361751877",
+      "https://g-issues.chromium.org/issues/360327828",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1420639",
+      "https://crbug.com/1171985",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1243721",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1114875",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1106961",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=993007",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=953051",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=780078#c31",
+      "https://crbug.com/664630"
+    ]
+  },
+  "webauthn-public-key-easy": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1083301"
+    ]
+  },
+  "webcodecs": {
+    "chrome": [
+      "https://issues.chromium.org/issues/347676170",
+      "https://crbug.com/40243431",
+      "https://issues.chromium.org/issues/40267195",
+      "https://crbug.com/1493588",
+      "https://crbug.com/1446808",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1464862",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1462467",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1424154",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1340190",
+      "https://crbug.com/1341116",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1073995",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=897297"
+    ]
+  },
+  "webdriver": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1152355",
+      "https://crbug.com/723900"
+    ]
+  },
+  "webgl-color-management": {
+    "chrome": [
+      "https://crbug.com/1208480"
+    ]
+  },
+  "webgl2": {
+    "chrome": [
+      "http://crbug.com/641635"
+    ]
+  },
+  "webgpu": {
+    "chrome": [
+      "https://issues.chromium.org/issues/366291600",
+      "https://crbug.com/tint/482840564",
+      "https://issues.chromium.org/issues/462620664",
+      "https://crbug.com/459500757",
+      "https://crbug.com/454653380",
+      "https://crbug.com/454654255",
+      "https://crbug.com/452662924",
+      "https://issues.chromium.org/issues/414312052",
+      "https://issues.chromium.org/issues/445725447",
+      "https://issues.chromium.org/issues/342840940",
+      "https://issues.chromium.org/issues/409259074",
+      "https://issues.chromium.org/issues/398752857",
+      "https://issues.chromium.org/issues/403172841",
+      "https://crbug.com/442618060",
+      "https://crbug.com/366151404",
+      "https://issues.chromium.org/issues/376924407",
+      "https://issues.chromium.org/issues/364338810",
+      "https://issues.chromium.org/issues/376600838",
+      "https://issues.chromium.org/issues/369649348",
+      "https://issues.chromium.org/issues/363903526",
+      "https://issues.chromium.org/issues/370109829",
+      "https://issues.chromium.org/issues/358408571",
+      "https://issues.chromium.org/issues/341973423",
+      "https://issues.chromium.org/issues/333967627",
+      "https://issues.chromium.org/issues/335383516",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1521763",
+      "https://bugs.chromium.org/p/dawn/issues/detail?id=2146",
+      "https://bugs.chromium.org/p/dawn/issues/detail?id=1020",
+      "https://bugs.chromium.org/p/dawn/issues/detail?id=1972",
+      "https://bugs.chromium.org/p/dawn/issues/detail?id=2254",
+      "https://bugs.chromium.org/p/dawn/issues/detail?id=1800",
+      "https://bugs.chromium.org/p/dawn/issues/detail?id=1849",
+      "https://bugs.chromium.org/p/dawn/issues/detail?id=1777",
+      "https://crbug.com/dawn/1756",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1156646"
+    ]
+  },
+  "webhid": {
+    "chrome": [
+      "https://chromium-review.googlesource.com/c/chromium/src/+/5841991",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1303195",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1301934",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1279822",
+      "https://crbug.com/890096"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40628009"
+    ],
+    "oculus": [
+      "https://crbug.com/40628009"
+    ],
+    "opera_android": [
+      "https://crbug.com/40628009"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40628009"
+    ],
+    "webview_android": [
+      "https://crbug.com/40163407"
+    ]
+  },
+  "webnn": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40206287"
+    ]
+  },
+  "webp": {
+    "chrome": [
+      "http://crbug.com/234777"
+    ]
+  },
+  "webrtc": {
+    "chrome": [
+      "https://crbug.com/461717105",
+      "https://issues.webrtc.org/439514253",
+      "https://issues.webrtc.org/u/1/issues/450044904",
+      "https://crbug.com/391903235",
+      "https://issues.chromium.org/issues/324276557",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1354626",
+      "https://bugs.chromium.org/p/webrtc/issues/detail?id=15467",
+      "https://crbug.com/1315576",
+      "https://crbug.com/webrtc/11066",
+      "https://issues.chromium.org/41370769",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=857004",
+      "https://bugs.chromium.org/p/webrtc/issues/detail?id=6625",
+      "https://crbug.com/708484",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1013564",
+      "https://crbug.com/1040584",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=696681",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=980885",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=980875",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=980881",
+      "https://bugs.chromium.org/p/webrtc/issues/detail?id=3098",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=844386",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=907849",
+      "https://crbug.com/980879",
+      "https://bugs.chromium.org/p/chromium/issues/approval?id=936047",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=683094",
+      "https://crbug.com/821806",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=857047",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=857048",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=823144",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=908911",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=891556",
+      "https://crbug.com/857451",
+      "https://crbug.com/803494",
+      "https://crbug.com/777617",
+      "https://crbug.com/812587",
+      "https://crbug.com/790007",
+      "https://crbug.com/857003",
+      "https://crbug.com/700916",
+      "https://crbug.com/698163",
+      "https://crbug.com/698313",
+      "http://crbug.com/703122",
+      "http://crbug.com/681083",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=685727",
+      "http://crbug.com/587453",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=673395",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=587453",
+      "https://crbug.com/659286",
+      "https://crbug.com/658428",
+      "https://crbug.com/658423",
+      "https://crbug.com/581354",
+      "https://crbug.com/582920",
+      "http://crbug.com/700916",
+      "https://crbug.com/564579",
+      "http://crbug.com/528250",
+      "https://code.google.com/p/chromium/issues/detail?id=496700"
+    ],
+    "safari": [
+      "https://webkit.org/b/198179"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/198179"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/198179"
+    ]
+  },
+  "webrtc-encoded-transform": {
+    "chrome": [
+      "https://crbug.com/391114797",
+      "https://issues.chromium.org/issues/354881878",
+      "https://issues.chromium.org/issues/40248396",
+      "https://crbug.com/1052765"
+    ]
+  },
+  "webrtc-sctp": {
+    "chrome": [
+      "https://crbug.com/818643"
+    ]
+  },
+  "webrtc-stats": {
+    "chrome": [
+      "https://crbug.com/406585888",
+      "https://crbug.com/822696",
+      "https://crbug.com/1374215",
+      "https://crbug.com/680172",
+      "http://crbug.com/685655"
+    ]
+  },
+  "websockets": {
+    "chrome": [
+      "https://issues.chromium.org/issues/325979102",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1286832",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=423609",
+      "https://crbug.com/801564",
+      "http://crbug.com/12497"
+    ],
+    "firefox": [
+      "https://bugzil.la/775368"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/775368"
+    ]
+  },
+  "webusb": {
+    "chrome": [
+      "https://crbug.com/40783010",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1455392",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1303193",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1299351",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1274922",
+      "https://crbug.com/837406",
+      "https://crbug.com/492204"
+    ],
+    "webview_android": [
+      "https://crbug.com/41441927"
+    ]
+  },
+  "webvr": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=389343"
+    ]
+  },
+  "webvtt": {
+    "chrome": [
+      "http://code.google.com/p/chromium/issues/detail?id=270340"
+    ],
+    "firefox": [
+      "https://bugzil.la/1321489"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1321489"
+    ]
+  },
+  "webvtt-cue-alignment": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=633690",
+      "https://crbug.com/41267398"
+    ],
+    "chrome_android": [
+      "https://crbug.com/41267398"
+    ],
+    "edge": [
+      "https://crbug.com/41267398"
+    ],
+    "oculus": [
+      "https://crbug.com/41267398"
+    ],
+    "opera": [
+      "https://crbug.com/41267398"
+    ],
+    "opera_android": [
+      "https://crbug.com/41267398"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/41267398"
+    ],
+    "webview_android": [
+      "https://crbug.com/41267398"
+    ]
+  },
+  "webvtt-regions": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=690014"
+    ]
+  },
+  "webxr-anchors": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=833646"
+    ],
+    "webview_android": [
+      "https://crbug.com/40652382"
+    ]
+  },
+  "webxr-ar": {
+    "chrome": [
+      "https://crbug.com/949296"
+    ]
+  },
+  "webxr-camera": {
+    "chrome": [
+      "https://crbug.com/1090056"
+    ],
+    "webview_android": [
+      "https://crbug.com/40652382"
+    ]
+  },
+  "webxr-depth-sensing": {
+    "chrome": [
+      "https://bugs.chromium.org/410607163",
+      "https://crbug.com/1119487"
+    ],
+    "webview_android": [
+      "https://crbug.com/40652382"
+    ]
+  },
+  "webxr-dom-overlays": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=991747"
+    ],
+    "webview_android": [
+      "https://crbug.com/40652382"
+    ]
+  },
+  "webxr-gamepads": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=968343"
+    ]
+  },
+  "webxr-hand-input": {
+    "chrome": [
+      "https://crbug.com/359418633"
+    ]
+  },
+  "webxr-hit-test": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=833633"
+    ],
+    "webview_android": [
+      "https://crbug.com/40652382"
+    ]
+  },
+  "webxr-layers": {
+    "chrome": [
+      "https://buganizer.corp.google.com/issues/409255534"
+    ]
+  },
+  "wheel-events": {
+    "chrome": [
+      "https://crbug.com/626196",
+      "https://crbug.com/526463",
+      "https://crbug.com/730030",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=564042",
+      "http://code.google.com/p/chromium/issues/detail?id=227454"
+    ]
+  },
+  "where": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=808904"
+    ]
+  },
+  "white-space": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=767634",
+      "https://crbug.com/40362378"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40362378"
+    ],
+    "oculus": [
+      "https://crbug.com/40362378"
+    ],
+    "opera": [
+      "https://crbug.com/40362378"
+    ],
+    "opera_android": [
+      "https://crbug.com/40362378"
+    ],
+    "safari": [
+      "https://webkit.org/b/293213"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/293213"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40362378"
+    ],
+    "webview_android": [
+      "https://crbug.com/40362378"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/293213"
+    ]
+  },
+  "will-change": {
+    "chrome": [
+      "http://crbug.com/356186"
+    ]
+  },
+  "window": {
+    "chrome": [
+      "https://g-issues.chromium.org/issues/417632037",
+      "https://code.google.com/p/chromium/issues/detail?id=453421"
+    ]
+  },
+  "window-controls-overlay": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=937121"
+    ],
+    "safari": [
+      "https://webkit.org/b/257782"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/257782"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/257782"
+    ]
+  },
+  "window-management": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1328581",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1254885",
+      "https://crbug.com/1233970",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=897300"
+    ]
+  },
+  "with": {
+    "chrome": [
+      "https://code.google.com/p/v8/issues/detail?id=3401"
+    ]
+  },
+  "word-break-auto-phrase": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1443291"
+    ]
+  },
+  "writing-mode": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40501131",
+      "http://crbug.com/533448"
+    ]
+  },
+  "xhr": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1189627",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=905968",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=827324",
+      "https://crbug.com/605517",
+      "https://crbug.com/357112",
+      "http://crbug.com/231959"
+    ],
+    "safari": [
+      "https://webkit.org/b/288688"
+    ]
+  },
+  "xslt": {
+    "chrome": [
+      "https://crbug.com/435623334"
+    ]
+  },
+  "zstd": {
+    "chrome": [
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1246971"
+    ]
+  },
+  "audio-session": {
+    "firefox": [
+      "https://bugzil.la/1921506"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1921506"
+    ]
+  },
+  "case-sensitive-attributes": {
+    "chrome": [
+      "https://crbug.com/40667738"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40667738"
+    ],
+    "edge": [
+      "https://crbug.com/40667738"
+    ],
+    "oculus": [
+      "https://crbug.com/40667738"
+    ],
+    "opera": [
+      "https://crbug.com/40667738"
+    ],
+    "opera_android": [
+      "https://crbug.com/40667738"
+    ],
+    "safari": [
+      "https://webkit.org/b/272573"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/272573"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40667738"
+    ],
+    "webview_android": [
+      "https://crbug.com/40667738"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/272573"
+    ]
+  },
+  "cross-fade": {
+    "firefox": [
+      "https://bugzil.la/1657516"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1657516"
+    ]
+  },
+  "custom-media-queries": {
+    "chrome": [
+      "https://crbug.com/40781325"
+    ],
+    "chrome_android": [
+      "https://crbug.com/40781325"
+    ],
+    "edge": [
+      "https://crbug.com/40781325"
+    ],
+    "oculus": [
+      "https://crbug.com/40781325"
+    ],
+    "opera": [
+      "https://crbug.com/40781325"
+    ],
+    "opera_android": [
+      "https://crbug.com/40781325"
+    ],
+    "safari": [
+      "https://webkit.org/b/233820"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/233820"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40781325"
+    ],
+    "webview_android": [
+      "https://crbug.com/40781325"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/233820"
+    ]
+  },
+  "digital-credentials": {
+    "webview_ios": [
+      "https://webkit.org/b/293646"
+    ]
+  },
+  "display-animation": {
+    "firefox": [
+      "https://bugzil.la/1882408",
+      "https://bugzil.la/1834877"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1882408",
+      "https://bugzil.la/1834877"
+    ]
+  },
+  "display-mode": {
+    "chrome_android": [
+      "https://crbug.com/40831406"
+    ],
+    "oculus": [
+      "https://crbug.com/40831406"
+    ],
+    "opera_android": [
+      "https://crbug.com/40831406"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/40831406"
+    ],
+    "webview_android": [
+      "https://crbug.com/40831406"
+    ]
+  },
+  "empty": {
+    "firefox": [
+      "https://bugzil.la/1106296"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1106296"
+    ]
+  },
+  "fast-seek": {
+    "chrome": [
+      "https://crbug.com/41276303"
+    ],
+    "chrome_android": [
+      "https://crbug.com/41276303"
+    ],
+    "edge": [
+      "https://crbug.com/41276303"
+    ],
+    "oculus": [
+      "https://crbug.com/41276303"
+    ],
+    "opera": [
+      "https://crbug.com/41276303"
+    ],
+    "opera_android": [
+      "https://crbug.com/41276303"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/41276303"
+    ],
+    "webview_android": [
+      "https://crbug.com/41276303"
+    ]
+  },
+  "federated-credentials": {
+    "firefox": [
+      "https://bugzil.la/1156047"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1156047"
+    ],
+    "safari": [
+      "https://webkit.org/b/172014"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/172014"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/172014"
     ]
   },
   "filter-function": {
@@ -1760,95 +6782,12 @@
       "https://crbug.com/41208242"
     ]
   },
-  "flexbox": {
-    "chrome": [
-      "https://crbug.com/41344054"
-    ],
-    "chrome_android": [
-      "https://crbug.com/41344054"
-    ],
-    "edge": [
-      "https://crbug.com/41344054"
-    ],
-    "oculus": [
-      "https://crbug.com/41344054"
-    ]
-  },
-  "focus-events": {
-    "chrome_android": [
-      "https://crbug.com/41453122"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1544660"
-    ],
-    "oculus": [
-      "https://crbug.com/41453122"
-    ],
-    "opera_android": [
-      "https://crbug.com/41453122"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/41453122"
-    ],
-    "webview_android": [
-      "https://crbug.com/41453122"
-    ]
-  },
-  "font-language-override": {
-    "safari": [
-      "https://webkit.org/b/150081"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/150081"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/150081"
-    ]
-  },
-  "form-associated-custom-elements": {
-    "safari": [
-      "https://webkit.org/b/197960"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/197960"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/197960"
-    ]
-  },
   "host-context": {
     "firefox": [
       "https://bugzil.la/1082060"
     ],
     "firefox_android": [
       "https://bugzil.la/1082060"
-    ]
-  },
-  "import-assertions": {
-    "safari": [
-      "https://webkit.org/b/227967"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/227967"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/227967"
-    ]
-  },
-  "inert": {
-    "safari": [
-      "https://webkit.org/b/269909"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/269909"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/269909"
-    ]
-  },
-  "input-color": {
-    "firefox_android": [
-      "https://bugzil.la/1796343"
     ]
   },
   "input-color-alpha": {
@@ -1883,55 +6822,12 @@
       "https://crbug.com/368059226"
     ]
   },
-  "input-date-time": {
-    "firefox": [
-      "https://bugzil.la/888320"
-    ],
-    "safari": [
-      "https://webkit.org/b/200416"
-    ]
-  },
   "input-range": {
     "firefox": [
       "https://bugzil.la/840820"
     ],
     "firefox_android": [
       "https://bugzil.la/840820"
-    ]
-  },
-  "light-dark": {
-    "chrome": [
-      "https://crbug.com/40284803"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40284803"
-    ],
-    "edge": [
-      "https://crbug.com/40284803"
-    ],
-    "oculus": [
-      "https://crbug.com/40284803"
-    ],
-    "opera": [
-      "https://crbug.com/40284803"
-    ],
-    "opera_android": [
-      "https://crbug.com/40284803"
-    ],
-    "safari": [
-      "https://webkit.org/b/262914"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/262914"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40284803"
-    ],
-    "webview_android": [
-      "https://crbug.com/40284803"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/262914"
     ]
   },
   "light-dark-image": {
@@ -1957,142 +6853,12 @@
       "https://webkit.org/b/309689"
     ]
   },
-  "link-rel-preload": {
-    "firefox": [
-      "https://bugzil.la/1886145"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1886145"
-    ]
-  },
-  "loading-lazy-media": {
-    "firefox": [
-      "https://bugzil.la/2005072"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/2005072"
-    ],
-    "safari": [
-      "https://webkit.org/b/303995"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/303995"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/303995"
-    ],
-    "chrome": [
-      "https://crbug.com/469111735"
-    ],
-    "chrome_android": [
-      "https://crbug.com/469111735"
-    ],
-    "edge": [
-      "https://crbug.com/469111735"
-    ],
-    "opera": [
-      "https://crbug.com/469111735"
-    ]
-  },
-  "local-fonts": {
-    "chrome_android": [
-      "https://crbug.com/40840834"
-    ],
-    "oculus": [
-      "https://crbug.com/40840834"
-    ],
-    "opera_android": [
-      "https://crbug.com/40840834"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40840834"
-    ],
-    "webview_android": [
-      "https://crbug.com/40840834"
-    ]
-  },
-  "logical-properties": {
-    "safari": [
-      "https://webkit.org/b/185977"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/185977"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/185977"
-    ]
-  },
-  "longtasks": {
-    "firefox": [
-      "https://bugzil.la/1348405"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1348405"
-    ]
-  },
-  "marker": {
-    "safari": [
-      "https://webkit.org/b/204163"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/204163"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/204163"
-    ]
-  },
   "mask-border": {
     "firefox": [
       "https://bugzil.la/877294"
     ],
     "firefox_android": [
       "https://bugzil.la/877294"
-    ]
-  },
-  "masks": {
-    "safari": [
-      "https://webkit.org/b/137293"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/137293"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/137293"
-    ]
-  },
-  "mathml": {
-    "firefox": [
-      "https://bugzil.la/1278697",
-      "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c",
-      "https://hg.mozilla.org/mozilla-central/rev/60a72a6c7c1d",
-      "https://hg.mozilla.org/mozilla-central/rev/12294b20e4d9"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1278697",
-      "https://hg.mozilla.org/mozilla-central/rev/3b30c8db537c",
-      "https://hg.mozilla.org/mozilla-central/rev/60a72a6c7c1d",
-      "https://hg.mozilla.org/mozilla-central/rev/12294b20e4d9"
-    ],
-    "chrome": [
-      "https://crbug.com/40289400"
-    ],
-    "safari": [
-      "https://trac.webkit.org/changeset/203679",
-      "https://trac.webkit.org/changeset/159504",
-      "https://trac.webkit.org/changeset/267578",
-      "https://trac.webkit.org/changeset/203104"
-    ],
-    "safari_ios": [
-      "https://trac.webkit.org/changeset/203679",
-      "https://trac.webkit.org/changeset/159504",
-      "https://trac.webkit.org/changeset/267578",
-      "https://trac.webkit.org/changeset/203104"
-    ],
-    "webview_ios": [
-      "https://trac.webkit.org/changeset/203679",
-      "https://trac.webkit.org/changeset/159504",
-      "https://trac.webkit.org/changeset/267578",
-      "https://trac.webkit.org/changeset/203104"
     ]
   },
   "mathml-full": {
@@ -2115,92 +6881,12 @@
       "https://trac.webkit.org/changeset/63079"
     ]
   },
-  "media-capture": {
-    "safari": [
-      "https://webkit.org/b/169871"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/169871"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/169871"
-    ]
-  },
-  "media-session": {
-    "webview_android": [
-      "https://crbug.com/40611412"
-    ]
-  },
-  "media-source": {
-    "safari_ios": [
-      "https://webkit.org/b/200147"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/200147"
-    ]
-  },
   "mediacontroller": {
     "firefox": [
       "https://bugzil.la/847377"
     ],
     "firefox_android": [
       "https://bugzil.la/847377"
-    ]
-  },
-  "mediastream-recording": {
-    "firefox": [
-      "https://bugzil.la/1573299"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1573299"
-    ]
-  },
-  "mouse-events": {
-    "safari_ios": [
-      "https://webkit.org/b/213953"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/213953"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40290045"
-    ],
-    "oculus": [
-      "https://crbug.com/40290045"
-    ],
-    "opera_android": [
-      "https://crbug.com/40290045"
-    ],
-    "webview_android": [
-      "https://crbug.com/40290045"
-    ]
-  },
-  "network-information": {
-    "safari": [
-      "https://webkit.org/b/185697"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/185697"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/185697"
-    ]
-  },
-  "notifications": {
-    "webview_android": [
-      "https://crbug.com/40443309"
-    ],
-    "safari": [
-      "https://webkit.org/b/280160",
-      "https://webkit.org/b/280162",
-      "https://webkit.org/b/258922"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/280160",
-      "https://webkit.org/b/280162"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/280160"
     ]
   },
   "numeric-factory-functions": {
@@ -2218,14 +6904,6 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/159801"
-    ]
-  },
-  "offline-audio-context": {
-    "firefox": [
-      "https://bugzil.la/1265406"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1265406"
     ]
   },
   "online": {
@@ -2291,17 +6969,6 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/236153"
-    ]
-  },
-  "overscroll-behavior": {
-    "safari": [
-      "https://webkit.org/b/243452"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/243452"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/243452"
     ]
   },
   "page-break-aliases": {
@@ -2390,139 +7057,12 @@
       "https://webkit.org/b/255200"
     ]
   },
-  "password-credentials": {
-    "firefox": [
-      "https://bugzil.la/1156047"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1156047"
-    ],
-    "safari": [
-      "https://webkit.org/b/252908"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/252908"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/252908"
-    ]
-  },
-  "periodic-background-sync": {
-    "webview_android": [
-      "https://crbug.com/40151529"
-    ]
-  },
-  "permissions": {
-    "webview_android": [
-      "https://crbug.com/40418964"
-    ]
-  },
   "permissions-policy": {
     "firefox": [
       "https://bugzil.la/1531012"
     ],
     "firefox_android": [
       "https://bugzil.la/1531012"
-    ]
-  },
-  "picture-in-picture": {
-    "firefox": [
-      "https://bugzil.la/1463402"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1463402"
-    ]
-  },
-  "pointer-events-api": {
-    "safari_ios": [
-      "https://webkit.org/b/213953"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/213953"
-    ]
-  },
-  "pointer-lock": {
-    "chrome_android": [
-      "https://crbug.com/40290045"
-    ],
-    "oculus": [
-      "https://crbug.com/40290045"
-    ],
-    "opera_android": [
-      "https://crbug.com/40290045"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40290045"
-    ],
-    "webview_android": [
-      "https://crbug.com/40290045"
-    ]
-  },
-  "prefers-reduced-data": {
-    "chrome": [
-      "https://crbug.com/40118365"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40118365"
-    ],
-    "edge": [
-      "https://crbug.com/40118365"
-    ],
-    "oculus": [
-      "https://crbug.com/40118365"
-    ],
-    "opera": [
-      "https://crbug.com/40118365"
-    ],
-    "webview_android": [
-      "https://crbug.com/40118365"
-    ]
-  },
-  "prefers-reduced-transparency": {
-    "firefox": [
-      "https://bugzil.la/1822176"
-    ],
-    "safari": [
-      "https://webkit.org/b/175497"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/175497"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/175497"
-    ]
-  },
-  "presentation-api": {
-    "safari": [
-      "https://webkit.org/b/149168"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/149168"
-    ],
-    "webview_android": [
-      "https://crbug.com/234081017"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/149168"
-    ]
-  },
-  "preserves-pitch": {
-    "safari": [
-      "https://webkit.org/b/214922"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/214922"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/214922"
-    ]
-  },
-  "profiler": {
-    "firefox": [
-      "https://bugzil.la/1867361"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1867361"
     ]
   },
   "progress-function": {
@@ -2533,164 +7073,9 @@
       "https://bugzil.la/1975530"
     ]
   },
-  "readable-byte-streams": {
-    "safari": [
-      "https://webkit.org/b/264731"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/264731"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/264731"
-    ]
-  },
-  "registerprotocolhandler": {
-    "chrome_android": [
-      "https://crbug.com/40964464"
-    ],
-    "oculus": [
-      "https://crbug.com/40964464"
-    ],
-    "opera_android": [
-      "https://crbug.com/40964464"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40964464"
-    ],
-    "webview_android": [
-      "https://crbug.com/40964464"
-    ]
-  },
-  "request-video-frame-callback": {
+  "reporting-coep-violations": {
     "firefox": [
-      "https://bugzil.la/1800882",
-      "https://bugzil.la/1908245"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1800882",
-      "https://bugzil.la/1908245"
-    ]
-  },
-  "resource-timing": {
-    "firefox": [
-      "https://bugzil.la/1811291"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1811291"
-    ]
-  },
-  "screen-wake-lock": {
-    "webview_android": [
-      "https://crbug.com/40740509"
-    ]
-  },
-  "scroll-into-view": {
-    "firefox": [
-      "https://bugzil.la/1389274"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1389274"
-    ]
-  },
-  "select": {
-    "safari_ios": [
-      "https://webkit.org/b/227042"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/227042"
-    ]
-  },
-  "serial": {
-    "webview_android": [
-      "https://crbug.com/40740509"
-    ]
-  },
-  "server-timing": {
-    "chrome": [
-      "https://crbug.com/40811358"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40811358"
-    ],
-    "edge": [
-      "https://crbug.com/40811358"
-    ],
-    "oculus": [
-      "https://crbug.com/40811358"
-    ],
-    "opera": [
-      "https://crbug.com/40811358"
-    ],
-    "opera_android": [
-      "https://crbug.com/40811358"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40811358"
-    ],
-    "webview_android": [
-      "https://crbug.com/40811358"
-    ]
-  },
-  "service-workers": {
-    "firefox": [
-      "https://bugzil.la/1855580"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1855580"
-    ],
-    "safari": [
-      "https://webkit.org/b/269893"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/269893"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/269893"
-    ],
-    "chrome": [
-      "https://crbug.com/40364838"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40364838"
-    ],
-    "edge": [
-      "https://crbug.com/40364838"
-    ],
-    "oculus": [
-      "https://crbug.com/40364838"
-    ],
-    "opera": [
-      "https://crbug.com/40364838"
-    ],
-    "opera_android": [
-      "https://crbug.com/40364838"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40364838"
-    ],
-    "webview_android": [
-      "https://crbug.com/40364838"
-    ]
-  },
-  "share": {
-    "webview_android": [
-      "https://crbug.com/40540400"
-    ]
-  },
-  "show-picker-input": {
-    "safari_ios": [
-      "https://webkit.org/b/261703"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/261703"
-    ]
-  },
-  "sibling-count": {
-    "firefox": [
-      "https://bugzil.la/1953973"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1953973"
+      "https://bugzil.la/1652926"
     ]
   },
   "source": {
@@ -2717,102 +7102,10 @@
       "https://bugzil.la/1748068"
     ]
   },
-  "speech-recognition": {
-    "chrome_android": [
-      "https://crbug.com/41297427"
-    ],
-    "oculus": [
-      "https://crbug.com/41297427"
-    ],
-    "opera_android": [
-      "https://crbug.com/41297427"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/41297427"
-    ],
-    "webview_android": [
-      "https://crbug.com/41297427"
-    ]
-  },
-  "speech-synthesis": {
-    "webview_android": [
-      "https://crbug.com/40417848"
-    ]
-  },
-  "stretch": {
+  "style-query-range-syntax": {
     "firefox": [
-      "https://bugzil.la/1789477"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1789477"
-    ],
-    "safari": [
-      "https://webkit.org/b/277117"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/277117"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/277117"
-    ]
-  },
-  "supports": {
-    "chrome": [
-      "https://crbug.com/40244647"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40244647"
-    ],
-    "edge": [
-      "https://crbug.com/40244647"
-    ],
-    "oculus": [
-      "https://crbug.com/40244647"
-    ],
-    "opera": [
-      "https://crbug.com/40244647"
-    ],
-    "opera_android": [
-      "https://crbug.com/40244647",
-      "https://crbug.com/40633900"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40244647"
-    ],
-    "webview_android": [
-      "https://crbug.com/40244647"
-    ]
-  },
-  "svg": {
-    "firefox": [
-      "https://bugzil.la/1278697",
-      "https://bugzil.la/890692"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1278697",
-      "https://bugzil.la/890692"
-    ]
-  },
-  "svg-discouraged": {
-    "safari": [
-      "https://webkit.org/b/226721"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/226721"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/226721"
-    ]
-  },
-  "svg-filters": {
-    "safari": [
-      "https://webkit.org/b/246106"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/246106"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/246106"
+      "https://bugzil.la/1986631",
+      "https://bugzil.la/1998245"
     ]
   },
   "table-discouraged": {
@@ -2823,95 +7116,6 @@
     "firefox_android": [
       "https://bugzil.la/2212",
       "https://bugzil.la/915"
-    ]
-  },
-  "temporal": {
-    "safari": [
-      "https://webkit.org/b/223166"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/223166"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/223166"
-    ],
-    "chrome": [
-      "https://crbug.com/401065166"
-    ],
-    "chrome_android": [
-      "https://crbug.com/401065166"
-    ],
-    "edge": [
-      "https://crbug.com/401065166"
-    ],
-    "oculus": [
-      "https://crbug.com/401065166"
-    ],
-    "opera": [
-      "https://crbug.com/401065166"
-    ],
-    "opera_android": [
-      "https://crbug.com/401065166"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/401065166"
-    ],
-    "webview_android": [
-      "https://crbug.com/401065166"
-    ]
-  },
-  "text-autospace": {
-    "firefox": [
-      "https://bugzil.la/1869577",
-      "https://bugzil.la/1986500",
-      "https://bugzil.la/1980111"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1869577",
-      "https://bugzil.la/1986500",
-      "https://bugzil.la/1980111"
-    ]
-  },
-  "text-justify": {
-    "safari": [
-      "https://webkit.org/b/99945"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/99945"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/99945"
-    ]
-  },
-  "text-tracks": {
-    "chrome": [
-      "https://crbug.com/41338648"
-    ],
-    "chrome_android": [
-      "https://crbug.com/41338648"
-    ],
-    "oculus": [
-      "https://crbug.com/41338648"
-    ],
-    "opera": [
-      "https://crbug.com/41338648"
-    ],
-    "opera_android": [
-      "https://crbug.com/41338648"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/41338648"
-    ],
-    "webview_android": [
-      "https://crbug.com/41338648"
-    ]
-  },
-  "touch-action": {
-    "firefox": [
-      "https://bugzil.la/1285685"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1285685"
     ]
   },
   "transformstream-transformer-cancel": {
@@ -2953,17 +7157,6 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/262424"
-    ]
-  },
-  "ua-client-hints": {
-    "webview_android": [
-      "https://crbug.com/40609350"
-    ],
-    "firefox": [
-      "https://bugzil.la/935216"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/935216"
     ]
   },
   "url-cross-origin": {
@@ -3018,38 +7211,9 @@
       "https://crbug.com/435625756"
     ]
   },
-  "view-transitions": {
-    "firefox": [
-      "https://bugzil.la/1860854",
-      "https://bugzil.la/1881438"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1860854",
-      "https://bugzil.la/1881438"
-    ]
-  },
-  "visual-viewport": {
-    "safari": [
-      "https://webkit.org/b/300493"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/300493"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/300493"
-    ]
-  },
   "wasm-branch-hinting": {
     "firefox": [
       "https://bugzil.la/1950729"
-    ]
-  },
-  "weak-references": {
-    "firefox": [
-      "https://bugzil.la/1863140"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1863140"
     ]
   },
   "web-animations-iterationcomposite": {
@@ -3078,234 +7242,9 @@
       "https://crbug.com/41133485"
     ]
   },
-  "web-audio": {
-    "chrome": [
-      "https://crbug.com/40500817"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40500817"
-    ],
-    "edge": [
-      "https://crbug.com/40500817"
-    ],
-    "oculus": [
-      "https://crbug.com/40500817"
-    ],
-    "opera": [
-      "https://crbug.com/40500817"
-    ],
-    "opera_android": [
-      "https://crbug.com/40500817"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40500817"
-    ],
-    "webview_android": [
-      "https://crbug.com/40500817"
-    ],
-    "firefox": [
-      "https://bugzil.la/1504984",
-      "https://bugzil.la/1308431"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1504984",
-      "https://bugzil.la/1308431"
-    ]
-  },
-  "web-cryptography": {
-    "firefox": [
-      "https://bugzil.la/1804788"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1804788"
-    ]
-  },
-  "web-midi": {
-    "safari": [
-      "https://webkit.org/b/107250"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/107250"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/107250"
-    ],
-    "chrome": [
-      "https://crbug.com/40411677"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40411677"
-    ],
-    "edge": [
-      "https://crbug.com/40411677"
-    ],
-    "oculus": [
-      "https://crbug.com/40411677"
-    ],
-    "opera": [
-      "https://crbug.com/40411677"
-    ],
-    "opera_android": [
-      "https://crbug.com/40411677"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40411677"
-    ],
-    "webview_android": [
-      "https://crbug.com/40411677"
-    ]
-  },
-  "webhid": {
-    "chrome_android": [
-      "https://crbug.com/40628009"
-    ],
-    "oculus": [
-      "https://crbug.com/40628009"
-    ],
-    "opera_android": [
-      "https://crbug.com/40628009"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40628009"
-    ],
-    "webview_android": [
-      "https://crbug.com/40163407"
-    ]
-  },
-  "webrtc": {
-    "safari": [
-      "https://webkit.org/b/198179"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/198179"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/198179"
-    ]
-  },
-  "websockets": {
-    "firefox": [
-      "https://bugzil.la/775368"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/775368"
-    ]
-  },
-  "webusb": {
-    "webview_android": [
-      "https://crbug.com/41441927"
-    ]
-  },
-  "webvtt": {
-    "firefox": [
-      "https://bugzil.la/1321489"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1321489"
-    ]
-  },
-  "webvtt-cue-alignment": {
-    "chrome": [
-      "https://crbug.com/41267398"
-    ],
-    "chrome_android": [
-      "https://crbug.com/41267398"
-    ],
-    "edge": [
-      "https://crbug.com/41267398"
-    ],
-    "oculus": [
-      "https://crbug.com/41267398"
-    ],
-    "opera": [
-      "https://crbug.com/41267398"
-    ],
-    "opera_android": [
-      "https://crbug.com/41267398"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/41267398"
-    ],
-    "webview_android": [
-      "https://crbug.com/41267398"
-    ]
-  },
-  "webxr-anchors": {
-    "webview_android": [
-      "https://crbug.com/40652382"
-    ]
-  },
-  "webxr-camera": {
-    "webview_android": [
-      "https://crbug.com/40652382"
-    ]
-  },
-  "webxr-depth-sensing": {
-    "webview_android": [
-      "https://crbug.com/40652382"
-    ]
-  },
-  "webxr-dom-overlays": {
-    "webview_android": [
-      "https://crbug.com/40652382"
-    ]
-  },
-  "webxr-hit-test": {
-    "webview_android": [
-      "https://crbug.com/40652382"
-    ]
-  },
   "webxr-lighting-estimation": {
     "webview_android": [
       "https://crbug.com/40652382"
-    ]
-  },
-  "white-space": {
-    "chrome": [
-      "https://crbug.com/40362378"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40362378"
-    ],
-    "oculus": [
-      "https://crbug.com/40362378"
-    ],
-    "opera": [
-      "https://crbug.com/40362378"
-    ],
-    "opera_android": [
-      "https://crbug.com/40362378"
-    ],
-    "safari": [
-      "https://webkit.org/b/293213"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/293213"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40362378"
-    ],
-    "webview_android": [
-      "https://crbug.com/40362378"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/293213"
-    ]
-  },
-  "window-controls-overlay": {
-    "safari": [
-      "https://webkit.org/b/257782"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/257782"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/257782"
-    ]
-  },
-  "xhr": {
-    "safari": [
-      "https://webkit.org/b/288688"
     ]
   }
 }
