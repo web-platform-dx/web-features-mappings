@@ -1920,7 +1920,7 @@
       "explainer-links": [],
       "updated": {
         "by": "yiorsi@gmail.com",
-        "when": "2026-05-07 12:17:04.911589"
+        "when": "2026-05-13 08:59:02.618984"
       }
     }
   ],
@@ -10756,7 +10756,7 @@
       "explainer-links": [],
       "updated": {
         "by": "agpalak@google.com",
-        "when": "2026-05-08 16:35:50.921664"
+        "when": "2026-05-13 08:54:12.546568"
       }
     },
     {
@@ -18512,7 +18512,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-04-28 17:05:52.773524"
+        "when": "2026-05-12 16:24:41.907618"
       }
     },
     {
@@ -20404,15 +20404,15 @@
     {
       "id": 5080980370096128,
       "name": "Support path() and shape() in shape-outside",
-      "summary": "Adds support for the path() and shape() shape functions in the CSS shape-outside property. These functions allow developers to define float exclusion shapes using rectangle coordinates.",
+      "summary": "Adds support for the path() and shape() shape functions in the CSS shape-outside property. These functions allow developers to define the shape of `shape-outside` more flexibly and support animation.",
       "motivation": "The CSS shape-outside property currently accepts basic shape functions (circle(), ellipse(), inset(), polygon()) and the url() function for image-based shapes, but it does not support path() or the newer shape() function. This is an inconsistency in the CSS Shapes specification, since path() and shape() are already supported in other CSS properties such as clip-path and offset-path.\n\nWeb developers who want to wrap text around complex, arbitrary shapes are forced to work around this limitation by using image-based workarounds (e.g., transparent PNG images with url()), which are less ergonomic, harder to maintain, not responsive, and not animatable. There is no way today to use an SVG-style path string or a shape() command directly in shape-outside.\n\nSupporting path() and shape() in shape-outside brings parity with clip-path and offset-path, reduces the need for image-based hacks, and enables developers to define complex text-wrapping shapes inline in CSS. It also enables shape animation when combined with CSS transitions and animations, improving the expressiveness and capability of CSS layout.",
       "url": "https://chromestatus.com/feature/5080980370096128",
       "bug-url": "https://issues.chromium.org/u/2/issues/502328208",
       "spec-link": "https://drafts.csswg.org/css-shapes/#shape-outside-property",
       "explainer-links": [],
       "updated": {
-        "by": "chrishtr@chromium.org",
-        "when": "2026-05-12 01:04:53.799512"
+        "by": "yiorsi@gmail.com",
+        "when": "2026-05-13 08:44:05.808612"
       }
     },
     {
@@ -22529,7 +22529,7 @@
       "explainer-links": [],
       "updated": {
         "by": "perryuwang@gmail.com",
-        "when": "2026-05-12 09:35:05.014795"
+        "when": "2026-05-12 21:08:40.762687"
       }
     },
     {
@@ -26697,8 +26697,8 @@
         "https://github.com/gpuweb/gpuweb/blob/main/proposals/immediate-data.md"
       ],
       "updated": {
-        "by": "kainino@google.com",
-        "when": "2026-04-01 22:37:55.415744"
+        "by": "shaoboyan@microsoft.com",
+        "when": "2026-05-13 07:19:17.554659"
       }
     },
     {
@@ -29586,6 +29586,24 @@
       "updated": {
         "by": "foolip@google.com",
         "when": "2025-08-22 07:31:15.915411"
+      }
+    }
+  ],
+  "arianotify": [
+    {
+      "id": 5745430754230272,
+      "name": "ARIA Notify API",
+      "summary": "ariaNotify provides a JavaScript API that enables content authors to directly tell a screen reader what to read. \n\nariaNotify improves reliability and developer control compared to ARIA live regions, allowing for announcing changes not tied to DOM updates. This enables more consistent and ergonomic accessibility experiences across dynamic web applications. Iframe usage of this feature can be controlled via a permission policy \"aria-notify\".",
+      "motivation": "Currently the only mechanism available today that communicates content changes in a web app down to the accessibility layer is via ARIA live regions.\n\nOne major limitation to ARIA live regions is that they assume the change to a webpage is tied to a DOM element. This leads to content authors employing various inefficient or inconsistent tricks and hacks to notify of changes that are not associated with the DOM.\n\nWe propose a separate notification API to address these scenarios, called `ariaNotify`.",
+      "url": "https://chromestatus.com/feature/5745430754230272",
+      "bug-url": "https://issues.chromium.org/issues/326277796",
+      "spec-link": "https://github.com/w3c/aria/pull/2577",
+      "explainer-links": [
+        "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/Accessibility/AriaNotify/explainer.md"
+      ],
+      "updated": {
+        "by": "janewman@microsoft.com",
+        "when": "2026-05-12 16:06:38.938372"
       }
     }
   ]
