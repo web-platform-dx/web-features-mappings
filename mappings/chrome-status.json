@@ -5712,7 +5712,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-05-13 13:10:37.947332"
+        "when": "2026-05-15 20:03:12.369455"
       }
     }
   ],
@@ -9128,17 +9128,17 @@
     {
       "id": 5143609755828224,
       "name": "Approximate geolocation",
-      "summary": "Sharing precise location data puts the user's privacy at risk. Furthermore, many sites request precise location data when an approximate estimate would suffice. This feature extends Geolocation API to enable sites to request approximate location data.",
+      "summary": "This feature extends the Geolocation API to enable sites to request approximate location data only.\n\nIn particular, a new parameter accuracyMode (either \"precise\" or \"approximate\", defaults to \"precise\" for backwards compatibility) can be specified in PositionOptions. A new permission \"geolocation-approximate\" controls access to approximate location only.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5143609755828224",
       "bug-url": "https://issues.chromium.org/u/1/issues/495852854",
-      "spec-link": null,
+      "spec-link": "https://github.com/w3c/geolocation/pull/195",
       "explainer-links": [
         "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md"
       ],
       "updated": {
         "by": "antoniosartori@google.com",
-        "when": "2026-05-13 18:40:16.372491"
+        "when": "2026-05-15 20:05:14.838526"
       }
     },
     {
@@ -10751,12 +10751,12 @@
       "summary": "Adds discardedFrames and totalFrames attributes to the MediaStreamTrackProcessor interface. These counters allow web developers to monitor the health of their media processing pipelines by tracking the number of frames received and the number of frames dropped due to system resource constraints",
       "motivation": null,
       "url": "https://chromestatus.com/feature/6267249280286720",
-      "bug-url": null,
-      "spec-link": null,
+      "bug-url": "https://issues.chromium.org/issues/513481577",
+      "spec-link": "https://www.w3.org/TR/mediacapture-transform/#track-processor-interface",
       "explainer-links": [],
       "updated": {
         "by": "agpalak@google.com",
-        "when": "2026-05-13 08:54:12.546568"
+        "when": "2026-05-15 10:57:42.126437"
       }
     },
     {
@@ -13223,7 +13223,7 @@
       "explainer-links": [],
       "updated": {
         "by": "foolip@chromium.org",
-        "when": "2026-05-14 09:23:47.125897"
+        "when": "2026-05-15 19:56:33.914556"
       }
     }
   ],
@@ -15200,7 +15200,7 @@
       ],
       "updated": {
         "by": "vmpstr@google.com",
-        "when": "2026-05-14 09:23:04.016237"
+        "when": "2026-05-15 19:54:53.804474"
       }
     },
     {
@@ -20388,7 +20388,7 @@
     {
       "id": 6636392944893952,
       "name": "Allow optional rounding parameter for `polygon()`",
-      "summary": "Allows an optional corner-rounding parameter in the polygon() CSS shape function. Developers can specify a length value to round polygon corners without manually computing bezier curves.\n\nInteractive demo: https://codepen.io/yisi/pen/NPRLEQN\nCSSWG issue: https://github.com/w3c/csswg-drafts/issues/12768",
+      "summary": "Allows an optional corner-rounding parameter in the polygon() CSS shape function. Developers can specify a length value to round polygon corners without manually computing bezier curves.\n\nInteractive demo: https://codepen.io/yisi/pen/NPRLEQN\nCSSWG issue: https://github.com/w3c/csswg-drafts/issues/9843",
       "motivation": "Rounded polygons are a common design pattern on the web. Without this feature, developers who want rounded corners on a polygon shape must manually compute bezier control points or use workarounds such as SVG clip paths. The polygon() round parameter makes this directly expressible in CSS, reducing complexity and improving maintainability.",
       "url": "https://chromestatus.com/feature/6636392944893952",
       "bug-url": "https://issues.chromium.org/issues/329302249",
@@ -20396,7 +20396,7 @@
       "explainer-links": [],
       "updated": {
         "by": "yiorsi@gmail.com",
-        "when": "2026-05-07 13:11:01.620887"
+        "when": "2026-05-15 06:56:55.477397"
       }
     }
   ],
@@ -22204,15 +22204,15 @@
     {
       "id": 5117170452398080,
       "name": "Disable SVG filters on plugins and cross-origin/restricted iframes",
-      "summary": "This launch prevents SVG filters from being applied to cross-origin/restricted iframes (e.g., sandboxed ones) and embedded plugins (e.g., pdfs). When a frame/plugin would be painted with an SVG filter effect, the effect tree is traversed to find the highest ancestor without SVG filters, and that effect is then applied instead.\n",
+      "summary": "Chrome will now prevent SVG filters from being applied to cross-origin/restricted iFrames (e.g., sandboxed ones) and embedded plugins (e.g., pdfs). When a frame/plugin would be painted with an SVG filter effect, the effect tree is traversed to find the highest ancestor without SVG filters, and that effect is then applied instead.\n",
       "motivation": "SVG clickjacking (https://lyra.horse/blog/2025/12/svg-clickjacking/) is a new spin on clickjacking which uses dynamic SVG filters to disguise content and manipulate users into taking actions they might not otherwise. Additionally, we would like to further restrict timing attacks (https://media.blackhat.com/us-13/US-13-Stone-Pixel-Perfect-Timing-Attacks-with-HTML5-WP.pdf) involving SVG filters.",
       "url": "https://chromestatus.com/feature/5117170452398080",
       "bug-url": "https://crbug.com/476646486",
       "spec-link": "https://github.com/w3c/csswg-drafts/pull/13846",
       "explainer-links": [],
       "updated": {
-        "by": "mhoste@google.com",
-        "when": "2026-05-05 12:01:27.159436"
+        "by": "arichiv@chromium.org",
+        "when": "2026-05-16 03:43:12.149818"
       }
     }
   ],
@@ -22529,7 +22529,7 @@
       "explainer-links": [],
       "updated": {
         "by": "perryuwang@gmail.com",
-        "when": "2026-05-12 21:08:40.762687"
+        "when": "2026-05-15 19:57:56.489105"
       }
     },
     {
@@ -26698,7 +26698,7 @@
       ],
       "updated": {
         "by": "shaoboyan@microsoft.com",
-        "when": "2026-05-13 18:37:37.265555"
+        "when": "2026-05-15 20:01:46.122990"
       }
     },
     {
