@@ -752,7 +752,8 @@
   },
   "anchor-positioning": {
     "firefox": [
-      "https://bugzil.la/1838746"
+      "https://bugzil.la/1838746",
+      "https://bugzil.la/1993692"
     ],
     "chrome": [
       "https://issues.chromium.org/issues/382294252",
@@ -760,7 +761,50 @@
       "https://crbug.com/346521300",
       "https://crbug.com/352360007",
       "https://issues.chromium.org/issues/40281992",
-      "https://issues.chromium.org/issues/40059176"
+      "https://issues.chromium.org/issues/40059176",
+      "https://crbug.com/501399489"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1993692"
+    ],
+    "safari": [
+      "https://webkit.org/b/289743",
+      "https://webkit.org/b/309921",
+      "https://webkit.org/b/307660",
+      "https://webkit.org/b/311941"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/289743",
+      "https://webkit.org/b/309921",
+      "https://webkit.org/b/307660",
+      "https://webkit.org/b/311941"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/289743",
+      "https://webkit.org/b/309921",
+      "https://webkit.org/b/307660",
+      "https://webkit.org/b/311941"
+    ],
+    "chrome_android": [
+      "https://crbug.com/501399489"
+    ],
+    "edge": [
+      "https://crbug.com/501399489"
+    ],
+    "oculus": [
+      "https://crbug.com/501399489"
+    ],
+    "opera": [
+      "https://crbug.com/501399489"
+    ],
+    "opera_android": [
+      "https://crbug.com/501399489"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/501399489"
+    ],
+    "webview_android": [
+      "https://crbug.com/501399489"
     ]
   },
   "canvas-2d-color-management": {
