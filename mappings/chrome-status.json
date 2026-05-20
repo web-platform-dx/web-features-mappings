@@ -996,7 +996,7 @@
       ],
       "updated": {
         "by": "shwetabindal@microsoft.com",
-        "when": "2026-05-18 18:44:39.476836"
+        "when": "2026-05-19 14:33:25.038863"
       }
     },
     {
@@ -7057,6 +7057,22 @@
   ],
   "fetch": [
     {
+      "id": 5146752165478400,
+      "name": "textStream() for response/request/blob",
+      "summary": "Add textStream() to interfaces that represent a byte stream (request, response, blob). This is equivalent to piping the byte stream through a TextDecoderStream(), and reduces this small piece of broilerplate for commoncases.",
+      "motivation": "A small ergonomic change to make it easier to stream text from a byte stream such as response (or blob) to a sink that accepts strings. Helps with a footgun of forgetting to pipe through a TextDecoderStream.",
+      "url": "https://chromestatus.com/feature/5146752165478400",
+      "bug-url": "https://issues.chromium.org/issues/514448226",
+      "spec-link": "https://github.com/whatwg/fetch/pull/1862",
+      "explainer-links": [
+        "https://github.com/whatwg/fetch/pull/1862"
+      ],
+      "updated": {
+        "by": "nrosenthal@chromium.org",
+        "when": "2026-05-19 15:22:08.923650"
+      }
+    },
+    {
       "id": 5094781984309248,
       "name": "Allowing JS web-requesting APIs to modify the User-Agent header",
       "summary": "In 2015, the WHATWG Fetch Standard was updated to remove 'User-Agent' from the forbidden header list. For legacy reasons involving CORS implementation, Chromium never took on this update.\n\nWith this change, JS may now successfully set the 'User-Agent' on a fetch() or XMLHttpRequest() request. Setting the 'User-Agent' via JS will incur a CORS preflight request, as 'User-Agent' is not safelisted.\n\n'User-Agent' header values that come from the browser, Devtools, or Extensions, will not incur CORS preflights. Interactions here may be complex, e.g. if fetch() sets a User-Agent but an extension removes it, the request will still incur a CORS preflight.",
@@ -9138,7 +9154,7 @@
       ],
       "updated": {
         "by": "antoniosartori@google.com",
-        "when": "2026-05-15 20:05:14.838526"
+        "when": "2026-05-20 09:42:44.520528"
       }
     },
     {
@@ -9988,7 +10004,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-05-11 09:03:13.043741"
+        "when": "2026-05-20 07:43:48.093588"
       }
     }
   ],
@@ -10756,7 +10772,7 @@
       "explainer-links": [],
       "updated": {
         "by": "agpalak@google.com",
-        "when": "2026-05-15 10:57:42.126437"
+        "when": "2026-05-19 14:22:47.442058"
       }
     },
     {
@@ -13223,7 +13239,7 @@
       "explainer-links": [],
       "updated": {
         "by": "foolip@chromium.org",
-        "when": "2026-05-15 19:56:33.914556"
+        "when": "2026-05-20 07:27:52.599598"
       }
     }
   ],
@@ -15200,7 +15216,7 @@
       ],
       "updated": {
         "by": "vmpstr@google.com",
-        "when": "2026-05-15 19:54:53.804474"
+        "when": "2026-05-19 15:16:25.419143"
       }
     },
     {
@@ -18512,7 +18528,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-05-14 09:09:38.348576"
+        "when": "2026-05-19 21:54:27.409794"
       }
     },
     {
@@ -21045,6 +21061,22 @@
   ],
   "speech-recognition": [
     {
+      "id": 4785284026859520,
+      "name": "Web Speech API: Unspoken Punctuation",
+      "summary": "Adds the unspokenPunctuation boolean attribute to the SpeechRecognition interface of the Web Speech API. When enabled (true), this attribute directs the speech recognition engine to automatically infer and insert punctuation marks (such as periods, commas, and question marks) based on the user's natural pauses, grammatical structure, and prosody, without requiring explicit spoken punctuation commands.",
+      "motivation": "Currently, developers building voice-enabled web applications—such as casual dictation tools, automated transcription services, or conversational assistants—receive raw, unpunctuated text streams from the Web Speech API. To make this text readable and polished, developers are often forced to implement and maintain complex downstream NLP models to infer basic formatting.\n\nAdditionally, from an end-user perspective, having to explicitly dictate punctuation (e.g., stopping to say \"comma\" or \"period\") disrupts the natural flow of continuous speech and significantly increases cognitive load.\n\nIntroducing the unspokenPunctuation attribute solves this by moving automatic, prosody-aware punctuation directly into the browser's speech recognition engine. This provides an intuitive, conversational voice typing experience for users out-of-the-box, while dramatically lowering the barrier to entry for developers building voice-driven web apps.",
+      "url": "https://chromestatus.com/feature/4785284026859520",
+      "bug-url": "https://bugs.chromium.org/b/514764702",
+      "spec-link": "https://webaudio.github.io/web-speech-api",
+      "explainer-links": [
+        "https://github.com/WebAudio/web-speech-api/pull/188/changes#diff-f5ba1b806edb6ef3ff4bf49a7d243ff32867d13bea9771cf696a158a9e2bacd8"
+      ],
+      "updated": {
+        "by": "evliu@google.com",
+        "when": "2026-05-19 22:11:54.634668"
+      }
+    },
+    {
       "id": 5136859632107520,
       "name": "Web Speech API: On-Device Recognition Quality",
       "summary": "Extends the SpeechRecognition interface by adding a quality property to SpeechRecognitionOptions. This allows developers to specify the semantic capability required for on-device recognition (via processLocally: true).\n\nThe proposed quality enum supports three levels—'command', 'dictation', and 'conversation'—mapping to increasing task complexity and hardware requirements. This enables developers to determine if the local device can handle high-stakes use cases (like meeting transcription) or if they should fallback to cloud services, solving the current \"black box\" issue of on-device model capabilities.",
@@ -22203,16 +22235,16 @@
   "svg-filters": [
     {
       "id": 5117170452398080,
-      "name": "Disable SVG filters on plugins and cross-origin/restricted iframes",
-      "summary": "Chrome will now prevent SVG filters from being applied to cross-origin/restricted iFrames (e.g., sandboxed ones) and embedded plugins (e.g., pdfs). When a frame/plugin would be painted with an SVG filter effect, the effect tree is traversed to find the highest ancestor without SVG filters, and that effect is then applied instead.\n",
+      "name": "Disable SVG filters on plugins and cross-origin or restricted iframes",
+      "summary": "Chrome 150 will prevent Scalable Vector Graphics (SVG) filters from being applied to cross-origin or restricted iFrames (for example, sandboxed ones) and embedded plugins (for example, PDFs). When a frame or plugin would be painted with an SVG filter effect, the effect tree is traversed to find the highest ancestor without SVG filters, and that effect is then applied instead.",
       "motivation": "SVG clickjacking (https://lyra.horse/blog/2025/12/svg-clickjacking/) is a new spin on clickjacking which uses dynamic SVG filters to disguise content and manipulate users into taking actions they might not otherwise. Additionally, we would like to further restrict timing attacks (https://media.blackhat.com/us-13/US-13-Stone-Pixel-Perfect-Timing-Attacks-with-HTML5-WP.pdf) involving SVG filters.",
       "url": "https://chromestatus.com/feature/5117170452398080",
       "bug-url": "https://crbug.com/476646486",
       "spec-link": "https://github.com/w3c/csswg-drafts/pull/13846",
       "explainer-links": [],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-05-16 18:40:31.331213"
+        "by": "siobhankeating@google.com",
+        "when": "2026-05-20 10:35:04.445108"
       }
     }
   ],
@@ -22529,7 +22561,7 @@
       "explainer-links": [],
       "updated": {
         "by": "perryuwang@gmail.com",
-        "when": "2026-05-15 19:57:56.489105"
+        "when": "2026-05-19 22:10:27.809824"
       }
     },
     {
