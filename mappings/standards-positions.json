@@ -216,6 +216,20 @@
       "concerns": []
     }
   ],
+  "border-shape": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1365",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "apple",
+      "url": "https://github.com/WebKit/standards-positions/issues/625",
+      "position": "",
+      "concerns": []
+    }
+  ],
   "calc-size": [
     {
       "vendor": "mozilla",
@@ -1174,7 +1188,7 @@
     {
       "vendor": "apple",
       "url": "https://github.com/WebKit/standards-positions/issues/495",
-      "position": "",
+      "position": "oppose",
       "concerns": [
         "interoperability",
         "privacy",
@@ -1487,7 +1501,7 @@
     {
       "vendor": "mozilla",
       "url": "https://github.com/mozilla/standards-positions/issues/23",
-      "position": "positive",
+      "position": "defer",
       "concerns": []
     }
   ],

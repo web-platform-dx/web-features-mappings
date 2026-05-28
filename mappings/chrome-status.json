@@ -995,8 +995,8 @@
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ClipboardAPI/SelectiveClipboardFormatRead/explainer.md"
       ],
       "updated": {
-        "by": "shwetabindal@microsoft.com",
-        "when": "2026-04-30 15:29:45.270517"
+        "by": "ragoulik@microsoft.com",
+        "when": "2026-05-25 09:07:30.091174"
       }
     },
     {
@@ -1758,8 +1758,8 @@
       "spec-link": "https://html.spec.whatwg.org/multipage/interaction.html#autocorrection",
       "explainer-links": [],
       "updated": {
-        "by": "jfernandez@chromium.org",
-        "when": "2026-05-12 12:36:53.147872"
+        "by": "jfernandez@igalia.com",
+        "when": "2026-05-22 13:29:32.395180"
       }
     },
     {
@@ -1920,7 +1920,7 @@
       "explainer-links": [],
       "updated": {
         "by": "yiorsi@gmail.com",
-        "when": "2026-05-07 12:17:04.911589"
+        "when": "2026-05-27 16:18:17.963935"
       }
     }
   ],
@@ -3634,7 +3634,7 @@
       "explainer-links": [],
       "updated": {
         "by": "futhark@chromium.org",
-        "when": "2026-05-11 17:55:18.018952"
+        "when": "2026-05-18 12:54:11.339270"
       }
     },
     {
@@ -3973,7 +3973,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-04-18 21:08:24.070941"
+        "when": "2026-05-26 16:24:34.996491"
       }
     }
   ],
@@ -5712,7 +5712,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-03-24 11:51:28.350125"
+        "when": "2026-05-15 20:03:12.369455"
       }
     }
   ],
@@ -7057,6 +7057,22 @@
   ],
   "fetch": [
     {
+      "id": 5146752165478400,
+      "name": "textStream() for response/request/blob",
+      "summary": "Add textStream() to interfaces that represent a byte stream (request, response, blob). This is equivalent to piping the byte stream through a TextDecoderStream(), and reduces this small piece of broilerplate for commoncases.",
+      "motivation": "A small ergonomic change to make it easier to stream text from a byte stream such as response (or blob) to a sink that accepts strings. Helps with a footgun of forgetting to pipe through a TextDecoderStream.",
+      "url": "https://chromestatus.com/feature/5146752165478400",
+      "bug-url": "https://issues.chromium.org/issues/514448226",
+      "spec-link": "https://github.com/whatwg/fetch/pull/1862",
+      "explainer-links": [
+        "https://github.com/whatwg/fetch/pull/1862"
+      ],
+      "updated": {
+        "by": "nrosenthal@chromium.org",
+        "when": "2026-05-19 15:22:08.923650"
+      }
+    },
+    {
       "id": 5094781984309248,
       "name": "Allowing JS web-requesting APIs to modify the User-Agent header",
       "summary": "In 2015, the WHATWG Fetch Standard was updated to remove 'User-Agent' from the forbidden header list. For legacy reasons involving CORS implementation, Chromium never took on this update.\n\nWith this change, JS may now successfully set the 'User-Agent' on a fetch() or XMLHttpRequest() request. Setting the 'User-Agent' via JS will incur a CORS preflight request, as 'User-Agent' is not safelisted.\n\n'User-Agent' header values that come from the browser, Devtools, or Extensions, will not incur CORS preflights. Interactions here may be complex, e.g. if fetch() sets a User-Agent but an extension removes it, the request will still incur a CORS preflight.",
@@ -7789,7 +7805,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jj@chromium.org",
-        "when": "2026-04-26 12:38:41.755166"
+        "when": "2026-05-22 23:36:44.332027"
       }
     }
   ],
@@ -8015,7 +8031,7 @@
     {
       "id": 5637601087193088,
       "name": "Focusgroup",
-      "summary": "The focusgroup HTML attribute gives composite widgets native arrow key navigation, a guaranteed tab stop, and last-focused memory, replacing hand-coded roving tabindex scripts. Authors set one attribute and the browser handles focus movement, axis constraints, and wrap behavior.\nExample:\n<div focusgroup=\"toolbar wrap\" aria-label=\"Formatting\">\n  <button>Bold</button>\n  <button>Italic</button>\n  <button>Underline</button>\n</div>",
+      "summary": "Gives authors the ability to declaratively give composite widgets arrow key navigation, a guaranteed tab stop, and last-focused memory, replacing hand-coded roving tabindex scripts.\nExample:\n<div focusgroup=\"toolbar wrap\" aria-label=\"Formatting\">\n  <button>Bold</button>\n  <button>Italic</button>\n  <button>Underline</button>\n</div>",
       "motivation": "By providing this primitive built-in the browser, authors will be able to provide this functionality without relying on custom solutions that often lead to a lack of consistency, accessibility and interoperability.",
       "url": "https://chromestatus.com/feature/5637601087193088",
       "bug-url": "https://bugs.chromium.org/p/chromium/issues/detail?id=1286127",
@@ -8025,7 +8041,7 @@
       ],
       "updated": {
         "by": "janewman@microsoft.com",
-        "when": "2026-04-28 23:24:08.603345"
+        "when": "2026-05-26 18:13:56.997287"
       }
     }
   ],
@@ -9128,17 +9144,17 @@
     {
       "id": 5143609755828224,
       "name": "Approximate geolocation",
-      "summary": "Sharing precise location data puts the user's privacy at risk. Furthermore, many sites request precise location data when an approximate estimate would suffice. This feature extends Geolocation API to enable sites to request approximate location data.",
+      "summary": "This feature extends the Geolocation API to enable sites to request approximate location data only.\n\nIn particular, a new parameter accuracyMode (either \"precise\" or \"approximate\", defaults to \"precise\" for backwards compatibility) can be specified in PositionOptions. A new permission \"geolocation-approximate\" controls access to approximate location only.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5143609755828224",
       "bug-url": "https://issues.chromium.org/u/1/issues/495852854",
-      "spec-link": null,
+      "spec-link": "https://github.com/w3c/geolocation/pull/195",
       "explainer-links": [
         "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md"
       ],
       "updated": {
-        "by": "antoniosartori@google.com",
-        "when": "2026-04-22 15:40:10.395438"
+        "by": "tov@google.com",
+        "when": "2026-05-27 22:18:50.617173"
       }
     },
     {
@@ -9988,7 +10004,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-05-11 09:03:13.043741"
+        "when": "2026-05-27 13:45:35.722655"
       }
     }
   ],
@@ -10748,15 +10764,15 @@
     {
       "id": 6267249280286720,
       "name": "MediaStreamTrackProcessor frame counters ",
-      "summary": "Adds discardedFrames and totalFrames attributes to the MediaStreamTrackProcessor interface. These counters allow web developers to monitor the health of their media processing pipelines by tracking the number of frames received and the number of frames dropped due to system resource constraints",
+      "summary": "Adds discardedFrames and totalFrames attributes to the MediaStreamTrackProcessor interface. These counters allow web developers to monitor the health of their media processing pipelines by tracking the number of frames received and dropped by the processor.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/6267249280286720",
-      "bug-url": null,
-      "spec-link": null,
+      "bug-url": "https://issues.chromium.org/issues/513481577",
+      "spec-link": "https://www.w3.org/TR/mediacapture-transform/#track-processor-interface",
       "explainer-links": [],
       "updated": {
-        "by": "agpalak@google.com",
-        "when": "2026-05-08 16:35:50.921664"
+        "by": "guidou@google.com",
+        "when": "2026-05-28 07:18:34.765636"
       }
     },
     {
@@ -12007,8 +12023,8 @@
       "spec-link": "https://drafts.csswg.org/css-color-5/#light-dark",
       "explainer-links": [],
       "updated": {
-        "by": "yiorsi@gmail.com",
-        "when": "2026-05-11 07:07:44.231061"
+        "by": "cgqaq@chromium.org",
+        "when": "2026-05-27 13:45:28.607494"
       }
     },
     {
@@ -12625,8 +12641,8 @@
         "https://github.com/WICG/manifest-incubations/blob/gh-pages/pwa-migration-explainer.md"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-05-05 19:29:30.922752"
+        "by": "dibyapal@chromium.org",
+        "when": "2026-05-26 17:17:01.446006"
       }
     },
     {
@@ -13223,7 +13239,7 @@
       "explainer-links": [],
       "updated": {
         "by": "foolip@chromium.org",
-        "when": "2026-05-11 21:26:50.560096"
+        "when": "2026-05-20 07:27:52.599598"
       }
     }
   ],
@@ -13934,7 +13950,7 @@
       "explainer-links": [],
       "updated": {
         "by": "perryuwang@gmail.com",
-        "when": "2026-05-08 18:27:03.230775"
+        "when": "2026-05-26 11:55:07.386004"
       }
     },
     {
@@ -15019,8 +15035,8 @@
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/OpaqueRange/explainer.md"
       ],
       "updated": {
-        "by": "rbyers@chromium.org",
-        "when": "2026-05-06 13:55:32.995330"
+        "by": "stephanie.zhang@microsoft.com",
+        "when": "2026-05-26 18:38:20.927449"
       }
     }
   ],
@@ -15079,14 +15095,14 @@
       "summary": "Extends the `overflow` property to support scrollable values together with `clip` (for example, `overflow: scroll clip`). This allows `position: sticky` to be constrained by different ancestor scroll containers per axis, and gives authors a way to ensure an axis using `overflow: clip` stays in place.",
       "motivation": "The CSS `overflow` property currently allows behavior to be specified per axis, but it does not provide a way to make a scroll container responsible for only a single axis. The affects features that depend on scroll containers, namely `position: sticky` and DOM scroll APIs.\n\nFor example, authors may want to use `position: sticky` to create a table that keeps both the top and left labels in view while the user scrolls through large content. Or they may want to create a carousel that is visually clipped on one axis, while ensuring that `scrollIntoView()` does not unexpectedly move that clipped axis.\n\nPlease see the explainer for more details. ",
       "url": "https://chromestatus.com/feature/5067363861004288",
-      "bug-url": "https://issues.chromium.org/481019005",
+      "bug-url": "https://issues.chromium.org/440038212",
       "spec-link": null,
       "explainer-links": [
         "https://github.com/explainers-by-googlers/single-axis-scroll-containers"
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-04-24 21:01:01.207029"
+        "when": "2026-05-25 14:16:34.388991"
       }
     },
     {
@@ -15200,7 +15216,7 @@
       ],
       "updated": {
         "by": "vmpstr@google.com",
-        "when": "2026-05-12 09:20:00.011217"
+        "when": "2026-05-19 15:16:25.419143"
       }
     },
     {
@@ -15520,7 +15536,7 @@
       ],
       "updated": {
         "by": "smcgruer@google.com",
-        "when": "2026-05-01 19:47:40.079426"
+        "when": "2026-05-25 17:03:15.893333"
       }
     },
     {
@@ -18281,7 +18297,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-04-08 15:04:28.271785"
+        "when": "2026-05-27 13:45:42.869498"
       }
     }
   ],
@@ -18512,7 +18528,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-04-28 17:05:52.773524"
+        "when": "2026-05-21 11:12:04.272416"
       }
     },
     {
@@ -20388,15 +20404,15 @@
     {
       "id": 6636392944893952,
       "name": "Allow optional rounding parameter for `polygon()`",
-      "summary": "Allows an optional corner-rounding parameter in the polygon() CSS shape function. Developers can specify a length value to round polygon corners without manually computing bezier curves.\n\nInteractive demo: https://codepen.io/yisi/pen/NPRLEQN\nCSSWG issue: https://github.com/w3c/csswg-drafts/issues/12768",
+      "summary": "Allows an optional corner-rounding parameter in the polygon() CSS shape function. Developers can specify a length value to round polygon corners without manually computing bezier curves.\n\nInteractive demo: https://codepen.io/yisi/pen/NPRLEQN\nCSSWG issue: https://github.com/w3c/csswg-drafts/issues/9843",
       "motivation": "Rounded polygons are a common design pattern on the web. Without this feature, developers who want rounded corners on a polygon shape must manually compute bezier control points or use workarounds such as SVG clip paths. The polygon() round parameter makes this directly expressible in CSS, reducing complexity and improving maintainability.",
       "url": "https://chromestatus.com/feature/6636392944893952",
       "bug-url": "https://issues.chromium.org/issues/329302249",
       "spec-link": "https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-polygon",
       "explainer-links": [],
       "updated": {
-        "by": "yiorsi@gmail.com",
-        "when": "2026-05-07 13:11:01.620887"
+        "by": "chrishtr@chromium.org",
+        "when": "2026-05-27 15:28:50.605836"
       }
     }
   ],
@@ -20404,15 +20420,15 @@
     {
       "id": 5080980370096128,
       "name": "Support path() and shape() in shape-outside",
-      "summary": "Adds support for the path() and shape() shape functions in the CSS shape-outside property. These functions allow developers to define float exclusion shapes using rectangle coordinates.",
+      "summary": "Adds support for the path() and shape() shape functions in the CSS shape-outside property. These functions allow developers to define the shape of `shape-outside` more flexibly and support animation.\n\nDemo:\n- https://codepen.io/una/full/ogzRBWV\n- https://codepen.io/yisi/full/EaNjzvR",
       "motivation": "The CSS shape-outside property currently accepts basic shape functions (circle(), ellipse(), inset(), polygon()) and the url() function for image-based shapes, but it does not support path() or the newer shape() function. This is an inconsistency in the CSS Shapes specification, since path() and shape() are already supported in other CSS properties such as clip-path and offset-path.\n\nWeb developers who want to wrap text around complex, arbitrary shapes are forced to work around this limitation by using image-based workarounds (e.g., transparent PNG images with url()), which are less ergonomic, harder to maintain, not responsive, and not animatable. There is no way today to use an SVG-style path string or a shape() command directly in shape-outside.\n\nSupporting path() and shape() in shape-outside brings parity with clip-path and offset-path, reduces the need for image-based hacks, and enables developers to define complex text-wrapping shapes inline in CSS. It also enables shape animation when combined with CSS transitions and animations, improving the expressiveness and capability of CSS layout.",
       "url": "https://chromestatus.com/feature/5080980370096128",
       "bug-url": "https://issues.chromium.org/u/2/issues/502328208",
       "spec-link": "https://drafts.csswg.org/css-shapes/#shape-outside-property",
       "explainer-links": [],
       "updated": {
-        "by": "chrishtr@chromium.org",
-        "when": "2026-05-12 01:04:53.799512"
+        "by": "yiorsi@gmail.com",
+        "when": "2026-05-19 10:43:31.544715"
       }
     },
     {
@@ -20827,7 +20843,7 @@
       ],
       "updated": {
         "by": "robertlin@chromium.org",
-        "when": "2026-05-07 05:13:21.129350"
+        "when": "2026-05-26 17:52:50.350640"
       }
     },
     {
@@ -20873,7 +20889,7 @@
       ],
       "updated": {
         "by": "lingqi@chromium.org",
-        "when": "2026-02-25 02:31:40.724368"
+        "when": "2026-05-25 07:42:24.598647"
       }
     },
     {
@@ -21045,6 +21061,22 @@
   ],
   "speech-recognition": [
     {
+      "id": 4785284026859520,
+      "name": "Web Speech API: Unspoken Punctuation",
+      "summary": "Adds the unspokenPunctuation boolean attribute to the SpeechRecognition interface of the Web Speech API. When enabled (true), this attribute directs the speech recognition engine to automatically infer and insert punctuation marks (such as periods, commas, and question marks) based on the user's natural pauses, grammatical structure, and prosody, without requiring explicit spoken punctuation commands.",
+      "motivation": "Currently, developers building voice-enabled web applications—such as casual dictation tools, automated transcription services, or conversational assistants—receive raw, unpunctuated text streams from the Web Speech API. To make this text readable and polished, developers are often forced to implement and maintain complex downstream NLP models to infer basic formatting.\n\nAdditionally, from an end-user perspective, having to explicitly dictate punctuation (e.g., stopping to say \"comma\" or \"period\") disrupts the natural flow of continuous speech and significantly increases cognitive load.\n\nIntroducing the unspokenPunctuation attribute solves this by moving automatic, prosody-aware punctuation directly into the browser's speech recognition engine. This provides an intuitive, conversational voice typing experience for users out-of-the-box, while dramatically lowering the barrier to entry for developers building voice-driven web apps.",
+      "url": "https://chromestatus.com/feature/4785284026859520",
+      "bug-url": "https://bugs.chromium.org/b/514764702",
+      "spec-link": "https://webaudio.github.io/web-speech-api",
+      "explainer-links": [
+        "https://github.com/WebAudio/web-speech-api/blob/main/explainers/unspoken-punctuation.md"
+      ],
+      "updated": {
+        "by": "evliu@google.com",
+        "when": "2026-05-26 11:54:45.588835"
+      }
+    },
+    {
       "id": 5136859632107520,
       "name": "Web Speech API: On-Device Recognition Quality",
       "summary": "Extends the SpeechRecognition interface by adding a quality property to SpeechRecognitionOptions. This allows developers to specify the semantic capability required for on-device recognition (via processLocally: true).\n\nThe proposed quality enum supports three levels—'command', 'dictation', and 'conversation'—mapping to increasing task complexity and hardware requirements. This enables developers to determine if the local device can handle high-stakes use cases (like meeting transcription) or if they should fallback to cloud services, solving the current \"black box\" issue of on-device model capabilities.",
@@ -21057,7 +21089,7 @@
       ],
       "updated": {
         "by": "evliu@google.com",
-        "when": "2026-05-05 22:42:49.717850"
+        "when": "2026-05-18 18:42:13.486697"
       }
     },
     {
@@ -22203,16 +22235,16 @@
   "svg-filters": [
     {
       "id": 5117170452398080,
-      "name": "Disable SVG filters on plugins and cross-origin/restricted iframes",
-      "summary": "This launch prevents SVG filters from being applied to cross-origin/restricted iframes (e.g., sandboxed ones) and embedded plugins (e.g., pdfs). When a frame/plugin would be painted with an SVG filter effect, the effect tree is traversed to find the highest ancestor without SVG filters, and that effect is then applied instead.\n",
+      "name": "Disable SVG filters on plugins and cross-origin or restricted iframes",
+      "summary": "Chrome 150 will prevent Scalable Vector Graphics (SVG) filters from being applied to cross-origin or restricted iFrames (for example, sandboxed ones) and embedded plugins (for example, PDFs). When a frame or plugin would be painted with an SVG filter effect, the effect tree is traversed to find the highest ancestor without SVG filters, and that effect is then applied instead.",
       "motivation": "SVG clickjacking (https://lyra.horse/blog/2025/12/svg-clickjacking/) is a new spin on clickjacking which uses dynamic SVG filters to disguise content and manipulate users into taking actions they might not otherwise. Additionally, we would like to further restrict timing attacks (https://media.blackhat.com/us-13/US-13-Stone-Pixel-Perfect-Timing-Attacks-with-HTML5-WP.pdf) involving SVG filters.",
       "url": "https://chromestatus.com/feature/5117170452398080",
       "bug-url": "https://crbug.com/476646486",
       "spec-link": "https://github.com/w3c/csswg-drafts/pull/13846",
       "explainer-links": [],
       "updated": {
-        "by": "mhoste@google.com",
-        "when": "2026-05-05 12:01:27.159436"
+        "by": "siobhankeating@google.com",
+        "when": "2026-05-20 10:35:04.445108"
       }
     }
   ],
@@ -22278,7 +22310,7 @@
     {
       "id": 5068127364186112,
       "name": "AccentColor and AccentColorText system colors",
-      "summary": "The AccentColor and AccentColorText system colors can be used in CSS to access the system accent color specified on the user's device.\nThis allows developers to apply native app like styling to their web content in contexts where users expect OS theme integration, such as an installed web application.",
+      "summary": "The AccentColor and AccentColorText system colors can be used in CSS to access the system accent color specified on the user's device.\nThis allows developers to apply native app like styling to their web content in contexts where users expect OS theme integration, such as an installed web application. Users must be in an installed web application on the initial profile to see the system accent color rendered.",
       "motivation": "Without access to system accent colors, developers must hardcode theme values or implement non‑native design patterns, resulting in web applications that visually diverge from user‑configured platform settings. This is especially noticeable in installed web apps, where users expect a level of OS‑level visual integration comparable to native applications.",
       "url": "https://chromestatus.com/feature/5068127364186112",
       "bug-url": "https://issues.chromium.org/issues/40229450?pli=1",
@@ -22286,7 +22318,7 @@
       "explainer-links": [],
       "updated": {
         "by": "akyereboah@microsoft.com",
-        "when": "2026-04-15 23:25:47.403578"
+        "when": "2026-05-26 17:00:45.274885"
       }
     },
     {
@@ -22529,7 +22561,7 @@
       "explainer-links": [],
       "updated": {
         "by": "perryuwang@gmail.com",
-        "when": "2026-05-12 09:35:05.014795"
+        "when": "2026-05-19 22:10:27.809824"
       }
     },
     {
@@ -26697,8 +26729,8 @@
         "https://github.com/gpuweb/gpuweb/blob/main/proposals/immediate-data.md"
       ],
       "updated": {
-        "by": "kainino@google.com",
-        "when": "2026-04-01 22:37:55.415744"
+        "by": "shaoboyan@microsoft.com",
+        "when": "2026-05-21 13:47:34.665428"
       }
     },
     {
@@ -28553,7 +28585,7 @@
       "explainer-links": [],
       "updated": {
         "by": "kpannala@microsoft.com",
-        "when": "2026-05-12 13:15:05.747294"
+        "when": "2026-05-13 15:04:28.962663"
       }
     },
     {
@@ -29503,7 +29535,7 @@
     {
       "id": 4709671889534976,
       "name": "Deprecate and remove XSLT",
-      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the libxslt library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines) plans to deprecate and remove XSLT from the web platform.  \nFor more details, [see this Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt). ",
+      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the libxslt library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines) plans to deprecate and remove XSLT from the web platform.  \nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt). ",
       "motivation": "Security risks for all users outweigh the very small usage of this feature on the open web.\n\nUsage of XSLTProcessor (https://chromestatus.com/metrics/feature/timeline/popularity/79) is fairly volatile, registering somewhere between 0.01% and 0.1% of page loads, averaging around 0.05% over time. These numbers are above the typical 0.001% deprecation threshold. Again, we feel that the increased potential for breakage is balanced by the reduced security risk to 100% of Chromium users. And we are doing everything we can to mitigate this breakage and be proactive in reaching out to potentially affected sites and particularly libraries that might account for significant chunks of the overall usage. In addition, several sites we surveyed that use XSLTProcessor have feature detection code with fallbacks to JS libraries like Saxonica. Of the ~220 sites we've surveyed so far, roughly 72% of them are still functional even with XSLT disabled.\n\nThe usage of XSL Processing Instructions (https://chromestatus.com/metrics/feature/timeline/popularity/78) is significantly lower, around 0.001% for the last few years.",
       "url": "https://chromestatus.com/feature/4709671889534976",
       "bug-url": "https://crbug.com/435623334",
@@ -29511,7 +29543,7 @@
       "explainer-links": [],
       "updated": {
         "by": "siobhankeating@google.com",
-        "when": "2026-04-22 09:50:29.526150"
+        "when": "2026-05-20 11:18:14.791385"
       }
     },
     {
@@ -29541,7 +29573,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-05-06 01:47:38.372320"
+        "when": "2026-05-27 18:54:41.520177"
       }
     },
     {
@@ -29586,6 +29618,24 @@
       "updated": {
         "by": "foolip@google.com",
         "when": "2025-08-22 07:31:15.915411"
+      }
+    }
+  ],
+  "arianotify": [
+    {
+      "id": 5745430754230272,
+      "name": "ARIA Notify API",
+      "summary": "ariaNotify provides a JavaScript API that enables content authors to directly tell a screen reader what to read. \n\nariaNotify improves reliability and developer control compared to ARIA live regions, allowing for announcing changes not tied to DOM updates. This enables more consistent and ergonomic accessibility experiences across dynamic web applications. Iframe usage of this feature can be controlled via a permission policy \"aria-notify\".",
+      "motivation": "Currently the only mechanism available today that communicates content changes in a web app down to the accessibility layer is via ARIA live regions.\n\nOne major limitation to ARIA live regions is that they assume the change to a webpage is tied to a DOM element. This leads to content authors employing various inefficient or inconsistent tricks and hacks to notify of changes that are not associated with the DOM.\n\nWe propose a separate notification API to address these scenarios, called `ariaNotify`.",
+      "url": "https://chromestatus.com/feature/5745430754230272",
+      "bug-url": "https://issues.chromium.org/issues/326277796",
+      "spec-link": "https://github.com/w3c/aria/pull/2577",
+      "explainer-links": [
+        "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/Accessibility/AriaNotify/explainer.md"
+      ],
+      "updated": {
+        "by": "janewman@microsoft.com",
+        "when": "2026-05-12 16:06:38.938372"
       }
     }
   ]
