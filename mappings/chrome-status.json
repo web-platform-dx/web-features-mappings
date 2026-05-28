@@ -1919,8 +1919,8 @@
       "spec-link": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-clip-border-area",
       "explainer-links": [],
       "updated": {
-        "by": "cgqaq@chromium.org",
-        "when": "2026-05-27 03:38:47.147623"
+        "by": "yiorsi@gmail.com",
+        "when": "2026-05-27 16:18:17.963935"
       }
     }
   ],
@@ -9153,8 +9153,8 @@
         "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md"
       ],
       "updated": {
-        "by": "antoniosartori@google.com",
-        "when": "2026-05-26 14:31:54.590053"
+        "by": "tov@google.com",
+        "when": "2026-05-27 22:18:50.617173"
       }
     },
     {
@@ -10004,7 +10004,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-05-27 00:37:03.913299"
+        "when": "2026-05-27 13:45:35.722655"
       }
     }
   ],
@@ -10764,15 +10764,15 @@
     {
       "id": 6267249280286720,
       "name": "MediaStreamTrackProcessor frame counters ",
-      "summary": "Adds discardedFrames and totalFrames attributes to the MediaStreamTrackProcessor interface. These counters allow web developers to monitor the health of their media processing pipelines by tracking the number of frames received and the number of frames dropped due to system resource constraints",
+      "summary": "Adds discardedFrames and totalFrames attributes to the MediaStreamTrackProcessor interface. These counters allow web developers to monitor the health of their media processing pipelines by tracking the number of frames received and dropped by the processor.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/6267249280286720",
       "bug-url": "https://issues.chromium.org/issues/513481577",
       "spec-link": "https://www.w3.org/TR/mediacapture-transform/#track-processor-interface",
       "explainer-links": [],
       "updated": {
-        "by": "agpalak@google.com",
-        "when": "2026-05-22 13:46:14.908134"
+        "by": "guidou@google.com",
+        "when": "2026-05-28 07:18:34.765636"
       }
     },
     {
@@ -12024,7 +12024,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-05-26 18:40:04.413973"
+        "when": "2026-05-27 13:45:28.607494"
       }
     },
     {
@@ -18297,7 +18297,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-04-08 15:04:28.271785"
+        "when": "2026-05-27 13:45:42.869498"
       }
     }
   ],
@@ -20411,8 +20411,8 @@
       "spec-link": "https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-polygon",
       "explainer-links": [],
       "updated": {
-        "by": "cgqaq@chromium.org",
-        "when": "2026-05-27 03:32:50.362860"
+        "by": "chrishtr@chromium.org",
+        "when": "2026-05-27 15:28:50.605836"
       }
     }
   ],
@@ -29573,7 +29573,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-05-27 03:49:24.571710"
+        "when": "2026-05-27 18:54:41.520177"
       }
     },
     {
