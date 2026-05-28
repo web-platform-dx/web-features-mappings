@@ -102,6 +102,27 @@ The format of the combined file is as follows:
 }
 ```
 
+## Using the combined data in your project
+
+You can fetch the raw combined data from GitHub at the following URL:
+`https://raw.githubusercontent.com/web-platform-dx/web-features-mappings/main/mappings/combined-data.json`
+
+If you want to use it from a Node.js project, you can also add it as a dependency from your package.json file:
+
+```json
+{
+  "devDependencies": {
+    "web-features-mappings": "github:web-platform-dx/web-features-mappings"
+  }
+}
+```
+
+And then import the combined data in your code:
+
+```js
+import mappings from "web-features-mappings" with { type: "json" };
+```
+
 ## TODO
 
 * Add mapping to origin trials.
