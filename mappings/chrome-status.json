@@ -20411,8 +20411,8 @@
       "spec-link": "https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-polygon",
       "explainer-links": [],
       "updated": {
-        "by": "chrishtr@chromium.org",
-        "when": "2026-05-29 09:43:31.112028"
+        "by": "cgqaq@chromium.org",
+        "when": "2026-05-30 12:47:55.660397"
       }
     }
   ],
@@ -29636,6 +29636,22 @@
       "updated": {
         "by": "janewman@microsoft.com",
         "when": "2026-05-12 16:06:38.938372"
+      }
+    }
+  ],
+  "visibility": [
+    {
+      "id": 5184249629114368,
+      "name": "Support visibility:collapse on flex items",
+      "summary": "Support visibility:collapse on flex items",
+      "motivation": "The CSS Flexible Box Layout specification defines visibility: collapse for flex items: a collapsed item is removed from layout much like display: none, but the cross size of its flex line is preserved by treating the item's line cross size as a \"strut.\" This lets developers toggle items in and out of a flex layout without the row or column resizing, avoiding visual jumps as content appears and disappears.\nChromium does not implement this behavior and instead treats visibility: collapse on flex items the same as visibility: hidden, leaving the item's box in place. Firefox already supports the spec-defined behavior, so the feature is not interoperable across engines and developers cannot rely on it. To work around this, web authors fall back to manually toggling display: none and managing their own layout to prevent reflow, or they avoid visibility: collapse entirely. This adds complexity and is a common source of confusion, since the property appears in the spec but produces engine-specific results.\nImplementing visibility: collapse on flex items brings Chromium in line with the Flexbox specification and matches the behavior already shipping in Firefox, improving interoperability and giving developers a reliable, declarative way to collapse flex items while keeping line sizing stable.",
+      "url": "https://chromestatus.com/feature/5184249629114368",
+      "bug-url": "https://issues.chromium.org/u/2/issues/41085247",
+      "spec-link": "https://www.w3.org/TR/css-flexbox-1/#algo-visibility",
+      "explainer-links": [],
+      "updated": {
+        "by": "cgqaq@chromium.org",
+        "when": "2026-05-30 21:37:26.395852"
       }
     }
   ]
