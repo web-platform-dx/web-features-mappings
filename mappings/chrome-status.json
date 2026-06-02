@@ -4994,11 +4994,11 @@
       "bug-url": "https://bugs.chromium.org/p/chromium/issues/detail?id=947112",
       "spec-link": "https://w3c.github.io/deviceorientation/",
       "explainer-links": [
-        "No explainer. Two new functions were added to the Device Orientation spec: DeviceOrientationEvent.requestPermission() and DeviceMotionEvent.requestPermission()."
+        "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-requestpermission"
       ],
       "updated": {
-        "by": "reillyg@chromium.org",
-        "when": "2026-04-16 17:56:07.278017"
+        "by": "tov@google.com",
+        "when": "2026-06-01 15:51:53.655215"
       }
     },
     {
@@ -9154,7 +9154,7 @@
       ],
       "updated": {
         "by": "tov@google.com",
-        "when": "2026-05-27 22:18:50.617173"
+        "when": "2026-06-01 17:24:06.764488"
       }
     },
     {
@@ -10772,7 +10772,7 @@
       "explainer-links": [],
       "updated": {
         "by": "guidou@google.com",
-        "when": "2026-06-01 06:32:42.822463"
+        "when": "2026-06-01 18:43:31.130605"
       }
     },
     {
@@ -11386,8 +11386,8 @@
       "spec-link": "https://github.com/tc39/proposal-iterator-sequencing",
       "explainer-links": [],
       "updated": {
-        "by": "olivf@google.com",
-        "when": "2026-02-09 09:09:22.901977"
+        "by": "nikolaos@chromium.org",
+        "when": "2026-06-02 11:08:06.664608"
       }
     }
   ],
@@ -12024,7 +12024,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-06-01 06:36:47.453254"
+        "when": "2026-06-02 00:57:15.118627"
       }
     },
     {
@@ -16374,7 +16374,7 @@
       "explainer-links": [],
       "updated": {
         "by": "masonfreed@google.com",
-        "when": "2026-05-04 10:39:29.393731"
+        "when": "2026-06-01 16:19:31.839979"
       }
     },
     {
@@ -20889,7 +20889,7 @@
       ],
       "updated": {
         "by": "lingqi@chromium.org",
-        "when": "2026-06-01 09:06:19.462245"
+        "when": "2026-06-02 05:07:25.949946"
       }
     },
     {
@@ -26729,8 +26729,8 @@
         "https://github.com/gpuweb/gpuweb/blob/main/proposals/immediate-data.md"
       ],
       "updated": {
-        "by": "shaoboyan@microsoft.com",
-        "when": "2026-06-01 06:33:04.598649"
+        "by": "fbeaufort@google.com",
+        "when": "2026-06-02 07:19:36.993536"
       }
     },
     {
@@ -29542,8 +29542,8 @@
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-05-20 11:18:14.791385"
+        "by": "masonfreed@google.com",
+        "when": "2026-06-01 16:20:10.119981"
       }
     },
     {
