@@ -5712,7 +5712,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-05-15 20:03:12.369455"
+        "when": "2026-06-02 13:40:33.982473"
       }
     }
   ],
@@ -9520,15 +9520,15 @@
     {
       "id": 6192419898654720,
       "name": "Deprecate special font size rules for H1 within some elements",
-      "summary": "The HTML spec contains a list of special rules for <h1> tags nested within <article>, <aside>, <nav>, or <section> tags:\r\n\r\nhttps://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings\r\n\r\nThese special rules are deprecated, because they cause accessibility issues. Namely, they visually reduce the font size for nested <h1>s so that they \"look\" like <h2>s, but nothing in the accessibility tree reflects this demotion.",
+      "summary": "The HTML spec contains a list of [special rules for H1 tags](https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings) nested within `article`, `aside`, `nav`, or `section` tags. Chrome 140 deprecates these special rules, because they can cause accessibility issues. For example, they can visually reduce the font size for nested `h1` tags so that they look like `h2` tags, but nothing in the accessibility tree reflects this demotion.",
       "motivation": "The current behavior is an accessibility problem: the font size is reduced as if an <h2> is being used, but the a11y tree still shows the item as an <h1>. By removing these special rules, we'll nudge developers to do the \"better\" thing of actually using an <h2>.",
       "url": "https://chromestatus.com/feature/6192419898654720",
       "bug-url": "https://issues.chromium.org/issues/394111284",
       "spec-link": "https://github.com/whatwg/html/pull/11102",
       "explainer-links": [],
       "updated": {
-        "by": "foolip@google.com",
-        "when": "2025-11-15 22:32:36.138596"
+        "by": "elmirakalali@google.com",
+        "when": "2026-06-02 16:34:08.496754"
       }
     }
   ],
@@ -15931,13 +15931,13 @@
       "motivation": "The current web permission model for interacting with user media relies on JavaScript-triggered prompts, giving the user agent no strong signal of user intent. This results in out-of-context prompts, user frustration, and difficult-to-recover-from denial states.\n\nWe propose the <usermedia> element, or a suite of elements. This will be semantic HTML control with browser-controlled content and strict styling constraints. These constraints are fundamental to the security model, ensuring a very high level of confidence in the user's intent when making a permission decision at both the site and OS level.\n\nCrucially, the <usermedia> element evolves beyond simply managing permissions; it streamlines the entire journey by also facilitating starting and interacting with media streams. This often eliminates the need for separate JavaScript API calls, simplifying implementation and creating a more seamless user flow.\n\nBy providing a clear, consistent, in-page control, this element solves significant user problems related to context blindness and \"permission regret,\" offering a simple recovery path from a previously denied state. The combination of a user-initiated element and a subsequent browser-controlled confirmation UI enhances intent capture, improves accessibility, and prevents manipulative patterns, providing a significantly better experience for both users and developers.",
       "url": "https://chromestatus.com/feature/4926233538330624",
       "bug-url": "https://crbug.com/443013457",
-      "spec-link": "https://github.com/w3c/mediacapture-extensions/pull/168",
+      "spec-link": "https://w3c.github.io/mediacapture-extensions/#media-capture-html-elements",
       "explainer-links": [
-        "https://github.com/WICG/PEPC/blob/main/usermedia_element.md"
+        "https://github.com/w3c/mediacapture-extensions/blob/main/media-capture-elements-explainer.md"
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-05-04 20:18:13.519482"
+        "when": "2026-06-02 14:33:48.516748"
       }
     },
     {
@@ -20843,7 +20843,7 @@
       ],
       "updated": {
         "by": "robertlin@chromium.org",
-        "when": "2026-06-01 06:27:51.466198"
+        "when": "2026-06-02 18:05:59.154219"
       }
     },
     {
@@ -21511,14 +21511,16 @@
       "id": 5117411264167936,
       "name": "IncognitoStaticStorageQuota",
       "summary": "Fixes a bug in the predictable-storage-quota that allows Incognito mode to be detected.\n\nA change introduced recently to Stable, buckets the result of the StorageManager's estimate API for sites that do not have unlimited storage permission to max(10Gib, ceil(actual_quota_in_Gib)) + usage. However, in incognito mode, the actual quota value is based on a fraction of available RAM, instead of the disk space - providing an Incognito detection surface. This change fixes the value of this API for Incognito Mode to the maximal bucket of: usage + 10Gib.\n\nDiscussion on the original feature available here: https://groups.google.com/a/chromium.org/g/blink-dev/c/7q0YGQNVkjs/m/mpYkQVWpAQAJ\n\nThis is a new Chromestatus in place of an original PSA, as this launch should start with an I2E to ensure the breakage risk is properly addressed. See https://groups.google.com/a/chromium.org/g/blink-dev/c/00aHBCiUGzo/m/B0Dq06SFAQAJ.",
-      "motivation": null,
+      "motivation": "According to [1] browsers should put efforts towards making the private browsing indistinguishable from regular. This change disables the most widespread Incognito detection vector for Chrome.\n\n[1] https://www.w3.org/2001/tag/doc/private-browsing-modes/#features-supporting-private-browsing",
       "url": "https://chromestatus.com/feature/5117411264167936",
-      "bug-url": null,
+      "bug-url": "https://issues.chromium.org/issues/464484739",
       "spec-link": null,
-      "explainer-links": [],
+      "explainer-links": [
+        "https://github.com/explainers-by-googlers/static-storage-quota"
+      ],
       "updated": {
         "by": "michalhoffmann@google.com",
-        "when": "2026-05-07 11:07:23.326484"
+        "when": "2026-06-02 13:02:03.529171"
       }
     },
     {
@@ -29573,7 +29575,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-06-01 09:08:36.802754"
+        "when": "2026-06-02 13:53:13.655201"
       }
     },
     {
@@ -29652,6 +29654,22 @@
       "updated": {
         "by": "cgqaq@chromium.org",
         "when": "2026-05-30 21:37:26.395852"
+      }
+    }
+  ],
+  "languagedetector": [
+    {
+      "id": 5138651886518272,
+      "name": "LanguageDetector support for Traditional vs. Simplified Chinese",
+      "summary": "Two new detectable language codes, \"zh-Hant\" and \"zh-Hans\" will be added. Detection results that previously returned \"zh\" will now return one of these new values.\n\nWhile this is a developer-visible change it fits within the framework already present in the API for returning more specific language codes. For example ja vs. ja-Latn. This notice is being sent as a PSA for developers who have requested these more specific detection results.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5138651886518272",
+      "bug-url": "https://crbug.com/519251262",
+      "spec-link": "https://webmachinelearning.github.io/translation-api/#language-detector-api",
+      "explainer-links": [],
+      "updated": {
+        "by": "reillyg@chromium.org",
+        "when": "2026-06-03 00:52:17.661886"
       }
     }
   ]

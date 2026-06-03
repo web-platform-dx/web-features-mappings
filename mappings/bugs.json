@@ -5416,6 +5416,7 @@
   },
   "storage-manager": {
     "chrome": [
+      "https://issues.chromium.org/issues/464484739",
       "http://crbug.com/904000",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=502373",
       "https://crbug.com/603992",
@@ -6730,6 +6731,11 @@
   "visibility": {
     "chrome": [
       "https://issues.chromium.org/u/2/issues/41085247"
+    ]
+  },
+  "languagedetector": {
+    "chrome": [
+      "https://crbug.com/519251262"
     ]
   },
   "audio-session": {
