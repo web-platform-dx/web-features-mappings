@@ -12439,6 +12439,29 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:declarative-webmcp"
     },
+    "standards-positions": [
+      {
+        "vendor": "mozilla",
+        "url": "https://github.com/mozilla/standards-positions/issues/1412",
+        "position": "",
+        "concerns": []
+      },
+      {
+        "vendor": "apple",
+        "url": "https://github.com/WebKit/standards-positions/issues/670",
+        "position": "",
+        "concerns": [
+          "duplication",
+          "internationalization",
+          "privacy",
+          "security",
+          "venue",
+          "use cases",
+          "portability",
+          "API design"
+        ]
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/810",
       "votes": 0
@@ -14451,6 +14474,31 @@
         "title": "Document: vlinkColor property",
         "anchor": null,
         "url": "https://developer.mozilla.org/docs/Web/API/Document/vlinkColor"
+      }
+    ]
+  },
+  "document-modelcontext": {
+    "standards-positions": [
+      {
+        "vendor": "mozilla",
+        "url": "https://github.com/mozilla/standards-positions/issues/1412",
+        "position": "",
+        "concerns": []
+      },
+      {
+        "vendor": "apple",
+        "url": "https://github.com/WebKit/standards-positions/issues/670",
+        "position": "",
+        "concerns": [
+          "duplication",
+          "internationalization",
+          "privacy",
+          "security",
+          "venue",
+          "use cases",
+          "portability",
+          "API design"
+        ]
       }
     ]
   },
