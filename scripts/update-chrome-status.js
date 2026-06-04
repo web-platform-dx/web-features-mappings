@@ -35,6 +35,15 @@ async function getChromeStatusFeatures(id) {
   }));
 }
 
+function maybeGetOriginalIdForMovedFeature(newId) {
+  for (const id in features) {
+    if (features[id].kind === "moved" && features[id].redirect_target === newId) {
+      return id;
+    }
+  }
+  return null;
+}
+
 async function main() {
   // Read existing mapping to preserve previously fetched data.
   let mapping = {};
@@ -46,11 +55,21 @@ async function main() {
   }
 
   for (const id in features) {
+    // Only consider real features.
     if (features[id].kind !== "feature") {
       continue;
     }
 
+    // Get the chrome status entries for this feature ID.
     const chromeStatusFeatures = await getChromeStatusFeatures(id);
+
+    // The feature might have moved from somewhere else and chrome status might still have the old ID.
+    // Check for this and include those entries as well.
+    const originalId = maybeGetOriginalIdForMovedFeature(id);
+    if (originalId) {
+      const originalChromeStatusFeatures = await getChromeStatusFeatures(originalId);
+      chromeStatusFeatures.push(...originalChromeStatusFeatures);
+    }
 
     if (chromeStatusFeatures.length > 0) {
       mapping[id] = chromeStatusFeatures;
