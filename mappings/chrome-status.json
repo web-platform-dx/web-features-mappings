@@ -487,6 +487,20 @@
   ],
   "animations-css": [
     {
+      "id": 5139380420345856,
+      "name": "Timeline naming conflict resolution",
+      "summary": "Resolve naming conflicts when multiple timelines in scope match a given name. In the case of a conflict, the last match in flat tree order wins. This updated behavior aligns with anchor positioning.\n\nPreviously, when multiple elements matched an animation-timeline name, the deferred timeline was left unresolved.  The behavior has been clarified in:\n\nhttps://github.com/w3c/csswg-drafts/issues/12581\n\nThough the issue was filed for timeline-triggers rather than scroll animations, the same rules apply to both.\n\nThis change will not cause a resolved timeline to resolve to a different timeline, but allow a timeline that was previously unresolved to become resolved in the event of a conflict.\n\nThis was flagged as part of interop 2026 for scroll-animations.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5139380420345856",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "kevers@google.com",
+        "when": "2026-06-04 19:28:47.508810"
+      }
+    },
+    {
       "id": 5160464445210624,
       "name": "Expose 'onanimationcancel' event to GlobalEventHandlers",
       "summary": "The CSS Animations Level 1 extends [1] the GlobalEventsHandler Interface defined in the HTML spec [2], declaring 4 new event handlers: onanimationstart, onanimationiteration, onanimationend and onanimationcancel. \nOnly the 'onanimationcancel' event handler has been missing from the GobalEventsHandler IDL. \n\n[1]https://drafts.csswg.org/css-animations/#interface-globaleventhandlers\n[2]https://html.spec.whatwg.org/multipage/webappapis.html#globaleventhandlers ",
@@ -7056,22 +7070,6 @@
     }
   ],
   "fetch": [
-    {
-      "id": 5146752165478400,
-      "name": "textStream() for response/request/blob",
-      "summary": "Add textStream() to interfaces that represent a byte stream (request, response, blob). This is equivalent to piping the byte stream through a TextDecoderStream(), and reduces this small piece of broilerplate for commoncases.",
-      "motivation": "A small ergonomic change to make it easier to stream text from a byte stream such as response (or blob) to a sink that accepts strings. Helps with a footgun of forgetting to pipe through a TextDecoderStream.",
-      "url": "https://chromestatus.com/feature/5146752165478400",
-      "bug-url": "https://issues.chromium.org/issues/514448226",
-      "spec-link": "https://github.com/whatwg/fetch/pull/1862",
-      "explainer-links": [
-        "https://github.com/whatwg/fetch/pull/1862"
-      ],
-      "updated": {
-        "by": "nrosenthal@chromium.org",
-        "when": "2026-05-19 15:22:08.923650"
-      }
-    },
     {
       "id": 5094781984309248,
       "name": "Allowing JS web-requesting APIs to modify the User-Agent header",
@@ -15036,7 +15034,7 @@
       ],
       "updated": {
         "by": "stephanie.zhang@microsoft.com",
-        "when": "2026-05-26 18:38:20.927449"
+        "when": "2026-06-05 23:08:56.822711"
       }
     }
   ],
@@ -15096,13 +15094,13 @@
       "motivation": "The CSS `overflow` property currently allows behavior to be specified per axis, but it does not provide a way to make a scroll container responsible for only a single axis. The affects features that depend on scroll containers, namely `position: sticky` and DOM scroll APIs.\n\nFor example, authors may want to use `position: sticky` to create a table that keeps both the top and left labels in view while the user scrolls through large content. Or they may want to create a carousel that is visually clipped on one axis, while ensuring that `scrollIntoView()` does not unexpectedly move that clipped axis.\n\nPlease see the explainer for more details. ",
       "url": "https://chromestatus.com/feature/5067363861004288",
       "bug-url": "https://issues.chromium.org/440038212",
-      "spec-link": null,
+      "spec-link": "https://github.com/w3c/csswg-drafts/pull/13903",
       "explainer-links": [
         "https://github.com/explainers-by-googlers/single-axis-scroll-containers"
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-05-25 14:16:34.388991"
+        "when": "2026-06-05 15:13:06.744851"
       }
     },
     {
@@ -20843,7 +20841,7 @@
       ],
       "updated": {
         "by": "robertlin@chromium.org",
-        "when": "2026-06-02 18:05:59.154219"
+        "when": "2026-06-04 17:43:08.417774"
       }
     },
     {
@@ -20889,7 +20887,7 @@
       ],
       "updated": {
         "by": "lingqi@chromium.org",
-        "when": "2026-06-02 05:07:25.949946"
+        "when": "2026-06-03 13:12:33.014682"
       }
     },
     {
@@ -21073,7 +21071,7 @@
       ],
       "updated": {
         "by": "evliu@google.com",
-        "when": "2026-06-01 06:28:50.250186"
+        "when": "2026-06-03 22:08:52.237947"
       }
     },
     {
@@ -25850,8 +25848,8 @@
       "spec-link": "https://wicg.github.io/webcrypto-modern-algos",
       "explainer-links": [],
       "updated": {
-        "by": "dadrian@google.com",
-        "when": "2026-04-14 16:25:39.558370"
+        "by": "hchao@chromium.org",
+        "when": "2026-06-03 17:08:30.619649"
       }
     },
     {
@@ -27430,6 +27428,22 @@
     }
   ],
   "webrtc": [
+    {
+      "id": 5177732519559168,
+      "name": "RTP Header Extension Encryption",
+      "summary": "Allows using SRTP encryption to cover RTP header extensions and contributing source (CSRC) identifiers.",
+      "motivation": "This provides an implementation of RFC 9335 which extends the encryption used by WebRTC to some fields that were so far transmitted in plain over the network.",
+      "url": "https://chromestatus.com/feature/5177732519559168",
+      "bug-url": "https://issues.webrtc.org/issues/455813732",
+      "spec-link": "https://w3c.github.io/webrtc-extensions/#rtp-header-extension-encryption",
+      "explainer-links": [
+        "https://github.com/fippo/webrtc-explainers/blob/gh-pages/rtp-header-extension-encryption/index.md"
+      ],
+      "updated": {
+        "by": "philipp.hancke@googlemail.com",
+        "when": "2026-06-03 13:22:02.350532"
+      }
+    },
     {
       "id": 5086798634156032,
       "name": "Chrome removes support for obsolete virtual cameras on macOS",
@@ -29575,7 +29589,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-06-02 13:53:13.655201"
+        "when": "2026-06-05 15:04:05.073712"
       }
     },
     {
@@ -29669,7 +29683,57 @@
       "explainer-links": [],
       "updated": {
         "by": "reillyg@chromium.org",
-        "when": "2026-06-03 00:52:17.661886"
+        "when": "2026-06-05 15:09:11.602659"
+      }
+    }
+  ],
+  "document-modelcontext": [
+    {
+      "id": 5117755740913664,
+      "name": "WebMCP",
+      "summary": "WebMCP is a proposal for a web API that enables web pages to provide agent-specific paths in their UI. With WebMCP, agent-service interaction takes place via app-controlled UI, providing a shared context available to app, agent, and user.",
+      "motivation": "The web platform's ubiquity and popularity have made it the world's gateway to information and capabilities. Its ability to support complex, interactive applications beyond static content, has empowered developers to build rich user experiences and applications. As AI agents become more prevalent, the potential for even greater user value is within reach.\n\nFor the Web to succeed, it needs to APIs to interact with Agents beyond UIs written for humans.",
+      "url": "https://chromestatus.com/feature/5117755740913664",
+      "bug-url": "https://crbug.com/445637567",
+      "spec-link": "https://webmachinelearning.github.io/webmcp",
+      "explainer-links": [
+        "https://github.com/webmachinelearning/webmcp"
+      ],
+      "updated": {
+        "by": "dom@chromium.org",
+        "when": "2026-06-04 12:04:47.151707"
+      }
+    }
+  ],
+  "numeric-separators": [
+    {
+      "id": 5829906369871872,
+      "name": "Numeric separators",
+      "summary": "This feature enables developers to make their numeric literals more readable by creating a visual separation between groups of digits. Using underscores (_, U+005F) as separators helps improve readability for numeric literals, for ex: 1_000_000_000.",
+      "motivation": "",
+      "url": "https://chromestatus.com/feature/5829906369871872",
+      "bug-url": "https://bugs.chromium.org/p/v8/issues/detail?id=7317",
+      "spec-link": "https://tc39.es/proposal-numeric-separator/",
+      "explainer-links": [],
+      "updated": {
+        "by": "foolip@google.com",
+        "when": "2025-08-22 19:25:27.984368"
+      }
+    }
+  ],
+  "open-pseudo": [
+    {
+      "id": 5085419215781888,
+      "name": "CSS :open pseudo-class",
+      "summary": "The :open pseudo-class matches <dialog> and <details> when they are in their open state, and matches <select> and <input> when they are in modes which have a picker and the picker is showing.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5085419215781888",
+      "bug-url": "https://issues.chromium.org/issues/324293874",
+      "spec-link": "https://drafts.csswg.org/selectors-4/#open-state",
+      "explainer-links": [],
+      "updated": {
+        "by": "foolip@google.com",
+        "when": "2025-08-22 08:30:21.657143"
       }
     }
   ]
