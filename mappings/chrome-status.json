@@ -1,6 +1,20 @@
 {
   "a": [
     {
+      "id": 6238237334044672,
+      "name": "3P DSE AI Chat Button",
+      "summary": "Enable an AI chat Omnibox button for 3P DSEs so that all Chrome users can have a fast, single-click shortcut to get AI powered answers to their questions, regardless of their DSE\n\n",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/6238237334044672",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "angelaweber@google.com",
+        "when": "2026-06-08 20:51:46.772719"
+      }
+    },
+    {
       "id": 5631885325631488,
       "name": "Support HTMLAnchorElement.relList property",
       "summary": "The HTMLAnchorElement.relList read-only property reflects the rel attribute. It is a live DOMTokenList containing the set of link types indicating the relationship between the resource represented by the <a> element and the current document.\r\n",
@@ -3648,7 +3662,7 @@
       "explainer-links": [],
       "updated": {
         "by": "futhark@chromium.org",
-        "when": "2026-06-01 06:35:20.551592"
+        "when": "2026-06-08 16:02:12.819599"
       }
     },
     {
@@ -5012,7 +5026,7 @@
       ],
       "updated": {
         "by": "tov@google.com",
-        "when": "2026-06-01 15:51:53.655215"
+        "when": "2026-06-08 15:11:49.063231"
       }
     },
     {
@@ -10269,8 +10283,8 @@
       "spec-link": "https://www.w3.org/TR/IndexedDB",
       "explainer-links": [],
       "updated": {
-        "by": "evanstade@microsoft.com",
-        "when": "2026-05-07 12:29:08.151746"
+        "by": "abhishek.shanthkumar@microsoft.com",
+        "when": "2026-06-08 12:39:11.983506"
       }
     },
     {
@@ -18295,7 +18309,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-06-07 01:48:26.043144"
+        "when": "2026-06-08 18:40:09.346906"
       }
     }
   ],
@@ -20841,7 +20855,7 @@
       ],
       "updated": {
         "by": "robertlin@chromium.org",
-        "when": "2026-06-08 02:51:42.395762"
+        "when": "2026-06-09 04:20:38.402271"
       }
     },
     {
@@ -21071,7 +21085,7 @@
       ],
       "updated": {
         "by": "evliu@google.com",
-        "when": "2026-06-03 22:08:52.237947"
+        "when": "2026-06-09 00:50:27.688437"
       }
     },
     {
@@ -21087,7 +21101,7 @@
       ],
       "updated": {
         "by": "evliu@google.com",
-        "when": "2026-05-18 18:42:13.486697"
+        "when": "2026-06-08 17:49:28.837047"
       }
     },
     {
@@ -25849,7 +25863,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-06-03 17:08:30.619649"
+        "when": "2026-06-08 15:14:17.190138"
       }
     },
     {
@@ -27442,6 +27456,20 @@
       "updated": {
         "by": "philipp.hancke@googlemail.com",
         "when": "2026-06-03 13:22:02.350532"
+      }
+    },
+    {
+      "id": 5137946677215232,
+      "name": "WebRTC Data Channel: SCTP Negotiation Acceleration Protocol",
+      "summary": "WebRTC Data Channels use the Stream Control Transmission Protocol (SCTP) over a Datagram Transport Layer Security (DTLS) association.\n\nThe standard SCTP connection establishment requires a handshake that introduces latency.  A new Internet draft specifies a method to accelerate\nthe datachannel establishment by embedding the SCTP initialization parameters within the Session Description Protocol (SDP) offer/answer exchange.\nThis reduces the time required to open a data channel by up to two network round-trip times.",
+      "motivation": "[RFC8831] defines WebRTC Data Channels that allow the transport of arbitrary non-media data over a WebRTC PeerConnection.  This uses SCTP [RFC9260] and a DTLS encapsulation of SCTP packets [RFC8261].\n\nSCTP establishes its associations using a four-way handshake, which primarily serves to protect against half-open (SYN-flood) attacks. For WebRTC, SCTP runs encapsulated within DTLS [RFC8261], which establishes a secure, encrypted channel between the peers that prevents half-open attacks.\n\nFor WebRTC this handshake can be embedded into the SDP that is exchanged during Offer/Answer, eliminating two round trips from the connection setup.",
+      "url": "https://chromestatus.com/feature/5137946677215232",
+      "bug-url": "https://issues.webrtc.org/issues/426480601",
+      "spec-link": "https://datatracker.ietf.org/doc/draft-hancke-tsvwg-snap",
+      "explainer-links": [],
+      "updated": {
+        "by": "philipp.hancke@googlemail.com",
+        "when": "2026-06-09 10:58:36.077434"
       }
     },
     {

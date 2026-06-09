@@ -13,6 +13,20 @@
     ],
     "chrome-status": [
       {
+        "id": 6238237334044672,
+        "name": "3P DSE AI Chat Button",
+        "summary": "Enable an AI chat Omnibox button for 3P DSEs so that all Chrome users can have a fast, single-click shortcut to get AI powered answers to their questions, regardless of their DSE\n\n",
+        "motivation": null,
+        "url": "https://chromestatus.com/feature/6238237334044672",
+        "bug-url": null,
+        "spec-link": null,
+        "explainer-links": [],
+        "updated": {
+          "by": "angelaweber@google.com",
+          "when": "2026-06-08 20:51:46.772719"
+        }
+      },
+      {
         "id": 5631885325631488,
         "name": "Support HTMLAnchorElement.relList property",
         "summary": "The HTMLAnchorElement.relList read-only property reflects the rel attribute. It is a live DOMTokenList containing the set of link types indicating the relationship between the resource represented by the <a> element and the current document.\r\n",
@@ -96,7 +110,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.50067756,
+      "percentageOfPageLoad": 0.51208315,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/124"
     },
     "chrome-status": [
@@ -185,7 +199,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00650324,
+      "percentageOfPageLoad": 0.00777444,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/88"
     },
     "chrome-status": [
@@ -334,7 +348,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00142598,
+      "percentageOfPageLoad": 0.00131181,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/147"
     },
     "chrome-status": [
@@ -402,7 +416,7 @@
       "votes": 16
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02358999,
+      "percentageOfPageLoad": 0.02428135,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/6"
     },
     "chrome-status": [
@@ -571,7 +585,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00103383,
+      "percentageOfPageLoad": 0.00102001,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/217"
     },
     "chrome-status": [
@@ -732,7 +746,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.07900159,
+      "percentageOfPageLoad": 0.07603067,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/345"
     },
     "chrome-status": [
@@ -878,7 +892,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/13",
-      "votes": 2
+      "votes": 3
     }
   },
   "ambient-light": {
@@ -1115,10 +1129,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/245",
-      "votes": 214
+      "votes": 215
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.04206438,
+      "percentageOfPageLoad": 0.04506268,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/97"
     },
     "chrome-status": [
@@ -1298,7 +1312,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00442055,
+      "percentageOfPageLoad": 0.0045831,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/7"
     },
     "chrome-status": [
@@ -1532,7 +1546,7 @@
       "votes": 11
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 8.9e-7,
+      "percentageOfPageLoad": 8.8e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/299"
     },
     "chrome-status": [
@@ -1603,7 +1617,7 @@
       "votes": 3
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01030622,
+      "percentageOfPageLoad": 0.01028136,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/309"
     },
     "chrome-status": [
@@ -1636,7 +1650,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000347,
+      "percentageOfPageLoad": 0.00000703,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/431"
     }
   },
@@ -1665,7 +1679,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00394386,
+      "percentageOfPageLoad": 0.00376772,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/300"
     },
     "chrome-status": [
@@ -1747,7 +1761,7 @@
       "votes": 3
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00321882,
+      "percentageOfPageLoad": 0.00323075,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/304"
     },
     "chrome-status": [
@@ -1826,7 +1840,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02009441,
+      "percentageOfPageLoad": 0.01956283,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/305"
     },
     "chrome-status": [
@@ -1879,7 +1893,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.4772058,
+      "percentageOfPageLoad": 0.4859089,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/8"
     },
     "chrome-status": [
@@ -1964,7 +1978,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.15951323,
+      "percentageOfPageLoad": 0.16203484,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/96"
     }
   },
@@ -2133,7 +2147,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01610851,
+      "percentageOfPageLoad": 0.01726822,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/223"
     },
     "chrome-status": [
@@ -2221,7 +2235,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0431409,
+      "percentageOfPageLoad": 0.04218377,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/238"
     },
     "chrome-status": [
@@ -2341,7 +2355,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01407174,
+      "percentageOfPageLoad": 0.01479649,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/224"
     },
     "chrome-status": [
@@ -2384,7 +2398,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02515211,
+      "percentageOfPageLoad": 0.02638758,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/239"
     },
     "chrome-status": [
@@ -2621,7 +2635,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.37206398,
+      "percentageOfPageLoad": 0.37185134,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/9"
     },
     "chrome-status": [
@@ -2747,7 +2761,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00356823,
+      "percentageOfPageLoad": 0.00385777,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/121"
     },
     "chrome-status": [
@@ -2986,7 +3000,7 @@
       "votes": 8
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00204759,
+      "percentageOfPageLoad": 0.00219336,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/279"
     },
     "chrome-status": [
@@ -3069,7 +3083,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00027445,
+      "percentageOfPageLoad": 0.00025209,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/242"
     },
     "chrome-status": [
@@ -3237,7 +3251,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.21504386,
+      "percentageOfPageLoad": 0.21302808,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/282"
     },
     "chrome-status": [
@@ -3755,7 +3769,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00096924,
+      "percentageOfPageLoad": 0.00106875,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/152"
     },
     "chrome-status": [
@@ -3989,7 +4003,7 @@
       "votes": 6
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02379775,
+      "percentageOfPageLoad": 0.02406764,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/352"
     },
     "chrome-status": [
@@ -4116,7 +4130,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.10472165,
+      "percentageOfPageLoad": 0.09995996,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/10"
     },
     "chrome-status": [
@@ -4263,7 +4277,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.33804573,
+      "percentageOfPageLoad": 0.33849412,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/11"
     },
     "chrome-status": [
@@ -4427,7 +4441,7 @@
       "votes": 7
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.66374205,
+      "percentageOfPageLoad": 0.6757016,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/131"
     },
     "chrome-status": [
@@ -4692,7 +4706,7 @@
       "votes": 5
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00098714,
+      "percentageOfPageLoad": 0.00108489,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/301"
     },
     "chrome-status": [
@@ -4781,7 +4795,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.14247216,
+      "percentageOfPageLoad": 0.14203235,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/274"
     }
   },
@@ -4866,7 +4880,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00063104,
+      "percentageOfPageLoad": 0.00070697,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/214"
     },
     "chrome-status": [
@@ -5075,7 +5089,7 @@
       "votes": 6
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.14362104,
+      "percentageOfPageLoad": 0.13933483,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/303"
     },
     "chrome-status": [
@@ -5132,7 +5146,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.55220218,
+      "percentageOfPageLoad": 0.5656797,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/275"
     },
     "chrome-status": [
@@ -5215,7 +5229,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0513312,
+      "percentageOfPageLoad": 0.05080705,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/276"
     },
     "chrome-status": [
@@ -5406,7 +5420,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.11400836,
+      "percentageOfPageLoad": 0.11548511,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/12"
     },
     "chrome-status": [
@@ -5504,7 +5518,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05982841,
+      "percentageOfPageLoad": 0.06032563,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/13"
     },
     "chrome-status": [
@@ -5651,7 +5665,7 @@
       "votes": 6
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02626172,
+      "percentageOfPageLoad": 0.02770563,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/218"
     },
     "chrome-status": [
@@ -5737,7 +5751,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.13139035,
+      "percentageOfPageLoad": 0.13912169,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/14"
     },
     "chrome-status": [
@@ -5883,7 +5897,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00510071,
+      "percentageOfPageLoad": 0.00519109,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/183"
     },
     "chrome-status": [
@@ -5961,10 +5975,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/252",
-      "votes": 29
+      "votes": 30
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00190758,
+      "percentageOfPageLoad": 0.00201303,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/234"
     },
     "bugs": {
@@ -6049,7 +6063,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.46050197,
+      "percentageOfPageLoad": 0.46452782,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/200"
     },
     "chrome-status": [
@@ -6518,7 +6532,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00084169,
+      "percentageOfPageLoad": 0.00081208,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/15"
     }
   },
@@ -6535,7 +6549,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00003461,
+      "percentageOfPageLoad": 0.00003249,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/91"
     }
   },
@@ -6558,7 +6572,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00009701,
+      "percentageOfPageLoad": 0.00011245,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/92"
     }
   },
@@ -6575,7 +6589,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00127991,
+      "percentageOfPageLoad": 0.0015909,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/93"
     }
   },
@@ -6592,7 +6606,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00015952,
+      "percentageOfPageLoad": 0.00016985,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/157"
     }
   },
@@ -6833,7 +6847,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.04304671,
+      "percentageOfPageLoad": 0.04627167,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/5"
     },
     "chrome-status": [
@@ -6953,7 +6967,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.04576944,
+      "percentageOfPageLoad": 0.04660435,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/206"
     }
   },
@@ -7046,7 +7060,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03580794,
+      "percentageOfPageLoad": 0.03855968,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/133"
     },
     "chrome-status": [
@@ -7237,7 +7251,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00283027,
+      "percentageOfPageLoad": 0.00281675,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/339"
     },
     "chrome-status": [
@@ -7363,7 +7377,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.42774005,
+      "percentageOfPageLoad": 0.43923181,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/216"
     },
     "chrome-status": [
@@ -7414,7 +7428,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00057013,
+      "percentageOfPageLoad": 0.00062338,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/215"
     },
     "chrome-status": [
@@ -7470,7 +7484,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000874,
+      "percentageOfPageLoad": 0.00001372,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/271"
     },
     "chrome-status": [
@@ -7553,7 +7567,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0010767,
+      "percentageOfPageLoad": 0.00138519,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/273"
     },
     "chrome-status": [
@@ -7603,7 +7617,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 8.7e-7,
+      "percentageOfPageLoad": 0.00000132,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/272"
     },
     "chrome-status": [
@@ -7655,7 +7669,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00001567,
+      "percentageOfPageLoad": 0.00002296,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/123"
     }
   },
@@ -7754,10 +7768,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/249",
-      "votes": 8
+      "votes": 9
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00044721,
+      "percentageOfPageLoad": 0.00041916,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/259"
     },
     "bugs": {
@@ -7859,7 +7873,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0104445,
+      "percentageOfPageLoad": 0.01109555,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/169"
     },
     "chrome-status": [
@@ -7994,7 +8008,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.08217496,
+      "percentageOfPageLoad": 0.08987532,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/95"
     }
   },
@@ -8075,7 +8089,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.20688834,
+      "percentageOfPageLoad": 0.21370867,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/16"
     },
     "chrome-status": [
@@ -8323,7 +8337,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 4.5e-7,
+      "percentageOfPageLoad": 3.9e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/292"
     }
   },
@@ -8367,7 +8381,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00003404,
+      "percentageOfPageLoad": 0.00004251,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/314"
     }
   },
@@ -8413,7 +8427,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.09997176,
+      "percentageOfPageLoad": 0.09762546,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/315"
     },
     "chrome-status": [
@@ -8486,7 +8500,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.2307464,
+      "percentageOfPageLoad": 0.24168892,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/1"
     },
     "chrome-status": [
@@ -8558,7 +8572,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00132848,
+      "percentageOfPageLoad": 0.00184903,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/17"
     },
     "chrome-status": [
@@ -8756,7 +8770,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.10344951,
+      "percentageOfPageLoad": 0.10446849,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/18"
     },
     "chrome-status": [
@@ -8980,7 +8994,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00062227,
+      "percentageOfPageLoad": 0.00070092,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/132"
     }
   },
@@ -9018,7 +9032,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.08514538,
+      "percentageOfPageLoad": 0.08331404,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/21"
     },
     "chrome-status": [
@@ -9279,7 +9293,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.19560682,
+      "percentageOfPageLoad": 0.20748334,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/19"
     },
     "chrome-status": [
@@ -9294,7 +9308,7 @@
         "explainer-links": [],
         "updated": {
           "by": "futhark@chromium.org",
-          "when": "2026-06-01 06:35:20.551592"
+          "when": "2026-06-08 16:02:12.819599"
         }
       },
       {
@@ -9381,10 +9395,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/272",
-      "votes": 57
+      "votes": 58
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00293113,
+      "percentageOfPageLoad": 0.00297986,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/280"
     },
     "chrome-status": [
@@ -9496,7 +9510,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00320985,
+      "percentageOfPageLoad": 0.00322976,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/20"
     },
     "chrome-status": [
@@ -9642,7 +9656,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.09832882,
+      "percentageOfPageLoad": 0.09848415,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/148"
     },
     "chrome-status": [
@@ -9788,7 +9802,7 @@
       "votes": 6
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00003766,
+      "percentageOfPageLoad": 0.00003932,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/155"
     },
     "chrome-status": [
@@ -9837,7 +9851,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00014748,
+      "percentageOfPageLoad": 0.00014621,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/430"
     },
     "chrome-status": [
@@ -10025,7 +10039,7 @@
       "votes": 11
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.10327448,
+      "percentageOfPageLoad": 0.10281396,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/283"
     },
     "chrome-status": [
@@ -10195,7 +10209,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/398",
-      "votes": 83
+      "votes": 84
     },
     "chrome-status": [
       {
@@ -10315,7 +10329,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00377125,
+      "percentageOfPageLoad": 0.00457784,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/149"
     },
     "chrome-status": [
@@ -10355,7 +10369,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00385347,
+      "percentageOfPageLoad": 0.00380127,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/22"
     },
     "chrome-status": [
@@ -10756,7 +10770,7 @@
       "votes": 42
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.11981436,
+      "percentageOfPageLoad": 0.12183189,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/232"
     },
     "chrome-status": [
@@ -11275,7 +11289,7 @@
       "votes": 25
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00003211,
+      "percentageOfPageLoad": 0.00003178,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/23"
     },
     "chrome-status": [
@@ -11802,7 +11816,7 @@
       "votes": 178
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00024747,
+      "percentageOfPageLoad": 0.0002472,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/342"
     },
     "chrome-status": [
@@ -12169,7 +12183,7 @@
       "votes": 33
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0170126,
+      "percentageOfPageLoad": 0.01674054,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/84"
     },
     "chrome-status": [
@@ -12422,7 +12436,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00274141,
+      "percentageOfPageLoad": 0.00291328,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/24"
     },
     "chrome-status": [
@@ -12522,7 +12536,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 2e-8,
+      "percentageOfPageLoad": 7e-8,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/432"
     }
   },
@@ -13072,7 +13086,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00804722,
+      "percentageOfPageLoad": 0.00835109,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/354"
     },
     "bugs": {
@@ -13201,7 +13215,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00054237,
+      "percentageOfPageLoad": 0.00052827,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/114"
     },
     "chrome-status": [
@@ -13316,7 +13330,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.07238081,
+      "percentageOfPageLoad": 0.06836477,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/102"
     },
     "chrome-status": [
@@ -13333,7 +13347,7 @@
         ],
         "updated": {
           "by": "tov@google.com",
-          "when": "2026-06-01 15:51:53.655215"
+          "when": "2026-06-08 15:11:49.063231"
         }
       },
       {
@@ -13480,7 +13494,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01037206,
+      "percentageOfPageLoad": 0.01038331,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/401"
     },
     "chrome-status": [
@@ -13780,7 +13794,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.10670504,
+      "percentageOfPageLoad": 0.1015173,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/25"
     },
     "chrome-status": [
@@ -13926,7 +13940,7 @@
       "votes": 63
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00059683,
+      "percentageOfPageLoad": 0.00062281,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/350"
     },
     "chrome-status": [
@@ -14023,7 +14037,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.07381783,
+      "percentageOfPageLoad": 0.07963395,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/85"
     },
     "chrome-status": [
@@ -14111,7 +14125,7 @@
       "votes": 13
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03413894,
+      "percentageOfPageLoad": 0.0355347,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/233"
     },
     "bugs": {
@@ -14313,7 +14327,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.16950419,
+      "percentageOfPageLoad": 0.16692758,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/199"
     },
     "bugs": {
@@ -14470,7 +14484,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05004458,
+      "percentageOfPageLoad": 0.05060202,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/144"
     },
     "chrome-status": [
@@ -14622,7 +14636,7 @@
       "votes": 14
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00014083,
+      "percentageOfPageLoad": 0.00019449,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/26"
     },
     "chrome-status": [
@@ -15282,7 +15296,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.06205238,
+      "percentageOfPageLoad": 0.05993734,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/198"
     },
     "chrome-status": [
@@ -15452,7 +15466,7 @@
       "votes": 11
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00250983,
+      "percentageOfPageLoad": 0.00408939,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/125"
     },
     "chrome-status": [
@@ -15549,7 +15563,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 8e-8,
+      "percentageOfPageLoad": 6e-8,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/321"
     },
     "chrome-status": [
@@ -16412,7 +16426,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00032924,
+      "percentageOfPageLoad": 0.00036226,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/184"
     },
     "chrome-status": [
@@ -16438,7 +16452,7 @@
       "votes": 10
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00179845,
+      "percentageOfPageLoad": 0.0021051,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/308"
     }
   },
@@ -16610,7 +16624,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00765991,
+      "percentageOfPageLoad": 0.00833249,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/381"
     }
   },
@@ -16628,7 +16642,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00745917,
+      "percentageOfPageLoad": 0.00807671,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/382"
     }
   },
@@ -16656,7 +16670,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00175224,
+      "percentageOfPageLoad": 0.00202914,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/383"
     },
     "bugs": {
@@ -16733,7 +16747,7 @@
       "votes": 5
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00002337,
+      "percentageOfPageLoad": 0.0000302,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/130"
     },
     "chrome-status": [
@@ -16925,7 +16939,7 @@
       "votes": 38
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02898386,
+      "percentageOfPageLoad": 0.02736507,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/247"
     },
     "chrome-status": [
@@ -17458,7 +17472,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00090776,
+      "percentageOfPageLoad": 0.00084056,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/284"
     },
     "chrome-status": [
@@ -18252,7 +18266,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.40570909,
+      "percentageOfPageLoad": 0.40653524,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/268"
     },
     "chrome-status": [
@@ -18309,7 +18323,7 @@
       "votes": 8
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00001789,
+      "percentageOfPageLoad": 0.00001818,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/398"
     },
     "chrome-status": [
@@ -18402,7 +18416,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03811227,
+      "percentageOfPageLoad": 0.03760992,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/306"
     },
     "chrome-status": [
@@ -18491,7 +18505,7 @@
       "votes": 47
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01234032,
+      "percentageOfPageLoad": 0.0132318,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/113"
     },
     "chrome-status": [
@@ -18680,7 +18694,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.07605044,
+      "percentageOfPageLoad": 0.07731453,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/185"
     },
     "chrome-status": [
@@ -18889,7 +18903,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00003639,
+      "percentageOfPageLoad": 0.00003859,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/258"
     },
     "chrome-status": [
@@ -19236,7 +19250,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.83511998,
+      "percentageOfPageLoad": 0.8369409,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/28"
     },
     "chrome-status": [
@@ -19412,7 +19426,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.624686,
+      "percentageOfPageLoad": 0.623886,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/27"
     },
     "chrome-status": [
@@ -19597,7 +19611,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.52319201,
+      "percentageOfPageLoad": 0.53803188,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/29"
     },
     "chrome-status": [
@@ -19837,7 +19851,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00052779,
+      "percentageOfPageLoad": 0.00051561,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/351"
     },
     "chrome-status": [
@@ -20043,7 +20057,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01212341,
+      "percentageOfPageLoad": 0.01172953,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/411"
     },
     "chrome-status": [
@@ -20173,7 +20187,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.09938319,
+      "percentageOfPageLoad": 0.10645611,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/353"
     },
     "chrome-status": [
@@ -20213,7 +20227,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03137483,
+      "percentageOfPageLoad": 0.03262066,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/30"
     },
     "chrome-status": [
@@ -20266,7 +20280,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00231984,
+      "percentageOfPageLoad": 0.00232418,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/32"
     },
     "chrome-status": [
@@ -20322,7 +20336,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 7.1e-7,
+      "percentageOfPageLoad": 6.9e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/31"
     },
     "chrome-status": [
@@ -20439,7 +20453,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02525025,
+      "percentageOfPageLoad": 0.02521332,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/220"
     },
     "chrome-status": [
@@ -20539,7 +20553,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01902958,
+      "percentageOfPageLoad": 0.01912904,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/36"
     },
     "chrome-status": [
@@ -20597,7 +20611,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00051252,
+      "percentageOfPageLoad": 0.00057425,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/33"
     }
   },
@@ -20614,7 +20628,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00071378,
+      "percentageOfPageLoad": 0.00077595,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/34"
     }
   },
@@ -20631,7 +20645,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00347824,
+      "percentageOfPageLoad": 0.00375131,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/35"
     }
   },
@@ -20681,7 +20695,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00447897,
+      "percentageOfPageLoad": 0.00464613,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/37"
     },
     "chrome-status": [
@@ -20805,7 +20819,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00311912,
+      "percentageOfPageLoad": 0.00315642,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/285"
     },
     "chrome-status": [
@@ -20936,7 +20950,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00441545,
+      "percentageOfPageLoad": 0.00454425,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/179"
     },
     "chrome-status": [
@@ -21093,7 +21107,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.32857993,
+      "percentageOfPageLoad": 0.34170996,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/165"
     },
     "chrome-status": [
@@ -21610,7 +21624,7 @@
       "votes": 62
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0000208,
+      "percentageOfPageLoad": 0.00001618,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/310"
     },
     "chrome-status": [
@@ -21781,7 +21795,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00001792,
+      "percentageOfPageLoad": 0.00001573,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/103"
     },
     "chrome-status": [
@@ -22081,7 +22095,7 @@
       "votes": 18
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00055,
+      "percentageOfPageLoad": 0.000562,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/437"
     },
     "chrome-status": [
@@ -22395,7 +22409,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00162469,
+      "percentageOfPageLoad": 0.00155908,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/286"
     },
     "chrome-status": [
@@ -22602,7 +22616,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01730422,
+      "percentageOfPageLoad": 0.01859096,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/178"
     }
   },
@@ -22752,7 +22766,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.42932719,
+      "percentageOfPageLoad": 0.4291968,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/38"
     },
     "chrome-status": [
@@ -23122,7 +23136,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.49319206,
+      "percentageOfPageLoad": 0.50651277,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/39"
     },
     "chrome-status": [
@@ -23441,7 +23455,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00195457,
+      "percentageOfPageLoad": 0.0018872,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/86"
     },
     "chrome-status": [
@@ -23540,7 +23554,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00024141,
+      "percentageOfPageLoad": 0.0002898,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/269"
     },
     "chrome-status": [
@@ -24013,7 +24027,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.07119299,
+      "percentageOfPageLoad": 0.07614916,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/394"
     }
   },
@@ -24085,7 +24099,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.48874162,
+      "percentageOfPageLoad": 0.4770415,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/316"
     },
     "chrome-status": [
@@ -24130,7 +24144,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00293043,
+      "percentageOfPageLoad": 0.00266486,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/172"
     },
     "chrome-status": [
@@ -24168,7 +24182,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00456248,
+      "percentageOfPageLoad": 0.00465086,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/211"
     },
     "chrome-status": [
@@ -24210,7 +24224,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0023489,
+      "percentageOfPageLoad": 0.00246336,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/212"
     },
     "chrome-status": [
@@ -24248,7 +24262,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.09845374,
+      "percentageOfPageLoad": 0.10210444,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/40"
     },
     "chrome-status": [
@@ -24318,7 +24332,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000248,
+      "percentageOfPageLoad": 0.00000315,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/159"
     },
     "chrome-status": [
@@ -24364,7 +24378,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00012286,
+      "percentageOfPageLoad": 0.00019069,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/41"
     },
     "chrome-status": [
@@ -24435,10 +24449,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/303",
-      "votes": 78
+      "votes": 79
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00207348,
+      "percentageOfPageLoad": 0.00186319,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/311"
     },
     "chrome-status": [
@@ -24520,7 +24534,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00053564,
+      "percentageOfPageLoad": 0.00068101,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/325"
     },
     "chrome-status": [
@@ -24800,7 +24814,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00243268,
+      "percentageOfPageLoad": 0.00275991,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/167"
     },
     "chrome-status": [
@@ -24918,7 +24932,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00499019,
+      "percentageOfPageLoad": 0.00470211,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/98"
     },
     "chrome-status": [
@@ -25176,7 +25190,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00699241,
+      "percentageOfPageLoad": 0.0071506,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/42"
     },
     "chrome-status": [
@@ -25279,8 +25293,8 @@
         "spec-link": "https://www.w3.org/TR/IndexedDB",
         "explainer-links": [],
         "updated": {
-          "by": "evanstade@microsoft.com",
-          "when": "2026-05-07 12:29:08.151746"
+          "by": "abhishek.shanthkumar@microsoft.com",
+          "when": "2026-06-08 12:39:11.983506"
         }
       },
       {
@@ -25564,7 +25578,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.21212367,
+      "percentageOfPageLoad": 0.2181634,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/43"
     },
     "chrome-status": [
@@ -25661,7 +25675,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03318196,
+      "percentageOfPageLoad": 0.03480105,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/128"
     },
     "chrome-status": [
@@ -25771,7 +25785,7 @@
       "votes": 9
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0040295,
+      "percentageOfPageLoad": 0.00385921,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/210"
     },
     "chrome-status": [
@@ -25840,7 +25854,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00008127,
+      "percentageOfPageLoad": 0.00006617,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/263"
     },
     "chrome-status": [
@@ -26641,7 +26655,7 @@
       "votes": 6
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00081519,
+      "percentageOfPageLoad": 0.00090644,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/293"
     },
     "chrome-status": [
@@ -26708,7 +26722,7 @@
       "votes": 56
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05137909,
+      "percentageOfPageLoad": 0.05919855,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/235"
     },
     "bugs": {
@@ -26742,7 +26756,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.55800709,
+      "percentageOfPageLoad": 0.56218254,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/45"
     },
     "chrome-status": [
@@ -26816,7 +26830,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.09368242,
+      "percentageOfPageLoad": 0.09985485,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/44"
     },
     "chrome-status": [
@@ -27090,7 +27104,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03263183,
+      "percentageOfPageLoad": 0.03118988,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/328"
     },
     "chrome-status": [
@@ -27142,7 +27156,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00008305,
+      "percentageOfPageLoad": 0.0000833,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/266"
     },
     "chrome-status": [
@@ -27282,7 +27296,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01362248,
+      "percentageOfPageLoad": 0.01437588,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/244"
     },
     "chrome-status": [
@@ -27430,7 +27444,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02168079,
+      "percentageOfPageLoad": 0.02352861,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/129"
     },
     "chrome-status": [
@@ -27668,7 +27682,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.27480927,
+      "percentageOfPageLoad": 0.28678045,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/46"
     }
   },
@@ -27686,7 +27700,7 @@
       "votes": 13
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01435081,
+      "percentageOfPageLoad": 0.01519556,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/270"
     },
     "chrome-status": [
@@ -27830,7 +27844,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.04910615,
+      "percentageOfPageLoad": 0.05059908,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/225"
     },
     "chrome-status": [
@@ -27959,7 +27973,7 @@
       "votes": 452
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 2.2e-7,
+      "percentageOfPageLoad": 2e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/418"
     },
     "chrome-status": [
@@ -28059,7 +28073,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.27613425,
+      "percentageOfPageLoad": 0.28667579,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/47"
     },
     "chrome-status": [
@@ -28210,7 +28224,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00427099,
+      "percentageOfPageLoad": 0.00490033,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/109"
     },
     "chrome-status": [
@@ -28257,7 +28271,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0053481,
+      "percentageOfPageLoad": 0.00568004,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/110"
     },
     "chrome-status": [
@@ -28330,7 +28344,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00001907,
+      "percentageOfPageLoad": 0.0000171,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/396"
     },
     "chrome-status": [
@@ -28577,7 +28591,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00009039,
+      "percentageOfPageLoad": 0.00009459,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/119"
     },
     "chrome-status": [
@@ -28623,7 +28637,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.07455256,
+      "percentageOfPageLoad": 0.07890082,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/116"
     },
     "chrome-status": [
@@ -28713,7 +28727,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01025286,
+      "percentageOfPageLoad": 0.01139315,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/171"
     },
     "chrome-status": [
@@ -29081,7 +29095,7 @@
       "votes": 16
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.42609173,
+      "percentageOfPageLoad": 0.42450223,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/277"
     },
     "chrome-status": [
@@ -29230,7 +29244,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01061889,
+      "percentageOfPageLoad": 0.01118312,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/161"
     },
     "chrome-status": [
@@ -29319,7 +29333,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.010793,
+      "percentageOfPageLoad": 0.01118465,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/337"
     },
     "chrome-status": [
@@ -29432,7 +29446,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05721581,
+      "percentageOfPageLoad": 0.0576584,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/335"
     },
     "chrome-status": [
@@ -29525,7 +29539,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/267",
-      "votes": 27
+      "votes": 28
     },
     "chrome-status": [
       {
@@ -29629,7 +29643,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.12909643,
+      "percentageOfPageLoad": 0.13669631,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/186"
     },
     "chrome-status": [
@@ -29747,7 +29761,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.11277187,
+      "percentageOfPageLoad": 0.11425498,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/340"
     },
     "chrome-status": [
@@ -30218,7 +30232,7 @@
       "votes": 17
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00052817,
+      "percentageOfPageLoad": 0.00046372,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/428"
     },
     "chrome-status": [
@@ -30277,7 +30291,7 @@
       "votes": 7
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000958,
+      "percentageOfPageLoad": 0.00000922,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/287"
     },
     "chrome-status": [
@@ -30526,7 +30540,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.2064567,
+      "percentageOfPageLoad": 0.21468679,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/378"
     },
     "chrome-status": [
@@ -30603,7 +30617,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.33479685,
+      "percentageOfPageLoad": 0.34738159,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/168"
     },
     "chrome-status": [
@@ -30717,7 +30731,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.345605,
+      "percentageOfPageLoad": 0.3430566,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/236"
     },
     "chrome-status": [
@@ -30922,7 +30936,7 @@
       "votes": 12
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.22051902,
+      "percentageOfPageLoad": 0.22139484,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/302"
     },
     "chrome-status": [
@@ -31037,7 +31051,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000227,
+      "percentageOfPageLoad": 0.00000212,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/429"
     },
     "chrome-status": [
@@ -31207,7 +31221,7 @@
       "votes": 16
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.12282613,
+      "percentageOfPageLoad": 0.12598211,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/197"
     },
     "chrome-status": [
@@ -31294,7 +31308,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.36813846,
+      "percentageOfPageLoad": 0.37962024,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/101"
     },
     "chrome-status": [
@@ -31546,7 +31560,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00306588,
+      "percentageOfPageLoad": 0.00364055,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/90"
     },
     "chrome-status": [
@@ -31676,7 +31690,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00113178,
+      "percentageOfPageLoad": 0.00157573,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/288"
     },
     "chrome-status": [
@@ -32054,7 +32068,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.06410246,
+      "percentageOfPageLoad": 0.06296899,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/289"
     },
     "chrome-status": [
@@ -32213,7 +32227,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.12293363,
+      "percentageOfPageLoad": 0.13480526,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/145"
     }
   },
@@ -32242,7 +32256,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02969244,
+      "percentageOfPageLoad": 0.02863591,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/48"
     },
     "chrome-status": [
@@ -32822,7 +32836,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000223,
+      "percentageOfPageLoad": 0.00000239,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/349"
     }
   },
@@ -32850,7 +32864,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00346906,
+      "percentageOfPageLoad": 0.00396288,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/417"
     },
     "bugs": {
@@ -33260,7 +33274,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02169471,
+      "percentageOfPageLoad": 0.02400753,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/187"
     },
     "chrome-status": [
@@ -33423,7 +33437,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00436738,
+      "percentageOfPageLoad": 0.00455798,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/188"
     },
     "chrome-status": [
@@ -33703,7 +33717,7 @@
       "votes": 24
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00003274,
+      "percentageOfPageLoad": 0.00005001,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/229"
     },
     "chrome-status": [
@@ -33956,7 +33970,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00228252,
+      "percentageOfPageLoad": 0.00234702,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/89"
     },
     "chrome-status": [
@@ -34239,7 +34253,7 @@
       "url": "https://wpt.fyi/results?q=feature:navigator-modelcontext"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000755,
+      "percentageOfPageLoad": 0.00000857,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/427"
     }
   },
@@ -34363,7 +34377,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.08668095,
+      "percentageOfPageLoad": 0.08955329,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/163"
     },
     "chrome-status": [
@@ -34564,7 +34578,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00117158,
+      "percentageOfPageLoad": 0.00112781,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/265"
     }
   },
@@ -34581,7 +34595,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.82070464,
+      "percentageOfPageLoad": 0.82693353,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/343"
     },
     "chrome-status": [
@@ -34956,7 +34970,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03288293,
+      "percentageOfPageLoad": 0.03400775,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/164"
     },
     "chrome-status": [
@@ -35025,7 +35039,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.39298386,
+      "percentageOfPageLoad": 0.40431954,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/379"
     },
     "chrome-status": [
@@ -35374,7 +35388,7 @@
       "votes": 7
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00063915,
+      "percentageOfPageLoad": 0.00071929,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/156"
     },
     "chrome-status": [
@@ -35429,7 +35443,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 2.6e-7,
+      "percentageOfPageLoad": 3.5e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/348"
     },
     "chrome-status": [
@@ -35479,7 +35493,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01328191,
+      "percentageOfPageLoad": 0.01293494,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/384"
     }
   },
@@ -35560,7 +35574,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.06401415,
+      "percentageOfPageLoad": 0.0627393,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/151"
     },
     "chrome-status": [
@@ -35671,7 +35685,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0756286,
+      "percentageOfPageLoad": 0.07906956,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/49"
     },
     "chrome-status": [
@@ -35810,7 +35824,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02630751,
+      "percentageOfPageLoad": 0.02733966,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/170"
     },
     "chrome-status": [
@@ -36106,7 +36120,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00405556,
+      "percentageOfPageLoad": 0.00420632,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/50"
     },
     "chrome-status": [
@@ -36161,7 +36175,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.76371603,
+      "percentageOfPageLoad": 0.77093133,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/189"
     }
   },
@@ -36228,7 +36242,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.080772,
+      "percentageOfPageLoad": 0.088119,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/190"
     },
     "chrome-status": [
@@ -36317,7 +36331,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.19522757,
+      "percentageOfPageLoad": 0.19997599,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/336"
     }
   },
@@ -36410,7 +36424,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.16829529,
+      "percentageOfPageLoad": 0.17349809,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/112"
     },
     "chrome-status": [
@@ -36502,7 +36516,7 @@
       "votes": 17
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00091735,
+      "percentageOfPageLoad": 0.00101677,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/134"
     },
     "chrome-status": [
@@ -36605,7 +36619,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/567",
-      "votes": 3
+      "votes": 4
     },
     "chrome-status": [
       {
@@ -36914,7 +36928,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00217189,
+      "percentageOfPageLoad": 0.0032922,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/219"
     }
   },
@@ -37089,7 +37103,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00360083,
+      "percentageOfPageLoad": 0.0041252,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/237"
     },
     "bugs": {
@@ -37199,7 +37213,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01358767,
+      "percentageOfPageLoad": 0.01455973,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/126"
     },
     "chrome-status": [
@@ -37294,7 +37308,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00046151,
+      "percentageOfPageLoad": 0.00046211,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/122"
     },
     "chrome-status": [
@@ -37347,7 +37361,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.31368892,
+      "percentageOfPageLoad": 0.30771175,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/419"
     },
     "chrome-status": [
@@ -37830,7 +37844,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.06476714,
+      "percentageOfPageLoad": 0.06438235,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/257"
     }
   },
@@ -38333,7 +38347,7 @@
       "votes": 7
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00016132,
+      "percentageOfPageLoad": 0.00015235,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/51"
     },
     "chrome-status": [
@@ -38782,7 +38796,7 @@
       "votes": 3
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00021967,
+      "percentageOfPageLoad": 0.00020101,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/52"
     },
     "chrome-status": [
@@ -39059,7 +39073,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03129875,
+      "percentageOfPageLoad": 0.03295087,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/374"
     },
     "chrome-status": [
@@ -39145,10 +39159,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/274",
-      "votes": 70
+      "votes": 71
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00348153,
+      "percentageOfPageLoad": 0.00398135,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/296"
     },
     "chrome-status": [
@@ -39462,7 +39476,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.25772305,
+      "percentageOfPageLoad": 0.26124283,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/174"
     },
     "chrome-status": [
@@ -39663,7 +39677,7 @@
       "votes": 3
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.04703115,
+      "percentageOfPageLoad": 0.04574834,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/175"
     },
     "chrome-status": [
@@ -39971,7 +39985,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00012226,
+      "percentageOfPageLoad": 0.00011817,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/249"
     },
     "chrome-status": [
@@ -40036,7 +40050,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02833449,
+      "percentageOfPageLoad": 0.02960035,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/330"
     },
     "chrome-status": [
@@ -40286,7 +40300,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00020183,
+      "percentageOfPageLoad": 0.00025831,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/278"
     },
     "chrome-status": [
@@ -40497,7 +40511,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02310693,
+      "percentageOfPageLoad": 0.02464204,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/226"
     },
     "chrome-status": [
@@ -40596,7 +40610,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.04086731,
+      "percentageOfPageLoad": 0.04285759,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/251"
     },
     "chrome-status": [
@@ -40626,7 +40640,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02653504,
+      "percentageOfPageLoad": 0.03086158,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/240"
     },
     "chrome-status": [
@@ -40934,7 +40948,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.08562556,
+      "percentageOfPageLoad": 0.08478488,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/213"
     },
     "chrome-status": [
@@ -40994,7 +41008,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00001553,
+      "percentageOfPageLoad": 0.00001665,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/158"
     }
   },
@@ -41011,7 +41025,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 7.9e-7,
+      "percentageOfPageLoad": 9.7e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/207"
     }
   },
@@ -41055,7 +41069,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00016399,
+      "percentageOfPageLoad": 0.00016693,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/400"
     },
     "chrome-status": [
@@ -41139,7 +41153,7 @@
       "votes": 11
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0017674,
+      "percentageOfPageLoad": 0.00180924,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/313"
     },
     "chrome-status": [
@@ -41238,7 +41252,7 @@
       "votes": 12
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00006805,
+      "percentageOfPageLoad": 0.00007646,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/246"
     }
   },
@@ -41255,7 +41269,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.35277245,
+      "percentageOfPageLoad": 0.35978489,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/260"
     },
     "chrome-status": [
@@ -41472,7 +41486,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00233536,
+      "percentageOfPageLoad": 0.00255463,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/392"
     }
   },
@@ -41502,7 +41516,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01421928,
+      "percentageOfPageLoad": 0.01508333,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/297"
     },
     "chrome-status": [
@@ -41562,7 +41576,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05545818,
+      "percentageOfPageLoad": 0.05891516,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/395"
     }
   },
@@ -41583,7 +41597,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0000411,
+      "percentageOfPageLoad": 0.00009033,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/322"
     },
     "chrome-status": [
@@ -41671,7 +41685,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.14722714,
+      "percentageOfPageLoad": 0.15609062,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/146"
     },
     "chrome-status": [
@@ -42065,7 +42079,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.07655309,
+      "percentageOfPageLoad": 0.08191088,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/53"
     },
     "chrome-status": [
@@ -42148,7 +42162,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00336195,
+      "percentageOfPageLoad": 0.00328707,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/255"
     },
     "chrome-status": [
@@ -42215,7 +42229,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.22897125,
+      "percentageOfPageLoad": 0.24168293,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/410"
     },
     "chrome-status": [
@@ -42458,7 +42472,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.61738177,
+      "percentageOfPageLoad": 0.62717418,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/323"
     },
     "chrome-status": [
@@ -42551,7 +42565,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01670749,
+      "percentageOfPageLoad": 0.01560207,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/154"
     },
     "chrome-status": [
@@ -42622,7 +42636,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000148,
+      "percentageOfPageLoad": 0.00000145,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/333"
     }
   },
@@ -42643,7 +42657,7 @@
       "votes": 6
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.5287021,
+      "percentageOfPageLoad": 0.52782442,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/338"
     },
     "chrome-status": [
@@ -42699,7 +42713,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01128401,
+      "percentageOfPageLoad": 0.01222635,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/221"
     },
     "chrome-status": [
@@ -43174,7 +43188,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02873916,
+      "percentageOfPageLoad": 0.0302008,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/173"
     },
     "chrome-status": [
@@ -43353,7 +43367,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00002918,
+      "percentageOfPageLoad": 0.00002952,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/162"
     }
   },
@@ -43411,7 +43425,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01256543,
+      "percentageOfPageLoad": 0.01356194,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/176"
     },
     "chrome-status": [
@@ -43483,7 +43497,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00510437,
+      "percentageOfPageLoad": 0.00504819,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/208"
     },
     "chrome-status": [
@@ -43536,7 +43550,7 @@
         "explainer-links": [],
         "updated": {
           "by": "jja08111@gmail.com",
-          "when": "2026-06-07 01:48:26.043144"
+          "when": "2026-06-08 18:40:09.346906"
         }
       }
     ],
@@ -43562,7 +43576,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.002517,
+      "percentageOfPageLoad": 0.00261056,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/209"
     },
     "chrome-status": [
@@ -43833,7 +43847,7 @@
       "votes": 14
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.12423932,
+      "percentageOfPageLoad": 0.12392437,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/118"
     },
     "chrome-status": [
@@ -43942,7 +43956,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00273464,
+      "percentageOfPageLoad": 0.00281805,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/54"
     },
     "chrome-status": [
@@ -44459,7 +44473,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01538032,
+      "percentageOfPageLoad": 0.01441917,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/104"
     },
     "chrome-status": [
@@ -44602,7 +44616,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00790674,
+      "percentageOfPageLoad": 0.00755432,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/344"
     },
     "chrome-status": [
@@ -44685,7 +44699,7 @@
       "votes": 23
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00004755,
+      "percentageOfPageLoad": 0.00004621,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/294"
     },
     "chrome-status": [
@@ -44826,10 +44840,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/207",
-      "votes": 33
+      "votes": 35
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.04569582,
+      "percentageOfPageLoad": 0.04841485,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/230"
     },
     "chrome-status": [
@@ -44989,7 +45003,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0005631,
+      "percentageOfPageLoad": 0.00064001,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/319"
     },
     "chrome-status": [
@@ -45158,10 +45172,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/289",
-      "votes": 17
+      "votes": 19
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00070862,
+      "percentageOfPageLoad": 0.00078233,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/295"
     },
     "chrome-status": [
@@ -45234,7 +45248,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.16936776,
+      "percentageOfPageLoad": 0.1698031,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/59"
     },
     "chrome-status": [
@@ -45313,7 +45327,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00206995,
+      "percentageOfPageLoad": 0.00210033,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/228"
     },
     "chrome-status": [
@@ -45385,7 +45399,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00024126,
+      "percentageOfPageLoad": 0.00024066,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/60"
     },
     "chrome-status": [
@@ -45468,7 +45482,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.16390875,
+      "percentageOfPageLoad": 0.17622074,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/55"
     }
   },
@@ -45536,7 +45550,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.13974089,
+      "percentageOfPageLoad": 0.14885999,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/56"
     },
     "chrome-status": [
@@ -45591,7 +45605,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.41161796,
+      "percentageOfPageLoad": 0.41510905,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/57"
     }
   },
@@ -45623,7 +45637,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.26976079,
+      "percentageOfPageLoad": 0.26821082,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/58"
     },
     "chrome-status": [
@@ -45736,7 +45750,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00250001,
+      "percentageOfPageLoad": 0.00254676,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/120"
     },
     "chrome-status": [
@@ -46156,7 +46170,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00001623,
+      "percentageOfPageLoad": 0.00001346,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/107"
     },
     "chrome-status": [
@@ -47250,7 +47264,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05200469,
+      "percentageOfPageLoad": 0.05465404,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/227"
     },
     "chrome-status": [
@@ -48399,7 +48413,7 @@
       "votes": 10
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00002065,
+      "percentageOfPageLoad": 0.00002232,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/61"
     },
     "chrome-status": [
@@ -48463,7 +48477,7 @@
       "votes": 8
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000469,
+      "percentageOfPageLoad": 0.00000473,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/127"
     },
     "chrome-status": [
@@ -48615,10 +48629,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/250",
-      "votes": 26
+      "votes": 27
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00946196,
+      "percentageOfPageLoad": 0.00903387,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/346"
     },
     "chrome-status": [
@@ -48707,7 +48721,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.55358053,
+      "percentageOfPageLoad": 0.55865926,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/62"
     },
     "chrome-status": [
@@ -48854,7 +48868,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00018645,
+      "percentageOfPageLoad": 0.0002011,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/100"
     },
     "chrome-status": [
@@ -49082,7 +49096,7 @@
       "votes": 19
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.13430386,
+      "percentageOfPageLoad": 0.13366166,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/317"
     },
     "chrome-status": [
@@ -49099,7 +49113,7 @@
         ],
         "updated": {
           "by": "robertlin@chromium.org",
-          "when": "2026-06-08 02:51:42.395762"
+          "when": "2026-06-09 04:20:38.402271"
         }
       },
       {
@@ -49402,7 +49416,7 @@
       "votes": 13
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00039658,
+      "percentageOfPageLoad": 0.00041218,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/63"
     },
     "chrome-status": [
@@ -49419,7 +49433,7 @@
         ],
         "updated": {
           "by": "evliu@google.com",
-          "when": "2026-06-03 22:08:52.237947"
+          "when": "2026-06-09 00:50:27.688437"
         }
       },
       {
@@ -49435,7 +49449,7 @@
         ],
         "updated": {
           "by": "evliu@google.com",
-          "when": "2026-05-18 18:42:13.486697"
+          "when": "2026-06-08 17:49:28.837047"
         }
       },
       {
@@ -49639,7 +49653,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00032805,
+      "percentageOfPageLoad": 0.00032924,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/64"
     },
     "chrome-status": [
@@ -49767,7 +49781,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00555807,
+      "percentageOfPageLoad": 0.00578509,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/192"
     },
     "chrome-status": [
@@ -49932,7 +49946,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02415468,
+      "percentageOfPageLoad": 0.02713115,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/143"
     },
     "chrome-status": [
@@ -49972,7 +49986,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0012836,
+      "percentageOfPageLoad": 0.00135352,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/329"
     },
     "chrome-status": [
@@ -50190,7 +50204,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.03047055,
+      "percentageOfPageLoad": 0.03021667,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/65"
     },
     "chrome-status": [
@@ -50269,7 +50283,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00192653,
+      "percentageOfPageLoad": 0.00198731,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/66"
     },
     "chrome-status": [
@@ -50810,7 +50824,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.31979602,
+      "percentageOfPageLoad": 0.32876778,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/252"
     },
     "chrome-status": [
@@ -50907,7 +50921,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.06392025,
+      "percentageOfPageLoad": 0.06571963,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/253"
     },
     "chrome-status": [
@@ -50970,7 +50984,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.20274615,
+      "percentageOfPageLoad": 0.20931851,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/99"
     },
     "chrome-status": [
@@ -51159,7 +51173,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00369951,
+      "percentageOfPageLoad": 0.0040633,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/4"
     },
     "chrome-status": [
@@ -51232,10 +51246,6 @@
         "url": "https://developer.mozilla.org/docs/Web/API/Summarizer_API"
       }
     ],
-    "chrome-use-counters": {
-      "percentageOfPageLoad": 0.000001,
-      "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/415"
-    },
     "chrome-status": [
       {
         "id": 6309243756085248,
@@ -52492,7 +52502,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00052896,
+      "percentageOfPageLoad": 0.0005153,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/67"
     },
     "chrome-status": [
@@ -52629,7 +52639,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.35109672,
+      "percentageOfPageLoad": 0.35655652,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/68"
     },
     "chrome-status": [
@@ -52756,7 +52766,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/291",
-      "votes": 168
+      "votes": 169
     },
     "chrome-status": [
       {
@@ -52953,10 +52963,10 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/265",
-      "votes": 66
+      "votes": 67
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00866094,
+      "percentageOfPageLoad": 0.00945699,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/318"
     },
     "chrome-status": [
@@ -53151,7 +53161,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00193356,
+      "percentageOfPageLoad": 0.00195894,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/180"
     },
     "chrome-status": [
@@ -53276,7 +53286,7 @@
       "votes": 6
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.000626,
+      "percentageOfPageLoad": 0.000613,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/439"
     }
   },
@@ -53293,7 +53303,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.34084679,
+      "percentageOfPageLoad": 0.34656875,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/69"
     }
   },
@@ -53340,7 +53350,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.0105231,
+      "percentageOfPageLoad": 0.01082703,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/414"
     },
     "chrome-status": [
@@ -53514,7 +53524,7 @@
       "votes": 3
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00548186,
+      "percentageOfPageLoad": 0.0071218,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/70"
     },
     "chrome-status": [
@@ -53707,7 +53717,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.17187042,
+      "percentageOfPageLoad": 0.17574833,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/331"
     }
   },
@@ -53771,7 +53781,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.21427856,
+      "percentageOfPageLoad": 0.22226778,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/181"
     }
   },
@@ -53839,7 +53849,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02108394,
+      "percentageOfPageLoad": 0.02129965,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/71"
     },
     "chrome-status": [
@@ -53942,7 +53952,7 @@
       "votes": 21
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01729465,
+      "percentageOfPageLoad": 0.01809315,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/72"
     },
     "chrome-status": [
@@ -54007,7 +54017,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00442099,
+      "percentageOfPageLoad": 0.00418663,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/182"
     }
   },
@@ -54102,7 +54112,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00106127,
+      "percentageOfPageLoad": 0.00121942,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/355"
     },
     "bugs": {
@@ -54174,7 +54184,7 @@
       "votes": 55
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01084809,
+      "percentageOfPageLoad": 0.01098274,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/376"
     },
     "chrome-status": [
@@ -54451,7 +54461,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00027373,
+      "percentageOfPageLoad": 0.00039644,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/241"
     },
     "chrome-status": [
@@ -54488,7 +54498,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00098162,
+      "percentageOfPageLoad": 0.00114149,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/399"
     },
     "chrome-status": [
@@ -54528,7 +54538,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05169439,
+      "percentageOfPageLoad": 0.05460161,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/194"
     },
     "chrome-status": [
@@ -54798,7 +54808,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02171575,
+      "percentageOfPageLoad": 0.02167732,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/73"
     },
     "chrome-status": [
@@ -54925,7 +54935,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 4.8e-7,
+      "percentageOfPageLoad": 6.4e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/426"
     }
   },
@@ -55001,7 +55011,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00635708,
+      "percentageOfPageLoad": 0.00626523,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/177"
     },
     "chrome-status": [
@@ -55125,7 +55135,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00473573,
+      "percentageOfPageLoad": 0.00445676,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/111"
     },
     "chrome-status": [
@@ -55306,7 +55316,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.76629232,
+      "percentageOfPageLoad": 0.76495876,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/341"
     },
     "chrome-status": [
@@ -55509,7 +55519,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00918987,
+      "percentageOfPageLoad": 0.00863581,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/195"
     },
     "chrome-status": [
@@ -55740,7 +55750,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05447882,
+      "percentageOfPageLoad": 0.05728059,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/261"
     },
     "chrome-status": [
@@ -55850,7 +55860,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02204157,
+      "percentageOfPageLoad": 0.02400796,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/326"
     },
     "chrome-status": [
@@ -56130,7 +56140,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00210556,
+      "percentageOfPageLoad": 0.00217185,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/75"
     },
     "chrome-status": [
@@ -56222,7 +56232,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00040281,
+      "percentageOfPageLoad": 0.00040843,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/256"
     }
   },
@@ -56425,7 +56435,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00186483,
+      "percentageOfPageLoad": 0.00193675,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/245"
     },
     "chrome-status": [
@@ -56489,7 +56499,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00658906,
+      "percentageOfPageLoad": 0.00631384,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/2"
     },
     "chrome-status": [
@@ -56753,7 +56763,7 @@
       "votes": 3
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00206827,
+      "percentageOfPageLoad": 0.00226967,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/281"
     },
     "chrome-status": [
@@ -56856,7 +56866,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.17010736,
+      "percentageOfPageLoad": 0.17820014,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/250"
     },
     "chrome-status": [
@@ -56942,7 +56952,7 @@
       "votes": 8
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00381732,
+      "percentageOfPageLoad": 0.00370918,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/264"
     },
     "chrome-status": [
@@ -57264,7 +57274,7 @@
       "url": "https://wpt.fyi/results?q=feature:wasm-bulk-memory"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01295921,
+      "percentageOfPageLoad": 0.01412959,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/369"
     },
     "chrome-status": [
@@ -57354,7 +57364,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00291535,
+      "percentageOfPageLoad": 0.00424583,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/356"
     },
     "chrome-status": [
@@ -57390,7 +57400,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 1.6e-7,
+      "percentageOfPageLoad": 1.3e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/367"
     }
   },
@@ -57422,7 +57432,7 @@
       "url": "https://wpt.fyi/results?q=feature:wasm-garbage-collection"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00219099,
+      "percentageOfPageLoad": 0.0034222,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/358"
     },
     "chrome-status": [
@@ -57472,7 +57482,7 @@
       "votes": 7
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 8.3e-7,
+      "percentageOfPageLoad": 0.00000108,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/366"
     },
     "chrome-status": [
@@ -57516,7 +57526,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 3.2e-7,
+      "percentageOfPageLoad": 2e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/359"
     },
     "chrome-status": [
@@ -57546,7 +57556,7 @@
       "url": "https://wpt.fyi/results?q=feature:wasm-multi-value"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00305123,
+      "percentageOfPageLoad": 0.00323201,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/368"
     },
     "chrome-status": [
@@ -57576,7 +57586,7 @@
       "url": "https://wpt.fyi/results?q=feature:wasm-mutable-globals"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00045043,
+      "percentageOfPageLoad": 0.0005216,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/370"
     },
     "chrome-status": [
@@ -57603,7 +57613,7 @@
   },
   "wasm-non-trapping-float-to-int": {
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00838862,
+      "percentageOfPageLoad": 0.01050878,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/371"
     },
     "chrome-status": [
@@ -57633,7 +57643,7 @@
       "url": "https://wpt.fyi/results?q=feature:wasm-reference-types"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00449435,
+      "percentageOfPageLoad": 0.0060022,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/360"
     },
     "chrome-status": [
@@ -57662,7 +57672,7 @@
   },
   "wasm-sign-extension-operators": {
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02404716,
+      "percentageOfPageLoad": 0.02653194,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/372"
     },
     "chrome-status": [
@@ -57695,7 +57705,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00242312,
+      "percentageOfPageLoad": 0.00292023,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/347"
     },
     "chrome-status": [
@@ -57743,7 +57753,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00021435,
+      "percentageOfPageLoad": 0.00024108,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/361"
     },
     "chrome-status": [
@@ -57786,7 +57796,7 @@
       "votes": 2
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00217789,
+      "percentageOfPageLoad": 0.0034053,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/364"
     },
     "chrome-status": [
@@ -57811,7 +57821,7 @@
       "url": "https://wpt.fyi/results?q=feature:wasm-tail-call-optimization"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 8.7e-7,
+      "percentageOfPageLoad": 0.00000102,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/362"
     },
     "chrome-status": [
@@ -57843,7 +57853,7 @@
       "url": "https://wpt.fyi/results?q=feature:wasm-threads"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00089708,
+      "percentageOfPageLoad": 0.00091504,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/363"
     },
     "chrome-status": [
@@ -57875,7 +57885,7 @@
       "url": "https://wpt.fyi/results?q=feature:wasm-typed-fun-refs"
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00219009,
+      "percentageOfPageLoad": 0.00341786,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/365"
     }
   },
@@ -57908,7 +57918,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.13778129,
+      "percentageOfPageLoad": 0.14646505,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/254"
     },
     "chrome-status": [
@@ -58037,7 +58047,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.17402934,
+      "percentageOfPageLoad": 0.17611623,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/231"
     },
     "chrome-status": [
@@ -58266,7 +58276,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05275811,
+      "percentageOfPageLoad": 0.05158419,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/150"
     },
     "chrome-status": [
@@ -59212,7 +59222,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000187,
+      "percentageOfPageLoad": 0.00000169,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/105"
     },
     "chrome-status": [
@@ -59452,7 +59462,7 @@
         "explainer-links": [],
         "updated": {
           "by": "hchao@chromium.org",
-          "when": "2026-06-03 17:08:30.619649"
+          "when": "2026-06-08 15:14:17.190138"
         }
       },
       {
@@ -59553,7 +59563,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.04315754,
+      "percentageOfPageLoad": 0.04754336,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/78"
     },
     "chrome-status": [
@@ -59603,7 +59613,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000788,
+      "percentageOfPageLoad": 0.00000986,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/153"
     },
     "chrome-status": [
@@ -59748,7 +59758,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00001184,
+      "percentageOfPageLoad": 0.00001143,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/106"
     },
     "chrome-status": [
@@ -59813,7 +59823,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00040315,
+      "percentageOfPageLoad": 0.00037141,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/248"
     },
     "chrome-status": [
@@ -60231,7 +60241,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000506,
+      "percentageOfPageLoad": 0.00000473,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/327"
     },
     "chrome-status": [
@@ -60324,7 +60334,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00108899,
+      "percentageOfPageLoad": 0.00102808,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/76"
     },
     "chrome-status": [
@@ -60714,7 +60724,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.29050176,
+      "percentageOfPageLoad": 0.28950005,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/433"
     },
     "chrome-status": [
@@ -60802,7 +60812,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00145207,
+      "percentageOfPageLoad": 0.00142013,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/385"
     },
     "chrome-status": [
@@ -60871,7 +60881,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00344217,
+      "percentageOfPageLoad": 0.00360171,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/386"
     }
   },
@@ -60939,7 +60949,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00010885,
+      "percentageOfPageLoad": 0.00017249,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/387"
     }
   },
@@ -60981,7 +60991,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.01518323,
+      "percentageOfPageLoad": 0.01508504,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/388"
     },
     "bugs": {
@@ -61000,7 +61010,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00076866,
+      "percentageOfPageLoad": 0.00084834,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/389"
     }
   },
@@ -61034,7 +61044,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.05981366,
+      "percentageOfPageLoad": 0.05841638,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/434"
     },
     "chrome-status": [
@@ -61069,7 +61079,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00117408,
+      "percentageOfPageLoad": 0.00110284,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/390"
     }
   },
@@ -61087,7 +61097,7 @@
       "votes": 1
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00114622,
+      "percentageOfPageLoad": 0.00107746,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/391"
     }
   },
@@ -61116,7 +61126,7 @@
       "votes": 47
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.02000682,
+      "percentageOfPageLoad": 0.01932944,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/290"
     },
     "chrome-status": [
@@ -61772,7 +61782,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00001017,
+      "percentageOfPageLoad": 0.00000949,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/77"
     },
     "chrome-status": [
@@ -61888,6 +61898,10 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/322",
       "votes": 4
     },
+    "chrome-use-counters": {
+      "percentageOfPageLoad": 1e-8,
+      "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/412"
+    },
     "chrome-status": [
       {
         "id": 5176273954144256,
@@ -61922,7 +61936,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.46660723,
+      "percentageOfPageLoad": 0.45285286,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/79"
     },
     "chrome-status": [
@@ -62004,6 +62018,20 @@
         "updated": {
           "by": "philipp.hancke@googlemail.com",
           "when": "2026-06-03 13:22:02.350532"
+        }
+      },
+      {
+        "id": 5137946677215232,
+        "name": "WebRTC Data Channel: SCTP Negotiation Acceleration Protocol",
+        "summary": "WebRTC Data Channels use the Stream Control Transmission Protocol (SCTP) over a Datagram Transport Layer Security (DTLS) association.\n\nThe standard SCTP connection establishment requires a handshake that introduces latency.  A new Internet draft specifies a method to accelerate\nthe datachannel establishment by embedding the SCTP initialization parameters within the Session Description Protocol (SDP) offer/answer exchange.\nThis reduces the time required to open a data channel by up to two network round-trip times.",
+        "motivation": "[RFC8831] defines WebRTC Data Channels that allow the transport of arbitrary non-media data over a WebRTC PeerConnection.  This uses SCTP [RFC9260] and a DTLS encapsulation of SCTP packets [RFC8261].\n\nSCTP establishes its associations using a four-way handshake, which primarily serves to protect against half-open (SYN-flood) attacks. For WebRTC, SCTP runs encapsulated within DTLS [RFC8261], which establishes a secure, encrypted channel between the peers that prevents half-open attacks.\n\nFor WebRTC this handshake can be embedded into the SDP that is exchanged during Offer/Answer, eliminating two round trips from the connection setup.",
+        "url": "https://chromestatus.com/feature/5137946677215232",
+        "bug-url": "https://issues.webrtc.org/issues/426480601",
+        "spec-link": "https://datatracker.ietf.org/doc/draft-hancke-tsvwg-snap",
+        "explainer-links": [],
+        "updated": {
+          "by": "philipp.hancke@googlemail.com",
+          "when": "2026-06-09 10:58:36.077434"
         }
       },
       {
@@ -62886,6 +62914,7 @@
     "bugs": {
       "chrome": [
         "https://issues.webrtc.org/issues/455813732",
+        "https://issues.webrtc.org/issues/426480601",
         "https://crbug.com/461717105",
         "https://issues.webrtc.org/439514253",
         "https://issues.webrtc.org/u/1/issues/450044904",
@@ -63393,7 +63422,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00002125,
+      "percentageOfPageLoad": 0.00002386,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/80"
     },
     "chrome-status": [
@@ -63603,7 +63632,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00000513,
+      "percentageOfPageLoad": 0.00000557,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/81"
     },
     "chrome-status": [
@@ -63772,7 +63801,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.06160013,
+      "percentageOfPageLoad": 0.05816485,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/82"
     },
     "chrome-status": [
@@ -63992,7 +64021,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 1.7e-7,
+      "percentageOfPageLoad": 1.6e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/403"
     },
     "chrome-status": [
@@ -64047,10 +64076,6 @@
         "url": "https://developer.mozilla.org/docs/Web/API/XRView"
       }
     ],
-    "chrome-use-counters": {
-      "percentageOfPageLoad": 1e-8,
-      "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/404"
-    },
     "chrome-status": [
       {
         "id": 5759984304390144,
@@ -64344,7 +64369,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 1.6e-7,
+      "percentageOfPageLoad": 1.5e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/406"
     },
     "chrome-status": [
@@ -64445,7 +64470,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 9e-8,
+      "percentageOfPageLoad": 7e-8,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/407"
     },
     "chrome-status": [
@@ -64495,7 +64520,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 1.6e-7,
+      "percentageOfPageLoad": 1.5e-7,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/408"
     },
     "chrome-status": [
@@ -64781,7 +64806,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.32403912,
+      "percentageOfPageLoad": 0.33231606,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/83"
     },
     "chrome-status": [
@@ -64883,7 +64908,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00883076,
+      "percentageOfPageLoad": 0.0096531,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/166"
     }
   },
@@ -64950,7 +64975,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.39837866,
+      "percentageOfPageLoad": 0.40406016,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/87"
     },
     "chrome-status": [
@@ -65079,7 +65104,7 @@
       "votes": 5
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00132352,
+      "percentageOfPageLoad": 0.00127031,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/267"
     },
     "chrome-status": [
@@ -65146,7 +65171,7 @@
       "votes": 4
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00011546,
+      "percentageOfPageLoad": 0.0002156,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/332"
     },
     "chrome-status": [
@@ -65246,7 +65271,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.07470086,
+      "percentageOfPageLoad": 0.07734313,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/393"
     },
     "chrome-status": [
@@ -65309,7 +65334,7 @@
       "votes": 3
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00051997,
+      "percentageOfPageLoad": 0.00057882,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/196"
     },
     "chrome-status": [
@@ -65462,7 +65487,7 @@
       "votes": 0
     },
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.00093805,
+      "percentageOfPageLoad": 0.00135256,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/262"
     },
     "chrome-status": [
@@ -65799,7 +65824,7 @@
       }
     ],
     "chrome-use-counters": {
-      "percentageOfPageLoad": 0.41569786,
+      "percentageOfPageLoad": 0.39662324,
       "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/291"
     },
     "chrome-status": [
