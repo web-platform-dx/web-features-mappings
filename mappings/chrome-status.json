@@ -1,20 +1,6 @@
 {
   "a": [
     {
-      "id": 6238237334044672,
-      "name": "3P DSE AI Chat Button",
-      "summary": "Enable an AI chat Omnibox button for 3P DSEs so that all Chrome users can have a fast, single-click shortcut to get AI powered answers to their questions, regardless of their DSE\n\n",
-      "motivation": null,
-      "url": "https://chromestatus.com/feature/6238237334044672",
-      "bug-url": null,
-      "spec-link": null,
-      "explainer-links": [],
-      "updated": {
-        "by": "angelaweber@google.com",
-        "when": "2026-06-08 20:51:46.772719"
-      }
-    },
-    {
       "id": 5631885325631488,
       "name": "Support HTMLAnchorElement.relList property",
       "summary": "The HTMLAnchorElement.relList read-only property reflects the rel attribute. It is a live DOMTokenList containing the set of link types indicating the relationship between the resource represented by the <a> element and the current document.\r\n",
@@ -6519,6 +6505,22 @@
     }
   ],
   "fedcm": [
+    {
+      "id": 6314760485339136,
+      "name": "FedCM Native IdPs",
+      "summary": "Allows native apps to act as IdPs for FedCM",
+      "motivation": "https://github.com/fedidcg/native-app-idps",
+      "url": "https://chromestatus.com/feature/6314760485339136",
+      "bug-url": "https://issues.chromium.org/issues/521864267",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/fedidcg/native-app-idps"
+      ],
+      "updated": {
+        "by": "goto@google.com",
+        "when": "2026-06-09 18:46:03.852959"
+      }
+    },
     {
       "id": 6319248273178624,
       "name": "[FedCM] Support web-identity.<registrable domain> subdomain for well-known file discovery",
@@ -18309,7 +18311,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-06-08 18:40:09.346906"
+        "when": "2026-06-09 16:22:58.782721"
       }
     }
   ],
