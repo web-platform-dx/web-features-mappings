@@ -4792,6 +4792,20 @@
   ],
   "declarative-shadow-dom": [
     {
+      "id": 5203283359694848,
+      "name": "shadowrootslotassignment attribute for declarative shadow DOM",
+      "summary": "Adds the shadowrootslotassignment attribute to the <template> element, allowing declarative shadow roots to use manual slot assignment. Until now this option was only available imperatively, via attachShadow({slotAssignment: \"manual\"}), so components that rely on manual assignment could not create their shadow roots declaratively. The attribute accepts \"named\" (the default, preserving current behavior) and \"manual\", and is reflected by the shadowRootSlotAssignment property on HTMLTemplateElement.",
+      "motivation": "slotAssignment is fixed at shadow root creation, so components using manual slot assignment could not adopt declarative shadow DOM. The gap was raised in https://github.com/WICG/webcomponents/issues/967 and specified in the HTML Standard via https://github.com/whatwg/html/pull/12267 (merged). Both Gecko and WebKit have implemented the attribute; shipping in Chromium completes cross-engine support. This feature is opt-in; the default (\"named\") is unchanged.",
+      "url": "https://chromestatus.com/feature/5203283359694848",
+      "bug-url": "https://issues.chromium.org/issues/493315747",
+      "spec-link": "https://html.spec.whatwg.org/#attr-template-shadowrootslotassignment",
+      "explainer-links": [],
+      "updated": {
+        "by": "felipeerias@igalia.com",
+        "when": "2026-06-11 21:14:46.537252"
+      }
+    },
+    {
       "id": 5161240576393216,
       "name": "Streaming declarative shadow DOM",
       "summary": "Chromium has shipped [1] a version of declarative shadow DOM in M90 which currently has 0.014% usage [2]. Mostly, that is due to the spec PR being stalled with no input from other implementers. Recently, there has been renewed interest in the feature, and discussions have resumed. As part of those discussions, two changes have been generally agreed upon:\r\n 1. Rename the `<template>` attribute from `shadowroot` to `shadowrootmode`.\r\n 2. Support streaming, by attaching the shadow root on the opening, rather than the closing, template tag.\r\n\r\nWhile the PR hasn't landed, and there is still an open issue (related to the DOMParser), we would like to ship the agreed upon behavior listed above.\r\n\r\n[1] https://chromestatus.com/feature/5191745052606464\r\n[2] https://chromestatus.com/metrics/feature/timeline/popularity/3196",
@@ -5012,7 +5026,7 @@
       ],
       "updated": {
         "by": "tov@google.com",
-        "when": "2026-06-08 15:11:49.063231"
+        "when": "2026-06-11 20:33:18.382960"
       }
     },
     {
@@ -10786,7 +10800,7 @@
       "explainer-links": [],
       "updated": {
         "by": "guidou@google.com",
-        "when": "2026-06-01 18:43:31.130605"
+        "when": "2026-06-10 15:12:03.894262"
       }
     },
     {
@@ -15116,7 +15130,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-06-05 15:13:06.744851"
+        "when": "2026-06-10 13:07:47.090863"
       }
     },
     {
@@ -18311,7 +18325,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-06-09 16:22:58.782721"
+        "when": "2026-06-10 15:04:16.274512"
       }
     }
   ],
@@ -25864,8 +25878,8 @@
       "spec-link": "https://wicg.github.io/webcrypto-modern-algos",
       "explainer-links": [],
       "updated": {
-        "by": "hchao@chromium.org",
-        "when": "2026-06-08 15:14:17.190138"
+        "by": "dadrian@google.com",
+        "when": "2026-06-11 16:18:57.074364"
       }
     },
     {
