@@ -10300,7 +10300,7 @@
       "explainer-links": [],
       "updated": {
         "by": "abhishek.shanthkumar@microsoft.com",
-        "when": "2026-06-08 12:39:11.983506"
+        "when": "2026-06-15 09:03:50.186465"
       }
     },
     {
@@ -18325,7 +18325,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-06-10 15:04:16.274512"
+        "when": "2026-06-15 07:51:57.720419"
       }
     }
   ],
@@ -22010,7 +22010,7 @@
     {
       "id": 5143784390262784,
       "name": "Remove Inline XSLT for production of SVG",
-      "summary": "A specially crafted XML file may contain an XSL stylesheet that transforms generic XML data into an SVG file. \n\nExample: https://gist.github.com/drott/1fc70b3c7f0ac314d1fe2e5beecc5490?short_path=1c60adf\n\nThis is a special case of XSLT processing that according to recently introduced use counters XSLPIInSVGImage (UseCounter id 5777), XSLPIInSVGStandaloneDoc (UseCounterId 5778) we consider virtually non-existant on the web and which we want to deprecated and remove before fully phasing out XSLT. \n\nThis is rolled out in sync with experimental testing of the Rust based XML parser. This will not be immediately rolled out to 100% in the marked shipping release version.\n",
+      "summary": "A specially crafted XML file may contain an XSL stylesheet that transforms generic XML data into an SVG file. \n\nExample: https://gist.github.com/drott/1fc70b3c7f0ac314d1fe2e5beecc5490?short_path=1c60adf\n\nThis is a special case of XSLT processing that according to recently introduced use counters XSLPIInSVGImage (UseCounter id 5777), XSLPIInSVGStandaloneDoc (UseCounterId 5778) we consider virtually non-existant on the web and which we want to deprecated and remove before fully phasing out XSLT. \n\nThis is rolled out in sync with experimental testing of the Rust based XML parser. This will not be immediately rolled out to 100% in the marked shipping release version.\n\nUpdate: https://crrev.com/c/7502375 introduced metrics that measure this feature, and it was found that this feature was not used. Which enables us to proceed with launching the Rust XML parser for SVG scenarios, too, which is https://chromestatus.com/feature/5309598397497344 .",
       "motivation": "Support for this feature is spotty. It seems hard to find a reason why the image resource could not be static and completed on the server side instead of requiring client side processing.\n\nFirefox and Chrome allow inline XSLT to generate SVG for a standalone SVG doc (top level navigated to example.svg), but do not process the XSLT when the image is referenced as an external image.\n\n(Safari does support this use case.)\n\nContinuing to allow usage of this feature blocks transitioning to secure XML parsing through Rust. \n\nWe previously disallowed use of XSLT as an external resource loaded from an image in https://chromium-review.googlesource.com/c/chromium/src/+/6943450 - this is the next step. (without I2D/I2R)\n\nNewly introduced use counters show that usage of this functionality on the web is virtually non-existent. In Dev and Canary, the use counters show the value of 0. \n\nXSLPIInSVGImage (UseCounter id 5777), \nXSLPIInSVGStandaloneDoc (UseCounterId 5778)\n\nI propose to remove this functionality immediately in M147.\n\nRemoving the functionality allows us to proceed with experimentation of the Rust XML parser for SVG scenarios as well, increasing robustness and improving confidence in our performance and compatibility data on the new parser.\n\n\n",
       "url": "https://chromestatus.com/feature/5143784390262784",
       "bug-url": "https://crbug.com/482223009",
@@ -22018,7 +22018,7 @@
       "explainer-links": [],
       "updated": {
         "by": "drott@chromium.org",
-        "when": "2026-03-09 09:15:24.674978"
+        "when": "2026-06-15 08:32:55.056229"
       }
     },
     {
