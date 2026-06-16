@@ -885,6 +885,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:ambient-light"
     },
+    "use-cases": [
+      {
+        "description": "- dark mode and light mode are insufficiently naturing honoring\n- I want to use ambient light sensor to provide a more nuanced real-time themeing experience",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/292#issuecomment-4699695885"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/API/AmbientLightSensor",
@@ -1975,6 +1981,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:arianotify"
     },
+    "use-cases": [
+      {
+        "description": "* Announce messages to screen reader users (ex. loading, loading complete messages in single page apps and async components, user feedback, notifications, etc)\n* Potentially the ability to abort a notification (ex. like `clearTimeout`). If there is any delay between the time when `ariaNotify` is called and when the announcement happens, a consuming application may want to abort a notification if it's no longer relevant. For example, due to the user changing views in a single page application.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/423#issuecomment-4624451848"
+      }
+    ],
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -3106,6 +3118,16 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:attr"
     },
+    "use-cases": [
+      {
+        "description": "Style images based on their focal point for better UX when images resize to fit different viewport widths. The CMS that calculates focal points outputs data- attributes, then site themes can decide if they want to write the needed styles in their stylesheets. CSS could look like this, defined once for all images site-wide:\n\n```css\n[data-w-focus-x] {\n  object-fit: cover;\n  object-position: attr(data-w-focus-x) attr(data-w-focus-y);\n}\n```",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/293#issuecomment-3817053729"
+      },
+      {
+        "description": "<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nWe're building a set of UI components that users can assemble into web pages. We want to dynamically assign an anchor name via prop, so that any element can be anchored to another.\n\n```html\n<MyAnchorTarget data-anchor-name=\"--my-anchor-name\" id=\"my-anchor-target-component\" />\n\n<MyToBeAnchored data-anchor-name=\"--my-anchor-name\" id=\"my-to-be-anchored-component\" />\n\n<style>\n  #my-anchor-target-component {\n    anchor-name: attr(data-anchor-name)\n  }\n  \n  #my-to-be-anchored-component {\n    position-anchor: attr(data-anchor-name);\n  }\n  </style>\n```",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/293#issuecomment-3915950915"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of CSS 2025",
@@ -5921,6 +5943,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:calc-size"
     },
+    "use-cases": [
+      {
+        "description": "I want to be able to animate a `<details>` being opened, not knowing the height of the content in it.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-3906944848"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of CSS 2025",
@@ -6725,6 +6753,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:caret-shape"
     },
+    "use-cases": [
+      {
+        "description": "Use block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/424#issuecomment-4701946798"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/Properties/caret-shape",
@@ -8234,6 +8268,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:column-breaks"
     },
+    "use-cases": [
+      {
+        "description": "My application is about writing books and publish them as e-pub. Part of the application is about configuring the look and feel of the e-pub in real time and instantly show the results in a preview pane (size 600 x 800 pixels). I delegate all the pixel calculations for the entire book preview to the browser, using a column layout with a single column and use `break-after: column` to simulate a page break (for those browsers that support it). That works excellent.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/171#issuecomment-4482038196"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/Properties/break-after",
@@ -11600,6 +11640,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:custom-media-queries"
     },
+    "use-cases": [
+      {
+        "description": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/At-rules/@custom-media",
@@ -12007,6 +12053,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:datalist"
     },
+    "use-cases": [
+      {
+        "description": "This seems like a useful feature when we have a set of recommendations but also we can't list all possible options as they are either ever-updating or unknown. For example: Listing colleges, companies, majors, minors, etc in a job application portal.\n\nFor this use case however, it would be better:\n-  If the dropdown appeared more like `<select>`.\n- The new option that the user creates actually sends some data with `value` automatically filled for `<option>`.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/51#issuecomment-3511790261"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
@@ -14616,6 +14668,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:document-picture-in-picture"
     },
+    "use-cases": [
+      {
+        "description": "I'm implementing a simple countdown timer, and I would love for it to be moved outside of the main browser window in a custom PiP window.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/260#issuecomment-4694972854"
+      }
+    ],
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -15543,6 +15601,12 @@
     }
   },
   "element": {
+    "use-cases": [
+      {
+        "description": "I maintain a plugin called \"[Statusbar Organizer](https://github.com/Opisek/obsidian-statusbar-organizer)\" for the webapp \"Obsidian\". It lets users rearrange specific HTML elements to their liking with a drag and drop approach in a settings window. For the user to be able to preview their changes and be able to tell how their actions affect the actual elements, I need to be able to display a \"copy\" of the elements that are being manipulated. Using `element` I could easily create live-updating previews of the manipulated elements.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/297#issuecomment-3646029997"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/Values/element",
@@ -16471,6 +16535,16 @@
     ]
   },
   "explicit-resource-management": {
+    "use-cases": [
+      {
+        "description": "Lots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3649251946"
+      },
+      {
+        "description": "As part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be `free`d when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with `using`.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3772981800"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/366",
       "votes": 10
@@ -18503,6 +18577,20 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:field-sizing"
     },
+    "use-cases": [
+      {
+        "description": "Make `<textarea>` autogrow.\n\nI've wanted this feature for decades! Better late than never :)",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/234#issuecomment-3647627156"
+      },
+      {
+        "description": "allow chat content box when talking to llm to increase in size as the text increases so as not to hide text (to a certain limit)",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/234#issuecomment-3694580726"
+      },
+      {
+        "description": "Have the same UI cross browser, Currently I accommodate non field-sizing browsers by checking if they are supported in css",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/234#issuecomment-4707717334"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of CSS 2025",
@@ -21627,6 +21715,16 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:function"
     },
+    "use-cases": [
+      {
+        "description": "I'd like an easy way to make a color partially transparent, like `background-color: translucent(var(--m3-scheme-on-background) / 0.08)`. I could literally define a `--translucent` function with `@function`.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/300#issuecomment-3508875187"
+      },
+      {
+        "description": "With CSS functions, I could simply declare a single parametrized function once (instead of 30+ times the exact same function for each property), and reuse it whereever I need it.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/300#issuecomment-3902194737"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of CSS 2025",
@@ -22434,6 +22532,16 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:getboxquads"
     },
+    "use-cases": [
+      {
+        "description": "I created a designer application and need this to get the element positions to draw the overlays: https://node-projects.github.io/web-component-designer-demo/index.html",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/301#issuecomment-4708539008"
+      },
+      {
+        "description": "Back when working on Firefox DevTools, I used to use this feature to draw overlays when highlighting elements from the Inspector panel. This API proved extremely valuable in this case as it allowed us to also correctly highlight text nodes, including when they wrap on multiple lines, or fragmented elements (e.g. in multicol containers)",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/301#issuecomment-4709871781"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/301",
       "votes": 0
@@ -23233,6 +23341,20 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:has-slotted"
     },
+    "use-cases": [
+      {
+        "description": "Styling on slotted content is a major facet of the composition story in custom elements leveraging shadow DOM. Sometimes it's just a matter of a little bit of extra spacing you'd like to included when there's additional content (like in a button with text _and_ an icon, instead of just text), but other times it's lighting up whole other features due to the slotted contents on the element and being able to do all of these things without JS would be amazing",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/276#issuecomment-3589597575"
+      },
+      {
+        "description": "I maintain the Lit SSR library. When our users need to style an element based on whether certain slots are filled, they have to use JavaScript to do it. We don't support the slot API in Lit SSR - we just emit declarative shadow DOM with whatever `<slot>`s they have, emit the light DOM, and let the browser do projection. Supporting slots would be very complicated and hurt performance. It would involve parsing HTML, changing our streaming approach (we'd have to delay emitting shadow roots), and performing slot assignment ourselves.\n\nInstead we just don't support these use cases. These types of components just don't style correctly until JS loads and the components hydrate.\n\n`:has-slotted` would let our users eliminate this JS and SSR'ed components to style correctly when they have slotted content, before JS loads.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/276#issuecomment-3590246620"
+      },
+      {
+        "description": "At red hat, we maintain a web components design system, in which we have elements like\n\n```\n<rh-card>\n  <h2 slot=header>...</h2>\n  <p>...<p>\n  <rh-button slot=footer>...</rh-button>\n</rh-card>\n```\nNot every card instance has content in the named slots, so we need to hide those slots in the case that they're empty:\n\n```css\n#footer :has-slotted(*) {\n  display: none;\n}\n```",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/276#issuecomment-3591757791"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
@@ -24461,6 +24583,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:if"
     },
+    "use-cases": [
+      {
+        "description": "make elements dependable (if x happens, let y) etc. I want to be able to not use javascript as some websites dont allow it. i use firefox.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/303#issuecomment-4639859203"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of CSS 2025",
@@ -26739,6 +26867,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:interest-invokers"
     },
+    "use-cases": [
+      {
+        "description": "tooltips",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/464#issuecomment-3674136785"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/464",
       "votes": 31
@@ -26748,6 +26882,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:interpolate-size"
     },
+    "use-cases": [
+      {
+        "description": "The ability to animate size from 0 to \"auto\" in CSS has been sorely missing pretty much since transition existed. I could immediately use it in several types of menus/navigations and other open/closable modules. Probably most notably \"interpolate-size: allow-keywords\" is the last feature missing from completely JS-free animated Accordions (with details+summary). I seriously can't wait to use it and throw out lots of legacy tricks and javascript, but unanimated modules in some bosses iPhones prevent it.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/253#issuecomment-3660444907"
+      }
+    ],
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -27983,6 +28123,44 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:jpegxl"
     },
+    "use-cases": [
+      {
+        "description": "1. My website generator automatically creates previews of photos and other images (with the help of ImageMagick). These previews are saved as JXL due to its high quality, low file size and acceptable encoding speed. I look forward to saving them progressively as well, which JXL can, but that doesn't work with ImageMagick yet. I want visitors of the webpage to be able to view these previews in their browsers.\n2. I also want to save full-size photos that get developed from my camera's raw files as JXL and link to them on my webpage. I want visitors of my webpage to be able to view these images in their browser.\n3. I'd like to convert old full-size JPEG files without any quality loss to smaller JXL files in order to reduce traffic and for quicker loading in the web browser. I want visitors of my webpage to be able to view these images.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3607327783"
+      },
+      {
+        "description": "As a web developer, I need to deliver the best looking/smallest size for items like logos (that aren't in SVG) & screen shots. The extra savings from JXL would be significant, as we often have hundreds of those per site.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3628264088"
+      },
+      {
+        "description": "### LSB encoding, there cannot be any data loss in RGBA\n\nI want JPEG XL because it provides loseless compression and its helpful for my [Steganography Online Codec](https://www.pelock.com/products/steganography-online-codec), it's widly used by journalists and in hostile environments (war) to transfer secret messages within images, the problem is its based on LSB coding and I cannot use error correction to store the secret and encrypted content in losssy, output images like JPG because the LSB coding would be damaged & lost. Right now I can only use PNG as the output format file because I can extract the data from LSB bits without any data loss. JPEG XL would provide me with an additional format and output images would take even less space,\n\n### Image optimization plugin for Yii2 framework\n\nI would love to add JPEG XL to my auto-image optimization plugin for Yii2 PHP framework [yii2-imgopt](https://www.yiiframework.com/extension/pelock/yii2-imgopt), currently I can only output WebP and AVIF and AVIF in 90% cases is not even installed within PHP GD library, so the only working option is WebP. JPEG XL would provide a vital alternative for WebP and AVIF with even more options like lossless compression and smaller sizes. Smaller sizes = faster websites.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3633966568"
+      },
+      {
+        "description": "I work on a web framework, [Next.js](https://nextjs.org), that uses on-demand [image optimization](https://nextjs.org/docs/app/getting-started/images), so encoding speed is important on cache miss.\n\nBy default, we transform all images to WebP which is fast to encode (typically a source image is JPEG or PNG). We also allow transforming to AVIF via opt in config, however this is considerably slower to encode. So much so that we have not enabled AVIF by default. \n\nWe think that JPEG XL might be a nice middle ground to get some of the features of AVIF without the slow encoding speed (although it sounds like [decoding speed might be slower](https://bsky.app/profile/did:plc:vhz2zndxjzsl6mrkaimpmbi4/post/3m76v3x6ai22o) too).",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3634106198"
+      },
+      {
+        "description": "In my free time, I work on a small website focused on sharing user-generated content. Users are able to attach screenshots, banner images and icons to their works. As the website is small and paid for out-of-pocket, I want JPEG XL in order to reduce my computation cost for image compression, networking and storage costs for serving and storing the images.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3641637708"
+      },
+      {
+        "description": "I want to use JPEG XL on the web to deliver high-dynamic-range (HDR) images and to store and serve high-quality images in a truly lossless way.\nJPEG XL is especially important for workflows that require wide color gamuts, higher bit depths (10-bit / 12-bit), and accurate tone reproduction, which are not well supported by traditional web image formats.\n\n- My use case includes:\n- Preserving HDR content without tone-mapping it down to SDR\n- Archiving and publishing images with lossless compression while keeping file sizes reasonable\n- Avoiding quality loss from repeated re-encoding during editing and delivery\n- Using a single modern image format instead of maintaining multiple fallback formats\n\nFor content creators, photographers, and developers working with HDR displays and modern color pipelines, JPEG XL would significantly improve both image quality and efficiency on the web.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3667076379"
+      },
+      {
+        "description": "I work developing a web-based markdown editor to make TTRPG books(https://homebrewery.naturalcrit.com/), meant for sharing and printing, some of which can get to well over 200 pages, therefore asset size is very important, support in this feature should reduce the overall size of our users documents noticeably.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3679298308"
+      },
+      {
+        "description": "I want to use it in desktop Electron apps. Electron uses Chrome as its baseline, so the addition of this functionality directly flows forward. In particular, some Electron apps like Obsidian (https://obsidian.md) involve user-created content, and those could use JXL if it was available. My personal vault contains a lot of images, so JXL would provide decent space-savings.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4060542088"
+      },
+      {
+        "description": "I want to store, and serve patent-unencumbered (no AVIF), lossless and lossy images in the web forum application I've written.\nAn example of a web forum using said application: https://www.sr20-forum.com",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4623074966"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
@@ -29127,6 +29305,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:layout-instability"
     },
+    "use-cases": [
+      {
+        "description": "Measure performance metrics on different browsers",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490"
+      }
+    ],
     "standards-positions": [
       {
         "vendor": "mozilla",
@@ -29458,6 +29642,16 @@
     }
   },
   "light-dark-image": {
+    "use-cases": [
+      {
+        "description": "- Use different images/photos/illustrations that are tuned for the corresponding mode.\n- Use an alternative version of the logo, for example, Datadog logo has a strict guidelines where on dark backgrounds it must use a different shape: https://www.datadoghq.com/about/resources/\n- Adjusting icons/images to have a better contrast with the inverted background while keeping the same color (adding outlines, shadows, or something else that makes the image stand out against an otherwise similarly-bright background)\n\nWhile these could be adjusted with media queries, often a page could have sections that has inverted colors (navigation menus, sidebars, etc), and any image inside will need to be adjusted based on the `color-scheme` used on the container.\n\n<details>\n\n<summary>Aside from images, I also want to use it with any CSS properties and values.</summary>\n\n(hiding in the details, as I originally misread the topic to consider all the `light-dark()` use cases and not just images, haha)\n\nUse cases that I saw in the wild:\n\n- Adjusting the `filter` property — making things ligher/darker, adjusting contrast and saturation, etc. Same for `mix-blend-mode`, `background-blend-mode` and other similar properties.\n- Optical adjustments via `transform` or adjusting the width of borders/shadows.\n- Changing the `opacity` of something (often, also for optical/brightness adjustments).\n- Adjusting the presence/size/spread of some box or text shadow.\n- `display` value, like when you need to show a specific image or element for the corresponding color scheme (we can do responsive images based on media queries, but not on a component-level `color-scheme`, and sometimes you want to change the copy or something else too).\n\n</details>",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/568#issuecomment-4418675627"
+      },
+      {
+        "description": "Let's say I have image/ video cards, where the card's **hue** matches what's dominant in the `src` of the `img` element/ `poster` of the `video` element, while the saturation, lightness and alpha are user set.\n\nThe page background and the card text depend on the theme via `light-dark()`.\n\n```\n:root { background: light-dark(#dedede, #212121) }\n\n.card { color: light-dark(#121212, #ededed) }\n```\n\nHowever, depending on the user set lightness and alpha for the card background, the text contrast may be less than ideal. We could have this situation:\n\n![in the dark theme case, when the card text is close to white, user set lightness and alpha are high, resulting in a pretty opaque bright card background, which means poor contrast](https://github.com/user-attachments/assets/f1db6dee-a2f7-4fcb-b230-07f7fa67a74f)\n\nOr this situation:\n\n![in the light theme case, when the card text is close to black, user set lightness is low and alpha is high, resulting in a pretty opaque dark card background, which means poor contrast](https://github.com/user-attachments/assets/cbaa5aba-d63b-4aa6-b928-bbb0fc2857d1)\n\nSince the user set brightness and alpha are stored as numeric values in custom properties, I could use them to compute the proper values inside the `light-dark()` for the card's text `color`... **if** I also have a custom property `--dark` that changes automatically with the theme. Something like this:\n\n```\n:root { --dark: light-dark(0, 1) }\n```",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/568#issuecomment-4439039351"
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/568",
       "votes": 13
@@ -30331,6 +30525,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:local-fonts"
     },
+    "use-cases": [
+      {
+        "description": "For offline first apps, it is nice to have customization on the font based on the user’s local fonts.\nIt also avoids downloading a font file online which adds time-to-display. \nThe user might prefer fonts that they're more familiarized with\nIt is nice to have for better DX overall",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/174#issuecomment-3663502511"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/API/Window/queryLocalFonts",
@@ -31327,6 +31527,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:mask-border"
     },
+    "use-cases": [
+      {
+        "description": "The ability to shape corners arbitrarily and texture borders arbitrarily without using javascript\n\nWhich you can see in this [visual example](https://examples.felixtjernberg.se/web-platform-dx/developer-signals/225)",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/225#issuecomment-3412620915"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/Properties/mask-border",
@@ -31426,6 +31632,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:masonry"
     },
+    "use-cases": [
+      {
+        "description": "I want to have a way to do masonry layout — with many layout possibilities — without having to use JavaScript.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/308#issuecomment-3717216253"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of CSS 2025",
@@ -32940,6 +33152,12 @@
     }
   },
   "meta-theme-color": {
+    "use-cases": [
+      {
+        "description": "Right now it is hard to keep that color in sync with CSS.\nwhy isn't `theme-color` part of the CSS spec, same as `color-scheme`?\n\n```css\n:root {\n   --bg-color: #FFF8B2;\n   theme-color: var(--bg-color); /** initial | unset | auto | <color> **/\n}\n\nbody {\n   background-color: var(--bg-color);\n}\n```",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/145#issuecomment-3698002225"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/HTML/Reference/Elements/meta/name/theme-color",
@@ -35441,6 +35659,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:object-view-box"
     },
+    "use-cases": [
+      {
+        "description": "The most immediate opportunity I can see would be an \"image zoom\" feature.\n\nInitially, being able to hover over an image and have that image zoom in, could be cool!\n\nAnother option would be offering multiple predetermined \"zoom zones\", where clicking an option would zoom the image to that zone.\n\nBoth examples above demonstrated here:\nhttps://codepen.io/aarontgrogg/pen/XJdqwBB\n\nThe *ideal* would be if it could zoom in to the portion of the pic you are hovering over, but that would require at least *some* JS, to track and pass the current x/y to the CSS custom properties... Yes, *some* JS, but certainly less than we use now for the same feature!",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/177#issuecomment-3590228888"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/Properties/object-view-box",
@@ -38297,6 +38521,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:permissions-policy"
     },
+    "use-cases": [
+      {
+        "description": "Essentially, replace the now-deprecated `Feature-policy` with just **one** header, i.e., `Permissions-Policy`.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/479#issuecomment-4060231106"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/API/HTMLIFrameElement/allow",
@@ -39575,6 +39805,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:prefers-reduced-data"
     },
+    "use-cases": [
+      {
+        "description": "I serve video previews on thumbnail hover on desktop and I'm considering using CSS scroll-state queries to mirror this in some fashion on mobile, but I'd like to disable this feature when folks have save data turned on.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/314#issuecomment-3711159463"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of CSS 2024",
@@ -41295,6 +41531,16 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:referencetarget"
     },
+    "use-cases": [
+      {
+        "description": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3590265077"
+      },
+      {
+        "description": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this:\n\n```\n<rh-select>\n  <rh-option>...</rh-option>\n```\n\nIn which case rh-select's shadow root has a combobox input, button, and listbox.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3591754763"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/API/Element/attachShadow#referencetarget",
@@ -44078,6 +44324,16 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:scoped-custom-element-registries"
     },
+    "use-cases": [
+      {
+        "description": "We're running a micro frontend architecture with parts of the page composed from different teams' apps at runtime. The parts are independently deployed, and isolated today using a declarative shadow DOM boundary.\n\nWe also have a shared design system with a web components base. Since every part of the micro frontend shares the global custom element registry, to update the design system when there are breaking changes requires a huge coordination effort that scoped custom element registries would solve.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3646159954"
+      },
+      {
+        "description": "<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nI have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries.\n\nBut also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3952608107"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/API/CustomElementRegistry/CustomElementRegistry",
@@ -48589,6 +48845,16 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:sibling-count"
     },
+    "use-cases": [
+      {
+        "description": "Animate in a row of cards with increasing `transition-delay`, so they appear one after another.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/361#issuecomment-3577825142"
+      },
+      {
+        "description": "Reduce the size of all cards within a container, dynamically, as the number of cards within a container grows (indefinitely) - ensuring all cards fit within the container, with little-to-no overlaps. Whilst positioning each card \"randomly\" within the container using CSS alone.\n\nHere's what I came up with: https://codepen.io/TigerYT/pen/myVVWZP.\n\nhttps://github.com/user-attachments/assets/af142375-73d0-449f-ac5a-6eb07c855d5c\n\nThe issue? The only CSS-only solution to my problem (that I could come up with) used both `sibling-count()` and `sibling-index()`. Both of which, of course, are currently Chromium-only.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/361#issuecomment-3678304257"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of CSS 2025",
@@ -49117,6 +49383,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:speculation-rules"
     },
+    "use-cases": [
+      {
+        "description": "My company has a web app in which users can create, edit, and save documents. The app's landing page is the documents list, from which users can open their documents in a proprietary editor in a new tab.\n\nThe editor has many features, so it loads and evaluates several megabytes of assets. Even with request & bytecode caching, loading and evaluating assets is pretty slow. \n\nWith the Speculation Rules API (specifically prerendering), I can start asset load and evaluation before a user opens their document, and then use the Broadcast Channel API to tell the prerendered page what document to open.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-4209725860"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of HTML 2025",
@@ -52796,6 +53068,20 @@
     }
   },
   "temporal": {
+    "use-cases": [
+      {
+        "description": "I want to handle partial date and time data (only time or only day, or dates without timezone).",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-3643252811"
+      },
+      {
+        "description": "<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n- show datetimes in different timezones in my app.\n- make a library that makes Temporal.ZonedDateTime feel like Date.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-4629229532"
+      },
+      {
+        "description": "Easily handle dates, times, months (with years but not dates) in a straightforward manner, without writing string parsers and normaliser functions. The localisation support and timezone handling is an added bonus.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-4637924853"
+      }
+    ],
     "state-of-surveys": [
       {
         "name": "State of JS 2025",
