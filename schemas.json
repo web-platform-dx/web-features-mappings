@@ -30,6 +30,9 @@
     },
     "chrome-status": {
       "$ref": "#/definitions/chromeStatusFile"
+    },
+    "use-cases": {
+      "$ref": "#/definitions/useCasesFile"
     }
   },
   "$comment": "The properties are the file names of the files in the mapping directory",
@@ -433,6 +436,42 @@
         "spec-link",
         "explainer-links",
         "updated"
+      ],
+      "additionalProperties": false
+    },
+    "useCasesFile": {
+      "description": "Schema for use-cases.json. An object where keys are feature IDs and values are an array of use cases you'd use the feature for.",
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/useCasesFeatureArray"
+        }
+      },
+      "additionalProperties": false
+    },
+    "useCasesFeatureArray": {
+      "description": "An array of use-cases from use-cases.json.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/useCasesFeature"
+      },
+      "minItems": 1
+    },
+    "useCasesFeature": {
+      "type": "object",
+      "description": "A use case record from use-cases.json.",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "description",
+        "url"
       ],
       "additionalProperties": false
     }

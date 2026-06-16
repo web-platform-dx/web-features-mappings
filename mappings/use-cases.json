@@ -1,0 +1,36 @@
+{
+  "ambient-light": [
+    {
+      "description": "- dark mode and light mode are insufficiently naturing honoring\n- I want to use ambient light sensor to provide a more nuanced real-time themeing experience",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/292#issuecomment-4699695885"
+    }
+  ],
+  "arianotify": [
+    {
+      "description": "* Announce messages to screen reader users (ex. loading, loading complete messages in single page apps and async components, user feedback, notifications, etc)\n* Potentially the ability to abort a notification (ex. like `clearTimeout`). If there is any delay between the time when `ariaNotify` is called and when the announcement happens, a consuming application may want to abort a notification if it's no longer relevant. For example, due to the user changing views in a single page application.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/423#issuecomment-4624451848"
+    }
+  ],
+  "attr": [
+    {
+      "description": "Style images based on their focal point for better UX when images resize to fit different viewport widths. The CMS that calculates focal points outputs data- attributes, then site themes can decide if they want to write the needed styles in their stylesheets. CSS could look like this, defined once for all images site-wide:\n\n```css\n[data-w-focus-x] {\n  object-fit: cover;\n  object-position: attr(data-w-focus-x) attr(data-w-focus-y);\n}\n```",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/293#issuecomment-3817053729"
+    },
+    {
+      "description": "<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nWe're building a set of UI components that users can assemble into web pages. We want to dynamically assign an anchor name via prop, so that any element can be anchored to another.\n\n```html\n<MyAnchorTarget data-anchor-name=\"--my-anchor-name\" id=\"my-anchor-target-component\" />\n\n<MyToBeAnchored data-anchor-name=\"--my-anchor-name\" id=\"my-to-be-anchored-component\" />\n\n<style>\n  #my-anchor-target-component {\n    anchor-name: attr(data-anchor-name)\n  }\n  \n  #my-to-be-anchored-component {\n    position-anchor: attr(data-anchor-name);\n  }\n  </style>\n```",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/293#issuecomment-3915950915"
+    }
+  ],
+  "calc-size": [
+    {
+      "description": "I want to be able to animate a `<details>` being opened, not knowing the height of the content in it.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-3906944848"
+    }
+  ],
+  "caret-shape": [
+    {
+      "description": "Use block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/424#issuecomment-4701946798"
+    }
+  ]
+}

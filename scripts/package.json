@@ -14,7 +14,7 @@
   "scripts": {
     "bump": "npx --yes npm-check-updates -u && npm install",
     "build": "npm run update:all && npm run lint:schemas && npm run combine:schemas && npm run combine",
-    "update:all": "npm run update:chrome-use-counters && npm run update:chrome-status && npm run update:developer-signals && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt && npm run update:bugs",
+    "update:all": "npm run update:chrome-use-counters && npm run update:chrome-status && npm run update:developer-signals && npm run update:interop && npm run update:mdn-docs && npm run update:standards-positions && npm run update:state-of-surveys && npm run update:wpt && npm run update:bugs && npm run update:use-cases",
     "update:chrome-status": "node update-chrome-status.js",
     "update:chrome-use-counters": "node update-chrome-use-counters.js",
     "update:developer-signals": "node update-developer-signals.js",
@@ -24,6 +24,7 @@
     "update:state-of-surveys": "node update-state-of-surveys.js",
     "update:wpt": "node update-wpt.js",
     "update:bugs": "node update-bugs.js",
+    "update:use-cases": "node update-use-cases.js",
     "lint:schemas": "node lint-schemas.js",
     "combine:schemas": "node generate-combined-schema.js",
     "combine": "node combine-mappings.js"
