@@ -4,8 +4,25 @@ on:
   # Run once a day
   schedule:
     - cron: "0 7 * * *"
-  # Or when manually triggered
+  # Or when manually triggered, optionally for a single mapping only
   workflow_dispatch:
+    inputs:
+      mapping:
+        description: "Mapping to update (leave empty to update all)"
+        required: false
+        type: choice
+        options:
+          - ""
+          - chrome-status
+          - chrome-use-counters
+          - developer-signals
+          - interop
+          - mdn-docs
+          - standards-positions
+          - state-of-surveys
+          - use-cases
+          - wpt
+          - bugs
 
 jobs:
   build:
@@ -15,8 +32,21 @@ jobs:
       - name: Check-out the repository
         uses: actions/checkout@v5
 
-      - name: Bump deps and re-build the mappings
-        run: npm run update
+      - name: Bump deps and install
+        run: cd scripts && npm run bump
+
+      - name: Update mappings
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "${{ inputs.mapping }}" ]; then
+            cd scripts && npm run update:${{ inputs.mapping }}
+          else
+            cd scripts && npm run update:all
+          fi
+
+      - name: Lint and combine
+        run: cd scripts && npm run lint:schemas && npm run combine:schemas && npm run combine
 
       - name: Commit changes if needed
         run: |
