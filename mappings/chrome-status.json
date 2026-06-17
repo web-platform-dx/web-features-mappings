@@ -4802,7 +4802,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-06-15 20:28:55.793389"
+        "when": "2026-06-17 09:05:25.212510"
       }
     },
     {
@@ -5026,7 +5026,7 @@
       ],
       "updated": {
         "by": "tov@google.com",
-        "when": "2026-06-15 21:07:07.117519"
+        "when": "2026-06-17 11:13:07.311896"
       }
     },
     {
@@ -5740,7 +5740,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-06-08 09:39:56.197224"
+        "when": "2026-06-17 11:28:37.608378"
       }
     }
   ],
@@ -10666,6 +10666,20 @@
   ],
   "input-color": [
     {
+      "id": 5736024861966336,
+      "name": "InputTypeColorEnhancements",
+      "summary": "Adds support for the alpha and colorspace attributes on <input type=color>, matching the WHATWG HTML specification. When enabled, the color input gains an alpha boolean attribute (allowing non-opaque colors) and a colorspace attribute (limited-srgb or display-p3), and its CSS color parsing and serialization are expanded to support any CSS color value rather than only opaque hex colors. Both attributes are gated behind a single runtime flag.",
+      "motivation": "Historically <input type=color> only supported opaque sRGB colors expressed as 7-character hex values, with no way to express transparency or wide-gamut colors. Developers building design tools, drawing applications, and theming interfaces have had to build custom color pickers to offer an alpha channel or access to wider color gamuts such as Display P3, increasing complexity and inconsistency across the web.\n\nThe HTML specification now defines two attributes to address this: alpha, which lets users pick non-opaque colors, and colorspace, which selects the color space (limited-srgb or display-p3) and hints at the desired picker UI. Supporting these attributes lets the native control handle alpha and wide-gamut color selection directly, expands the control's value parsing and serialization to accept any CSS color, and brings Chromium in line with the standard.\n\nWebKit has shipped support for these attributes, enabling them by default via https://github.com/WebKit/WebKit/pull/35427. Firefox has partially implemented them (currently in Nightly behind a flag, desktop only), tracked in https://bugzilla.mozilla.org/show_bug.cgi?id=2047120. Implementing them in Chromium improves interoperability for developers.",
+      "url": "https://chromestatus.com/feature/5736024861966336",
+      "bug-url": "https://issues.chromium.org/issues/368059226",
+      "spec-link": "https://html.spec.whatwg.org/multipage/input.html#attr-input-colorspace,https://html.spec.whatwg.org/multipage/input.html#dom-input-alpha",
+      "explainer-links": [],
+      "updated": {
+        "by": "cgqaq@chromium.org",
+        "when": "2026-06-16 18:13:40.818487"
+      }
+    },
+    {
       "id": 5099982692286464,
       "name": "CSS Color for Color Input Value",
       "summary": "The HTML color input historically only supported 6 digit hex values for the value attribute. This feature changes that to support the much wider range of color syntaxes supported by CSS. Importantly the value will still be serialized as a hex when retrieving the value or during form submission, this is for backwards compatibility.",
@@ -10800,7 +10814,7 @@
       "explainer-links": [],
       "updated": {
         "by": "guidou@google.com",
-        "when": "2026-06-10 15:12:03.894262"
+        "when": "2026-06-17 09:05:20.518470"
       }
     },
     {
@@ -12436,7 +12450,7 @@
     {
       "id": 5152728072060928,
       "name": "Local network access restrictions",
-      "summary": "Chrome 142 restricted the ability to make requests to the user's local network, gated behind a permission prompt. A local network request is any request from a public website to a local IP address or loopback, or from a local website (for example, intranet) to loopback. \n\nGating the ability for websites to perform these requests behind a permission mitigates the risk of cross-site request forgery attacks against local network devices such as routers, and reduces the ability of sites to use these requests to fingerprint the user's local network.\n\nThis permission is restricted to secure contexts. If granted, the permissions additionally relaxes mixed content blocking for local network requests (since many local devices are not able to obtain publicly trusted TLS certificates for various reasons).\n\nThis work supersedes a prior effort called [Private Network Access](https://chromestatus.com/feature/5737414355058688), which used preflight requests to have local devices opt in. For more information on this feature, see [Adapting your website for new Local Network Access restrictions in Chrome](https://docs.google.com/document/d/1QQkqehw8umtAgz5z0um7THx-aoU251p705FbIQjDuGs/edit?usp=sharing).\n\nChrome 145 introduced more granular permissions for websites requesting access to a user's local network. The previous single `local-network-access permission` is being split into two distinct permissions:\n\n* `local-network`: Grants access to IP addresses in the local network space (for example, intranets, internal devices).\n* `loopback-network`: Grants access to loopback IP addresses (for example, `localhost`, `127.0.0.1`).\n\nThe old `local-network` permission will remain as an alias, ensuring existing configurations and permissions policies continue to function as expected. \n\nThis change provides both users and Admins with more precise control over how websites interact with internal network resources.  Current enterprise policies managing local network access will not be affected by this change.\n\nChrome 146 introduces two new enterprise policies for managing local network access restrictions:  [LocalNetworkAccessIpAddressSpaceOverrides](https://chromeenterprise.google/policies/#LocalNetworkAccessIpAddressSpaceOverrides) and  [LocalNetworkAccessPermissionsPolicyDefaultEnabled](https://chromeenterprise.google/policies/#LocalNetworkAccessPermissionsPolicyDefaultEnabled). These policies can be set using [custom configurations](https://support.google.com/chrome/a/answer/14749672).\n\nChrome 147 expands Local Network Access restrictions to include WebSocket and WebTransport connections.",
+      "summary": "Chrome 142 restricted the ability to make requests to the user's local network, gated behind a permission prompt. A local network request is any request from a public website to a local IP address or loopback, or from a local website (for example, intranet) to loopback. \n\nGating the ability for websites to perform these requests behind a permission mitigates the risk of cross-site request forgery attacks against local network devices such as routers, and reduces the ability of sites to use these requests to fingerprint the user's local network.\n\nThis permission is restricted to secure contexts. If granted, the permissions additionally relaxes mixed content blocking for local network requests (since many local devices are not able to obtain publicly trusted TLS certificates for various reasons).\n\nThis work supersedes a prior effort called [Private Network Access](https://chromestatus.com/feature/5737414355058688), which used preflight requests to have local devices opt in. For more information on this feature, see [Adapting your website for new Local Network Access restrictions in Chrome](https://docs.google.com/document/d/1QQkqehw8umtAgz5z0um7THx-aoU251p705FbIQjDuGs/edit?usp=sharing).\n\nChrome 145 introduced more granular permissions for websites requesting access to a user's local network. The previous single `local-network-access permission` is being split into two distinct permissions:\n\n* `local-network`: Grants access to IP addresses in the local network space (for example, intranets, internal devices).\n* `loopback-network`: Grants access to loopback IP addresses (for example, `localhost`, `127.0.0.1`).\n\nThe old `local-network` permission will remain as an alias, ensuring existing configurations and permissions policies continue to function as expected. \n\nThis change provides both users and Admins with more precise control over how websites interact with internal network resources. Current enterprise policies managing local network access will not be affected by this change.\n\nChrome 146 introduces two new enterprise policies for managing local network access restrictions:  [LocalNetworkAccessIpAddressSpaceOverrides](https://chromeenterprise.google/policies/#LocalNetworkAccessIpAddressSpaceOverrides) and  [LocalNetworkAccessPermissionsPolicyDefaultEnabled](https://chromeenterprise.google/policies/#LocalNetworkAccessPermissionsPolicyDefaultEnabled). These policies can be set using [custom configurations](https://support.google.com/chrome/a/answer/14749672).\n\nChrome 147 expands Local Network Access restrictions to include WebSocket and WebTransport connections.\n\nIn Chrome 152, the [LocalNetworkAccessRestrictionsTemporaryOptOut](https://chromeenterprise.google/policies/#LocalNetworkAccessRestrictionsTemporaryOptOut) policy will be removed.",
       "motivation": "Currently public websites can probe a user's local network, perform CSRF attacks against vulnerable local devices, and generally abuse the user's browser as a \"confused deputy\" that has access inside the user's local network or software on their local machine. Gating the ability for sites to make local network requests behind a permission prompt helps stop the exploitation of vulnerable devices and servers from the drive-by-web, and gives users control over which sites can probe their local network.",
       "url": "https://chromestatus.com/feature/5152728072060928",
       "bug-url": "https://crbug.com/394009026",
@@ -12445,8 +12459,8 @@
         "https://github.com/WICG/local-network-access/blob/main/explainer.md"
       ],
       "updated": {
-        "by": "cthomp@chromium.org",
-        "when": "2026-06-15 23:41:53.943000"
+        "by": "siobhankeating@google.com",
+        "when": "2026-06-17 11:27:34.791811"
       }
     }
   ],
@@ -12660,7 +12674,7 @@
     {
       "id": 5123349239955456,
       "name": "PWA origin migration",
-      "summary": "When a user installs a Progressive Web App (PWA), its identity and security context are tightly bound to its web origin, for example, `app.example.com`. This presents a significant challenge for developers who need to change their PWA's origin due to rebranding, domain restructuring, or technical re-architecture. Currently, such a change forces users to manually uninstall the old app and reinstall the new one, leading to a disruptive experience and potential user loss. Chrome 150 introduces a mechanism for developers to seamlessly migrate an installed PWA to a new, same-site origin, preserving user trust and permissions.\n\nThe [WebAppInstallForceList](https://chromeenterprise.google/policies/#WebAppInstallForceList) policy will block migration. Since enterprise policies around web applications are primarily based on URLs and origins, there is a risk that a migration would bypass certain policies an admin might have configured. No migration will be offered to the user when an app is force-installed by their enterprise administrator, and instead a banner will be shown explaining this to the user.",
+      "summary": "When a user installs a Progressive Web App (PWA), its identity and security context are tightly bound to its web origin, for example, `app.example.com`. This presents a significant challenge for developers who need to change their PWA's origin due to rebranding, domain restructuring, or technical re-architecture. Currently, such a change forces users to manually uninstall the old app and reinstall the new one, leading to a disruptive experience and a potential increase in user loss rate. Chrome 150 introduces a mechanism for developers to seamlessly migrate an installed PWA to a new, same-site origin, preserving user trust and permissions.\n\nThe [WebAppInstallForceList](https://chromeenterprise.google/policies/#WebAppInstallForceList) policy will block migration. Since enterprise policies around web applications are primarily based on URLs and origins, there is a risk that a migration would bypass certain policies an admin might have configured. No migration will be offered to the user when an app is force-installed by their enterprise administrator, and instead a banner will be shown explaining this to the user.",
       "motivation": "Imagine you have the \"SocialApp\" app installed on your computer from www.example.com/social. One day, the company decides to move the app to its own dedicated home at social.example.com. Without a migration mechanism, the app you have installed would either break or redirect you to the new site in a generic browser window, losing its app-like feel. You would have to figure out that you need to uninstall the old app and install the new one from the new address. You might also lose your settings, like whether you've allowed the app to send notifications.\n\nThis feature aims to make that transition seamless. Instead of a broken experience, the app would notify you of an available update. With your approval, the app would relaunch from its new home at social.example.com, with your notification settings intact.",
       "url": "https://chromestatus.com/feature/5123349239955456",
       "bug-url": "https://issues.chromium.org/396504527",
@@ -12669,8 +12683,8 @@
         "https://github.com/WICG/manifest-incubations/blob/gh-pages/pwa-migration-explainer.md"
       ],
       "updated": {
-        "by": "dibyapal@chromium.org",
-        "when": "2026-05-26 17:17:01.446006"
+        "by": "siobhankeating@google.com",
+        "when": "2026-06-17 10:19:42.196243"
       }
     },
     {
@@ -20871,7 +20885,7 @@
       ],
       "updated": {
         "by": "robertlin@chromium.org",
-        "when": "2026-06-15 18:40:32.422328"
+        "when": "2026-06-16 20:41:23.705612"
       }
     },
     {
@@ -22265,16 +22279,16 @@
   "svg-filters": [
     {
       "id": 5117170452398080,
-      "name": "Disable SVG filters on plugins and cross-origin or restricted iframes",
-      "summary": "Chrome 150 will prevent Scalable Vector Graphics (SVG) filters from being applied to cross-origin or restricted iFrames (for example, sandboxed ones) and embedded plugins (for example, PDFs). When a frame or plugin would be painted with an SVG filter effect, the effect tree is traversed to find the highest ancestor without SVG filters, and that effect is then applied instead.",
+      "name": "Disable SVG filters on plugins and iFrames",
+      "summary": "Chrome 150 will prevent Scalable Vector Graphics (SVG) filters from being applied to embedded plugins (for example, PDFs) and cross-origin or restricted iFrames (for example, sandboxed ones). When a plugin or iFrame would be painted with an SVG filter effect, the effect tree is traversed to find the highest ancestor without SVG filters, and that effect is then applied instead.",
       "motivation": "SVG clickjacking (https://lyra.horse/blog/2025/12/svg-clickjacking/) is a new spin on clickjacking which uses dynamic SVG filters to disguise content and manipulate users into taking actions they might not otherwise. Additionally, we would like to further restrict timing attacks (https://media.blackhat.com/us-13/US-13-Stone-Pixel-Perfect-Timing-Attacks-with-HTML5-WP.pdf) involving SVG filters.",
       "url": "https://chromestatus.com/feature/5117170452398080",
       "bug-url": "https://crbug.com/476646486",
       "spec-link": "https://github.com/w3c/csswg-drafts/pull/13846",
       "explainer-links": [],
       "updated": {
-        "by": "arichiv@chromium.org",
-        "when": "2026-06-01 10:10:18.086528"
+        "by": "siobhankeating@google.com",
+        "when": "2026-06-17 09:57:23.861240"
       }
     }
   ],
@@ -25879,7 +25893,7 @@
       "explainer-links": [],
       "updated": {
         "by": "dadrian@google.com",
-        "when": "2026-06-15 16:24:49.732958"
+        "when": "2026-06-17 09:01:02.347844"
       }
     },
     {
@@ -27485,7 +27499,7 @@
       "explainer-links": [],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-06-09 10:58:36.077434"
+        "when": "2026-06-16 14:37:23.804546"
       }
     },
     {
@@ -29595,15 +29609,15 @@
     {
       "id": 4709671889534976,
       "name": "Deprecate and remove XSLT",
-      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the libxslt library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines) plans to deprecate and remove XSLT from the web platform.  \nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt). ",
+      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the **libxslt** library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines) plans to deprecate and remove XSLT from the web platform.  \n\nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt). ",
       "motivation": "Security risks for all users outweigh the very small usage of this feature on the open web.\n\nUsage of XSLTProcessor (https://chromestatus.com/metrics/feature/timeline/popularity/79) is fairly volatile, registering somewhere between 0.01% and 0.1% of page loads, averaging around 0.05% over time. These numbers are above the typical 0.001% deprecation threshold. Again, we feel that the increased potential for breakage is balanced by the reduced security risk to 100% of Chromium users. And we are doing everything we can to mitigate this breakage and be proactive in reaching out to potentially affected sites and particularly libraries that might account for significant chunks of the overall usage. In addition, several sites we surveyed that use XSLTProcessor have feature detection code with fallbacks to JS libraries like Saxonica. Of the ~220 sites we've surveyed so far, roughly 72% of them are still functional even with XSLT disabled.\n\nThe usage of XSL Processing Instructions (https://chromestatus.com/metrics/feature/timeline/popularity/78) is significantly lower, around 0.001% for the last few years.",
       "url": "https://chromestatus.com/feature/4709671889534976",
       "bug-url": "https://crbug.com/435623334",
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "masonfreed@google.com",
-        "when": "2026-06-01 16:20:10.119981"
+        "by": "siobhankeating@google.com",
+        "when": "2026-06-17 11:22:27.972285"
       }
     },
     {
@@ -29727,7 +29741,7 @@
       "explainer-links": [],
       "updated": {
         "by": "reillyg@chromium.org",
-        "when": "2026-06-12 19:53:46.476490"
+        "when": "2026-06-17 08:58:03.659244"
       }
     }
   ],
