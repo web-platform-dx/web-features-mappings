@@ -5026,7 +5026,7 @@
       ],
       "updated": {
         "by": "tov@google.com",
-        "when": "2026-06-17 11:13:07.311896"
+        "when": "2026-06-17 13:11:09.588067"
       }
     },
     {
@@ -5740,7 +5740,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-06-17 11:28:37.608378"
+        "when": "2026-06-17 18:17:07.702737"
       }
     }
   ],
@@ -8069,7 +8069,7 @@
       ],
       "updated": {
         "by": "janewman@microsoft.com",
-        "when": "2026-05-26 18:13:56.997287"
+        "when": "2026-06-17 23:51:43.226477"
       }
     }
   ],
@@ -9716,7 +9716,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-06-06 21:08:48.424478"
+        "when": "2026-06-17 17:52:30.114046"
       }
     }
   ],
@@ -21562,7 +21562,7 @@
       ],
       "updated": {
         "by": "michalhoffmann@google.com",
-        "when": "2026-06-02 13:02:03.529171"
+        "when": "2026-06-18 08:33:48.330402"
       }
     },
     {
@@ -22007,6 +22007,20 @@
     }
   ],
   "svg": [
+    {
+      "id": 5095153430822912,
+      "name": "Support CSS Linked Parameters",
+      "summary": "CSS Linked Parameters allow passing named values into external resources such as SVG images, where they become accessible as custom environment variables via env(). Values can be set through the link-parameters CSS property, through param() fragment identifiers in URLs, or through param() modifiers in the CSS url() function. This enables developers to create reusable, templated SVG images that adapt to a site's theme colors, sizes, or other design tokens, without duplicating files, inlining SVG, or relying on JavaScript.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5095153430822912",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "dmangal@microsoft.com",
+        "when": "2026-06-17 12:24:58.099404"
+      }
+    },
     {
       "id": 5093348936384512,
       "name": "Add support for window-reflecting event handlers to SVGSVGElement",
@@ -24928,13 +24942,13 @@
       "motivation": "The OfflineAudioContext API works well for rendering small audio graphs but it does not scale for larger projects because it allocates the full graph's AudioBuffer up-front. For example, rendering a 2 hour video composition project in clipchamp.com in an OfflineAudioContext would require an extremely large AudioBuffer allocation. \n\nThe implication of this API is that a user's computer must have enough available memory to export the project even if the in-memory audio buffer will eventually be discarded after it is written to a file. In situations with limited hardware resources or low-powered devices, this limitation makes WebAudio unusable as an offline processor. If memory capacity is exceeded on a user's machine then the processing will stop and the browser may terminate the tab/window leading to potential loss of data for the user and a poor user experience.\n\nThis feature allows streaming data out of a WebAudio in an offline context for rendering large audio graphs, thus removing large memory requirements for the user's machine.",
       "url": "https://chromestatus.com/feature/5109900936085504",
       "bug-url": null,
-      "spec-link": null,
+      "spec-link": "https://github.com/WebAudio/web-audio-api/pull/2675",
       "explainer-links": [
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/OfflineAudioContext/explainer.md"
       ],
       "updated": {
         "by": "gabrielbrito@microsoft.com",
-        "when": "2025-12-04 18:38:45.385192"
+        "when": "2026-06-17 20:56:08.657077"
       }
     },
     {
@@ -24948,7 +24962,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mjwilson@chromium.org",
-        "when": "2026-05-11 20:23:23.150326"
+        "when": "2026-06-17 21:27:11.268628"
       }
     },
     {
@@ -25892,8 +25906,8 @@
       "spec-link": "https://wicg.github.io/webcrypto-modern-algos",
       "explainer-links": [],
       "updated": {
-        "by": "dadrian@google.com",
-        "when": "2026-06-17 09:01:02.347844"
+        "by": "hchao@chromium.org",
+        "when": "2026-06-17 15:42:55.039043"
       }
     },
     {
@@ -29792,6 +29806,24 @@
       "updated": {
         "by": "foolip@google.com",
         "when": "2025-08-22 08:30:21.657143"
+      }
+    }
+  ],
+  "digital-credentials": [
+    {
+      "id": 5166035265650688,
+      "name": "Digital Credentials API (presentation support)",
+      "summary": "Websites can and do get credentials from mobile wallet apps through a variety of mechanisms today (custom URL handlers, QR code scanning, etc.).  This Web Platform feature would allow sites to request identity information from wallets via Android's IdentityCredential CredMan system. It is extensible to support multiple credential formats (eg. ISO mDoc and W3C verifiable credential) and allows multiple wallet apps to be used. Mechanisms are being added to help reduce the risk of ecosystem-scale abuse of real-world identity (see https://docs.google.com/document/u/1/d/1L68tmNXCQXucsCV8eS8CBd_F9FZ6TNwKNOaFkA8RfwI/edit).\n",
+      "motivation": "Without this, websites and wallets can only communicate in ways that are more opaque to the browser and OS. ",
+      "url": "https://chromestatus.com/feature/5166035265650688",
+      "bug-url": "https://issues.chromium.org/issues/40257092",
+      "spec-link": "https://w3c-fedid.github.io/digital-credentials",
+      "explainer-links": [
+        "https://github.com/w3c-fedid/digital-credentials/blob/main/explainer.md"
+      ],
+      "updated": {
+        "by": "rbyers@chromium.org",
+        "when": "2026-06-17 19:49:07.383850"
       }
     }
   ]

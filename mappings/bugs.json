@@ -1761,6 +1761,9 @@
     "firefox": [
       "https://bugzil.la/2004828"
     ],
+    "chrome": [
+      "https://issues.chromium.org/issues/40257092"
+    ],
     "webview_ios": [
       "https://webkit.org/b/293646"
     ]
@@ -1866,23 +1869,6 @@
     ],
     "chrome": [
       "https://crbug.com/40909052"
-    ]
-  },
-  "webusb": {
-    "firefox": [
-      "https://bugzil.la/2022432"
-    ],
-    "chrome": [
-      "https://crbug.com/40783010",
-      "https://bugs.chromium.org/p/chromium/issues/detail?id=1455392",
-      "https://bugs.chromium.org/p/chromium/issues/detail?id=1303193",
-      "https://bugs.chromium.org/p/chromium/issues/detail?id=1299351",
-      "https://bugs.chromium.org/p/chromium/issues/detail?id=1274922",
-      "https://crbug.com/837406",
-      "https://crbug.com/492204"
-    ],
-    "webview_android": [
-      "https://crbug.com/41441927"
     ]
   },
   "web-otp": {
@@ -6801,6 +6787,20 @@
     ],
     "firefox_android": [
       "https://bugzil.la/775368"
+    ]
+  },
+  "webusb": {
+    "chrome": [
+      "https://crbug.com/40783010",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1455392",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1303193",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1299351",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1274922",
+      "https://crbug.com/837406",
+      "https://crbug.com/492204"
+    ],
+    "webview_android": [
+      "https://crbug.com/41441927"
     ]
   },
   "webvr": {
