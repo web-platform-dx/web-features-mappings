@@ -11054,5 +11054,25 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/API/Request/targetAddressSpace"
     }
+  ],
+  "service-workers-static-routes": [
+    {
+      "slug": "Web/API/InstallEvent",
+      "title": "InstallEvent",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/InstallEvent"
+    },
+    {
+      "slug": "Web/API/InstallEvent/InstallEvent",
+      "title": "InstallEvent: InstallEvent() constructor",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/InstallEvent/InstallEvent"
+    },
+    {
+      "slug": "Web/API/InstallEvent/addRoutes",
+      "title": "InstallEvent: addRoutes() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/InstallEvent/addRoutes"
+    }
   ]
 }

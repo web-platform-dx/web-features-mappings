@@ -3987,7 +3987,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-06-01 06:28:04.313914"
+        "when": "2026-06-19 09:19:30.804911"
       }
     }
   ],
@@ -15144,7 +15144,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-06-10 13:07:47.090863"
+        "when": "2026-06-18 13:50:08.496115"
       }
     },
     {
@@ -21562,7 +21562,7 @@
       ],
       "updated": {
         "by": "michalhoffmann@google.com",
-        "when": "2026-06-18 08:33:48.330402"
+        "when": "2026-06-18 13:26:31.455702"
       }
     },
     {
@@ -25727,6 +25727,20 @@
   ],
   "web-bluetooth": [
     {
+      "id": 5177569273053184,
+      "name": "Web Bluetooth BluetoothRemoteGATTCharacteristic.getMTU()",
+      "summary": "Adds BluetoothRemoteGATTCharacteristic.getMTU(), which lets web developers read the negotiated ATT MTU for a connected Bluetooth GATT characteristic.\n\nThis helps applications choose packet sizes that fit the active BLE connection, improving throughput and avoiding trial-and-error around platform-specific MTU behavior.\n\n\nimplementation: https://chromium-review.googlesource.com/c/chromium/src/+/7879985\n\nBug: 40265040, 40686244, 40163619\n",
+      "motivation": "Web Bluetooth applications currently cannot know the negotiated ATT MTU for a BLE connection. Developers either assume the minimum MTU, use fixed platform-specific heuristics, or attempt writes and handle failures. Exposing the negotiated MTU lets applications size writes and transfers appropriately, especially for devices where throughput or reliability depends on using packet sizes larger than the default 20-byte payload.",
+      "url": "https://chromestatus.com/feature/5177569273053184",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "hjanuschka@gmail.com",
+        "when": "2026-06-18 19:52:56.882268"
+      }
+    },
+    {
       "id": 5088568590598144,
       "name": "Deprecate BluetoothRemoteGATTCharacteristic.writeValue()",
       "summary": "The writeValue() method on BluetoothRemoteGATTCharacteristic is being deprecated. It is replaced by two new methods, writeValueWithResponse() and writeValueWithoutResponse(), which give developers explicit control over the type of write performed.\n\nThe original writeValue() method is ambiguous, leading to two issues for developers:\n\nPlatform Inconsistency: The behavior of writeValue() differs across platforms. For example, Chrome on Android defaults to a fast \"write without response,\" while other platforms default to a reliable \"write with response.\" This makes it impossible to write predictable, cross-platform compatible code.\n\nLack of Developer Control: Developers are best equipped to decide between a high-throughput write (e.g., for a firmware update) and a guaranteed-delivery write (e.g., for a critical command). writeValue() hides this choice, preventing developers from implementing the correct logic for their application.",
@@ -29824,6 +29838,24 @@
       "updated": {
         "by": "rbyers@chromium.org",
         "when": "2026-06-17 19:49:07.383850"
+      }
+    }
+  ],
+  "referencetarget": [
+    {
+      "id": 5188237101891584,
+      "name": "Reference Target for Cross-root ARIA",
+      "summary": "Reference Target enables ID attributes like <label for>, aria-labelledby, popovertarget, and commandfor to be forwarded to elements inside a component's shadow DOM, while maintaining the shadow's encapsulation of its internal state. \n\nWhen a shadow host specifies an element in its shadow tree to act as its reference target, all ID references pointing to the shadow host are forwarded to the reference target element instead.\n\n<label for=\"my-checkbox\">Checkbox value (click me to toggle checkbox)</label>\n<custom-checkbox id=\"my-checkbox\">\n  <template shadowrootmode=\"open\" shadowrootreferencetarget=\"real-checkbox\">\n    <input id=\"real-checkbox\" type=\"checkbox\">\n  </template>\n</custom-checkbox>\n\nThe reference target can be set declaratively like in the above example, or in JavaScript with ShadowRoot's referenceTarget property.",
+      "motivation": "The Shadow DOM presents a problem for accessibility: there is not a way to establish semantic relationships between elements on in different shadow trees (such as via `aria-labelledby`). This limits the ability to design web components in a way that works with accessibility tools such as screen readers. The ARIAMixin IDL attributes (https://w3c.github.io/aria/#ARIAMixin) are a partial solution to the problem; however, they lack the ability to create a reference \"into\" a shadow tree from the outside. Reference Target is a solution to that missing piece of the problem. The specifics of the proposal are detailed in the linked explainer.",
+      "url": "https://chromestatus.com/feature/5188237101891584",
+      "bug-url": "https://issues.chromium.org/issues/346835896",
+      "spec-link": "https://github.com/whatwg/html/pull/10995",
+      "explainer-links": [
+        "https://github.com/WICG/webcomponents/blob/gh-pages/proposals/reference-target-explainer.md"
+      ],
+      "updated": {
+        "by": "daniec@microsoft.com",
+        "when": "2026-06-18 23:02:05.552145"
       }
     }
   ]
