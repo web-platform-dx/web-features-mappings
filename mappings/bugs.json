@@ -1510,6 +1510,7 @@
   "customizable-select": {
     "firefox": [
       "https://bugzil.la/1944403",
+      "https://bugzil.la/1974787",
       "https://bugzil.la/1974276"
     ],
     "chrome": [
@@ -2182,10 +2183,7 @@
       "https://code.google.com/p/chromium/issues/detail?id=154771"
     ],
     "firefox": [
-      "https://bugzil.la/1676779"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1676779"
+      "https://bugzil.la/1824875"
     ],
     "safari": [
       "https://webkit.org/b/286920"
@@ -7128,19 +7126,13 @@
       "https://crbug.com/493736782"
     ],
     "safari": [
-      "https://webkit.org/b/304704"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/304704"
+      "https://webkit.org/b/315936"
     ],
     "samsunginternet_android": [
       "https://crbug.com/493736782"
     ],
     "webview_android": [
       "https://crbug.com/493736782"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/304704"
     ]
   },
   "display-animation": {
@@ -7251,12 +7243,6 @@
       "https://crbug.com/491829958"
     ],
     "safari": [
-      "https://webkit.org/b/309689"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/309689"
-    ],
-    "webview_ios": [
       "https://webkit.org/b/309689"
     ]
   },

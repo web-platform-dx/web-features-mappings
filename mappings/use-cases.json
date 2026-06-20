@@ -125,6 +125,10 @@
     {
       "description": "make elements dependable (if x happens, let y) etc. I want to be able to not use javascript as some websites dont allow it. i use firefox.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/303#issuecomment-4639859203"
+    },
+    {
+      "description": "Make some colors change depending on a flag. The flag can be set in several different ways, so I need to make it a custom property.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/303#issuecomment-4755753120"
     }
   ],
   "interest-invokers": [
@@ -257,6 +261,12 @@
     {
       "description": "<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nI have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries.\n\nBut also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3952608107"
+    }
+  ],
+  "screen-capture": [
+    {
+      "description": "I want Firefox to natively support shared tab/window/system audio capture through `getDisplayMedia()` so a web app can record meeting audio together with microphone input without requiring Chrome.\n\nMy use case is browser-based meeting capture and transcription. In my app, the browser records:\n- the meeting audio from a shared tab/window/screen\n- the local microphone input\n\nThat lets users capture both sides of a meeting directly from a web app, without installing a native helper or joining meetings with a bot.\n\nThis is important because I want to use Firefox as my primary browser and still have access to the same browser-native capture workflow that currently only works reliably in Chromium-based browsers.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-4753265858"
     }
   ],
   "screen-orientation-lock": [
