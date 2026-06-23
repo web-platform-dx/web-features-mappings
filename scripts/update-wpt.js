@@ -10,7 +10,7 @@ import fs from "fs/promises";
 import path from "path";
 import { execSync } from "child_process";
 import { glob } from 'glob';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 import { fileURLToPath } from "url";
 import { features } from "web-features";
 

@@ -1,13 +1,13 @@
 {
   "ambient-light": [
     {
-      "description": "- dark mode and light mode are insufficiently naturing honoring\n- I want to use ambient light sensor to provide a more nuanced real-time themeing experience",
+      "description": "dark mode and light mode are insufficiently naturing honoring\n- I want to use ambient light sensor to provide a more nuanced real-time themeing experience",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/292#issuecomment-4699695885"
     }
   ],
   "arianotify": [
     {
-      "description": "* Announce messages to screen reader users (ex. loading, loading complete messages in single page apps and async components, user feedback, notifications, etc)\n* Potentially the ability to abort a notification (ex. like `clearTimeout`). If there is any delay between the time when `ariaNotify` is called and when the announcement happens, a consuming application may want to abort a notification if it's no longer relevant. For example, due to the user changing views in a single page application.",
+      "description": "Announce messages to screen reader users (ex. loading, loading complete messages in single page apps and async components, user feedback, notifications, etc)\n* Potentially the ability to abort a notification (ex. like `clearTimeout`). If there is any delay between the time when `ariaNotify` is called and when the announcement happens, a consuming application may want to abort a notification if it's no longer relevant. For example, due to the user changing views in a single page application.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/423#issuecomment-4624451848"
     }
   ],
@@ -17,7 +17,7 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/293#issuecomment-3817053729"
     },
     {
-      "description": "<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nWe're building a set of UI components that users can assemble into web pages. We want to dynamically assign an anchor name via prop, so that any element can be anchored to another.\n\n```html\n<MyAnchorTarget data-anchor-name=\"--my-anchor-name\" id=\"my-anchor-target-component\" />\n\n<MyToBeAnchored data-anchor-name=\"--my-anchor-name\" id=\"my-to-be-anchored-component\" />\n\n<style>\n  #my-anchor-target-component {\n    anchor-name: attr(data-anchor-name)\n  }\n  \n  #my-to-be-anchored-component {\n    position-anchor: attr(data-anchor-name);\n  }\n  </style>\n```",
+      "description": "We're building a set of UI components that users can assemble into web pages. We want to dynamically assign an anchor name via prop, so that any element can be anchored to another.\n\n```html\n<MyAnchorTarget data-anchor-name=\"--my-anchor-name\" id=\"my-anchor-target-component\" />\n\n<MyToBeAnchored data-anchor-name=\"--my-anchor-name\" id=\"my-to-be-anchored-component\" />\n\n<style>\n  #my-anchor-target-component {\n    anchor-name: attr(data-anchor-name)\n  }\n  \n  #my-to-be-anchored-component {\n    position-anchor: attr(data-anchor-name);\n  }\n  </style>\n```",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/293#issuecomment-3915950915"
     }
   ],
@@ -259,7 +259,7 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3646159954"
     },
     {
-      "description": "<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nI have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries.\n\nBut also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).",
+      "description": "I have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries.\n\nBut also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3952608107"
     }
   ],
@@ -297,7 +297,7 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-3643252811"
     },
     {
-      "description": "<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n- show datetimes in different timezones in my app.\n- make a library that makes Temporal.ZonedDateTime feel like Date.",
+      "description": "- show datetimes in different timezones in my app.\n- make a library that makes Temporal.ZonedDateTime feel like Date.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-4629229532"
     },
     {
