@@ -5740,7 +5740,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-06-17 18:17:07.702737"
+        "when": "2026-06-23 11:11:28.086754"
       }
     }
   ],
@@ -9181,8 +9181,8 @@
         "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md"
       ],
       "updated": {
-        "by": "tov@google.com",
-        "when": "2026-06-01 17:24:06.764488"
+        "by": "alvinji@google.com",
+        "when": "2026-06-22 18:50:59.922807"
       }
     },
     {
@@ -9706,7 +9706,7 @@
     {
       "id": 6534495085920256,
       "name": "Parse processing instructions in HTML",
-      "summary": "Processing instructions (syntax: <?target data>) are an existing DOM construct, exposed in XML, that allows node objects that are not elements but can have some semantic meaning for the processing of a document.\n\nFor example, they can be used to denote ranges for streaming or highlighting without requiring new DOM elements and changing the DOM structure as far as CSS is concerned, or as directives for the HTML parser about how to buffer and stream.\n",
+      "summary": "Processing instructions (syntax: <?target data>) are an existing DOM construct, exposed in XML, that allows node objects that are not elements but can have some semantic meaning for the processing of a document.\n\nProcessing instructions are parsed by the HTML parser, and receive an attribute API similar to elements to mutate their data.\n",
       "motivation": "The work on out of order streaming showed that defining declarative ranges with elements is insufficient, and there's need to be a \"lighter\" declarative way to denote ranges, that doesn't e.g. affect CSS relationships.\n\nThis seems to unlock some future use-cases, such as declaratively denoting CSS custom highlights, and controlling the streaming/buffering of an HTML response.\n",
       "url": "https://chromestatus.com/feature/6534495085920256",
       "bug-url": "https://issues.chromium.org/issues/481087638",
@@ -9716,7 +9716,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-06-17 17:52:30.114046"
+        "when": "2026-06-22 15:02:37.957052"
       }
     }
   ],
@@ -10813,8 +10813,8 @@
       "spec-link": "https://www.w3.org/TR/mediacapture-transform/#track-processor-interface",
       "explainer-links": [],
       "updated": {
-        "by": "guidou@google.com",
-        "when": "2026-06-17 09:05:20.518470"
+        "by": "agpalak@google.com",
+        "when": "2026-06-22 13:51:51.503915"
       }
     },
     {
@@ -13281,7 +13281,7 @@
       "explainer-links": [],
       "updated": {
         "by": "foolip@chromium.org",
-        "when": "2026-05-20 07:27:52.599598"
+        "when": "2026-06-23 07:42:38.409052"
       }
     }
   ],
@@ -24962,7 +24962,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mjwilson@chromium.org",
-        "when": "2026-06-17 21:27:11.268628"
+        "when": "2026-06-22 18:45:06.825774"
       }
     },
     {
@@ -29855,7 +29855,7 @@
       ],
       "updated": {
         "by": "daniec@microsoft.com",
-        "when": "2026-06-18 23:02:05.552145"
+        "when": "2026-06-22 23:00:41.329402"
       }
     }
   ]
