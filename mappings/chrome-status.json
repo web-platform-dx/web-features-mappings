@@ -10667,7 +10667,7 @@
   "input-color": [
     {
       "id": 5736024861966336,
-      "name": "InputTypeColorEnhancements",
+      "name": "Wide-gamut and alpha support for <input type=color>",
       "summary": "Adds support for the alpha and colorspace attributes on <input type=color>, matching the WHATWG HTML specification. When enabled, the color input gains an alpha boolean attribute (allowing non-opaque colors) and a colorspace attribute (limited-srgb or display-p3), and its CSS color parsing and serialization are expanded to support any CSS color value rather than only opaque hex colors. Both attributes are gated behind a single runtime flag.",
       "motivation": "Historically <input type=color> only supported opaque sRGB colors expressed as 7-character hex values, with no way to express transparency or wide-gamut colors. Developers building design tools, drawing applications, and theming interfaces have had to build custom color pickers to offer an alpha channel or access to wider color gamuts such as Display P3, increasing complexity and inconsistency across the web.\n\nThe HTML specification now defines two attributes to address this: alpha, which lets users pick non-opaque colors, and colorspace, which selects the color space (limited-srgb or display-p3) and hints at the desired picker UI. Supporting these attributes lets the native control handle alpha and wide-gamut color selection directly, expands the control's value parsing and serialization to accept any CSS color, and brings Chromium in line with the standard.\n\nWebKit has shipped support for these attributes, enabling them by default via https://github.com/WebKit/WebKit/pull/35427. Firefox has partially implemented them (currently in Nightly behind a flag, desktop only), tracked in https://bugzilla.mozilla.org/show_bug.cgi?id=2047120. Implementing them in Chromium improves interoperability for developers.",
       "url": "https://chromestatus.com/feature/5736024861966336",
@@ -10676,7 +10676,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-06-16 18:13:40.818487"
+        "when": "2026-06-23 14:30:37.406405"
       }
     },
     {
@@ -13281,7 +13281,7 @@
       "explainer-links": [],
       "updated": {
         "by": "foolip@chromium.org",
-        "when": "2026-06-23 07:42:38.409052"
+        "when": "2026-06-24 07:10:12.649976"
       }
     }
   ],
@@ -26790,6 +26790,23 @@
   ],
   "webgpu": [
     {
+      "id": 5094091886034944,
+      "name": "WebGPU: `buffer_view` feature",
+      "summary": "WGSL language feature for reinterpreting data in variables.\n\nThe feature allows developers to divide a single uniform, storage, or workgroup variable into multiple logical variables. It also allows the type of the data in the variable to be interpreted as multiple types within the program.",
+      "motivation": "This features adds a new opaque type for use with storage and uniform buffers and workgroup variables. It allows the data in those variables to be reinterpreted as other types. This is useful for both type-punning data and logically sub-dividing a variable into multiple parts.\n\nFor ease-of-use and safety, the opaque type can only be operated on by new built-in functions. The reinterpretation can only occur on the opaque type. This maintains flexibility, but reduces implementation complexity.",
+      "url": "https://chromestatus.com/feature/5094091886034944",
+      "bug-url": "https://crbug.com/tint/506523198",
+      "spec-link": "https://github.com/gpuweb/gpuweb/pull/6291",
+      "explainer-links": [
+        "https://github.com/gpuweb/gpuweb/blob/main/proposals/buffer-view.md",
+        "https://github.com/webgpu/webgpu-samples/pull/568"
+      ],
+      "updated": {
+        "by": "alanbaker@google.com",
+        "when": "2026-06-24 07:04:59.687399"
+      }
+    },
+    {
       "id": 5199437611794432,
       "name": "WebGPU: Immediates",
       "summary": "Functionality added to the WebGPU spec after its first shipment in a browser.\n\nAdds a new immediate address space in WGSL and a setImmediateData() method on render pass, compute pass, and render bundle encoders that allows passing small amounts of frequently-updated data directly to shaders without creating GPU buffer objects or bind groups. This is particularly useful for applications that need to update per-draw parameters such as object indices, material indices, or transformation matrices every draw call, enabling significant performance improvements by avoiding buffer and bind group management overhead.",
@@ -29855,7 +29872,7 @@
       ],
       "updated": {
         "by": "daniec@microsoft.com",
-        "when": "2026-06-22 23:00:41.329402"
+        "when": "2026-06-24 06:53:34.877406"
       }
     }
   ]
