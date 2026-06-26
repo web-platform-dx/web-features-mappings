@@ -1143,6 +1143,23 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1443291"
     ]
   },
+  "service-workers-static-routes": {
+    "firefox": [
+      "https://bugzil.la/1855580"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1855580"
+    ],
+    "safari": [
+      "https://webkit.org/b/269893"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/269893"
+    ],
+    "webview_ios": [
+      "https://webkit.org/b/269893"
+    ]
+  },
   "transformstream-transformer-cancel": {
     "firefox": [
       "https://bugzil.la/1856103"
@@ -1557,6 +1574,14 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1951795"
+    ]
+  },
+  "referencetarget": {
+    "firefox": [
+      "https://bugzil.la/1952585"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/346835896"
     ]
   },
   "cookie-store": {
@@ -7059,11 +7084,6 @@
       "https://issues.chromium.org/issues/324293874"
     ]
   },
-  "referencetarget": {
-    "chrome": [
-      "https://issues.chromium.org/issues/346835896"
-    ]
-  },
   "anchor-positioning-transforms": {
     "firefox": [
       "https://bugzil.la/1993692"
@@ -7399,23 +7419,6 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/15548"
-    ]
-  },
-  "service-workers-static-routes": {
-    "firefox": [
-      "https://bugzil.la/1855580"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1855580"
-    ],
-    "safari": [
-      "https://webkit.org/b/269893"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/269893"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/269893"
     ]
   },
   "source": {

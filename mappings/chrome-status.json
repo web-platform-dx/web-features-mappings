@@ -4802,7 +4802,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-06-17 09:05:25.212510"
+        "when": "2026-06-25 11:48:48.272455"
       }
     },
     {
@@ -21115,7 +21115,7 @@
       ],
       "updated": {
         "by": "evliu@google.com",
-        "when": "2026-06-09 00:50:27.688437"
+        "when": "2026-06-25 18:29:44.965522"
       }
     },
     {
@@ -21562,7 +21562,7 @@
       ],
       "updated": {
         "by": "michalhoffmann@google.com",
-        "when": "2026-06-25 09:16:15.672599"
+        "when": "2026-06-26 09:38:08.780857"
       }
     },
     {
@@ -23382,7 +23382,7 @@
       "explainer-links": [],
       "updated": {
         "by": "vogelheim@google.com",
-        "when": "2026-01-12 13:28:44.528637"
+        "when": "2026-06-26 09:00:33.389122"
       }
     },
     {
@@ -26146,6 +26146,20 @@
   ],
   "webauthn": [
     {
+      "id": 5068149209825280,
+      "name": "Web Authentication Ambient UI",
+      "summary": "This is a new mode for navigator.credentials.get() when used to sign a user into a website with a passkey or a password.\n\nAmbient is similar to Conditional Mediation (also called Conditional UI). It can be called by a page and UI will only be shown if the user has credentials. If the user has no sign-in credentials available, the promise will never resolve.\n\nThe difference between Ambient and Conditional Mediation is that Ambient does not use autofill UI, and therefore does not require a login form be present on the page. Instead it provides the user a sign-in option as a non-modal suggestion. The intention is that the option should be clear enough that the user can recognize an opportunity for a low-friction sign-in, while unobtrusive enough that they can ignore it if they choose to.\n\nAmbient and Conditional Mediation are compatible. Credentials can be simultaneously made available in Ambient UI and autofill UI with a single JS call, if used on a page with a sign-in form.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5068149209825280",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "kenrb@chromium.org",
+        "when": "2026-06-25 16:35:11.293950"
+      }
+    },
+    {
       "id": 5127601250238464,
       "name": "WebAuthn remoteClientDataJSON Extension",
       "summary": "Allows a caller to provide a complete clientDataJSON string for a WebAuthn ceremony, which the browser passes through to the authenticator without modification. This enables remote desktop web clients to forward WebAuthn requests with the exact clientDataJSON from the remote host, preventing signature verification failures caused by differences between the browser-constructed and host-provided clientDataJSON.",
@@ -26174,7 +26188,7 @@
       ],
       "updated": {
         "by": "kenrb@chromium.org",
-        "when": "2026-04-10 18:13:25.861317"
+        "when": "2026-06-25 13:33:16.346481"
       }
     },
     {
@@ -26803,7 +26817,7 @@
       ],
       "updated": {
         "by": "alanbaker@google.com",
-        "when": "2026-06-24 07:04:59.687399"
+        "when": "2026-06-25 21:02:41.012640"
       }
     },
     {
@@ -29662,7 +29676,7 @@
       "explainer-links": [],
       "updated": {
         "by": "masonfreed@google.com",
-        "when": "2026-06-25 00:19:50.752969"
+        "when": "2026-06-25 13:06:12.681006"
       }
     },
     {
@@ -29872,7 +29886,7 @@
       ],
       "updated": {
         "by": "daniec@microsoft.com",
-        "when": "2026-06-24 11:36:18.124121"
+        "when": "2026-06-26 09:32:39.809015"
       }
     }
   ]
