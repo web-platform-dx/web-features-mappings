@@ -4792,6 +4792,20 @@
   ],
   "declarative-shadow-dom": [
     {
+      "id": 5178682139344896,
+      "name": "Declarative shadow DOM: shadowrootslotassignment attribute",
+      "summary": "Adds the shadowrootslotassignment attribute to the <template> element, allowing declarative shadow roots to use manual slot assignment. Until now this option was only available imperatively, via attachShadow({slotAssignment: \"manual\"}), so components that rely on manual assignment could not create their shadow roots declaratively. The attribute accepts \"named\" (the default, preserving current behavior) and \"manual\", and is reflected by the shadowRootSlotAssignment property on HTMLTemplateElement.",
+      "motivation": "slotAssignment is fixed at shadow root creation, so components using manual slot assignment could not adopt declarative shadow DOM.\n\nThe gap was raised in https://github.com/WICG/webcomponents/issues/967 and specified in the HTML Standard via https://github.com/whatwg/html/pull/12267 .\n\n Both Gecko and WebKit have implemented the attribute, so shipping in Chromium completes cross-engine support.\n\nThis feature is opt-in and the default (\"named\") is unchanged.",
+      "url": "https://chromestatus.com/feature/5178682139344896",
+      "bug-url": "https://issues.chromium.org/issues/493315747",
+      "spec-link": "https://html.spec.whatwg.org/#attr-template-shadowrootslotassignment",
+      "explainer-links": [],
+      "updated": {
+        "by": "felipeerias@igalia.com",
+        "when": "2026-06-26 18:47:51.725287"
+      }
+    },
+    {
       "id": 5203283359694848,
       "name": "shadowrootslotassignment attribute for declarative shadow DOM",
       "summary": "Adds the shadowrootslotassignment attribute to the <template> element, allowing declarative shadow roots to use manual slot assignment. Until now this option was only available imperatively, via attachShadow({slotAssignment: \"manual\"}), so components that rely on manual assignment could not create their shadow roots declaratively. The attribute accepts \"named\" (the default, preserving current behavior) and \"manual\", and is reflected by the shadowRootSlotAssignment property on HTMLTemplateElement.",
@@ -8069,7 +8083,7 @@
       ],
       "updated": {
         "by": "janewman@microsoft.com",
-        "when": "2026-06-17 23:51:43.226477"
+        "when": "2026-06-26 16:58:58.974951"
       }
     }
   ],
@@ -8956,6 +8970,20 @@
     }
   ],
   "gamepad": [
+    {
+      "id": 5075054393163776,
+      "name": "Gamepad button type attribute",
+      "summary": "Gamepad API defines standard indices for 17 common gamepad buttons. The GamepadButton type attribute provides an alternate, interoperable identifier for common buttons that are not included in the standard set, like \"trackpad\".",
+      "motivation": "Gamepad API should provide an interoperable way to identify common buttons that are not included in the standard set of buttons, particularly the trackpad button that appears on PlayStation gamepads.",
+      "url": "https://chromestatus.com/feature/5075054393163776",
+      "bug-url": "https://crbug.com/339841686",
+      "spec-link": "https://pr-preview.s3.amazonaws.com/xingri/gamepad/pull/196.html#gamepadbuttontype-enum",
+      "explainer-links": [],
+      "updated": {
+        "by": "mattreynolds@google.com",
+        "when": "2026-06-26 22:29:52.160660"
+      }
+    },
     {
       "id": 5109540852989952,
       "name": "Gamepad ongamepadconnected and ongamepaddisconnected event handler attributes",
@@ -21562,7 +21590,7 @@
       ],
       "updated": {
         "by": "michalhoffmann@google.com",
-        "when": "2026-06-26 09:38:08.780857"
+        "when": "2026-06-26 18:46:06.473184"
       }
     },
     {
@@ -24962,7 +24990,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mjwilson@chromium.org",
-        "when": "2026-06-22 18:45:06.825774"
+        "when": "2026-06-26 23:04:44.008309"
       }
     },
     {
@@ -27558,7 +27586,7 @@
       "explainer-links": [],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-06-24 13:20:14.859760"
+        "when": "2026-06-26 20:58:28.349296"
       }
     },
     {
@@ -29886,7 +29914,7 @@
       ],
       "updated": {
         "by": "daniec@microsoft.com",
-        "when": "2026-06-26 09:32:39.809015"
+        "when": "2026-06-26 18:35:09.531547"
       }
     }
   ]

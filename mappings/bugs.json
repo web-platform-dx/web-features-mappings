@@ -3743,6 +3743,7 @@
   },
   "gamepad": {
     "chrome": [
+      "https://crbug.com/339841686",
       "https://issues.chromium.org/issues/40175074",
       "https://crbug.com/708201",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1314560",
