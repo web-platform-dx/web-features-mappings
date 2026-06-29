@@ -18367,7 +18367,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-06-15 07:51:57.720419"
+        "when": "2026-06-29 00:13:35.482220"
       }
     }
   ],
@@ -21590,7 +21590,7 @@
       ],
       "updated": {
         "by": "michalhoffmann@google.com",
-        "when": "2026-06-26 18:46:06.473184"
+        "when": "2026-06-29 07:27:17.266957"
       }
     },
     {
@@ -22037,16 +22037,16 @@
   "svg": [
     {
       "id": 5095153430822912,
-      "name": "Support CSS Linked Parameters",
-      "summary": "CSS Linked Parameters allow passing named values into external resources such as SVG images, where they become accessible as custom environment variables via env(). Values can be set through the link-parameters CSS property, through param() fragment identifiers in URLs, or through param() modifiers in the CSS url() function. This enables developers to create reusable, templated SVG images that adapt to a site's theme colors, sizes, or other design tokens, without duplicating files, inlining SVG, or relying on JavaScript.",
-      "motivation": null,
+      "name": "Support CSS `link-parameters` property",
+      "summary": "The `link-parameters` CSS property sets named parameters on external resources referenced by an element, such as SVG images in <img> or CSS background images. Each parameter is specified using `param(<dashed-ident>, <value>)` syntax and becomes available as a custom environment variable via `env()` in the linked resource. This enables reusable, templated SVG images that adapt to a site's theme colors or design tokens without inlining the SVG or duplicating files.",
+      "motivation": "External SVG images referenced via <img> or background-image cannot inherit styles from the embedding page. To customize the appearance of such images (e.g., matching a site's theme color), developers must either inline the SVG into the document, losing caching and separation of concerns or maintain multiple copies of the same SVG with different hardcoded values. \n\nBoth approaches scale poorly as the number of variants grows. `The link-parameters` property provides a declarative way to pass values into external resources, allowing a single SVG file to serve multiple contexts while remaining cacheable and externally referenced.\n\nFor example, an SVG icon that exposes a `--color` parameter via `env(--color, black)` can be themed from the embedding page with:\n\nimg { link-parameters: param(--color, green); }\n\nWithout this property, the developer must either inline the SVG or maintain separate SVG files for each color variant.",
       "url": "https://chromestatus.com/feature/5095153430822912",
-      "bug-url": null,
-      "spec-link": null,
+      "bug-url": "https://issues.chromium.org/issues/41482962",
+      "spec-link": "https://drafts.csswg.org/css-link-params",
       "explainer-links": [],
       "updated": {
         "by": "dmangal@microsoft.com",
-        "when": "2026-06-17 12:24:58.099404"
+        "when": "2026-06-28 16:34:41.599580"
       }
     },
     {
@@ -24990,7 +24990,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mjwilson@chromium.org",
-        "when": "2026-06-26 23:04:44.008309"
+        "when": "2026-06-29 10:22:01.026394"
       }
     },
     {
