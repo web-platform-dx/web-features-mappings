@@ -123,6 +123,20 @@ And then import the combined data in your code:
 import mappings from "web-features-mappings" with { type: "json" };
 ```
 
+You can also import an individual mapping file by name (without the `.json` extension):
+
+```js
+import bugs from "web-features-mappings/bugs" with { type: "json" };
+import mdnDocs from "web-features-mappings/mdn-docs" with { type: "json" };
+```
+
+The corresponding JSON schemas are exported too: `web-features-mappings/schema` describes the combined data, and `web-features-mappings/schemas` is the collection of per-file schemas.
+
+```js
+import combinedSchema from "web-features-mappings/schema" with { type: "json" };
+import schemas from "web-features-mappings/schemas" with { type: "json" };
+```
+
 ## TODO
 
 * Add mapping to origin trials.
