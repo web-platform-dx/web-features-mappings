@@ -4802,7 +4802,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-07-01 09:04:42.969257"
+        "when": "2026-07-01 15:18:32.928999"
       }
     },
     {
@@ -14536,6 +14536,20 @@
   ],
   "notifications": [
     {
+      "id": 5863296436666368,
+      "name": "Notification Attribution for PWAs on macOS",
+      "summary": "Chrome is rolling out Notification Attribution for installed Progressive Web Apps (PWAs) on macOS. When a PWA is installed on macOS, its notifications will now be natively attributed to the PWA itself (using its own name and icon in the Notification Center) rather than Google Chrome.\n\nThis is primarily a UX change in how notifications are displayed to the user, aligning PWA notifications with native macOS applications. It does however introduce some small (although not directly web-exposed) behavioral changes as well. Both of these changes match the already shipping behavior in WebKit:\n- For installed PWAs, Chrome will no longer support the `requireInteraction` field for notifications. On macOS the choice for a notification being temporary vs persistent is a per-app setting controlled by the user rather than a per-notification setting controlled by the app.\n- Additionally the app badging API will now require notifications permissions for the app badge to show up. If notifications permission isn't granted the API will silently do nothing.\n\nEnterprise administrators who pre-grant notification permissions via policy must update their configurations if they want to keep that behavior for PWAs on macOS:\n\nIn addition to the Chrome origin-based policy (NotificationsAllowedForUrls), administrators must deploy a macOS MDM configuration profile to pre-grant notification permissions to the PWA's specific bundle ID.",
+      "motivation": "Previously, all PWA notifications were displayed under the \"Google Chrome\" umbrella. This prevented users from managing notification settings (sounds, badges, alerts, Focus modes) on a per-PWA basis. Attributing notifications to the PWA's App Shim provides a highly requested native integration on macOS, aligning Chrome with established macOS platform behaviors.\n\n",
+      "url": "https://chromestatus.com/feature/5863296436666368",
+      "bug-url": "https://issues.chromium.org/issues/327449602",
+      "spec-link": "https://notifications.spec.whatwg.org",
+      "explainer-links": [],
+      "updated": {
+        "by": "mek@chromium.org",
+        "when": "2026-07-01 21:40:43.791880"
+      }
+    },
+    {
       "id": 6451284559265792,
       "name": "Remove Usage of Notifications from iFrames",
       "summary": "Remove the ability to call Notification.requestPermission() from non-main frames.\r\n\r\nThis change will align the requirements for notification permission with that of push notifications, easing friction for developers. It allows us to unify notification and push permissions.\r\n",
@@ -15106,7 +15120,7 @@
       ],
       "updated": {
         "by": "stephanie.zhang@microsoft.com",
-        "when": "2026-06-05 23:08:56.822711"
+        "when": "2026-07-01 15:28:01.543020"
       }
     }
   ],
@@ -29914,7 +29928,7 @@
       ],
       "updated": {
         "by": "daniec@microsoft.com",
-        "when": "2026-06-30 15:49:31.099464"
+        "when": "2026-07-01 15:32:45.856474"
       }
     }
   ]
