@@ -4820,6 +4820,22 @@
       }
     },
     {
+      "id": 4790543041298432,
+      "name": "Declarative Shadow DOM 'shadowrootadoptedstylesheets'",
+      "summary": "Allows for Declarative Shadow DOM (DSD) to specify adopted stylesheets at parse time. 'shadowrootadoptedstylesheets' supports a space-separated list of specifiers that each get fetched (exactly like a JavaScript import) and added to 'adoptedStyleSheets' in specified order. Developers are encouraged to preload the stylesheets referenced via <link rel=\"modulepreload\" as=\"style\"> in the head to prevent late fetches.",
+      "motivation": "Without this feature, developers have several non-ideal options for sharing a set of styles between declarative shadow DOM hosts:\n\n1. Use imperative CSS Modules, somewhat defeating the purpose of declarative shadow DOM, because it requires script and must happen after the declarative shadow DOM has been parsed.\n2. Duplicating <style> tags, resulting in more work for parser and more work for the developer to update dynamically.\n3. Use external CSS files in a <link> tag, resulting in a potential Flash of Unstyled Content (FOUC), as well as more work for the developer to update dynamically.",
+      "url": "https://chromestatus.com/feature/4790543041298432",
+      "bug-url": "https://issues.chromium.org/issues/448174611",
+      "spec-link": "https://github.com/whatwg/html/pull/12339",
+      "explainer-links": [
+        "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ShadowDOM/explainer.md"
+      ],
+      "updated": {
+        "by": "kschmi@microsoft.com",
+        "when": "2026-07-02 20:42:06.956203"
+      }
+    },
+    {
       "id": 5161240576393216,
       "name": "Streaming declarative shadow DOM",
       "summary": "Chromium has shipped [1] a version of declarative shadow DOM in M90 which currently has 0.014% usage [2]. Mostly, that is due to the spec PR being stalled with no input from other implementers. Recently, there has been renewed interest in the feature, and discussions have resumed. As part of those discussions, two changes have been generally agreed upon:\r\n 1. Rename the `<template>` attribute from `shadowroot` to `shadowrootmode`.\r\n 2. Support streaming, by attaching the shadow root on the opening, rather than the closing, template tag.\r\n\r\nWhile the PR hasn't landed, and there is still an open issue (related to the DOMParser), we would like to ship the agreed upon behavior listed above.\r\n\r\n[1] https://chromestatus.com/feature/5191745052606464\r\n[2] https://chromestatus.com/metrics/feature/timeline/popularity/3196",
@@ -9175,8 +9191,8 @@
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/CSSGapDecorations/explainer.md"
       ],
       "updated": {
-        "by": "samomekarajr@microsoft.com",
-        "when": "2026-04-30 21:36:08.958724"
+        "by": "kbabbitt@microsoft.com",
+        "when": "2026-07-02 21:16:05.015384"
       }
     }
   ],
@@ -22053,14 +22069,16 @@
       "id": 5095153430822912,
       "name": "Support CSS `link-parameters` property",
       "summary": "The `link-parameters` CSS property sets named parameters on external resources referenced by an element, such as SVG images in <img> or CSS background images. Each parameter is specified using `param(<dashed-ident>, <value>)` syntax and becomes available as a custom environment variable via `env()` in the linked resource. This enables reusable, templated SVG images that adapt to a site's theme colors or design tokens without inlining the SVG or duplicating files.",
-      "motivation": "External SVG images referenced via <img> or background-image cannot inherit styles from the embedding page. To customize the appearance of such images (e.g., matching a site's theme color), developers must either inline the SVG into the document, losing caching and separation of concerns or maintain multiple copies of the same SVG with different hardcoded values. \n\nBoth approaches scale poorly as the number of variants grows. `The link-parameters` property provides a declarative way to pass values into external resources, allowing a single SVG file to serve multiple contexts while remaining cacheable and externally referenced.\n\nFor example, an SVG icon that exposes a `--color` parameter via `env(--color, black)` can be themed from the embedding page with:\n\nimg { link-parameters: param(--color, green); }\n\nWithout this property, the developer must either inline the SVG or maintain separate SVG files for each color variant.",
+      "motivation": "External SVG images referenced via  <img>  or  background-image  cannot inherit styles from the embedding page. To customize the appearance of such images (e.g., matching a site's theme color), developers must either:\n\n 1. Inline the SVG into the HTML document — this prevents the browser from caching the SVG independently across pages, since each page contains its own copy of the SVG markup. It also mixes image assets with document structure, making maintenance harder as both must be     edited in the same file.\n 2. Maintain multiple copies of the same SVG with different hardcoded values (e.g.,  icon-red.svg ,  icon-green.svg ) — this multiplies network requests and cache entries for what is logically the same image.\n\nThe  `link-parameters`  property provides a declarative way to pass values into external SVG resources. A single SVG file can serve multiple contexts while remaining cacheable as one resource. For example, an SVG icon that exposes a  `--color`  parameter via  `env(--color,  black)`  can be themed from the embedding page with:\n\nimg { link-parameters: param(--color, green); }\n\nWithout this property, the developer must either inline the SVG or maintain separate SVG files for each color variant.",
       "url": "https://chromestatus.com/feature/5095153430822912",
       "bug-url": "https://issues.chromium.org/issues/41482962",
       "spec-link": "https://drafts.csswg.org/css-link-params",
-      "explainer-links": [],
+      "explainer-links": [
+        "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SVG/CSSLinkedParameters/explainer.md"
+      ],
       "updated": {
         "by": "dmangal@microsoft.com",
-        "when": "2026-07-01 08:38:41.031456"
+        "when": "2026-07-02 20:46:17.962143"
       }
     },
     {
