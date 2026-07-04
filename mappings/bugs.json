@@ -288,9 +288,6 @@
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1074052",
       "http://crbug.com/1023424"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1676779"
     ]
   },
   "long-animation-frames": {
@@ -543,26 +540,7 @@
       "https://bugzil.la/1540681"
     ],
     "chrome": [
-      "https://issues.chromium.org/issues/40336192",
-      "https://crbug.com/40336192"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40336192"
-    ],
-    "oculus": [
-      "https://crbug.com/40336192"
-    ],
-    "opera": [
-      "https://crbug.com/40336192"
-    ],
-    "opera_android": [
-      "https://crbug.com/40336192"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40336192"
-    ],
-    "webview_android": [
-      "https://crbug.com/40336192"
+      "https://issues.chromium.org/issues/40336192"
     ]
   },
   "barcode": {
@@ -1063,38 +1041,7 @@
       "https://crbug.com/346521300",
       "https://crbug.com/352360007",
       "https://issues.chromium.org/issues/40281992",
-      "https://issues.chromium.org/issues/40059176",
-      "https://crbug.com/501399489"
-    ],
-    "chrome_android": [
-      "https://crbug.com/501399489"
-    ],
-    "edge": [
-      "https://crbug.com/501399489"
-    ],
-    "oculus": [
-      "https://crbug.com/501399489"
-    ],
-    "opera": [
-      "https://crbug.com/501399489"
-    ],
-    "opera_android": [
-      "https://crbug.com/501399489"
-    ],
-    "safari": [
-      "https://webkit.org/b/311941"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/311941"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/501399489"
-    ],
-    "webview_android": [
-      "https://crbug.com/501399489"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/311941"
+      "https://issues.chromium.org/issues/40059176"
     ]
   },
   "canvas-2d-color-management": {
@@ -1149,15 +1096,6 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1855580"
-    ],
-    "safari": [
-      "https://webkit.org/b/269893"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/269893"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/269893"
     ]
   },
   "transformstream-transformer-cancel": {
@@ -1537,15 +1475,6 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1974276"
-    ],
-    "safari": [
-      "https://webkit.org/b/286642"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/286642"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/286642"
     ]
   },
   "interpolate-size": {
@@ -1609,9 +1538,6 @@
     ],
     "chrome": [
       "https://crbug.com/40282719"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1953973"
     ]
   },
   "dynamic-range-limit": {
@@ -1709,8 +1635,7 @@
   },
   "masonry": {
     "firefox": [
-      "https://bugzil.la/1981604",
-      "https://bugzil.la/1757446"
+      "https://bugzil.la/1981604"
     ],
     "chrome": [
       "https://issues.chromium.org/issues/343257585",
@@ -1985,9 +1910,6 @@
     ],
     "edge": [
       "https://crbug.com/368059226"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1919718"
     ],
     "oculus": [
       "https://crbug.com/368059226"
@@ -3063,15 +2985,6 @@
   "dialog-closedby": {
     "chrome": [
       "https://crbug.com/376516550"
-    ],
-    "safari": [
-      "https://webkit.org/b/284592"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/284592"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/284592"
     ]
   },
   "digital-goods": {
@@ -5816,15 +5729,6 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1789477"
-    ],
-    "safari": [
-      "https://webkit.org/b/277117"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/277117"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/277117"
     ]
   },
   "string-matchall": {
@@ -7255,18 +7159,6 @@
     ]
   },
   "light-dark-image": {
-    "chrome": [
-      "https://crbug.com/491829958"
-    ],
-    "chrome_android": [
-      "https://crbug.com/491829958"
-    ],
-    "edge": [
-      "https://crbug.com/491829958"
-    ],
-    "opera": [
-      "https://crbug.com/491829958"
-    ],
     "safari": [
       "https://webkit.org/b/309689"
     ]
@@ -7332,17 +7224,6 @@
     ],
     "webview_android": [
       "https://crbug.com/40155587"
-    ]
-  },
-  "overflow-anchor": {
-    "safari": [
-      "https://webkit.org/b/171099"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/171099"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/171099"
     ]
   },
   "overflow-clip-margin": {
