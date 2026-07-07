@@ -4802,7 +4802,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-07-01 15:18:32.928999"
+        "when": "2026-07-06 09:38:34.717676"
       }
     },
     {
@@ -12818,7 +12818,7 @@
       "explainer-links": [],
       "updated": {
         "by": "akyereboah@microsoft.com",
-        "when": "2026-03-30 16:17:15.306069"
+        "when": "2026-07-06 18:41:12.446413"
       }
     }
   ],
@@ -16024,6 +16024,22 @@
     }
   ],
   "permissions": [
+    {
+      "id": 5153829504024576,
+      "name": "Capability elements: <camera> and <microphone>",
+      "summary": "The <camera> and <microphone> capability elements are declarative, user-activated HTML controls that share the same underlying mechanism as the <usermedia> MVP element, with one key distinction: they are designed to request a single capability. The <camera> element specifically requests video capture, while the <microphone> element specifically requests audio capture. Like the <usermedia> MVP, they embed a browser-controlled, strictly styled UI into the page, ensuring a strong, intentional user signal (a click) before a permission prompt is triggered or a stream is started.\n\nThe <camera> and <microphone> elements provide a dedicated, semantic HTML control for these single-capability use cases. They maintain the identical security model, strict styling constraints, and built-in permission recovery path as the <usermedia> MVP, but offer a more tailored and ergonomic API for developers who do not need mixed media access.",
+      "motivation": "In M151, we shipped the <usermedia> element (MVP) to solve the problem of out-of-context, JavaScript-triggered permission prompts. By requiring a direct, in-page user click on a browser-controlled element, we ensure a strong signal of user intent before requesting media access.\n\nBased on feedback and the WICG specification, we are expanding this MVP model in M152. The <camera> and <microphone> elements use the exact same mechanism, security constraints, and UI behavior as the <usermedia> MVP, but are strictly scoped to single-capability capture. This provides a more ergonomic, semantic API for developers building applications that only require video or audio, streamlining the implementation while preserving our high-confidence intent capture.",
+      "url": "https://chromestatus.com/feature/5153829504024576",
+      "bug-url": "https://b.corp.google.com/issues/531672795",
+      "spec-link": "https://w3c.github.io/mediacapture-extensions/#the-camera-html-element",
+      "explainer-links": [
+        "https://github.com/w3c/mediacapture-extensions/blob/main/media-capture-elements-explainer.md"
+      ],
+      "updated": {
+        "by": "tungnh@google.com",
+        "when": "2026-07-06 15:15:27.585419"
+      }
+    },
     {
       "id": 4926233538330624,
       "name": "Capability Elements <usermedia> MVP",
@@ -21620,7 +21636,7 @@
       ],
       "updated": {
         "by": "michalhoffmann@google.com",
-        "when": "2026-06-29 07:27:17.266957"
+        "when": "2026-07-06 15:56:27.008740"
       }
     },
     {
@@ -25014,15 +25030,15 @@
     {
       "id": 5078190552907776,
       "name": "WebAudio: Configurable render quantum",
-      "summary": "AudioContext and OfflineAudioContext now take an optional renderSizeHint, which allows users to ask for a particular render quantum size when an integer is passed, to use the default of 128 frames if nothing or \"default\" is passed, or to ask the User-Agent to pick a good render quantum size if \"hardware\" is specified.",
+      "summary": "Adds an optional renderSizeHint to AudioContext and OfflineAudioContext. This allows developers to customize the WebAudio render quantum size by passing a specific integer, use the default of 128 frames by omitting the hint or passing \"default\", or request that the User-Agent select an optimal size by specifying \"hardware\".",
       "motivation": "It is difficult and complex to write a web app when the audio processing block size does not match with the WebAudio render quantum size (128 sample-frames). Removing this restriction and making it customizable on AudioContext would enable easier development and more efficient audio processing.",
       "url": "https://chromestatus.com/feature/5078190552907776",
       "bug-url": "https://crbug.com/40637820",
       "spec-link": "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-renderquantumsize",
       "explainer-links": [],
       "updated": {
-        "by": "mjwilson@chromium.org",
-        "when": "2026-06-29 13:19:10.716840"
+        "by": "hongchan@google.com",
+        "when": "2026-07-06 18:24:04.219367"
       }
     },
     {
@@ -26877,7 +26893,7 @@
       ],
       "updated": {
         "by": "alanbaker@google.com",
-        "when": "2026-06-25 21:02:41.012640"
+        "when": "2026-07-06 09:45:26.114157"
       }
     },
     {
@@ -29736,7 +29752,7 @@
       "explainer-links": [],
       "updated": {
         "by": "masonfreed@google.com",
-        "when": "2026-07-01 09:05:04.225455"
+        "when": "2026-07-06 09:39:05.585840"
       }
     },
     {

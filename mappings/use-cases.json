@@ -43,6 +43,10 @@
     {
       "description": "Being able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4809818623"
+    },
+    {
+      "description": "Show fade indicator when a list of tabs in the [WordPress Tabs component](https://wordpress.github.io/gutenberg/?path=/docs/design-system-components-tabs--docs#size-and-overflow-playground) does not fit within the container:\n\n<img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4891970328"
     }
   ],
   "cross-document-view-transitions": [
@@ -115,6 +119,10 @@
     {
       "description": "I'd like to create a function which takes a min and max number and a min and max viewport size (or default values) and returns a clamp() function with a smooth transition between the min and max using vw units.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/300#issuecomment-4815411829"
+    },
+    {
+      "description": "Like others, I want to use functions to abstract out the more tedious, verbose and illegible design patterns that I regularly use in my design systems. The most basic example being derived colors, such that I can pass something like `--clr-shift(var(--clr-primary), 10)` to in/decrease chroma and lightness by 10%",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/300#issuecomment-4898297254"
     }
   ],
   "getboxquads": [
