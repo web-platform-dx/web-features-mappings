@@ -5743,16 +5743,18 @@
   "dom-geometry": [
     {
       "id": 6015941766807552,
-      "name": "Geometry interfaces",
-      "summary": "This specification describes several geometry interfaces for the representation of points, rectangles, quadrilaterals and transformation matrices with the dimension of 3x2 and 4x4.\r\n\r\nSVGPoint, SVGRect and SVGMatrix will be aliased to new interfaces. Their old methods will be maintained and some new methods are introduced.\r\n\r\nIn the near future, CSS transform will be updated so they can work directly with the new objects. This avoid parsing on the js side. ",
-      "motivation": null,
+      "name": "CSSOM View geometry utilities",
+      "summary": "Prototype the CSSOM View GeometryUtils API in Blink behind the existing GeometryUtils runtime flag. The API exposes getBoxQuads(), convertQuadFromNode(), convertRectFromNode(), and convertPointFromNode() on Document, Element, Text, and CSSPseudoElement so authors can obtain and convert precise DOM geometry using standard DOMPoint, DOMRect, and DOMQuad objects.",
+      "motivation": "Web authors currently do not have a standard native API for getting precise box geometry and converting points, rects, and quads between DOM nodes after layout, scrolling, fragmentation, writing modes, and CSS transforms have been applied.\n\nApplications that need this today, such as visual editors, inspection tools, custom selection UI, and overlay systems, usually approximate the result in JavaScript by walking ancestor chains, reading layout data, and composing transform matrices. These polyfills are costly when repeated for many elements, are easy to get subtly wrong, and cannot always match the browser’s layout and painting behavior.\n\nGeometryUtils exposes this geometry through standard DOMPoint, DOMRect, and DOMQuad objects, allowing authors to ask the engine for the same kind of coordinate-space conversion that is already needed internally for layout, hit testing, painting, and developer tooling.\n\nConcrete motivating use cases include visual editor and inspection tools that draw live overlays for many selected elements, including deeply nested custom elements, shadow DOM, transformed content, and generated pseudo-elements. Examples of tools in this space include web-component designers, page builders, browser extensions such as VisBug, and custom design/inspection overlays in developer applications.",
       "url": "https://chromestatus.com/feature/6015941766807552",
-      "bug-url": "http://crbug.com/388780",
-      "spec-link": "http://dev.w3.org/fxtf/geometry/",
-      "explainer-links": [],
+      "bug-url": "https://issues.chromium.org/issues/427918516",
+      "spec-link": "https://drafts.csswg.org/cssom-view/#the-geometryutils-interface",
+      "explainer-links": [
+        "https://gist.github.com/jogibear9988/8420264d0911ce6c5aab0ac5cda0744e"
+      ],
       "updated": {
-        "by": "foolip@google.com",
-        "when": "2025-08-22 13:43:22.034702"
+        "by": "jochen.kuehner@googlemail.com",
+        "when": "2026-07-07 20:00:48.066516"
       }
     }
   ],
@@ -15136,7 +15138,7 @@
       ],
       "updated": {
         "by": "stephanie.zhang@microsoft.com",
-        "when": "2026-07-01 15:28:01.543020"
+        "when": "2026-07-07 16:30:40.921342"
       }
     }
   ],
@@ -15202,7 +15204,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-06-18 13:50:08.496115"
+        "when": "2026-07-07 18:07:32.911885"
       }
     },
     {
@@ -15836,7 +15838,7 @@
       ],
       "updated": {
         "by": "sisidovski@chromium.org",
-        "when": "2026-04-30 08:32:20.070980"
+        "when": "2026-07-08 06:52:42.013843"
       }
     },
     {
@@ -25038,7 +25040,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hongchan@google.com",
-        "when": "2026-07-06 18:24:04.219367"
+        "when": "2026-07-07 17:05:15.408946"
       }
     },
     {
@@ -26225,14 +26227,16 @@
       "id": 5068149209825280,
       "name": "Web Authentication Ambient UI",
       "summary": "This is a new mode for navigator.credentials.get() when used to sign a user into a website with a passkey or a password.\n\nAmbient is similar to Conditional Mediation (also called Conditional UI). It can be called by a page and UI will only be shown if the user has credentials. If the user has no sign-in credentials available, the promise will never resolve.\n\nThe difference between Ambient and Conditional Mediation is that Ambient does not use autofill UI, and therefore does not require a login form be present on the page. Instead it provides the user a sign-in option as a non-modal suggestion. The intention is that the option should be clear enough that the user can recognize an opportunity for a low-friction sign-in, while unobtrusive enough that they can ignore it if they choose to.\n\nAmbient and Conditional Mediation are compatible. Credentials can be simultaneously made available in Ambient UI and autofill UI with a single JS call, if used on a page with a sign-in form.",
-      "motivation": null,
+      "motivation": "This is an enhancement to the WebAuthn API that is useful in the following situation:\n* A user is visiting a website for which they have a passkey available in a credential manager, but is not currently signed in to the site.\n* The user is viewing a page on the site that displays some type of content, and in particular is not a sign-in page.\n* The content being displayed by the site could be improved if the user was signed in to their account.\n\nTypically a website will have a link to the sign-in page displayed in, for example, a header menu. The user can click on that and proceed to complete a sign-in flow. At that point they can get the signed-in experience on the site. Some causes of friction in this experience include requiring the user to realize that they are not signed in and finding the UI to initiate it.\n\nThis feature adds a mechanism for the site to prompt a sign-in without the user taking any specific action. An unobtrusive non-modal UI allows the user to ignore it if they don't want to sign in, and there is no UI show at all if the user has no credentials available.\n\nThis is very similar to what WebAuthn already provides with Conditional UI, but it does not require a sign-in form to be present on the page. That difference allows low-friction sign-in options to be added to pages where sign-in forms would not be appropriate, or would be awkward to add.",
       "url": "https://chromestatus.com/feature/5068149209825280",
-      "bug-url": null,
+      "bug-url": "https://issues.chromium.org/issues/532206357",
       "spec-link": null,
-      "explainer-links": [],
+      "explainer-links": [
+        "https://github.com/kenrb/webauthn/blob/main/explainers/ambient-sign-in.md"
+      ],
       "updated": {
         "by": "kenrb@chromium.org",
-        "when": "2026-06-25 16:35:11.293950"
+        "when": "2026-07-07 21:08:08.018404"
       }
     },
     {
@@ -29962,7 +29966,7 @@
       ],
       "updated": {
         "by": "daniec@microsoft.com",
-        "when": "2026-07-01 15:32:45.856474"
+        "when": "2026-07-07 15:36:13.882795"
       }
     }
   ]
