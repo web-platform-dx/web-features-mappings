@@ -4832,7 +4832,7 @@
       ],
       "updated": {
         "by": "kschmi@microsoft.com",
-        "when": "2026-07-03 12:04:35.537110"
+        "when": "2026-07-09 14:59:47.418077"
       }
     },
     {
@@ -5744,7 +5744,7 @@
     {
       "id": 6015941766807552,
       "name": "CSSOM View geometry utilities",
-      "summary": "Prototype the CSSOM View GeometryUtils API in Blink behind the existing GeometryUtils runtime flag. The API exposes getBoxQuads(), convertQuadFromNode(), convertRectFromNode(), and convertPointFromNode() on Document, Element, Text, and CSSPseudoElement so authors can obtain and convert precise DOM geometry using standard DOMPoint, DOMRect, and DOMQuad objects.",
+      "summary": "Prototype the CSSOM View GeometryUtils API in Blink behind the existing GeometryUtils runtime flag. The API exposes getBoxQuads(), convertQuadFromNode(), convertRectFromNode(), and convertPointFromNode() on Document, Element, Text, and CSSPseudoElement so authors can obtain and convert precise DOM geometry using standard DOMPoint, DOMRect, and DOMQuad objects.\nThe underlying DOM geometry value types, including DOMPoint, DOMRect, and DOMQuad, already exist in Chromium; this prototype adds the node-based geometry utility methods.",
       "motivation": "Web authors currently do not have a standard native API for getting precise box geometry and converting points, rects, and quads between DOM nodes after layout, scrolling, fragmentation, writing modes, and CSS transforms have been applied.\n\nApplications that need this today, such as visual editors, inspection tools, custom selection UI, and overlay systems, usually approximate the result in JavaScript by walking ancestor chains, reading layout data, and composing transform matrices. These polyfills are costly when repeated for many elements, are easy to get subtly wrong, and cannot always match the browser’s layout and painting behavior.\n\nGeometryUtils exposes this geometry through standard DOMPoint, DOMRect, and DOMQuad objects, allowing authors to ask the engine for the same kind of coordinate-space conversion that is already needed internally for layout, hit testing, painting, and developer tooling.\n\nConcrete motivating use cases include visual editor and inspection tools that draw live overlays for many selected elements, including deeply nested custom elements, shadow DOM, transformed content, and generated pseudo-elements. Examples of tools in this space include web-component designers, page builders, browser extensions such as VisBug, and custom design/inspection overlays in developer applications.",
       "url": "https://chromestatus.com/feature/6015941766807552",
       "bug-url": "https://issues.chromium.org/issues/427918516",
@@ -5754,7 +5754,7 @@
       ],
       "updated": {
         "by": "jochen.kuehner@googlemail.com",
-        "when": "2026-07-07 20:00:48.066516"
+        "when": "2026-07-08 10:44:37.424413"
       }
     }
   ],
@@ -14555,8 +14555,8 @@
   "notifications": [
     {
       "id": 5863296436666368,
-      "name": "Notification Attribution for PWAs on macOS",
-      "summary": "Chrome is rolling out Notification Attribution for installed Progressive Web Apps (PWAs) on macOS. When a PWA is installed on macOS, its notifications will now be natively attributed to the PWA itself (using its own name and icon in the Notification Center) rather than Google Chrome.\n\nThis is primarily a UX change in how notifications are displayed to the user, aligning PWA notifications with native macOS applications. It does however introduce some small (although not directly web-exposed) behavioral changes as well. Both of these changes match the already shipping behavior in WebKit:\n- For installed PWAs, Chrome will no longer support the `requireInteraction` field for notifications. On macOS the choice for a notification being temporary vs persistent is a per-app setting controlled by the user rather than a per-notification setting controlled by the app.\n- Additionally the app badging API will now require notifications permissions for the app badge to show up. If notifications permission isn't granted the API will silently do nothing.\n\nEnterprise administrators who pre-grant notification permissions via policy must update their configurations if they want to keep that behavior for PWAs on macOS:\n\nIn addition to the Chrome origin-based policy (NotificationsAllowedForUrls), administrators must deploy a macOS MDM configuration profile to pre-grant notification permissions to the PWA's specific bundle ID.",
+      "name": "Notification attribution for PWAs on macOS",
+      "summary": "Chrome is rolling out notification attribution for installed Progressive Web Apps (PWAs) on macOS. When a PWA is installed on macOS, its notifications will now be natively attributed to the PWA itself (using its own name and icon in the Notification Center) rather than Google Chrome.\n\nThis is primarily a UX change in how notifications are displayed to the user, aligning PWA notifications with native macOS applications. It does however introduce some small (although not directly web-exposed) behavioral changes as well. Both of these changes match the already shipping behavior in WebKit:\n- For installed PWAs, Chrome will no longer support the `requireInteraction` field for notifications. On macOS the choice for a notification being temporary vs persistent is a per-app setting controlled by the user rather than a per-notification setting controlled by the app.\n- Additionally the app badging API will now require notifications permissions for the app badge to show up. If notifications permission isn't granted the API will silently do nothing.\n\nEnterprise administrators who pre-grant notification permissions via policy must update their configurations if they want to keep that behavior for PWAs on macOS:\n\nIn addition to the Chrome origin-based policy (NotificationsAllowedForUrls), administrators must deploy a macOS MDM configuration profile to pre-grant notification permissions to the PWA's specific bundle ID.",
       "motivation": "Previously, all PWA notifications were displayed under the \"Google Chrome\" umbrella. This prevented users from managing notification settings (sounds, badges, alerts, Focus modes) on a per-PWA basis. Attributing notifications to the PWA's App Shim provides a highly requested native integration on macOS, aligning Chrome with established macOS platform behaviors.\n\n",
       "url": "https://chromestatus.com/feature/5863296436666368",
       "bug-url": "https://issues.chromium.org/issues/327449602",
@@ -14564,7 +14564,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mek@chromium.org",
-        "when": "2026-07-01 21:40:43.791880"
+        "when": "2026-07-10 05:32:45.194230"
       }
     },
     {
@@ -15138,7 +15138,7 @@
       ],
       "updated": {
         "by": "stephanie.zhang@microsoft.com",
-        "when": "2026-07-07 16:30:40.921342"
+        "when": "2026-07-09 15:45:32.989438"
       }
     }
   ],
@@ -22078,7 +22078,7 @@
       ],
       "updated": {
         "by": "kbabbitt@microsoft.com",
-        "when": "2026-04-13 16:04:22.801247"
+        "when": "2026-07-08 19:40:48.525981"
       }
     }
   ],
@@ -29880,7 +29880,7 @@
       "explainer-links": [],
       "updated": {
         "by": "reillyg@chromium.org",
-        "when": "2026-06-17 08:58:03.659244"
+        "when": "2026-07-09 19:12:38.238199"
       }
     }
   ],
@@ -29966,7 +29966,7 @@
       ],
       "updated": {
         "by": "daniec@microsoft.com",
-        "when": "2026-07-07 15:36:13.882795"
+        "when": "2026-07-09 09:00:46.197197"
       }
     }
   ]
