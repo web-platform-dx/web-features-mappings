@@ -12,7 +12,12 @@
     "url": "git+https://github.com/web-platform-dx/web-features-mappings.git"
   },
   "license": "Apache-2.0",
-  "exports": "./mappings/combined-data.json",
+  "exports": {
+    ".": "./mappings/combined-data.json",
+    "./*": "./mappings/*.json",
+    "./schema": "./combined-schema.gen.json",
+    "./schemas": "./schemas.json"
+  },
   "scripts": {
     "update": "cd scripts && npm run bump && npm run build"
   }
