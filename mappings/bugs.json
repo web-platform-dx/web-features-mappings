@@ -211,6 +211,7 @@
       "https://bugzil.la/1278697"
     ],
     "chrome": [
+      "https://issues.chromium.org/issues/534781956",
       "https://crbug.com/545318"
     ]
   },
@@ -2834,7 +2835,6 @@
   "declarative-shadow-dom": {
     "chrome": [
       "https://issues.chromium.org/issues/493315747",
-      "https://issues.chromium.org/issues/448174611",
       "https://crbug.com/1379513",
       "https://crbug.com/1042130",
       "https://crbug.com/493315747"
@@ -6989,6 +6989,11 @@
   "open-pseudo": {
     "chrome": [
       "https://issues.chromium.org/issues/324293874"
+    ]
+  },
+  "mixin": {
+    "chrome": [
+      "https://issues.chromium.org/issues/406935599"
     ]
   },
   "anchor-positioning-transforms": {

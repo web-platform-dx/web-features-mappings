@@ -1773,7 +1773,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-06-24 13:17:40.873662"
+        "when": "2026-07-13 09:37:38.860066"
       }
     },
     {
@@ -4571,6 +4571,20 @@
   ],
   "css-typed-om": [
     {
+      "id": 5114591051907072,
+      "name": "Expose CSSStyleValue hierarchy to Worker contexts",
+      "summary": "The CSS Typed OM spec exposes the CSSStyleValue hierarchy to worker global scopes ([Exposed=(Window, Worker, PaintWorklet, LayoutWorklet)]), but Blink only exposed CSSStyleValue, CSSKeywordValue, CSSNumericValue, CSSUnitValue and CSSUnparsedValue to Window and the worklets. As a result these constructors were undefined in Workers, unlike in Firefox and Safari.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5114591051907072",
+      "bug-url": "https://issues.chromium.org/issues/534781956",
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "jfernandez@chromium.org",
+        "when": "2026-07-15 13:47:25.826267"
+      }
+    },
+    {
       "id": 5682491075592192,
       "name": "CSS Typed OM (Houdini)",
       "summary": "The new CSSOM provides typed style access for developers. This will  generally improve performance primarily by removing the need to do lots of string parsing. In addition to this, it will enable performant development of various new Houdini specifications (including custom properties, layout and paint).\r\n\r\nOnly a subset of CSS properties are supported for now:\r\nhttps://chromium.googlesource.com/chromium/src/+/master/third_party/WebKit/Source/core/css/cssom/README.md",
@@ -4820,22 +4834,6 @@
       }
     },
     {
-      "id": 4790543041298432,
-      "name": "Declarative Shadow DOM 'shadowrootadoptedstylesheets'",
-      "summary": "Allows for Declarative Shadow DOM (DSD) to specify adopted stylesheets at parse time. 'shadowrootadoptedstylesheets' supports a space-separated list of specifiers that each get fetched (exactly like a JavaScript import) and added to 'adoptedStyleSheets' in specified order. Developers are encouraged to preload the stylesheets referenced via <link rel=\"modulepreload\" as=\"style\"> in the head to prevent late fetches.",
-      "motivation": "Without this feature, developers have several non-ideal options for sharing a set of styles between declarative shadow DOM hosts:\n\n1. Use imperative CSS Modules, somewhat defeating the purpose of declarative shadow DOM, because it requires script and must happen after the declarative shadow DOM has been parsed.\n2. Duplicating <style> tags, resulting in more work for parser and more work for the developer to update dynamically.\n3. Use external CSS files in a <link> tag, resulting in a potential Flash of Unstyled Content (FOUC), as well as more work for the developer to update dynamically.",
-      "url": "https://chromestatus.com/feature/4790543041298432",
-      "bug-url": "https://issues.chromium.org/issues/448174611",
-      "spec-link": "https://github.com/whatwg/html/pull/12339",
-      "explainer-links": [
-        "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ShadowDOM/explainer.md"
-      ],
-      "updated": {
-        "by": "kschmi@microsoft.com",
-        "when": "2026-07-10 12:48:45.859716"
-      }
-    },
-    {
       "id": 5161240576393216,
       "name": "Streaming declarative shadow DOM",
       "summary": "Chromium has shipped [1] a version of declarative shadow DOM in M90 which currently has 0.014% usage [2]. Mostly, that is due to the spec PR being stalled with no input from other implementers. Recently, there has been renewed interest in the feature, and discussions have resumed. As part of those discussions, two changes have been generally agreed upon:\r\n 1. Rename the `<template>` attribute from `shadowroot` to `shadowrootmode`.\r\n 2. Support streaming, by attaching the shadow root on the opening, rather than the closing, template tag.\r\n\r\nWhile the PR hasn't landed, and there is still an open issue (related to the DOMParser), we would like to ship the agreed upon behavior listed above.\r\n\r\n[1] https://chromestatus.com/feature/5191745052606464\r\n[2] https://chromestatus.com/metrics/feature/timeline/popularity/3196",
@@ -5056,7 +5054,7 @@
       ],
       "updated": {
         "by": "tov@google.com",
-        "when": "2026-06-29 13:01:35.039816"
+        "when": "2026-07-15 15:12:00.199137"
       }
     },
     {
@@ -5772,7 +5770,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-06-23 11:11:28.086754"
+        "when": "2026-07-13 11:26:59.116101"
       }
     }
   ],
@@ -12496,7 +12494,7 @@
     {
       "id": 5152728072060928,
       "name": "Local network access restrictions",
-      "summary": "Chrome 142 restricted the ability to make requests to the user's local network, gated behind a permission prompt. A local network request is any request from a public website to a local IP address or loopback, or from a local website (for example, intranet) to loopback. \n\nGating the ability for websites to perform these requests behind a permission mitigates the risk of cross-site request forgery attacks against local network devices such as routers, and reduces the ability of sites to use these requests to fingerprint the user's local network.\n\nThis permission is restricted to secure contexts. If granted, the permissions additionally relaxes mixed content blocking for local network requests (since many local devices are not able to obtain publicly trusted TLS certificates for various reasons).\n\nThis work supersedes a prior effort called [Private Network Access](https://chromestatus.com/feature/5737414355058688), which used preflight requests to have local devices opt in. For more information on this feature, see [Adapting your website for new Local Network Access restrictions in Chrome](https://docs.google.com/document/d/1QQkqehw8umtAgz5z0um7THx-aoU251p705FbIQjDuGs/edit?usp=sharing).\n\nChrome 145 introduced more granular permissions for websites requesting access to a user's local network. The previous single `local-network-access permission` is being split into two distinct permissions:\n\n* `local-network`: Grants access to IP addresses in the local network space (for example, intranets, internal devices).\n* `loopback-network`: Grants access to loopback IP addresses (for example, `localhost`, `127.0.0.1`).\n\nThe old `local-network` permission will remain as an alias, ensuring existing configurations and permissions policies continue to function as expected. \n\nThis change provides both users and Admins with more precise control over how websites interact with internal network resources. Current enterprise policies managing local network access will not be affected by this change.\n\nChrome 146 introduces two new enterprise policies for managing local network access restrictions:  [LocalNetworkAccessIpAddressSpaceOverrides](https://chromeenterprise.google/policies/#LocalNetworkAccessIpAddressSpaceOverrides) and  [LocalNetworkAccessPermissionsPolicyDefaultEnabled](https://chromeenterprise.google/policies/#LocalNetworkAccessPermissionsPolicyDefaultEnabled). These policies can be set using [custom configurations](https://support.google.com/chrome/a/answer/14749672).\n\nChrome 147 expands Local Network Access restrictions to include WebSocket and WebTransport connections.\n\nIn Chrome 156, the [LocalNetworkAccessRestrictionsTemporaryOptOut](https://chromeenterprise.google/policies/#LocalNetworkAccessRestrictionsTemporaryOptOut) policy will be removed.",
+      "summary": "Chrome 142 restricted the ability to make requests to the user's local network, gated behind a permission prompt. A local network request is any request from a public website to a local IP address or loopback, or from a local website (for example, intranet) to loopback. \n\nGating the ability for websites to perform these requests behind a permission mitigates the risk of cross-site request forgery attacks against local network devices such as routers, and reduces the ability of sites to use these requests to fingerprint the user's local network.\n\nThis permission is restricted to secure contexts. If granted, the permissions additionally relax mixed content blocking for local network requests (since many local devices are not able to obtain publicly trusted TLS certificates for various reasons).\n\nThis work supersedes a prior effort called [Private Network Access](https://chromestatus.com/feature/5737414355058688), which used preflight requests to have local devices opt in. For more information on this feature, see [Adapting your website for new Local Network Access restrictions in Chrome](https://docs.google.com/document/d/1QQkqehw8umtAgz5z0um7THx-aoU251p705FbIQjDuGs/edit?usp=sharing).\n\nChrome 145 introduced more granular permissions for websites requesting access to a user's local network. The previous single `local-network-access permission` is being split into two distinct permissions:\n\n* `local-network`: Grants access to IP addresses in the local network space (for example, intranets, internal devices).\n* `loopback-network`: Grants access to loopback IP addresses (for example, `localhost`, `127.0.0.1`).\n\nThe old `local-network` permission will remain as an alias, ensuring existing configurations and permissions policies continue to function as expected. \n\nThis change provides both users and Admins with more precise control over how websites interact with internal network resources. Current enterprise policies managing local network access will not be affected by this change.\n\nChrome 146 introduces two new enterprise policies for managing local network access restrictions:  [LocalNetworkAccessIpAddressSpaceOverrides](https://chromeenterprise.google/policies/#LocalNetworkAccessIpAddressSpaceOverrides) and  [LocalNetworkAccessPermissionsPolicyDefaultEnabled](https://chromeenterprise.google/policies/#LocalNetworkAccessPermissionsPolicyDefaultEnabled). These policies can be set using [custom configurations](https://support.google.com/chrome/a/answer/14749672).\n\nChrome 147 expands Local Network Access restrictions to include WebSocket and WebTransport connections.\n\nIn Chrome 156, the [LocalNetworkAccessRestrictionsTemporaryOptOut](https://chromeenterprise.google/policies/#LocalNetworkAccessRestrictionsTemporaryOptOut) policy will be removed.",
       "motivation": "Currently public websites can probe a user's local network, perform CSRF attacks against vulnerable local devices, and generally abuse the user's browser as a \"confused deputy\" that has access inside the user's local network or software on their local machine. Gating the ability for sites to make local network requests behind a permission prompt helps stop the exploitation of vulnerable devices and servers from the drive-by-web, and gives users control over which sites can probe their local network.",
       "url": "https://chromestatus.com/feature/5152728072060928",
       "bug-url": "https://crbug.com/394009026",
@@ -12505,8 +12503,8 @@
         "https://github.com/WICG/local-network-access/blob/main/explainer.md"
       ],
       "updated": {
-        "by": "cthomp@chromium.org",
-        "when": "2026-06-30 22:56:29.882601"
+        "by": "siobhankeating@google.com",
+        "when": "2026-07-15 12:31:13.053381"
       }
     }
   ],
@@ -13626,8 +13624,8 @@
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "foolip@google.com",
-        "when": "2025-08-22 08:29:59.617645"
+        "by": "zhusida@bytedance.com",
+        "when": "2026-07-13 14:35:15.639031"
       }
     },
     {
@@ -14556,15 +14554,15 @@
     {
       "id": 5863296436666368,
       "name": "Notification attribution for PWAs on macOS",
-      "summary": "Chrome is rolling out notification attribution for installed Progressive Web Apps (PWAs) on macOS. When a PWA is installed on macOS, its notifications will now be natively attributed to the PWA itself (using its own name and icon in the Notification Center) rather than Google Chrome.\n\nThis is primarily a UX change in how notifications are displayed to the user, aligning PWA notifications with native macOS applications. It does however introduce some small (although not directly web-exposed) behavioral changes as well. Both of these changes match the already shipping behavior in WebKit:\n- For installed PWAs, Chrome will no longer support the `requireInteraction` field for notifications. On macOS the choice for a notification being temporary vs persistent is a per-app setting controlled by the user rather than a per-notification setting controlled by the app.\n- Additionally the app badging API will now require notifications permissions for the app badge to show up. If notifications permission isn't granted the API will silently do nothing.\n\nEnterprise administrators who pre-grant notification permissions via policy must update their configurations if they want to keep that behavior for PWAs on macOS:\n\nIn addition to the Chrome origin-based policy (NotificationsAllowedForUrls), administrators must deploy a macOS MDM configuration profile to pre-grant notification permissions to the PWA's specific bundle ID.",
+      "summary": "Chrome is rolling out notification attribution for installed Progressive Web Apps (PWAs) on macOS. When a PWA is installed on macOS, its notifications will now be natively attributed to the PWA itself (using its own name and icon in the Notification Center) rather than Google Chrome.\n\nThis update also changes how notifications are displayed to the user, aligning PWA notifications with native macOS applications. It introduces two changes that align with current behavior in [WebKit](https://webkit.org/):\n- For app notifications, Chrome will no longer support the `requireInteraction` field for notifications. On macOS, the user controls whether the notification is temporary or persistent on a per-app basis.\n- For app badging, the Badging API now requires notifications permissions for the app badge to show up. If the user does not grant notifications permission, the API will silently do nothing.\n\nAdministrators who pre-grant notification permissions using Chrome policies must update their configurations if they want to keep that behavior for PWAs on macOS:\n\nIn addition to the Chrome origin-based policy [NotificationsAllowedForUrls](https://chromeenterprise.google/policies/#NotificationsAllowedForUrls), administrators must deploy a macOS MDM configuration profile to pre-grant notification permissions to the PWA's specific bundle ID.",
       "motivation": "Previously, all PWA notifications were displayed under the \"Google Chrome\" umbrella. This prevented users from managing notification settings (sounds, badges, alerts, Focus modes) on a per-PWA basis. Attributing notifications to the PWA's App Shim provides a highly requested native integration on macOS, aligning Chrome with established macOS platform behaviors.\n\n",
       "url": "https://chromestatus.com/feature/5863296436666368",
       "bug-url": "https://issues.chromium.org/issues/327449602",
       "spec-link": "https://notifications.spec.whatwg.org",
       "explainer-links": [],
       "updated": {
-        "by": "mek@chromium.org",
-        "when": "2026-07-10 20:22:38.879527"
+        "by": "siobhankeating@google.com",
+        "when": "2026-07-15 11:31:24.946479"
       }
     },
     {
@@ -21179,6 +21177,22 @@
   ],
   "speech-recognition": [
     {
+      "id": 5811907077472256,
+      "name": "SpeechRecognitionResult Timestamps (WebSpeech API)",
+      "summary": "The Web Speech API currently does not expose the start and end timestamps of the source audio corresponding to a given transcription result. This limitation creates two major challenges for API clients and end users:\n\n- Timeline Association: Developers cannot readily associate the transcribed text with specific segments of the audio source, making it difficult to map the generated text to the timeline.\n- Latency Tracking: Developers cannot programmatically calculate transcription latency or detect performance degradation. This can create poor user experiences by showing users high latency results without explanation, or an opportunity to recover by switching to a more performant backend (e.g. transitioning from local on-device ASR to a cloud backend provider).\n",
+      "motivation": "As web applications adopt on-device speech recognition via the WebSpeech API to improve privacy and reduce costs, processing performance becomes dependent on client hardware. Currently, the API provides no signals regarding local processing lag. Exposing audioStartTime and audioEndTime on SpeechRecognitionResult allows web applications to track transcription latency, align transcript segments with audio timelines, and optionally transition to a cloud ASR provider when on-device processing falls behind. Timestamp fuzzing (e.g., 2ms precision capping) will be applied to prevent device fingerprinting.",
+      "url": "https://chromestatus.com/feature/5811907077472256",
+      "bug-url": null,
+      "spec-link": "https://github.com/WebAudio/web-speech-api/pull/192",
+      "explainer-links": [
+        "https://github.com/WebAudio/web-speech-api/pull/193"
+      ],
+      "updated": {
+        "by": "alanding@chromium.org",
+        "when": "2026-07-15 08:17:08.593901"
+      }
+    },
+    {
       "id": 4785284026859520,
       "name": "Web Speech API: Unspoken Punctuation",
       "summary": "Adds the unspokenPunctuation boolean attribute to the SpeechRecognition interface of the Web Speech API. When enabled (true), this attribute directs the speech recognition engine to automatically infer and insert punctuation marks (such as periods, commas, and question marks) based on the user's natural pauses, grammatical structure, and prosody, without requiring explicit spoken punctuation commands.",
@@ -25040,7 +25054,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hongchan@google.com",
-        "when": "2026-07-07 17:05:15.408946"
+        "when": "2026-07-13 09:36:06.369893"
       }
     },
     {
@@ -29573,8 +29587,8 @@
         "https://github.com/w3c/window-placement"
       ],
       "updated": {
-        "by": "foolip@google.com",
-        "when": "2025-08-22 07:31:12.427136"
+        "by": "msw@google.com",
+        "when": "2026-07-15 17:38:12.472874"
       }
     }
   ],
@@ -29748,15 +29762,15 @@
     {
       "id": 4709671889534976,
       "name": "Deprecate and remove XSLT",
-      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the **libxslt** library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines) plans to deprecate and remove XSLT from the web platform.  \n\nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt). ",
+      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the **libxslt** library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines, Gecko and WebKit) plans to deprecate and remove XSLT from the web platform. The modern web is powered by three major browser engines: [Blink](https://www.chromium.org/blink/) (Chromium), [Gecko](https://firefox-source-docs.mozilla.org/overview/gecko.html) (Firefox), and [WebKit](https://webkit.org/) (Safari). They interpret code to render pages. \n\nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt). ",
       "motivation": "Security risks for all users outweigh the very small usage of this feature on the open web.\n\nUsage of XSLTProcessor (https://chromestatus.com/metrics/feature/timeline/popularity/79) is fairly volatile, registering somewhere between 0.01% and 0.1% of page loads, averaging around 0.05% over time. These numbers are above the typical 0.001% deprecation threshold. Again, we feel that the increased potential for breakage is balanced by the reduced security risk to 100% of Chromium users. And we are doing everything we can to mitigate this breakage and be proactive in reaching out to potentially affected sites and particularly libraries that might account for significant chunks of the overall usage. In addition, several sites we surveyed that use XSLTProcessor have feature detection code with fallbacks to JS libraries like Saxonica. Of the ~220 sites we've surveyed so far, roughly 72% of them are still functional even with XSLT disabled.\n\nThe usage of XSL Processing Instructions (https://chromestatus.com/metrics/feature/timeline/popularity/78) is significantly lower, around 0.001% for the last few years.",
       "url": "https://chromestatus.com/feature/4709671889534976",
       "bug-url": "https://crbug.com/435623334",
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "masonfreed@google.com",
-        "when": "2026-07-06 09:39:05.585840"
+        "by": "siobhankeating@google.com",
+        "when": "2026-07-15 10:40:22.323201"
       }
     },
     {
@@ -29967,6 +29981,24 @@
       "updated": {
         "by": "daniec@microsoft.com",
         "when": "2026-07-09 09:00:46.197197"
+      }
+    }
+  ],
+  "mixin": [
+    {
+      "id": 5108022310469632,
+      "name": "CSS mixins",
+      "summary": "Defines a reusable, parameterized block of style declarations and nested style rules with the @mixin rule, then expands them in place within a style rule via @apply as if the mixin's contents had been written there directly. The mixin body puts the declarations and rules to emit inside an @result block, while any local custom properties used to compute them stay private and never reach the element; parameters can be typed and given defaults, and @result can contain conditional rules such as @supports and @media. This lets authors package consistent patterns – component styles, effects like gradient text, responsive shorthands – once and reuse them across a stylesheet without a CSS pre-processor. ",
+      "motivation": "To reuse a consistent pattern across a stylesheet, whether component styles, effects like gradient text, or responsive shorthands, authors currently must either duplicate the same declarations and nested rules in every style rule that needs them, which drifts out of sync and is error prone, or reach for a CSS pre-processor such as Sass, which introduces a separate language and build step and cannot respond to the cascade at runtime. Custom properties share individual values but not whole blocks of declarations and rules and offer no way to parameterize a pattern or keep the local custom properties used to compute it private. The @mixin rule fills this gap natively, letting authors package such patterns once and expand them in place as if the contents had been written there directly.",
+      "url": "https://chromestatus.com/feature/5108022310469632",
+      "bug-url": "https://issues.chromium.org/issues/406935599",
+      "spec-link": "https://drafts.csswg.org/css-mixins-1/#defining-mixins",
+      "explainer-links": [
+        "https://css.oddbird.net/sasslike/mixins-functions"
+      ],
+      "updated": {
+        "by": "stephanie.zhang@microsoft.com",
+        "when": "2026-07-14 20:33:55.985945"
       }
     }
   ]

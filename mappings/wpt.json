@@ -92,9 +92,6 @@
   "attr-contents": {
     "url": "https://wpt.fyi/results?q=feature:attr-contents"
   },
-  "attribution-reporting": {
-    "url": "https://wpt.fyi/results?q=feature:attribution-reporting"
-  },
   "audio": {
     "url": "https://wpt.fyi/results?q=feature:audio"
   },
@@ -1394,6 +1391,9 @@
   "mixed-content": {
     "url": "https://wpt.fyi/results?q=feature:mixed-content"
   },
+  "mixin": {
+    "url": "https://wpt.fyi/results?q=feature:mixin"
+  },
   "modal": {
     "url": "https://wpt.fyi/results?q=feature:modal"
   },
@@ -1982,12 +1982,6 @@
   "share": {
     "url": "https://wpt.fyi/results?q=feature:share"
   },
-  "shared-storage": {
-    "url": "https://wpt.fyi/results?q=feature:shared-storage"
-  },
-  "shared-storage-locks": {
-    "url": "https://wpt.fyi/results?q=feature:shared-storage-locks"
-  },
   "shared-workers": {
     "url": "https://wpt.fyi/results?q=feature:shared-workers"
   },
@@ -2230,9 +2224,6 @@
   },
   "top-level-await": {
     "url": "https://wpt.fyi/results?q=feature:top-level-await"
-  },
-  "topics": {
-    "url": "https://wpt.fyi/results?q=feature:topics"
   },
   "touch-action": {
     "url": "https://wpt.fyi/results?q=feature:touch-action"
