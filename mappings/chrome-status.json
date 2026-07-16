@@ -6590,11 +6590,11 @@
       "bug-url": "https://issues.chromium.org/issues/498749613",
       "spec-link": null,
       "explainer-links": [
-        "https://github.com/w3c-fedid/FedCM/blob/main/explorations/identity_handler.md"
+        "https://github.com/w3c-fedid/identity-handler/blob/main/identity-handler-explainer.md"
       ],
       "updated": {
         "by": "sureshpotti@microsoft.com",
-        "when": "2026-04-03 05:49:19.446699"
+        "when": "2026-07-16 07:14:05.327027"
       }
     },
     {
@@ -15986,6 +15986,22 @@
   ],
   "performancetiming": [
     {
+      "id": 5387465121726464,
+      "name": "Support Long Animation Frames API in Web Workers",
+      "summary": "Modern web applications run across multiple execution contexts, such as windows, iframes, and workers, each of which processes a stream of tasks. Responsiveness depends on these tasks running on time, but in practice a task queue can become congested when tasks pile up faster than they can be drained. When this happens, the page feels sluggish and important work is delayed.\n\nToday's web performance APIs cannot reliably surface this problem. The Long Animation Frame and Long Tasks APIs run only on the main thread and are anchored to rendering, reporting a frame only when its work exceeds the 50ms threshold. As a result, they miss congestion that builds from many short tasks (a frame can update between those tasks), cannot represent a congested period that spans many frames, and offer no coverage in workers at all.\n\nWe address this by defining a congested moment: a sustained interval during which the task queue stays congested, reported as a single entry regardless of how many frames it spans.\n\nRather than introduce a separate API, the Long Animation Frame API will be extended to report congested moments alongside the existing animation-frame reporting, and to make LoAF available in Web Workers. With this extension, developers can detect periods of persistent congestion and pinpoint their sources on both the main thread and in workers, using a single familiar API and without manual instrumentation.\n\nThis would help developers diagnose why a postMessage event is delayed, or why rendering stutters due to a delayed OffscreenCanvas operation on the worker's event loop.\n\n",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5387465121726464",
+      "bug-url": "https://issues.chromium.org/issues/534893134",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/WICG/delayed-message-timing/blob/main/loaf-congested-moments/explainer.md"
+      ],
+      "updated": {
+        "by": "joone@chromium.org",
+        "when": "2026-07-16 01:04:46.241636"
+      }
+    },
+    {
       "id": 5162859838046208,
       "name": "Add presentationTime/paintTime to performance entries",
       "summary": "Expose \"paintTime\" and \"presentationTime\" in element timing, LCP, long animation frames, and paint timing.\n\n\"paintTime\" means the time when the rendering phase ended and the browser started the paint phase.\n\"presentationTime\" means the time when the \"pixels reached the screen\", which is somewhat implementation-defined.\n\nThis feature entry omits event timing, which would be done separately.",
@@ -21179,17 +21195,17 @@
     {
       "id": 5811907077472256,
       "name": "SpeechRecognitionResult Timestamps (WebSpeech API)",
-      "summary": "The Web Speech API currently does not expose the start and end timestamps of the source audio corresponding to a given transcription result. This limitation creates two major challenges for API clients and end users:\n\n- Timeline Association: Developers cannot readily associate the transcribed text with specific segments of the audio source, making it difficult to map the generated text to the timeline.\n- Latency Tracking: Developers cannot programmatically calculate transcription latency or detect performance degradation. This can create poor user experiences by showing users high latency results without explanation, or an opportunity to recover by switching to a more performant backend (e.g. transitioning from local on-device ASR to a cloud backend provider).\n",
-      "motivation": "As web applications adopt on-device speech recognition via the WebSpeech API to improve privacy and reduce costs, processing performance becomes dependent on client hardware. Currently, the API provides no signals regarding local processing lag. Exposing audioStartTime and audioEndTime on SpeechRecognitionResult allows web applications to track transcription latency, align transcript segments with audio timelines, and optionally transition to a cloud ASR provider when on-device processing falls behind. Timestamp fuzzing (e.g., 2ms precision capping) will be applied to prevent device fingerprinting.",
+      "summary": "The Web Speech API currently does not allow developers to associate the transcribed text with specific segments of the audio source, making it difficult to map the generated text to the timeline or determine on-device transcription latency. We propose adding audioStartTime and audioEndTime (DOMHighResTimeStamp?) attributes on the SpeechRecognitionResult interface.",
+      "motivation": "Web applications are increasingly adopting on-device Automatic Speech Recognition (ASR) via the Web Speech API (SpeechRecognition) to enhance user privacy and lower backend processing costs. However, the WebSpeech API operates as a \"black box\" regarding local processing delays:\n\n1. Lack of Latency Tracking & Backend Recovery: When client devices with constrained CPU/GPU resources struggle to process audio in real time, significant transcription lag accumulates between when audio was spoken and when recognition results are emitted. Web applications have no web-exposed timing metrics to programmatically detect this lag or trigger an optional failover to a high-quality cloud ASR backend provider, resulting in degraded user experiences (e.g., stale or delayed captions in live video conferencing tools).\n\n2. Timeline Association: Developers cannot readily map recognized transcript text to specific segments of the source audio timeline, creating challenges for automated subtitle cue alignment and media editing tools.\n",
       "url": "https://chromestatus.com/feature/5811907077472256",
-      "bug-url": null,
+      "bug-url": "https://crbug.com/528037568",
       "spec-link": "https://github.com/WebAudio/web-speech-api/pull/192",
       "explainer-links": [
-        "https://github.com/WebAudio/web-speech-api/pull/193"
+        "https://github.com/WebAudio/web-speech-api/blob/main/explainers/speech-recognition-result-timestamps.md"
       ],
       "updated": {
         "by": "alanding@chromium.org",
-        "when": "2026-07-15 08:17:08.593901"
+        "when": "2026-07-16 03:47:44.706766"
       }
     },
     {
