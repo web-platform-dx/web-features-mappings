@@ -1121,7 +1121,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/245",
-      "votes": 225
+      "votes": 227
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.04802185,
@@ -6742,7 +6742,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/424",
-      "votes": 7
+      "votes": 8
     },
     "chrome-status": [
       {
@@ -9966,7 +9966,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/68",
-      "votes": 3
+      "votes": 4
     },
     "chrome-status": [
       {
@@ -11330,7 +11330,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/233",
-      "votes": 29
+      "votes": 30
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00003227,
@@ -14754,7 +14754,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/260",
-      "votes": 15
+      "votes": 16
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00083992,
@@ -23619,6 +23619,10 @@
     ]
   },
   "heading-offset": {
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/876",
+      "votes": 0
+    },
     "bugs": {
       "chrome": [
         "https://crbug.com/333628468"
@@ -27018,7 +27022,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/464",
-      "votes": 32
+      "votes": 33
     },
     "bugs": {
       "firefox": [
@@ -27060,7 +27064,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/253",
-      "votes": 68
+      "votes": 69
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.079418,
@@ -31621,7 +31625,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/128",
-      "votes": 16
+      "votes": 17
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.12959985,
@@ -31820,7 +31824,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/308",
-      "votes": 107
+      "votes": 108
     },
     "chrome-status": [
       {
@@ -33692,6 +33696,10 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:mixin"
     },
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/877",
+      "votes": 0
+    },
     "chrome-status": [
       {
         "id": 5108022310469632,
@@ -34169,7 +34177,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/273",
-      "votes": 25
+      "votes": 26
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00024153,
@@ -49981,7 +49989,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/318",
-      "votes": 14
+      "votes": 15
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00032112,
@@ -52578,7 +52586,11 @@
         "anchor": "switch",
         "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input#switch"
       }
-    ]
+    ],
+    "developer-signals": {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/875",
+      "votes": 0
+    }
   },
   "symbol": {
     "mdn-docs": [
