@@ -21204,8 +21204,8 @@
         "https://github.com/WebAudio/web-speech-api/blob/main/explainers/speech-recognition-result-timestamps.md"
       ],
       "updated": {
-        "by": "alanding@chromium.org",
-        "when": "2026-07-16 03:47:44.706766"
+        "by": "reillyg@chromium.org",
+        "when": "2026-07-16 20:23:39.428794"
       }
     },
     {
@@ -24347,6 +24347,20 @@
     }
   ],
   "view-transitions-element-scoped": [
+    {
+      "id": 5200894124752896,
+      "name": "Element Scoped View Transitions: size containment for capture",
+      "summary": "Element Scoped View Transitions allows view transitions to happen on elements within the page (rather than the whole document). For the duration of the capture and DOM callback running phases, we display the last visuals of the element. This change also add the effects of size containment and contain-intrinsic-size auto for this duration. The idea is that we effectively avoid leaking the effects of (async) DOM callback until it finishes running. ",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5200894124752896",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "vmpstr@google.com",
+        "when": "2026-07-16 16:46:55.594885"
+      }
+    },
     {
       "id": 5109852273377280,
       "name": "Element-scoped view transitions",
@@ -30015,6 +30029,22 @@
       "updated": {
         "by": "stephanie.zhang@microsoft.com",
         "when": "2026-07-14 20:33:55.985945"
+      }
+    }
+  ],
+  "usermedia": [
+    {
+      "id": 5085785343787008,
+      "name": "audioPreferred capture in getDisplayMedia API",
+      "summary": "Adds an audioPreference attribute to the DisplayMediaStreamOptions dictionary used in the getDisplayMedia API. \n\nThis hint allows web applications to signal to the UA that they prefer audio sharing along with video. This helps developers ensure that applications relying on audio capture work seamlessly.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5085785343787008",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "agpalak@google.com",
+        "when": "2026-07-16 16:33:11.068873"
       }
     }
   ]
