@@ -281,6 +281,7 @@
       "https://bugzil.la/1348405"
     ],
     "chrome": [
+      "https://issues.chromium.org/issues/534893134",
       "https://issuetracker.google.com/issues/383157188",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1392685"
     ]
@@ -1300,14 +1301,6 @@
     ],
     "chrome": [
       "https://crbug.com/1413922"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1918013",
-      "https://bugzil.la/1917963",
-      "https://bugzil.la/1917974",
-      "https://bugzil.la/1917965",
-      "https://bugzil.la/1917979",
-      "https://bugzil.la/1917982"
     ]
   },
   "badging": {
@@ -4559,18 +4552,6 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/213953"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40290045"
-    ],
-    "oculus": [
-      "https://crbug.com/40290045"
-    ],
-    "opera_android": [
-      "https://crbug.com/40290045"
-    ],
-    "webview_android": [
-      "https://crbug.com/40290045"
     ]
   },
   "multi-column": {
@@ -4833,7 +4814,6 @@
   },
   "performancetiming": {
     "chrome": [
-      "https://issues.chromium.org/issues/534893134",
       "https://issues.chromium.org/issues/378827535"
     ]
   },
@@ -4900,21 +4880,6 @@
       "https://g-issues.chromium.org/issues/40290045",
       "https://crbug.com/982379",
       "http://crbug.com/72754"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40290045"
-    ],
-    "oculus": [
-      "https://crbug.com/40290045"
-    ],
-    "opera_android": [
-      "https://crbug.com/40290045"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40290045"
-    ],
-    "webview_android": [
-      "https://crbug.com/40290045"
     ]
   },
   "popover": {
@@ -7017,6 +6982,11 @@
   "open-pseudo": {
     "chrome": [
       "https://issues.chromium.org/issues/324293874"
+    ]
+  },
+  "switch-control": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41484737"
     ]
   },
   "anchor-positioning-transforms": {

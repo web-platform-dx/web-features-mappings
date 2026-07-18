@@ -12634,6 +12634,22 @@
   ],
   "long-animation-frames": [
     {
+      "id": 5387465121726464,
+      "name": "Support Long Animation Frames API in Web Workers",
+      "summary": "This feature extends the existing Long Animation Frames (LoAF) API to Web Workers. Today LoAF reports only on the main thread and is anchored to rendering frames, so it cannot observe work that blocks a worker's event loop. With this change, a long task that blocks a worker's event loop is reported as a long-animation-frame entry that is observable from inside the worker via PerformanceObserver, with the usual per-script attribution.\n\nThe prototype starts with dedicated workers, reporting a single long task that blocks the worker's event loop. The broader goal is to surface congested moments, intervals where an event loop remains busy and runnable work is delayed. This includes detecting a flood of many small tasks that keeps the event loop busy and reporting it as a long-animation-frame entry, as well as supporting the main thread. This is planned as follow-up work.",
+      "motivation": "Web apps increasingly offload work to Web Workers, but a worker that blocks its own event loop is invisible to today's performance APIs. Workers usually have no rendering lifecycle, so there are no animation frames for LoAF to anchor to, and the main-thread LoAF and Long Tasks APIs cannot observe work running in a worker. As a result, a long task in a worker, which delays incoming message events and any OffscreenCanvas rendering, goes unreported even though it directly degrades responsiveness.\n\nRather than introduce a new API, we extend LoAF, because detecting a long animation frame and detecting a congested moment are fundamentally the same task: identifying bottlenecks in an event loop and attributing them to the responsible scripts. Reusing the existing API gives developers a single, familiar mechanism for diagnosing blocking work across both documents and workers.",
+      "url": "https://chromestatus.com/feature/5387465121726464",
+      "bug-url": "https://issues.chromium.org/issues/534893134",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/WICG/delayed-message-timing/blob/main/loaf-congested-moments/explainer.md"
+      ],
+      "updated": {
+        "by": "joone@chromium.org",
+        "when": "2026-07-18 00:16:53.958760"
+      }
+    },
+    {
       "id": 5693676597673984,
       "name": "Conditional tracing for long animation frame(LoAF) timing API",
       "summary": "Introduce a new conditional tracing that help diagnose causes of LoAFs.\n\nThis new feature let web app developers add conditional tracing in the app code, and these tracing points will be reported by the LoAF API if they are executed during a LoAF. This is a powerful and easy-to-use tool to help diagnose LoAFs.",
@@ -14562,7 +14578,7 @@
       "explainer-links": [],
       "updated": {
         "by": "siobhankeating@google.com",
-        "when": "2026-07-15 11:31:24.946479"
+        "when": "2026-07-17 11:42:29.911435"
       }
     },
     {
@@ -15836,7 +15852,7 @@
       ],
       "updated": {
         "by": "sisidovski@chromium.org",
-        "when": "2026-07-08 06:52:42.013843"
+        "when": "2026-07-17 15:54:45.560573"
       }
     },
     {
@@ -15985,22 +16001,6 @@
     }
   ],
   "performancetiming": [
-    {
-      "id": 5387465121726464,
-      "name": "Support Long Animation Frames API in Web Workers",
-      "summary": "Modern web applications run across multiple execution contexts, such as windows, iframes, and workers, each of which processes a stream of tasks. Responsiveness depends on these tasks running on time, but in practice a task queue can become congested when tasks pile up faster than they can be drained. When this happens, the page feels sluggish and important work is delayed.\n\nToday's web performance APIs cannot reliably surface this problem. The Long Animation Frame and Long Tasks APIs run only on the main thread and are anchored to rendering, reporting a frame only when its work exceeds the 50ms threshold. As a result, they miss congestion that builds from many short tasks (a frame can update between those tasks), cannot represent a congested period that spans many frames, and offer no coverage in workers at all.\n\nWe address this by defining a congested moment: a sustained interval during which the task queue stays congested, reported as a single entry regardless of how many frames it spans.\n\nRather than introduce a separate API, the Long Animation Frame API will be extended to report congested moments alongside the existing animation-frame reporting, and to make LoAF available in Web Workers. With this extension, developers can detect periods of persistent congestion and pinpoint their sources on both the main thread and in workers, using a single familiar API and without manual instrumentation.\n\nThis would help developers diagnose why a postMessage event is delayed, or why rendering stutters due to a delayed OffscreenCanvas operation on the worker's event loop.\n\n",
-      "motivation": null,
-      "url": "https://chromestatus.com/feature/5387465121726464",
-      "bug-url": "https://issues.chromium.org/issues/534893134",
-      "spec-link": null,
-      "explainer-links": [
-        "https://github.com/WICG/delayed-message-timing/blob/main/loaf-congested-moments/explainer.md"
-      ],
-      "updated": {
-        "by": "joone@chromium.org",
-        "when": "2026-07-16 01:04:46.241636"
-      }
-    },
     {
       "id": 5162859838046208,
       "name": "Add presentationTime/paintTime to performance entries",
@@ -30040,11 +30040,29 @@
       "motivation": null,
       "url": "https://chromestatus.com/feature/5085785343787008",
       "bug-url": null,
-      "spec-link": null,
+      "spec-link": "https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-audioselection",
       "explainer-links": [],
       "updated": {
         "by": "agpalak@google.com",
-        "when": "2026-07-16 16:33:11.068873"
+        "when": "2026-07-17 18:18:40.253444"
+      }
+    }
+  ],
+  "switch-control": [
+    {
+      "id": 5178587742339072,
+      "name": "<input type=\"checkbox\" switch>",
+      "summary": "This proposal adds a switch attribute to <input type=\"checkbox\"> for binary on/off settings. The control reuses the checkbox's checked state, form participation, and label association while exposing it as a switch to assistive technologies. It provides a platform-native appearance and supports familiar click, keyboard, and touch interactions. Authors can customize the track and thumb using proposed CSS pseudo-elements, with animation supplied by the user agent. The attribute targets common switch use cases. Cases requiring child content are not supported by the attribute, and a standalone <switch> element is out of scope for this proposal.",
+      "motivation": "Switches are common in settings, preferences, feature controls, and consent interfaces, but the HTML Standard does not currently define a native switch control. Developers instead rely on JavaScript component libraries, visually hidden checkboxes with custom CSS, or generic elements with role=\"switch\". Depending on the approach, developers may need to recreate accessibility semantics, keyboard handling, state management, or form participation. These approaches can result in inconsistent behavior and accessibility, fragile implementations, and unnecessary JavaScript costs.",
+      "url": "https://chromestatus.com/feature/5178587742339072",
+      "bug-url": "https://issues.chromium.org/issues/41484737",
+      "spec-link": "https://github.com/whatwg/html/pull/9546",
+      "explainer-links": [
+        "https://open-ui.org/components/switch.attribute.explainer"
+      ],
+      "updated": {
+        "by": "leo.lee@microsoft.com",
+        "when": "2026-07-18 07:00:50.366910"
       }
     }
   ]
