@@ -4043,6 +4043,20 @@
   ],
   "counter-style": [
     {
+      "id": 5146996093616128,
+      "name": "CSS Symbols()",
+      "summary": "CSS symbols() is a CSS function that enables CSS counter styles inline as a value of properties such as list-style. This enables a simpler way to define a counter style compared to using @counter-style.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5146996093616128",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "javiercon@microsoft.com",
+        "when": "2026-07-20 15:25:24.180919"
+      }
+    },
+    {
       "id": 5687059677184000,
       "name": "CSS @counter-style descriptor 'speak-as'",
       "summary": "A custom counter style can be constructed with a meaning that is obvious visually, but impossible to meaningfully represent via a speech synthesizer or other non-visual means, or possible but nonsensical when naively read out loud. The 'speak-as' descriptor describes how to synthesize the spoken form of a counter formatted with the given counter style.",
@@ -4577,11 +4591,11 @@
       "motivation": null,
       "url": "https://chromestatus.com/feature/5114591051907072",
       "bug-url": "https://issues.chromium.org/issues/534781956",
-      "spec-link": null,
+      "spec-link": "https://www.w3.org/TR/css-typed-om-1/#stylevalue-subclasses",
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@chromium.org",
-        "when": "2026-07-15 13:47:25.826267"
+        "when": "2026-07-20 11:48:52.797595"
       }
     },
     {
@@ -4830,7 +4844,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-06-25 11:48:48.272455"
+        "when": "2026-07-21 03:22:58.068386"
       }
     },
     {
@@ -9225,8 +9239,8 @@
         "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md"
       ],
       "updated": {
-        "by": "alvinji@google.com",
-        "when": "2026-06-22 18:50:59.922807"
+        "by": "antoniosartori@google.com",
+        "when": "2026-07-21 09:15:57.505907"
       }
     },
     {
@@ -15852,7 +15866,7 @@
       ],
       "updated": {
         "by": "sisidovski@chromium.org",
-        "when": "2026-07-17 15:54:45.560573"
+        "when": "2026-07-21 07:57:07.177999"
       }
     },
     {
@@ -16053,7 +16067,7 @@
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-07-06 15:15:27.585419"
+        "when": "2026-07-20 20:33:15.799461"
       }
     },
     {
@@ -16069,7 +16083,7 @@
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-06-29 15:09:53.033724"
+        "when": "2026-07-21 08:12:50.983178"
       }
     },
     {
@@ -25083,8 +25097,8 @@
       "spec-link": "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-renderquantumsize",
       "explainer-links": [],
       "updated": {
-        "by": "hongchan@google.com",
-        "when": "2026-07-13 09:36:06.369893"
+        "by": "mjwilson@chromium.org",
+        "when": "2026-07-20 22:18:03.747780"
       }
     },
     {
@@ -30043,8 +30057,8 @@
       "spec-link": "https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-audioselection",
       "explainer-links": [],
       "updated": {
-        "by": "agpalak@google.com",
-        "when": "2026-07-17 18:18:40.253444"
+        "by": "crushworth@google.com",
+        "when": "2026-07-21 08:44:19.054818"
       }
     }
   ],
@@ -30063,6 +30077,22 @@
       "updated": {
         "by": "leo.lee@microsoft.com",
         "when": "2026-07-18 07:00:50.366910"
+      }
+    }
+  ],
+  "origin": [
+    {
+      "id": 5079000453087232,
+      "name": "BlobOpaqueOriginForInnerNonHttpNonFileScheme",
+      "summary": "Give a blob URL an opaque origin unless the scheme of its inner URL is http, https, or file. When a blob URL is created from an inner URL with any other scheme, such as ftp, ws, or wss, its origin becomes opaque and serializes as 'null' instead of being copied from the inner URL, so the blob URL is treated as cross-origin to everything else. This gives web developers consistent and predictable origin behavior for blob URLs across browsers.",
+      "motivation": "The URL Standard defines a blob URL's origin as the origin of its inner URL only when the inner scheme is http, https, or file, and an opaque origin otherwise.\nChrome instead derives a tuple origin from the inner URL for any standard scheme, including ones such as ftp, ws, and wss that are not allowed to preserve their origin for the blob URL.\nWhen such a blob URL is given a tuple origin, it is treated as same-origin with other content sharing that origin, even though that was never intended, creating opportunities for origin confusion in security checks.\nIt also diverges from other browsers, so the same blob URL can be treated as same-origin in Chrome but cross-origin elsewhere, making origin-based security decisions more complicated.\nTreating these blob URLs as opaque origins removes the divergence and makes a blob URL's origin match what the spec describes.",
+      "url": "https://chromestatus.com/feature/5079000453087232",
+      "bug-url": "https://crbug.com/534847486",
+      "spec-link": "https://url.spec.whatwg.org/#origin",
+      "explainer-links": [],
+      "updated": {
+        "by": "blee@igalia.com",
+        "when": "2026-07-21 03:50:55.910551"
       }
     }
   ]
