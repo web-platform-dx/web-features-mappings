@@ -3334,6 +3334,20 @@
   ],
   "compression-dictionary-transport": [
     {
+      "id": 5137485911949312,
+      "name": "Pervasive Compression Dictionaries",
+      "summary": "This extends the existing [Cache sharing for extremely pervasive resources](https://chromestatus.com/feature/5202380930678784) to allow for pervasive resources that are also [compression dictionaries](https://www.rfc-editor.org/rfc/rfc9842.txt) to match across cache partition boundaries.\n\nThis will allow for the pervasive resources that are already in a single-keyed cache to use delta-compression for updates.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5137485911949312",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "pmeenan@chromium.org",
+        "when": "2026-07-22 01:30:52.972201"
+      }
+    },
+    {
       "id": 6408307086589952,
       "name": "Compression Dictionary TTL",
       "summary": "Adds support for an explicit time-to-live for dictionaries used in Compression Dictionary Transport. This is a backward-compatible extension to the \"Use-As-Dictionary\" HTTP response header that adds a \"ttl\" parameter.\r\n\r\nThe ttl is the number of seconds after the dictionary was last fetched that it is usable as a compression dictionary and overrides the default expiration (which is to expire when the underlying resource expires from the HTTP cache).\r\n\r\nFor example:\r\n\r\nUse-AsDictionary: match=\"/*\", ttl=600\r\n\r\nWould make the response available as a compression dictionary for 10 minutes independent of the HTTP caching headers.\r\n\r\nThis capability was part of the original feature but dropped during the standards process because of a lack of compelling use cases at the time. New use cases have emerged as the feature gains adoption that make it useful to add as an extension.\r\n\r\nDoc: https://docs.google.com/document/d/1uAutnUWpC6V-ka_MA-4m74YV12LAA6qP1sYjy97S2-0/edit?usp=sharing",
@@ -4046,14 +4060,16 @@
       "id": 5146996093616128,
       "name": "CSS Symbols()",
       "summary": "CSS symbols() is a CSS function that enables CSS counter styles inline as a value of properties such as list-style. This enables a simpler way to define a counter style compared to using @counter-style.",
-      "motivation": null,
+      "motivation": "Defining a custom list marker in CSS today requires authoring a named  @counter-style  rule and referencing it by name, which is needlessly verbose for one-off, anonymous markers. The  symbols()  function lets authors define the same counter style inline, without inventing or managing a global name. It works wherever a counter style is accepted, including  list-style-type  and the  counter() / counters()  functions. Firefox has shipped  symbols()  since 2015, but Chromium and Safari have not, leaving a standing interoperability gap that web developers regularly encounter (https://issues.chromium.org/issues/484510686).",
       "url": "https://chromestatus.com/feature/5146996093616128",
-      "bug-url": null,
-      "spec-link": null,
-      "explainer-links": [],
+      "bug-url": "https://issues.chromium.org/issues/40747844",
+      "spec-link": "https://drafts.csswg.org/css-counter-styles-3/#symbols-function",
+      "explainer-links": [
+        "https://developer.mozilla.org/docs/Web/CSS/symbols"
+      ],
       "updated": {
-        "by": "javiercon@microsoft.com",
-        "when": "2026-07-20 15:25:24.180919"
+        "by": "t-anaanand@microsoft.com",
+        "when": "2026-07-21 17:31:35.135688"
       }
     },
     {
@@ -12757,8 +12773,8 @@
         "https://github.com/WICG/manifest-incubations/blob/gh-pages/pwa-migration-explainer.md"
       ],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-06-17 10:19:42.196243"
+        "by": "dibyapal@chromium.org",
+        "when": "2026-07-21 18:21:21.133609"
       }
     },
     {
@@ -15232,7 +15248,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-07-07 18:07:32.911885"
+        "when": "2026-07-21 17:36:58.712290"
       }
     },
     {
@@ -15866,7 +15882,7 @@
       ],
       "updated": {
         "by": "sisidovski@chromium.org",
-        "when": "2026-07-21 07:57:07.177999"
+        "when": "2026-07-22 08:00:03.791009"
       }
     },
     {
@@ -25098,7 +25114,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mjwilson@chromium.org",
-        "when": "2026-07-20 22:18:03.747780"
+        "when": "2026-07-21 21:31:18.227855"
       }
     },
     {
@@ -30058,7 +30074,7 @@
       "explainer-links": [],
       "updated": {
         "by": "crushworth@google.com",
-        "when": "2026-07-21 08:44:19.054818"
+        "when": "2026-07-21 14:19:36.764453"
       }
     }
   ],
