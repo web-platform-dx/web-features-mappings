@@ -4069,7 +4069,7 @@
       ],
       "updated": {
         "by": "t-anaanand@microsoft.com",
-        "when": "2026-07-21 17:31:35.135688"
+        "when": "2026-07-23 00:14:26.411587"
       }
     },
     {
@@ -12774,7 +12774,7 @@
       ],
       "updated": {
         "by": "dibyapal@chromium.org",
-        "when": "2026-07-21 18:21:21.133609"
+        "when": "2026-07-22 11:51:42.925030"
       }
     },
     {
@@ -15882,7 +15882,7 @@
       ],
       "updated": {
         "by": "sisidovski@chromium.org",
-        "when": "2026-07-22 08:00:03.791009"
+        "when": "2026-07-22 15:27:04.400709"
       }
     },
     {
@@ -16083,7 +16083,7 @@
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-07-20 20:33:15.799461"
+        "when": "2026-07-22 21:45:32.224294"
       }
     },
     {
@@ -16099,7 +16099,7 @@
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-07-21 08:12:50.983178"
+        "when": "2026-07-22 21:30:38.758080"
       }
     },
     {
@@ -17014,6 +17014,22 @@
     }
   ],
   "profiler": [
+    {
+      "id": 5201297767792640,
+      "name": "JS Self-Profiling Markers",
+      "summary": "The JavaScript Self-Profiling API lets a web application sample its own call stacks to measure performance on real user devices. This feature adds an optional marker field to each captured sample that identifies the type of browser activity running when the sample was taken: script, gc, style, layout, paint, or other. A trace normally shows gaps between stacks that cannot be interpreted, markers let developers attribute that time to browser work happening outside their JavaScript, for example distinguishing script execution from style recalculation, layout, or a garbage collection pause, making slow traces easier to analyze and optimize.",
+      "motivation": "The JavaScript Self-Profiling API lets web apps sample their own call stacks on real user devices, but it profiles only the page's JavaScript, leaving unexplained gaps where time went to style, layout, paint, or garbage collection. Some of that work, like GC, interrupts stack execution and is invisible to stack sampling. A per-sample marker identifies the browser activity, letting developers attribute slow field traces to non-JavaScript work and optimize accordingly.\n",
+      "url": "https://chromestatus.com/feature/5201297767792640",
+      "bug-url": null,
+      "spec-link": "https://github.com/WICG/js-self-profiling/pull/89",
+      "explainer-links": [
+        "https://github.com/WICG/js-self-profiling/blob/main/markers.md"
+      ],
+      "updated": {
+        "by": "monicach@microsoft.com",
+        "when": "2026-07-22 22:01:51.179053"
+      }
+    },
     {
       "id": 5159559872249856,
       "name": "js-profiling in dedicated workers",
@@ -25114,7 +25130,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mjwilson@chromium.org",
-        "when": "2026-07-21 21:31:18.227855"
+        "when": "2026-07-22 15:26:12.376113"
       }
     },
     {
@@ -26971,7 +26987,7 @@
       ],
       "updated": {
         "by": "alanbaker@google.com",
-        "when": "2026-07-06 09:45:26.114157"
+        "when": "2026-07-22 15:05:57.426009"
       }
     },
     {
@@ -30040,7 +30056,7 @@
       ],
       "updated": {
         "by": "daniec@microsoft.com",
-        "when": "2026-07-09 09:00:46.197197"
+        "when": "2026-07-22 18:45:08.192729"
       }
     }
   ],
@@ -30069,12 +30085,14 @@
       "summary": "Adds an audioPreference attribute to the DisplayMediaStreamOptions dictionary used in the getDisplayMedia API. \n\nThis hint allows web applications to signal to the UA that they prefer audio sharing along with video. This helps developers ensure that applications relying on audio capture work seamlessly.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5085785343787008",
-      "bug-url": null,
+      "bug-url": "https://issues.chromium.org/issues/535514300",
       "spec-link": "https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-audioselection",
-      "explainer-links": [],
+      "explainer-links": [
+        "https://github.com/palak8669/mediacapture-screen-share-audio-capture/blob/palak8669-patch-1/audio_selection_explainer.md"
+      ],
       "updated": {
-        "by": "crushworth@google.com",
-        "when": "2026-07-21 14:19:36.764453"
+        "by": "agpalak@google.com",
+        "when": "2026-07-22 15:27:41.686015"
       }
     }
   ],
@@ -30105,10 +30123,12 @@
       "url": "https://chromestatus.com/feature/5079000453087232",
       "bug-url": "https://crbug.com/534847486",
       "spec-link": "https://url.spec.whatwg.org/#origin",
-      "explainer-links": [],
+      "explainer-links": [
+        "https://github.com/Igalia/explainers/tree/main/blob-url-opaque-origin"
+      ],
       "updated": {
         "by": "blee@igalia.com",
-        "when": "2026-07-21 03:50:55.910551"
+        "when": "2026-07-23 09:35:15.926871"
       }
     }
   ]
