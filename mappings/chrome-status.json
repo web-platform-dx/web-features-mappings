@@ -3344,7 +3344,7 @@
       "explainer-links": [],
       "updated": {
         "by": "pmeenan@chromium.org",
-        "when": "2026-07-22 01:30:52.972201"
+        "when": "2026-07-23 19:17:48.534451"
       }
     },
     {
@@ -4056,22 +4056,6 @@
     }
   ],
   "counter-style": [
-    {
-      "id": 5146996093616128,
-      "name": "CSS Symbols()",
-      "summary": "CSS symbols() is a CSS function that enables CSS counter styles inline as a value of properties such as list-style. This enables a simpler way to define a counter style compared to using @counter-style.",
-      "motivation": "Defining a custom list marker in CSS today requires authoring a named  @counter-style  rule and referencing it by name, which is needlessly verbose for one-off, anonymous markers. The  symbols()  function lets authors define the same counter style inline, without inventing or managing a global name. It works wherever a counter style is accepted, including  list-style-type  and the  counter() / counters()  functions. Firefox has shipped  symbols()  since 2015, but Chromium and Safari have not, leaving a standing interoperability gap that web developers regularly encounter (https://issues.chromium.org/issues/484510686).",
-      "url": "https://chromestatus.com/feature/5146996093616128",
-      "bug-url": "https://issues.chromium.org/issues/40747844",
-      "spec-link": "https://drafts.csswg.org/css-counter-styles-3/#symbols-function",
-      "explainer-links": [
-        "https://developer.mozilla.org/docs/Web/CSS/symbols"
-      ],
-      "updated": {
-        "by": "t-anaanand@microsoft.com",
-        "when": "2026-07-23 00:14:26.411587"
-      }
-    },
     {
       "id": 5687059677184000,
       "name": "CSS @counter-style descriptor 'speak-as'",
@@ -9024,10 +9008,12 @@
       "url": "https://chromestatus.com/feature/5075054393163776",
       "bug-url": "https://crbug.com/339841686",
       "spec-link": "https://pr-preview.s3.amazonaws.com/xingri/gamepad/pull/196.html#gamepadbuttontype-enum",
-      "explainer-links": [],
+      "explainer-links": [
+        "https://xingri.github.io/gamepad-button-type"
+      ],
       "updated": {
         "by": "mattreynolds@google.com",
-        "when": "2026-06-26 22:29:52.160660"
+        "when": "2026-07-24 01:14:24.405311"
       }
     },
     {
@@ -16083,7 +16069,7 @@
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-07-22 21:45:32.224294"
+        "when": "2026-07-23 17:37:05.853816"
       }
     },
     {
@@ -17027,7 +17013,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-07-22 22:01:51.179053"
+        "when": "2026-07-23 21:14:37.257600"
       }
     },
     {
@@ -19467,6 +19453,22 @@
     }
   ],
   "select": [
+    {
+      "id": 5127427618635776,
+      "name": "Slotted Options for <select>",
+      "summary": "Enables HTML <select> elements to recognize options, option groups, separators, and trigger buttons supplied through slots or descendant shadow trees. These elements behave like direct descendants, letting developers build reusable select components without having to copy options or reimplementing native behavior.",
+      "motivation": "Web component authors cannot wrap a native <select> element and let component users provide <option> elements through a <slot> because the select does not recognize those options. Developers must move or copy options into the select and keep them synchronized with extra code, or rebuild the native select element from scratch (see https://open-ui.org/components/select.slotted.option/#stakeholder-feedback--opposition).\n\nRecognizing options (and <optgroup>, <hr>, and <button>) in the select's flat tree lets developers wrap the native select in a component instead of having to go through complex workarounds.",
+      "url": "https://chromestatus.com/feature/5127427618635776",
+      "bug-url": "https://issues.chromium.org/issues/40236878",
+      "spec-link": null,
+      "explainer-links": [
+        "https://open-ui.org/components/select.slotted.option"
+      ],
+      "updated": {
+        "by": "ffiori@microsoft.com",
+        "when": "2026-07-23 23:31:05.332581"
+      }
+    },
     {
       "id": 5089468667265024,
       "name": "Support slotting option elements in select elements",
@@ -25129,8 +25131,8 @@
       "spec-link": "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-renderquantumsize",
       "explainer-links": [],
       "updated": {
-        "by": "mjwilson@chromium.org",
-        "when": "2026-07-22 15:26:12.376113"
+        "by": "hongchan@google.com",
+        "when": "2026-07-23 15:37:52.517802"
       }
     },
     {
@@ -25176,7 +25178,7 @@
       ],
       "updated": {
         "by": "hongchan@google.com",
-        "when": "2026-02-11 16:52:56.583045"
+        "when": "2026-07-23 15:04:42.486555"
       }
     },
     {
@@ -30119,7 +30121,7 @@
       "id": 5079000453087232,
       "name": "BlobOpaqueOriginForInnerNonHttpNonFileScheme",
       "summary": "Give a blob URL an opaque origin unless the scheme of its inner URL is http, https, or file. When a blob URL is created from an inner URL with any other scheme, such as ftp, ws, or wss, its origin becomes opaque and serializes as 'null' instead of being copied from the inner URL, so the blob URL is treated as cross-origin to everything else. This gives web developers consistent and predictable origin behavior for blob URLs across browsers.",
-      "motivation": "The URL Standard defines a blob URL's origin as the origin of its inner URL only when the inner scheme is http, https, or file, and an opaque origin otherwise.\nChrome instead derives a tuple origin from the inner URL for any standard scheme, including ones such as ftp, ws, and wss that are not allowed to preserve their origin for the blob URL.\nWhen such a blob URL is given a tuple origin, it is treated as same-origin with other content sharing that origin, even though that was never intended, creating opportunities for origin confusion in security checks.\nIt also diverges from other browsers, so the same blob URL can be treated as same-origin in Chrome but cross-origin elsewhere, making origin-based security decisions more complicated.\nTreating these blob URLs as opaque origins removes the divergence and makes a blob URL's origin match what the spec describes.",
+      "motivation": "The URL Standard defines a blob URL's origin as the origin of its inner URL only when the inner scheme is http, https, or file, and an opaque origin otherwise.\nChrome instead derives an origin from the inner URL for any standard scheme, including ones such as ftp, ws, and wss that are not allowed to preserve their origin for the blob URL, while Firefox and Safari work as specified.",
       "url": "https://chromestatus.com/feature/5079000453087232",
       "bug-url": "https://crbug.com/534847486",
       "spec-link": "https://url.spec.whatwg.org/#origin",
@@ -30128,7 +30130,7 @@
       ],
       "updated": {
         "by": "blee@igalia.com",
-        "when": "2026-07-23 09:35:15.926871"
+        "when": "2026-07-23 23:11:38.718510"
       }
     }
   ]
