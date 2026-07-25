@@ -2880,27 +2880,6 @@
       "https://crbug.com/1379513",
       "https://crbug.com/1042130",
       "https://crbug.com/493315747"
-    ],
-    "chrome_android": [
-      "https://crbug.com/493315747"
-    ],
-    "edge": [
-      "https://crbug.com/493315747"
-    ],
-    "oculus": [
-      "https://crbug.com/493315747"
-    ],
-    "opera": [
-      "https://crbug.com/493315747"
-    ],
-    "opera_android": [
-      "https://crbug.com/493315747"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/493315747"
-    ],
-    "webview_android": [
-      "https://crbug.com/493315747"
     ]
   },
   "dedicated-workers": {
@@ -4404,6 +4383,7 @@
   },
   "media-capabilities": {
     "chrome": [
+      "http://crbug.com/498284510",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1048045",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1020943",
       "https://crbug.com/907952",
@@ -5004,6 +4984,7 @@
   },
   "profiler": {
     "chrome": [
+      "https://issues.chromium.org/issues/40800459",
       "https://issues.chromium.org/issues/482085416",
       "https://issues.chromium.org/issues/473861788?pli=1",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=956688"

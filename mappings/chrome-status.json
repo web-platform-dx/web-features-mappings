@@ -511,7 +511,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-02-02 09:05:18.325745"
+        "when": "2026-07-24 14:16:32.347536"
       }
     },
     {
@@ -4594,8 +4594,8 @@
       "spec-link": "https://www.w3.org/TR/css-typed-om-1/#stylevalue-subclasses",
       "explainer-links": [],
       "updated": {
-        "by": "jfernandez@chromium.org",
-        "when": "2026-07-20 11:48:52.797595"
+        "by": "jfernandez@igalia.com",
+        "when": "2026-07-24 14:50:34.928573"
       }
     },
     {
@@ -13065,6 +13065,20 @@
   ],
   "media-capabilities": [
     {
+      "id": 4644898109259776,
+      "name": "MediaCapabilities.decodingInfo.encryptionScheme",
+      "summary": "Adds the `encryptionScheme` attribute to the `KeySystemTrackConfiguration` dictionary used in `navigator.mediaCapabilities.decodingInfo()`. This allows web applications to query whether a specific encryption scheme (such as `'cenc'` or `'cbcs'`) is supported. \n\n*Note: This feature is already approved by the W3C spec and the underlying backend implementation in Chromium already exists. This launch is purely to plumb the `encryptionScheme` property from the Blink IDL layer to the existing backend.*",
+      "motivation": "Currently, Chromium only allows developers to query media capabilities based on codec and `robustness`. With the ecosystem's migration towards the `'cbcs'` encryption scheme, there is significant device fragmentation. Exposing `encryptionScheme` in `decodingInfo()` allows developers to accurately detect if their encrypted media will play. Since the backend support is already implemented, this simply completes the Blink-layer plumbing to match other browsers and the W3C spec.",
+      "url": "https://chromestatus.com/feature/4644898109259776",
+      "bug-url": "http://crbug.com/498284510",
+      "spec-link": "https://w3c.github.io/media-capabilities/#dom-keysystemtrackconfiguration-encryptionscheme",
+      "explainer-links": [],
+      "updated": {
+        "by": "sangbaekpark@chromium.org",
+        "when": "2026-07-24 20:54:58.740262"
+      }
+    },
+    {
       "id": 6640863931269120,
       "name": "MediaCapabilities: Query HDR support with decodingInfo()",
       "summary": "Extends the Media Capabilities API to allow detection of HDR rendering support via three new VideoConfiguration dictionary fields: hdrMetadataType, colorGamut, transferFunction.\n\nChromium implements its own tone-mapping algorithms so will always return true for HDR10 (smpteSt2086) static metadata. smpteSt2094-40 (HDR10+) and smpteSt2094-10 dynamic metadata are not currently supported, so will return false.\n\nWe anticipate adding support for dynamic metadata in the future, so this API will allow developers to select the appropriate content for users with support.",
@@ -16069,7 +16083,7 @@
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-07-23 17:37:05.853816"
+        "when": "2026-07-24 14:33:27.388070"
       }
     },
     {
@@ -17006,14 +17020,14 @@
       "summary": "The JavaScript Self-Profiling API lets a web application sample its own call stacks to measure performance on real user devices. This feature adds an optional marker field to each captured sample that identifies the type of browser activity running when the sample was taken: script, gc, style, layout, paint, or other. A trace normally shows gaps between stacks that cannot be interpreted, markers let developers attribute that time to browser work happening outside their JavaScript, for example distinguishing script execution from style recalculation, layout, or a garbage collection pause, making slow traces easier to analyze and optimize.",
       "motivation": "The JavaScript Self-Profiling API lets web apps sample their own call stacks on real user devices, but it profiles only the page's JavaScript, leaving unexplained gaps where time went to style, layout, paint, or garbage collection. Some of that work, like GC, interrupts stack execution and is invisible to stack sampling. A per-sample marker identifies the browser activity, letting developers attribute slow field traces to non-JavaScript work and optimize accordingly.\n",
       "url": "https://chromestatus.com/feature/5201297767792640",
-      "bug-url": null,
+      "bug-url": "https://issues.chromium.org/issues/40800459",
       "spec-link": "https://github.com/WICG/js-self-profiling/pull/89",
       "explainer-links": [
         "https://github.com/WICG/js-self-profiling/blob/main/markers.md"
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-07-23 21:14:37.257600"
+        "when": "2026-07-24 20:35:33.798825"
       }
     },
     {
@@ -19453,22 +19467,6 @@
     }
   ],
   "select": [
-    {
-      "id": 5127427618635776,
-      "name": "Slotted Options for <select>",
-      "summary": "Enables HTML <select> elements to recognize options, option groups, separators, and trigger buttons supplied through slots or descendant shadow trees. These elements behave like direct descendants, letting developers build reusable select components without having to copy options or reimplementing native behavior.",
-      "motivation": "Web component authors cannot wrap a native <select> element and let component users provide <option> elements through a <slot> because the select does not recognize those options. Developers must move or copy options into the select and keep them synchronized with extra code, or rebuild the native select element from scratch (see https://open-ui.org/components/select.slotted.option/#stakeholder-feedback--opposition).\n\nRecognizing options (and <optgroup>, <hr>, and <button>) in the select's flat tree lets developers wrap the native select in a component instead of having to go through complex workarounds.",
-      "url": "https://chromestatus.com/feature/5127427618635776",
-      "bug-url": "https://issues.chromium.org/issues/40236878",
-      "spec-link": null,
-      "explainer-links": [
-        "https://open-ui.org/components/select.slotted.option"
-      ],
-      "updated": {
-        "by": "ffiori@microsoft.com",
-        "when": "2026-07-23 23:31:05.332581"
-      }
-    },
     {
       "id": 5089468667265024,
       "name": "Support slotting option elements in select elements",
@@ -26989,7 +26987,7 @@
       ],
       "updated": {
         "by": "alanbaker@google.com",
-        "when": "2026-07-22 15:05:57.426009"
+        "when": "2026-07-24 13:39:49.498988"
       }
     },
     {
