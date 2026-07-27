@@ -4595,7 +4595,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-07-24 14:50:34.928573"
+        "when": "2026-07-27 08:29:36.132744"
       }
     },
     {
@@ -5911,6 +5911,22 @@
     }
   ],
   "edit-context": [
+    {
+      "id": 5130535027474432,
+      "name": "Add \"beginBatchEdit\" and \"endBatchEdit\" for EditContext",
+      "summary": "When updating multiple properties of an EditContext instance (such as text, selection offsets, control bounds, or character bounds), each individual method call (updateText(), updateSelection(), updateCharacterBounds(), etc.) can immediately trigger internal browser updates or synchronous inter-process communication (IPC) calls to the underlying OS Text Input Service / IME.\n\nIn complex rich-text editors (e.g., collaborative editing sync, programmatic multi-step transformations, or custom IME handling), performing multiple atomic updates can result in:\n\nIntermediate invalid states exposed to the OS text input service or accessibility layer before the entire update sequence is complete.\nNative operating system text editing frameworks solve this by offering batching mechanisms (such as Android’s InputConnection.beginBatchEdit() and endBatchEdit()).\n\nProposal\nWe propose introducing events for beginBatchEdit and endBatchEdit so developers can respond to batch edit state changes.\n\n",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5130535027474432",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/hd-chuong/edit-context-batch-edit-begin-and-end-events/blob/main/README.md"
+      ],
+      "updated": {
+        "by": "hdchuong@google.com",
+        "when": "2026-07-27 07:18:51.482399"
+      }
+    },
     {
       "id": 6229300214890496,
       "name": "EditContext: TextFormat underlineStyle and underlineThickness",
@@ -9232,17 +9248,17 @@
     {
       "id": 5143609755828224,
       "name": "Approximate geolocation",
-      "summary": "This feature extends the Geolocation API to enable sites to request approximate location data only.\n\nIn particular, a new parameter accuracyMode (either \"precise\" or \"approximate\", defaults to \"precise\" for backwards compatibility) can be specified in PositionOptions. A new permission \"geolocation-approximate\" controls access to approximate location only.",
-      "motivation": null,
+      "summary": "This feature extends the Geolocation API to enable sites to request approximate location data only.\n\nIn particular, a new parameter accuracyMode (either \"precise\" or \"approximate\", defaults to \"precise\" for backwards compatibility) can be specified in PositionOptions.",
+      "motivation": "Websites using the Geolocation API can often function properly with an approximate estimate of the user's position. This change enables websites to signal that to the user agent by requesting approximate location only, enhancing the user privacy without loss of functionality.\n\nSee https://github.com/explainers-by-googlers/approximate-geolocation for more context.",
       "url": "https://chromestatus.com/feature/5143609755828224",
       "bug-url": "https://issues.chromium.org/u/1/issues/495852854",
-      "spec-link": "https://github.com/w3c/geolocation/pull/195",
+      "spec-link": "https://github.com/w3c/geolocation/pull/233",
       "explainer-links": [
         "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md"
       ],
       "updated": {
         "by": "antoniosartori@google.com",
-        "when": "2026-07-21 09:15:57.505907"
+        "when": "2026-07-27 08:01:08.337579"
       }
     },
     {
@@ -10360,7 +10376,7 @@
       "explainer-links": [],
       "updated": {
         "by": "abhishek.shanthkumar@microsoft.com",
-        "when": "2026-06-15 09:03:50.186465"
+        "when": "2026-07-27 09:37:33.775321"
       }
     },
     {
