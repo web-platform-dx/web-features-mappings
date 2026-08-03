@@ -2004,6 +2004,7 @@
   },
   "accent-color": {
     "chrome": [
+      "https://issues.chromium.org/issues/536420071",
       "https://issues.chromium.org/issues/481353056",
       "https://issues.chromium.org/issues/40764875",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1092093"
@@ -3439,6 +3440,7 @@
   },
   "focusgroup": {
     "chrome": [
+      "https://issues.chromium.org/issues/445992558",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1286127"
     ]
   },
@@ -6976,6 +6978,11 @@
   "switch-control": {
     "chrome": [
       "https://issues.chromium.org/issues/41484737"
+    ]
+  },
+  "translator": {
+    "chrome": [
+      "https://crbug.com/428227642"
     ]
   },
   "anchor-positioning-transforms": {
