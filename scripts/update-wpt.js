@@ -74,14 +74,37 @@ async function main() {
   for (const file of webFeatureFiles) {
     const parsedContent = await parseYamlFile(path.join(TEMP_FOLDER, file));
 
-    for (const feature of parsedContent.features) {
-      if (!features[feature.name]) {
-        console.warn(`Feature ID "${feature.name}" in ${file} is not a valid web-features ID, skipping.`);
+    // Since RFC 237, WEB_FEATURES.yml files use a flat list of "rules". Each
+    // rule is a single-key object mapping a file pattern to a list of
+    // web-feature IDs (an empty list means the matching files are excluded
+    // from any feature). See:
+    // https://github.com/web-platform-tests/rfcs/blob/main/rfcs/web_features_exclusions.md
+    const featureIds = new Set();
+
+    if (Array.isArray(parsedContent?.rules)) {
+      for (const rule of parsedContent.rules) {
+        for (const ids of Object.values(rule)) {
+          for (const id of ids) {
+            featureIds.add(id);
+          }
+        }
+      }
+    } else if (Array.isArray(parsedContent?.features)) {
+      // Fall back to the older schema that used a "features" list of objects
+      // with a "name" property.
+      for (const feature of parsedContent.features) {
+        featureIds.add(feature.name);
+      }
+    }
+
+    for (const featureId of featureIds) {
+      if (!features[featureId]) {
+        console.warn(`Feature ID "${featureId}" in ${file} is not a valid web-features ID, skipping.`);
         continue;
       }
 
-      mapping[feature.name] = {
-        url: `https://wpt.fyi/results?q=feature:${feature.name}`
+      mapping[featureId] = {
+        url: `https://wpt.fyi/results?q=feature:${featureId}`
       };
     }
   }
