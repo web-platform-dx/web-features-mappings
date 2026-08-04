@@ -1744,29 +1744,7 @@
       "https://bugzil.la/2013367"
     ],
     "chrome": [
-      "https://crbug.com/40246121",
-      "https://crbug.com/40748199"
-    ],
-    "chrome_android": [
-      "https://crbug.com/40748199"
-    ],
-    "edge": [
-      "https://crbug.com/40748199"
-    ],
-    "oculus": [
-      "https://crbug.com/40748199"
-    ],
-    "opera": [
-      "https://crbug.com/40748199"
-    ],
-    "opera_android": [
-      "https://crbug.com/40748199"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40748199"
-    ],
-    "webview_android": [
-      "https://crbug.com/40748199"
+      "https://crbug.com/40246121"
     ]
   },
   "scroll-initial-target": {
@@ -2879,8 +2857,7 @@
     "chrome": [
       "https://issues.chromium.org/issues/493315747",
       "https://crbug.com/1379513",
-      "https://crbug.com/1042130",
-      "https://crbug.com/493315747"
+      "https://crbug.com/1042130"
     ]
   },
   "dedicated-workers": {
@@ -4986,7 +4963,6 @@
   },
   "profiler": {
     "chrome": [
-      "https://issues.chromium.org/issues/40800459",
       "https://issues.chromium.org/issues/482085416",
       "https://issues.chromium.org/issues/473861788?pli=1",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=956688"

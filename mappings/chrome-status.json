@@ -152,7 +152,7 @@
     {
       "id": 6207138742534144,
       "name": "AccentColor & AccentColorText follows accent-color value",
-      "summary": "AccentColor and AccentColorText reflect the element's effective accent-color value instead of only platform-provided system accent colors.\n\nThis allows CSS to reference the same colors used by accent-color styling, making it easier to keep custom styling consistent with form controls and other accented UI. It aligns Chromium's behavior with the CSS Color Module Level 4 specification.",
+      "summary": "AccentColor and AccentColorText reflect the element's effective `accent-color` value instead of only platform-provided system accent colors.\n\nThis allows CSS to reference the same colors used by `accent-color` styling, making it easier to keep custom styling consistent with form controls and other accented UI. It aligns Chromium's behavior with the CSS Color Module Level 4 specification.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/6207138742534144",
       "bug-url": "https://issues.chromium.org/issues/536420071",
@@ -160,7 +160,7 @@
       "explainer-links": [],
       "updated": {
         "by": "akyereboah@microsoft.com",
-        "when": "2026-07-31 22:02:22.903943"
+        "when": "2026-08-03 18:41:01.077858"
       }
     },
     {
@@ -4609,7 +4609,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-07-30 12:35:51.802283"
+        "when": "2026-08-03 18:13:46.783220"
       }
     },
     {
@@ -8132,8 +8132,8 @@
   "focusgroup": [
     {
       "id": 5168133036965888,
-      "name": "FocusgroupV2: grid, feed, and itemcontrols",
-      "summary": "Extends the declarative focusgroup attribute to richer composite widgets. The itemcontrols modifier makes nested controls sequentially reachable only for the active item; feed models ARIA-style content streams; and grid provides two-dimensional focus navigation with configurable wrapping and flow. These additions reduce custom focus-management code for cards, chat threads, feeds, and grids.",
+      "name": "FocusgroupV2: grid and feed",
+      "summary": "Extends the declarative `focusgroup` attribute to richer composite widgets. The new `itemcontrols` modifier (name pending bike shedding) makes nested controls sequentially reachable only for the active item; `feed` models ARIA-style content streams; and `grid` provides two-dimensional focus navigation with configurable wrapping and flow. These additions reduce custom focus-management code for cards, chat threads, feeds, and grid-based UI.",
       "motivation": "Authors currently implement complex keyboard focus management for cards, chat messages, feeds, and interactive grids using bespoke JavaScript. These implementations are difficult to make accessible and consistent, particularly when items contain nested controls or navigation spans two dimensions. Focusgroup V2 extends the existing declarative focusgroup primitive to cover these patterns, reducing duplicated focus-management code and providing consistent browser-managed behavior.",
       "url": "https://chromestatus.com/feature/5168133036965888",
       "bug-url": "https://issues.chromium.org/issues/445992558",
@@ -8143,7 +8143,7 @@
       ],
       "updated": {
         "by": "janewman@microsoft.com",
-        "when": "2026-07-31 20:35:34.265190"
+        "when": "2026-08-03 16:36:44.047834"
       }
     },
     {
@@ -17060,22 +17060,6 @@
     }
   ],
   "profiler": [
-    {
-      "id": 5201297767792640,
-      "name": "JS Self-Profiling Markers",
-      "summary": "The JavaScript Self-Profiling API lets a web application sample its own call stacks to measure performance on real user devices. This feature adds an optional marker field to each captured sample that identifies the type of browser activity running when the sample was taken: script, gc, style, layout, paint, or other. A trace normally shows gaps between stacks that cannot be interpreted, markers let developers attribute that time to browser work happening outside their JavaScript, for example distinguishing script execution from style recalculation, layout, or a garbage collection pause, making slow traces easier to analyze and optimize.",
-      "motivation": "The JavaScript Self-Profiling API lets web apps sample their own call stacks on real user devices, but it profiles only the page's JavaScript, leaving unexplained gaps where time went to style, layout, paint, or garbage collection. Some of that work, like GC, interrupts stack execution and is invisible to stack sampling. A per-sample marker identifies the browser activity, letting developers attribute slow field traces to non-JavaScript work and optimize accordingly.\n",
-      "url": "https://chromestatus.com/feature/5201297767792640",
-      "bug-url": "https://issues.chromium.org/issues/40800459",
-      "spec-link": "https://github.com/WICG/js-self-profiling/pull/89",
-      "explainer-links": [
-        "https://github.com/WICG/js-self-profiling/blob/main/markers.md"
-      ],
-      "updated": {
-        "by": "monicach@microsoft.com",
-        "when": "2026-07-29 18:50:39.779425"
-      }
-    },
     {
       "id": 5159559872249856,
       "name": "js-profiling in dedicated workers",

@@ -430,7 +430,7 @@
       {
         "id": 6207138742534144,
         "name": "AccentColor & AccentColorText follows accent-color value",
-        "summary": "AccentColor and AccentColorText reflect the element's effective accent-color value instead of only platform-provided system accent colors.\n\nThis allows CSS to reference the same colors used by accent-color styling, making it easier to keep custom styling consistent with form controls and other accented UI. It aligns Chromium's behavior with the CSS Color Module Level 4 specification.",
+        "summary": "AccentColor and AccentColorText reflect the element's effective `accent-color` value instead of only platform-provided system accent colors.\n\nThis allows CSS to reference the same colors used by `accent-color` styling, making it easier to keep custom styling consistent with form controls and other accented UI. It aligns Chromium's behavior with the CSS Color Module Level 4 specification.",
         "motivation": null,
         "url": "https://chromestatus.com/feature/6207138742534144",
         "bug-url": "https://issues.chromium.org/issues/536420071",
@@ -438,7 +438,7 @@
         "explainer-links": [],
         "updated": {
           "by": "akyereboah@microsoft.com",
-          "when": "2026-07-31 22:02:22.903943"
+          "when": "2026-08-03 18:41:01.077858"
         }
       },
       {
@@ -3307,7 +3307,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/293",
-      "votes": 105
+      "votes": 106
     },
     "chrome-status": [
       {
@@ -8837,7 +8837,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/258",
-      "votes": 6
+      "votes": 7
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.10715958,
@@ -12156,7 +12156,7 @@
         "explainer-links": [],
         "updated": {
           "by": "jfernandez@igalia.com",
-          "when": "2026-07-30 12:35:51.802283"
+          "when": "2026-08-03 18:13:46.783220"
         }
       },
       {
@@ -13323,8 +13323,7 @@
       "chrome": [
         "https://issues.chromium.org/issues/493315747",
         "https://crbug.com/1379513",
-        "https://crbug.com/1042130",
-        "https://crbug.com/493315747"
+        "https://crbug.com/1042130"
       ]
     }
   },
@@ -16456,7 +16455,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/297",
-      "votes": 8
+      "votes": 9
     },
     "bugs": {
       "firefox": [
@@ -20668,8 +20667,8 @@
     "chrome-status": [
       {
         "id": 5168133036965888,
-        "name": "FocusgroupV2: grid, feed, and itemcontrols",
-        "summary": "Extends the declarative focusgroup attribute to richer composite widgets. The itemcontrols modifier makes nested controls sequentially reachable only for the active item; feed models ARIA-style content streams; and grid provides two-dimensional focus navigation with configurable wrapping and flow. These additions reduce custom focus-management code for cards, chat threads, feeds, and grids.",
+        "name": "FocusgroupV2: grid and feed",
+        "summary": "Extends the declarative `focusgroup` attribute to richer composite widgets. The new `itemcontrols` modifier (name pending bike shedding) makes nested controls sequentially reachable only for the active item; `feed` models ARIA-style content streams; and `grid` provides two-dimensional focus navigation with configurable wrapping and flow. These additions reduce custom focus-management code for cards, chat threads, feeds, and grid-based UI.",
         "motivation": "Authors currently implement complex keyboard focus management for cards, chat messages, feeds, and interactive grids using bespoke JavaScript. These implementations are difficult to make accessible and consistent, particularly when items contain nested controls or navigation spans two dimensions. Focusgroup V2 extends the existing declarative focusgroup primitive to cover these patterns, reducing duplicated focus-management code and providing consistent browser-managed behavior.",
         "url": "https://chromestatus.com/feature/5168133036965888",
         "bug-url": "https://issues.chromium.org/issues/445992558",
@@ -20679,7 +20678,7 @@
         ],
         "updated": {
           "by": "janewman@microsoft.com",
-          "when": "2026-07-31 20:35:34.265190"
+          "when": "2026-08-03 16:36:44.047834"
         }
       },
       {
@@ -22643,6 +22642,10 @@
       {
         "description": "Using rem units in css has a major advantage of scaling down the webpage by equal proportional in media query by reducing the root font size and thus reducing the overwriting code.\n\nWe have an architecture in css files while developing a webpage, \n1. We have a common css that holds the styling for common elements (global header-footer, etc.).\n2. We have a template css that holds the styling for webpages that comes under a particular template.\n3. We then have a product css that contains the styling of product level elements or components (product header-footer, etc).\n4. Page level css that contains the styling for that particular webpage (part that lies in between the header and footer).\n\nNow, with this architecture, it is difficult for me to use rem units in css as changing the root font size in any css file under a media query would affect every other components differently and thus resulting in the decision of not changing the root font size at all.  So, in order to achieve this advantage I could use a scoped custom property called \"--page-zoom : 1\" and a custom function called \"--rem\" which when passed a number as parameter results the value multiplied with the \"--page-zoom\" value. \n\nI could now use --rem(5) instead of 5rem. This doesn't increase the verbosity and in media query, I could just change the value to \"--page-zoom: 0.85\" and this would scale the webpage proportionally as it would work when root font size is reduced but with the advantage of having this scaling applied only for that component.",
         "url": "https://github.com/web-platform-dx/developer-signals/issues/300#issuecomment-4924493137"
+      },
+      {
+        "description": "1. The most obvious advantage is reusability. I want to interpolate between two values; with `@function`, all I have to do is write this:\n```\n@function --lerp(--start, --end, --t) {\n\tresult: calc(var(--start) + var(--t) * (var(--end) - var(--start)));\n}\n```\nand use `--lerp()` wherever I want to interpolate between two values.\n\n2. I want to write cross-browser fallbacks with the at-rule. Let's take the `abs()` CSS function, it's newly available in all major browsers and if I want to write a fallback for older browsers using the `max(var(--num), -1 * var(--num))` trick, I can declare:\n```\n@function --abs(--num) {\n\tresult: abs(var(--num));\n\t@supports not (opacity: abs(-0.5)) {\n\t\tresult: max(var(--num), -1 * var(--num));\n\t}\n}\n```\nand use `--abs()` rather than the actual function until it's baseline. It would also be super easy to replace `--abs()` with `abs()` when it becomes baseline. Of course, `abs()` will be baseline before `@function` but the point is that writing fallbacks in general becomes much less of headache.\n\n3. With `@function`, I can write a function like the following:\n```\n@function --alpha(--color, --a) {\n\tresult: oklch(from var(--color) l c h / var(--a));\n}\n```\nand use it as `--alpha(var(--custom-color), 0.5)` rather than `oklch(from var(--custom-color) l c h / var(--a))` which hides the lightness, chroma, and saturation parameters and makes it clear that only the alpha value is meant to be modified. It gives us better encapsulation, reduces the possiblity of mistakes from new developers, and is more in line with the principle of least privilege.\n\n4. In general, `@function` gives me more creative control. I can write new functionalities without waiting for CSS to roll them out and provide cleaner fallbacks for them. I can write my own polyfills. It gives me more incentive to use CSS.",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/300#issuecomment-5173877714"
       }
     ],
     "state-of-surveys": [
@@ -33137,7 +33140,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/308",
-      "votes": 111
+      "votes": 112
     },
     "chrome-status": [
       {
@@ -33898,29 +33901,7 @@
         "https://bugzil.la/2013367"
       ],
       "chrome": [
-        "https://crbug.com/40246121",
-        "https://crbug.com/40748199"
-      ],
-      "chrome_android": [
-        "https://crbug.com/40748199"
-      ],
-      "edge": [
-        "https://crbug.com/40748199"
-      ],
-      "oculus": [
-        "https://crbug.com/40748199"
-      ],
-      "opera": [
-        "https://crbug.com/40748199"
-      ],
-      "opera_android": [
-        "https://crbug.com/40748199"
-      ],
-      "samsunginternet_android": [
-        "https://crbug.com/40748199"
-      ],
-      "webview_android": [
-        "https://crbug.com/40748199"
+        "https://crbug.com/40246121"
       ]
     }
   },
@@ -36600,7 +36581,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/23",
-      "votes": 14
+      "votes": 15
     },
     "chrome-status": [
       {
@@ -42421,22 +42402,6 @@
     },
     "chrome-status": [
       {
-        "id": 5201297767792640,
-        "name": "JS Self-Profiling Markers",
-        "summary": "The JavaScript Self-Profiling API lets a web application sample its own call stacks to measure performance on real user devices. This feature adds an optional marker field to each captured sample that identifies the type of browser activity running when the sample was taken: script, gc, style, layout, paint, or other. A trace normally shows gaps between stacks that cannot be interpreted, markers let developers attribute that time to browser work happening outside their JavaScript, for example distinguishing script execution from style recalculation, layout, or a garbage collection pause, making slow traces easier to analyze and optimize.",
-        "motivation": "The JavaScript Self-Profiling API lets web apps sample their own call stacks on real user devices, but it profiles only the page's JavaScript, leaving unexplained gaps where time went to style, layout, paint, or garbage collection. Some of that work, like GC, interrupts stack execution and is invisible to stack sampling. A per-sample marker identifies the browser activity, letting developers attribute slow field traces to non-JavaScript work and optimize accordingly.\n",
-        "url": "https://chromestatus.com/feature/5201297767792640",
-        "bug-url": "https://issues.chromium.org/issues/40800459",
-        "spec-link": "https://github.com/WICG/js-self-profiling/pull/89",
-        "explainer-links": [
-          "https://github.com/WICG/js-self-profiling/blob/main/markers.md"
-        ],
-        "updated": {
-          "by": "monicach@microsoft.com",
-          "when": "2026-07-29 18:50:39.779425"
-        }
-      },
-      {
         "id": 5159559872249856,
         "name": "js-profiling in dedicated workers",
         "summary": "Allows js-profiling in dedicated workers\n\nThis feature enables the JavaScript Self‑Profiling (js-profiling) API in Dedicated Workers, while remaining gated by Document Policy. It allows developers to obtain low‑overhead CPU attribution for JavaScript execution in workers, with Document Policy support for workers tracked separately.",
@@ -42487,7 +42452,6 @@
     ],
     "bugs": {
       "chrome": [
-        "https://issues.chromium.org/issues/40800459",
         "https://issues.chromium.org/issues/482085416",
         "https://issues.chromium.org/issues/473861788?pli=1",
         "https://bugs.chromium.org/p/chromium/issues/detail?id=956688"
@@ -56268,7 +56232,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/61",
-      "votes": 1
+      "votes": 2
     },
     "chrome-status": [
       {
