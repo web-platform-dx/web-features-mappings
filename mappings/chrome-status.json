@@ -3358,7 +3358,7 @@
       "explainer-links": [],
       "updated": {
         "by": "pmeenan@chromium.org",
-        "when": "2026-07-29 22:22:16.801761"
+        "when": "2026-08-04 20:44:05.650766"
       }
     },
     {
@@ -4602,14 +4602,14 @@
       "id": 5114591051907072,
       "name": "Expose CSSStyleValue hierarchy to Worker contexts",
       "summary": "The CSS Typed OM spec exposes the CSSStyleValue hierarchy to worker global scopes ([Exposed=(Window, Worker, PaintWorklet, LayoutWorklet)]), but Blink only exposed CSSStyleValue, CSSKeywordValue, CSSNumericValue, CSSUnitValue and CSSUnparsedValue to Window and the worklets. As a result these constructors were undefined in Workers, unlike in Firefox and Safari.",
-      "motivation": null,
+      "motivation": "Aligns Chrome with the spec's [Exposed] set and removes a cross‑thread inconsistency (these constructors are currently undefined in workers); enables off‑main‑thread CSS value manipulation",
       "url": "https://chromestatus.com/feature/5114591051907072",
       "bug-url": "https://issues.chromium.org/issues/534781956",
       "spec-link": "https://www.w3.org/TR/css-typed-om-1/#stylevalue-subclasses",
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-08-03 18:13:46.783220"
+        "when": "2026-08-05 06:51:31.284980"
       }
     },
     {
@@ -12708,7 +12708,7 @@
       ],
       "updated": {
         "by": "joone@chromium.org",
-        "when": "2026-08-03 08:19:27.941750"
+        "when": "2026-08-04 20:25:41.149059"
       }
     },
     {
@@ -13121,7 +13121,7 @@
       "explainer-links": [],
       "updated": {
         "by": "sangbaekpark@chromium.org",
-        "when": "2026-07-28 22:04:30.168495"
+        "when": "2026-08-04 17:16:10.290920"
       }
     },
     {
@@ -19309,6 +19309,20 @@
     }
   ],
   "scroll-snap": [
+    {
+      "id": 5124378896498688,
+      "name": "Support scrolling snapping to a single element",
+      "summary": "https://github.com/w3c/csswg-drafts/issues/9519\n\nAdd a \"pair\" keyword to scroll-snap-type. If used, when the container scroll snaps to an element on one axis, it should snap to the same element on the other axis.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5124378896498688",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "lcdavid@google.com",
+        "when": "2026-08-04 15:37:26.277981"
+      }
+    },
     {
       "id": 5086608215900160,
       "name": "Scroll snap for single-axis scroll containers",
@@ -27696,7 +27710,7 @@
     {
       "id": 5172464636133376,
       "name": "WebHID (Human Interface Device)",
-      "summary": "Enables web applications to interact with human interface devices (HIDs) other than the standard supported devices (mice, keyboards, touchscreens, and gamepads). However, there are many other HID devices that are currently inaccessible to the web. This API allows web applications to request access to these devices, send and receive HID reports, and retrieve information about the report descriptor.",
+      "summary": "Enables web applications to interact with human interface devices (HIDs) other than the standard supported devices (mice, keyboards, touchscreens, and gamepads). However, there are many other HID devices that are currently inaccessible to the web. This API allows web applications to request access to these devices, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, ChromeOS). Support on Android is planned for Chrome 157. This feature can be controlled by enterprise policies: \nDefaultWebHidGuardSetting, WebHidAllowAllDevicesForUrls, WebHidAllowDevicesForUrls, WebHidAllowDevicesWithHidUsagesForUrls, \nWebHidAskForUrls, WebHidBlockedForUrls.",
       "motivation": "",
       "url": "https://chromestatus.com/feature/5172464636133376",
       "bug-url": "https://crbug.com/890096",
@@ -27705,8 +27719,8 @@
         "https://github.com/WICG/webhid/blob/master/EXPLAINER.md"
       ],
       "updated": {
-        "by": "foolip@google.com",
-        "when": "2025-08-22 07:31:05.740105"
+        "by": "mattreynolds@google.com",
+        "when": "2026-08-04 19:46:34.413714"
       }
     }
   ],
@@ -28863,6 +28877,23 @@
     }
   ],
   "websockets": [
+    {
+      "id": 5080055102439424,
+      "name": "Add options bag to WebSocket constructor",
+      "summary": "Add support for passing an option bag (WebSocketInit dictionary) as the second argument to the WebSocket constructor. The option bag will initially support a \"protocols\" option, allowing developers to specify subprotocols (mirroring the existing protocols argument), and also serves as an extension point for future options.\n\nBefore, this would be written `const socket = new WebSocket(\"wss://example.com:8080\", \"soap\")`. After, this could also be written `const socket = new WebSocket(\"wss://example.com:8080\", { protocols: \"soap\" })`.\n\nSee https://github.com/whatwg/websockets/issues/42 and spec PR https://github.com/whatwg/websockets/pull/76 for this change.",
+      "motivation": "There is a demand for extensibility of options on the WebSocket constructor, to mirror the \"option bag\" approach that the Fetch API has. https://github.com/whatwg/websockets/issues/42 is requested by a number of implementors and users, and Chromium wants this as a means to add a `targetAddressSpace` option matching the one added to Fetch for Local Network Access (https://wicg.github.io/local-network-access/#fetch-api).",
+      "url": "https://chromestatus.com/feature/5080055102439424",
+      "bug-url": "https://crbug.com/542670554",
+      "spec-link": "https://github.com/whatwg/websockets/pull/76",
+      "explainer-links": [
+        "https://github.com/whatwg/websockets/issues/42",
+        "https://github.com/whatwg/websockets/pull/76"
+      ],
+      "updated": {
+        "by": "cthomp@chromium.org",
+        "when": "2026-08-04 21:51:05.569889"
+      }
+    },
     {
       "id": 5848709993857024,
       "name": "Accept HTTP(S) URLs when constructing WebSocket",
