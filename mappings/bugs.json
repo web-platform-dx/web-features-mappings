@@ -444,6 +444,7 @@
       "https://bugzil.la/1481298"
     ],
     "chrome": [
+      "https://crbug.com/517413738",
       "https://issues.chromium.org/issues/465491626",
       "https://issues.chromium.org/issues/421216834",
       "https://crbug.com/421156866",
@@ -1954,6 +1955,7 @@
   },
   "abortable-fetch": {
     "chrome": [
+      "https://issues.chromium.org/issues/502133195",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=750599"
     ]
   },
@@ -6878,6 +6880,7 @@
   "window-management": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1328581",
+      "https://issues.chromium.org/issues/40192345",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1254885",
       "https://crbug.com/1233970",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=897300"

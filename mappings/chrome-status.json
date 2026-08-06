@@ -17,6 +17,20 @@
   ],
   "abortable-fetch": [
     {
+      "id": 5158507786665984,
+      "name": "Fetch API: Forward reason from AbortController to fetch Response",
+      "summary": "An AbortController can be passed into fetch to allow a request to be aborted; this is already supported see https://chromestatus.com/feature/5631483679080448\n\nWhen calling abort, you can optionally pass in an \"abort reason\", and the original fetch promise if it hasn't resolved should be rejected with that reason.\n\nThis is already working as intended. *However*, if the fetch promise *has* resolved (after reading the header), but the body has not yet been fully read, this is also intended to propagate the abort reason to the Response methods such as Response.blob(), as well as the ReadableStream Response.body. This part is not currently working; the relevant Promises instead are rejected with generic AbortErrors.\n\nFirefox at least is compliant here but chromium/Edge/Safari are not.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5158507786665984",
+      "bug-url": "https://issues.chromium.org/issues/502133195",
+      "spec-link": "https://fetch.spec.whatwg.org",
+      "explainer-links": [],
+      "updated": {
+        "by": "deadbeef@google.com",
+        "when": "2026-08-05 20:44:37.923812"
+      }
+    },
+    {
       "id": 5631483679080448,
       "name": "Fetch API: AbortSignal and AbortController",
       "summary": "A fetch() can be made cancellable by passing an AbortSignal \"signal\" in the fetch options. Calling abort() on the associated AbortController will then cancel the fetch.",
@@ -3358,7 +3372,7 @@
       "explainer-links": [],
       "updated": {
         "by": "pmeenan@chromium.org",
-        "when": "2026-08-04 20:44:05.650766"
+        "when": "2026-08-05 17:09:53.216366"
       }
     },
     {
@@ -4609,7 +4623,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-08-05 06:51:31.284980"
+        "when": "2026-08-05 15:06:12.085423"
       }
     },
     {
@@ -8133,7 +8147,7 @@
     {
       "id": 5168133036965888,
       "name": "FocusgroupV2: grid and feed",
-      "summary": "Extends the declarative `focusgroup` attribute to richer composite widgets. The new `itemcontrols` modifier (name pending bike shedding) makes nested controls sequentially reachable only for the active item; `feed` models ARIA-style content streams; and `grid` provides two-dimensional focus navigation with configurable wrapping and flow. These additions reduce custom focus-management code for cards, chat threads, feeds, and grid-based UI.",
+      "summary": "Extends the declarative `focusgroup` attribute to richer composite widgets. The new `itemcontrols` modifier (name pending bikeshedding) makes nested controls sequentially reachable only for the active item; `feed` models ARIA-style content streams; and `grid` provides two-dimensional focus navigation with configurable wrapping and flow. These additions reduce custom focus-management code for cards, chat threads, feeds, and grid-based UI.",
       "motivation": "Authors currently implement complex keyboard focus management for cards, chat messages, feeds, and interactive grids using bespoke JavaScript. These implementations are difficult to make accessible and consistent, particularly when items contain nested controls or navigation spans two dimensions. Focusgroup V2 extends the existing declarative focusgroup primitive to cover these patterns, reducing duplicated focus-management code and providing consistent browser-managed behavior.",
       "url": "https://chromestatus.com/feature/5168133036965888",
       "bug-url": "https://issues.chromium.org/issues/445992558",
@@ -8143,7 +8157,7 @@
       ],
       "updated": {
         "by": "janewman@microsoft.com",
-        "when": "2026-08-03 16:36:44.047834"
+        "when": "2026-08-05 20:38:49.800481"
       }
     },
     {
@@ -12494,6 +12508,22 @@
   ],
   "local-network-access": [
     {
+      "id": 4779920606756864,
+      "name": "Support targetAddressSpace option for WebSockets",
+      "summary": "Add support for passing a targetAddressSpace option in the WebSocket constructor. This allows developers to specify that a WebSocket connection to a public hostname should be treated as going to a \"local\" or \"loopback\" destination, matching the existing support on the Fetch API. The main use case is to offer an escape hatch to bypass mixed content restrictions for connecting to local servers that cannot yet support HTTPS (as Local Network Access permissions require a secure context).\n\nExample: A public site that connects to a local server can use a hostname to avoid needing manual configuration of the exact private IP address in use:\n\n`const ws = new WebSocket(\"ws://local-server.example\", { targetAddressSpace: \"local\"}`\n\nThis will flag the WebSocket connection as going to a local address, bypassing mixed content blocking when run in a secure context. The user must grant the site the local network permission for the WebSocket connection to succeed, and the hostname must resolve to a local IP address (otherwise it will be blocked).\n\nThis builds on https://chromestatus.com/feature/5080055102439424 which adds an options bag to the WebSocket constructor.",
+      "motivation": "To avoid mixed content blocking for local network WebSockets requests, web developers have relied on having their users manually configure their local network IP addresses, which is awkward at best. Adding support for the targetAddressSpace option in WebSockets aligns it with the Fetch API. This has also been requested by developers (e.g., https://github.com/WICG/local-network-access/issues/16#issuecomment-4459071272).",
+      "url": "https://chromestatus.com/feature/4779920606756864",
+      "bug-url": "https://crbug.com/517413738",
+      "spec-link": "https://github.com/WICG/local-network-access/pull/125",
+      "explainer-links": [
+        "https://github.com/WICG/local-network-access/issues/126"
+      ],
+      "updated": {
+        "by": "cthomp@chromium.org",
+        "when": "2026-08-05 20:24:20.042891"
+      }
+    },
+    {
       "id": 5172375182245888,
       "name": "Local Network Access restrictions on Service Worker WindowClient.navigate()",
       "summary": "Local Network Access (LNA) restrictions have been recently added in the last few months to restrict web sites from unilaterally making requests to local networks and local devices (https://chromestatus.com/feature/5152728072060928). This was added for Service Worker-initiated fetch requests, but was not done for navigations done by service workers through WindowClient.navigate\n\nThis launch closes this hole by adding LNA restrictions to WindowClient.navigate() calls, using the WindowClient as the initiator of the navigation to determine if the navigation is an LNA request.\n\nThis only applies if the WindowClient being navigated is a subframe; Chrome does not currently enforce any LNA restrictions on main frame navigations.",
@@ -13997,6 +14027,20 @@
     }
   ],
   "modal": [
+    {
+      "id": 5427561449521152,
+      "name": "Suspicious Site Warnings",
+      "summary": "Suspicious Site Warnings are a new UI for Enhances Safe Browsing Users. Now when a user enrolled in ESB visits a site with signals to indicate that it is potentially malicious they will see an easily bypassable modal. This warning compliments the red interstitial warnings, which will continue to be shown on confirmed malicious websites. ",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5427561449521152",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "hgbuonomo@google.com",
+        "when": "2026-08-05 17:51:40.775161"
+      }
+    },
     {
       "id": 5192833009975296,
       "name": "CSS :modal Pseudo Class",
@@ -27710,7 +27754,7 @@
     {
       "id": 5172464636133376,
       "name": "WebHID (Human Interface Device)",
-      "summary": "Enables web applications to interact with human interface devices (HIDs) other than the standard supported devices (mice, keyboards, touchscreens, and gamepads). However, there are many other HID devices that are currently inaccessible to the web. This API allows web applications to request access to these devices, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, ChromeOS). Support on Android is planned for Chrome 157. This feature can be controlled by enterprise policies: \nDefaultWebHidGuardSetting, WebHidAllowAllDevicesForUrls, WebHidAllowDevicesForUrls, WebHidAllowDevicesWithHidUsagesForUrls, \nWebHidAskForUrls, WebHidBlockedForUrls.",
+      "summary": "Enables web applications to interact with human interface devices (HIDs) other than the standard supported devices (mice, keyboards, touchscreens, and gamepads). However, there are many other HID devices that are currently inaccessible to the web. This API allows web applications to request access to these devices, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, ChromeOS). Support on Android is planned for Chrome 157. This feature can be controlled by enterprise policies: \n[DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting), [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls), [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls), [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls), \n[WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls), [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls).",
       "motivation": "",
       "url": "https://chromestatus.com/feature/5172464636133376",
       "bug-url": "https://crbug.com/890096",
@@ -27719,8 +27763,8 @@
         "https://github.com/WICG/webhid/blob/master/EXPLAINER.md"
       ],
       "updated": {
-        "by": "mattreynolds@google.com",
-        "when": "2026-08-04 19:46:34.413714"
+        "by": "elmirakalali@google.com",
+        "when": "2026-08-05 18:10:56.222015"
       }
     }
   ],
@@ -27773,6 +27817,22 @@
     }
   ],
   "webrtc": [
+    {
+      "id": 5115054790934528,
+      "name": "RTCRtpReceiver Decoder State Changed and Error Events",
+      "summary": "Adds decoderstatechange and decodererror events to RTCRtpReceiver so applications can detect runtime decoder changes and terminal decoding failures. decoderstatechange reports when the codec or decoder implementation changes, while decodererror reports an unrecoverable failure as an EncodingError. These events let applications adapt playback, inform users, and diagnose problems without repeatedly polling statistics.",
+      "motivation": "WebRTC applications cannot directly observe codec changes or terminal decoder failures as they occur. Developers must poll getStats() and infer failures from indirect signals, which produces unreliable heuristics and can create compatibility problems. When hardware decoding fails and no software decoder is available, as can occur with H.265, playback stops and only the application can ask the remote endpoint to send a different codec. Event-driven notifications let applications recover promptly by renegotiating codecs or adjusting playback, inform users, and diagnose changes that can affect latency, quality, and power consumption.",
+      "url": "https://chromestatus.com/feature/5115054790934528",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/RTCRtpReceiverDecoderFallback/explainer.md"
+      ],
+      "updated": {
+        "by": "irzhou@microsoft.com",
+        "when": "2026-08-05 22:05:55.457704"
+      }
+    },
     {
       "id": 5177732519559168,
       "name": "RTP Header Extension Encryption",
@@ -28891,7 +28951,7 @@
       ],
       "updated": {
         "by": "cthomp@chromium.org",
-        "when": "2026-08-04 21:51:05.569889"
+        "when": "2026-08-05 17:58:23.240256"
       }
     },
     {
@@ -29706,6 +29766,22 @@
       "updated": {
         "by": "foolip@google.com",
         "when": "2025-08-22 12:09:31.948715"
+      }
+    },
+    {
+      "id": 5201832664629248,
+      "name": "Additional Windowing Controls",
+      "summary": "Enable web applications to maximize, minimize, and restore their windows, control whether the window can be resized, and introspect the corresponding window state.\n\nThe Window Management permission is required for new JS API controls (window.maximize()/minimize()/restore()/setResizable(bool)). The new CSS media features display-state and resizable are not gated behind a permission as they can follow the non-AWC API toggled states as well.\n\nThis feature is an enhancement of the Window Management API:\nhttps://chromestatus.com/feature/5252960583942144",
+      "motivation": "Virtual Desktop Infrastructure (VDI) web clients have limited abilities to integrate remote application windows with the local desktop environment, which creates suboptimal experiences for their users. Currently, they can only present full disjoint remote desktop environments (e.g. in a local fullscreen window), or present individual remote applications in separate local windows with titlebar window controls that are inoperative, redundant, and confusing for users.",
+      "url": "https://chromestatus.com/feature/5201832664629248",
+      "bug-url": "https://issues.chromium.org/issues/40192345",
+      "spec-link": "https://www.w3.org/TR/window-management/#api-window-minimize-method",
+      "explainer-links": [
+        "https://github.com/w3c/window-management/blob/main/EXPLAINER_additional_windowing_controls.md"
+      ],
+      "updated": {
+        "by": "msw@chromium.org",
+        "when": "2026-08-05 22:19:48.138978"
       }
     },
     {
