@@ -1485,6 +1485,13 @@
     },
     {
       "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.0.buckets.24.entity"
+    },
+    {
+      "name": "State of CSS 2026",
       "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points_features",
       "question": "interactions",
       "subQuestion": "interactions_pain_points_features",
@@ -2263,7 +2270,7 @@
       "url": "https://2026.stateofcss.com/en-US/usage/#css_missing_features",
       "question": "usage",
       "subQuestion": "css_missing_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_missing_features.freeform.allEditions.1.buckets.2.nestedBuckets.0.entity"
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_missing_features.freeform.allEditions.1.buckets.2.nestedBuckets.1.entity"
     },
     {
       "name": "State of CSS 2026",
@@ -2448,6 +2455,13 @@
       "question": "features",
       "subQuestion": "all_features",
       "path": "dataAPI.surveys.state_of_html.html2024.features.all_features.5.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.24.nestedBuckets.0.entity"
     },
     {
       "name": "State of CSS 2026",
@@ -4897,6 +4911,13 @@
     },
     {
       "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.0.buckets.7.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2026",
       "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
       "question": "layout",
       "subQuestion": "layout_pain_points_features",
@@ -6033,13 +6054,490 @@
       "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.51.entity"
     }
   ],
-  "sibling-count": [
+  "custom-properties": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.0.buckets.20.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#css_missing_features",
+      "question": "usage",
+      "subQuestion": "css_missing_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_missing_features.freeform.allEditions.0.buckets.20.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#css_general_pain_points_features",
+      "question": "usage",
+      "subQuestion": "css_general_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_general_pain_points_features.freeform.allEditions.0.buckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#css_general_pain_points",
+      "question": "usage",
+      "subQuestion": "css_general_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_general_pain_points.freeform.allEditions.0.buckets.12.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points_features",
+      "question": "other_features",
+      "subQuestion": "other_features_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points_features.freeform.allEditions.1.buckets.7.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points",
+      "question": "other_features",
+      "subQuestion": "other_features_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points.freeform.allEditions.1.buckets.11.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
+      "question": "layout",
+      "subQuestion": "layout_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points_features.freeform.allEditions.0.buckets.10.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/colors/#colors_pain_points_features",
+      "question": "colors",
+      "subQuestion": "colors_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.colors.colors_pain_points_features.freeform.allEditions.0.buckets.5.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/colors/#colors_pain_points",
+      "question": "colors",
+      "subQuestion": "colors_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.colors.colors_pain_points.freeform.allEditions.0.buckets.14.entity"
+    }
+  ],
+  "text-wrap": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.0.buckets.21.entity"
+    }
+  ],
+  "display-contents": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.0.buckets.22.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.0.buckets.13.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points_features",
+      "question": "other_features",
+      "subQuestion": "other_features_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points_features.freeform.allEditions.0.buckets.4.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points",
+      "question": "other_features",
+      "subQuestion": "other_features_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points.freeform.allEditions.0.buckets.7.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
+      "question": "_all_features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.41.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.1.buckets.14.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+      "question": "features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.58.entity"
+    }
+  ],
+  "min-max-content": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.0.buckets.23.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points_features",
+      "question": "shapes_graphics",
+      "subQuestion": "shapes_graphics_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.shapes_graphics.shapes_graphics_pain_points_features.freeform.allEditions.0.buckets.4.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
+      "question": "shapes_graphics",
+      "subQuestion": "shapes_graphics_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.0.buckets.16.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
+      "question": "layout",
+      "subQuestion": "layout_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points_features.freeform.allEditions.0.buckets.16.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points",
+      "question": "layout",
+      "subQuestion": "layout_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points.freeform.allEditions.0.buckets.23.nestedBuckets.1.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points_features",
+      "question": "interactions",
+      "subQuestion": "interactions_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points_features.freeform.allEditions.1.buckets.4.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points",
+      "question": "interactions",
+      "subQuestion": "interactions_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points.freeform.allEditions.1.buckets.9.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+      "question": "features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.13.entity"
+    },
+    {
+      "name": "State of CSS 2024",
+      "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+      "question": "features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.13.entity"
+    }
+  ],
+  "calc-size": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.0.buckets.23.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#css_interoperability_features",
+      "question": "usage",
+      "subQuestion": "css_interoperability_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_interoperability_features.freeform.allEditions.0.buckets.15.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.1.buckets.2.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
+      "question": "layout",
+      "subQuestion": "layout_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points_features.freeform.allEditions.0.buckets.16.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points",
+      "question": "layout",
+      "subQuestion": "layout_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points.freeform.allEditions.0.buckets.23.nestedBuckets.1.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
+      "question": "_all_features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.8.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
+      "question": "usage",
+      "subQuestion": "css_interoperability_features",
+      "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.1.buckets.16.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.1.buckets.1.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+      "question": "features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.9.entity"
+    }
+  ],
+  "interpolate-size": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.0.buckets.23.nestedBuckets.1.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points_features",
+      "question": "interactions",
+      "subQuestion": "interactions_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points_features.freeform.allEditions.1.buckets.4.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points",
+      "question": "interactions",
+      "subQuestion": "interactions_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points.freeform.allEditions.1.buckets.9.nestedBuckets.0.nestedBuckets.0.entity"
+    }
+  ],
+  "masonry": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.4.nestedBuckets.1.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#css_missing_features",
+      "question": "usage",
+      "subQuestion": "css_missing_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_missing_features.freeform.allEditions.0.buckets.1.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.1.buckets.1.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
+      "question": "layout",
+      "subQuestion": "layout_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points_features.freeform.allEditions.1.buckets.0.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points",
+      "question": "layout",
+      "subQuestion": "layout_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points.freeform.allEditions.0.buckets.5.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
+      "question": "_all_features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.9.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
+      "question": "usage",
+      "subQuestion": "css_missing_features",
+      "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.2.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
+      "question": "layout",
+      "subQuestion": "layout_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.5.entity"
+    },
+    {
+      "name": "State of CSS 2024",
+      "url": "https://2024.stateofcss.com/en-US/usage/#css_missing_features",
+      "question": "usage",
+      "subQuestion": "css_missing_features",
+      "path": "dataAPI.surveys.state_of_css.css2024.usage.css_missing_features.freeform.currentEdition.buckets.2.entity"
+    }
+  ],
+  "view-transitions": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.5.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points_features",
+      "question": "interactions",
+      "subQuestion": "interactions_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points_features.freeform.allEditions.1.buckets.2.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points",
+      "question": "interactions",
+      "subQuestion": "interactions_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points.freeform.allEditions.1.buckets.0.nestedBuckets.1.entity"
+    }
+  ],
+  "starting-style": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.11.nestedBuckets.0.entity"
+    }
+  ],
+  "scope": [
     {
       "name": "State of CSS 2026",
       "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
       "question": "usage",
       "subQuestion": "favorite_new_features",
       "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.13.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.0.buckets.5.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points_features",
+      "question": "other_features",
+      "subQuestion": "other_features_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points_features.freeform.allEditions.1.buckets.2.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points",
+      "question": "other_features",
+      "subQuestion": "other_features_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points.freeform.allEditions.1.buckets.6.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
+      "question": "_all_features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.39.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.2.entity"
+    },
+    {
+      "name": "State of CSS 2025",
+      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+      "question": "features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.53.entity"
+    },
+    {
+      "name": "State of CSS 2024",
+      "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.2.entity"
+    },
+    {
+      "name": "State of CSS 2024",
+      "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+      "question": "features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.58.entity"
+    }
+  ],
+  "corner-shape": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.14.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points_features",
+      "question": "shapes_graphics",
+      "subQuestion": "shapes_graphics_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.shapes_graphics.shapes_graphics_pain_points_features.freeform.allEditions.1.buckets.2.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
+      "question": "shapes_graphics",
+      "subQuestion": "shapes_graphics_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.1.buckets.1.nestedBuckets.0.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
+      "question": "reading_list",
+      "subQuestion": "reading_list",
+      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.1.buckets.6.entity"
+    },
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
+      "question": "_all_features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.15.entity"
+    }
+  ],
+  "sibling-count": [
+    {
+      "name": "State of CSS 2026",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
+      "question": "usage",
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.15.entity"
     },
     {
       "name": "State of CSS 2026",
@@ -6091,50 +6589,13 @@
       "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.61.entity"
     }
   ],
-  "corner-shape": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
-      "question": "usage",
-      "subQuestion": "favorite_new_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.16.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points_features",
-      "question": "shapes_graphics",
-      "subQuestion": "shapes_graphics_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.shapes_graphics.shapes_graphics_pain_points_features.freeform.allEditions.1.buckets.2.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
-      "question": "shapes_graphics",
-      "subQuestion": "shapes_graphics_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.1.buckets.1.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.1.buckets.6.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
-      "question": "_all_features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.15.entity"
-    }
-  ],
   "container-style-queries": [
     {
       "name": "State of CSS 2026",
       "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
       "question": "usage",
       "subQuestion": "favorite_new_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.17.entity"
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.18.entity"
     },
     {
       "name": "State of CSS 2026",
@@ -6213,7 +6674,7 @@
       "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
       "question": "usage",
       "subQuestion": "favorite_new_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.18.entity"
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.19.entity"
     },
     {
       "name": "State of CSS 2026",
@@ -6265,62 +6726,55 @@
       "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.60.entity"
     }
   ],
-  "masonry": [
+  "color-scheme": [
     {
       "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/usage/#css_missing_features",
+      "url": "https://2026.stateofcss.com/en-US/usage/#favorite_new_features",
       "question": "usage",
-      "subQuestion": "css_missing_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_missing_features.freeform.allEditions.0.buckets.1.entity"
+      "subQuestion": "favorite_new_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.usage.favorite_new_features.freeform.allEditions.1.buckets.21.entity"
     },
     {
       "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.1.buckets.1.entity"
+      "url": "https://2026.stateofcss.com/en-US/colors/#colors_pain_points_features",
+      "question": "colors",
+      "subQuestion": "colors_pain_points_features",
+      "path": "dataAPI.surveys.state_of_css.css2026.colors.colors_pain_points_features.freeform.allEditions.0.buckets.6.entity"
     },
     {
       "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
-      "question": "layout",
-      "subQuestion": "layout_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points_features.freeform.allEditions.1.buckets.0.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points",
-      "question": "layout",
-      "subQuestion": "layout_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points.freeform.allEditions.0.buckets.5.entity"
+      "url": "https://2026.stateofcss.com/en-US/colors/#colors_pain_points",
+      "question": "colors",
+      "subQuestion": "colors_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2026.colors.colors_pain_points.freeform.allEditions.0.buckets.16.entity"
     },
     {
       "name": "State of CSS 2026",
       "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
       "question": "_all_features",
       "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.9.entity"
+      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.21.entity"
     },
     {
       "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/usage/#css_missing_features",
-      "question": "usage",
-      "subQuestion": "css_missing_features",
-      "path": "dataAPI.surveys.state_of_css.css2025.usage.css_missing_features.freeform.allEditions.0.buckets.2.entity"
+      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+      "question": "features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.23.entity"
     },
     {
       "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/layout/#layout_pain_points",
-      "question": "layout",
-      "subQuestion": "layout_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.5.entity"
+      "url": "https://2025.stateofcss.com/en-US/colors/#colors_pain_points",
+      "question": "colors",
+      "subQuestion": "colors_pain_points",
+      "path": "dataAPI.surveys.state_of_css.css2025.colors.colors_pain_points.freeform.allEditions.0.buckets.18.entity"
     },
     {
       "name": "State of CSS 2024",
-      "url": "https://2024.stateofcss.com/en-US/usage/#css_missing_features",
-      "question": "usage",
-      "subQuestion": "css_missing_features",
-      "path": "dataAPI.surveys.state_of_css.css2024.usage.css_missing_features.freeform.currentEdition.buckets.2.entity"
+      "url": "https://2024.stateofcss.com/en-US/features/#all_features",
+      "question": "features",
+      "subQuestion": "all_features",
+      "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.40.entity"
     }
   ],
   "overflow-shorthand": [
@@ -6381,122 +6835,6 @@
       "question": "colors",
       "subQuestion": "colors_pain_points",
       "path": "dataAPI.surveys.state_of_css.css2025.colors.colors_pain_points.freeform.allEditions.0.buckets.15.entity"
-    }
-  ],
-  "custom-properties": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/usage/#css_missing_features",
-      "question": "usage",
-      "subQuestion": "css_missing_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_missing_features.freeform.allEditions.0.buckets.20.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/usage/#css_general_pain_points_features",
-      "question": "usage",
-      "subQuestion": "css_general_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_general_pain_points_features.freeform.allEditions.0.buckets.0.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/usage/#css_general_pain_points",
-      "question": "usage",
-      "subQuestion": "css_general_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_general_pain_points.freeform.allEditions.0.buckets.12.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points_features",
-      "question": "other_features",
-      "subQuestion": "other_features_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points_features.freeform.allEditions.1.buckets.7.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points",
-      "question": "other_features",
-      "subQuestion": "other_features_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points.freeform.allEditions.1.buckets.11.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
-      "question": "layout",
-      "subQuestion": "layout_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points_features.freeform.allEditions.0.buckets.10.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/colors/#colors_pain_points_features",
-      "question": "colors",
-      "subQuestion": "colors_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.colors.colors_pain_points_features.freeform.allEditions.0.buckets.5.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/colors/#colors_pain_points",
-      "question": "colors",
-      "subQuestion": "colors_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.colors.colors_pain_points.freeform.allEditions.0.buckets.14.entity"
-    }
-  ],
-  "calc-size": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/usage/#css_interoperability_features",
-      "question": "usage",
-      "subQuestion": "css_interoperability_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.usage.css_interoperability_features.freeform.allEditions.0.buckets.15.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.1.buckets.2.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
-      "question": "layout",
-      "subQuestion": "layout_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points_features.freeform.allEditions.0.buckets.16.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points",
-      "question": "layout",
-      "subQuestion": "layout_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points.freeform.allEditions.0.buckets.23.nestedBuckets.1.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
-      "question": "_all_features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.8.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/usage/#css_interoperability_features",
-      "question": "usage",
-      "subQuestion": "css_interoperability_features",
-      "path": "dataAPI.surveys.state_of_css.css2025.usage.css_interoperability_features.freeform.allEditions.1.buckets.16.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.1.buckets.1.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
-      "question": "features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.9.entity"
     }
   ],
   "text-box": [
@@ -6876,64 +7214,6 @@
       "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.11.entity"
     }
   ],
-  "min-max-content": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points_features",
-      "question": "shapes_graphics",
-      "subQuestion": "shapes_graphics_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.shapes_graphics.shapes_graphics_pain_points_features.freeform.allEditions.0.buckets.4.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/shapes_graphics/#shapes_graphics_pain_points",
-      "question": "shapes_graphics",
-      "subQuestion": "shapes_graphics_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.shapes_graphics.shapes_graphics_pain_points.freeform.allEditions.0.buckets.16.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points_features",
-      "question": "layout",
-      "subQuestion": "layout_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points_features.freeform.allEditions.0.buckets.16.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/layout/#layout_pain_points",
-      "question": "layout",
-      "subQuestion": "layout_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.layout.layout_pain_points.freeform.allEditions.0.buckets.23.nestedBuckets.1.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points_features",
-      "question": "interactions",
-      "subQuestion": "interactions_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points_features.freeform.allEditions.1.buckets.4.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points",
-      "question": "interactions",
-      "subQuestion": "interactions_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points.freeform.allEditions.1.buckets.9.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
-      "question": "features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.13.entity"
-    },
-    {
-      "name": "State of CSS 2024",
-      "url": "https://2024.stateofcss.com/en-US/features/#all_features",
-      "question": "features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.13.entity"
-    }
-  ],
   "shapes": [
     {
       "name": "State of CSS 2026",
@@ -7208,64 +7488,6 @@
       "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.35.entity"
     }
   ],
-  "scope": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.0.buckets.5.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points_features",
-      "question": "other_features",
-      "subQuestion": "other_features_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points_features.freeform.allEditions.1.buckets.2.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points",
-      "question": "other_features",
-      "subQuestion": "other_features_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points.freeform.allEditions.1.buckets.6.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
-      "question": "_all_features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.39.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.0.buckets.2.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
-      "question": "features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.53.entity"
-    },
-    {
-      "name": "State of CSS 2024",
-      "url": "https://2024.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2024.reading_list.reading_list.responses.currentEdition.buckets.2.entity"
-    },
-    {
-      "name": "State of CSS 2024",
-      "url": "https://2024.stateofcss.com/en-US/features/#all_features",
-      "question": "features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.58.entity"
-    }
-  ],
   "container-scroll-state-queries": [
     {
       "name": "State of CSS 2026",
@@ -7308,50 +7530,6 @@
       "question": "features",
       "subQuestion": "all_features",
       "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.32.entity"
-    }
-  ],
-  "display-contents": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2026.reading_list.reading_list.combined.allEditions.0.buckets.13.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points_features",
-      "question": "other_features",
-      "subQuestion": "other_features_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points_features.freeform.allEditions.0.buckets.4.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/other_features/#other_features_pain_points",
-      "question": "other_features",
-      "subQuestion": "other_features_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.other_features.other_features_pain_points.freeform.allEditions.0.buckets.7.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
-      "question": "_all_features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.41.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/features/#reading_list",
-      "question": "reading_list",
-      "subQuestion": "reading_list",
-      "path": "dataAPI.surveys.state_of_css.css2025.reading_list.reading_list.combined.allEditions.1.buckets.14.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
-      "question": "features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.58.entity"
     }
   ],
   "nth-child-of": [
@@ -7628,38 +7806,6 @@
       "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.24.entity"
     }
   ],
-  "view-transitions": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points_features",
-      "question": "interactions",
-      "subQuestion": "interactions_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points_features.freeform.allEditions.1.buckets.2.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points",
-      "question": "interactions",
-      "subQuestion": "interactions_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points.freeform.allEditions.1.buckets.0.nestedBuckets.1.entity"
-    }
-  ],
-  "interpolate-size": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points_features",
-      "question": "interactions",
-      "subQuestion": "interactions_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points_features.freeform.allEditions.1.buckets.4.nestedBuckets.0.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/interactions/#interactions_pain_points",
-      "question": "interactions",
-      "subQuestion": "interactions_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.interactions.interactions_pain_points.freeform.allEditions.1.buckets.9.nestedBuckets.0.nestedBuckets.0.entity"
-    }
-  ],
   "transitions": [
     {
       "name": "State of CSS 2026",
@@ -7785,50 +7931,6 @@
       "question": "features",
       "subQuestion": "all_features",
       "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.23.entity"
-    }
-  ],
-  "color-scheme": [
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/colors/#colors_pain_points_features",
-      "question": "colors",
-      "subQuestion": "colors_pain_points_features",
-      "path": "dataAPI.surveys.state_of_css.css2026.colors.colors_pain_points_features.freeform.allEditions.0.buckets.6.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/colors/#colors_pain_points",
-      "question": "colors",
-      "subQuestion": "colors_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2026.colors.colors_pain_points.freeform.allEditions.0.buckets.16.entity"
-    },
-    {
-      "name": "State of CSS 2026",
-      "url": "https://2026.stateofcss.com/en-US/_all_features/#all_features",
-      "question": "_all_features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2026._all_features.all_features.21.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/features/#all_features",
-      "question": "features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.23.entity"
-    },
-    {
-      "name": "State of CSS 2025",
-      "url": "https://2025.stateofcss.com/en-US/colors/#colors_pain_points",
-      "question": "colors",
-      "subQuestion": "colors_pain_points",
-      "path": "dataAPI.surveys.state_of_css.css2025.colors.colors_pain_points.freeform.allEditions.0.buckets.18.entity"
-    },
-    {
-      "name": "State of CSS 2024",
-      "url": "https://2024.stateofcss.com/en-US/features/#all_features",
-      "question": "features",
-      "subQuestion": "all_features",
-      "path": "dataAPI.surveys.state_of_css.css2024.features.all_features.40.entity"
     }
   ],
   "currentcolor": [

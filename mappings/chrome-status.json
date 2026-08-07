@@ -1984,6 +1984,20 @@
   ],
   "background-fetch": [
     {
+      "id": 6210300985606144,
+      "name": "CORS enforcement for Background Fetch",
+      "summary": "Background Fetch requests will now apply full CORS enforcement.\n\nThis aligns Chromium's implementation with the intent of the Background Fetch spec (that such requests go through the Fetch spec and have the same security policies applied to them, in this case Local Network Access checks). This prevents sites from bypassing CORS (and other security policy checks) by using Background Fetch instead of regular Fetch.",
+      "motivation": "This fixes a security issue where Background Fetch unintentionally bypasses security policies such as CORS (and CORP/COEP/DIP).\n\n(crbug.com/515243254 is our meta bug tracking all of the different web platform security issues with Background Fetch.)",
+      "url": "https://chromestatus.com/feature/6210300985606144",
+      "bug-url": null,
+      "spec-link": "https://wicg.github.io/background-fetch",
+      "explainer-links": [],
+      "updated": {
+        "by": "cthomp@chromium.org",
+        "when": "2026-08-06 17:51:32.646250"
+      }
+    },
+    {
       "id": 5712608971718656,
       "name": "Background Fetch API",
       "summary": "Background Fetch API provides a service worker based download and upload mechanism which is persistent across service worker and browser restarts.\r\n\r\nThe system will provide a developer-controllable interface to schedule, query, pause, and cancel background downloads and uploads. After a scheduled fetch completes, the system will notify the developer of the outcome of the operation.\r\n\r\nIn-progress fetches will be visible to users in a notification.\r\n",
@@ -12507,6 +12521,20 @@
     }
   ],
   "local-network-access": [
+    {
+      "id": 6225598451154944,
+      "name": "Local Network Access restrictions for Background Fetch",
+      "summary": "Background Fetch requests will now require that the service worker's origin has the necessary Local Network Access (LNA) permission in order to send requests to local or loopback servers.\n\nThis aligns Chromium's implementation with the intent of the Background Fetch spec (that such requests go through the Fetch spec and have the same security policies applied to them, in this case Local Network Access checks). This prevents sites from bypassing LNA checks by using Background Fetch instead of regular Fetch.",
+      "motivation": "This fixes a security issue where Background Fetch unintentionally bypasses security policies such as Local Network Access checks.",
+      "url": "https://chromestatus.com/feature/6225598451154944",
+      "bug-url": null,
+      "spec-link": "https://wicg.github.io/background-fetch",
+      "explainer-links": [],
+      "updated": {
+        "by": "cthomp@chromium.org",
+        "when": "2026-08-06 17:34:19.780507"
+      }
+    },
     {
       "id": 4779920606756864,
       "name": "Support targetAddressSpace option for WebSockets",
