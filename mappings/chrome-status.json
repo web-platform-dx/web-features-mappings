@@ -3386,7 +3386,7 @@
       "explainer-links": [],
       "updated": {
         "by": "pmeenan@chromium.org",
-        "when": "2026-08-05 17:09:53.216366"
+        "when": "2026-08-07 18:59:33.685110"
       }
     },
     {
@@ -14066,7 +14066,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hgbuonomo@google.com",
-        "when": "2026-08-05 17:51:40.775161"
+        "when": "2026-08-07 16:36:39.073135"
       }
     },
     {
@@ -14563,8 +14563,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "liahiscock@microsoft.com",
-        "when": "2026-04-15 17:18:24.485782"
+        "by": "kristinlee@microsoft.com",
+        "when": "2026-08-07 21:54:11.313734"
       }
     }
   ],
@@ -16201,7 +16201,7 @@
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-07-27 18:43:40.246926"
+        "when": "2026-08-07 11:20:13.355187"
       }
     },
     {
@@ -18758,6 +18758,20 @@
     }
   ],
   "scope": [
+    {
+      "id": 5184195986063360,
+      "name": "Web app manifest scope filtering",
+      "summary": "Web developers can use scope inclusions and exclusions to define which URLs belong to an installed web app using URL patterns. This helps apps include non-contiguous or parameterized routes and exclude specific paths, so only intended URLs open in the app window.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5184195986063360",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "luhua@microsoft.com",
+        "when": "2026-08-08 01:00:36.530491"
+      }
+    },
     {
       "id": 5100672734199808,
       "name": "@scope",
@@ -29809,7 +29823,7 @@
       ],
       "updated": {
         "by": "msw@chromium.org",
-        "when": "2026-08-05 22:19:48.138978"
+        "when": "2026-08-07 23:41:10.385658"
       }
     },
     {

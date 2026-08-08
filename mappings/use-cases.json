@@ -5,6 +5,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/292#issuecomment-4699695885"
     }
   ],
+  "app-launch-handler": [
+    {
+      "description": "My best use case is when I want to have my users authenticated. If they are already authenticated in another regular app windows, for sharing files, they need to authenticate again in a new window without this feature. Some of the apps have single login and auto log off on new login. When they use Web share API, the sign in toggles and app goes through lot of processing to manage logins which is unnecessary.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/190#issuecomment-5219646641"
+    }
+  ],
   "arianotify": [
     {
       "description": "Announce messages to screen reader users (ex. loading, loading complete messages in single page apps and async components, user feedback, notifications, etc)\n* Potentially the ability to abort a notification (ex. like `clearTimeout`). If there is any delay between the time when `ariaNotify` is called and when the announcement happens, a consuming application may want to abort a notification if it's no longer relevant. For example, due to the user changing views in a single page application.",
@@ -359,6 +365,12 @@
     {
       "description": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this:\n\n```\n<rh-select>\n  <rh-option>...</rh-option>\n```\n\nIn which case rh-select's shadow root has a combobox input, button, and listbox.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3591754763"
+    }
+  ],
+  "sanitizer": [
+    {
+      "description": "Sanitizing user HTML, e.g. for https://privatebin.net/",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5217189907"
     }
   ],
   "scoped-custom-element-registries": [
