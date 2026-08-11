@@ -10433,8 +10433,8 @@
       "spec-link": "https://www.w3.org/TR/IndexedDB",
       "explainer-links": [],
       "updated": {
-        "by": "abhishek.shanthkumar@microsoft.com",
-        "when": "2026-07-27 09:37:33.775321"
+        "by": "evanstade@microsoft.com",
+        "when": "2026-08-10 14:53:16.049974"
       }
     },
     {
@@ -14564,7 +14564,7 @@
       ],
       "updated": {
         "by": "kristinlee@microsoft.com",
-        "when": "2026-08-07 21:54:11.313734"
+        "when": "2026-08-10 17:25:52.954579"
       }
     }
   ],
@@ -15366,7 +15366,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-07-27 16:03:33.101123"
+        "when": "2026-08-10 13:30:33.662607"
       }
     },
     {
@@ -16611,6 +16611,22 @@
     }
   ],
   "popover": [
+    {
+      "id": 6209615938322432,
+      "name": "Light dismiss improvements for popovers and dialogs",
+      "summary": "Improves and simplifies the light dismiss behavior for popovers and dialogs to fix a few bugs. \"Light dismiss\" is the behavior where clicking outside of a popover or dialog closes it. The fixed bugs include making scrolling gestures on touch screens no longer trigger light dismiss and making right clicks no longer trigger light dismiss.\n\nThe underlying mechanism of this change is that the browser will use click events to trigger light dismiss instead of a combination of pointerdown and pointerup events.",
+      "motivation": "We need to fix these bugs with light dismiss:\nhttps://issues.chromium.org/issues/408010435\nhttps://issues.chromium.org/issues/425579196",
+      "url": "https://chromestatus.com/feature/6209615938322432",
+      "bug-url": "https://issues.chromium.org/issues/408010435",
+      "spec-link": "https://github.com/whatwg/html/pull/11536",
+      "explainer-links": [
+        "https://github.com/w3c/pointerevents/issues/542"
+      ],
+      "updated": {
+        "by": "jarhar@chromium.org",
+        "when": "2026-08-11 06:45:56.997806"
+      }
+    },
     {
       "id": 5149353645965312,
       "name": "Allow top layer elements to be nested within popovers",
@@ -29823,7 +29839,7 @@
       ],
       "updated": {
         "by": "msw@chromium.org",
-        "when": "2026-08-07 23:41:10.385658"
+        "when": "2026-08-10 18:30:36.423355"
       }
     },
     {

@@ -125,6 +125,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3772981800"
     }
   ],
+  "eyedropper": [
+    {
+      "description": "We created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/158#issuecomment-5243609842"
+    }
+  ],
   "field-sizing": [
     {
       "description": "Make `<textarea>` autogrow.\n\nI've wanted this feature for decades! Better late than never :)",
