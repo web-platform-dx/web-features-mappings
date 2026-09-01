@@ -5083,10 +5083,10 @@
   ],
   "masonry": [
     {
-      "slug": "Web/CSS/Guides/Grid_layout/Masonry_layout",
-      "title": "Masonry layout",
+      "slug": "Web/CSS/Guides/Grid_layout/Grid_lanes",
+      "title": "Grid lanes layout",
       "anchor": null,
-      "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Grid_layout/Masonry_layout"
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Grid_layout/Grid_lanes"
     }
   ],
   "matchmedia": [
@@ -11135,6 +11135,60 @@
       "title": "`border-shape` CSS property",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-shape"
+    }
+  ],
+  "text-modules": [
+    {
+      "slug": "Web/JavaScript/Reference/Statements/import/with#text_modules_type_text",
+      "title": "Import attributes",
+      "anchor": "text_modules_type_text",
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import/with#text_modules_type_text"
+    }
+  ],
+  "virtual-pressure-sources": [
+    {
+      "slug": "Web/WebDriver/Reference/Classic/Commands/CreateVirtualPressureSource",
+      "title": "Create Virtual Pressure Source",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/WebDriver/Reference/Classic/Commands/CreateVirtualPressureSource"
+    },
+    {
+      "slug": "Web/WebDriver/Reference/Classic/Commands/DeleteVirtualPressureSource",
+      "title": "Delete Virtual Pressure Source",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/WebDriver/Reference/Classic/Commands/DeleteVirtualPressureSource"
+    },
+    {
+      "slug": "Web/WebDriver/Reference/Classic/Commands/UpdateVirtualPressureSource",
+      "title": "Update Virtual Pressure Source",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/WebDriver/Reference/Classic/Commands/UpdateVirtualPressureSource"
+    }
+  ],
+  "virtual-sensors": [
+    {
+      "slug": "Web/WebDriver/Reference/Classic/Commands/CreateVirtualSensor",
+      "title": "Create Virtual Sensor",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/WebDriver/Reference/Classic/Commands/CreateVirtualSensor"
+    },
+    {
+      "slug": "Web/WebDriver/Reference/Classic/Commands/DeleteVirtualSensor",
+      "title": "Delete Virtual Sensor",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/WebDriver/Reference/Classic/Commands/DeleteVirtualSensor"
+    },
+    {
+      "slug": "Web/WebDriver/Reference/Classic/Commands/GetVirtualSensorInformation",
+      "title": "Get Virtual Sensor Information",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/WebDriver/Reference/Classic/Commands/GetVirtualSensorInformation"
+    },
+    {
+      "slug": "Web/WebDriver/Reference/Classic/Commands/UpdateVirtualSensorReading",
+      "title": "Update Virtual Sensor Reading",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/WebDriver/Reference/Classic/Commands/UpdateVirtualSensorReading"
     }
   ]
 }
