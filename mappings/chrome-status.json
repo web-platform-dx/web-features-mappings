@@ -19,15 +19,15 @@
     {
       "id": 5158507786665984,
       "name": "Fetch API: Forward reason from AbortController to fetch Response",
-      "summary": "An AbortController can be passed into fetch to allow a request to be aborted; this is already supported see https://chromestatus.com/feature/5631483679080448\n\nWhen calling abort, you can optionally pass in an \"abort reason\", and the original fetch promise if it hasn't resolved should be rejected with that reason.\n\nThis is already working as intended. *However*, if the fetch promise *has* resolved (after reading the header), but the body has not yet been fully read, this is also intended to propagate the abort reason to the Response methods such as Response.blob(), as well as the ReadableStream Response.body. This part is not currently working; the relevant Promises instead are rejected with generic AbortErrors.\n\nFirefox at least is compliant here but chromium/Edge/Safari are not.",
-      "motivation": null,
+      "summary": "Surfaces the abort reason, if one is provided, to the methods of the Response object and its ReadableStream, rather than just the fetch promise. This fills a gap in our compliance with the standard, surfacing the developer-supplied abort reason everywhere it is intended to.",
+      "motivation": "An AbortController can be passed into fetch to allow a request to be aborted. This is already supported; see https://chromestatus.com/feature/5631483679080448.\n\nWhen calling abort, you can optionally pass in an \"abort reason\", and the original fetch promise, if it hasn't already resolved, should be rejected with that reason. This is currently working as intended.\n\n*However*, if the fetch promise *has* resolved (after reading the header), but the body has not yet been fully read, the standard also specifies that the abort reason should propagate to the Response methods such as Response.blob(), as well as the ReadableStream Response.body. This part is not currently working; the relevant Promises instead are rejected with generic AbortErrors.\n\nFirefox at least is compliant here but chromium/Edge/Safari are not. This feature is simply for making chromium compliant with the standard in this regard.",
       "url": "https://chromestatus.com/feature/5158507786665984",
       "bug-url": "https://issues.chromium.org/issues/502133195",
       "spec-link": "https://fetch.spec.whatwg.org",
       "explainer-links": [],
       "updated": {
         "by": "deadbeef@google.com",
-        "when": "2026-08-05 20:44:37.923812"
+        "when": "2026-08-25 17:08:58.522271"
       }
     },
     {
@@ -174,7 +174,7 @@
       "explainer-links": [],
       "updated": {
         "by": "akyereboah@microsoft.com",
-        "when": "2026-08-03 18:41:01.077858"
+        "when": "2026-08-27 14:04:26.295841"
       }
     },
     {
@@ -1701,7 +1701,7 @@
   "audio-worklet": [
     {
       "id": 5079784523694080,
-      "name": "Shared AudioWorklet port",
+      "name": "Shared MessagePort for AudioWorklet",
       "summary": "Exposes the spec-defined shared MessagePort on AudioWorklet and AudioWorkletGlobalScope.\n\nThis lets web applications communicate directly between the main thread AudioWorklet and the AudioWorkletGlobalScope without creating a bootstrap AudioWorkletProcessor only for message passing.\n\nThis aligns Chromium with the current Web Audio specification and existing interoperable behavior.",
       "motivation": "The Web Audio specification defines a shared MessagePort on AudioWorklet and AudioWorkletGlobalScope. This lets web applications communicate directly between the main thread and the AudioWorkletGlobalScope without creating a bootstrap AudioWorkletProcessor or AudioWorkletNode only for message passing.\n\nWithout this capability, developers have to keep workaround code that instantiates dummy processors solely to transfer initialization data or control messages into the worklet global scope. This adds code complexity and runtime overhead, and prevents cleanup of compatibility hacks in upstream projects.\n\nThis change aligns Chromium with the current Web Audio specification and existing interoperable behavior. It also restores compatibility for real-world code that expects audioContext.audioWorklet.port to exist, including Emscripten-generated applications and demos such as the MOD player discussed in the linked issue.\n\nRelevant specification and ecosystem discussion:\n- https://github.com/WebAudio/web-audio-api/issues/2456\n- https://github.com/WebAudio/web-audio-api/pull/2507\n- https://github.com/emscripten-core/emscripten/pull/25354",
       "url": "https://chromestatus.com/feature/5079784523694080",
@@ -1712,8 +1712,8 @@
         "https://github.com/WebAudio/web-audio-api/pull/2507"
       ],
       "updated": {
-        "by": "hocheung@chromium.org",
-        "when": "2026-04-01 05:05:14.285493"
+        "by": "hongchan@chromium.org",
+        "when": "2026-08-24 21:47:42.148516"
       }
     },
     {
@@ -1986,15 +1986,15 @@
     {
       "id": 6210300985606144,
       "name": "CORS enforcement for Background Fetch",
-      "summary": "Background Fetch requests will now apply full CORS enforcement.\n\nThis aligns Chromium's implementation with the intent of the Background Fetch spec (that such requests go through the Fetch spec and have the same security policies applied to them, in this case Local Network Access checks). This prevents sites from bypassing CORS (and other security policy checks) by using Background Fetch instead of regular Fetch.",
+      "summary": "Starting in Chrome 154, the Background Fetch API will enforce Cross-Origin Resource Sharing (CORS). \nThis update aligns Chromium's implementation with the intent of the [Background Fetch spec](https://wicg.github.io/background-fetch/). This ensures that Background Fetch requests are subject to the same security policies, such as Local Network Access checks. \nThis update prevents sites from bypassing CORS (and other security policy checks) by using Background Fetch instead of regular [Fetch](https://fetch.spec.whatwg.org/).",
       "motivation": "This fixes a security issue where Background Fetch unintentionally bypasses security policies such as CORS (and CORP/COEP/DIP).\n\n(crbug.com/515243254 is our meta bug tracking all of the different web platform security issues with Background Fetch.)",
       "url": "https://chromestatus.com/feature/6210300985606144",
       "bug-url": null,
       "spec-link": "https://wicg.github.io/background-fetch",
       "explainer-links": [],
       "updated": {
-        "by": "cthomp@chromium.org",
-        "when": "2026-08-06 17:51:32.646250"
+        "by": "siobhankeating@google.com",
+        "when": "2026-08-26 12:16:46.997916"
       }
     },
     {
@@ -2729,12 +2729,12 @@
       "summary": "Add srgb-linear and display-p3-linear color spaces (as defined by CSS) to PredefinedColorSpace for use with canvases.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5122501071994880",
-      "bug-url": null,
-      "spec-link": null,
+      "bug-url": "https://issuetracker.google.com/issues/454152417",
+      "spec-link": "https://html.spec.whatwg.org/multipage/canvas.html#colour-spaces-and-colour-correction",
       "explainer-links": [],
       "updated": {
         "by": "ccameron@chromium.org",
-        "when": "2025-10-21 08:48:03.403428"
+        "when": "2026-09-02 09:18:35.207131"
       }
     },
     {
@@ -3243,7 +3243,7 @@
       "explainer-links": [],
       "updated": {
         "by": "ccameron@chromium.org",
-        "when": "2025-11-03 18:50:45.128870"
+        "when": "2026-08-28 16:36:32.986947"
       }
     }
   ],
@@ -3386,7 +3386,7 @@
       "explainer-links": [],
       "updated": {
         "by": "pmeenan@chromium.org",
-        "when": "2026-08-07 18:59:33.685110"
+        "when": "2026-08-11 18:27:46.260284"
       }
     },
     {
@@ -4043,7 +4043,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-06-19 09:19:30.804911"
+        "when": "2026-08-24 12:32:40.440509"
       }
     }
   ],
@@ -4302,6 +4302,23 @@
     }
   ],
   "csp": [
+    {
+      "id": 5199775795380224,
+      "name": "Trusted Types support in CSP Embedded Enforcement",
+      "summary": "CSP Embedded Enforcement checks the `require-trusted-types-for` and `trusted-types` directives when determining whether an embedded document satisfies an iframe's required CSP. This allows embedding sites to require Trusted Types protections before an embedded document loads.",
+      "motivation": "CSP Embedded Enforcement lets an embedding page require an iframe response to enforce a specified Content Security Policy before it loads. Its subsumption check currently ignores the require-trusted-types-for and trusted-types directives, so embedders cannot use this mechanism to require Trusted Types protections. Supporting these directives allows embedding applications to verify that embedded content enforces the required Trusted Types restrictions before loading.",
+      "url": "https://chromestatus.com/feature/5199775795380224",
+      "bug-url": "https://issues.chromium.org/issues/40912894",
+      "spec-link": "https://w3c.github.io/webappsec-cspee/#subsume-policy,https://github.com/w3c/webappsec-cspee/pull/36",
+      "explainer-links": [
+        "https://github.com/w3c/webappsec-csp/issues/628",
+        "https://github.com/w3c/webappsec-cspee/pull/36"
+      ],
+      "updated": {
+        "by": "vizlatin@microsoft.com",
+        "when": "2026-08-31 18:51:34.103020"
+      }
+    },
     {
       "id": 5196368819519488,
       "name": "Extend CSP script-src (aka script-src-v2)",
@@ -4637,7 +4654,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-08-05 15:06:12.085423"
+        "when": "2026-08-17 09:51:03.136393"
       }
     },
     {
@@ -4686,6 +4703,20 @@
     }
   ],
   "custom-ellipses": [
+    {
+      "id": 6294595288825856,
+      "name": "CSS text-overflow: <string> value",
+      "summary": "Adds a <string> value to the text-overflow property.\n\nThis allows web authors to specify a custom string (e.g., \"(more)\") to indicate that text has been clipped. This provides more design flexibility and can be used to create more user-friendly and context-aware overflow indicators.",
+      "motivation": "Chromium's text-overflow implementation only supports the clip and ellipsis keywords, so authors who want a different truncation indicator must truncate the text themselves in JavaScript or overlay a positioned pseudo-element on the end of the line. Supporting the specified <string> value lets the browser truncate the text and render the author's chosen indicator together.",
+      "url": "https://chromestatus.com/feature/6294595288825856",
+      "bug-url": "https://issues.chromium.org/issues/41492459",
+      "spec-link": "https://drafts.csswg.org/css-overflow-4/#text-overflow",
+      "explainer-links": [],
+      "updated": {
+        "by": "jja08111@gmail.com",
+        "when": "2026-09-01 16:10:31.552512"
+      }
+    },
     {
       "id": 5146265241387008,
       "name": "Clip Text overflow on user interaction",
@@ -4926,6 +4957,20 @@
   ],
   "dedicated-workers": [
     {
+      "id": 5174660823121920,
+      "name": "NoSynchronousThrowForCrossOriginBlockedWorker",
+      "summary": "To match the spec and the WHATWG issue resolution about the cross-origin violation check for the worker script URL fetching, remove the synchronous SecurityError throw on worker construction and dispatch an error event via the worker's error handler for the cross-origin failure, similar to how DedicatedWorker and SharedWorker already handle Content Security Policy failures.",
+      "motivation": "In Chrome, Worker/SharedWorker construction currently throws a synchronous SecurityError when the HTTP(S) script URL can't be read by the creator's origin. (e.g. constructing a Worker within an opaque-origin context such as a sandboxed iframe or a data: URL document).\n\nBut this doesn't match the behavior described in the HTML and Fetch specs. The cross-origin violation on the script URL fetching should be sent as an error event, so the caller can handle the failure asynchronously via the worker's error handler, as per the resolved issue and relevant spec. (https://github.com/whatwg/html/issues/337, https://html.spec.whatwg.org/#dom-worker, https://fetch.spec.whatwg.org/#fetching)\n\nOther browsers (Firefox/WebKit) already follow the spec.",
+      "url": "https://chromestatus.com/feature/5174660823121920",
+      "bug-url": "https://issues.chromium.org/issues/40676421",
+      "spec-link": "https://html.spec.whatwg.org/#dom-worker",
+      "explainer-links": [],
+      "updated": {
+        "by": "blee@igalia.com",
+        "when": "2026-08-20 01:42:53.927717"
+      }
+    },
+    {
       "id": 6220798104698880,
       "name": "Worker unhandled exception propagation",
       "summary": "For dedicated workers, if an error is not handled then it will be propagated up to the parent context and the error reporting process begins again one layer up (e.g., to the window's onerror handler). This allows for errors to be propagated up to the original document giving developers the freedom to choose when and how to handle worker errors. ",
@@ -5110,7 +5155,7 @@
       ],
       "updated": {
         "by": "tov@google.com",
-        "when": "2026-07-15 15:12:00.199137"
+        "when": "2026-08-20 12:23:20.044452"
       }
     },
     {
@@ -5808,7 +5853,7 @@
       ],
       "updated": {
         "by": "jochen.kuehner@googlemail.com",
-        "when": "2026-07-08 10:44:37.424413"
+        "when": "2026-08-22 07:34:13.261227"
       }
     }
   ],
@@ -9306,7 +9351,7 @@
     {
       "id": 5143609755828224,
       "name": "Approximate geolocation",
-      "summary": "This feature extends the Geolocation API to enable sites to request approximate location data only.\n\nIn particular, a new parameter accuracyMode (either \"precise\" or \"approximate\", defaults to \"precise\" for backwards compatibility) can be specified in PositionOptions.",
+      "summary": "Extends the Geolocation API to enable sites to request approximate location data only.\n\nWhen calling navigator.geolocation.getCurrentPosition() or navigator.geolocation.watchPosition(), web developer can use the PositionOptions parameter accuracyMode, which can be either \"precise\" (default) or \"approximate\",  to request either precise or approximate location.",
       "motivation": "Websites using the Geolocation API can often function properly with an approximate estimate of the user's position. This change enables websites to signal that to the user agent by requesting approximate location only, enhancing the user privacy without loss of functionality.\n\nSee https://github.com/explainers-by-googlers/approximate-geolocation for more context.",
       "url": "https://chromestatus.com/feature/5143609755828224",
       "bug-url": "https://issues.chromium.org/u/1/issues/495852854",
@@ -9315,8 +9360,8 @@
         "https://github.com/explainers-by-googlers/approximate-geolocation/blob/main/README.md"
       ],
       "updated": {
-        "by": "mattreynolds@google.com",
-        "when": "2026-07-28 17:56:32.500652"
+        "by": "antoniosartori@google.com",
+        "when": "2026-08-11 11:07:41.160337"
       }
     },
     {
@@ -10433,8 +10478,8 @@
       "spec-link": "https://www.w3.org/TR/IndexedDB",
       "explainer-links": [],
       "updated": {
-        "by": "evanstade@microsoft.com",
-        "when": "2026-08-10 14:53:16.049974"
+        "by": "fergal@google.com",
+        "when": "2026-08-17 10:14:13.261333"
       }
     },
     {
@@ -11603,15 +11648,15 @@
     {
       "id": 5114042131808256,
       "name": "JPEG XL decoding support (image/jxl) in blink",
-      "summary": "Adds support for decoding JPEG XL (image/jxl) images in Blink using jxl-rs, a memory-safe pure Rust decoder.\n\n  JPEG XL is a modern image format standardized as ISO/IEC 18181 that offers:\n  - Progressive decoding for improved perceived loading performance\n  - Support for wide color gamut, HDR, and high bit depth\n  - Animation support\n\nThis implementation uses jxl-rs (https://github.com/libjxl/jxl-rs) instead of the C++ libjxl reference decoder to meet Chromium's memory safety requirements. The decoder is gated behind the enable-jxl-image-format flag and enable_jxl_decoder build flag.\n\n\nCL: https://chromium-review.googlesource.com/c/chromium/src/+/7184969",
-      "motivation": null,
+      "summary": "Adds support for decoding JPEG XL (image/jxl) images in Blink using jxl-rs, a memory-safe pure Rust decoder (https://github.com/libjxl/jxl-rs).\nJPEG XL is a modern image format standardized as ISO/IEC 18181 that offers progressive decoding for improved perceived loading performance, support for wide color gamut, HDR, and high bit depth, and support for animation.",
+      "motivation": "(see Summary)",
       "url": "https://chromestatus.com/feature/5114042131808256",
       "bug-url": null,
-      "spec-link": null,
+      "spec-link": "https://www.iso.org/standard/85066.html",
       "explainer-links": [],
       "updated": {
-        "by": "hjanuschka@gmail.com",
-        "when": "2026-02-16 08:50:14.032254"
+        "by": "veluca@chromium.org",
+        "when": "2026-08-31 09:04:56.496328"
       }
     },
     {
@@ -12029,6 +12074,22 @@
     }
   ],
   "languagemodel": [
+    {
+      "id": 6325545693478912,
+      "name": "Prompt API Sampling Parameters",
+      "summary": "The Prompt API Sampling Parameters allow developers to control the output variety of the built-in AI language model. Instead of exposing raw numerical parameters (e.g. topK and temperature) which can behave inconsistently across different underlying model families and versions, this feature introduces a categorical samplingMode enum. This allows the browser to handle the heavy lifting of mapping semantic presets to optimal raw parameters for a specific underlying model, providing developers with the necessary granularity to tune responses while maintaining cross-browser interoperability.\n\nenum AILanguageModelSamplingMode {\n  \"most-predictable\",      // For strict consistency/factual extraction\n  \"predictable\",           // For highly focused outputs\n  \"slightly-predictable\",  // For moderately focused, consistent outputs\n  \"balanced\",              // The default state for standard prompting\n  \"slightly-creative\",     // For moderately varied, expressive outputs\n  \"creative\",              // For tasks favoring variety over strict facts\n  \"most-creative\"          // For maximum token diversity and brainstorming\n};",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/6325545693478912",
+      "bug-url": "https://issues.chromium.org/issues/502214118",
+      "spec-link": "https://webmachinelearning.github.io/prompt-api",
+      "explainer-links": [
+        "https://github.com/webmachinelearning/prompt-api#sampling-parameters"
+      ],
+      "updated": {
+        "by": "iahouma@google.com",
+        "when": "2026-08-23 02:01:15.769692"
+      }
+    },
     {
       "id": 5134603979063296,
       "name": "Prompt API",
@@ -12524,15 +12585,15 @@
     {
       "id": 6225598451154944,
       "name": "Local Network Access restrictions for Background Fetch",
-      "summary": "Background Fetch requests will now require that the service worker's origin has the necessary Local Network Access (LNA) permission in order to send requests to local or loopback servers.\n\nThis aligns Chromium's implementation with the intent of the Background Fetch spec (that such requests go through the Fetch spec and have the same security policies applied to them, in this case Local Network Access checks). This prevents sites from bypassing LNA checks by using Background Fetch instead of regular Fetch.",
+      "summary": "Background Fetch requests will soon require that the service worker's origin has the necessary Local Network Access (LNA) permission in order to send requests to local or loopback servers.\n\nThis aligns Chromium's implementation with the intent of the Background Fetch spec, which states that such requests go through the Fetch spec and have the same security policies applied to them, in this case LNA checks. This prevents sites from bypassing LNA checks by using [Background Fetch spec](https://wicg.github.io/background-fetch/) instead of regular [Fetch](https://fetch.spec.whatwg.org/).\n\nFor enterprises, you can use existing LNA enterprise policies in the same way you previously would have for regular Fetch API requests from service workers:\n- [LocalNetworkAccessRestrictionsTemporaryOptOut](https://chromeenterprise.google/policies/#LocalNetworkAccessRestrictionsTemporaryOptOut)\n- [LocalNetworkAccessAllowedForUrls](https://chromeenterprise.google/policies/#LocalNetworkAccessAllowedForUrls)\n- [LoopbackNetworkAllowedForUrls](https://chromeenterprise.google/policies/#LoopbackNetworkAllowedForUrls)\n- [LocalNetworkAccessPermissionsPolicyDefaultEnabled](https://chromeenterprise.google/policies/#LocalNetworkAccessPermissionsPolicyDefaultEnabled)\n- [LocalNetworkAccessIpAddressSpaceOverrides](https://chromeenterprise.google/policies/#LocalNetworkAccessIpAddressSpaceOverrides)).\n",
       "motivation": "This fixes a security issue where Background Fetch unintentionally bypasses security policies such as Local Network Access checks.",
       "url": "https://chromestatus.com/feature/6225598451154944",
-      "bug-url": null,
+      "bug-url": "https://crbug.com/455486148",
       "spec-link": "https://wicg.github.io/background-fetch",
       "explainer-links": [],
       "updated": {
-        "by": "cthomp@chromium.org",
-        "when": "2026-08-06 17:34:19.780507"
+        "by": "siobhankeating@google.com",
+        "when": "2026-08-26 12:21:37.915278"
       }
     },
     {
@@ -12548,7 +12609,7 @@
       ],
       "updated": {
         "by": "cthomp@chromium.org",
-        "when": "2026-08-05 20:24:20.042891"
+        "when": "2026-09-01 08:03:45.500651"
       }
     },
     {
@@ -12852,6 +12913,22 @@
   ],
   "manifest": [
     {
+      "id": 5184195986063360,
+      "name": "Web app manifest scope filtering",
+      "summary": "Web developers can use scope inclusions and exclusions to define which URLs belong to an installed web app using URL patterns. This helps apps include non-contiguous or parameterized routes and exclude specific paths, so only intended URLs open in the app window.",
+      "motivation": "The existing Web App Manifest scope member supports only a single URL prefix. Real-world web apps often need to exclude non-app pages—such as sign-out, help, download, or API routes—or include non-contiguous and parameterized app routes. Without finer control, developers must capture unintended URLs, restructure their sites, or avoid scope-dependent capabilities such as navigation capturing. This proposal adds origin-owned, backward-compatible scope inclusions and exclusions.\n",
+      "url": "https://chromestatus.com/feature/5184195986063360",
+      "bug-url": "https://issues.chromium.org/issues/543924642",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/WICG/manifest-incubations/blob/gh-pages/manifest-scope-improvements/scope-inclusions-and-exclusions.md"
+      ],
+      "updated": {
+        "by": "luhua@microsoft.com",
+        "when": "2026-08-12 17:32:56.446638"
+      }
+    },
+    {
       "id": 5123349239955456,
       "name": "PWA origin migration",
       "summary": "When a user installs a Progressive Web App (PWA), its identity and security context are tightly bound to its web origin, for example, `app.example.com`. This presents a significant challenge for developers who need to change their PWA's origin due to rebranding, domain restructuring, or technical re-architecture. Currently, such a change forces users to manually uninstall the old app and reinstall the new one, leading to a disruptive experience and a potential increase in user loss rate. Chrome 150 introduces a mechanism for developers to seamlessly migrate an installed PWA to a new, same-site origin, preserving user trust and permissions.\n\nThe [WebAppInstallForceList](https://chromeenterprise.google/policies/#WebAppInstallForceList) policy will block migration. Since enterprise policies around web applications are primarily based on URLs and origins, there is a risk that a migration would bypass certain policies an admin might have configured. No migration will be offered to the user when an app is force-installed by their enterprise administrator, and instead a banner will be shown explaining this to the user.",
@@ -12978,7 +13055,7 @@
     {
       "id": 5197863732772864,
       "name": "Margin-trim",
-      "summary": "The `margin-trim` CSS property may be used to omit margins before or after the first or last child of a container. This is supported on regular block containers, in addition to flex, grid, and multicol containers.\n\nhttps://drafts.csswg.org/css-box-4/#margin-trim\n\nThis is somewhat similar to the effect caused by the margin quirk that is applied to P, H1, H2... elements inside BODY and table cell elements (in quirks mode), but more powerful, generic, and expressive.",
+      "summary": "The `margin-trim` CSS property may be used to omit margins before or after the first or last child of a container. This is supported on regular block containers and multicol containers. Note: A previous version of the spec also applied this for flex and grid containers, but this has been removed.\n\nhttps://drafts.csswg.org/css-box-4/#margin-trim\n\nThis is somewhat similar to the effect caused by the margin quirk that is applied to P, H1, H2... elements inside BODY and table cell elements (in quirks mode), but more powerful, generic, and expressive.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5197863732772864",
       "bug-url": "https://issues.chromium.org/issues/40886857",
@@ -12986,7 +13063,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mstensho@chromium.org",
-        "when": "2026-02-11 09:45:21.429005"
+        "when": "2026-08-24 13:50:35.063115"
       }
     }
   ],
@@ -13475,7 +13552,7 @@
       "explainer-links": [],
       "updated": {
         "by": "foolip@chromium.org",
-        "when": "2026-06-24 07:10:12.649976"
+        "when": "2026-08-28 10:07:01.553782"
       }
     }
   ],
@@ -14057,16 +14134,16 @@
   "modal": [
     {
       "id": 5427561449521152,
-      "name": "Suspicious Site Warnings",
-      "summary": "Suspicious Site Warnings are a new UI for Enhances Safe Browsing Users. Now when a user enrolled in ESB visits a site with signals to indicate that it is potentially malicious they will see an easily bypassable modal. This warning compliments the red interstitial warnings, which will continue to be shown on confirmed malicious websites. ",
+      "name": "Suspicious site warnings",
+      "summary": "Suspicious site warnings are a new feature for users of **Safe Browsing > Enhanced protection**, to warn against potentially malicious sites. \n\nIn Chrome 152, when a user enrolled in enhanced Safe Browsing visits a site with signals to indicate that it is potentially malicious, a warning displays in a by-passable pop-up, which must be clicked before they can continue. This warning is in addition to the red interstitial warnings, which will continue to be shown on confirmed malicious websites. For more information, see [Choose your Safe Browsing protection level in Chrome](https://support.google.com/chrome/answer/13844634).\n\nAdmins can control this warning using the existing [SafeBrowsingProtectionLevel](https://chromeenterprise.google/policies/#SafeBrowsingProtectionLevel) policy. To exclude specific sites from triggering the warning, admins can add URLs to the [SafeBrowsingAllowlistDomains](https://chromeenterprise.google/policies/#SafeBrowsingAllowlistDomains) policy.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5427561449521152",
       "bug-url": null,
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "hgbuonomo@google.com",
-        "when": "2026-08-07 16:36:39.073135"
+        "by": "siobhankeating@google.com",
+        "when": "2026-08-12 13:23:37.622335"
       }
     },
     {
@@ -14554,7 +14631,7 @@
     {
       "id": 5183481574850560,
       "name": "Web Install API",
-      "summary": "Allows a website to install a web app. The API provides 3 signatures, with 0, 1, and 2 parameters, respectively. When invoked, the website installs either itself, or another site from a different origin, as a web app (depending on the provided parameters). All 3 signatures will be experimented with in parallel.\n\n*Terminology - A site installing itself is a \"current document install\". A site installing another site is a \"background document install\".",
+      "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The navigator.install() method enables cross-origin web app installation and provides a better developer experience than handling beforeinstallprompt events. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web is currently unable to install web apps. The capability must be baked into the platform to allow for websites to distribute content without relying on proprietary protocols or invoking platform specific stores. \n\nWeb Install democratizes application distribution and allows developers to broaden the reach of their content.",
       "url": "https://chromestatus.com/feature/5183481574850560",
       "bug-url": "https://issues.chromium.org/issues/333795265",
@@ -14563,8 +14640,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "kristinlee@microsoft.com",
-        "when": "2026-08-10 17:25:52.954579"
+        "by": "liahiscock@microsoft.com",
+        "when": "2026-08-31 17:58:19.610811"
       }
     }
   ],
@@ -14718,15 +14795,15 @@
     {
       "id": 5863296436666368,
       "name": "Notification attribution for PWAs on macOS",
-      "summary": "Chrome is rolling out notification attribution for installed Progressive Web Apps (PWAs) on macOS. When a PWA is installed on macOS, its notifications will now be natively attributed to the PWA itself (using its own name and icon in the Notification Center) rather than Google Chrome.\n\nThis update also changes how notifications are displayed to the user, aligning PWA notifications with native macOS applications. It introduces two changes that align with current behavior in [WebKit](https://webkit.org/):\n- For app notifications, Chrome will no longer support the `requireInteraction` field for notifications. On macOS, the user controls whether the notification is temporary or persistent on a per-app basis.\n- For app badging, the Badging API now requires notifications permissions for the app badge to show up. If the user does not grant notifications permission, the API will silently do nothing.\n\nAdministrators who pre-grant notification permissions using Chrome policies must update their configurations if they want to keep that behavior for PWAs on macOS:\n\nIn addition to the Chrome origin-based policy [NotificationsAllowedForUrls](https://chromeenterprise.google/policies/#NotificationsAllowedForUrls), administrators must deploy a macOS MDM configuration profile to pre-grant notification permissions to the PWA's specific bundle ID.",
+      "summary": "Chrome 152 rolls out notification attribution for installed Progressive Web Apps (PWAs) on macOS. When a PWA is installed on macOS, its notifications are now attributed to the PWA itself (using its own name and icon in the Notification Center) rather than Google Chrome.\n\nThis update also changes how notifications are displayed to the user, aligning PWA notifications with native macOS applications. It introduces two changes that align with current behavior in [WebKit](https://webkit.org/):\n- For app notifications, Chrome no longer supports the `requireInteraction` field for notifications. On macOS, the user controls whether the notification is temporary or persistent on a per-app basis.\n- For app badging, the Badging API now requires notifications permissions for the app badge to show up. If the user does not grant notifications permission, the API silently does nothing.\n\nTo control notification permissions using Chrome policies, admins need to update their policy settings if they want to keep that behavior for PWAs on macOS, using the Chrome origin-based policy [NotificationsAllowedForUrls](https://chromeenterprise.google/policies/#NotificationsAllowedForUrls). Additionally, administrators need to deploy a macOS MDM configuration profile to turn on notification permissions for the PWA's specific bundle ID.",
       "motivation": "Previously, all PWA notifications were displayed under the \"Google Chrome\" umbrella. This prevented users from managing notification settings (sounds, badges, alerts, Focus modes) on a per-PWA basis. Attributing notifications to the PWA's App Shim provides a highly requested native integration on macOS, aligning Chrome with established macOS platform behaviors.\n\n",
       "url": "https://chromestatus.com/feature/5863296436666368",
       "bug-url": "https://issues.chromium.org/issues/327449602",
       "spec-link": "https://notifications.spec.whatwg.org",
       "explainer-links": [],
       "updated": {
-        "by": "mek@chromium.org",
-        "when": "2026-07-30 21:14:18.758834"
+        "by": "siobhankeating@google.com",
+        "when": "2026-08-12 11:39:14.123994"
       }
     },
     {
@@ -15366,7 +15443,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-08-10 13:30:33.662607"
+        "when": "2026-08-19 14:28:29.717293"
       }
     },
     {
@@ -16201,7 +16278,7 @@
       ],
       "updated": {
         "by": "tungnh@google.com",
-        "when": "2026-08-07 11:20:13.355187"
+        "when": "2026-08-19 15:08:19.175348"
       }
     },
     {
@@ -16624,7 +16701,7 @@
       ],
       "updated": {
         "by": "jarhar@chromium.org",
-        "when": "2026-08-11 06:45:56.997806"
+        "when": "2026-08-28 14:18:33.741761"
       }
     },
     {
@@ -17735,6 +17812,20 @@
   ],
   "registered-custom-properties": [
     {
+      "id": 5168674259468288,
+      "name": "Optional descriptors for registered custom properties",
+      "summary": "Allows authors to omit any descriptor in an @property rule and the corresponding optional members of CSS.registerProperty(). Omitted values  default to universal syntax, inheritance, and the guaranteed-invalid  initial value; invalid descriptors use normal CSS fallback behavior.",
+      "motivation": "Registered custom properties currently require authors to repeat syntax and  inherits descriptors, and typed registrations cannot omit initial-value. The  CSSWG resolved that registrations should behave like unregistered custom  properties except for the descriptors authors explicitly provide. This removes  boilerplate and lets typed properties use per-use var() fallbacks by defaulting  initial-value to the guaranteed-invalid value.",
+      "url": "https://chromestatus.com/feature/5168674259468288",
+      "bug-url": "https://issues.chromium.org/issues/491802759",
+      "spec-link": "https://drafts.css-houdini.org/css-properties-values-api-1/#at-property-rule",
+      "explainer-links": [],
+      "updated": {
+        "by": "hjanuschka@gmail.com",
+        "when": "2026-08-23 19:28:34.548775"
+      }
+    },
+    {
       "id": 4921872333537280,
       "name": "Allow a comma-separated list of custom property names in the @property prelude",
       "summary": "Allows a comma-separated list of custom property names in the @property prelude, so that multiple custom properties sharing the same type, initial value, and inheritance behavior can be registered in a single @property rule. This reduces repetition when registering many related CSS custom properties that share the same descriptor values.",
@@ -18775,20 +18866,6 @@
   ],
   "scope": [
     {
-      "id": 5184195986063360,
-      "name": "Web app manifest scope filtering",
-      "summary": "Web developers can use scope inclusions and exclusions to define which URLs belong to an installed web app using URL patterns. This helps apps include non-contiguous or parameterized routes and exclude specific paths, so only intended URLs open in the app window.",
-      "motivation": null,
-      "url": "https://chromestatus.com/feature/5184195986063360",
-      "bug-url": null,
-      "spec-link": null,
-      "explainer-links": [],
-      "updated": {
-        "by": "luhua@microsoft.com",
-        "when": "2026-08-08 01:00:36.530491"
-      }
-    },
-    {
       "id": 5100672734199808,
       "name": "@scope",
       "summary": "Allows authors to scope style rules to a given scoping root, and style elements according to the proximity of that scoping root.\n",
@@ -19413,30 +19490,34 @@
   "scroll-snap": [
     {
       "id": 5124378896498688,
-      "name": "Support scrolling snapping to a single element",
+      "name": "Use scroll-snap-type: pair to snap to a single element",
       "summary": "https://github.com/w3c/csswg-drafts/issues/9519\n\nAdd a \"pair\" keyword to scroll-snap-type. If used, when the container scroll snaps to an element on one axis, it should snap to the same element on the other axis.",
-      "motivation": null,
+      "motivation": "See explainer",
       "url": "https://chromestatus.com/feature/5124378896498688",
-      "bug-url": null,
+      "bug-url": "https://crbug.com/542706103",
       "spec-link": null,
-      "explainer-links": [],
+      "explainer-links": [
+        "https://github.com/explainers-by-googlers/scroll-snap-type-pair"
+      ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-08-04 15:37:26.277981"
+        "when": "2026-08-25 15:10:04.054925"
       }
     },
     {
       "id": 5086608215900160,
       "name": "Scroll snap for single-axis scroll containers",
-      "summary": "Allows single-axis scroll containers (such as elements with overflow-x: auto; overflow-y: clip) to act as scroll snap containers exclusively along their scrolling axis. This enables web developers to configure horizontal and vertical scroll snapping independently across different nearest ancestor scroll containers without one axis interfering with the other.",
-      "motivation": null,
+      "summary": "Supports per-axis scroll snap area propagation and alignment for single-axis scroll containers (e.g., containers with overflow: auto clip;).\n\nWhen a snap area specifies snap alignments on both axes, a single-axis scroll container consumes only its scrollable axis and propagates the unconsumed axis up to find the nearest ancestor scroller capable of scrolling in that direction.",
+      "motivation": "This is part of the single-axis scroll container feature (https://github.com/explainers-by-googlers/single-axis-scroll-containers) to align the scroll snap behavior with the sticky header in a single-axis scroll container.",
       "url": "https://chromestatus.com/feature/5086608215900160",
-      "bug-url": null,
+      "bug-url": "http://crbug.com/473576119",
       "spec-link": null,
-      "explainer-links": [],
+      "explainer-links": [
+        "https://github.com/explainers-by-googlers/single-axis-scroll-snap"
+      ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-07-30 18:46:55.214081"
+        "when": "2026-08-25 15:09:14.983621"
       }
     },
     {
@@ -19609,6 +19690,22 @@
   ],
   "secure-payment-confirmation": [
     {
+      "id": 5126146013396992,
+      "name": "Secure Payment Confirmation: Locale Validation",
+      "summary": "Updates Secure Payment Confirmation's `locale` data field to return a Not Supported DOMException if none of the language tags provided in the field match the language used by the Secure Payment Confirmation's dialog. If the field is not set or empty, this validation is skipped.\n\nThis helps web developers with matching the language of the data that they are supplying to Secure Payment Confirmation with the dialog.",
+      "motivation": "This feature amends Secure Payment Confirmation so that web developers can align the language of data elements that they supply to Secure Payment Confirmation with the language used by the Secure Payment Confirmation dialog.\n\nCurrently web developers can provide a list of language tags for Secure Payment Confirmation to use in their dialog. But Secure Payment Confirmation does not use this list because it is not feasible for the browser to support all languages and the Secure Payment Confirmation is a browser feature so it should use the browser language to be consistent with other browser features.\n\nBy returning an error when none of the language tags provided match Secure Payment Confirmation's language, web developers are able to retry with different language tags (while updating the language of their supplied data elements) until they get a match.",
+      "url": "https://chromestatus.com/feature/5126146013396992",
+      "bug-url": "https://crbug.com/535278878",
+      "spec-link": "https://w3c.github.io/secure-payment-confirmation/#dom-securepaymentconfirmationrequest-locale",
+      "explainer-links": [
+        "https://github.com/w3c/secure-payment-confirmation/issues/343"
+      ],
+      "updated": {
+        "by": "darwinyang@chromium.org",
+        "when": "2026-09-02 09:42:34.953078"
+      }
+    },
+    {
       "id": 4727235745546240,
       "name": "Get Secure Payment Confirmation Capabilities",
       "summary": "Adds a new static method to the Payment Request that allows web developers to get the capabilities of the browser's implementation of Secure Payment Confirmation.\n\nThis helps web developers to easily know what capabilities are available for Secure Payment Confirmation so they can decide whether or not they want to use Secure Payment Confirmation with those capabilities.",
@@ -19622,7 +19719,7 @@
       ],
       "updated": {
         "by": "darwinyang@chromium.org",
-        "when": "2026-03-30 13:38:21.887140"
+        "when": "2026-08-12 20:44:29.933393"
       }
     }
   ],
@@ -20799,6 +20896,20 @@
     }
   ],
   "shapes": [
+    {
+      "id": 5100672946143232,
+      "name": "closest-corner and farthest-corner radii for circle() and ellipse() basic shapes",
+      "summary": "The circle() and ellipse() CSS basic-shape functions accept the closest-corner and farthest-corner radius keywords, in addition to the existing closest-side and farthest-side. These keywords resolve to the Euclidean distance from the shape center to the nearest or farthest corner of the reference box, matching the long-standing behavior of radial-gradient(). They work in clip-path, shape-outside, and offset-path, so the same shape syntax accepted by gradients now works for shapes.\n\n\nCL: https://chromium-review.googlesource.com/c/chromium/src/+/7767079",
+      "motivation": "The <radial-extent> keywords closest-corner and farthest-corner are defined for radial gradients and have been interoperably supported there for years. The circle() and ellipse() basic-shape syntax in CSS Shapes Module Level 1 shares the <shape-radius> production with gradients, but Blink (and Gecko) only accepted closest-side / farthest-side for the basic shapes. That means authors who want a circle that exactly inscribes the reference box's farthest corner have to hand-compute sqrt(w*w + h*h)/2 or fall back to a radial-gradient() mask, even though the keyword exists in the same value space.\n\nThis change fills in the missing keywords so basic shapes have the full <radial-extent> set:\n\nclosest-corner: the distance from the center to the closest corner of the reference box.\n\nfarthest-corner: the distance from the center to the farthest corner of the reference box.\n\nFor ellipse(), which accepts two independent <shape-radius> values in current implementations, each axis resolves independently to the corner Euclidean distance. \n\n\nA spec ambiguity exists about whether ellipse() should accept one <radial-extent> covering both axes (per the spec text) or two independent ones (current implementation reality). This was discussed in https://github.com/w3c/csswg-drafts/issues/13814 and the conclusion from the thread was that the existing two-value interpretation is fine to keep.",
+      "url": "https://chromestatus.com/feature/5100672946143232",
+      "bug-url": "https://crbug.com/361617757",
+      "spec-link": "https://drafts.csswg.org/css-shapes-1/#basic-shape-functions",
+      "explainer-links": [],
+      "updated": {
+        "by": "hjanuschka@gmail.com",
+        "when": "2026-08-24 12:32:51.029618"
+      }
+    },
     {
       "id": 5672616710373376,
       "name": "Clip-path xywh() and rect() values",
@@ -22328,16 +22439,16 @@
       ],
       "updated": {
         "by": "kbabbitt@microsoft.com",
-        "when": "2026-07-08 19:40:48.525981"
+        "when": "2026-08-24 18:15:58.757208"
       }
     }
   ],
   "svg": [
     {
       "id": 5095153430822912,
-      "name": "Support CSS `link-parameters` property",
-      "summary": "The `link-parameters` CSS property sets named parameters on external resources referenced by an element, such as SVG images in <img> or CSS background images. Each parameter is specified using `param(<dashed-ident>, <value>)` syntax and becomes available as a custom environment variable via `env()` in the linked resource. This enables reusable, templated SVG images that adapt to a site's theme colors or design tokens without inlining the SVG or duplicating files.",
-      "motivation": "External SVG images referenced via  <img>  or  background-image  cannot inherit styles from the embedding page. To customize the appearance of such images (e.g., matching a site's theme color), developers must either:\n\n 1. Inline the SVG into the HTML document — this prevents the browser from caching the SVG independently across pages, since each page contains its own copy of the SVG markup. It also mixes image assets with document structure, making maintenance harder as both must be     edited in the same file.\n 2. Maintain multiple copies of the same SVG with different hardcoded values (e.g.,  icon-red.svg ,  icon-green.svg ) — this multiplies network requests and cache entries for what is logically the same image.\n\nThe  `link-parameters`  property provides a declarative way to pass values into external SVG resources. A single SVG file can serve multiple contexts while remaining cacheable as one resource. For example, an SVG icon that exposes a  `--color`  parameter via  `env(--color,  black)`  can be themed from the embedding page with:\n\nimg { link-parameters: param(--color, green); }\n\nWithout this property, the developer must either inline the SVG or maintain separate SVG files for each color variant.",
+      "name": "CSS Linked Parameters Support for External SVG Images",
+      "summary": "CSS Linked Parameters provides a way for developers to pass CSS values for named parameters into linked resources. This feature allows parameters to be passed to external SVG images loaded through <img> or CSS image properties such as 'background-image'. Parameters can be supplied through the 'link-parameters' property, 'param()' URL fragments, or 'param()' modifiers in 'url()'. Developers specify each parameter using 'param(<dashed-ident>, <declaration-value>)', and the linked SVG accesses it as a custom environment variable through 'env()'. This allows a single cacheable SVG file to adapt to different theme colors or design tokens without being inlined or duplicated.",
+      "motivation": "External SVG images referenced through <img> or CSS image properties such as 'background-image' cannot inherit styles from the embedding page. To customize an image (for example, to match a site's theme), developers typically rely on workarounds like:\n\n1. Inline the SVG into the HTML document. This prevents the SVG from being cached independently across pages and mixes image assets with document structure.\n2. Maintain multiple copies of the SVG with different hard-coded values. This creates separate resources and cache entries for what is logically the same image.\n\nCSS Linked Parameters provides a declarative way to pass values into external SVG images. A single SVG file can serve multiple contexts while remaining cacheable as one resource.\n\nFor example, using the 'link-parameters' property on the embedding page:\n\nimg {\n  link-parameters: param(--color, green);\n}\n\nInside the linked SVG:\n\ncircle {\n  fill: env(--color, black);\n}\n\nThe embedding page supplies 'green' as the value of '--color'. If it does not supply that parameter, the SVG uses the fallback value 'black'.",
       "url": "https://chromestatus.com/feature/5095153430822912",
       "bug-url": "https://issues.chromium.org/issues/41482962",
       "spec-link": "https://drafts.csswg.org/css-link-params",
@@ -22345,8 +22456,8 @@
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/SVG/CSSLinkedParameters/explainer.md"
       ],
       "updated": {
-        "by": "dmangal@microsoft.com",
-        "when": "2026-07-02 20:46:17.962143"
+        "by": "rahsin@microsoft.com",
+        "when": "2026-08-27 04:21:18.732075"
       }
     },
     {
@@ -22947,7 +23058,21 @@
       "explainer-links": [],
       "updated": {
         "by": "perryuwang@gmail.com",
-        "when": "2026-05-19 22:10:27.809824"
+        "when": "2026-08-25 11:12:28.429437"
+      }
+    },
+    {
+      "id": 5178263526834176,
+      "name": "CSS text-decoration-inset",
+      "summary": "CSS text-decoration-inset controls how far underlines, overlines, and line-through decorations are inset from or extended beyond text run edges. It supports auto, length, and percentage values, including one-value and two-value syntax for setting the start and end offsets. This lets developers adjust decoration spacing and create reveal effects with native text decorations instead of background gradients or additional elements.\n\n\nsampler: https://static.januschka.com/i-468928416/?asddsaasd\nMDN: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-decoration-inset\n\nCL: https://chromium-review.googlesource.com/c/chromium/src/+/7748204",
+      "motivation": "This change implements CSS text-decoration-inset (CSS Text Decoration Level 4), including percentage values. It gives authors direct control over decoration inset and reduces the need for wrapper/pseudo-element workarounds used to fine-tune underline/overline/line-through rendering.\n\n\n\nsampler: https://static.januschka.com/i-468928416/?asddsaasd\nMDN: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-decoration-inset\n\nCL: https://chromium-review.googlesource.com/c/chromium/src/+/7748204\n\n",
+      "url": "https://chromestatus.com/feature/5178263526834176",
+      "bug-url": "https://issues.chromium.org/issues/468928416",
+      "spec-link": "https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration-inset",
+      "explainer-links": [],
+      "updated": {
+        "by": "hjanuschka@gmail.com",
+        "when": "2026-08-26 15:10:56.474560"
       }
     },
     {
@@ -25279,18 +25404,18 @@
   "web-audio": [
     {
       "id": 5109900936085504,
-      "name": "OfflineAudioContext streaming output",
-      "summary": "This feature adds a streaming mechanism to OfflineAudioContext so that the audio graph data can be incrementally processed rather than allocating the whole audio buffer up-front. By incrementally delivering the data via streaming, there is no need to have high memory requirements for the user's machine when processing high amounts of data.",
-      "motivation": "The OfflineAudioContext API works well for rendering small audio graphs but it does not scale for larger projects because it allocates the full graph's AudioBuffer up-front. For example, rendering a 2 hour video composition project in clipchamp.com in an OfflineAudioContext would require an extremely large AudioBuffer allocation. \n\nThe implication of this API is that a user's computer must have enough available memory to export the project even if the in-memory audio buffer will eventually be discarded after it is written to a file. In situations with limited hardware resources or low-powered devices, this limitation makes WebAudio unusable as an offline processor. If memory capacity is exceeded on a user's machine then the processing will stop and the browser may terminate the tab/window leading to potential loss of data for the user and a poor user experience.\n\nThis feature allows streaming data out of a WebAudio in an offline context for rendering large audio graphs, thus removing large memory requirements for the user's machine.",
+      "name": "OfflineAudioContext incremental rendering",
+      "summary": "This feature adds an incremental rendering mechanism to OfflineAudioContext so that the audio graph data can be incrementally processed rather than allocating the whole audio buffer up front. By incrementally delivering the data using data chunks, there is no need to have high memory requirements for the user's machine when processing high amounts of data.",
+      "motivation": "The OfflineAudioContext API works well for rendering small audio graphs, but it does not scale for larger projects because it allocates the full graph's AudioBuffer up front. For example, rendering a 2-hour video composition project in clipchamp.com in an OfflineAudioContext would require an extremely large AudioBuffer allocation. \n\nThe implication of this API is that a user's computer must have enough available memory to export the project even if the in-memory audio buffer will eventually be discarded after it is written to a file. In situations with limited hardware resources or low-powered devices, this limitation makes WebAudio unusable as an offline processor. If memory capacity is exceeded on a user's machine, then the processing will stop and the browser may terminate the tab/window leading to potential loss of data for the user and a poor user experience.",
       "url": "https://chromestatus.com/feature/5109900936085504",
-      "bug-url": null,
-      "spec-link": "https://github.com/WebAudio/web-audio-api/pull/2675",
+      "bug-url": "https://issues.chromium.org/issues/530596178",
+      "spec-link": "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-startrendering",
       "explainer-links": [
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/OfflineAudioContext/explainer.md"
       ],
       "updated": {
         "by": "gabrielbrito@microsoft.com",
-        "when": "2026-06-17 20:56:08.657077"
+        "when": "2026-08-27 18:31:47.978539"
       }
     },
     {
@@ -25303,8 +25428,8 @@
       "spec-link": "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-renderquantumsize",
       "explainer-links": [],
       "updated": {
-        "by": "hongchan@google.com",
-        "when": "2026-07-29 14:24:50.761942"
+        "by": "mjwilson@chromium.org",
+        "when": "2026-08-24 17:05:39.054907"
       }
     },
     {
@@ -26070,16 +26195,18 @@
   "web-bluetooth": [
     {
       "id": 5177569273053184,
-      "name": "Web Bluetooth BluetoothRemoteGATTCharacteristic.getMTU()",
-      "summary": "Adds BluetoothRemoteGATTCharacteristic.getMTU(), which lets web developers read the negotiated ATT MTU for a connected Bluetooth GATT characteristic.\n\nThis helps applications choose packet sizes that fit the active BLE connection, improving throughput and avoiding trial-and-error around platform-specific MTU behavior.\n\n\nimplementation: https://chromium-review.googlesource.com/c/chromium/src/+/7879985\n\nBug: 40265040, 40686244, 40163619\n",
-      "motivation": "Web Bluetooth applications currently cannot know the negotiated ATT MTU for a BLE connection. Developers either assume the minimum MTU, use fixed platform-specific heuristics, or attempt writes and handle failures. Exposing the negotiated MTU lets applications size writes and transfers appropriately, especially for devices where throughput or reliability depends on using packet sizes larger than the default 20-byte payload.",
+      "name": "Web Bluetooth: BluetoothRemoteGATTServer.maxWriteWithoutResponseSize",
+      "summary": "Adds BluetoothRemoteGATTServer.maxWriteWithoutResponseSize, which reports the largest payload that writeValueWithoutResponse() can send in one ATT packet. A maxwritewithoutresponsesizechanged event notifies applications when Chrome observes the value change, allowing applications to size chunks without assuming a 20-byte limit.\n\n\n\nimplementation: https://chromium-review.googlesource.com/c/chromium/src/+/7879985\n\nBug: 40265040, 40686244, 40163619\n",
+      "motivation": "Web Bluetooth applications currently cannot determine the largest payload accepted by writeValueWithoutResponse() for an active GATT connection. They must hard-code the 20-byte default, use platform-specific heuristics, or probe with writes and handle platform-dependent failures or truncation. Exposing the usable payload size allows applications to chunk transfers correctly and use larger ATT MTUs for substantially better throughput.",
       "url": "https://chromestatus.com/feature/5177569273053184",
-      "bug-url": null,
-      "spec-link": null,
-      "explainer-links": [],
+      "bug-url": "https://issues.chromium.org/issues/40265040",
+      "spec-link": "https://pr-preview.s3.amazonaws.com/hjanuschka/web-bluetooth/pull/672.html#dom-bluetoothremotegattserver-maxwritewithoutresponsesize",
+      "explainer-links": [
+        "https://github.com/WebBluetoothCG/web-bluetooth/pull/672"
+      ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-06-18 19:52:56.882268"
+        "when": "2026-08-28 12:04:55.317905"
       }
     },
     {
@@ -26263,7 +26390,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-06-17 15:42:55.039043"
+        "when": "2026-08-25 18:44:28.675751"
       }
     },
     {
@@ -26344,6 +26471,34 @@
     }
   ],
   "web-midi": [
+    {
+      "id": 4812694485073920,
+      "name": "MIDIOutput.clear()",
+      "summary": "Clears any enqueued send data that has not yet been sent from the MIDIOutput's queue. The implementation will ensure the MIDI stream is left in a good state, so if the output port is in the middle of a sysex message, a sysex termination byte (0xf7) will be sent.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/4812694485073920",
+      "bug-url": "https://crbug.com/40411677",
+      "spec-link": "https://webaudio.github.io/web-midi-api/#dom-midioutput-clear",
+      "explainer-links": [],
+      "updated": {
+        "by": "mjwilson@chromium.org",
+        "when": "2026-08-25 23:04:51.686760"
+      }
+    },
+    {
+      "id": 5383093186854912,
+      "name": "Make MIDIAccess transferable and exposed to workers",
+      "summary": "WebMIDI MIDIAccess objects are now transferable and exposed to workers.  This allows developers to synchronize and schedule MIDI events with better accuracy and performance.",
+      "motivation": "Scheduling and handling MIDI events on the main thread can result in poor performance and scheduling accuracy.  Allowing MIDIAccess objects to run on Worker threads can solve real-world performance and jitter issues in Web MIDI applications.\n\nPlease see discussion here for more details: https://github.com/WebAudio/web-midi-api/issues/99",
+      "url": "https://chromestatus.com/feature/5383093186854912",
+      "bug-url": "https://crbug.com/379805727",
+      "spec-link": "https://webaudio.github.io/web-midi-api/#dom-midiaccess",
+      "explainer-links": [],
+      "updated": {
+        "by": "mjwilson@chromium.org",
+        "when": "2026-08-25 22:17:35.724372"
+      }
+    },
     {
       "id": 5087054662205440,
       "name": "Permissions Prompt for Web MIDI API",
@@ -27148,6 +27303,36 @@
   ],
   "webgpu": [
     {
+      "id": 6229154029764608,
+      "name": "WebGPU: WGSL Swizzle Assignment",
+      "summary": "Allows a single assignment statement to update multiple components of a vector in the WebGPU Shading Language (WGSL). Developers can use swizzle syntax on the left-hand side of an assignment rather than reconstruct entire vectors or assign components individually. This reduces boilerplate, improves shader readability, and aligns WGSL with other common shading languages.",
+      "motivation": "Allows a single assignment statement to update multiple components of a vector in the WebGPU Shading Language (WGSL) to reduce boilerplate, improve shader readability, and align WGSL with other common shading languages.",
+      "url": "https://chromestatus.com/feature/6229154029764608",
+      "bug-url": "https://issues.chromium.org/433787057",
+      "spec-link": "https://github.com/gpuweb/gpuweb/pull/5268",
+      "explainer-links": [],
+      "updated": {
+        "by": "chouinard@google.com",
+        "when": "2026-08-27 08:05:00.398771"
+      }
+    },
+    {
+      "id": 5663304168112128,
+      "name": "WebGPU: WGSL Fragment Depth",
+      "summary": "Adds the ability to provide a `less` or `greater` modifier to the `@builtin(frag_depth)` in WGSL.\n\nThe current `@builtin(frag_depth)` can potentially introduce a performance penalty due to disabling the early-Z optimizations on a draw call. The new modifiers allow the explicit setting of the buffer mode and allow the early-Z optimizations to be applied.",
+      "motivation": "In the current WGSL specification, the mere act of writing to @builtin(frag_depth) often incurs a significant performance penalty because driver heuristics cannot guarantee that the fragment shader output will adhere to the depth written by the rasterizer's interpolated depth. Consequently, writing to frag_depth typically forces the GPU to disable crucial early-Z optimizations for the entire draw call.\n\nThe introduction of a new depth_mode built-in parameter for the @builtin(frag_depth) with modes less, and greater directly addressing this performance limitation by letting the developer express their intent to the hardware.",
+      "url": "https://chromestatus.com/feature/5663304168112128",
+      "bug-url": "https://crbug.com/457993779",
+      "spec-link": "https://github.com/gpuweb/gpuweb/pull/6299",
+      "explainer-links": [
+        "https://github.com/gpuweb/gpuweb/blob/main/proposals/fragment-depth.md"
+      ],
+      "updated": {
+        "by": "jrprice@google.com",
+        "when": "2026-08-31 16:13:33.447268"
+      }
+    },
+    {
       "id": 5094091886034944,
       "name": "WebGPU: `buffer_view` feature",
       "summary": "WGSL language feature for reinterpreting data in variables.\n\nThe feature allows developers to divide a single uniform, storage, or workgroup variable into multiple logical variables. It also allows the type of the data in the variable to be interpreted as multiple types within the program.",
@@ -27811,18 +27996,18 @@
     },
     {
       "id": 5172464636133376,
-      "name": "WebHID (Human Interface Device)",
-      "summary": "Enables web applications to interact with human interface devices (HIDs) other than the standard supported devices (mice, keyboards, touchscreens, and gamepads). However, there are many other HID devices that are currently inaccessible to the web. This API allows web applications to request access to these devices, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, ChromeOS). Support on Android is planned for Chrome 157. This feature can be controlled by enterprise policies: \n[DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting), [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls), [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls), [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls), \n[WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls), [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls).",
+      "name": "Support for specialized WebHID devices on Android",
+      "summary": "WebHID now allows web applications to interact with a wider range of devices. Standard Human Interface Device (HID) examples include mice, keyboards, touchscreens, and gamepads. Those are accessible with high-level input events. However, specialized HID devices and features (for example, custom keyboards, game controllers, and call control headsets) require extended access. \n\nWebHID allows web applications to request access, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, and ChromeOS). Support on Android is planned for Chrome 157. To read more, see [Connect to uncommon HID devices](https://developer.chrome.com/docs/extensions/how-to/web-platform/webhid).\n\nThis feature can be controlled by the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)",
       "motivation": "",
       "url": "https://chromestatus.com/feature/5172464636133376",
-      "bug-url": "https://crbug.com/890096",
+      "bug-url": "http://crbug.com/40628009",
       "spec-link": "https://wicg.github.io/webhid/index.html",
       "explainer-links": [
         "https://github.com/WICG/webhid/blob/master/EXPLAINER.md"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-08-05 18:10:56.222015"
+        "by": "siobhankeating@google.com",
+        "when": "2026-08-26 12:53:58.511524"
       }
     }
   ],
@@ -27876,19 +28061,33 @@
   ],
   "webrtc": [
     {
+      "id": 5160724576993280,
+      "name": "Deprecate and Remove RTCPeerconnection.createDTMF",
+      "summary": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
+      "motivation": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
+      "url": "https://chromestatus.com/feature/5160724576993280",
+      "bug-url": "http://crbug.com/553274713",
+      "spec-link": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection",
+      "explainer-links": [],
+      "updated": {
+        "by": "guidou@google.com",
+        "when": "2026-08-31 17:17:46.740983"
+      }
+    },
+    {
       "id": 5115054790934528,
       "name": "RTCRtpReceiver Decoder State Changed and Error Events",
       "summary": "Adds decoderstatechange and decodererror events to RTCRtpReceiver so applications can detect runtime decoder changes and terminal decoding failures. decoderstatechange reports when the codec or decoder implementation changes, while decodererror reports an unrecoverable failure as an EncodingError. These events let applications adapt playback, inform users, and diagnose problems without repeatedly polling statistics.",
       "motivation": "WebRTC applications cannot directly observe codec changes or terminal decoder failures as they occur. Developers must poll getStats() and infer failures from indirect signals, which produces unreliable heuristics and can create compatibility problems. When hardware decoding fails and no software decoder is available, as can occur with H.265, playback stops and only the application can ask the remote endpoint to send a different codec. Event-driven notifications let applications recover promptly by renegotiating codecs or adjusting playback, inform users, and diagnose changes that can affect latency, quality, and power consumption.",
       "url": "https://chromestatus.com/feature/5115054790934528",
-      "bug-url": null,
+      "bug-url": "https://issues.chromium.org/issues/546181655",
       "spec-link": null,
       "explainer-links": [
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/RTCRtpReceiverDecoderFallback/explainer.md"
       ],
       "updated": {
         "by": "irzhou@microsoft.com",
-        "when": "2026-08-05 22:05:55.457704"
+        "when": "2026-08-14 16:56:57.000647"
       }
     },
     {
@@ -28800,6 +28999,22 @@
   ],
   "webrtc-encoded-transform": [
     {
+      "id": 5149398731456512,
+      "name": "RTC EncodedFrame constructors",
+      "summary": "The WebRTC Encoded Transform API allows processing of encoded data from RTCPeerConnections. However, one functionality is lacking: the ability to create new encoded frames from scratch.\n\nSo far, the only way to create a new frame has been to read a frame from an RTCPeerConnection. Some use cases require the ability to create frames from scratch. For example, applications that want to do encoding  using WebCodecs or some other custom mechanism (e.g., a WASM encoder). ",
+      "motivation": "RTC Encoded Frame constructors aim to provide constructors that allow creating RTCEncodedVideoFrame and RTCEncodedAudioFrame objects from scratch, so that applications that want to perform custom encoding of RTC media using WebCodecs or other custom codecs can easily turn the result into RTC encoded frames.",
+      "url": "https://chromestatus.com/feature/5149398731456512",
+      "bug-url": "https://crbug.com/524901718",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/guidou/webrtc-extensions/blob/main/encoded-source-explainer.md"
+      ],
+      "updated": {
+        "by": "guidou@google.com",
+        "when": "2026-08-21 13:35:27.743335"
+      }
+    },
+    {
       "id": 6294486420029440,
       "name": "Timestamps for RTC Encoded Frames",
       "summary": "This feature consists in exposing to the Web some timestamps that are present in WebRTC encoded frames transmitted via RTCPeerConnection.\r\nThe timestamps in question are:\r\n-Capture timestamp: the timestamp when a frame was originally captured\r\n-Receive timestamp: the timestamp when a frame was received\r\n",
@@ -29009,7 +29224,7 @@
       ],
       "updated": {
         "by": "cthomp@chromium.org",
-        "when": "2026-08-05 17:58:23.240256"
+        "when": "2026-08-20 13:18:51.909103"
       }
     },
     {
@@ -29084,6 +29299,68 @@
     }
   ],
   "webtransport": [
+    {
+      "id": 4860330806214656,
+      "name": "WebTransport keying material export",
+      "summary": "Adds WebTransport.exportKeyingMaterial(), which allows an application to derive cryptographic keying material bound to an established WebTransport session.\n\nThe method accepts application provided binary label and context values and a requested output length and returns a Promise<Uint8Array>. Chromium supports label and context values up to 255 bytes and output lengths from 1 through 4096 bytes.\n\nFor WebTransport over HTTP/3, Chromium includes the WebTransport CONNECT stream ID in the TLS exporter context. This ensures that separate WebTransport sessions derive different keying material even when they share the same underlying HTTP/3 connection.",
+      "motivation": "Applications sometimes need cryptographic keying material bound to an authenticated transport session, for example to bind an application protocol, authentication exchange, or application-level encryption context to a WebTransport session without performing an additional key exchange.\n\nTLS exporters derive application-specific secret material without exposing the TLS traffic keys.  WebTransport.exportKeyingMaterial()  exposes this mechanism through application-provided binary label and context values and an explicit output length.\n\nMultiple WebTransport sessions can share one HTTP/3 connection. Chromium therefore includes the WebTransport CONNECT stream ID in the exporter context, ensuring that different sessions derive different keying material even when callers use identical application labels and contexts.",
+      "url": "https://chromestatus.com/feature/4860330806214656",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/w3c/webtransport/blob/main/explainer.md"
+      ],
+      "updated": {
+        "by": "monicach@microsoft.com",
+        "when": "2026-09-01 21:34:15.847174"
+      }
+    },
+    {
+      "id": 5094058497277952,
+      "name": "WebTransport reliability attributes",
+      "summary": "Adds the  WebTransport.reliability  instance attribute and static WebTransport.supportsReliableOnly attribute. These APIs indicate whether the user agent supports WebTransport over exclusively reliable connections and whether an established session supports unreliable transport such as datagrams.\n\nIn Chromium, reliability initially returns \"pending\" and changes to  \"supports-unreliable\" after an HTTP/3 WebTransport connection is established.  Since Chromium does not currently support HTTP/2 fallback,  WebTransport.supportsReliableOnly returns false; any successfully established session uses HTTP/3 and supports unreliable datagrams.",
+      "motivation": "WebTransport may operate over connections with different reliability capabilities. Applications such as games, interactive media, and real-time collaboration tools need to know whether unreliable datagrams are available before selecting their transport strategy.\n\nWebTransport.supportsReliableOnly  reports whether the user agent supports WebTransport over exclusively reliable connections. The per-session reliability attribute is \"pending\" while connecting and becomes \"reliable-only\" or  \"supports-unreliable\" once the transport is known.\n\nChromium currently implements WebTransport over HTTP/3 with unreliable datagram support, so established sessions report \"supports-unreliable\" and  supportsReliableOnly  returns false.",
+      "url": "https://chromestatus.com/feature/5094058497277952",
+      "bug-url": "https://issues.chromium.org/issues/545636884",
+      "spec-link": "https://www.w3.org/TR/webtransport/#dom-webtransport-reliability",
+      "explainer-links": [
+        "https://github.com/w3c/webtransport/blob/main/explainer.md#transport-modes"
+      ],
+      "updated": {
+        "by": "monicach@microsoft.com",
+        "when": "2026-09-01 17:03:37.690763"
+      }
+    },
+    {
+      "id": 5183354944225280,
+      "name": "WebTransport Datagram writable streams and prioritization",
+      "summary": "Adds the modern WebTransport Datagram sending API.\n\nWebTransportDatagramDuplexStream.createWritable() creates independent WebTransportDatagramsWritable streams. Each writable has mutable sendGroup and sendOrder attributes for expressing relative priority among queued WebTransport data in the same send group. Chromium currently applies this ordering among Datagram writables.\n\nThe implementation also reports the negotiated maximum outgoing Datagram payload size and discards oversized writes as required by the WebTransport specification.",
+      "motivation": "The original WebTransport Datagram API exposes only a single writable stream, preventing applications from independently scheduling different classes of latency-sensitive messages.\n\nThe newer API allows applications such as games, remote-interaction systems, and real-time media applications to create multiple Datagram writables and prioritize urgent data over less time-sensitive data while preserving FIFO ordering within each writable.\n\nImplementing this API also resolves WebTransport Datagram interoperability failures included in Interop 2026.",
+      "url": "https://chromestatus.com/feature/5183354944225280",
+      "bug-url": "https://issues.chromium.org/issues/547572475",
+      "spec-link": "https://www.w3.org/TR/webtransport/#datagram-writable",
+      "explainer-links": [
+        "https://github.com/w3c/webtransport/blob/main/explainer.md#5-sending-and-receiving-datagrams"
+      ],
+      "updated": {
+        "by": "monicach@microsoft.com",
+        "when": "2026-08-25 18:25:08.290578"
+      }
+    },
+    {
+      "id": 5194104408506368,
+      "name": "WebTransport headers and responseHeaders",
+      "summary": "Adds support for passing custom HTTP request headers via WebTransportOptions and inspecting server response headers through the WebTransport instance. This allows web applications to supply metadata, authentication tokens, and custom parameters during the initial CONNECT handshake and access server-provided headers once the connection is established.",
+      "motivation": "The WebTransport constructor requires support for custom HTTP request headers to address several technical limitations in authentication, routing, and capability negotiation.\n\nWithout custom headers, developers must pass authentication tokens in URL query strings, which exposes credentials in server logs and telemetry, or authenticate over an initial data stream, which adds an additional round trip before the connection is usable.\n\nFurthermore, API gateways and reverse proxies typically inspect HTTP headers at the CONNECT layer. Without custom headers, these intermediaries cannot authorize or route WebTransport sessions via existing pipelines, forcing servers to accept connections before verifying credentials.\n\nFinally, applications often need to negotiate capabilities, such as supported video codecs, during connection setup. Providing custom request headers in WebTransportOptions and a readable responseHeaders property on the WebTransport instance allows clients and servers to authenticate, route, and negotiate capabilities during the initial handshake. This eliminates the need for custom stream-level initialization protocols.",
+      "url": "https://chromestatus.com/feature/5194104408506368",
+      "bug-url": "https://issues.chromium.org/issues/551850821",
+      "spec-link": "https://www.w3.org/TR/webtransport/#dom-webtransportoptions-headers",
+      "explainer-links": [],
+      "updated": {
+        "by": "ricea@google.com",
+        "when": "2026-09-02 08:58:40.243266"
+      }
+    },
     {
       "id": 5143839699501056,
       "name": "Deprecate WebTransport incomingHighWaterMark/outgoingHighWaterMark",
@@ -29320,8 +29597,8 @@
       "spec-link": "https://w3c.github.io/webvtt/",
       "explainer-links": [],
       "updated": {
-        "by": "foolip@google.com",
-        "when": "2025-08-22 07:31:07.384744"
+        "by": "rbyers@chromium.org",
+        "when": "2026-08-19 16:51:06.988813"
       }
     }
   ],
@@ -29799,6 +30076,22 @@
   ],
   "window-management": [
     {
+      "id": 5200904761507840,
+      "name": "Creating always-on-top windows",
+      "summary": "Allows website to open a popup in an always-on-top window by setting the `alwaysOnTop` option in window.open(). When set to true, the browser requests that the operating system keep the newly created window pinned above other non-always-on-top windows, enabling fully standalone, always-on-top utility windows that can outlive the tab that opened them. This requires the window-management permission.",
+      "motivation": "Currently, web applications cannot create standalone, independent windows that stay above other desktop applications. While the Document Picture-in-Picture API does allow for always-on-top windows, they are strictly tied to the lifecycle of the initiating tab and close automatically if that tab navigates or closes.",
+      "url": "https://chromestatus.com/feature/5200904761507840",
+      "bug-url": "https://issues.chromium.org/issues/546631275",
+      "spec-link": "https://www.w3.org/TR/window-management",
+      "explainer-links": [
+        "https://github.com/w3c/window-management/blob/main/EXPLAINER_always_on_top.md"
+      ],
+      "updated": {
+        "by": "steimel@chromium.org",
+        "when": "2026-08-28 22:12:54.534490"
+      }
+    },
+    {
       "id": 5172386273689600,
       "name": "HDR headroom query",
       "summary": "Adds HDR headroom to the attributes of a display that may be queried in ScreenDetailed.\r\n\r\nThe HDR headroom of a screen is the parameter that is used for many HDR tone mapping algorithms. Custom tone mapping (e.g, in WebGPU) requires knowing this parameter.",
@@ -29838,8 +30131,8 @@
         "https://github.com/w3c/window-management/blob/main/EXPLAINER_additional_windowing_controls.md"
       ],
       "updated": {
-        "by": "msw@chromium.org",
-        "when": "2026-08-10 18:30:36.423355"
+        "by": "pchodur@google.com",
+        "when": "2026-08-28 16:42:54.978961"
       }
     },
     {
@@ -30068,8 +30361,8 @@
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-07-15 10:40:22.323201"
+        "by": "masonfreed@google.com",
+        "when": "2026-08-31 16:14:40.900686"
       }
     },
     {
@@ -30183,6 +30476,22 @@
   ],
   "languagedetector": [
     {
+      "id": 5087964794322944,
+      "name": "Language Detector API on Android",
+      "summary": "Exposes the LanguageDetector JavaScript Web API on Chrome for Android (Clank). This allows web applications to detect text languages locally on mobile devices using fast, privacy-preserving, and offline-capable on-device machine learning models and not rely on cloud endpoints.",
+      "motivation": "Exposing the Language Detector API on Chrome for Android allows web applications to perform fast, privacy-preserving, and offline-capable language identification directly within mobile browsers. ",
+      "url": "https://chromestatus.com/feature/5087964794322944",
+      "bug-url": "https://crbug.com/549896512",
+      "spec-link": "https://webmachinelearning.github.io/translation-api",
+      "explainer-links": [
+        "https://github.com/webmachinelearning/translation-api"
+      ],
+      "updated": {
+        "by": "msw@google.com",
+        "when": "2026-08-27 21:31:36.633316"
+      }
+    },
+    {
       "id": 5138651886518272,
       "name": "LanguageDetector support for Traditional vs. Simplified Chinese",
       "summary": "Two new detectable language codes, \"zh-Hant\" and \"zh-Hans\" will be added. Detection results that previously returned \"zh\" will now return one of these new values.\n\nWhile this is a developer-visible change it fits within the framework already present in the API for returning more specific language codes. For example ja vs. ja-Latn. This notice is being sent as a PSA for developers who have requested these more specific detection results.",
@@ -30210,8 +30519,8 @@
         "https://github.com/webmachinelearning/webmcp"
       ],
       "updated": {
-        "by": "dom@chromium.org",
-        "when": "2026-06-04 12:04:47.151707"
+        "by": "fbeaufort@google.com",
+        "when": "2026-08-12 05:43:50.470558"
       }
     }
   ],
@@ -30359,26 +30668,26 @@
     {
       "id": 5111794608766976,
       "name": "JavaScript call stacks in out-of-memory (OOM) crash reports",
-      "summary": "Adds a JavaScript call stack to a document's out-of-memory (OOM) crash report, for documents that opt in with the existing Document-Policy: include-js-call-stacks-in-crash-reports header.\n\nThe stack gives developers an actionable starting point for diagnosing OOM crashes, which today report only reason: \"oom\" with no further detail. Capture is best-effort and not guaranteed for every crash.",
-      "motivation": "OOM is one of the most common and hardest-to-diagnose classes of renderer crash in production.\n\nThe equivalent problem for hung renderers is already solved: Chromium ships a best-effort JS call stack for reason: \"unresponsive\" crash reports, gated behind the same Document Policy opt-in this proposal reuses.\n\nOOM reports currently carry no comparable detail, leaving developers with only reason: \"oom\" and no way to localize the offending code path.\n",
+      "summary": "Out-of-memory crash reports can include a JavaScript call stack when a document opts in using Document-Policy: include-js-call-stacks-in-crash-reports. The stack helps developers group production OOM failures and identify the JavaScript execution path active near heap exhaustion. Capture is best effort and does not necessarily identify the allocation site or root cause.",
+      "motivation": "Renderer OOM crashes are difficult to diagnose because they can depend on workload, data, and memory conditions and may not reproduce locally.\n\nChromium provides a best-effort JavaScript stack for unresponsive renderer crash reports using the same Document Policy opt-in.\n\nWithout comparable OOM stacks, developers receive only reason: \"oom\" and must correlate page URLs, application telemetry, user reports, and additional instrumentation to investigate the failure.",
       "url": "https://chromestatus.com/feature/5111794608766976",
-      "bug-url": null,
-      "spec-link": "https://wicg.github.io/crash-reporting",
+      "bug-url": "https://issues.chromium.org/issues/358611259",
+      "spec-link": null,
       "explainer-links": [
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/CrashReporting/AddStackToCrashReports.md"
       ],
       "updated": {
         "by": "issackjohn@microsoft.com",
-        "when": "2026-07-27 21:39:31.409844"
+        "when": "2026-08-28 22:56:37.103565"
       }
     }
   ],
   "translator": [
     {
       "id": 5106126157905920,
-      "name": "Language Detector and Translator APIs on Android",
-      "summary": "Exposes the LanguageDetector and Translator JavaScript Web APIs on Chrome for Android (Clank). This allows web applications to detect text languages and perform text translation locally on mobile devices using fast, privacy-preserving, and offline-capable on-device machine learning models without relying on cloud endpoints or increasing site download size.\n",
-      "motivation": "Exposing the Language Detector API and Translator API on Chrome for Android allows web applications to perform fast, privacy-preserving, and offline-capable text processing directly within mobile browsers. Language detection and translation are complementary capabilities in real-world web applications—such as chat apps, comment streams, and social feeds—where developers must first identify an unknown input language before translating it. Routing these APIs to platform-native machine learning engines eliminates reliance on cloud translation endpoints or heavy third-party scripts, enabling seamless on-device AI capabilities while establishing feature parity across desktop and mobile web platforms.\n",
+      "name": "Translator API on Android",
+      "summary": "Exposes the Translator JavaScript Web API on Chrome for Android (Clank). This allows web applications to perform text translation locally on mobile devices using fast, privacy-preserving, and offline-capable on-device machine learning models (via Android ML Kit) without relying on cloud endpoints or increasing Chrome's installed binary size.",
+      "motivation": "Exposing the Translator API on Chrome for Android allows web applications to perform fast, privacy-preserving, and offline-capable text translation directly within mobile browsers. ",
       "url": "https://chromestatus.com/feature/5106126157905920",
       "bug-url": "https://crbug.com/428227642",
       "spec-link": "https://webmachinelearning.github.io/translation-api",
@@ -30386,8 +30695,60 @@
         "https://github.com/webmachinelearning/translation-api"
       ],
       "updated": {
-        "by": "jaeone@google.com",
-        "when": "2026-07-29 19:54:50.618787"
+        "by": "msw@google.com",
+        "when": "2026-08-27 21:33:47.371462"
+      }
+    }
+  ],
+  "font-family": [
+    {
+      "id": 4780977359552512,
+      "name": "CSS generic() function",
+      "summary": "CSS is introducing a new functional syntax for newer generic font families: `generic()`. Instead of adding more bare keywords that might clash with real font names, script-specific generics are written like `generic(fangsong)`, `generic(kai)`, `generic(khmer-mul)`, and `generic(nastaliq)`.\n",
+      "motivation": "CSS has outgrown the original Latin-centric handful of generic font families, but adding more bare keywords to `font-family` is dangerous for web compatibility.\n\nThe mechanism is very useful, but the original categories don't describe typography well across the world's writing systems. For example, Chinese commonly distinguishes Song, Hei, Kai, and Fangsong styles.",
+      "url": "https://chromestatus.com/feature/4780977359552512",
+      "bug-url": null,
+      "spec-link": "https://drafts.csswg.org/css-fonts-4/#generic-font-families",
+      "explainer-links": [],
+      "updated": {
+        "by": "xfq.free@gmail.com",
+        "when": "2026-08-27 12:44:55.615205"
+      }
+    }
+  ],
+  "font-width": [
+    {
+      "id": 5145402365050880,
+      "name": "FontFace width attribute and font-width descriptor",
+      "summary": "Exposes the width attribute on FontFace and the @font-face font-width descriptor as aliases for stretch and font-stretch. Aligns Chromium with the updated CSS Font Loading and CSS Fonts 4 specifications. Developers can now inspect or initialize font face widths using FontFace.width and CSS font-width interchangeably with stretch and font-stretch.",
+      "motivation": "CSS Font Loading and CSS Fonts 4 define width as the primary FontFace descriptor attribute and @font-face descriptor, while retaining stretch as a legacy alias. Chromium previously ignored the width constructor member and font-width descriptor, causing Web Platform Tests to fail. Exposing width aligns Chromium with the updated specification.",
+      "url": "https://chromestatus.com/feature/5145402365050880",
+      "bug-url": "https://issues.chromium.org/issues/543938492",
+      "spec-link": "https://drafts.csswg.org/css-fonts-4/#font-width-prop",
+      "explainer-links": [],
+      "updated": {
+        "by": "michael.reeves077@gmail.com",
+        "when": "2026-08-25 15:25:42.176418"
+      }
+    }
+  ],
+  "text-modules": [
+    {
+      "id": 5191512456560640,
+      "name": "Import Text (Text Modules)",
+      "summary": "A TC39 proposal to add module `import … with { type: \"text\" }` statements to JavaScript. The import attribute loads text data as a string value.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5191512456560640",
+      "bug-url": "https://issues.chromium.org/issues/494350643",
+      "spec-link": "https://tc39.es/proposal-import-text",
+      "explainer-links": [
+        "https://github.com/tc39/proposal-import-text",
+        "https://github.com/whatwg/html/pull/11933",
+        "https://github.com/w3c/webappsec-csp/pull/794"
+      ],
+      "updated": {
+        "by": "olivf@google.com",
+        "when": "2026-08-28 13:26:05.426789"
       }
     }
   ]
