@@ -974,6 +974,9 @@
   "random-function": {
     "firefox": [
       "https://bugzil.la/1836588"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/413385732"
     ]
   },
   "anchor-positioning": {
@@ -6634,6 +6637,7 @@
   },
   "webtransport": {
     "chrome": [
+      "https://issues.chromium.org/issues/556304550",
       "https://issues.chromium.org/issues/545636884",
       "https://issues.chromium.org/issues/547572475",
       "https://issues.chromium.org/issues/551850821",

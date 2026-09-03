@@ -174,7 +174,7 @@
       "explainer-links": [],
       "updated": {
         "by": "akyereboah@microsoft.com",
-        "when": "2026-08-27 14:04:26.295841"
+        "when": "2026-09-02 18:24:21.415380"
       }
     },
     {
@@ -4714,7 +4714,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-09-01 16:10:31.552512"
+        "when": "2026-09-03 08:03:09.455044"
       }
     },
     {
@@ -20907,7 +20907,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-08-24 12:32:51.029618"
+        "when": "2026-09-02 18:19:08.642608"
       }
     },
     {
@@ -23072,7 +23072,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-08-26 15:10:56.474560"
+        "when": "2026-09-02 15:06:28.235428"
       }
     },
     {
@@ -26390,7 +26390,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-08-25 18:44:28.675751"
+        "when": "2026-09-02 15:02:24.177140"
       }
     },
     {
@@ -29305,14 +29305,14 @@
       "summary": "Adds WebTransport.exportKeyingMaterial(), which allows an application to derive cryptographic keying material bound to an established WebTransport session.\n\nThe method accepts application provided binary label and context values and a requested output length and returns a Promise<Uint8Array>. Chromium supports label and context values up to 255 bytes and output lengths from 1 through 4096 bytes.\n\nFor WebTransport over HTTP/3, Chromium includes the WebTransport CONNECT stream ID in the TLS exporter context. This ensures that separate WebTransport sessions derive different keying material even when they share the same underlying HTTP/3 connection.",
       "motivation": "Applications sometimes need cryptographic keying material bound to an authenticated transport session, for example to bind an application protocol, authentication exchange, or application-level encryption context to a WebTransport session without performing an additional key exchange.\n\nTLS exporters derive application-specific secret material without exposing the TLS traffic keys.  WebTransport.exportKeyingMaterial()  exposes this mechanism through application-provided binary label and context values and an explicit output length.\n\nMultiple WebTransport sessions can share one HTTP/3 connection. Chromium therefore includes the WebTransport CONNECT stream ID in the exporter context, ensuring that different sessions derive different keying material even when callers use identical application labels and contexts.",
       "url": "https://chromestatus.com/feature/4860330806214656",
-      "bug-url": null,
-      "spec-link": null,
+      "bug-url": "https://issues.chromium.org/issues/556304550",
+      "spec-link": "https://www.w3.org/TR/webtransport/#dom-webtransport-exportkeyingmaterial",
       "explainer-links": [
         "https://github.com/w3c/webtransport/blob/main/explainer.md"
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-01 21:34:15.847174"
+        "when": "2026-09-02 21:21:08.349107"
       }
     },
     {
@@ -30748,7 +30748,26 @@
       ],
       "updated": {
         "by": "olivf@google.com",
-        "when": "2026-08-28 13:26:05.426789"
+        "when": "2026-09-03 09:48:16.376985"
+      }
+    }
+  ],
+  "random-function": [
+    {
+      "id": 5324559251275776,
+      "name": "CSS random() function",
+      "summary": "The random() function brings generative randomness to CSS, allowing web authors to generate a random numeric value within a specified range.\n\nFor example, web authors can use random() to scatter elements randomly within their container:\n.dot {\n  /* Position each dot randomly */\n  position: absolute;\n  top: random(0%, 100%);\n  left: random(0%, 100%);\n}\n\nThis feature also includes caching controls. By default, each random() function resolves to a new, distinct value. Web authors can override this default by passing a <random-key> value as the function's first argument to control how random values are shared across properties and elements.",
+      "motivation": "The CSS random() function provides a native way to generate random values directly in CSS without relying on JavaScript, reducing code complexity while making it easier for developers to create varied and dynamic designs.",
+      "url": "https://chromestatus.com/feature/5324559251275776",
+      "bug-url": "https://issues.chromium.org/issues/413385732",
+      "spec-link": "https://www.w3.org/TR/css-values-5/#random",
+      "explainer-links": [
+        "https://webkit.org/blog/17285/rolling-the-dice-with-css-random",
+        "https://css-tricks.com/almanac/functions/r/random"
+      ],
+      "updated": {
+        "by": "rbyers@chromium.org",
+        "when": "2026-09-02 15:16:43.310947"
       }
     }
   ]
