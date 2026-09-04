@@ -28,15 +28,6 @@
     "chrome": [
       "https://crbug.com/400981738",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=246571"
-    ],
-    "safari": [
-      "https://webkit.org/b/26609"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/26609"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/26609"
     ]
   },
   "shared-workers": {
@@ -784,15 +775,6 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1751188"
-    ],
-    "safari": [
-      "https://webkit.org/b/235400"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/235400"
-    ],
-    "webview_ios": [
-      "https://webkit.org/b/235400"
     ]
   },
   "blocking-render": {
@@ -1705,6 +1687,34 @@
     ],
     "chrome": [
       "https://issues.chromium.org/issues/421421332"
+    ]
+  },
+  "speech-recognition": {
+    "firefox": [
+      "https://bugzil.la/2038327"
+    ],
+    "chrome": [
+      "https://crbug.com/528037568",
+      "https://bugs.chromium.org/b/514764702",
+      "https://g-issues.chromium.org/issues/476168420",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=986771",
+      "http://crbug.com/761371",
+      "http://crbug.com/123688"
+    ],
+    "chrome_android": [
+      "https://crbug.com/41297427"
+    ],
+    "oculus": [
+      "https://crbug.com/41297427"
+    ],
+    "opera_android": [
+      "https://crbug.com/41297427"
+    ],
+    "samsunginternet_android": [
+      "https://crbug.com/41297427"
+    ],
+    "webview_android": [
+      "https://crbug.com/41297427"
     ]
   },
   "webgpu": {
@@ -5524,31 +5534,6 @@
       "http://crbug.com/869308"
     ]
   },
-  "speech-recognition": {
-    "chrome": [
-      "https://crbug.com/528037568",
-      "https://bugs.chromium.org/b/514764702",
-      "https://g-issues.chromium.org/issues/476168420",
-      "https://bugs.chromium.org/p/chromium/issues/detail?id=986771",
-      "http://crbug.com/761371",
-      "http://crbug.com/123688"
-    ],
-    "chrome_android": [
-      "https://crbug.com/41297427"
-    ],
-    "oculus": [
-      "https://crbug.com/41297427"
-    ],
-    "opera_android": [
-      "https://crbug.com/41297427"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/41297427"
-    ],
-    "webview_android": [
-      "https://crbug.com/41297427"
-    ]
-  },
   "speech-synthesis": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1224942",
@@ -6526,6 +6511,7 @@
   },
   "webrtc": {
     "chrome": [
+      "https://crbug.com/532190488",
       "http://crbug.com/553274713",
       "https://issues.chromium.org/issues/546181655",
       "https://issues.webrtc.org/issues/455813732",
@@ -6988,6 +6974,11 @@
       "https://issues.chromium.org/issues/494350643"
     ]
   },
+  "background": {
+    "chrome": [
+      "https://issues.chromium.org/issues/40855581"
+    ]
+  },
   "anchor-positioning-animations": {
     "firefox": [
       "https://bugzil.la/1924226"
@@ -7066,6 +7057,20 @@
     ],
     "webview_android": [
       "https://crbug.com/493736782"
+    ]
+  },
+  "container-timing": {
+    "chrome": [
+      "https://crbug.com/382422286"
+    ],
+    "chrome_android": [
+      "https://crbug.com/382422286"
+    ],
+    "edge": [
+      "https://crbug.com/382422286"
+    ],
+    "opera": [
+      "https://crbug.com/382422286"
     ]
   },
   "display-animation": {

@@ -287,6 +287,10 @@
     {
       "description": "Measure performance metrics on different browsers",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490"
+    },
+    {
+      "description": "Accurately measure user experience across all browser engines.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098"
     }
   ],
   "light-dark-image": [
@@ -433,6 +437,10 @@
     {
       "description": "Intelligently prefetch pages using my existing, simple Rails-based stack without cumbersome SPA/ frontend framework dependencies. Unlike the existing prefetch it would be nice to not have to be careful around cache settings in order for this to work.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-5331978273"
+    },
+    {
+      "description": "Improve performance for my web apps without resorting to SPA frameworks. Service Workers and Cache API have come a long way towards making MPA apps comparable to SPAs. Speculation rules will close the gap further while providing an ergonomical API.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-5536607047"
     }
   ],
   "speech-recognition": [

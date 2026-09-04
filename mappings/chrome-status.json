@@ -2734,7 +2734,7 @@
       "explainer-links": [],
       "updated": {
         "by": "ccameron@chromium.org",
-        "when": "2026-09-02 09:18:35.207131"
+        "when": "2026-09-03 17:54:50.868632"
       }
     },
     {
@@ -4714,7 +4714,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-09-03 08:03:09.455044"
+        "when": "2026-09-03 17:53:17.317223"
       }
     },
     {
@@ -19489,6 +19489,20 @@
   ],
   "scroll-snap": [
     {
+      "id": 5133912740331520,
+      "name": "scroll-snap-stop: before",
+      "summary": "When \"before\" is specified on a snap area, no fling will reach it and the user must drag to snap to it.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5133912740331520",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "lcdavid@google.com",
+        "when": "2026-09-03 14:31:07.714471"
+      }
+    },
+    {
       "id": 5124378896498688,
       "name": "Use scroll-snap-type: pair to snap to a single element",
       "summary": "https://github.com/w3c/csswg-drafts/issues/9519\n\nAdd a \"pair\" keyword to scroll-snap-type. If used, when the container scroll snaps to an element on one axis, it should snap to the same element on the other axis.",
@@ -21512,8 +21526,8 @@
     {
       "id": 5811907077472256,
       "name": "SpeechRecognitionResult Timestamps (WebSpeech API)",
-      "summary": "The Web Speech API currently does not allow developers to associate the transcribed text with specific segments of the audio source, making it difficult to map the generated text to the timeline or determine on-device transcription latency. We propose adding audioStartTime and audioEndTime (DOMHighResTimeStamp?) attributes on the SpeechRecognitionResult interface.",
-      "motivation": "Web applications are increasingly adopting on-device Automatic Speech Recognition (ASR) via the Web Speech API (SpeechRecognition) to enhance user privacy and lower backend processing costs. However, the WebSpeech API operates as a \"black box\" regarding local processing delays:\n\n1. Lack of Latency Tracking & Backend Recovery: When client devices with constrained CPU/GPU resources struggle to process audio in real time, significant transcription lag accumulates between when audio was spoken and when recognition results are emitted. Web applications have no web-exposed timing metrics to programmatically detect this lag or trigger an optional failover to a high-quality cloud ASR backend provider, resulting in degraded user experiences (e.g., stale or delayed captions in live video conferencing tools).\n\n2. Timeline Association: Developers cannot readily map recognized transcript text to specific segments of the source audio timeline, creating challenges for automated subtitle cue alignment and media editing tools.\n",
+      "summary": "The Web Speech API currently does not expose the acoustic timing bounds of recognized speech segments, making it difficult to associate transcribed text with media timelines or generate synchronized subtitle cues. We propose adding speechStartTime and speechEndTime (double, in seconds relative to stream start) attributes on the SpeechRecognitionResult interface.",
+      "motivation": "The Web Speech API currently does not expose the acoustic start and end timestamps of recognized speech utterances on SpeechRecognitionResult. While SpeechRecognitionEvent.timeStamp conveys when the DOM event occurred, it provides no information about the acoustic boundaries or duration of the speech segment within the source audio stream.\n\nExposing speechStartTime and speechEndTime (in seconds as a double, matching HTMLMediaElement.currentTime, BaseAudioContext.currentTime, and VTTCue) addresses critical media timeline association capabilities that are currently impossible on the web:\n\n1. Automated Subtitling & Caption Tracks: Constructing frame-accurate subtitle cues (VTTCue(start, end, text)) for recorded or streaming audio/video.\n2. Interactive \"Click-to-Seek\" Navigation: Enabling users to click a phrase in a transcript and immediately seek playback to the exact moment it was spoken.\n3. Conferencing & Media Recording Alignment: Synchronizing real-time captions with recorded media tracks or WebRTC playout delay buffers.\n4. Text-Based Media Editing: Accurately cutting, splicing, or rearranging audio and video based on transcript text.",
       "url": "https://chromestatus.com/feature/5811907077472256",
       "bug-url": "https://crbug.com/528037568",
       "spec-link": "https://github.com/WebAudio/web-speech-api/pull/192",
@@ -21521,8 +21535,8 @@
         "https://github.com/WebAudio/web-speech-api/blob/main/explainers/speech-recognition-result-timestamps.md"
       ],
       "updated": {
-        "by": "reillyg@chromium.org",
-        "when": "2026-07-16 20:23:39.428794"
+        "by": "alanding@chromium.org",
+        "when": "2026-09-04 03:55:09.426411"
       }
     },
     {
@@ -28061,6 +28075,22 @@
   ],
   "webrtc": [
     {
+      "id": 5177374353260544,
+      "name": "WebRTC Encoded Source",
+      "summary": "The RTCPeerConnection API allows encoding raw audio and video and send it to a remote peer. Raw audio and video are provided via a MediaStreamTrack, which usually carries media from cameras, microphones, screen captures and other sources.\n\nIn some cases, applications are interested in inserting encoded media directly into the peer connection:\n* The application wants to use a custom encoder instead of the internal encoder of the peer connection. This custom encoder could be a WebCodecs encoder, a WASM encoder or any other kind supplied by the application. \n* The application wants to use encoded data already available from another source such as another peer connection (e.g., to forward frames), or a file.\n\nThis proposal adds a new API to inject encoded frames directly into an RTCRtpSender from an RTCPeerConnection.",
+      "motivation": "This feature allows injecting encoded media frames into the RTCRtpSender of an RTCPeerConnection. This allows supporting the following use cases:\n* Use a custom encoder instead of the internal encoder of the peer connection. This custom encoder can be a WebCodecs encoder, a WASM encoder or any other kind supplied by the application. \n* Use pre-encoded data already available from another source such as another peer connection (e.g., to forward frames), or a file.\n\n",
+      "url": "https://chromestatus.com/feature/5177374353260544",
+      "bug-url": "https://crbug.com/532190488",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/guidou/webrtc-extensions/blob/main/encoded-source-explainer.md"
+      ],
+      "updated": {
+        "by": "guidou@google.com",
+        "when": "2026-09-04 11:30:55.266545"
+      }
+    },
+    {
       "id": 5160724576993280,
       "name": "Deprecate and Remove RTCPeerconnection.createDTMF",
       "summary": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
@@ -28071,7 +28101,7 @@
       "explainer-links": [],
       "updated": {
         "by": "guidou@google.com",
-        "when": "2026-08-31 17:17:46.740983"
+        "when": "2026-09-04 10:20:46.639059"
       }
     },
     {
@@ -30747,8 +30777,8 @@
         "https://github.com/w3c/webappsec-csp/pull/794"
       ],
       "updated": {
-        "by": "olivf@google.com",
-        "when": "2026-09-03 09:48:16.376985"
+        "by": "nikolaos@chromium.org",
+        "when": "2026-09-03 14:55:34.206467"
       }
     }
   ],
@@ -30768,6 +30798,22 @@
       "updated": {
         "by": "rbyers@chromium.org",
         "when": "2026-09-02 15:16:43.310947"
+      }
+    }
+  ],
+  "background": [
+    {
+      "id": 5144333908049920,
+      "name": "Background layer count independence ",
+      "summary": "Makes the computed value of the background-* longhands keep the number of comma-separated values the author specified, instead of repeating or truncating it to the background-image layer count. Repeating and truncating are used-value behavior: \"The computed values of the coordinating list properties are not affected by such truncation or repetition.\" This feature would implement the behavior defined in the https://drafts.csswg.org/css-values-4/ Appendix A.\n",
+      "motivation": "The behavior defined in the \"Appendix A: Coordinating List-Valued Properties\" of the CSS Values And Units L4 specification has been discussed recently and agreed that it should stand. This makes Chrome the only browser diverging in the specified behavior. ",
+      "url": "https://chromestatus.com/feature/5144333908049920",
+      "bug-url": "https://issues.chromium.org/issues/40855581",
+      "spec-link": "https://drafts.csswg.org/css-values-4/#linked-properties",
+      "explainer-links": [],
+      "updated": {
+        "by": "jfernandez@igalia.com",
+        "when": "2026-09-03 15:28:44.298532"
       }
     }
   ]
