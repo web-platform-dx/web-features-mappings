@@ -2727,14 +2727,14 @@
       "id": 5122501071994880,
       "name": "PredefinedColorSpace srgb-linear and display-p3-linear",
       "summary": "Add srgb-linear and display-p3-linear color spaces (as defined by CSS) to PredefinedColorSpace for use with canvases.",
-      "motivation": null,
+      "motivation": "Linear color spaces (where pixel values correspond linearly to luminance) are extremely commonly used in applications with connections to physical light rendering (e.g, games) or spatial processing (e.g, decimation, anti-aliasing, and interpolation).",
       "url": "https://chromestatus.com/feature/5122501071994880",
       "bug-url": "https://issuetracker.google.com/issues/454152417",
       "spec-link": "https://html.spec.whatwg.org/multipage/canvas.html#colour-spaces-and-colour-correction",
       "explainer-links": [],
       "updated": {
         "by": "ccameron@chromium.org",
-        "when": "2026-09-03 17:54:50.868632"
+        "when": "2026-09-04 20:48:31.619748"
       }
     },
     {
@@ -4306,17 +4306,14 @@
       "id": 5199775795380224,
       "name": "Trusted Types support in CSP Embedded Enforcement",
       "summary": "CSP Embedded Enforcement checks the `require-trusted-types-for` and `trusted-types` directives when determining whether an embedded document satisfies an iframe's required CSP. This allows embedding sites to require Trusted Types protections before an embedded document loads.",
-      "motivation": "CSP Embedded Enforcement lets an embedding page require an iframe response to enforce a specified Content Security Policy before it loads. Its subsumption check currently ignores the require-trusted-types-for and trusted-types directives, so embedders cannot use this mechanism to require Trusted Types protections. Supporting these directives allows embedding applications to verify that embedded content enforces the required Trusted Types restrictions before loading.",
+      "motivation": "CSP Embedded Enforcement lets an embedding page require an iframe response to enforce a specified Content Security Policy before it loads. Its subsumption check currently ignores the require-trusted-types-for and trusted-types directives, so embedders cannot use this mechanism to require Trusted Types protections. Supporting these directives allows embedding applications to verify that embedded content enforces the required Trusted Types restrictions before loading.\n\nNote: no separate explainer for this because it is a minor adjustment to an existing API",
       "url": "https://chromestatus.com/feature/5199775795380224",
       "bug-url": "https://issues.chromium.org/issues/40912894",
       "spec-link": "https://w3c.github.io/webappsec-cspee/#subsume-policy,https://github.com/w3c/webappsec-cspee/pull/36",
-      "explainer-links": [
-        "https://github.com/w3c/webappsec-csp/issues/628",
-        "https://github.com/w3c/webappsec-cspee/pull/36"
-      ],
+      "explainer-links": [],
       "updated": {
         "by": "vizlatin@microsoft.com",
-        "when": "2026-08-31 18:51:34.103020"
+        "when": "2026-09-04 17:51:49.753666"
       }
     },
     {
@@ -22460,9 +22457,9 @@
   "svg": [
     {
       "id": 5095153430822912,
-      "name": "CSS Linked Parameters Support for External SVG Images",
-      "summary": "CSS Linked Parameters provides a way for developers to pass CSS values for named parameters into linked resources. This feature allows parameters to be passed to external SVG images loaded through <img> or CSS image properties such as 'background-image'. Parameters can be supplied through the 'link-parameters' property, 'param()' URL fragments, or 'param()' modifiers in 'url()'. Developers specify each parameter using 'param(<dashed-ident>, <declaration-value>)', and the linked SVG accesses it as a custom environment variable through 'env()'. This allows a single cacheable SVG file to adapt to different theme colors or design tokens without being inlined or duplicated.",
-      "motivation": "External SVG images referenced through <img> or CSS image properties such as 'background-image' cannot inherit styles from the embedding page. To customize an image (for example, to match a site's theme), developers typically rely on workarounds like:\n\n1. Inline the SVG into the HTML document. This prevents the SVG from being cached independently across pages and mixes image assets with document structure.\n2. Maintain multiple copies of the SVG with different hard-coded values. This creates separate resources and cache entries for what is logically the same image.\n\nCSS Linked Parameters provides a declarative way to pass values into external SVG images. A single SVG file can serve multiple contexts while remaining cacheable as one resource.\n\nFor example, using the 'link-parameters' property on the embedding page:\n\nimg {\n  link-parameters: param(--color, green);\n}\n\nInside the linked SVG:\n\ncircle {\n  fill: env(--color, black);\n}\n\nThe embedding page supplies 'green' as the value of '--color'. If it does not supply that parameter, the SVG uses the fallback value 'black'.",
+      "name": "CSS Linked Parameters for External SVGs",
+      "summary": "CSS Linked Parameters provides a way for developers to pass CSS values for named parameters into linked resources. This feature focuses on applying CSS Linked Parameters to external SVGs. The 'link-parameters' property applies when an element loads an external SVG and to external SVGs referenced through CSS image properties. Parameters can also be supplied through link parameter directives in URLs or 'param()' modifiers in 'url()'. Developers specify each parameter using 'param(, ?)', and the external SVG accesses it as a custom environment variable through 'env()'. This allows authors to reuse the same external SVG file with different theme colors or design tokens, without inlining it or maintaining duplicate variants.",
+      "motivation": "External SVGs loaded by elements or referenced through CSS image properties generally cannot be styled directly by CSS in the page that references them. To customize an SVG, for example to match a site's theme, developers typically rely on workarounds like:\n\nInline the SVG into the HTML document. This prevents the SVG from being cached independently across pages and mixes image assets with document structure.\nMaintain multiple copies of the SVG with different hard-coded values. This creates separate resources and cache entries for what is logically the same SVG.\nCSS Linked Parameters provides a declarative way to pass values into external SVGs. A single SVG file can be reused with different values while remaining independently cacheable.\n\nFor example, using the 'link-parameters' property on the referencing page:\nimg {\n  link-parameters: param(--color, green);\n}\n\nInside the linked SVG:\ncircle {\n  fill: env(--color, black);\n}\n\nThe referencing page supplies 'green' as the value of '--color'. If it does not supply that parameter, the SVG uses the fallback value 'black'.",
       "url": "https://chromestatus.com/feature/5095153430822912",
       "bug-url": "https://issues.chromium.org/issues/41482962",
       "spec-link": "https://drafts.csswg.org/css-link-params",
@@ -22471,7 +22468,7 @@
       ],
       "updated": {
         "by": "rahsin@microsoft.com",
-        "when": "2026-08-27 04:21:18.732075"
+        "when": "2026-09-04 19:43:05.899105"
       }
     },
     {
@@ -23072,7 +23069,7 @@
       "explainer-links": [],
       "updated": {
         "by": "perryuwang@gmail.com",
-        "when": "2026-08-25 11:12:28.429437"
+        "when": "2026-09-04 18:48:27.968739"
       }
     },
     {

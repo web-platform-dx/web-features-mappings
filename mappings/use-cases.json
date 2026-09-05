@@ -283,6 +283,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4921750575"
     }
   ],
+  "languagedetector": [
+    {
+      "description": "- Live chat translation\n\nIf a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/511#issuecomment-5543085982"
+    }
+  ],
   "layout-instability": [
     {
       "description": "Measure performance metrics on different browsers",
@@ -475,6 +481,12 @@
     {
       "description": "To maintain web accessibility, and easily increase QoL for mobile users.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/61#issuecomment-4781700503"
+    }
+  ],
+  "translator": [
+    {
+      "description": "- UI translation for languages with no available locale\n\nImagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-5543037755"
     }
   ],
   "window-management": [
