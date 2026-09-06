@@ -26205,6 +26205,22 @@
   ],
   "web-bluetooth": [
     {
+      "id": 5138797158334464,
+      "name": "Web Bluetooth: Make BluetoothRemoteGATTServer an EventTarget",
+      "summary": "BluetoothRemoteGATTServer inherits from EventTarget, exposing the standard addEventListener(), removeEventListener(), and dispatchEvent() methods. This enables connection-level events to be dispatched directly on the GATT server.\n",
+      "motivation": "BluetoothRemoteGATTServer represents an active GATT connection and needs to host connection-level events. Making it an EventTarget gives web applications the standard event-listener API needed by events such as the separately proposed maxwritewithoutresponsesizechanged event.\n",
+      "url": "https://chromestatus.com/feature/5138797158334464",
+      "bug-url": "https://issues.chromium.org/issues/40265040",
+      "spec-link": "https://pr-preview.s3.amazonaws.com/hjanuschka/web-bluetooth/pull/672.html#bluetoothremotegattserver",
+      "explainer-links": [
+        "https://github.com/WebBluetoothCG/web-bluetooth/pull/672"
+      ],
+      "updated": {
+        "by": "hjanuschka@gmail.com",
+        "when": "2026-09-05 17:13:29.454145"
+      }
+    },
+    {
       "id": 5177569273053184,
       "name": "Web Bluetooth: BluetoothRemoteGATTServer.maxWriteWithoutResponseSize",
       "summary": "Adds BluetoothRemoteGATTServer.maxWriteWithoutResponseSize, which reports the largest payload that writeValueWithoutResponse() can send in one ATT packet. A maxwritewithoutresponsesizechanged event notifies applications when Chrome observes the value change, allowing applications to size chunks without assuming a 20-byte limit.\n\n\n\nimplementation: https://chromium-review.googlesource.com/c/chromium/src/+/7879985\n\nBug: 40265040, 40686244, 40163619\n",
