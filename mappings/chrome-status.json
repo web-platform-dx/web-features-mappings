@@ -2734,7 +2734,7 @@
       "explainer-links": [],
       "updated": {
         "by": "ccameron@chromium.org",
-        "when": "2026-09-04 20:48:31.619748"
+        "when": "2026-09-07 21:22:18.325858"
       }
     },
     {
@@ -13052,7 +13052,7 @@
     {
       "id": 5197863732772864,
       "name": "Margin-trim",
-      "summary": "The `margin-trim` CSS property may be used to omit margins before or after the first or last child of a container. This is supported on regular block containers and multicol containers. Note: A previous version of the spec also applied this for flex and grid containers, but this has been removed.\n\nhttps://drafts.csswg.org/css-box-4/#margin-trim\n\nThis is somewhat similar to the effect caused by the margin quirk that is applied to P, H1, H2... elements inside BODY and table cell elements (in quirks mode), but more powerful, generic, and expressive.",
+      "summary": "The `margin-trim` CSS property may be used to omit margins before or after the first or last child of a container. This is supported on regular block containers and multicol containers.\n\nThis is somewhat similar to the effect caused by the margin quirk that is applied to P, H1, H2... elements inside BODY and table cell elements (in quirks mode), but more powerful, generic, and expressive.\n\nNote: A previous version of the spec also applied this for flex and grid containers, but this has been removed.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5197863732772864",
       "bug-url": "https://issues.chromium.org/issues/40886857",
@@ -13060,7 +13060,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mstensho@chromium.org",
-        "when": "2026-08-24 13:50:35.063115"
+        "when": "2026-09-08 09:36:12.910800"
       }
     }
   ],
@@ -20918,7 +20918,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-07 12:55:04.762710"
+        "when": "2026-09-07 18:47:00.086076"
       }
     },
     {
