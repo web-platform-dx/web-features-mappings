@@ -2530,7 +2530,7 @@
       ],
       "updated": {
         "by": "pdr@chromium.org",
-        "when": "2026-04-17 18:24:31.001640"
+        "when": "2026-09-08 18:55:41.702036"
       }
     },
     {
@@ -2734,7 +2734,7 @@
       "explainer-links": [],
       "updated": {
         "by": "ccameron@chromium.org",
-        "when": "2026-09-07 21:22:18.325858"
+        "when": "2026-09-09 10:43:06.408194"
       }
     },
     {
@@ -4306,14 +4306,14 @@
       "id": 5199775795380224,
       "name": "Trusted Types support in CSP Embedded Enforcement",
       "summary": "CSP Embedded Enforcement checks the `require-trusted-types-for` and `trusted-types` directives when determining whether an embedded document satisfies an iframe's required CSP. This allows embedding sites to require Trusted Types protections before an embedded document loads.",
-      "motivation": "CSP Embedded Enforcement lets an embedding page require an iframe response to enforce a specified Content Security Policy before it loads. Its subsumption check currently ignores the require-trusted-types-for and trusted-types directives, so embedders cannot use this mechanism to require Trusted Types protections. Supporting these directives allows embedding applications to verify that embedded content enforces the required Trusted Types restrictions before loading.\n\nNote: no separate explainer for this because it is a minor adjustment to an existing API",
+      "motivation": "CSP Embedded Enforcement lets an embedding page require an iframe response to enforce a specified Content Security Policy before it loads. Its subsumption check currently ignores the `require-trusted-types-for` and `trusted-types` directives, so embedders cannot use this mechanism to require Trusted Types protections. Supporting these directives allows embedding applications to verify that embedded content enforces the required Trusted Types restrictions before loading.\n\nNote: No separate explainer is planned because this change does not introduce new API surface. It closes a gap in the existing subsumption check that prevents embedders from requiring and verifying Trusted Types protections on iframe responses.",
       "url": "https://chromestatus.com/feature/5199775795380224",
       "bug-url": "https://issues.chromium.org/issues/40912894",
       "spec-link": "https://w3c.github.io/webappsec-cspee/#subsume-policy,https://github.com/w3c/webappsec-cspee/pull/36",
       "explainer-links": [],
       "updated": {
         "by": "vizlatin@microsoft.com",
-        "when": "2026-09-04 17:51:49.753666"
+        "when": "2026-09-08 15:38:31.466296"
       }
     },
     {
@@ -20918,7 +20918,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-07 18:47:00.086076"
+        "when": "2026-09-08 20:34:23.406719"
       }
     },
     {
@@ -26217,7 +26217,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-06 19:31:26.362768"
+        "when": "2026-09-08 17:37:29.270791"
       }
     },
     {
@@ -27355,8 +27355,8 @@
         "https://github.com/gpuweb/gpuweb/blob/main/proposals/fragment-depth.md"
       ],
       "updated": {
-        "by": "jrprice@google.com",
-        "when": "2026-08-31 16:13:33.447268"
+        "by": "dsinclair@google.com",
+        "when": "2026-09-08 18:41:33.556964"
       }
     },
     {
@@ -28106,15 +28106,15 @@
     {
       "id": 5160724576993280,
       "name": "Deprecate and Remove RTCPeerconnection.createDTMF",
-      "summary": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
+      "summary": "Starting in Chrome 160, Chrome is removing support for the `RTCPeerConnection.createDTMF()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official WebRTC standard. Removing it ensures better compatibility and security across different web browsers.\n\nIT Admins should ensure that any internal or third-party web communication applications that rely on WebRTC are tested before Chrome 160 is deployed.",
       "motivation": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
       "url": "https://chromestatus.com/feature/5160724576993280",
       "bug-url": "http://crbug.com/553274713",
       "spec-link": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection",
       "explainer-links": [],
       "updated": {
-        "by": "guidou@google.com",
-        "when": "2026-09-04 10:20:46.639059"
+        "by": "elmirakalali@google.com",
+        "when": "2026-09-08 20:59:54.941132"
       }
     },
     {
@@ -30165,7 +30165,7 @@
     {
       "id": 5201832664629248,
       "name": "Additional Windowing Controls",
-      "summary": "Enable web applications to maximize, minimize, and restore their windows, control whether the window can be resized, and introspect the corresponding window state.\n\nThe Window Management permission is required for new JS API controls (window.maximize()/minimize()/restore()/setResizable(bool)). The new CSS media features display-state and resizable are not gated behind a permission as they can follow the non-AWC API toggled states as well.\n\nThis feature is an enhancement of the Window Management API:\nhttps://chromestatus.com/feature/5252960583942144",
+      "summary": "Enables web applications with the window-management permission to maximize(), minimize(), and restore() their windows, and to prevent resizing through setResizable(). Additionally, new CSS media features display-state and resizable enable scripts and content to adapt to the respective window states and resizability. These features improve the usability of VDI remote application windows in Web clients, especially when it comes to titlebar window controls. The new functionality enhances existing Window Management API features: https://chromestatus.com/feature/5252960583942144",
       "motivation": "Virtual Desktop Infrastructure (VDI) web clients have limited abilities to integrate remote application windows with the local desktop environment, which creates suboptimal experiences for their users. Currently, they can only present full disjoint remote desktop environments (e.g. in a local fullscreen window), or present individual remote applications in separate local windows with titlebar window controls that are inoperative, redundant, and confusing for users.",
       "url": "https://chromestatus.com/feature/5201832664629248",
       "bug-url": "https://issues.chromium.org/issues/40192345",
@@ -30175,7 +30175,7 @@
       ],
       "updated": {
         "by": "pchodur@google.com",
-        "when": "2026-08-28 16:42:54.978961"
+        "when": "2026-09-09 06:03:37.837049"
       }
     },
     {
