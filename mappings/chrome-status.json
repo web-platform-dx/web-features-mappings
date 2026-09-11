@@ -15440,7 +15440,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-08-19 14:28:29.717293"
+        "when": "2026-09-10 20:38:00.608010"
       }
     },
     {
@@ -17235,7 +17235,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-03-06 21:24:09.493563"
+        "when": "2026-09-10 20:17:12.966403"
       }
     },
     {
@@ -23069,7 +23069,7 @@
       "explainer-links": [],
       "updated": {
         "by": "perryuwang@gmail.com",
-        "when": "2026-09-04 18:48:27.968739"
+        "when": "2026-09-11 02:28:56.531880"
       }
     },
     {
@@ -26217,7 +26217,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-08 17:37:29.270791"
+        "when": "2026-09-10 15:47:55.232287"
       }
     },
     {
@@ -28105,16 +28105,16 @@
     },
     {
       "id": 5160724576993280,
-      "name": "Deprecate and Remove RTCPeerconnection.createDTMF",
-      "summary": "Starting in Chrome 160, Chrome is removing support for the `RTCPeerConnection.createDTMF()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official WebRTC standard. Removing it ensures better compatibility and security across different web browsers.\n\nIT Admins should ensure that any internal or third-party web communication applications that rely on WebRTC are tested before Chrome 160 is deployed.",
+      "name": "Deprecate and remove WebRTC peer connection method",
+      "summary": "Starting in Chrome 160, Chrome will remove support for the `RTCPeerConnection.createDTMF()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official _Real-time communication for the web_ [WebRTC](https://webrtc.org/) standard. Removing it ensures better compatibility and security across different web browsers.\n\nIT Admins should ensure that any internal or third-party web communication applications that rely on WebRTC are tested before Chrome 160 is deployed.",
       "motivation": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
       "url": "https://chromestatus.com/feature/5160724576993280",
       "bug-url": "http://crbug.com/553274713",
       "spec-link": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection",
       "explainer-links": [],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-09-08 20:59:54.941132"
+        "by": "siobhankeating@google.com",
+        "when": "2026-09-10 14:08:43.685001"
       }
     },
     {
@@ -29343,6 +29343,22 @@
   ],
   "webtransport": [
     {
+      "id": 5148774971342848,
+      "name": "WebTransport Datagram readable stream type",
+      "summary": "Adds the  WebTransportOptions.datagramsReadableType  constructor option. By default, incoming WebTransport Datagrams are exposed through a default  ReadableStream . Applications that require BYOB reading can request a readable byte stream by setting  datagramsReadableType: \"bytes\" .",
+      "motivation": "WebTransport Datagrams are discrete messages rather than an undifferentiated byte sequence. A readable byte stream can lose empty Datagrams and can lose message boundaries when BYOB reads use a minimum byte count spanning multiple Datagrams.\n\nMaking a default  ReadableStream  the default preserves Datagram boundaries and empty Datagrams. Applications that benefit from BYOB allocation control can explicitly opt into the byte-stream behavior.",
+      "url": "https://chromestatus.com/feature/5148774971342848",
+      "bug-url": "https://issues.chromium.org/issues/547572475",
+      "spec-link": "https://www.w3.org/TR/webtransport/#dom-webtransportoptions-datagramsreadabletype",
+      "explainer-links": [
+        "https://github.com/w3c/webtransport/blob/main/explainer.md"
+      ],
+      "updated": {
+        "by": "monicach@microsoft.com",
+        "when": "2026-09-10 17:15:05.469475"
+      }
+    },
+    {
       "id": 4860330806214656,
       "name": "WebTransport keying material export",
       "summary": "Adds WebTransport.exportKeyingMaterial(), which allows an application to derive cryptographic keying material bound to an established WebTransport session.\n\nThe method accepts application provided binary label and context values and a requested output length and returns a Promise<Uint8Array>. Chromium supports label and context values up to 255 bytes and output lengths from 1 through 4096 bytes.\n\nFor WebTransport over HTTP/3, Chromium includes the WebTransport CONNECT stream ID in the TLS exporter context. This ensures that separate WebTransport sessions derive different keying material even when they share the same underlying HTTP/3 connection.",
@@ -30397,15 +30413,15 @@
     {
       "id": 4709671889534976,
       "name": "Deprecate and remove XSLT",
-      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the **libxslt** library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines, Gecko and WebKit) plans to deprecate and remove XSLT from the web platform. The modern web is powered by three major browser engines: [Blink](https://www.chromium.org/blink/) (Chromium), [Gecko](https://firefox-source-docs.mozilla.org/overview/gecko.html) (Firefox), and [WebKit](https://webkit.org/) (Safari). They interpret code to render pages. \n\nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt). ",
+      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the **libxslt** library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines, Gecko and WebKit) plans to deprecate and remove XSLT from the web platform. The modern web is powered by three major browser engines: [Blink](https://www.chromium.org/blink/) (Chromium), [Gecko](https://firefox-source-docs.mozilla.org/overview/gecko.html) (Firefox), and [WebKit](https://webkit.org/) (Safari). They interpret code to render pages. \n\nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt).\n\nFrom Chrome 158, XSLT will stop functioning on Stable releases. ",
       "motivation": "Security risks for all users outweigh the very small usage of this feature on the open web.\n\nUsage of XSLTProcessor (https://chromestatus.com/metrics/feature/timeline/popularity/79) is fairly volatile, registering somewhere between 0.01% and 0.1% of page loads, averaging around 0.05% over time. These numbers are above the typical 0.001% deprecation threshold. Again, we feel that the increased potential for breakage is balanced by the reduced security risk to 100% of Chromium users. And we are doing everything we can to mitigate this breakage and be proactive in reaching out to potentially affected sites and particularly libraries that might account for significant chunks of the overall usage. In addition, several sites we surveyed that use XSLTProcessor have feature detection code with fallbacks to JS libraries like Saxonica. Of the ~220 sites we've surveyed so far, roughly 72% of them are still functional even with XSLT disabled.\n\nThe usage of XSL Processing Instructions (https://chromestatus.com/metrics/feature/timeline/popularity/78) is significantly lower, around 0.001% for the last few years.",
       "url": "https://chromestatus.com/feature/4709671889534976",
       "bug-url": "https://crbug.com/435623334",
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "masonfreed@google.com",
-        "when": "2026-08-31 16:14:40.900686"
+        "by": "siobhankeating@google.com",
+        "when": "2026-09-10 13:53:50.615492"
       }
     },
     {

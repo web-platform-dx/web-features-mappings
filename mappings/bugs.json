@@ -399,29 +399,8 @@
       "https://issues.chromium.org/issues/40886857",
       "https://crbug.com/40886857"
     ],
-    "chrome_android": [
-      "https://crbug.com/40886857"
-    ],
-    "edge": [
-      "https://crbug.com/40886857"
-    ],
     "firefox_android": [
       "https://bugzil.la/1506241"
-    ],
-    "oculus": [
-      "https://crbug.com/40886857"
-    ],
-    "opera": [
-      "https://crbug.com/40886857"
-    ],
-    "opera_android": [
-      "https://crbug.com/40886857"
-    ],
-    "samsunginternet_android": [
-      "https://crbug.com/40886857"
-    ],
-    "webview_android": [
-      "https://crbug.com/40886857"
     ]
   },
   "trusted-types": {
@@ -768,13 +747,11 @@
   },
   "supports-at-rule": {
     "firefox": [
-      "https://bugzil.la/1751188"
+      "https://bugzil.la/1751188",
+      "https://bugzil.la/2060754"
     ],
     "chrome": [
       "https://issues.chromium.org/issues/40211832"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1751188"
     ]
   },
   "blocking-render": {
@@ -1316,6 +1293,14 @@
       "https://issues.chromium.org/u/1/issues/374310075"
     ]
   },
+  "has-slotted": {
+    "firefox": [
+      "https://bugzil.la/1921747"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/369883705"
+    ]
+  },
   "move-before": {
     "firefox": [
       "https://bugzil.la/1923880"
@@ -1397,6 +1382,16 @@
     ],
     "firefox_android": [
       "https://bugzil.la/1974276"
+    ]
+  },
+  "sanitizer": {
+    "firefox": [
+      "https://bugzil.la/1945761"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/40138584",
+      "https://crbug.com/1428276",
+      "https://crbug.com/1101982"
     ]
   },
   "text-spacing-trim": {
@@ -1584,6 +1579,11 @@
       "https://crbug.com/234081017"
     ]
   },
+  "flexbox-flex-wrap-balance": {
+    "firefox": [
+      "https://bugzil.la/1990050"
+    ]
+  },
   "origin": {
     "firefox": [
       "https://bugzil.la/2001139"
@@ -1637,6 +1637,19 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/303995"
+    ]
+  },
+  "arianotify": {
+    "firefox": [
+      "https://bugzil.la/2005588"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/326277796"
+    ]
+  },
+  "container-anchor-position-queries": {
+    "firefox": [
+      "https://bugzil.la/2007470"
     ]
   },
   "document-picture-in-picture": {
@@ -1891,6 +1904,20 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/233820"
+    ]
+  },
+  "template-for": {
+    "firefox": [
+      "https://bugzil.la/2053472"
+    ]
+  },
+  "focusgroup": {
+    "firefox": [
+      "https://bugzil.la/2070976"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/445992558",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=1286127"
     ]
   },
   "a": {
@@ -3363,12 +3390,6 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=617371"
     ]
   },
-  "focusgroup": {
-    "chrome": [
-      "https://issues.chromium.org/issues/445992558",
-      "https://bugs.chromium.org/p/chromium/issues/detail?id=1286127"
-    ]
-  },
   "font-display": {
     "chrome": [
       "https://code.google.com/p/chromium/issues/detail?id=530015"
@@ -3637,11 +3658,6 @@
   "has": {
     "chrome": [
       "https://crbug.com/669058"
-    ]
-  },
-  "has-slotted": {
-    "chrome": [
-      "https://issues.chromium.org/issues/369883705"
     ]
   },
   "hashbang-comments": {
@@ -5169,13 +5185,6 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=825890"
     ]
   },
-  "sanitizer": {
-    "chrome": [
-      "https://issues.chromium.org/issues/40138584",
-      "https://crbug.com/1428276",
-      "https://crbug.com/1101982"
-    ]
-  },
   "scheduler": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=979020",
@@ -6623,9 +6632,9 @@
   },
   "webtransport": {
     "chrome": [
+      "https://issues.chromium.org/issues/547572475",
       "https://issues.chromium.org/issues/556304550",
       "https://issues.chromium.org/issues/545636884",
-      "https://issues.chromium.org/issues/547572475",
       "https://issues.chromium.org/issues/551850821",
       "https://issues.chromium.org/issues/494380213",
       "https://issues.chromium.org/u/1/issues/416080492",
@@ -6916,11 +6925,6 @@
   "zstd": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1246971"
-    ]
-  },
-  "arianotify": {
-    "chrome": [
-      "https://issues.chromium.org/issues/326277796"
     ]
   },
   "visibility": {
