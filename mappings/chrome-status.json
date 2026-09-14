@@ -13060,7 +13060,7 @@
       "explainer-links": [],
       "updated": {
         "by": "mstensho@chromium.org",
-        "when": "2026-09-08 09:36:12.910800"
+        "when": "2026-09-14 09:39:13.894595"
       }
     }
   ],
@@ -14638,7 +14638,7 @@
       ],
       "updated": {
         "by": "liahiscock@microsoft.com",
-        "when": "2026-09-11 21:35:28.415103"
+        "when": "2026-09-14 09:24:52.622758"
       }
     }
   ],
@@ -28203,6 +28203,22 @@
       "updated": {
         "by": "ssilkin@chromium.org",
         "when": "2025-12-15 10:18:37.891540"
+      }
+    },
+    {
+      "id": 5091582546149376,
+      "name": "WebRTC Diagnostic Logging API",
+      "summary": "Chrome 156 will introduce an API for [WebRTC](https://webrtc.org/) diagnostic logging. This API allows an application to opt in to diagnostic logging. These logs contain information about the WebRTC activity by the application and are useful for local debugging or to submit bugs.\n\nLogs can optionally be shared with the browser vendor and can be used for diagnosing bugs. The application gets an ID that can be attached to a bug report, similar to crashes.\n\nDiagnostic logs are enabled with the enterprise policy  [WebRtcDiagnosticLogCollectionAllowedForOrigins](https://chromeenterprise.google/policies/#WebRtcDiagnosticLogCollectionAllowedForOrigins).",
+      "motivation": "WebRTC applications often encounter complex connectivity or media quality issues that are difficult to reproduce in local environments. To debug these issues in production, sometimes it is helpful for developers to have access to internal state and performance metrics. This also applies to issues in the user agent.\n\nThe WebRTC Web Diagnostic Logging API allows authorized web applications to trigger the collection of diagnostic data in a log file so that it can be used for local debugging. It also allows an application to share the diagnostic data with the user agent, subject to user authorization, with the purpose of providing information that can help fix bugs in or improve the user agent.",
+      "url": "https://chromestatus.com/feature/5091582546149376",
+      "bug-url": "https://crbug.com/481412281",
+      "spec-link": "https://wicg.github.io/webrtc-diagnostic-logging",
+      "explainer-links": [
+        "https://github.com/WICG/webrtc-diagnostic-logging/blob/main/explainer.md"
+      ],
+      "updated": {
+        "by": "guidou@google.com",
+        "when": "2026-09-14 10:11:39.185652"
       }
     },
     {
