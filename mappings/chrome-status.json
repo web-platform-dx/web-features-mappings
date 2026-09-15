@@ -12322,7 +12322,7 @@
       ],
       "updated": {
         "by": "abotella@igalia.com",
-        "when": "2025-09-27 02:54:01.528159"
+        "when": "2026-09-14 18:38:15.924150"
       }
     }
   ],
@@ -14632,13 +14632,13 @@
       "motivation": "The web is currently unable to install web apps. The capability must be baked into the platform to allow for websites to distribute content without relying on proprietary protocols or invoking platform specific stores. \n\nWeb Install democratizes application distribution and allows developers to broaden the reach of their content.",
       "url": "https://chromestatus.com/feature/5183481574850560",
       "bug-url": "https://issues.chromium.org/issues/333795265",
-      "spec-link": "https://github.com/w3c/manifest/pull/1175",
+      "spec-link": "https://wicg.github.io/install-element",
       "explainer-links": [
         "https://aka.ms/webinstall"
       ],
       "updated": {
         "by": "liahiscock@microsoft.com",
-        "when": "2026-09-14 09:24:52.622758"
+        "when": "2026-09-14 20:59:11.468789"
       }
     }
   ],
@@ -19326,6 +19326,20 @@
   ],
   "scroll-driven-animations": [
     {
+      "id": 6301748095483904,
+      "name": "CSS scroll-driven animations: tree-scoped timeline names",
+      "summary": "Makes named scroll and view timelines tree-scoped across Shadow DOM boundaries. A timeline defined in an outer tree can be referenced from a descendant shadow tree, while a timeline defined inside a shadow tree cannot be referenced from an outer or sibling tree. This preserves component encapsulation while allowing components to use timelines supplied by their host page.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/6301748095483904",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "michael.reeves077@gmail.com",
+        "when": "2026-09-15 12:19:39.054891"
+      }
+    },
+    {
       "id": 5201576423063552,
       "name": "Scroll-Animations: view-timeline also sets view-timeline-inset",
       "summary": "The view-timeline shorthand is now shorthand for view-timeline-name, view-timeline-axis, and view-timeline-inset. Previously, view-timeline-inset was not part of the shorthand.",
@@ -20918,7 +20932,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-08 20:34:23.406719"
+        "when": "2026-09-15 07:11:27.958554"
       }
     },
     {
@@ -26355,7 +26369,7 @@
       ],
       "updated": {
         "by": "alvinji@google.com",
-        "when": "2026-01-15 00:07:14.985022"
+        "when": "2026-09-14 16:15:38.817918"
       }
     },
     {
@@ -28114,7 +28128,7 @@
       "explainer-links": [],
       "updated": {
         "by": "siobhankeating@google.com",
-        "when": "2026-09-10 14:08:43.685001"
+        "when": "2026-09-14 21:16:15.324590"
       }
     },
     {
@@ -28217,8 +28231,8 @@
         "https://github.com/WICG/webrtc-diagnostic-logging/blob/main/explainer.md"
       ],
       "updated": {
-        "by": "guidou@google.com",
-        "when": "2026-09-14 10:11:39.185652"
+        "by": "elmirakalali@google.com",
+        "when": "2026-09-14 17:53:37.672792"
       }
     },
     {
@@ -29387,7 +29401,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-02 21:21:08.349107"
+        "when": "2026-09-14 19:37:21.967759"
       }
     },
     {
@@ -29433,7 +29447,7 @@
       "explainer-links": [],
       "updated": {
         "by": "ricea@google.com",
-        "when": "2026-09-10 08:09:10.120484"
+        "when": "2026-09-14 21:13:22.715652"
       }
     },
     {
@@ -30207,7 +30221,7 @@
       ],
       "updated": {
         "by": "pchodur@google.com",
-        "when": "2026-09-09 06:03:37.837049"
+        "when": "2026-09-14 16:42:38.363590"
       }
     },
     {
@@ -30859,6 +30873,42 @@
       "updated": {
         "by": "jfernandez@igalia.com",
         "when": "2026-09-03 15:28:44.298532"
+      }
+    }
+  ],
+  "import-defer": [
+    {
+      "id": 5071131271888896,
+      "name": "Deferred imports evaluation (\"import defer\")",
+      "summary": "`import defer` allows lazily evaluating ES modules, to reduce the startup impact of modules that are not actually needed for the first JavaScript execution.\n\nThis provides an easier-to-use alternative to dynamic import. While dynamic import provides more benefits, as it allows deferring loading of modules rather than just evaluation, it has a lot of friction due to its asynchronous nature, and thus it's not always usable.\n\nThe `import defer` TC39 proposal follows the same syntax as `import source`, but it only works with namespace imports:\n```\nimport defer * as namespace from \"./some-module.js\"\n```\nThe module will be synchronously executed on property access on the module namespace object.\n\nTo allow synchronous execution, not all of `./some-module.js`'s dependency tree will be deferred. Modules that contain top-level await will be eagerly executed, leaving only the synchronous parts of the tree for later.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5071131271888896",
+      "bug-url": "https://issues.chromium.org/issues/398218423",
+      "spec-link": "https://tc39.es/proposal-defer-import-eval",
+      "explainer-links": [
+        "https://github.com/tc39/proposal-defer-import-eval"
+      ],
+      "updated": {
+        "by": "caiolima@igalia.com",
+        "when": "2026-09-14 16:08:26.618354"
+      }
+    }
+  ],
+  "install": [
+    {
+      "id": 5152834368700416,
+      "name": "Web app HTML install element",
+      "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The <install> element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling beforeinstallprompt events. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
+      "motivation": "The web is currently unable to install web apps. The capability must be baked into the platform to allow for websites to distribute content without relying on proprietary protocols or invoking platform specific stores. \n\nA web install element democratizes application distribution and allows developers to broaden the reach of their content.",
+      "url": "https://chromestatus.com/feature/5152834368700416",
+      "bug-url": "https://issues.chromium.org/issues/454827186",
+      "spec-link": "https://wicg.github.io/install-element",
+      "explainer-links": [
+        "https://aka.ms/installelement"
+      ],
+      "updated": {
+        "by": "liahiscock@microsoft.com",
+        "when": "2026-09-14 21:02:20.803723"
       }
     }
   ]
