@@ -49,6 +49,10 @@
     {
       "description": "I want to be able to animate a `<details>` being opened, not knowing the height of the content in it.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-3906944848"
+    },
+    {
+      "description": "Accordion height opening with animation, with just css.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-5688769831"
     }
   ],
   "caret-shape": [
@@ -83,6 +87,10 @@
     {
       "description": "Fancier transitions on my website.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/248#issuecomment-4855376304"
+    },
+    {
+      "description": "Smooth, animated transitions between pages",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/248#issuecomment-5688154923"
     }
   ],
   "custom-media-queries": [
@@ -323,6 +331,12 @@
     {
       "description": "Let's say I have image/ video cards, where the card's **hue** matches what's dominant in the `src` of the `img` element/ `poster` of the `video` element, while the saturation, lightness and alpha are user set.\n\nThe page background and the card text depend on the theme via `light-dark()`.\n\n```\n:root { background: light-dark(#dedede, #212121) }\n\n.card { color: light-dark(#121212, #ededed) }\n```\n\nHowever, depending on the user set lightness and alpha for the card background, the text contrast may be less than ideal. We could have this situation:\n\n![in the dark theme case, when the card text is close to white, user set lightness and alpha are high, resulting in a pretty opaque bright card background, which means poor contrast](https://github.com/user-attachments/assets/f1db6dee-a2f7-4fcb-b230-07f7fa67a74f)\n\nOr this situation:\n\n![in the light theme case, when the card text is close to black, user set lightness is low and alpha is high, resulting in a pretty opaque dark card background, which means poor contrast](https://github.com/user-attachments/assets/cbaa5aba-d63b-4aa6-b928-bbb0fc2857d1)\n\nSince the user set brightness and alpha are stored as numeric values in custom properties, I could use them to compute the proper values inside the `light-dark()` for the card's text `color`... **if** I also have a custom property `--dark` that changes automatically with the theme. Something like this:\n\n```\n:root { --dark: light-dark(0, 1) }\n```",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/568#issuecomment-4439039351"
+    }
+  ],
+  "link-parameters": [
+    {
+      "description": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959"
     }
   ],
   "loading-lazy-media": [
