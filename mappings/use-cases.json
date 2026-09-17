@@ -83,6 +83,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/199#issuecomment-5642071082"
     }
   ],
+  "corner-shape": [
+    {
+      "description": "Better HUD-style UI elements.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5698450400"
+    }
+  ],
   "cross-document-view-transitions": [
     {
       "description": "Fancier transitions on my website.",
@@ -509,6 +515,10 @@
     {
       "description": "Let's see I am using temporal for zdt (ZonedDateTime) and IANA time zone names and time zone support in ways that Date() never could\nI'm using temporal inside an astronomical/celestial app with topographic observer corrections, so strong local time zone support is very much a hard requirement.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5235288333"
+    },
+    {
+      "description": "I want to use `Temporal.Duration` to display the time passed on a video in MM:SS format.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5706422877"
     }
   ],
   "text-size-adjust": [
