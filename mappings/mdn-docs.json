@@ -11268,5 +11268,43 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-fit"
     }
+  ],
+  "geolocation-element-initialpermissionstatus": [
+    {
+      "slug": "Web/API/HTMLGeolocationElement/initialPermissionStatus",
+      "title": "HTMLGeolocationElement: initialPermissionStatus property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/HTMLGeolocationElement/initialPermissionStatus"
+    }
+  ],
+  "html-setters": [
+    {
+      "slug": "Web/API/Element/setHTMLUnsafe",
+      "title": "Element: setHTMLUnsafe() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Element/setHTMLUnsafe"
+    },
+    {
+      "slug": "Web/API/ShadowRoot/setHTMLUnsafe",
+      "title": "ShadowRoot: setHTMLUnsafe() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/setHTMLUnsafe"
+    }
+  ],
+  "input-date-time-month": [
+    {
+      "slug": "Web/HTML/Reference/Elements/input/month",
+      "title": "`<input type=\"month\">` HTML attribute value",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/month"
+    }
+  ],
+  "input-date-time-week": [
+    {
+      "slug": "Web/HTML/Reference/Elements/input/week",
+      "title": "`<input type=\"week\">` HTML attribute value",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/week"
+    }
   ]
 }

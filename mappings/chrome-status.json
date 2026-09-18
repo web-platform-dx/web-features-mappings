@@ -2734,7 +2734,7 @@
       "explainer-links": [],
       "updated": {
         "by": "ccameron@chromium.org",
-        "when": "2026-09-11 13:19:14.894485"
+        "when": "2026-09-18 09:47:42.970671"
       }
     },
     {
@@ -3375,6 +3375,20 @@
     }
   ],
   "compression-dictionary-transport": [
+    {
+      "id": 4895435813683200,
+      "name": "Compression dictionary transport Updates",
+      "summary": "When fetching rel=compression-dictionary links:\n\n- Use \"compression-dictionary\" as request destination.\n- Properly set request's mode, credentials, referrer and referrerpolicy.\n- Take into account crossorigin and referrer attributes form <link rel=\"compression-dictionary\">.\n",
+      "motivation": "Compression Dictionary Transport was shipped in Chromium 130. Recently Mozilla and Igalia worked on some implementation in Firefox and WebKit, quite a bunch of tests have been added and the spec has been updated. This intent to ship is to catch up with the latest changes.",
+      "url": "https://chromestatus.com/feature/4895435813683200",
+      "bug-url": "https://issues.chromium.org/issues/40255884",
+      "spec-link": "https://github.com/whatwg/html/pull/11620",
+      "explainer-links": [],
+      "updated": {
+        "by": "fwang@igalia.com",
+        "when": "2026-09-18 09:54:49.170708"
+      }
+    },
     {
       "id": 5137485911949312,
       "name": "Pervasive Compression Dictionaries",
@@ -4711,7 +4725,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-09-11 13:18:15.385246"
+        "when": "2026-09-18 09:42:37.271981"
       }
     },
     {
@@ -14629,7 +14643,7 @@
       "id": 5183481574850560,
       "name": "Web Install API",
       "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The navigator.install() method enables cross-origin web app installation and provides a better developer experience than handling beforeinstallprompt events. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
-      "motivation": "The web is currently unable to install web apps. The capability must be baked into the platform to allow for websites to distribute content without relying on proprietary protocols or invoking platform specific stores. \n\nWeb Install democratizes application distribution and allows developers to broaden the reach of their content.",
+      "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5183481574850560",
       "bug-url": "https://issues.chromium.org/issues/333795265",
       "spec-link": "https://wicg.github.io/install-element",
@@ -14638,7 +14652,7 @@
       ],
       "updated": {
         "by": "liahiscock@microsoft.com",
-        "when": "2026-09-14 20:59:11.468789"
+        "when": "2026-09-17 23:55:59.992625"
       }
     }
   ],
@@ -18931,6 +18945,20 @@
     }
   ],
   "screen-capture": [
+    {
+      "id": 5090039641014272,
+      "name": "MediaTrackConstraintSet.cursor for getDisplayMedia",
+      "summary": "The cursor constraint for getDisplayMedia() lets web applications request whether the mouse cursor is included in a captured display surface. It supports never, always, and motion, and exposes the effective and supported modes through MediaStreamTrack settings and capabilities. This gives screen-sharing and recording applications consistent control over cursor inclusion across supported capture backends.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5090039641014272",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "reito@chromium.org",
+        "when": "2026-09-17 15:44:25.888003"
+      }
+    },
     {
       "id": 5072779506089984,
       "name": "windowAudio for getDisplayMedia()",
@@ -26231,7 +26259,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-16 06:45:30.571576"
+        "when": "2026-09-18 09:43:04.160871"
       }
     },
     {
@@ -28232,7 +28260,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-09-14 17:53:37.672792"
+        "when": "2026-09-17 15:51:55.288507"
       }
     },
     {
@@ -30899,7 +30927,7 @@
       "id": 5152834368700416,
       "name": "Web app HTML install element",
       "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The <install> element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling beforeinstallprompt events. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
-      "motivation": "The web is currently unable to install web apps. The capability must be baked into the platform to allow for websites to distribute content without relying on proprietary protocols or invoking platform specific stores. \n\nA web install element democratizes application distribution and allows developers to broaden the reach of their content.",
+      "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5152834368700416",
       "bug-url": "https://issues.chromium.org/issues/454827186",
       "spec-link": "https://wicg.github.io/install-element",
@@ -30908,7 +30936,25 @@
       ],
       "updated": {
         "by": "liahiscock@microsoft.com",
-        "when": "2026-09-14 21:02:20.803723"
+        "when": "2026-09-17 23:55:58.897310"
+      }
+    }
+  ],
+  "permissions-policy": [
+    {
+      "id": 5073502741856256,
+      "name": "Permissions Policy for dedicated and shared workers",
+      "summary": "Extend the Permissions Policy infrastructure to dedicated and shared workers.\n\nWeb developers will be able to delegate policy-controlled features to dedicated and shared workers via Permissions Policy. This will enable browsers to expose features gated behind Permissions Policy to workers.",
+      "motivation": "The goal of this proposal is to extend Permissions Policy to workers, in order to enable shipping Permissions Policy gated capabilities to those contexts.\n\nNote there are a number of proposals and use cases for extending Web APIs that are currently gated behind Permissions Policy to workers (see https://github.com/explainers-by-googlers/workers-permissions-policy#example-use-cases) which have been blocked until because Permissions Policy does not yet work in workers. This proposal aims at unblocking those. ",
+      "url": "https://chromestatus.com/feature/5073502741856256",
+      "bug-url": "https://issues.chromium.org/u/1/issues/562705553",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/explainers-by-googlers/workers-permissions-policy"
+      ],
+      "updated": {
+        "by": "antoniosartori@chromium.org",
+        "when": "2026-09-17 13:22:39.848404"
       }
     }
   ]
