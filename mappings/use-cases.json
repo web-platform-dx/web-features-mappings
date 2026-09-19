@@ -177,6 +177,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/132#issuecomment-5074061789"
     }
   ],
+  "frame-sizing": [
+    {
+      "description": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862"
+    }
+  ],
   "fullscreen": [
     {
       "description": "I want to be able to support an accessible video-watching experience with my own custom video player implementations. Currently, the iOS `<video />` element experience is all or nothing:\n\n1. Omit `playsinline` and have iOS inject its own behaviour, which results in duplicate video players (iOS's on top of mine, or mine on top of iOS, hard to tell)\n2. Include `playsinline` and then not being able to use the fullscreen video experience\n3. Most designers do not like the appearance of the default closed captions experience, which have very limited CSS support, requiring developers to implement custom ones\n\nThe defaults that all browsers provide is not consistent, and designers want full control. Allowing us to request fullscreen on a `<div />` will give us the power we need to design consistent fullscreen experiences cross-platform.",
@@ -225,6 +231,16 @@
     {
       "description": "Back when working on Firefox DevTools, I used to use this feature to draw overlays when highlighting elements from the Inspector panel. This API proved extremely valuable in this case as it allowed us to also correctly highlight text nodes, including when they wrap on multiple lines, or fragmented elements (e.g. in multicol containers)",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/301#issuecomment-4709871781"
+    }
+  ],
+  "grid-lanes": [
+    {
+      "description": "I want to have a way to do masonry layout — with many layout possibilities — without having to use JavaScript.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/308#issuecomment-3717216253"
+    },
+    {
+      "description": "I want a denser view of projectwallace.com's CSS analysis panels. The lengths of the panels depends on the website analyzed, so there can be big gaps if there are many prefixed selectors but none with browserhacks, for example.\n\n| before | after |\n|--------|-------|\n|    <img width=\"1171\" height=\"762\" alt=\"Project Wallace CSS analysis page. It shows 8 panels with data like tables and headings across two grid rows. Each panel has a different height. The first row has one column that is significantly shorter than the others, causing a big gap of unused space.\" src=\"https://github.com/user-attachments/assets/5962d21c-538b-42f0-8d48-196e38afbb83\" /> |   <img width=\"1170\" height=\"762\" alt=\"Project Wallace CSS analysis page. It shows 10 panels with data like tables and headings. Each panel has a different height and all panels are packed densely together, leading to a staggered edge at the bottom of the end of the list of panels.ge\" src=\"https://github.com/user-attachments/assets/1a39978b-94ea-402b-995f-0d3b95167c62\" /> |",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/308#issuecomment-4742100503"
     }
   ],
   "has-slotted": [
