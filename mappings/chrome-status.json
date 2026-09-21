@@ -4722,10 +4722,12 @@
       "url": "https://chromestatus.com/feature/6294595288825856",
       "bug-url": "https://issues.chromium.org/issues/41492459",
       "spec-link": "https://drafts.csswg.org/css-overflow-4/#text-overflow",
-      "explainer-links": [],
+      "explainer-links": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-overflow#string"
+      ],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-09-18 09:42:37.271981"
+        "when": "2026-09-21 05:02:48.399968"
       }
     },
     {
@@ -28164,15 +28166,15 @@
     {
       "id": 5160724576993280,
       "name": "Deprecate and remove WebRTC peer connection method",
-      "summary": "Starting in Chrome 160, Chrome will remove support for the `RTCPeerConnection.createDTMF()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official _Real-time communication for the web_ [WebRTC](https://webrtc.org/) standard. Removing it ensures better compatibility and security across different web browsers.\n\nIT Admins should ensure that any internal or third-party web communication applications that rely on WebRTC are tested before Chrome 160 is deployed.",
+      "summary": "Starting in Chrome 160, Chrome will remove support for the `RTCPeerConnection.createDTMFSender()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official _Real-time communication for the web_ [WebRTC](https://webrtc.org/) standard. Removing it ensures better compatibility and security across different web browsers.\n\nIT Admins should ensure that any internal or third-party web communication applications that rely on WebRTC are tested before Chrome 160 is deployed.",
       "motivation": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
       "url": "https://chromestatus.com/feature/5160724576993280",
       "bug-url": "http://crbug.com/553274713",
       "spec-link": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection",
       "explainer-links": [],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-09-14 21:16:15.324590"
+        "by": "guidou@google.com",
+        "when": "2026-09-21 08:48:50.159416"
       }
     },
     {
@@ -30971,6 +30973,22 @@
       "updated": {
         "by": "antoniosartori@chromium.org",
         "when": "2026-09-17 13:22:39.848404"
+      }
+    }
+  ],
+  "object-fit": [
+    {
+      "id": 4886345347629056,
+      "name": "object-fit and object-position apply to SVG documents in <object> and <embed>",
+      "summary": "SVG documents loaded through <object> or <embed> are sized and positioned inside the element's content box according to the CSS object-fit and object-position properties, the same way <img> content is.\n\nPreviously Chrome ignored both properties for embedded SVG documents and always stretched the document viewport to the whole content box.",
+      "motivation": "Authors use object-fit and object-position to control how replaced content is scaled and placed inside its box.\n\nhttps://drafts.csswg.org/css-images-3/#the-object-fit\nhttps://drafts.csswg.org/css-images-3/#the-object-position\n\nCurrently, Chrome applies them to images and videos but ignores them for SVG documents loaded through <object> or <embed>, which are always stretched to fill the element.\n\nThe fix has been implemented behind the SVGEmbeddedAsReplacedElement flag since M141. This entry ships it by default.",
+      "url": "https://chromestatus.com/feature/4886345347629056",
+      "bug-url": "https://issues.chromium.org/41302806",
+      "spec-link": "https://html.spec.whatwg.org/multipage/rendering.html#embedded-content-rendering-rules",
+      "explainer-links": [],
+      "updated": {
+        "by": "felipeerias@igalia.com",
+        "when": "2026-09-21 07:07:34.736053"
       }
     }
   ]

@@ -1232,6 +1232,12 @@
   "language": {
     "url": "https://wpt.fyi/results?q=feature:language"
   },
+  "languagedetector": {
+    "url": "https://wpt.fyi/results?q=feature:languagedetector"
+  },
+  "languagemodel": {
+    "url": "https://wpt.fyi/results?q=feature:languagemodel"
+  },
   "largest-contentful-paint": {
     "url": "https://wpt.fyi/results?q=feature:largest-contentful-paint"
   },
@@ -2266,6 +2272,9 @@
   },
   "translate": {
     "url": "https://wpt.fyi/results?q=feature:translate"
+  },
+  "translator": {
+    "url": "https://wpt.fyi/results?q=feature:translator"
   },
   "trig-functions": {
     "url": "https://wpt.fyi/results?q=feature:trig-functions"

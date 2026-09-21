@@ -11,6 +11,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/190#issuecomment-5219646641"
     }
   ],
+  "app-share-targets": [
+    {
+      "description": "I have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/107#issuecomment-5756895613"
+    }
+  ],
   "arianotify": [
     {
       "description": "Announce messages to screen reader users (ex. loading, loading complete messages in single page apps and async components, user feedback, notifications, etc)\n* Potentially the ability to abort a notification (ex. like `clearTimeout`). If there is any delay between the time when `ariaNotify` is called and when the announcement happens, a consuming application may want to abort a notification if it's no longer relevant. For example, due to the user changing views in a single page application.",
