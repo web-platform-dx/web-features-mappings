@@ -457,6 +457,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3591754763"
     }
   ],
+  "rhythmic-sizing": [
+    {
+      "description": "My main use case is a grid of product cards. The card titles differ in height and are never a multiple of `rlh`, because they have a line height of their own and the text varies in length, wrapping to a different number of lines. As a result, the product descriptions and specs end up shifted off the baseline grid of the body text by a different distance in every card. In other words, plain text in neighbouring cards is misaligned. Designers and project managers often ask to do something about it, but nothing can be done about it without JS, which makes the interface janky and sluggish (and because of that the rhythm has to be given up).\n\nBut cards are not the only use case. Here are a few more:\n\n- multi-column layout (rarely, but I do have to resort to it);\n- long-form text simply always looks better when the text itself, the headings, images, quotes, lists and everything else follow the same rhythm;\n- for Japanese and Chinese typography, rhythm is not mere decoration;\n- EPUB with two pages displayed side by side badly needs these properties too.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/315#issuecomment-5763132909"
+    }
+  ],
   "sanitizer": [
     {
       "description": "Sanitizing user HTML, e.g. for https://privatebin.net/",
@@ -547,6 +553,10 @@
     {
       "description": "I want to use `Temporal.Duration` to display the time passed on a video in MM:SS format.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5706422877"
+    },
+    {
+      "description": "const tmpdzt = Object.freeze(dzt);",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5767656211"
     }
   ],
   "text-size-adjust": [
@@ -565,6 +575,12 @@
     {
       "description": "I'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/130#issuecomment-5675987318"
+    }
+  ],
+  "widows-orphans": [
+    {
+      "description": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680"
     }
   ],
   "window-management": [

@@ -1675,12 +1675,12 @@
       "summary": "Chromium will be adding support for the HTMLMediaElement.videoTracks and HTMLMediaElement.audioTracks properties.\n\nThis feature is both informational in that it allows the set of available tracks present in a media bitstream to be accessed by scripts, as well as behavioral, as it allows a script to change the currently selected track for both audio and video content.\n\nThis feature will also enable track switching UX in the default media player implementation, allowing an end-user to manually change the selected tracks.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/6257040722886656",
-      "bug-url": null,
-      "spec-link": null,
+      "bug-url": "https://crbug.com/40126181",
+      "spec-link": "https://html.spec.whatwg.org/multipage/media.html#audiotracklist-and-videotracklist-objects",
       "explainer-links": [],
       "updated": {
         "by": "tmathmeyer@chromium.org",
-        "when": "2026-01-08 18:33:59.023926"
+        "when": "2026-09-22 00:37:43.768482"
       }
     },
     {
@@ -4727,7 +4727,7 @@
       ],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-09-21 05:02:48.399968"
+        "when": "2026-09-21 18:51:54.362295"
       }
     },
     {
@@ -14654,7 +14654,7 @@
       ],
       "updated": {
         "by": "liahiscock@microsoft.com",
-        "when": "2026-09-17 23:55:59.992625"
+        "when": "2026-09-21 20:42:58.334722"
       }
     }
   ],
@@ -16278,6 +16278,22 @@
     }
   ],
   "permissions": [
+    {
+      "id": 5107682460696576,
+      "name": "Capability Elements Icon-only mode",
+      "summary": "Introduces two new attributes to render Capability Elements(<camera>, <microphone>, <geolocation> and <usermedia>) as compact icon buttons without text using the `display-mode` attribute and choose curated designs with the `icon-variant` attribute. This gives developers flexible UI density for spatial layouts such as map controls and video floating trays while preserving native security guarantees and full screen reader accessibility.\n\nThis is an extension to the recently released Capability Elements\nhttps://chromestatus.com/feature/5153829504024576",
+      "motivation": "Capability elements currently default to a horizontal button layout containing an icon and mandatory localized text that cannot be removed or customized. However, modern web layouts such as interactive maps and video conferencing floating trays rely heavily on compact, icon-only UI patterns. Providing a declarative display mode and curated icon variants allows developers to integrate capability elements seamlessly into space-constrained designs while fully preserving browser-mediated security guarantees.",
+      "url": "https://chromestatus.com/feature/5107682460696576",
+      "bug-url": null,
+      "spec-link": "https://w3c.github.io/mediacapture-extensions/#media-capture-html-elements",
+      "explainer-links": [
+        "https://github.com/w3c/mediacapture-extensions/blob/main/media-capture-elements-explainer.md"
+      ],
+      "updated": {
+        "by": "ravjit@google.com",
+        "when": "2026-09-22 12:13:24.242090"
+      }
+    },
     {
       "id": 5153829504024576,
       "name": "Capability elements: <camera> and <microphone>",
@@ -27374,6 +27390,22 @@
   ],
   "webgpu": [
     {
+      "id": 4882016087703552,
+      "name": "WebGPU: atomic-vec2u-min-max",
+      "summary": "Allows the use of 64-bit atomic minimum and maximum operations on `atomic<vec2u>` in WGSL.\n\nThis provides WebGPU shader authors with a way to implement certain algorithms that use 64-bit atomics without requiring full support for 64-bit integers.",
+      "motivation": "This provides WebGPU shader authors with a way to implement certain algorithms that use 64-bit atomics without requiring full support for 64-bit integers. Not every device that supports 64-bit atomics can support every atomic operation on these types, so this feature is scoped to the min and max operations to deliver broadest reach.",
+      "url": "https://chromestatus.com/feature/4882016087703552",
+      "bug-url": "https://crbug.com/453689550",
+      "spec-link": "https://www.w3.org/TR/webgpu/#dom-gpufeaturename-atomic-vec2u-min-max",
+      "explainer-links": [
+        "https://github.com/gpuweb/gpuweb/issues/5071"
+      ],
+      "updated": {
+        "by": "jrprice@google.com",
+        "when": "2026-09-22 07:17:26.947652"
+      }
+    },
+    {
       "id": 5080544005193728,
       "name": "WebGPU: Texture Compression Unaligned",
       "summary": "Compressed texture (using the BC, ETC or ASTC formats) in unextended WebGPU must have a size that's a multiple of the block size (4x4 or up to 12x12). This is very constraining when compressing arbitrary images as a resizing step must happen which looses high-frequency information.\n\nMost hardware supports compressed textures with partial blocks at the border such that the textures can have any size, removing this issue.",
@@ -27386,7 +27418,7 @@
       ],
       "updated": {
         "by": "cwallez@google.com",
-        "when": "2026-09-18 17:22:23.341665"
+        "when": "2026-09-22 07:55:35.574626"
       }
     },
     {
@@ -28173,8 +28205,8 @@
       "spec-link": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection",
       "explainer-links": [],
       "updated": {
-        "by": "guidou@google.com",
-        "when": "2026-09-21 08:48:50.159416"
+        "by": "elmirakalali@google.com",
+        "when": "2026-09-21 15:00:39.369363"
       }
     },
     {
@@ -30282,8 +30314,8 @@
         "https://github.com/w3c/window-placement/blob/main/EXPLAINER.md#:~:text=DOMString%20label"
       ],
       "updated": {
-        "by": "foolip@google.com",
-        "when": "2025-08-22 12:09:28.646600"
+        "by": "msw@chromium.org",
+        "when": "2026-09-22 07:33:32.353533"
       }
     },
     {
@@ -30926,7 +30958,7 @@
     {
       "id": 5071131271888896,
       "name": "Deferred imports evaluation (\"import defer\")",
-      "summary": "`import defer` allows lazily evaluating ES modules, to reduce the startup impact of modules that are not actually needed for the first JavaScript execution.\n\nThis provides an easier-to-use alternative to dynamic import. While dynamic import provides more benefits, as it allows deferring loading of modules rather than just evaluation, it has a lot of friction due to its asynchronous nature, and thus it's not always usable.\n\nThe `import defer` TC39 proposal follows the same syntax as `import source`, but it only works with namespace imports:\n```\nimport defer * as namespace from \"./some-module.js\"\n```\nThe module will be synchronously executed on property access on the module namespace object.\n\nTo allow synchronous execution, not all of `./some-module.js`'s dependency tree will be deferred. Modules that contain top-level await will be eagerly executed, leaving only the synchronous parts of the tree for later.",
+      "summary": "`import defer` allows lazily evaluating ES modules, to reduce the startup impact of modules that are not actually needed for the first JavaScript execution.\n\nThis provides an easier-to-use alternative to dynamic import. While dynamic import provides more benefits, as it allows deferring loading of modules rather than just evaluation, it has a lot of friction due to its asynchronous nature, and thus it's not always usable.\n\n`import defer` follows the same syntax as regular imports, but it only works with namespace and dynamic imports:\n```\nimport defer * as namespace from \"./some-module.js\"\n\nconst namespace2 = await import.defer(\"./some-module.js\");\n```\nThe module will be synchronously executed on property access on the module namespace object.\n\nTo allow synchronous execution, not all of `./some-module.js`'s dependency tree will be deferred. Modules that contain top-level await will be eagerly executed, leaving only the synchronous parts of the tree for later.",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5071131271888896",
       "bug-url": "https://issues.chromium.org/issues/398218423",
@@ -30935,15 +30967,15 @@
         "https://github.com/tc39/proposal-defer-import-eval"
       ],
       "updated": {
-        "by": "caiolima@igalia.com",
-        "when": "2026-09-16 09:09:08.485874"
+        "by": "nribaudo@igalia.com",
+        "when": "2026-09-22 09:21:54.495268"
       }
     }
   ],
   "install": [
     {
       "id": 5152834368700416,
-      "name": "Web app HTML install element",
+      "name": "HTML install element",
       "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The <install> element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling beforeinstallprompt events. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5152834368700416",
@@ -30954,7 +30986,7 @@
       ],
       "updated": {
         "by": "liahiscock@microsoft.com",
-        "when": "2026-09-17 23:55:58.897310"
+        "when": "2026-09-21 20:43:38.939354"
       }
     }
   ],
@@ -30988,7 +31020,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-09-21 07:07:34.736053"
+        "when": "2026-09-21 18:50:07.408211"
       }
     }
   ]

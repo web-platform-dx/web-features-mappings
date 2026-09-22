@@ -1042,12 +1042,9 @@
       "https://bugzil.la/1976522"
     ]
   },
-  "masonry": {
+  "grid-lanes": {
     "firefox": [
       "https://bugzil.la/1981604"
-    ],
-    "chrome": [
-      "https://issues.chromium.org/issues/343257585"
     ]
   },
   "border-shape": {
@@ -1236,6 +1233,7 @@
       "https://bugzil.la/2039597"
     ],
     "chrome": [
+      "https://crbug.com/453689550",
       "https://crbug.com/528245806",
       "https://issues.chromium.org/433787057",
       "https://crbug.com/457993779",
@@ -1646,6 +1644,7 @@
   },
   "audio-video-tracks": {
     "chrome": [
+      "https://crbug.com/40126181",
       "http://code.google.com/p/chromium/issues/detail?id=249427"
     ]
   },
@@ -3926,6 +3925,11 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/137293"
+    ]
+  },
+  "masonry": {
+    "chrome": [
+      "https://issues.chromium.org/issues/343257585"
     ]
   },
   "matchmedia": {
