@@ -15456,7 +15456,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-09-10 20:38:00.608010"
+        "when": "2026-09-22 19:18:35.979325"
       }
     },
     {
@@ -16291,7 +16291,7 @@
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-09-22 12:13:24.242090"
+        "when": "2026-09-23 11:57:58.081376"
       }
     },
     {
@@ -19562,17 +19562,17 @@
     {
       "id": 5124378896498688,
       "name": "Use scroll-snap-type: pair to snap to a single element",
-      "summary": "https://github.com/w3c/csswg-drafts/issues/9519\n\nAdd a \"pair\" keyword to scroll-snap-type. If used, when the container scroll snaps to an element on one axis, it should snap to the same element on the other axis.",
+      "summary": "https://github.com/w3c/csswg-drafts/issues/9519\n\nAdd a \"pair\" keyword to scroll-snap-type. If used, when the container scroll snaps to an element on one axis, it should snap to the same element on the other axis. In the existing spec, the \"both\" keyword allows the scroll container to select snap targets in X and Y axes independently and snap to different targets.",
       "motivation": "See explainer",
       "url": "https://chromestatus.com/feature/5124378896498688",
       "bug-url": "https://crbug.com/542706103",
-      "spec-link": null,
+      "spec-link": "https://drafts.csswg.org/css-scroll-snap-1",
       "explainer-links": [
         "https://github.com/explainers-by-googlers/scroll-snap-type-pair"
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-08-25 15:10:04.054925"
+        "when": "2026-09-22 17:23:30.485909"
       }
     },
     {
@@ -23143,7 +23143,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-02 15:06:28.235428"
+        "when": "2026-09-23 09:56:56.536283"
       }
     },
     {
@@ -27418,7 +27418,7 @@
       ],
       "updated": {
         "by": "cwallez@google.com",
-        "when": "2026-09-22 07:55:35.574626"
+        "when": "2026-09-23 10:30:37.736184"
       }
     },
     {
@@ -28310,7 +28310,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-09-17 15:51:55.288507"
+        "when": "2026-09-23 11:03:54.200039"
       }
     },
     {
@@ -29451,6 +29451,22 @@
   ],
   "webtransport": [
     {
+      "id": 6427766428925952,
+      "name": "WebTransport draining",
+      "summary": "WebTransport.draining is a promise that resolves when the server indicates that the WebTransport session will be gracefully retired. Applications can use this signal to establish a replacement session while existing streams and the current session remain usable.",
+      "motivation": "A WebTransport server may need to retire a session for maintenance, load balancing, deployment, or connection-lifetime management. Without a draining signal, an application learns about this only when the session closes, which can cause an avoidable interruption while a replacement connection is established. The draining promise gives the application advance notice without changing the lifetime or usability of the current session.\n",
+      "url": "https://chromestatus.com/feature/6427766428925952",
+      "bug-url": "https://issues.chromium.org/issues/564353368",
+      "spec-link": "https://w3c.github.io/webtransport/#dom-webtransport-draining",
+      "explainer-links": [
+        "https://github.com/w3c/webtransport/blob/main/explainer.md#11-handling-session-draining"
+      ],
+      "updated": {
+        "by": "vbryhider@microsoft.com",
+        "when": "2026-09-22 22:44:28.891833"
+      }
+    },
+    {
       "id": 5148774971342848,
       "name": "WebTransport Datagram readable stream type",
       "summary": "Adds the  WebTransportOptions.datagramsReadableType  constructor option. By default, incoming WebTransport Datagrams are exposed through a default  ReadableStream . Applications that require BYOB reading can request a readable byte stream by setting  datagramsReadableType: \"bytes\" .",
@@ -29525,7 +29541,7 @@
       "explainer-links": [],
       "updated": {
         "by": "ricea@google.com",
-        "when": "2026-09-16 14:54:42.047218"
+        "when": "2026-09-23 02:02:01.664339"
       }
     },
     {
@@ -31021,6 +31037,24 @@
       "updated": {
         "by": "felipeerias@igalia.com",
         "when": "2026-09-21 18:50:07.408211"
+      }
+    }
+  ],
+  "scroll-promises": [
+    {
+      "id": 5082138340491264,
+      "name": "Programmatic scroll promises",
+      "summary": "Provide a reliable signal for the completion status of a programmatic smooth-scroll. All scroll methods in Element and Window now return Promise objects that get resolved on scroll completion, and the resolved value indicates whether the scroll was interrupted or not.",
+      "motivation": "We have multiple scroll methods available through both Element and Window interfaces. These methods return immediately with the value undefined, which was fine during the early days of the web when scroll was assumed to be instant. This behavior no longer seems adequate from a web developer's perspective today: there is widespread support for smooth-scroll (see browser_compatibility [1] for the CSS property), and it is not easy for the developers to determine when a particular call for a smooth-scroll has completed.\n\nThis feature makes the programmatic scroll methods return Promise objects that get resolved on scroll completion. The Promise is resolved with an object with a Boolean field indicating whether the scroll was interrupted or not.\n\n[1] https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior#browser_compatibility",
+      "url": "https://chromestatus.com/feature/5082138340491264",
+      "bug-url": "https://issues.chromium.org/41406914",
+      "spec-link": "https://github.com/w3c/csswg-drafts/issues/1562",
+      "explainer-links": [
+        "https://github.com/explainers-by-googlers/promisify-scroll"
+      ],
+      "updated": {
+        "by": "mustaq@google.com",
+        "when": "2026-09-22 16:46:58.585896"
       }
     }
   ]
