@@ -238,6 +238,7 @@
       "https://bugzil.la/1481298"
     ],
     "chrome": [
+      "https://issues.chromium.org/issues/527730705",
       "https://crbug.com/455486148",
       "https://crbug.com/517413738",
       "https://issues.chromium.org/issues/465491626",
@@ -620,8 +621,7 @@
   },
   "page-visibility-state": {
     "firefox": [
-      "https://bugzil.la/1827127",
-      "https://bugzil.la/1867361"
+      "https://bugzil.la/1827127"
     ],
     "firefox_android": [
       "https://bugzil.la/1827127"
@@ -654,6 +654,8 @@
       "https://bugzil.la/1838746"
     ],
     "chrome": [
+      "https://crbug.com/333421963",
+      "https://issues.chromium.org/issues/526682332",
       "https://issues.chromium.org/issues/382294252",
       "https://issues.chromium.org/issues/373874012",
       "https://crbug.com/346521300",
@@ -778,6 +780,19 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/292975"
+    ]
+  },
+  "profiler": {
+    "firefox": [
+      "https://bugzil.la/1867361"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/482085416",
+      "https://issues.chromium.org/issues/473861788?pli=1",
+      "https://bugs.chromium.org/p/chromium/issues/detail?id=956688"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/1867361"
     ]
   },
   "popover-hint": {
@@ -1034,12 +1049,9 @@
       "https://bugzil.la/1976522"
     ]
   },
-  "masonry": {
+  "grid-lanes": {
     "firefox": [
       "https://bugzil.la/1981604"
-    ],
-    "chrome": [
-      "https://issues.chromium.org/issues/343257585"
     ]
   },
   "border-shape": {
@@ -1070,6 +1082,14 @@
   "flexbox-flex-wrap-balance": {
     "firefox": [
       "https://bugzil.la/1990050"
+    ]
+  },
+  "scroll-promises": {
+    "firefox": [
+      "https://bugzil.la/1998315"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/41406914"
     ]
   },
   "origin": {
@@ -1288,11 +1308,6 @@
       "https://bugzil.la/2042646"
     ]
   },
-  "html-streaming-setters": {
-    "firefox": [
-      "https://bugzil.la/2043150"
-    ]
-  },
   "heading-offset": {
     "firefox": [
       "https://bugzil.la/2044348",
@@ -1355,6 +1370,11 @@
       "https://bugzil.la/2053472"
     ]
   },
+  "connection-allowlists": {
+    "firefox": [
+      "https://bugzil.la/2062159"
+    ]
+  },
   "focusgroup": {
     "firefox": [
       "https://bugzil.la/2070976"
@@ -1370,6 +1390,24 @@
     ],
     "chrome": [
       "https://issues.chromium.org/issues/332396355"
+    ]
+  },
+  "html-setters": {
+    "firefox": [
+      "https://bugzil.la/2075152"
+    ]
+  },
+  "html-streaming-setters": {
+    "firefox": [
+      "https://bugzil.la/2075153"
+    ]
+  },
+  "view-transitions-element-scoped": {
+    "firefox": [
+      "https://bugzil.la/2075158"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/394052227"
     ]
   },
   "a": {
@@ -3927,6 +3965,11 @@
       "https://webkit.org/b/137293"
     ]
   },
+  "masonry": {
+    "chrome": [
+      "https://issues.chromium.org/issues/343257585"
+    ]
+  },
   "matchmedia": {
     "chrome": [
       "http://wkbug.com/37205"
@@ -4595,19 +4638,6 @@
       "https://crbug.com/1371454",
       "https://crbug.com/591068",
       "https://crbug.com/986744"
-    ]
-  },
-  "profiler": {
-    "chrome": [
-      "https://issues.chromium.org/issues/482085416",
-      "https://issues.chromium.org/issues/473861788?pli=1",
-      "https://bugs.chromium.org/p/chromium/issues/detail?id=956688"
-    ],
-    "firefox": [
-      "https://bugzil.la/1867361"
-    ],
-    "firefox_android": [
-      "https://bugzil.la/1867361"
     ]
   },
   "promise": {
@@ -5853,11 +5883,6 @@
       "https://bugzil.la/1881438"
     ]
   },
-  "view-transitions-element-scoped": {
-    "chrome": [
-      "https://issues.chromium.org/issues/394052227"
-    ]
-  },
   "viewport-unit-variants": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1093055"
@@ -6681,6 +6706,7 @@
   },
   "xhr": {
     "chrome": [
+      "https://issues.chromium.org/issues/332663431",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1189627",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=905968",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=827324",
@@ -6776,11 +6802,6 @@
   "object-fit": {
     "chrome": [
       "https://issues.chromium.org/41302806"
-    ]
-  },
-  "scroll-promises": {
-    "chrome": [
-      "https://issues.chromium.org/41406914"
     ]
   },
   "anchor-positioning-animations": {

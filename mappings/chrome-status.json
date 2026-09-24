@@ -394,6 +394,34 @@
   ],
   "anchor-positioning": [
     {
+      "id": 5136856479039488,
+      "name": "CSS position-visibility:anchor{s}-valid",
+      "summary": "The `anchors-valid` value was implemented as part of https://crbug.com/329703412 but subsequently reverted, due to spec questions about the exact definition of the value. Since that time, the value has been renamed to `anchor-valid` (see https://chromestatus.com/feature/5136123851571200) and also better defined to be clear that only the default anchor matters, resolving a lot of ambiguity, and making this value shippable.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5136856479039488",
+      "bug-url": "https://crbug.com/333421963",
+      "spec-link": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+      "explainer-links": [],
+      "updated": {
+        "by": "masonfreed@google.com",
+        "when": "2026-09-24 08:08:13.634452"
+      }
+    },
+    {
+      "id": 5136123851571200,
+      "name": "Ship anchor-visible and anchor-valid, and deprecate the plural versions",
+      "summary": "The CSSWG resolved to rename `anchors-valid` --> `anchor-valid` [1] and `anchors-visible` --> `anchor-visible` [2]. To accomplish this, we'll rename the properties to the singular variants, and add aliases from the plural versions to the singular versions. At a later date, we will remove the plural variants. This chromestatus is only about shipping the new versions, and deprecating the old ones (but not removing them).\n\n[1] https://github.com/w3c/csswg-drafts/issues/10201#issuecomment-4180411971\n[2] https://github.com/w3c/csswg-drafts/issues/10201#issuecomment-4390233490",
+      "motivation": "CSSWG resolved to rename, and to maintain baseline status for anchor positioning, Chrome needs to ship the new names.",
+      "url": "https://chromestatus.com/feature/5136123851571200",
+      "bug-url": "https://issues.chromium.org/issues/526682332",
+      "spec-link": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+      "explainer-links": [],
+      "updated": {
+        "by": "masonfreed@google.com",
+        "when": "2026-09-24 08:08:28.187781"
+      }
+    },
+    {
       "id": 5201048700583936,
       "name": "CSS anchor positioning with transforms",
       "summary": "When an anchor-positioned element is tethered against an anchor that has a transform (or is contained by something with a transform), resolve anchor() and anchor-size() functions against the bounding box of the transformed anchor.",
@@ -4057,7 +4085,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-18 13:31:04.922725"
+        "when": "2026-09-23 16:05:18.588141"
       }
     }
   ],
@@ -4665,7 +4693,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-08-17 09:51:03.136393"
+        "when": "2026-09-23 15:40:21.674183"
       }
     },
     {
@@ -4727,7 +4755,7 @@
       ],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-09-21 18:51:54.362295"
+        "when": "2026-09-23 15:01:05.556890"
       }
     },
     {
@@ -12088,6 +12116,20 @@
   ],
   "languagemodel": [
     {
+      "id": 5098001721851904,
+      "name": "Prompt API Thinking Mode",
+      "summary": "Enables developers to control the reasoning effort and receive thoughts from the built-in AI Prompt API (window.LanguageModel).\n\nDevelopers opt in by passing a LanguageModelThinkingOptions dictionary (e.g., { effort: \"high\", includeThoughts: true }) during session creation and/or prompt execution.\n\nThe API surface accepts semantic effort tiers (LanguageModelThinkingEffort: \"none\", \"low\", \"medium\", \"high\"), so implementations can map these to appropriate on-device token budgets, freeing developers from managing raw numerical limits.\n\nEphemeral reasoning tokens are automatically stripped from the persistent session context, and only surfaced to the API client when requested via `includeThoughts: true` for flexible ergonomics.\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5098001721851904",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "iahouma@google.com",
+        "when": "2026-09-24 00:37:50.024159"
+      }
+    },
+    {
       "id": 6325545693478912,
       "name": "Prompt API Sampling Parameters",
       "summary": "The Prompt API Sampling Parameters allow developers to control the output variety of the built-in AI language model. Instead of exposing raw numerical parameters (e.g. topK and temperature) which can behave inconsistently across different underlying model families and versions, this feature introduces a categorical samplingMode enum. This allows the browser to handle the heavy lifting of mapping semantic presets to optimal raw parameters for a specific underlying model, providing developers with the necessary granularity to tune responses while maintaining cross-browser interoperability.\n\nenum AILanguageModelSamplingMode {\n  \"most-predictable\",      // For strict consistency/factual extraction\n  \"predictable\",           // For highly focused outputs\n  \"slightly-predictable\",  // For moderately focused, consistent outputs\n  \"balanced\",              // The default state for standard prompting\n  \"slightly-creative\",     // For moderately varied, expressive outputs\n  \"creative\",              // For tasks favoring variety over strict facts\n  \"most-creative\"          // For maximum token diversity and brainstorming\n};",
@@ -12595,6 +12637,20 @@
     }
   ],
   "local-network-access": [
+    {
+      "id": 5187021965492224,
+      "name": "RemoveTreatAsPublicAddress",
+      "summary": "The Content Security Policy header treat-as-public-address was added as part of Private Network Access to allow non-documents to declare themselves as being in the public address space (https://wicg.github.io/private-network-access/#csp). It is primarily useful for testing.\n\nhttps://github.com/WICG/private-network-access/issues/88 highlights some issues with this header, and the decision was made to remove this header instead of moving it somewhere else.  For testing use cases, the --ip-address-space-overrides command line flag can be used. \n\nThis header was only ever implemented in Chromium; Firefox has never implemented this header and has no plans to. Safari has not implemented Private Network Access or Local Network Access and so does not have the header either.",
+      "motivation": "Header does not fit well into Content Security Policy, and it was deemed unnecessary given the alternative of using `--ip-address-space-overrides`\n\nMetrics show this is barely used:\n\nhttps://chromestatus.com/metrics/feature/timeline/popularity/5983\n",
+      "url": "https://chromestatus.com/feature/5187021965492224",
+      "bug-url": "https://issues.chromium.org/issues/527730705",
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "hchao@chromium.org",
+        "when": "2026-09-23 18:28:08.585395"
+      }
+    },
     {
       "id": 6225598451154944,
       "name": "Local Network Access restrictions for Background Fetch",
@@ -19572,7 +19628,7 @@
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-09-22 17:23:30.485909"
+        "when": "2026-09-24 08:11:24.335650"
       }
     },
     {
@@ -27402,7 +27458,7 @@
       ],
       "updated": {
         "by": "jrprice@google.com",
-        "when": "2026-09-22 07:17:26.947652"
+        "when": "2026-09-24 07:38:46.088160"
       }
     },
     {
@@ -27418,7 +27474,7 @@
       ],
       "updated": {
         "by": "cwallez@google.com",
-        "when": "2026-09-23 10:30:37.736184"
+        "when": "2026-09-23 15:33:34.019728"
       }
     },
     {
@@ -28310,7 +28366,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-09-23 11:03:54.200039"
+        "when": "2026-09-24 07:34:29.900442"
       }
     },
     {
@@ -29479,7 +29535,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-10 17:15:05.469475"
+        "when": "2026-09-24 08:09:27.166162"
       }
     },
     {
@@ -29527,7 +29583,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-08-25 18:25:08.290578"
+        "when": "2026-09-24 08:08:56.298245"
       }
     },
     {
@@ -30449,6 +30505,20 @@
   ],
   "xhr": [
     {
+      "id": 5069584943153152,
+      "name": "Expose ProgressEvent in service workers",
+      "summary": "ProgressEvent is available in service workers, allowing developers to construct progress events with lengthComputable, loaded, and total attributes.\nThis aligns service workers with other worker contexts and the XMLHttpRequest Standard.",
+      "motivation": "Blink exposes ProgressEvent in Window, DedicatedWorker, and SharedWorker contexts, but not in service workers. Exposing it in service workers closes this gap with the XMLHttpRequest Standard and allows code that constructs progress events to be reused across worker contexts. The change reuses the existing implementation without exposing XMLHttpRequest or adding automatic fetch progress events.\n\nDraft implementation: \nhttps://chromium-review.googlesource.com/c/chromium/src/+/8425503",
+      "url": "https://chromestatus.com/feature/5069584943153152",
+      "bug-url": "https://issues.chromium.org/issues/332663431",
+      "spec-link": "https://xhr.spec.whatwg.org/#interface-progressevent",
+      "explainer-links": [],
+      "updated": {
+        "by": "choiwonik91@gmail.com",
+        "when": "2026-09-24 13:08:42.552773"
+      }
+    },
+    {
       "id": 5686951464140800,
       "name": "Text encoding detection for XHR JSON response",
       "summary": "XHR runs encoding detection on the response body if \r\n\r\n - The response type is \"json\", and\r\n - The response body has BOM.\r\n\r\nThis is a spec violation. The requires us to always use UTF8 when the response type is \"json\" in https://xhr.spec.whatwg.org/#dom-xmlhttprequest-response.",
@@ -31009,8 +31079,8 @@
   "permissions-policy": [
     {
       "id": 5073502741856256,
-      "name": "Permissions Policy for dedicated and shared workers",
-      "summary": "Extend the Permissions Policy infrastructure to dedicated and shared workers.\n\nWeb developers will be able to delegate policy-controlled features to dedicated and shared workers via Permissions Policy. This will enable browsers to expose features gated behind Permissions Policy to workers.",
+      "name": "Permissions Policy for shared workers",
+      "summary": "Extend the Permissions Policy infrastructure to shared workers.\n\nWeb developers will be able to delegate policy-controlled features to shared workers via Permissions Policy. This will enable browsers to expose features gated behind Permissions Policy to shared workers.",
       "motivation": "The goal of this proposal is to extend Permissions Policy to workers, in order to enable shipping Permissions Policy gated capabilities to those contexts.\n\nNote there are a number of proposals and use cases for extending Web APIs that are currently gated behind Permissions Policy to workers (see https://github.com/explainers-by-googlers/workers-permissions-policy#example-use-cases) which have been blocked until because Permissions Policy does not yet work in workers. This proposal aims at unblocking those. ",
       "url": "https://chromestatus.com/feature/5073502741856256",
       "bug-url": "https://issues.chromium.org/u/1/issues/562705553",
@@ -31020,7 +31090,7 @@
       ],
       "updated": {
         "by": "antoniosartori@chromium.org",
-        "when": "2026-09-17 13:22:39.848404"
+        "when": "2026-09-24 10:48:20.429758"
       }
     }
   ],
@@ -31036,7 +31106,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-09-21 18:50:07.408211"
+        "when": "2026-09-24 07:37:52.101401"
       }
     }
   ],
