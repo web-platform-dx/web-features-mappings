@@ -11306,5 +11306,69 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/week"
     }
+  ],
+  "html-streaming-setters": [
+    {
+      "slug": "Web/API/Blob/textStream",
+      "title": "Blob: textStream() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Blob/textStream"
+    },
+    {
+      "slug": "Web/API/Request/textStream",
+      "title": "Request: textStream() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Request/textStream"
+    },
+    {
+      "slug": "Web/API/Response/textStream",
+      "title": "Response: textStream() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Response/textStream"
+    }
+  ],
+  "import-defer": [
+    {
+      "slug": "Web/JavaScript/Reference/Operators/import/defer",
+      "title": "import.defer()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import/defer"
+    },
+    {
+      "slug": "Web/JavaScript/Reference/Statements/import/defer",
+      "title": "import defer",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import/defer"
+    }
+  ],
+  "iterator-join": [
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/Iterator/join",
+      "title": "Iterator.prototype.join()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/join"
+    }
+  ],
+  "string-trim-leftright": [
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/String/trimStart",
+      "title": "String.prototype.trimStart()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart"
+    },
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/String/trimEnd",
+      "title": "String.prototype.trimEnd()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd"
+    }
+  ],
+  "symbols-function": [
+    {
+      "slug": "Web/CSS/Reference/Values/symbols",
+      "title": "`symbols()` CSS function",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/symbols"
+    }
   ]
 }

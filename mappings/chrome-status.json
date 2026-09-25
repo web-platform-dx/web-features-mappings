@@ -404,7 +404,7 @@
       "explainer-links": [],
       "updated": {
         "by": "masonfreed@google.com",
-        "when": "2026-09-24 08:08:13.634452"
+        "when": "2026-09-24 13:20:14.863817"
       }
     },
     {
@@ -2889,8 +2889,8 @@
         "https://drafts.csswg.org/css-ui/#caret-shape"
       ],
       "updated": {
-        "by": "schenney@chromium.org",
-        "when": "2025-12-08 14:15:41.941887"
+        "by": "zsun@igalia.com",
+        "when": "2026-09-25 10:14:48.448666"
       }
     }
   ],
@@ -10898,20 +10898,6 @@
         "by": "cgqaq@chromium.org",
         "when": "2026-06-23 14:30:37.406405"
       }
-    },
-    {
-      "id": 5099982692286464,
-      "name": "CSS Color for Color Input Value",
-      "summary": "The HTML color input historically only supported 6 digit hex values for the value attribute. This feature changes that to support the much wider range of color syntaxes supported by CSS. Importantly the value will still be serialized as a hex when retrieving the value or during form submission, this is for backwards compatibility.",
-      "motivation": "The HTML color input historically only supported 6 digit hex values for the value attribute. This feature changes that to support the much wider range color syntaxes supported by CSS. This matches other features such as canvas which already support a wider range of color syntaxes.",
-      "url": "https://chromestatus.com/feature/5099982692286464",
-      "bug-url": "https://crbug.com/416245392",
-      "spec-link": "https://html.spec.whatwg.org/multipage/input.html#update-a-color-well-control-color",
-      "explainer-links": [],
-      "updated": {
-        "by": "lwarlow@igalia.com",
-        "when": "2026-01-21 00:39:40.666728"
-      }
     }
   ],
   "input-date-time": [
@@ -12118,15 +12104,15 @@
     {
       "id": 5098001721851904,
       "name": "Prompt API Thinking Mode",
-      "summary": "Enables developers to control the reasoning effort and receive thoughts from the built-in AI Prompt API (window.LanguageModel).\n\nDevelopers opt in by passing a LanguageModelThinkingOptions dictionary (e.g., { effort: \"high\", includeThoughts: true }) during session creation and/or prompt execution.\n\nThe API surface accepts semantic effort tiers (LanguageModelThinkingEffort: \"none\", \"low\", \"medium\", \"high\"), so implementations can map these to appropriate on-device token budgets, freeing developers from managing raw numerical limits.\n\nEphemeral reasoning tokens are automatically stripped from the persistent session context, and only surfaced to the API client when requested via `includeThoughts: true` for flexible ergonomics.\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).",
+      "summary": "Enables developers to control the reasoning effort and receive thoughts from the built-in AI Prompt API (window.LanguageModel).\n\nDevelopers opt in by passing options when creating session and/or prompting the model (e.g., { effort: \"high\", includeThoughts: true }). High-level semantic effort tiers (\"none\", \"low\", \"medium\", \"high\"), map to underlying configs (e.g. token budgets). Ephemeral reasoning tokens are automatically stripped from the persistent session context, and only surfaced to API clients when requested via `includeThoughts: true`, for flexible response ergonomics.\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).",
       "motivation": null,
       "url": "https://chromestatus.com/feature/5098001721851904",
       "bug-url": null,
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "iahouma@google.com",
-        "when": "2026-09-24 00:37:50.024159"
+        "by": "msw@google.com",
+        "when": "2026-09-24 20:51:35.195871"
       }
     },
     {
@@ -12648,7 +12634,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-09-23 18:28:08.585395"
+        "when": "2026-09-25 06:15:29.335713"
       }
     },
     {
@@ -14709,8 +14695,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "liahiscock@microsoft.com",
-        "when": "2026-09-21 20:42:58.334722"
+        "by": "aaudi@google.com",
+        "when": "2026-09-24 15:45:23.865750"
       }
     }
   ],
@@ -29507,6 +29493,22 @@
   ],
   "webtransport": [
     {
+      "id": 5073738176528384,
+      "name": "WebTransportWriter: atomic writes and reliable stream reset",
+      "summary": "Adds the  WebTransportWriter  interface for outgoing WebTransport streams.  WebTransportSendStream.getWriter()  returns a specialized writer that extends the standard writable-stream writer with:\n\n•  atomicWrite(data) , which accepts the complete write only when sufficient stream and connection flow-control credit is available. If it is rejected because the complete chunk does not fit within the current flow-control window, none of that chunk is admitted and the stream remains usable. Unrelated network errors may still cause rejection after some data has been sent.\n•  commit() , which marks all successfully written bytes up to that point as a reliable prefix that continues to be delivered if the stream is subsequently aborted, provided the connection remains available.\n\nAtomic writes prevent application-protocol flow-control deadlocks. They do not preserve message boundaries or guarantee that data is delivered in one network packet.\n",
+      "motivation": "Applications commonly implement framed protocols over WebTransport streams. A normal stream write can be accepted only partially at the transport layer, which can cause a flow-control deadlock when the peer needs the complete frame before it can process data and release more credit.\n\natomicWrite()  provides all-or-nothing admission for these writes. commit()  enables partial reliability: an application can commit an important prefix and later abort an obsolete suffix without losing the committed data. These capabilities are useful for real-time media, games, remote access, and other latency-sensitive applications.",
+      "url": "https://chromestatus.com/feature/5073738176528384",
+      "bug-url": "https://issues.chromium.org/issues/487117768",
+      "spec-link": "https://w3c.github.io/webtransport/#webtransportwriter",
+      "explainer-links": [
+        "https://github.com/w3c/webtransport/blob/main/explainer.md#9-transactional-writes-and-reliable-reset"
+      ],
+      "updated": {
+        "by": "monicach@microsoft.com",
+        "when": "2026-09-24 21:39:42.343417"
+      }
+    },
+    {
       "id": 6427766428925952,
       "name": "WebTransport draining",
       "summary": "WebTransport.draining is a promise that resolves when the server indicates that the WebTransport session will be gracefully retired. Applications can use this signal to establish a replacement session while existing streams and the current session remain usable.",
@@ -29567,7 +29569,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-01 17:03:37.690763"
+        "when": "2026-09-25 06:15:13.753440"
       }
     },
     {
@@ -30515,7 +30517,7 @@
       "explainer-links": [],
       "updated": {
         "by": "choiwonik91@gmail.com",
-        "when": "2026-09-24 13:08:42.552773"
+        "when": "2026-09-24 14:05:19.842466"
       }
     },
     {
@@ -30740,8 +30742,8 @@
         "https://github.com/webmachinelearning/translation-api"
       ],
       "updated": {
-        "by": "msw@google.com",
-        "when": "2026-08-27 21:31:36.633316"
+        "by": "jaeone@google.com",
+        "when": "2026-09-24 16:43:41.092354"
       }
     },
     {
