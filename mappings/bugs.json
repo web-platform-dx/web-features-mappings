@@ -1066,12 +1066,9 @@
       "https://bugzil.la/1976522"
     ]
   },
-  "masonry": {
+  "grid-lanes": {
     "firefox": [
       "https://bugzil.la/1981604"
-    ],
-    "chrome": [
-      "https://issues.chromium.org/issues/343257585"
     ]
   },
   "border-shape": {
@@ -3985,6 +3982,11 @@
       "https://webkit.org/b/137293"
     ]
   },
+  "masonry": {
+    "chrome": [
+      "https://issues.chromium.org/issues/343257585"
+    ]
+  },
   "matchmedia": {
     "chrome": [
       "http://wkbug.com/37205"
@@ -6425,6 +6427,7 @@
   },
   "webtransport": {
     "chrome": [
+      "https://issues.chromium.org/issues/565837025",
       "https://issues.chromium.org/issues/487117768",
       "https://issues.chromium.org/issues/564353368",
       "https://issues.chromium.org/issues/547572475",
