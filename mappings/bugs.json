@@ -1066,9 +1066,12 @@
       "https://bugzil.la/1976522"
     ]
   },
-  "grid-lanes": {
+  "masonry": {
     "firefox": [
       "https://bugzil.la/1981604"
+    ],
+    "chrome": [
+      "https://issues.chromium.org/issues/343257585"
     ]
   },
   "border-shape": {
@@ -3980,11 +3983,6 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/137293"
-    ]
-  },
-  "masonry": {
-    "chrome": [
-      "https://issues.chromium.org/issues/343257585"
     ]
   },
   "matchmedia": {
