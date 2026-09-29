@@ -4085,7 +4085,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-23 16:05:18.588141"
+        "when": "2026-09-29 02:23:44.024509"
       }
     }
   ],
@@ -4755,7 +4755,7 @@
       ],
       "updated": {
         "by": "jja08111@gmail.com",
-        "when": "2026-09-23 15:01:05.556890"
+        "when": "2026-09-29 02:43:46.822764"
       }
     },
     {
@@ -27444,7 +27444,7 @@
       ],
       "updated": {
         "by": "jrprice@google.com",
-        "when": "2026-09-25 14:47:51.284106"
+        "when": "2026-09-28 21:07:11.677505"
       }
     },
     {
@@ -28157,7 +28157,7 @@
     },
     {
       "id": 5172464636133376,
-      "name": "Support for specialized WebHID devices on Android",
+      "name": "WebHID (Human Interface Device)",
       "summary": "WebHID now allows web applications to interact with a wider range of devices. Standard Human Interface Device (HID) examples include mice, keyboards, touchscreens, and gamepads. Those are accessible with high-level input events. However, specialized HID devices and features (for example, custom keyboards, game controllers, and call control headsets) require extended access. \n\nWebHID allows web applications to request access, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, and ChromeOS). Support on Android is planned for Chrome 157. To read more, see [Connect to uncommon HID devices](https://developer.chrome.com/docs/extensions/how-to/web-platform/webhid).\n\nThis feature can be controlled by the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)",
       "motivation": "",
       "url": "https://chromestatus.com/feature/5172464636133376",
@@ -28167,8 +28167,8 @@
         "https://github.com/WICG/webhid/blob/master/EXPLAINER.md"
       ],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-08-26 12:53:58.511524"
+        "by": "mattreynolds@google.com",
+        "when": "2026-09-28 16:03:47.842130"
       }
     }
   ],
@@ -28222,20 +28222,6 @@
   ],
   "webrtc": [
     {
-      "id": 5089475876225024,
-      "name": "RTP Header Extension encryption",
-      "summary": "RTP header extension encryption secures sensitive metadata (like audio levels or timestamps) attached to real-time packets sent via WebRTC.",
-      "motivation": null,
-      "url": "https://chromestatus.com/feature/5089475876225024",
-      "bug-url": null,
-      "spec-link": null,
-      "explainer-links": [],
-      "updated": {
-        "by": "guidou@google.com",
-        "when": "2026-09-25 14:47:54.045340"
-      }
-    },
-    {
       "id": 5177374353260544,
       "name": "WebRTC Encoded Source",
       "summary": "The RTCPeerConnection API allows encoding raw audio and video and send it to a remote peer. Raw audio and video are provided via a MediaStreamTrack, which usually carries media from cameras, microphones, screen captures and other sources.\n\nIn some cases, applications are interested in inserting encoded media directly into the peer connection:\n* The application wants to use a custom encoder instead of the internal encoder of the peer connection. This custom encoder could be a WebCodecs encoder, a WASM encoder or any other kind supplied by the application. \n* The application wants to use encoded data already available from another source such as another peer connection (e.g., to forward frames), or a file.\n\nThis proposal adds a new API to inject encoded frames directly into an RTCRtpSender from an RTCPeerConnection.",
@@ -28262,7 +28248,7 @@
       "explainer-links": [],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-09-21 15:00:39.369363"
+        "when": "2026-09-29 13:45:01.062696"
       }
     },
     {
@@ -28294,7 +28280,7 @@
       ],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-06-03 13:22:02.350532"
+        "when": "2026-09-28 17:37:29.832961"
       }
     },
     {
@@ -28366,7 +28352,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-09-28 13:24:10.091886"
+        "when": "2026-09-28 23:52:10.292024"
       }
     },
     {
@@ -29520,14 +29506,14 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-09-25 22:29:14.966423"
+        "when": "2026-09-28 21:05:18.198394"
       }
     },
     {
       "id": 5073738176528384,
       "name": "WebTransportWriter: atomic writes and reliable stream reset",
-      "summary": "Adds the  WebTransportWriter  interface for outgoing WebTransport streams.  WebTransportSendStream.getWriter()  returns a specialized writer that extends the standard writable-stream writer with:\n\n•  atomicWrite(data) , which accepts the complete write only when sufficient stream and connection flow-control credit is available. If it is rejected because the complete chunk does not fit within the current flow-control window, none of that chunk is admitted and the stream remains usable. Unrelated network errors may still cause rejection after some data has been sent.\n•  commit() , which marks all successfully written bytes up to that point as a reliable prefix that continues to be delivered if the stream is subsequently aborted, provided the connection remains available.\n\nAtomic writes prevent application-protocol flow-control deadlocks. They do not preserve message boundaries or guarantee that data is delivered in one network packet.\n",
-      "motivation": "Applications commonly implement framed protocols over WebTransport streams. A normal stream write can be accepted only partially at the transport layer, which can cause a flow-control deadlock when the peer needs the complete frame before it can process data and release more credit.\n\natomicWrite()  provides all-or-nothing admission for these writes. commit()  enables partial reliability: an application can commit an important prefix and later abort an obsolete suffix without losing the committed data. These capabilities are useful for real-time media, games, remote access, and other latency-sensitive applications.",
+      "summary": "Adds the WebTransportWriter interface for outgoing WebTransport streams. WebTransportSendStream.getWriter() returns a specialized writer that extends the standard writable-stream writer with:\n\n•  atomicWrite(data), which accepts the complete write only when sufficient stream and connection flow-control credit is available. If it is rejected because the complete chunk does not fit within the current flow-control window, none of that chunk is admitted and the stream remains usable. Unrelated network errors may still cause rejection after some data has been sent.\n•  commit(), which marks all successfully written bytes up to that point as a reliable prefix that continues to be delivered if the stream is subsequently aborted, provided the connection remains available.\n\nAtomic writes prevent application-protocol flow-control deadlocks. They do not preserve message boundaries or guarantee that data is delivered in one network packet.",
+      "motivation": "Applications commonly implement framed protocols over WebTransport streams. A normal stream write can be accepted only partially at the transport layer, which can cause a flow-control deadlock when the peer needs the complete frame before it can process data and release more credit.\n\natomicWrite() provides all-or-nothing admission for these writes. commit() enables partial reliability: an application can commit an important prefix and later abort an obsolete suffix without losing the committed data. These capabilities are useful for real-time media, games, remote access, and other latency-sensitive applications.",
       "url": "https://chromestatus.com/feature/5073738176528384",
       "bug-url": "https://issues.chromium.org/issues/487117768",
       "spec-link": "https://w3c.github.io/webtransport/#webtransportwriter",
@@ -29536,7 +29522,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-24 21:39:42.343417"
+        "when": "2026-09-28 18:32:42.344495"
       }
     },
     {
@@ -29552,7 +29538,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-09-22 22:44:28.891833"
+        "when": "2026-09-28 22:58:29.285813"
       }
     },
     {
@@ -29568,7 +29554,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-25 15:07:08.162296"
+        "when": "2026-09-28 19:10:49.678158"
       }
     },
     {
@@ -29584,7 +29570,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-14 19:37:21.967759"
+        "when": "2026-09-28 22:13:13.947040"
       }
     },
     {
@@ -29600,7 +29586,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-25 15:28:09.663667"
+        "when": "2026-09-28 19:09:55.743573"
       }
     },
     {
@@ -29616,7 +29602,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-25 15:11:05.214345"
+        "when": "2026-09-28 19:07:49.138298"
       }
     },
     {
@@ -30806,7 +30792,7 @@
       ],
       "updated": {
         "by": "fbeaufort@google.com",
-        "when": "2026-08-12 05:43:50.470558"
+        "when": "2026-09-28 23:57:13.517191"
       }
     }
   ],
