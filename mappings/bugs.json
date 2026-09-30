@@ -108,7 +108,8 @@
   },
   "file-system-access": {
     "firefox": [
-      "https://bugzil.la/1246236"
+      "https://bugzil.la/1246236",
+      "https://bugzil.la/1909237"
     ],
     "chrome": [
       "https://crbug.com/40276567",
@@ -1696,6 +1697,9 @@
     "chrome": [
       "https://crbug.com/400981738",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=246571"
+    ],
+    "firefox": [
+      "https://bugzil.la/435426"
     ]
   },
   "attribution-reporting": {
@@ -1737,6 +1741,9 @@
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=819482",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=594918"
+    ],
+    "firefox": [
+      "https://bugzil.la/889230"
     ]
   },
   "avif": {
@@ -1854,6 +1861,9 @@
   "bfcache-blocking-reasons": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1326344"
+    ],
+    "firefox": [
+      "https://bugzil.la/1962250"
     ]
   },
   "bigint": {
@@ -2039,6 +2049,9 @@
   "clipboard-custom-format": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=106449"
+    ],
+    "firefox": [
+      "https://bugzil.la/1956304"
     ]
   },
   "clipboard-events": {
@@ -2207,6 +2220,9 @@
     ],
     "webview_android": [
       "https://crbug.com/40217044"
+    ],
+    "firefox": [
+      "https://bugzil.la/1795622"
     ]
   },
   "content-index": {
@@ -2259,6 +2275,9 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/277912"
+    ],
+    "firefox": [
+      "https://bugzil.la/1726232"
     ]
   },
   "cors": {
@@ -2390,7 +2409,8 @@
     ],
     "firefox": [
       "https://bugzil.la/1974787",
-      "https://bugzil.la/1974276"
+      "https://bugzil.la/1974276",
+      "https://bugzil.la/1944403"
     ],
     "firefox_android": [
       "https://bugzil.la/1974276"
@@ -2408,6 +2428,9 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/182671"
+    ],
+    "firefox": [
+      "https://bugzil.la/889230"
     ]
   },
   "data": {
@@ -2759,6 +2782,9 @@
     ],
     "webview_android": [
       "https://crbug.com/40791573"
+    ],
+    "firefox": [
+      "https://bugzil.la/1728527"
     ]
   },
   "feature-policy": {
@@ -2908,6 +2934,9 @@
   "field-sizing": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1447058"
+    ],
+    "firefox": [
+      "https://bugzil.la/1832409"
     ]
   },
   "fieldset": {
@@ -3211,6 +3240,9 @@
   "gap-decorations": {
     "chrome": [
       "https://issues.chromium.org/issues/357648037"
+    ],
+    "firefox": [
+      "https://bugzil.la/1963897"
     ]
   },
   "generators": {
@@ -3272,6 +3304,9 @@
   "hanging-punctuation": {
     "chrome": [
       "https://crbug.com/41491716"
+    ],
+    "firefox": [
+      "https://bugzil.la/1253615"
     ]
   },
   "hardware-concurrency": {
@@ -3304,6 +3339,9 @@
     "chrome": [
       "https://issues.chromium.org/issues/365046212",
       "https://crbug.com/1164461"
+    ],
+    "firefox": [
+      "https://bugzil.la/1703961"
     ]
   },
   "history": {
@@ -3548,6 +3586,10 @@
       "https://issues.chromium.org/issues/513481577",
       "https://crbug.com/1300528",
       "https://crbug.com/1142955"
+    ],
+    "firefox": [
+      "https://bugzil.la/1749532",
+      "https://bugzil.la/1749533"
     ]
   },
   "interaction": {
@@ -3565,6 +3607,9 @@
   "intersection-observer-v2": {
     "chrome": [
       "https://crbug.com/827639"
+    ],
+    "firefox": [
+      "https://bugzil.la/1896900"
     ]
   },
   "intl": {
@@ -3608,6 +3653,9 @@
   "intl-locale-info": {
     "chrome": [
       "https://issues.chromium.org/issues/42203769"
+    ],
+    "firefox": [
+      "https://bugzil.la/1693576"
     ]
   },
   "intl-plural-rules": {
@@ -3628,6 +3676,9 @@
   "inverted-colors": {
     "chrome": [
       "http://crbug.com/1462210"
+    ],
+    "firefox": [
+      "https://bugzil.la/2039591"
     ]
   },
   "invoker-commands": {
@@ -3635,6 +3686,9 @@
       "https://issues.chromium.org/issues/476400454",
       "https://crbug.com/400647849",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1490919"
+    ],
+    "firefox": [
+      "https://bugzil.la/1856430"
     ]
   },
   "is-input-pending": {
@@ -3661,6 +3715,9 @@
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1178058",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1109698"
+    ],
+    "firefox": [
+      "https://bugzil.la/1539075"
     ]
   },
   "js-modules": {
@@ -3676,6 +3733,9 @@
   "js-modules-service-workers": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=824647"
+    ],
+    "firefox": [
+      "https://bugzil.la/1360870"
     ]
   },
   "js-modules-shared-workers": {
@@ -3766,6 +3826,9 @@
       "https://issues.chromium.org/issues/399058544",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1053510",
       "http://crbug.com/912338"
+    ],
+    "firefox": [
+      "https://bugzil.la/1651528"
     ]
   },
   "letter-spacing": {
@@ -3824,6 +3887,9 @@
   "line-clamp": {
     "chrome": [
       "https://issues.chromium.org/issues/40336192"
+    ],
+    "firefox": [
+      "https://bugzil.la/1540681"
     ]
   },
   "linear-easing": {
@@ -3898,6 +3964,9 @@
     ],
     "webview_android": [
       "https://crbug.com/40840834"
+    ],
+    "firefox": [
+      "https://bugzil.la/1946149"
     ]
   },
   "localstorage": {
@@ -3934,6 +4003,9 @@
       "https://issues.chromium.org/issues/534893134",
       "https://issuetracker.google.com/issues/383157188",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1392685"
+    ],
+    "firefox": [
+      "https://bugzil.la/1348405"
     ]
   },
   "manifest-localization": {
@@ -4210,6 +4282,9 @@
       "https://issues.chromium.org/issues/447171238",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1336000",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1183545"
+    ],
+    "firefox": [
+      "https://bugzil.la/1997962"
     ]
   },
   "navigation-timing": {
@@ -4315,6 +4390,9 @@
   "observable": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1485981"
+    ],
+    "firefox": [
+      "https://bugzil.la/1871732"
     ]
   },
   "offline-audio-context": {
@@ -4780,6 +4858,9 @@
     "chrome": [
       "https://issues.chromium.org/issues/325309578",
       "https://crbug.com/1475009"
+    ],
+    "firefox": [
+      "https://bugzil.la/1900251"
     ]
   },
   "reporting": {
@@ -4790,6 +4871,9 @@
       "https://crbug.com/898860",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=704259",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=731810"
+    ],
+    "firefox": [
+      "https://bugzil.la/1631237"
     ]
   },
   "request-animation-frame": {
@@ -4893,6 +4977,9 @@
   "scope": {
     "chrome": [
       "https://crbug.com/1280240"
+    ],
+    "firefox": [
+      "https://bugzil.la/1830512"
     ]
   },
   "screen": {
@@ -4953,7 +5040,8 @@
       "http://crbug.com/1023424"
     ],
     "firefox": [
-      "https://bugzil.la/1676779"
+      "https://bugzil.la/1676779",
+      "https://bugzil.la/1324602"
     ]
   },
   "scroll-elements": {
@@ -5048,6 +5136,9 @@
     ],
     "webview_android": [
       "https://crbug.com/40740509"
+    ],
+    "firefox": [
+      "https://bugzil.la/926940"
     ]
   },
   "serializable-errors": {
@@ -5207,6 +5298,9 @@
     ],
     "webview_android": [
       "https://crbug.com/40540400"
+    ],
+    "firefox": [
+      "https://bugzil.la/1772948"
     ]
   },
   "shared-memory": {
@@ -5240,11 +5334,17 @@
   "sibling-count": {
     "chrome": [
       "https://crbug.com/40282719"
+    ],
+    "firefox": [
+      "https://bugzil.la/1953973"
     ]
   },
   "sizes-auto": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1359051"
+    ],
+    "firefox": [
+      "https://bugzil.la/1819581"
     ]
   },
   "slot": {
@@ -5307,6 +5407,9 @@
     "chrome": [
       "https://crbug.com/415712674",
       "https://crbug.com/1163437"
+    ],
+    "firefox": [
+      "https://bugzil.la/1694053"
     ]
   },
   "spread": {
@@ -5688,6 +5791,9 @@
   "text-wrap-pretty": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1432798"
+    ],
+    "firefox": [
+      "https://bugzil.la/1960910"
     ]
   },
   "textarea": {
@@ -5767,6 +5873,9 @@
     "chrome": [
       "https://issues.chromium.org/u/1/issues/330516530",
       "https://crbug.com/739170"
+    ],
+    "firefox": [
+      "https://bugzil.la/1508286"
     ]
   },
   "two-value-display": {
@@ -5858,6 +5967,9 @@
   "view-transition-class": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1519997"
+    ],
+    "firefox": [
+      "https://bugzil.la/1860854"
     ]
   },
   "view-transitions": {
@@ -5876,7 +5988,8 @@
     ],
     "firefox": [
       "https://bugzil.la/1860854",
-      "https://bugzil.la/1881438"
+      "https://bugzil.la/1881438",
+      "https://bugzil.la/1823896"
     ],
     "firefox_android": [
       "https://bugzil.la/1860854",
@@ -6135,7 +6248,8 @@
       "https://code.google.com/p/chromium/issues/detail?id=419413"
     ],
     "firefox": [
-      "https://bugzil.la/674737"
+      "https://bugzil.la/674737",
+      "https://bugzil.la/2022433"
     ],
     "firefox_android": [
       "https://bugzil.la/674737"
@@ -6217,6 +6331,9 @@
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1275576",
       "https://code.google.com/p/chromium/issues/detail?id=520391"
+    ],
+    "firefox": [
+      "https://bugzil.la/1308614"
     ]
   },
   "webauthn": {
@@ -6258,6 +6375,9 @@
       "https://crbug.com/1341116",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1073995",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=897297"
+    ],
+    "firefox": [
+      "https://bugzil.la/1746557"
     ]
   },
   "webdriver": {
@@ -6473,6 +6593,9 @@
     ],
     "webview_android": [
       "https://crbug.com/41441927"
+    ],
+    "firefox": [
+      "https://bugzil.la/2022432"
     ]
   },
   "webvr": {
@@ -6542,6 +6665,9 @@
     ],
     "webview_android": [
       "https://crbug.com/40652382"
+    ],
+    "firefox": [
+      "https://bugzil.la/1419190"
     ]
   },
   "webxr-depth-sensing": {
@@ -6579,6 +6705,9 @@
     ],
     "samsunginternet_android": [
       "https://crbug.com/40762775"
+    ],
+    "firefox": [
+      "https://bugzil.la/1419190"
     ]
   },
   "webxr-dom-overlays": {
@@ -6687,6 +6816,9 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1254885",
       "https://crbug.com/1233970",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=897300"
+    ],
+    "firefox": [
+      "https://bugzil.la/1928070"
     ]
   },
   "with": {
@@ -6753,6 +6885,9 @@
   "referencetarget": {
     "chrome": [
       "https://issues.chromium.org/issues/346835896"
+    ],
+    "firefox": [
+      "https://bugzil.la/1952585"
     ]
   },
   "usermedia": {
@@ -6952,6 +7087,9 @@
     ],
     "webview_ios": [
       "https://webkit.org/b/233820"
+    ],
+    "firefox": [
+      "https://bugzil.la/2048216"
     ]
   },
   "display-animation": {
@@ -7142,6 +7280,9 @@
     ],
     "webview_android": [
       "https://crbug.com/40948547"
+    ],
+    "firefox": [
+      "https://bugzil.la/1878670"
     ]
   },
   "mathml-full": {
@@ -7293,7 +7434,8 @@
   },
   "url-cross-origin": {
     "firefox": [
-      "https://bugzil.la/2038424"
+      "https://bugzil.la/2038424",
+      "https://bugzil.la/2047126"
     ],
     "firefox_android": [
       "https://bugzil.la/2038424"
@@ -7301,7 +7443,8 @@
   },
   "url-referrer-policy": {
     "firefox": [
-      "https://bugzil.la/2038424"
+      "https://bugzil.la/2038424",
+      "https://bugzil.la/2047129"
     ],
     "firefox_android": [
       "https://bugzil.la/2038424"
@@ -7344,6 +7487,76 @@
     ],
     "firefox_android": [
       "https://bugzil.la/137367"
+    ]
+  },
+  "column-breaks": {
+    "firefox": [
+      "https://bugzil.la/549114"
+    ]
+  },
+  "page-selectors": {
+    "firefox": [
+      "https://bugzil.la/813187"
+    ]
+  },
+  "time-relative-selectors": {
+    "firefox": [
+      "https://bugzil.la/865401"
+    ]
+  },
+  "ping": {
+    "firefox": [
+      "https://bugzil.la/951104"
+    ]
+  },
+  "alignment-baseline": {
+    "firefox": [
+      "https://bugzil.la/1403440"
+    ]
+  },
+  "ext-texture-norm16": {
+    "firefox": [
+      "https://bugzil.la/1735401"
+    ]
+  },
+  "khr-parallel-shader-compile": {
+    "firefox": [
+      "https://bugzil.la/1736076"
+    ]
+  },
+  "rcap": {
+    "firefox": [
+      "https://bugzil.la/1740584"
+    ]
+  },
+  "rch": {
+    "firefox": [
+      "https://bugzil.la/1740584"
+    ]
+  },
+  "rex": {
+    "firefox": [
+      "https://bugzil.la/1740584"
+    ]
+  },
+  "ric": {
+    "firefox": [
+      "https://bugzil.la/1740584"
+    ]
+  },
+  "composed-ranges": {
+    "firefox": [
+      "https://bugzil.la/1903870"
+    ]
+  },
+  "getallrecords": {
+    "firefox": [
+      "https://bugzil.la/1927945"
+    ]
+  },
+  "interactivity": {
+    "firefox": [
+      "https://bugzil.la/1943864"
     ]
   }
 }

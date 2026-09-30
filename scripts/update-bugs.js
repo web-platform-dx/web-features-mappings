@@ -18,10 +18,15 @@ const OUTPUT_FILE = path.join(import.meta.dirname, "../mappings/bugs.json");
 
 async function getAllFirefoxBugzillaMappedBugs() {
   const BUGZILLA_API_URL = "https://bugzilla.mozilla.org/rest/bug";
-  const QUERY_PARAMS = "?o1=regexp&v1=^web-feature\\s*%3A\\s*[\\w-_]%2B\\s*%24&f1=cf_user_story&include_fields=id,cf_user_story";
+  const QUERY_PARAMS = new URLSearchParams({
+    f1: "cf_user_story",
+    o1: "regexp",
+    v1: String.raw`(^|\r?\n)[ \t]*web-feature[ \t]*:[ \t]*[\w-]+[ \t]*(\r?\n|$)`,
+    include_fields: "id,cf_user_story"
+  });
 
   console.log("Fetching bugs from Bugzilla...");
-  const response = await fetch(BUGZILLA_API_URL + QUERY_PARAMS);
+  const response = await fetch(`${BUGZILLA_API_URL}?${QUERY_PARAMS}`);
   if (!response.ok) {
     throw new Error(`Failed to fetch bugs from Bugzilla: ${response.status} ${response.statusText}`);
   }
@@ -34,9 +39,11 @@ async function getAllFirefoxBugzillaMappedBugs() {
   const bugsMappings = {};
 
   for (const bug of data.bugs) {
-    // Check that the bug indeed has a parseable web-feature ID in the cf_user_story field.
-    const match = bug.cf_user_story.match(/web-feature\s*:\s*([\w-_]+)/);
-    if (match) {
+    // Check that the bug indeed has parseable web-feature IDs in the cf_user_story field.
+    const matches = bug.cf_user_story.matchAll(
+      /^[ \t]*web-feature[ \t]*:[ \t]*([\w-]+)[ \t]*\r?$/gim
+    );
+    for (const match of matches) {
       const id = match[1].toLowerCase();
       // Check that the web-features package has this feature ID.
       if (features[id]) {
