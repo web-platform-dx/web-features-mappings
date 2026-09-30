@@ -16,6 +16,18 @@ import fs from "fs/promises";
 
 const OUTPUT_FILE = path.join(import.meta.dirname, "../mappings/bugs.json");
 
+function sortObjectKeys(value) {
+  if (Array.isArray(value) || value === null || typeof value !== "object") {
+    return value;
+  }
+
+  return Object.fromEntries(
+    Object.keys(value)
+      .sort()
+      .map(key => [key, sortObjectKeys(value[key])])
+  );
+}
+
 async function getAllFirefoxBugzillaMappedBugs() {
   const BUGZILLA_API_URL = "https://bugzilla.mozilla.org/rest/bug";
   const QUERY_PARAMS = new URLSearchParams({
@@ -173,7 +185,7 @@ async function main() {
   }
 
   console.log(`Write mapping data to ${OUTPUT_FILE}`);
-  await fs.writeFile(OUTPUT_FILE, JSON.stringify(mapping, null, 2));
+  await fs.writeFile(OUTPUT_FILE, JSON.stringify(sortObjectKeys(mapping), null, 2));
 }
 
 main();
