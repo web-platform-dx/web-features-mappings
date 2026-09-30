@@ -8,7 +8,7 @@
 // BCD: some BCD keys have a `impl_url` property which points to a bugzilla bug.
 // We can use these links to find bugs related to web-features.
 
-import { features } from "web-features";
+import { browsers, features } from "web-features";
 import bcd from "@mdn/browser-compat-data" with { type: "json" };
 import chromeStatusMapping from "../mappings/chrome-status.json" with { type: "json" };
 import path from "path";
@@ -117,6 +117,10 @@ function getBugURLsFromBCDKeys() {
 
       const support = data?.__compat?.support;
       for (const browserId in support) {
+        if (!browsers[browserId]) {
+          continue;
+        }
+
         const browserSupportData = Array.isArray(support[browserId]) ? support[browserId] : [support[browserId]];
         for (const entry of browserSupportData) {
           if (entry.impl_url) {
