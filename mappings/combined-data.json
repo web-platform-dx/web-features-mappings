@@ -5643,7 +5643,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/180",
-      "votes": 4
+      "votes": 5
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.10687226,
@@ -6445,7 +6445,7 @@
         ],
         "updated": {
           "by": "pdr@chromium.org",
-          "when": "2026-09-30 00:37:07.656144"
+          "when": "2026-09-30 13:07:52.661036"
         }
       },
       {
@@ -8097,7 +8097,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/425",
-      "votes": 1
+      "votes": 2
     },
     "chrome-status": [
       {
@@ -25387,7 +25387,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/27",
-      "votes": 5
+      "votes": 6
     },
     "chrome-status": [
       {
@@ -26132,7 +26132,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/188",
-      "votes": 6
+      "votes": 7
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00109384,
@@ -28472,7 +28472,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/253",
-      "votes": 84
+      "votes": 86
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.10937128,
@@ -29774,7 +29774,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/215",
-      "votes": 504
+      "votes": 505
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.012149,
@@ -30236,6 +30236,12 @@
     "wpt": {
       "url": "https://wpt.fyi/results?q=feature:justify-self-block"
     },
+    "use-cases": [
+      {
+        "description": "I want to use it in MathML Core to set the alignment of columns in `<mtable>`. See an example here: https://github.com/w3c/mathml-core/issues/156#issuecomment-3371106244",
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/442#issuecomment-5910311770"
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Web/CSS/Reference/Properties/justify-self",
@@ -30702,7 +30708,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/511",
-      "votes": 2
+      "votes": 3
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.00229263,
@@ -32149,7 +32155,7 @@
     ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/534",
-      "votes": 35
+      "votes": 36
     },
     "chrome-use-counters": {
       "percentageOfPageLoad": 0.0005697,
@@ -32279,7 +32285,7 @@
         "explainer-links": [],
         "updated": {
           "by": "hchao@chromium.org",
-          "when": "2026-09-25 06:15:29.335713"
+          "when": "2026-09-30 10:02:46.595675"
         }
       },
       {
