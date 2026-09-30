@@ -1702,11 +1702,15 @@
   "referencetarget": [
     {
       "vendor": "mozilla",
-      "url": "https://github.com/mozilla/standards-positions/issues/1035"
+      "url": "https://github.com/mozilla/standards-positions/issues/1035",
+      "position": "positive",
+      "concerns": []
     },
     {
       "vendor": "apple",
-      "url": "https://github.com/WebKit/standards-positions/issues/356"
+      "url": "https://github.com/WebKit/standards-positions/issues/356",
+      "position": "",
+      "concerns": []
     }
   ],
   "relative-color": [

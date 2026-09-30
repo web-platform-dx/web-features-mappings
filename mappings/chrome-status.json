@@ -404,7 +404,7 @@
       "explainer-links": [],
       "updated": {
         "by": "masonfreed@google.com",
-        "when": "2026-09-25 20:23:18.440819"
+        "when": "2026-09-29 22:14:03.563777"
       }
     },
     {
@@ -418,7 +418,7 @@
       "explainer-links": [],
       "updated": {
         "by": "masonfreed@google.com",
-        "when": "2026-09-25 15:15:14.328181"
+        "when": "2026-09-29 17:23:22.203598"
       }
     },
     {
@@ -2548,8 +2548,8 @@
     {
       "id": 5172548013916160,
       "name": "HTML-in-canvas",
-      "summary": "HTML-in-canvas enables customizing the rendering of html using canvas with three new primitives: an attribute to opt-in canvas elements (layoutsubtree), methods to draw child elements (2d: drawElementImage, webgl: texElementImage2D, webgpu: copyElementImageToTexture), and a paint event which fires to handle updates.",
-      "motivation": "High-performance web applications rely on <canvas> for control over rendering that goes beyond standard HTML/CSS. However, by using <canvas>, they lose all the rich, built-in features of the web platform, including:\n* Advanced formatting, such as styled multi-line text.\n* Interactivity, such as forms, selection, and native scrolling.\n* Accessibility.\nThis forces a bad trade-off: developers must either re-implement these fundamental browser features in JS, or simply not provide them, resulting in a sub-par, inaccessible user experience.",
+      "summary": "HTML-in-canvas enables customizing the rendering of html using canvas with new primitives to manage canvas layout, drawing capabilities, rendering events for DOM-to-canvas synchronization, and geometry update capabilities for canvas-to-DOM synchronization.",
+      "motivation": "High-performance web applications rely on <canvas> for control over rendering that goes beyond standard HTML/CSS. However, by using <canvas>, they lose all the rich, built-in features of the web platform, including:\n* Advanced formatting, such as styled multi-line text.\n* Interactivity, such as copy&paste, forms, and text selection.\n* Accessibility.\nThis forces a bad trade-off: developers must either re-implement these fundamental browser features in JS, or simply not provide them, resulting in a sub-par, inaccessible user experience.",
       "url": "https://chromestatus.com/feature/5172548013916160",
       "bug-url": "https://crbug.com/500967896",
       "spec-link": "https://github.com/whatwg/html/pull/11588",
@@ -2558,7 +2558,7 @@
       ],
       "updated": {
         "by": "pdr@chromium.org",
-        "when": "2026-09-08 18:55:41.702036"
+        "when": "2026-09-30 00:37:07.656144"
       }
     },
     {
@@ -4805,6 +4805,20 @@
   ],
   "customizable-select": [
     {
+      "id": 6270612585709568,
+      "name": "Updated UA styles for customizable select",
+      "summary": "New default CSS styles for customizable select have been standardized, and this feature adds them: https://github.com/w3c/csswg-drafts/issues/14256\n\nThese styles don't affect the functionality of customizable select, they just change minor things about the appearance like border-radius.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/6270612585709568",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "jarhar@chromium.org",
+        "when": "2026-09-29 20:01:45.613214"
+      }
+    },
+    {
       "id": 5070067395067904,
       "name": "Customizable select multiple dropdown",
       "summary": "This feature adds base appearance for the select element when it is a multi-select dropdown: <select multiple size=1>. This is the last rendering mode of the select element to get base appearance, since we already shipped base appearance for single-select dropdown <select> and base appearance for single and multi-select listboxes <select size=4> and <select multiple>.\n\nThe CSS opt in is the same as customizable single-select:\nselect, ::picker(select) {\n  appearance: base-select\n}",
@@ -5894,7 +5908,7 @@
       ],
       "updated": {
         "by": "jochen.kuehner@googlemail.com",
-        "when": "2026-08-22 07:34:13.261227"
+        "when": "2026-09-30 04:39:12.888587"
       }
     }
   ],
@@ -12105,14 +12119,16 @@
       "id": 5098001721851904,
       "name": "Prompt API Thinking Mode",
       "summary": "Enables developers to control the reasoning effort and receive thoughts from the built-in AI Prompt API (window.LanguageModel).\n\nDevelopers opt in by passing options when creating session and/or prompting the model (e.g., { effort: \"high\", includeThoughts: true }). High-level semantic effort tiers (\"none\", \"low\", \"medium\", \"high\"), map to underlying configs (e.g. token budgets). Ephemeral reasoning tokens are automatically stripped from the persistent session context, and only surfaced to API clients when requested via `includeThoughts: true`, for flexible response ergonomics.\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).",
-      "motivation": null,
+      "motivation": "Current generation on-device language models (such as Gemma 4) are commonly trained as reasoners. By utilizing an internal scratchpad of intermediate thinking tokens prior to producing the final response, these models can achieve significantly higher accuracy on math, code generation, logical deduction, and multi-step planning tasks including those involving tool calling. Today, however, the Prompt API offers no API surface to configure or observe thinking mode, preventing web developers from leveraging a core capability of the model already present on the user's device.\n\nDeveloper opt-in is critical, since reasoning chains can increase token generation by 5× to 20× compared to visible answers, directly impacting latency and battery consumption on resource-constrained client devices. Major LLM APIs (e.g. Gemini, OpenAI, and Anthropic) have converged on exposing explicit reasoning control surfaces. Adding thinking options to the Prompt API unblocks reasoning-heavy web applications while giving developers fine-grained control over when to pay the compute cost of thinking (effort) and whether to stream the intermediate reasoning steps to their UI (includeThoughts).\n",
       "url": "https://chromestatus.com/feature/5098001721851904",
-      "bug-url": null,
-      "spec-link": null,
-      "explainer-links": [],
+      "bug-url": "https://crbug.com/546151578",
+      "spec-link": "https://webmachinelearning.github.io/prompt-api",
+      "explainer-links": [
+        "https://github.com/webmachinelearning/prompt-api/blob/main/README.md#thinking-mode"
+      ],
       "updated": {
-        "by": "msw@google.com",
-        "when": "2026-09-24 20:51:35.195871"
+        "by": "iahouma@google.com",
+        "when": "2026-09-29 23:36:39.358316"
       }
     },
     {
@@ -12366,7 +12382,7 @@
       ],
       "updated": {
         "by": "abotella@igalia.com",
-        "when": "2026-09-14 18:38:15.924150"
+        "when": "2026-09-29 17:35:41.207330"
       }
     }
   ],
@@ -18413,6 +18429,20 @@
   ],
   "resource-timing": [
     {
+      "id": 5195340595724288,
+      "name": "Resource timing: get encoded/decoded body size with CORS instead of TAO",
+      "summary": "For cross-origin resources, require that a resources is fetched with CORS for it to show its encoded/decoded body sizes as well as transferSize.\n\nFor encodedBodySize/decodedBodySize this would replace the Timing-Allow-Origin gate, while transferSize would require both.\n",
+      "motivation": "It was realized a while ago that when a resource opts-in to \"Timing-Allow-Origin\" it should only opt-in to information that is clearly related to *timing*.\n\nBody sizes, as well as the existing CORS-protected attributes like responseStatus, contentType and contentEncoding, tell more about the content of the resource than about the process of fetching it.",
+      "url": "https://chromestatus.com/feature/5195340595724288",
+      "bug-url": "https://issues.chromium.org/issues/40251936",
+      "spec-link": "https://w3c.github.io/resource-timing",
+      "explainer-links": [],
+      "updated": {
+        "by": "nrosenthal@chromium.org",
+        "when": "2026-09-30 10:01:13.640625"
+      }
+    },
+    {
       "id": 5092305423958016,
       "name": "Deprecate and remove non-spec-compliant Service Worker Router timing fields",
       "summary": "Deprecates and removes the non-standard `workerMatchedSourceType` and `workerFinalSourceType` attributes from the Resource Timing and Navigation Timing APIs. These fields were introduced during the experimental phase of the Service Worker Static Routing API and have been replaced by the spec-compliant attributes `workerMatchedRouterSource` and `workerFinalRouterSource`.\n\nNote that the addition of the new, spec-compliant fields is handled in a separate Chrome Status entry (https://chromestatus.com/feature/5172259800088576)",
@@ -19614,23 +19644,23 @@
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-09-28 14:21:54.297396"
+        "when": "2026-09-30 10:03:03.947635"
       }
     },
     {
       "id": 5086608215900160,
       "name": "Scroll snap for single-axis scroll containers",
-      "summary": "Supports per-axis scroll snap area propagation and alignment for single-axis scroll containers (e.g., containers with overflow: auto clip;).\n\nWhen a snap area specifies snap alignments on both axes, a single-axis scroll container consumes only its scrollable axis and propagates the unconsumed axis up to find the nearest ancestor scroller capable of scrolling in that direction.",
+      "summary": " This feature lets a single-axis scroll container (for example, one with overflow: auto clip) handle scroll snap area propagation and alignment separately for each axis.\n\nSingle-axis scroll containers are now supported (https://chromestatus.com/feature/5067363861004288). Without this feature, such a container captures a snap area on both axes, even the axis it can't scroll. The snap area then can't align on that axis.\n\nWith this feature, if a snap area sets alignment on both axes, the single-axis container handles only the axis it scrolls. The other axis goes up to the nearest ancestor scroll container that scrolls in that direction. ",
       "motivation": "This is part of the single-axis scroll container feature (https://github.com/explainers-by-googlers/single-axis-scroll-containers) to align the scroll snap behavior with the sticky header in a single-axis scroll container.",
       "url": "https://chromestatus.com/feature/5086608215900160",
       "bug-url": "http://crbug.com/473576119",
-      "spec-link": null,
+      "spec-link": "https://drafts.csswg.org/css-scroll-snap-1",
       "explainer-links": [
         "https://github.com/explainers-by-googlers/single-axis-scroll-snap"
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-08-25 15:09:14.983621"
+        "when": "2026-09-29 21:57:09.562076"
       }
     },
     {
@@ -21020,7 +21050,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-16 15:13:11.869395"
+        "when": "2026-09-30 08:49:46.488879"
       }
     },
     {
@@ -26319,7 +26349,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-18 09:43:04.160871"
+        "when": "2026-09-29 17:13:57.406186"
       }
     },
     {
@@ -27444,7 +27474,7 @@
       ],
       "updated": {
         "by": "jrprice@google.com",
-        "when": "2026-09-28 21:07:11.677505"
+        "when": "2026-09-29 17:21:13.459157"
       }
     },
     {
@@ -27460,7 +27490,7 @@
       ],
       "updated": {
         "by": "cwallez@google.com",
-        "when": "2026-09-25 14:43:43.912441"
+        "when": "2026-09-29 17:27:54.470705"
       }
     },
     {
@@ -28157,7 +28187,7 @@
     },
     {
       "id": 5172464636133376,
-      "name": "WebHID (Human Interface Device)",
+      "name": "Support for WebHID (Human Interface Device)",
       "summary": "WebHID now allows web applications to interact with a wider range of devices. Standard Human Interface Device (HID) examples include mice, keyboards, touchscreens, and gamepads. Those are accessible with high-level input events. However, specialized HID devices and features (for example, custom keyboards, game controllers, and call control headsets) require extended access. \n\nWebHID allows web applications to request access, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, and ChromeOS). Support on Android is planned for Chrome 157. To read more, see [Connect to uncommon HID devices](https://developer.chrome.com/docs/extensions/how-to/web-platform/webhid).\n\nThis feature can be controlled by the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)",
       "motivation": "",
       "url": "https://chromestatus.com/feature/5172464636133376",
@@ -28167,8 +28197,8 @@
         "https://github.com/WICG/webhid/blob/master/EXPLAINER.md"
       ],
       "updated": {
-        "by": "mattreynolds@google.com",
-        "when": "2026-09-28 16:03:47.842130"
+        "by": "elmirakalali@google.com",
+        "when": "2026-09-29 17:27:07.001156"
       }
     }
   ],
@@ -29506,13 +29536,13 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-09-28 21:05:18.198394"
+        "when": "2026-09-29 23:47:08.380199"
       }
     },
     {
       "id": 5073738176528384,
       "name": "WebTransportWriter: atomic writes and reliable stream reset",
-      "summary": "Adds the WebTransportWriter interface for outgoing WebTransport streams. WebTransportSendStream.getWriter() returns a specialized writer that extends the standard writable-stream writer with:\n\n•  atomicWrite(data), which accepts the complete write only when sufficient stream and connection flow-control credit is available. If it is rejected because the complete chunk does not fit within the current flow-control window, none of that chunk is admitted and the stream remains usable. Unrelated network errors may still cause rejection after some data has been sent.\n•  commit(), which marks all successfully written bytes up to that point as a reliable prefix that continues to be delivered if the stream is subsequently aborted, provided the connection remains available.\n\nAtomic writes prevent application-protocol flow-control deadlocks. They do not preserve message boundaries or guarantee that data is delivered in one network packet.",
+      "summary": "Adds the WebTransportWriter interface for outgoing WebTransport streams. WebTransportSendStream.getWriter() returns a specialized writer extending  WritableStreamDefaultWriter with two methods. atomicWrite(data) admits the complete write only when sufficient stream and connection flow-control credit is available; if the complete chunk does not fit, none of it is admitted and the stream remains usable. commit()  marks successfully written bytes as a reliable prefix to be transmitted if the stream is subsequently aborted, provided the connection remains available. Atomic writes help prevent application-protocol flow-control deadlocks, but they do not preserve message boundaries or guarantee delivery in a single network packet.",
       "motivation": "Applications commonly implement framed protocols over WebTransport streams. A normal stream write can be accepted only partially at the transport layer, which can cause a flow-control deadlock when the peer needs the complete frame before it can process data and release more credit.\n\natomicWrite() provides all-or-nothing admission for these writes. commit() enables partial reliability: an application can commit an important prefix and later abort an obsolete suffix without losing the committed data. These capabilities are useful for real-time media, games, remote access, and other latency-sensitive applications.",
       "url": "https://chromestatus.com/feature/5073738176528384",
       "bug-url": "https://issues.chromium.org/issues/487117768",
@@ -29522,7 +29552,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-28 18:32:42.344495"
+        "when": "2026-09-29 22:16:42.660832"
       }
     },
     {
@@ -29538,7 +29568,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-09-28 22:58:29.285813"
+        "when": "2026-09-30 09:52:10.372636"
       }
     },
     {
@@ -29554,7 +29584,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-28 19:10:49.678158"
+        "when": "2026-09-30 10:02:29.184523"
       }
     },
     {
@@ -29570,7 +29600,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-28 22:13:13.947040"
+        "when": "2026-09-30 10:01:29.915754"
       }
     },
     {
@@ -29586,7 +29616,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-28 19:09:55.743573"
+        "when": "2026-09-30 10:01:54.657323"
       }
     },
     {
@@ -29602,7 +29632,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-28 19:07:49.138298"
+        "when": "2026-09-30 10:02:18.165695"
       }
     },
     {
@@ -30534,7 +30564,7 @@
       "explainer-links": [],
       "updated": {
         "by": "choiwonik91@gmail.com",
-        "when": "2026-09-26 02:06:21.728357"
+        "when": "2026-09-30 10:02:06.290116"
       }
     },
     {
@@ -30634,7 +30664,7 @@
       "explainer-links": [],
       "updated": {
         "by": "siobhankeating@google.com",
-        "when": "2026-09-10 13:53:50.615492"
+        "when": "2026-09-30 07:59:07.094668"
       }
     },
     {
@@ -30760,7 +30790,7 @@
       ],
       "updated": {
         "by": "jaeone@google.com",
-        "when": "2026-09-24 16:43:41.092354"
+        "when": "2026-09-30 07:43:39.395445"
       }
     },
     {
@@ -31125,7 +31155,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-09-25 14:45:33.697260"
+        "when": "2026-09-29 17:20:27.836525"
       }
     }
   ],
