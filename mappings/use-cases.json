@@ -111,6 +111,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546"
     }
   ],
+  "customizable-select": [
+    {
+      "description": "I have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these selectors can appear on the page at once.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/278#issuecomment-5919779790"
+    }
+  ],
   "datalist": [
     {
       "description": "This seems like a useful feature when we have a set of recommendations but also we can't list all possible options as they are either ever-updating or unknown. For example: Listing colleges, companies, majors, minors, etc in a job application portal.\n\nFor this use case however, it would be better:\n-  If the dropdown appeared more like `<select>`.\n- The new option that the user creates actually sends some data with `value` automatically filled for `<option>`.",
@@ -447,10 +453,22 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/177#issuecomment-3590228888"
     }
   ],
+  "opaquerange": [
+    {
+      "description": "I have a personal tasks and notes management web application I work on, where notes are added and edited in `<textarea>` elements whose contents are rendered using Markdown syntax. This includes some wikimedia-inspired customisation such as creating links to other pages using `[[identifier]]` syntax. I'd like to be able to place an autocomplete hint dropdown, or similar UI, at the caret position when one of these custom links is being written.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/579#issuecomment-5919654770"
+    }
+  ],
   "overflow-clip-margin": [
     {
       "description": "Let a small interactive affordance (e.g. a column-resize handle) overhang a couple px past its container's edge, without disabling `overflow: hidden`'s text-truncation for everything else in that same container.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/311#issuecomment-5258598150"
+    }
+  ],
+  "overlay": [
+    {
+      "description": "While the overlay property is almost useless because developers can't change the open state for dialogs and popovers from their code editors. The property itself combined with animating display none and content-visibility hidden for popovers, dialogs and other popup elements with the @starting-style rule will be useful to developers can use to have a smooth transition within the top layer from the ::backdrop pseudo element.  Thus animating display animating display none and content-visibility hidden for popovers, dialogs and other popup elements will feel incomplete without the overlay property that developers use in transitions.\n\nAll of the browsers have support for the transition-behavior property for discrete animations and the @starting-style rule to apply styles before rendering the page.\n\nChromium Browsers with Safari have full support animating display none and content-visibility hidden for popovers, dialogs and other popup elements, but Firefox does not (though their developers have been working on it and are prototyping it which it can be enable by this flag layout.css.display-animations.enabled \n\nChromium Browsers are the only browsers that support the full set of animating display none and content-visibility hidden with the overlay property for dialogs. As of the moment developers are happy that we can animate display and discrete animations on the web. It would be nice if we can animate the backdrop and top layer over the content of the web.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/211#issuecomment-5932793270"
     }
   ],
   "periodic-background-sync": [
@@ -581,6 +599,10 @@
     {
       "description": "const tmpdzt = Object.freeze(dzt);",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5767656211"
+    },
+    {
+      "description": "I want to represent dates without time or time zone information attached.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5919700352"
     }
   ],
   "text-size-adjust": [

@@ -571,22 +571,6 @@
       }
     },
     {
-      "id": 5261280285949952,
-      "name": "Overscroll Gestures",
-      "summary": "This feature adds a set of primitives to allow elements to anchor to overscroll areas of other elements. It further allows these elements to be revealed with swipe gestures, similar to scrollers.",
-      "motivation": "The web provides a rich set of animation properties and tie-ins to scrolling. What appears to be missing from the set is gesture interaction that allows content to be moved around in response to user swiping on the screen. For example, things like sidebar menu or pull to refresh are awkward to express today without script. Notably, it is possibly to polyfill some of these behaviors with Scroll Driven Animations and Snap Points, but the implementation requires insight and an in-depth understanding of these features behave.",
-      "url": "https://chromestatus.com/feature/5261280285949952",
-      "bug-url": "https://issues.chromium.org/443719046",
-      "spec-link": null,
-      "explainer-links": [
-        "https://open-ui.org/components/overscroll-actions.explainer"
-      ],
-      "updated": {
-        "by": "vmpstr@chromium.org",
-        "when": "2026-04-17 18:36:19.118149"
-      }
-    },
-    {
       "id": 6289894144212992,
       "name": "CSSKeyframesRule.length",
       "summary": "Exposes length attribute of CSSKeyframesRule. Interfaces that support indexed properties must define an integer-typed attribute named \"length\".",
@@ -2558,7 +2542,7 @@
       ],
       "updated": {
         "by": "pdr@chromium.org",
-        "when": "2026-09-30 13:07:52.661036"
+        "when": "2026-09-30 18:58:39.313756"
       }
     },
     {
@@ -3414,7 +3398,7 @@
       "explainer-links": [],
       "updated": {
         "by": "fwang@igalia.com",
-        "when": "2026-09-18 09:54:49.170708"
+        "when": "2026-10-01 11:14:00.588880"
       }
     },
     {
@@ -5898,7 +5882,7 @@
     {
       "id": 6015941766807552,
       "name": "CSSOM View geometry utilities",
-      "summary": "Prototype the CSSOM View GeometryUtils API in Blink behind the existing GeometryUtils runtime flag. The API exposes getBoxQuads(), convertQuadFromNode(), convertRectFromNode(), and convertPointFromNode() on Document, Element, Text, and CSSPseudoElement so authors can obtain and convert precise DOM geometry using standard DOMPoint, DOMRect, and DOMQuad objects.\nThe underlying DOM geometry value types, including DOMPoint, DOMRect, and DOMQuad, already exist in Chromium; this prototype adds the node-based geometry utility methods.",
+      "summary": "The API exposes getBoxQuads(), convertQuadFromNode(), convertRectFromNode(), and convertPointFromNode() on Document, Element, Text, and CSSPseudoElement so authors can obtain and convert precise DOM geometry using standard DOMPoint, DOMRect, and DOMQuad objects.",
       "motivation": "Web authors currently do not have a standard native API for getting precise box geometry and converting points, rects, and quads between DOM nodes after layout, scrolling, fragmentation, writing modes, and CSS transforms have been applied.\n\nApplications that need this today, such as visual editors, inspection tools, custom selection UI, and overlay systems, usually approximate the result in JavaScript by walking ancestor chains, reading layout data, and composing transform matrices. These polyfills are costly when repeated for many elements, are easy to get subtly wrong, and cannot always match the browser’s layout and painting behavior.\n\nGeometryUtils exposes this geometry through standard DOMPoint, DOMRect, and DOMQuad objects, allowing authors to ask the engine for the same kind of coordinate-space conversion that is already needed internally for layout, hit testing, painting, and developer tooling.\n\nConcrete motivating use cases include visual editor and inspection tools that draw live overlays for many selected elements, including deeply nested custom elements, shadow DOM, transformed content, and generated pseudo-elements. Examples of tools in this space include web-component designers, page builders, browser extensions such as VisBug, and custom design/inspection overlays in developer applications.",
       "url": "https://chromestatus.com/feature/6015941766807552",
       "bug-url": "https://issues.chromium.org/issues/427918516",
@@ -5907,8 +5891,8 @@
         "https://gist.github.com/jogibear9988/8420264d0911ce6c5aab0ac5cda0744e"
       ],
       "updated": {
-        "by": "jochen.kuehner@googlemail.com",
-        "when": "2026-09-30 04:39:12.888587"
+        "by": "pdr@google.com",
+        "when": "2026-09-30 21:59:33.348550"
       }
     }
   ],
@@ -14702,7 +14686,7 @@
     {
       "id": 5183481574850560,
       "name": "Web Install API",
-      "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The navigator.install() method enables cross-origin web app installation and provides a better developer experience than handling beforeinstallprompt events. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The navigator.install() method enables cross-origin web app installation and provides a better developer experience than handling beforeinstallprompt events. This API is proposed to ship together with the <install> element, a declarative entry point to the same installation capability: https://chromestatus.com/feature/5152834368700416. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5183481574850560",
       "bug-url": "https://issues.chromium.org/issues/333795265",
@@ -14711,8 +14695,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "aaudi@google.com",
-        "when": "2026-09-24 15:45:23.865750"
+        "by": "liahiscock@microsoft.com",
+        "when": "2026-09-30 19:00:21.452567"
       }
     }
   ],
@@ -16339,8 +16323,8 @@
     {
       "id": 5107682460696576,
       "name": "Capability Elements Icon-only mode",
-      "summary": "Introduces two new attributes to render Capability Elements(<camera>, <microphone>, <geolocation> and <usermedia>) as compact icon buttons without text using the `display-mode` attribute and choose curated designs with the `icon-variant` attribute. This gives developers flexible UI density for spatial layouts such as map controls and video floating trays while preserving native security guarantees and full screen reader accessibility.\n\nThis is an extension to the recently released Capability Elements\nhttps://chromestatus.com/feature/5153829504024576",
-      "motivation": "Capability elements currently default to a horizontal button layout containing an icon and mandatory localized text that cannot be removed or customized. However, modern web layouts such as interactive maps and video conferencing floating trays rely heavily on compact, icon-only UI patterns. Providing a declarative display mode and curated icon variants allows developers to integrate capability elements seamlessly into space-constrained designs while fully preserving browser-mediated security guarantees.",
+      "summary": "Introduces a new attribute to render Capability Elements(<camera>, <microphone> and <geolocation>) as compact icon buttons without text using a `displaymode` attribute. This gives developers flexible UI density for spatial layouts such as map controls and video floating trays while preserving native security guarantees and full screen reader accessibility.\n\nThis is an extension to the recently released Capability Elements\nhttps://chromestatus.com/feature/5153829504024576",
+      "motivation": "Capability elements currently default to a horizontal button layout containing an icon and mandatory localized text that cannot be removed or customized. However, modern web layouts such as interactive maps and video conferencing floating trays rely heavily on compact, icon-only UI patterns. Providing a declarative display mode allows developers to integrate capability elements seamlessly into space-constrained designs while fully preserving browser-mediated security guarantees.",
       "url": "https://chromestatus.com/feature/5107682460696576",
       "bug-url": null,
       "spec-link": "https://w3c.github.io/mediacapture-extensions/#media-capture-html-elements",
@@ -16349,7 +16333,7 @@
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-09-23 11:57:58.081376"
+        "when": "2026-10-01 13:56:27.089628"
       }
     },
     {
@@ -19660,7 +19644,7 @@
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-09-29 21:57:09.562076"
+        "when": "2026-10-01 14:25:31.848986"
       }
     },
     {
@@ -26349,7 +26333,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-29 17:13:57.406186"
+        "when": "2026-10-01 08:56:18.391594"
       }
     },
     {
@@ -28278,7 +28262,7 @@
       "explainer-links": [],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-09-29 13:45:01.062696"
+        "when": "2026-09-30 14:56:17.361083"
       }
     },
     {
@@ -28382,7 +28366,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-09-28 23:52:10.292024"
+        "when": "2026-09-30 15:24:35.762789"
       }
     },
     {
@@ -29568,7 +29552,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-09-30 09:52:10.372636"
+        "when": "2026-09-30 19:17:02.806948"
       }
     },
     {
@@ -29584,7 +29568,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-30 10:02:29.184523"
+        "when": "2026-10-01 12:59:15.259308"
       }
     },
     {
@@ -29600,7 +29584,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-30 10:01:29.915754"
+        "when": "2026-09-30 18:47:35.544666"
       }
     },
     {
@@ -29632,7 +29616,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-30 10:02:18.165695"
+        "when": "2026-10-01 12:05:49.236718"
       }
     },
     {
@@ -30564,7 +30548,7 @@
       "explainer-links": [],
       "updated": {
         "by": "choiwonik91@gmail.com",
-        "when": "2026-09-30 10:02:06.290116"
+        "when": "2026-10-01 10:49:33.787953"
       }
     },
     {
@@ -30664,7 +30648,7 @@
       "explainer-links": [],
       "updated": {
         "by": "siobhankeating@google.com",
-        "when": "2026-09-30 07:59:07.094668"
+        "when": "2026-09-30 18:32:02.571554"
       }
     },
     {
@@ -30790,7 +30774,7 @@
       ],
       "updated": {
         "by": "jaeone@google.com",
-        "when": "2026-09-30 07:43:39.395445"
+        "when": "2026-10-01 00:11:48.919050"
       }
     },
     {
@@ -31103,7 +31087,7 @@
       ],
       "updated": {
         "by": "nribaudo@igalia.com",
-        "when": "2026-09-22 09:21:54.495268"
+        "when": "2026-09-30 14:15:20.133332"
       }
     }
   ],
@@ -31111,7 +31095,7 @@
     {
       "id": 5152834368700416,
       "name": "HTML install element",
-      "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The <install> element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling beforeinstallprompt events. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The <install> element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling beforeinstallprompt events. The element is proposed to ship together with navigator.install(), the imperative entry point to the same installation capability: https://chromestatus.com/feature/5183481574850560. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5152834368700416",
       "bug-url": "https://issues.chromium.org/issues/454827186",
@@ -31121,7 +31105,7 @@
       ],
       "updated": {
         "by": "liahiscock@microsoft.com",
-        "when": "2026-09-21 20:43:38.939354"
+        "when": "2026-09-30 18:59:47.165420"
       }
     }
   ],
