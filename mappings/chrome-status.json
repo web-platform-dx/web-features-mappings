@@ -4069,7 +4069,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-29 02:23:44.024509"
+        "when": "2026-10-01 18:38:38.786820"
       }
     }
   ],
@@ -16333,7 +16333,7 @@
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-10-01 13:56:27.089628"
+        "when": "2026-10-01 21:38:35.298272"
       }
     },
     {
@@ -19628,7 +19628,7 @@
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-09-30 10:03:03.947635"
+        "when": "2026-10-01 18:52:02.990991"
       }
     },
     {
@@ -29507,6 +29507,23 @@
   ],
   "webtransport": [
     {
+      "id": 5109912169480192,
+      "name": "WebTransportReceiveStream",
+      "summary": "Adds the standardized WebTransportReceiveStream interface, a\nReadableStream subclass used for incoming unidirectional streams and the readable side of bidirectional streams. Its getStats() method returns per-stream byte counters: bytesReceived reports bytes received from the network, while bytesRead reports bytes delivered to the application.",
+      "motivation": "Incoming WebTransport streams have historically been exposed as generic ReadableStream objects in Chromium. The WebTransport specification defines a dedicated WebTransportReceiveStream subclass with stream-specific statistics.\n\nApplications that receive large or latency-sensitive streams need to distinguish bytes received by the browser from bytes actually consumed by JavaScript. This helps diagnose application backpressure, buffering, and slow-consumer behavior. Exposing the standardized subclass also aligns the runtime type of incoming streams with the WebTransport specification and other browser engines.",
+      "url": "https://chromestatus.com/feature/5109912169480192",
+      "bug-url": "https://issues.chromium.org/issues/568317222",
+      "spec-link": "https://w3c.github.io/webtransport/#webtransportreceivestream",
+      "explainer-links": [
+        "https://github.com/w3c/webtransport/issues/372",
+        "https://github.com/w3c/webtransport/pull/395"
+      ],
+      "updated": {
+        "by": "vbryhider@microsoft.com",
+        "when": "2026-10-02 00:22:31.055687"
+      }
+    },
+    {
       "id": 5089961022980096,
       "name": "WebTransport anticipated concurrent incoming streams",
       "summary": "Adds WebTransport constructor options and read-write attributes that let applications provide hints for the anticipated number of concurrently open server-initiated unidirectional and bidirectional streams. Constructor hints configure the initial QUIC stream allowance, reducing the risk that a server that needs high stream concurrency is blocked by the initial stream limit.",
@@ -29520,7 +29537,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-09-29 23:47:08.380199"
+        "when": "2026-10-02 01:53:36.253882"
       }
     },
     {
@@ -29568,7 +29585,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-01 12:59:15.259308"
+        "when": "2026-10-01 18:17:09.395025"
       }
     },
     {
@@ -29600,7 +29617,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-30 10:01:54.657323"
+        "when": "2026-10-01 20:32:13.299700"
       }
     },
     {
@@ -30891,8 +30908,8 @@
         "https://css.oddbird.net/sasslike/mixins-functions"
       ],
       "updated": {
-        "by": "stephanie.zhang@microsoft.com",
-        "when": "2026-07-14 20:33:55.985945"
+        "by": "johnjansen@microsoft.com",
+        "when": "2026-10-01 20:44:02.191275"
       }
     }
   ],
