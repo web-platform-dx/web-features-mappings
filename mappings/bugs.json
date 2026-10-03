@@ -2276,11 +2276,6 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=759665"
     ]
   },
-  "grid-lanes": {
-    "firefox": [
-      "https://bugzil.la/1981604"
-    ]
-  },
   "hanging-punctuation": {
     "chrome": [
       "https://crbug.com/41491716"
@@ -2995,6 +2990,11 @@
       "https://crbug.com/1087043"
     ]
   },
+  "link-parameters": {
+    "chrome": [
+      "https://issues.chromium.org/issues/41482962"
+    ]
+  },
   "link-rel-expect": {
     "chrome": [
       "https://crbug.com/40948547"
@@ -3217,6 +3217,9 @@
   "masonry": {
     "chrome": [
       "https://issues.chromium.org/issues/343257585"
+    ],
+    "firefox": [
+      "https://bugzil.la/1981604"
     ]
   },
   "matchmedia": {
@@ -5170,7 +5173,6 @@
   },
   "svg": {
     "chrome": [
-      "https://issues.chromium.org/issues/41482962",
       "https://crbug.com/482223009",
       "https://issues.chromium.org/issues/374010056",
       "https://issues.chromium.org/issues/40589293",
@@ -6350,6 +6352,8 @@
   },
   "webtransport": {
     "chrome": [
+      "https://crbug.com/568825278",
+      "https://issues.chromium.org/issues/501268547",
       "https://issues.chromium.org/issues/568317222",
       "https://issues.chromium.org/issues/565837025",
       "https://issues.chromium.org/issues/487117768",
