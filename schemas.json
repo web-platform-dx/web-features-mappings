@@ -345,9 +345,21 @@
       "type": "array",
       "description": "An array of specification shortnames from web-specs.json.",
       "items": {
-        "type": "string"
+        "$ref": "#/definitions/specShortname"
       },
       "minItems": 1
+    },
+    "specShortname": {
+      "type": "object",
+      "properties": {
+        "shortname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "shortname"
+      ],
+      "additionalProperties": false
     },
     "wptRecord": {
       "type": "object",
