@@ -10,7 +10,7 @@
     "glob": "^13.0.6",
     "js-yaml": "^5.4.2",
     "web-features": "^3.40.1",
-    "web-specs": "^4.16.0"
+    "web-specs": "^4.17.0"
   },
   "scripts": {
     "bump": "npx --yes npm-check-updates -u && npm install",

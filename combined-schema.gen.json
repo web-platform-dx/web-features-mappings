@@ -64,6 +64,15 @@
       },
       "additionalProperties": false
     },
+    "webSpecsFile": {
+      "description": "Schema for web-specs.json. An object where keys are feature IDs and values are an array of specification shortnames from the web-specs package.",
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/specShortnameArray"
+        }
+      }
+    },
     "wptFile": {
       "description": "Schema for wpt.json. An object where keys are feature IDs and values are a record of Web Platform Tests.",
       "type": "object",
@@ -295,6 +304,26 @@
       ],
       "additionalProperties": false
     },
+    "specShortnameArray": {
+      "type": "array",
+      "description": "An array of specification shortnames from web-specs.json.",
+      "items": {
+        "$ref": "#/definitions/specShortname"
+      },
+      "minItems": 1
+    },
+    "specShortname": {
+      "type": "object",
+      "properties": {
+        "shortname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "shortname"
+      ],
+      "additionalProperties": false
+    },
     "wptRecord": {
       "type": "object",
       "description": "A record of Web Platform Tests from wpt.json.",
@@ -480,6 +509,9 @@
       },
       "state-of-surveys": {
         "$ref": "#/definitions/surveyRecordArray"
+      },
+      "web-specs": {
+        "$ref": "#/definitions/specShortnameArray"
       },
       "wpt": {
         "$ref": "#/definitions/wptRecord"
