@@ -1,3 +1,9 @@
+// This script updates web-specs.json from browser-compat-data and web-specs.
+// It looks at specs targeted by the spec_url field of BCD keys that compose a
+// feature and stores the specs shortnames by web-features ID.
+// In cases where BCD targets a series URL (e.g., css-color instead of
+// css-color-4), the mapping is done with the current spec in the series.
+
 import { features } from 'web-features';
 import bcd from '@mdn/browser-compat-data' with { type: 'json' };
 import webSpecs from 'web-specs/index.json' with { type: 'json' };
@@ -14,12 +20,12 @@ const OUTPUT_FILE = path.join(import.meta.dirname, "../mappings/web-specs.json")
  * match if the given web-specs entry is the current specification in that
  * series.
  */
-function isRelevantSpec(spec, urls) {
-  return urls.find(url => url.startsWith(spec.nightly?.url)) ||
-      urls.find(url => url.startsWith(spec.release?.url)) ||
-      urls.find(url => url.startsWith(spec.url)) ||
-      (spec.shortname === spec.series.currentSpecification && urls.find(url => url.startsWith(spec.series?.nightlyUrl))) ||
-      (spec.shortname === spec.series.currentSpecification && urls.find(url => url.startsWith(spec.series?.releaseUrl)));
+function isRelevantSpec(webSpecsEntry, specUrlsFromBCD) {
+  return specUrlsFromBCD.find(url => url.startsWith(webSpecsEntry.nightly?.url)) ||
+      specUrlsFromBCD.find(url => url.startsWith(webSpecsEntry.release?.url)) ||
+      specUrlsFromBCD.find(url => url.startsWith(webSpecsEntry.url)) ||
+      (webSpecsEntry.shortname === webSpecsEntry.series.currentSpecification && specUrlsFromBCD.find(url => url.startsWith(webSpecsEntry.series?.nightlyUrl))) ||
+      (webSpecsEntry.shortname === webSpecsEntry.series.currentSpecification && specUrlsFromBCD.find(url => url.startsWith(webSpecsEntry.series?.releaseUrl)));
 }
 
 
