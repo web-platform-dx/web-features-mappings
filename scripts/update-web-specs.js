@@ -54,7 +54,7 @@ function getBcdKey(key) {
 async function main() {
   const mapping = {};
   for (const id in features) {
-    const specs = webSpecs
+    const shortnames = webSpecs
       .filter(spec =>
         features[id].compat_features?.some(bcdKey => {
           const support = getBcdKey(bcdKey);
@@ -68,8 +68,8 @@ async function main() {
       )
       .map(spec => spec.shortname)
       .sort();
-    if (specs.length > 0) {
-      mapping[id] = specs;
+    if (shortnames.length > 0) {
+      mapping[id] = shortnames.map(shortname => ({ shortname }));
     }
   }
 
