@@ -1,0 +1,6907 @@
+{
+  "a": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "abbr": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "abortable-fetch": [
+    {
+      "shortname": "fetch"
+    }
+  ],
+  "aborting": [
+    {
+      "shortname": "dom"
+    }
+  ],
+  "abortsignal-any": [
+    {
+      "shortname": "dom"
+    }
+  ],
+  "abortsignal-timeout": [
+    {
+      "shortname": "dom"
+    }
+  ],
+  "abs-sign": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "absolute-positioning": [
+    {
+      "shortname": "css-align-3"
+    },
+    {
+      "shortname": "css-position-3"
+    }
+  ],
+  "accelerometer": [
+    {
+      "shortname": "accelerometer"
+    },
+    {
+      "shortname": "generic-sensor"
+    },
+    {
+      "shortname": "orientation-event"
+    }
+  ],
+  "accent-color": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "accesskey": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "accessor-methods": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "active-view-transition": [
+    {
+      "shortname": "css-view-transitions-2"
+    }
+  ],
+  "address": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "alerts": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "align-content-block": [
+    {
+      "shortname": "css-align-3"
+    }
+  ],
+  "alignment-baseline": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-inline-3"
+    }
+  ],
+  "all": [
+    {
+      "shortname": "css-cascade-4"
+    }
+  ],
+  "alpha": [
+    {
+      "shortname": "css-color-5"
+    }
+  ],
+  "alt-text-generated-content": [
+    {
+      "shortname": "css-content-3"
+    }
+  ],
+  "alternative-style-sheets": [
+    {
+      "shortname": "cssom-1"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "ambient-light": [
+    {
+      "shortname": "ambient-light"
+    },
+    {
+      "shortname": "generic-sensor"
+    }
+  ],
+  "anchor-positioning": [
+    {
+      "shortname": "css-anchor-position-1"
+    },
+    {
+      "shortname": "css-box-4"
+    },
+    {
+      "shortname": "css-logical-1"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "anchor-positioning-animations": [
+    {
+      "shortname": "css-anchor-position-1"
+    }
+  ],
+  "anchor-positioning-position-visibility-plurals": [
+    {
+      "shortname": "css-anchor-position-1"
+    }
+  ],
+  "anchor-positioning-transforms": [
+    {
+      "shortname": "css-anchor-position-1"
+    }
+  ],
+  "angle-instanced-arrays": [
+    {
+      "shortname": "ANGLE_instanced_arrays"
+    }
+  ],
+  "animation-composition": [
+    {
+      "shortname": "css-animations-2"
+    }
+  ],
+  "animations-css": [
+    {
+      "shortname": "css-animations-1"
+    },
+    {
+      "shortname": "css-animations-2"
+    },
+    {
+      "shortname": "css-easing-1"
+    },
+    {
+      "shortname": "css-easing-2"
+    },
+    {
+      "shortname": "css-values-4"
+    },
+    {
+      "shortname": "scroll-animations-1"
+    }
+  ],
+  "app-file-handlers": [
+    {
+      "shortname": "manifest-incubations"
+    },
+    {
+      "shortname": "web-app-launch"
+    }
+  ],
+  "app-launch-handler": [
+    {
+      "shortname": "web-app-launch"
+    }
+  ],
+  "app-migration": [
+    {
+      "shortname": "manifest-incubations"
+    }
+  ],
+  "app-protocol-handlers": [
+    {
+      "shortname": "manifest-incubations"
+    }
+  ],
+  "app-share-targets": [
+    {
+      "shortname": "web-share-target"
+    }
+  ],
+  "app-shortcuts": [
+    {
+      "shortname": "appmanifest"
+    }
+  ],
+  "appearance": [
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "arguments-callee": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "aria-attribute-reflection": [
+    {
+      "shortname": "wai-aria-1.2"
+    },
+    {
+      "shortname": "wai-aria-1.3"
+    }
+  ],
+  "arianotify": [
+    {
+      "shortname": "wai-aria-1.2"
+    },
+    {
+      "shortname": "wai-aria-1.3"
+    }
+  ],
+  "array": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-at": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-by-copy": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-copywithin": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-fill": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-find": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-findlast": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-flat": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-from": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-fromasync": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-group": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-includes": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-isarray": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-iteration-methods": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-iterators": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-of": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "array-splice": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "article": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "aside": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "aspect-ratio": [
+    {
+      "shortname": "css-sizing-4"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "async-await": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "async-clipboard": [
+    {
+      "shortname": "clipboard-apis"
+    }
+  ],
+  "async-generators": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "async-iterable-streams": [
+    {
+      "shortname": "streams"
+    }
+  ],
+  "async-iterators": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "atomics-pause": [
+    {
+      "shortname": "tc39-atomics-microwait"
+    }
+  ],
+  "atomics-wait-async": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "attr": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-images-3"
+    },
+    {
+      "shortname": "css-syntax-3"
+    },
+    {
+      "shortname": "css-values-4"
+    },
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "attr-contents": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "audio": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "audio-session": [
+    {
+      "shortname": "audio-session"
+    }
+  ],
+  "audio-video-tracks": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "audio-worklet": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "webaudio-1.0"
+    },
+    {
+      "shortname": "webaudio-1.1"
+    }
+  ],
+  "audiolistener": [
+    {
+      "shortname": "webaudio-1.0"
+    },
+    {
+      "shortname": "webaudio-1.1"
+    }
+  ],
+  "audiolistener-setposition-setorientation": [
+    {
+      "shortname": "webaudio-1.0"
+    },
+    {
+      "shortname": "webaudio-1.1"
+    }
+  ],
+  "autocapitalize": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "autocorrect": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "autofill": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "autofocus": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "autonomous-custom-elements": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "avif": [
+    {
+      "shortname": "av1-avif"
+    }
+  ],
+  "b": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "backdrop": [
+    {
+      "shortname": "css-position-4"
+    }
+  ],
+  "backdrop-filter": [
+    {
+      "shortname": "filter-effects-2"
+    }
+  ],
+  "background": [
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-backgrounds-4"
+    },
+    {
+      "shortname": "css-color-4"
+    }
+  ],
+  "background-attachment": [
+    {
+      "shortname": "css-backgrounds-3"
+    }
+  ],
+  "background-blend-mode": [
+    {
+      "shortname": "compositing-2"
+    }
+  ],
+  "background-clip": [
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-backgrounds-4"
+    }
+  ],
+  "background-clip-border-area": [
+    {
+      "shortname": "css-backgrounds-4"
+    }
+  ],
+  "background-clip-text": [
+    {
+      "shortname": "css-backgrounds-4"
+    }
+  ],
+  "background-color": [
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-color-4"
+    }
+  ],
+  "background-fetch": [
+    {
+      "shortname": "background-fetch"
+    }
+  ],
+  "background-image": [
+    {
+      "shortname": "css-backgrounds-3"
+    }
+  ],
+  "background-origin": [
+    {
+      "shortname": "css-backgrounds-3"
+    }
+  ],
+  "background-position": [
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-backgrounds-4"
+    }
+  ],
+  "background-repeat": [
+    {
+      "shortname": "css-backgrounds-3"
+    }
+  ],
+  "background-size": [
+    {
+      "shortname": "css-backgrounds-3"
+    }
+  ],
+  "background-sync": [
+    {
+      "shortname": "background-sync"
+    }
+  ],
+  "badging": [
+    {
+      "shortname": "badging"
+    }
+  ],
+  "barcode": [
+    {
+      "shortname": "shape-detection-api"
+    }
+  ],
+  "barprop": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "base": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "base64encodedecode": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "baseline-shift": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-inline-3"
+    }
+  ],
+  "baseline-source": [
+    {
+      "shortname": "css-inline-3"
+    }
+  ],
+  "battery": [
+    {
+      "shortname": "battery-status"
+    }
+  ],
+  "bdi": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "bdo": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "beacons": [
+    {
+      "shortname": "beacon"
+    }
+  ],
+  "before-after": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "beforeinstallprompt": [
+    {
+      "shortname": "manifest-incubations"
+    }
+  ],
+  "beforeunload": [
+    {
+      "shortname": "dom"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "bfcache-blocking-reasons": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "navigation-timing-2"
+    }
+  ],
+  "bigint": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "bigint64array": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "blocking-render": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "blockquote": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "bmp": [
+    {
+      "shortname": "rfc7903"
+    }
+  ],
+  "body": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "border-image": [
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-images-3"
+    }
+  ],
+  "border-radius": [
+    {
+      "shortname": "css-backgrounds-3"
+    }
+  ],
+  "border-shape": [
+    {
+      "shortname": "css-borders-4"
+    }
+  ],
+  "borders": [
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-logical-1"
+    }
+  ],
+  "box-decoration-break": [
+    {
+      "shortname": "css-break-3"
+    }
+  ],
+  "box-shadow": [
+    {
+      "shortname": "css-backgrounds-3"
+    }
+  ],
+  "box-sizing": [
+    {
+      "shortname": "css-sizing-3"
+    }
+  ],
+  "br": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "broadcast-channel": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "brotli": [
+    {
+      "shortname": "rfc7932"
+    }
+  ],
+  "button": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "calc": [
+    {
+      "shortname": "css-images-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "calc-constants": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "calc-size": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "canvas": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-2d": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-2d-alpha": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-2d-color-management": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-2d-desynchronized": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-2d-willreadfrequently": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-context-lost": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-createconicgradient": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-reset": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "canvas-roundrect": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "cap": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "capture-handle": [
+    {
+      "shortname": "capture-handle-identity"
+    }
+  ],
+  "capture-stream-audio-video": [
+    {
+      "shortname": "mediacapture-fromelement"
+    }
+  ],
+  "capture-stream-canvas": [
+    {
+      "shortname": "mediacapture-fromelement"
+    }
+  ],
+  "caret-color": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "caret-shape": [
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "cascade-layers": [
+    {
+      "shortname": "css-cascade-5"
+    },
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "case-insensitive-attributes": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "case-sensitive-attributes": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "ch": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "change-event": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "channel-messaging": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "charset": [
+    {
+      "shortname": "css-syntax-3"
+    }
+  ],
+  "check-visibility": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "cite": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "class-syntax": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "clear-site-data": [
+    {
+      "shortname": "clear-site-data"
+    }
+  ],
+  "clip": [
+    {
+      "shortname": "CSS2"
+    },
+    {
+      "shortname": "css-masking-1"
+    }
+  ],
+  "clip-path": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-masking-1"
+    },
+    {
+      "shortname": "css-shapes-1"
+    }
+  ],
+  "clip-path-animatable": [
+    {
+      "shortname": "css-masking-1"
+    }
+  ],
+  "clip-path-boxes": [
+    {
+      "shortname": "css-masking-1"
+    }
+  ],
+  "clipboard-custom-format": [
+    {
+      "shortname": "clipboard-apis"
+    }
+  ],
+  "clipboard-events": [
+    {
+      "shortname": "clipboard-apis"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "clipboard-supports": [
+    {
+      "shortname": "clipboard-apis"
+    }
+  ],
+  "clipboard-svg": [
+    {
+      "shortname": "clipboard-apis"
+    }
+  ],
+  "clipboard-unsanitized-formats": [
+    {
+      "shortname": "clipboard-apis"
+    }
+  ],
+  "clipboardchange": [
+    {
+      "shortname": "clipboard-apis"
+    }
+  ],
+  "closewatcher": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "code": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "color": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-color-4"
+    }
+  ],
+  "color-adjust": [
+    {
+      "shortname": "css-color-adjust-1"
+    }
+  ],
+  "color-function": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "color-gamut": [
+    {
+      "shortname": "mediaqueries-4"
+    }
+  ],
+  "color-mix": [
+    {
+      "shortname": "css-color-5"
+    }
+  ],
+  "color-mix-variadic": [
+    {
+      "shortname": "css-color-5"
+    }
+  ],
+  "color-scheme": [
+    {
+      "shortname": "css-color-adjust-1"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "colrv0": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "colrv1": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "column-breaks": [
+    {
+      "shortname": "css-break-3"
+    },
+    {
+      "shortname": "css-multicol-1"
+    },
+    {
+      "shortname": "css-regions-1"
+    }
+  ],
+  "column-fill": [
+    {
+      "shortname": "css-multicol-1"
+    }
+  ],
+  "column-pseudo": [
+    {
+      "shortname": "css-multicol-2"
+    }
+  ],
+  "column-span": [
+    {
+      "shortname": "css-multicol-1"
+    }
+  ],
+  "composed-ranges": [
+    {
+      "shortname": "selection-api"
+    }
+  ],
+  "composition-events": [
+    {
+      "shortname": "uievents"
+    }
+  ],
+  "compression-dictionary-transport": [
+    {
+      "shortname": "rfc9842"
+    }
+  ],
+  "compression-streams": [
+    {
+      "shortname": "compression"
+    },
+    {
+      "shortname": "streams"
+    }
+  ],
+  "compute-pressure": [
+    {
+      "shortname": "compute-pressure"
+    }
+  ],
+  "conic-gradients": [
+    {
+      "shortname": "css-images-4"
+    }
+  ],
+  "connection-allowlists": [
+    {
+      "shortname": "connection-allowlists"
+    }
+  ],
+  "console": [
+    {
+      "shortname": "console"
+    }
+  ],
+  "constraint-validation": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "constructed-stylesheets": [
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "contact-picker": [
+    {
+      "shortname": "contact-picker"
+    }
+  ],
+  "contain": [
+    {
+      "shortname": "css-contain-2"
+    }
+  ],
+  "contain-inline-size": [
+    {
+      "shortname": "css-contain-2"
+    }
+  ],
+  "contain-intrinsic-size": [
+    {
+      "shortname": "css-sizing-4"
+    }
+  ],
+  "contain-layout": [
+    {
+      "shortname": "css-contain-2"
+    }
+  ],
+  "contain-paint": [
+    {
+      "shortname": "css-contain-2"
+    }
+  ],
+  "contain-size": [
+    {
+      "shortname": "css-contain-2"
+    }
+  ],
+  "contain-style": [
+    {
+      "shortname": "css-contain-2"
+    }
+  ],
+  "container-anchor-position-queries": [
+    {
+      "shortname": "css-anchor-position-2"
+    }
+  ],
+  "container-name-queries": [
+    {
+      "shortname": "css-conditional-5"
+    }
+  ],
+  "container-queries": [
+    {
+      "shortname": "css-conditional-5"
+    }
+  ],
+  "container-scroll-state-queries": [
+    {
+      "shortname": "css-conditional-5"
+    }
+  ],
+  "container-style-queries": [
+    {
+      "shortname": "css-conditional-5"
+    }
+  ],
+  "container-timing": [
+    {
+      "shortname": "container-timing"
+    }
+  ],
+  "content": [
+    {
+      "shortname": "css-content-3"
+    },
+    {
+      "shortname": "css-images-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "content-index": [
+    {
+      "shortname": "content-index"
+    }
+  ],
+  "content-visibility": [
+    {
+      "shortname": "css-contain-2"
+    }
+  ],
+  "contenteditable": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "contenteditable-plaintextonly": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "context-fill-stroke": [
+    {
+      "shortname": "SVG2"
+    }
+  ],
+  "contrast-color": [
+    {
+      "shortname": "css-color-5"
+    }
+  ],
+  "cookie-enabled": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "cookie-store": [
+    {
+      "shortname": "cookiestore"
+    }
+  ],
+  "cookies": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "layered-cookies"
+    },
+    {
+      "shortname": "rfc6265"
+    },
+    {
+      "shortname": "rfc6265bis"
+    }
+  ],
+  "corner-shape": [
+    {
+      "shortname": "css-borders-4"
+    }
+  ],
+  "cors": [
+    {
+      "shortname": "fetch"
+    }
+  ],
+  "counter-reset-reversed": [
+    {
+      "shortname": "css-lists-3"
+    }
+  ],
+  "counter-set": [
+    {
+      "shortname": "css-lists-3"
+    }
+  ],
+  "counter-style": [
+    {
+      "shortname": "css-counter-styles-3"
+    }
+  ],
+  "counters": [
+    {
+      "shortname": "css-counter-styles-3"
+    },
+    {
+      "shortname": "css-lists-3"
+    }
+  ],
+  "createimagebitmap": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "credential-management": [
+    {
+      "shortname": "credential-management-1"
+    }
+  ],
+  "crisp-edges": [
+    {
+      "shortname": "css-images-3"
+    }
+  ],
+  "cross-document-view-transitions": [
+    {
+      "shortname": "css-view-transitions-2"
+    }
+  ],
+  "cross-fade": [
+    {
+      "shortname": "css-images-4"
+    }
+  ],
+  "csp": [
+    {
+      "shortname": "CSP3"
+    },
+    {
+      "shortname": "csp-embedded-enforcement"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "css-escape": [
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "css-modules": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "css-object-model": [
+    {
+      "shortname": "css-conditional-3"
+    },
+    {
+      "shortname": "css-pseudo-4"
+    },
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "css-supports": [
+    {
+      "shortname": "css-conditional-3"
+    }
+  ],
+  "css-typed-om": [
+    {
+      "shortname": "css-typed-om-1"
+    }
+  ],
+  "cubic-bezier-easing": [
+    {
+      "shortname": "css-easing-1"
+    }
+  ],
+  "currentcolor": [
+    {
+      "shortname": "css-color-4"
+    }
+  ],
+  "cursor": [
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "custom-ellipses": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "custom-media-queries": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "custom-properties": [
+    {
+      "shortname": "css-variables-1"
+    }
+  ],
+  "customizable-select": [
+    {
+      "shortname": "css-forms-1"
+    },
+    {
+      "shortname": "css-ui-4"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "customized-built-in-elements": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "data": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "data-urls": [
+    {
+      "shortname": "rfc2397"
+    }
+  ],
+  "datalist": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "dataset": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "date": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "date-get-year-set-year": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "date-to-gmt-string": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "declarative-shadow-dom": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "dedicated-workers": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "default": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "del": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "description-list": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "destructuring": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "details": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "details-content": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "details-name": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "device-bound-session-credentials": [
+    {
+      "shortname": "dbsc-1"
+    }
+  ],
+  "device-memory": [
+    {
+      "shortname": "device-memory-1"
+    }
+  ],
+  "device-orientation-events": [
+    {
+      "shortname": "orientation-event"
+    }
+  ],
+  "device-posture": [
+    {
+      "shortname": "device-posture"
+    }
+  ],
+  "device-queries": [
+    {
+      "shortname": "mediaqueries-4"
+    }
+  ],
+  "devicepixelratio": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "dfn": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "dialog": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "dialog-closedby": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "digital-credentials": [
+    {
+      "shortname": "digital-credentials"
+    }
+  ],
+  "digital-goods": [
+    {
+      "shortname": "digital-goods"
+    }
+  ],
+  "dir-pseudo": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "dirname": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "display": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-display-3"
+    }
+  ],
+  "display-animation": [
+    {
+      "shortname": "css-contain-2"
+    },
+    {
+      "shortname": "css-display-4"
+    }
+  ],
+  "display-contents": [
+    {
+      "shortname": "css-display-3"
+    }
+  ],
+  "display-flow-root": [
+    {
+      "shortname": "css-display-3"
+    }
+  ],
+  "display-list-item": [
+    {
+      "shortname": "css-display-3"
+    }
+  ],
+  "display-mode": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "display-ruby": [
+    {
+      "shortname": "css-display-4"
+    },
+    {
+      "shortname": "css-ruby-1"
+    }
+  ],
+  "display-table": [
+    {
+      "shortname": "css-display-3"
+    },
+    {
+      "shortname": "css-display-4"
+    }
+  ],
+  "div": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "document-caretpositionfrompoint": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "document-colors": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "document-picture-in-picture": [
+    {
+      "shortname": "document-picture-in-picture"
+    }
+  ],
+  "document-write": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "dom": [
+    {
+      "shortname": "DOM-Parsing"
+    },
+    {
+      "shortname": "cssom-view-1"
+    },
+    {
+      "shortname": "dom"
+    },
+    {
+      "shortname": "fullscreen"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "pointerevents3"
+    },
+    {
+      "shortname": "pointerevents4"
+    },
+    {
+      "shortname": "pointerlock-2"
+    },
+    {
+      "shortname": "selection-api"
+    },
+    {
+      "shortname": "uievents"
+    },
+    {
+      "shortname": "webidl"
+    }
+  ],
+  "dom-geometry": [
+    {
+      "shortname": "geometry-1"
+    }
+  ],
+  "dominant-baseline": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-inline-3"
+    }
+  ],
+  "domparser": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "download": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "draganddrop": [
+    {
+      "shortname": "file-system-access"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "dynamic-range": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "dynamic-range-limit": [
+    {
+      "shortname": "css-color-hdr-1"
+    }
+  ],
+  "early-data": [
+    {
+      "shortname": "rfc8470"
+    }
+  ],
+  "edit-context": [
+    {
+      "shortname": "edit-context"
+    }
+  ],
+  "element": [
+    {
+      "shortname": "css-images-4"
+    }
+  ],
+  "element-capture": [
+    {
+      "shortname": "element-capture"
+    }
+  ],
+  "element-from-point": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "element-timing": [
+    {
+      "shortname": "element-timing"
+    }
+  ],
+  "em": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "em-unit": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "embed": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "empty": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "encrypted-media-extensions": [
+    {
+      "shortname": "encrypted-media-2"
+    },
+    {
+      "shortname": "media-capabilities"
+    }
+  ],
+  "enterkeyhint": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "error-cause": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "escape-unescape": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "event-timing": [
+    {
+      "shortname": "event-timing"
+    }
+  ],
+  "events": [
+    {
+      "shortname": "dom"
+    }
+  ],
+  "ex": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "exp-functions": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "explicit-resource-management": [
+    {
+      "shortname": "tc39-async-explicit-resource-management"
+    }
+  ],
+  "exponentiation": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "ext-blend-minmax": [
+    {
+      "shortname": "EXT_blend_minmax"
+    }
+  ],
+  "ext-color-buffer-float": [
+    {
+      "shortname": "EXT_color_buffer_float"
+    }
+  ],
+  "ext-color-buffer-half-float": [
+    {
+      "shortname": "EXT_color_buffer_half_float"
+    }
+  ],
+  "ext-disjoint-timer-query": [
+    {
+      "shortname": "EXT_disjoint_timer_query"
+    }
+  ],
+  "ext-float-blend": [
+    {
+      "shortname": "EXT_float_blend"
+    }
+  ],
+  "ext-frag-depth": [
+    {
+      "shortname": "EXT_frag_depth"
+    }
+  ],
+  "ext-shader-texture-lod": [
+    {
+      "shortname": "EXT_shader_texture_lod"
+    }
+  ],
+  "ext-srgb": [
+    {
+      "shortname": "EXT_sRGB"
+    }
+  ],
+  "ext-texture-compression-bptc": [
+    {
+      "shortname": "EXT_texture_compression_bptc"
+    }
+  ],
+  "ext-texture-compression-rgtc": [
+    {
+      "shortname": "EXT_texture_compression_rgtc"
+    }
+  ],
+  "ext-texture-filter-anisotropic": [
+    {
+      "shortname": "EXT_texture_filter_anisotropic"
+    }
+  ],
+  "ext-texture-norm16": [
+    {
+      "shortname": "EXT_texture_norm16"
+    }
+  ],
+  "external": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "eyedropper": [
+    {
+      "shortname": "eyedropper-api"
+    }
+  ],
+  "fast-seek": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "fedcm": [
+    {
+      "shortname": "fedcm-1"
+    }
+  ],
+  "federated-credentials": [
+    {
+      "shortname": "credential-management-1"
+    }
+  ],
+  "fencedframe": [
+    {
+      "shortname": "fenced-frame"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "fetch": [
+    {
+      "shortname": "fetch"
+    }
+  ],
+  "fetch-formdata": [
+    {
+      "shortname": "fetch"
+    }
+  ],
+  "fetch-metadata": [
+    {
+      "shortname": "fetch-metadata"
+    }
+  ],
+  "fetch-priority": [
+    {
+      "shortname": "fetch"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "fetch-request-streams": [
+    {
+      "shortname": "fetch"
+    }
+  ],
+  "fetchlater": [
+    {
+      "shortname": "fetch"
+    }
+  ],
+  "field-sizing": [
+    {
+      "shortname": "css-forms-1"
+    }
+  ],
+  "fieldset": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "figure": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "file": [
+    {
+      "shortname": "FileAPI"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "file-selector-button": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "file-system-access": [
+    {
+      "shortname": "file-system-access"
+    },
+    {
+      "shortname": "fs"
+    }
+  ],
+  "filter": [
+    {
+      "shortname": "filter-effects-1"
+    }
+  ],
+  "filter-function": [
+    {
+      "shortname": "filter-effects-1"
+    }
+  ],
+  "first-letter": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "first-line": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "fit-content": [
+    {
+      "shortname": "css-sizing-3"
+    }
+  ],
+  "fit-content-function": [
+    {
+      "shortname": "css-sizing-3"
+    },
+    {
+      "shortname": "css-sizing-4"
+    }
+  ],
+  "fixed-positioning": [
+    {
+      "shortname": "css-position-3"
+    }
+  ],
+  "flexbox": [
+    {
+      "shortname": "css-align-3"
+    },
+    {
+      "shortname": "css-display-3"
+    },
+    {
+      "shortname": "css-flexbox-1"
+    },
+    {
+      "shortname": "css-sizing-3"
+    }
+  ],
+  "flexbox-flex-wrap-balance": [
+    {
+      "shortname": "css-flexbox-2"
+    }
+  ],
+  "flexbox-gap": [
+    {
+      "shortname": "css-gaps-1"
+    },
+    {
+      "shortname": "css-grid-2"
+    },
+    {
+      "shortname": "css-multicol-1"
+    }
+  ],
+  "float-clear": [
+    {
+      "shortname": "CSS2"
+    },
+    {
+      "shortname": "css-logical-1"
+    }
+  ],
+  "float16array": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "focus-events": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "uievents"
+    }
+  ],
+  "focus-visible": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "focus-within": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "font-display": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-face": [
+    {
+      "shortname": "WOFF"
+    },
+    {
+      "shortname": "WOFF2"
+    },
+    {
+      "shortname": "css-fonts-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "font-family": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-family-math": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-family-system": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-family-ui": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-feature-settings": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-kerning": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-language-override": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-loading": [
+    {
+      "shortname": "css-font-loading-3"
+    }
+  ],
+  "font-metric-overrides": [
+    {
+      "shortname": "css-font-loading-3"
+    },
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-optical-sizing": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-palette": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-palette-animation": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-shorthand": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-size": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-size-adjust": [
+    {
+      "shortname": "css-fonts-4"
+    },
+    {
+      "shortname": "css-fonts-5"
+    }
+  ],
+  "font-stretch": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-fonts-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "font-style": [
+    {
+      "shortname": "CSS2"
+    },
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-synthesis": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-synthesis-position": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-synthesis-small-caps": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-synthesis-style": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-synthesis-weight": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variant": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variant-alternates": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variant-caps": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variant-east-asian": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variant-emoji": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variant-ligatures": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variant-numeric": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variant-position": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-variation-settings": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "font-weight": [
+    {
+      "shortname": "css-fonts-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "font-width": [
+    {
+      "shortname": "css-fonts-4"
+    }
+  ],
+  "forced-colors": [
+    {
+      "shortname": "css-color-adjust-1"
+    },
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "form": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "form-associated-custom-elements": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "form-validity-pseudos": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "frame-sizing": [
+    {
+      "shortname": "css-sizing-4"
+    }
+  ],
+  "fullscreen": [
+    {
+      "shortname": "css-position-4"
+    },
+    {
+      "shortname": "fullscreen"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "function": [
+    {
+      "shortname": "css-mixins-1"
+    }
+  ],
+  "functions": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "gamepad": [
+    {
+      "shortname": "gamepad"
+    },
+    {
+      "shortname": "gamepad-extensions"
+    }
+  ],
+  "gamepad-haptics": [
+    {
+      "shortname": "gamepad"
+    },
+    {
+      "shortname": "gamepad-extensions"
+    }
+  ],
+  "gamepad-touch": [
+    {
+      "shortname": "gamepad"
+    }
+  ],
+  "gamepad-vr": [
+    {
+      "shortname": "gamepad"
+    },
+    {
+      "shortname": "gamepad-extensions"
+    }
+  ],
+  "gap-decorations": [
+    {
+      "shortname": "css-gaps-1"
+    }
+  ],
+  "generators": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "geolocation": [
+    {
+      "shortname": "geolocation"
+    }
+  ],
+  "geolocation-element": [
+    {
+      "shortname": "geolocation-element"
+    }
+  ],
+  "geolocation-element-initialpermissionstatus": [
+    {
+      "shortname": "geolocation-element"
+    }
+  ],
+  "get-computed-style": [
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "getallrecords": [
+    {
+      "shortname": "IndexedDB-3"
+    }
+  ],
+  "getboxquads": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "gethtml": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "getorinsert": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "gif": [
+    {
+      "shortname": "GIF"
+    }
+  ],
+  "globalthis": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "glyph-orientation-vertical": [
+    {
+      "shortname": "css-writing-modes-4"
+    }
+  ],
+  "gpc": [
+    {
+      "shortname": "gpc"
+    }
+  ],
+  "gradient-interpolation": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-images-4"
+    }
+  ],
+  "gradients": [
+    {
+      "shortname": "css-images-3"
+    },
+    {
+      "shortname": "css-images-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "grid": [
+    {
+      "shortname": "css-align-3"
+    },
+    {
+      "shortname": "css-display-3"
+    },
+    {
+      "shortname": "css-flexbox-1"
+    },
+    {
+      "shortname": "css-gaps-1"
+    },
+    {
+      "shortname": "css-grid-2"
+    },
+    {
+      "shortname": "css-multicol-1"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "grid-animation": [
+    {
+      "shortname": "css-animations-1"
+    }
+  ],
+  "grid-lanes": [
+    {
+      "shortname": "css-grid-3"
+    }
+  ],
+  "gyroscope": [
+    {
+      "shortname": "generic-sensor"
+    },
+    {
+      "shortname": "gyroscope"
+    },
+    {
+      "shortname": "orientation-event"
+    }
+  ],
+  "hanging-punctuation": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "hardware-concurrency": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "has": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "has-slotted": [
+    {
+      "shortname": "css-shadow-1"
+    }
+  ],
+  "hashbang-comments": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "hashchange": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "head": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "header-footer": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "heading-offset": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "heading-selectors": [
+    {
+      "shortname": "selectors-5"
+    }
+  ],
+  "headings": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "hgroup": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "hidden-until-found": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "highlight": [
+    {
+      "shortname": "css-highlight-api-1"
+    },
+    {
+      "shortname": "css-pseudo-4"
+    },
+    {
+      "shortname": "fetch"
+    }
+  ],
+  "highlightsfrompoint": [
+    {
+      "shortname": "css-highlight-api-1"
+    }
+  ],
+  "history": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "host": [
+    {
+      "shortname": "css-shadow-1"
+    }
+  ],
+  "host-context": [
+    {
+      "shortname": "css-shadow-1"
+    }
+  ],
+  "hr": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "hsl": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "hsts": [
+    {
+      "shortname": "rfc6797"
+    }
+  ],
+  "html": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "html-media-capture": [
+    {
+      "shortname": "html-media-capture"
+    }
+  ],
+  "html-processing-instructions": [
+    {
+      "shortname": "dom"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "html-setters": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "html-streaming-setters": [
+    {
+      "shortname": "FileAPI"
+    },
+    {
+      "shortname": "fetch"
+    }
+  ],
+  "html-wrapper-methods": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "http-authentication": [
+    {
+      "shortname": "fetch"
+    },
+    {
+      "shortname": "rfc4120"
+    },
+    {
+      "shortname": "rfc7616"
+    },
+    {
+      "shortname": "rfc7617"
+    },
+    {
+      "shortname": "rfc9110"
+    }
+  ],
+  "http11": [
+    {
+      "shortname": "fetch"
+    },
+    {
+      "shortname": "rfc6266"
+    },
+    {
+      "shortname": "rfc6454"
+    },
+    {
+      "shortname": "rfc7578"
+    },
+    {
+      "shortname": "rfc8246"
+    },
+    {
+      "shortname": "rfc9110"
+    },
+    {
+      "shortname": "rfc9111"
+    },
+    {
+      "shortname": "rfc9112"
+    }
+  ],
+  "hwb": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "hyphenate-character": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "hyphenate-limit-chars": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "hyphens": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "i": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "ic": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "idle-detection": [
+    {
+      "shortname": "idle-detection"
+    }
+  ],
+  "if": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "iframe": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "iframe-credentialless": [
+    {
+      "shortname": "anonymous-iframe"
+    }
+  ],
+  "iframe-sandbox": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "iframe-srcdoc": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "image-maps": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "image-orientation": [
+    {
+      "shortname": "css-images-3"
+    }
+  ],
+  "image-rendering": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-images-3"
+    }
+  ],
+  "image-set": [
+    {
+      "shortname": "css-images-4"
+    }
+  ],
+  "imagebitmaprenderingcontext": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "ime-mode": [
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "img": [
+    {
+      "shortname": "cssom-view-1"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "import": [
+    {
+      "shortname": "css-cascade-5"
+    },
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "import-defer": [
+    {
+      "shortname": "tc39-defer-import-eval"
+    }
+  ],
+  "import-maps": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "import-maps-multiple": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "indeterminate": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "indexeddb": [
+    {
+      "shortname": "IndexedDB-3"
+    }
+  ],
+  "individual-transforms": [
+    {
+      "shortname": "css-transforms-2"
+    }
+  ],
+  "inert": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "inherit-value": [
+    {
+      "shortname": "css-cascade-4"
+    }
+  ],
+  "initial-letter": [
+    {
+      "shortname": "css-inline-3"
+    }
+  ],
+  "initial-value": [
+    {
+      "shortname": "css-cascade-4"
+    }
+  ],
+  "ink": [
+    {
+      "shortname": "ink-enhancement"
+    }
+  ],
+  "input": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-button": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-checkbox": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-color": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-color-alpha": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-date-time": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-date-time-month": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-date-time-week": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-email-tel-url": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-event": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "input-events-2"
+    },
+    {
+      "shortname": "uievents"
+    }
+  ],
+  "input-file": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-file-multiple": [
+    {
+      "shortname": "entries-api"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-file-webkitdirectory": [
+    {
+      "shortname": "entries-api"
+    }
+  ],
+  "input-hidden": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-image": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-number": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-password": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-radio": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-range": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-reset": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "input-selectors": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "input-submit": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "inputmode": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "ins": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "insertable-streams": [
+    {
+      "shortname": "mediacapture-transform"
+    }
+  ],
+  "interaction": [
+    {
+      "shortname": "mediaqueries-4"
+    }
+  ],
+  "interaction-contentful-paint": [
+    {
+      "shortname": "paint-timing"
+    },
+    {
+      "shortname": "soft-navigations"
+    }
+  ],
+  "interactivity": [
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "interest-invokers": [
+    {
+      "shortname": "selectors-5"
+    }
+  ],
+  "interpolate-size": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "intersection-observer": [
+    {
+      "shortname": "intersection-observer"
+    }
+  ],
+  "intl": [
+    {
+      "shortname": "ecma-402"
+    },
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "intl-display-names": [
+    {
+      "shortname": "ecma-402"
+    }
+  ],
+  "intl-duration-format": [
+    {
+      "shortname": "tc39-intl-duration-format"
+    }
+  ],
+  "intl-list-format": [
+    {
+      "shortname": "ecma-402"
+    }
+  ],
+  "intl-locale": [
+    {
+      "shortname": "ecma-402"
+    }
+  ],
+  "intl-locale-info": [
+    {
+      "shortname": "tc39-intl-locale-info"
+    }
+  ],
+  "intl-plural-rules": [
+    {
+      "shortname": "ecma-402"
+    }
+  ],
+  "intl-relative-time-format": [
+    {
+      "shortname": "ecma-402"
+    }
+  ],
+  "intl-segmenter": [
+    {
+      "shortname": "ecma-402"
+    }
+  ],
+  "inverted-colors": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "invoker-commands": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "is": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "is-error": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "is-input-pending": [
+    {
+      "shortname": "is-input-pending"
+    }
+  ],
+  "is-secure-context": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "isolation": [
+    {
+      "shortname": "compositing-2"
+    }
+  ],
+  "iterator-concat": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "iterator-join": [
+    {
+      "shortname": "tc39-iterator-join"
+    }
+  ],
+  "iterator-methods": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "iterators": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "javascript": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "js-modules": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "ecmascript"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "js-modules-service-workers": [
+    {
+      "shortname": "ecmascript"
+    },
+    {
+      "shortname": "service-workers"
+    }
+  ],
+  "js-modules-shared-workers": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "js-modules-workers": [
+    {
+      "shortname": "ecmascript"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "json": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "json-modules": [
+    {
+      "shortname": "ecmascript"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "json-raw": [
+    {
+      "shortname": "tc39-json-parse-with-source"
+    }
+  ],
+  "justify-self-block": [
+    {
+      "shortname": "css-align-3"
+    }
+  ],
+  "kbd": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "keyboard-events": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "uievents"
+    },
+    {
+      "shortname": "uievents-key"
+    }
+  ],
+  "keyboard-lock": [
+    {
+      "shortname": "keyboard-lock"
+    },
+    {
+      "shortname": "keyboard-map"
+    }
+  ],
+  "keyboard-map": [
+    {
+      "shortname": "keyboard-map"
+    }
+  ],
+  "khr-parallel-shader-compile": [
+    {
+      "shortname": "KHR_parallel_shader_compile"
+    }
+  ],
+  "lab": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "label": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "lang": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "lang-attr": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "language": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "languagedetector": [
+    {
+      "shortname": "translation-api"
+    },
+    {
+      "shortname": "writing-assistance-apis"
+    }
+  ],
+  "languagemodel": [
+    {
+      "shortname": "prompt-api"
+    },
+    {
+      "shortname": "writing-assistance-apis"
+    }
+  ],
+  "largest-contentful-paint": [
+    {
+      "shortname": "largest-contentful-paint"
+    }
+  ],
+  "layout-direction-override": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-writing-modes-4"
+    }
+  ],
+  "layout-instability": [
+    {
+      "shortname": "layout-instability"
+    }
+  ],
+  "let-const": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "letter-spacing": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "lh": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "light-dark": [
+    {
+      "shortname": "css-color-5"
+    }
+  ],
+  "light-dark-image": [
+    {
+      "shortname": "css-color-5"
+    }
+  ],
+  "line-break": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "line-clamp": [
+    {
+      "shortname": "css-overflow-4"
+    }
+  ],
+  "line-height": [
+    {
+      "shortname": "css-inline-3"
+    }
+  ],
+  "linear-easing": [
+    {
+      "shortname": "css-easing-1"
+    }
+  ],
+  "link": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "link-parameters": [
+    {
+      "shortname": "css-link-params-1"
+    }
+  ],
+  "link-rel-dns-prefetch": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "link-rel-expect": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "link-rel-preconnect": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "link-rel-prefetch": [
+    {
+      "shortname": "fetch"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "prefetch"
+    }
+  ],
+  "link-rel-preload": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "link-selectors": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "list-elements": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "list-style": [
+    {
+      "shortname": "css-counter-styles-3"
+    },
+    {
+      "shortname": "css-lists-3"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "loading-lazy": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "loading-lazy-media": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "local-fonts": [
+    {
+      "shortname": "local-font-access"
+    }
+  ],
+  "local-network-access": [
+    {
+      "shortname": "local-network-access"
+    }
+  ],
+  "localstorage": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "location": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "logical-assignments": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "logical-properties": [
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-logical-1"
+    },
+    {
+      "shortname": "css-overflow-3"
+    },
+    {
+      "shortname": "css-position-3"
+    },
+    {
+      "shortname": "css-sizing-3"
+    }
+  ],
+  "long-animation-frames": [
+    {
+      "shortname": "long-animation-frames"
+    }
+  ],
+  "longtasks": [
+    {
+      "shortname": "longtasks-1"
+    }
+  ],
+  "magnetometer": [
+    {
+      "shortname": "generic-sensor"
+    },
+    {
+      "shortname": "magnetometer"
+    },
+    {
+      "shortname": "orientation-event"
+    }
+  ],
+  "main": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "managed-media-source": [
+    {
+      "shortname": "media-source-2"
+    }
+  ],
+  "manifest": [
+    {
+      "shortname": "appmanifest"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "manifest-app-info"
+    }
+  ],
+  "map": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "margin": [
+    {
+      "shortname": "css-box-3"
+    },
+    {
+      "shortname": "css-box-4"
+    }
+  ],
+  "margin-trim": [
+    {
+      "shortname": "css-box-4"
+    }
+  ],
+  "mark": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "marker": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "mask-border": [
+    {
+      "shortname": "css-masking-1"
+    }
+  ],
+  "mask-type": [
+    {
+      "shortname": "css-masking-1"
+    }
+  ],
+  "masks": [
+    {
+      "shortname": "css-masking-1"
+    }
+  ],
+  "matchmedia": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "math-sum-precise": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "mathml": [
+    {
+      "shortname": "css-fonts-4"
+    },
+    {
+      "shortname": "css-text-4"
+    },
+    {
+      "shortname": "css-typed-om-1"
+    },
+    {
+      "shortname": "cssom-1"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "mathml-core"
+    }
+  ],
+  "mathml-full": [
+    {
+      "shortname": "mathml-core"
+    }
+  ],
+  "measure-memory": [
+    {
+      "shortname": "performance-measure-memory"
+    }
+  ],
+  "media-capabilities": [
+    {
+      "shortname": "media-capabilities"
+    }
+  ],
+  "media-capture": [
+    {
+      "shortname": "mediacapture-streams"
+    }
+  ],
+  "media-playback-quality": [
+    {
+      "shortname": "media-playback-quality"
+    }
+  ],
+  "media-pseudos": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "media-queries": [
+    {
+      "shortname": "css-conditional-3"
+    },
+    {
+      "shortname": "css-values-4"
+    },
+    {
+      "shortname": "mediaqueries-4"
+    },
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "media-query-range-syntax": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "media-session": [
+    {
+      "shortname": "mediasession"
+    }
+  ],
+  "media-source": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "media-source-2"
+    }
+  ],
+  "mediastream-recording": [
+    {
+      "shortname": "mediastream-recording"
+    }
+  ],
+  "menu": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "messageerror": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "service-workers"
+    }
+  ],
+  "meta": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "referrer-policy"
+    }
+  ],
+  "meta-refresh": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "meta-text-scale": [
+    {
+      "shortname": "css-fonts-5"
+    }
+  ],
+  "meta-theme-color": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "meter": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "min-max-clamp": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "min-max-content": [
+    {
+      "shortname": "css-sizing-3"
+    }
+  ],
+  "min-max-width-height": [
+    {
+      "shortname": "css-sizing-3"
+    }
+  ],
+  "mix-blend-mode": [
+    {
+      "shortname": "compositing-2"
+    }
+  ],
+  "mixed-content": [
+    {
+      "shortname": "mixed-content"
+    }
+  ],
+  "modal": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "modulepreload": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "motion-path": [
+    {
+      "shortname": "css-box-4"
+    },
+    {
+      "shortname": "css-shapes-1"
+    },
+    {
+      "shortname": "css-values-4"
+    },
+    {
+      "shortname": "motion-1"
+    }
+  ],
+  "mouse-events": [
+    {
+      "shortname": "cssom-view-1"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "pointerevents3"
+    },
+    {
+      "shortname": "pointerevents4"
+    },
+    {
+      "shortname": "pointerlock-2"
+    },
+    {
+      "shortname": "uievents"
+    }
+  ],
+  "move-before": [
+    {
+      "shortname": "dom"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "multi-column": [
+    {
+      "shortname": "css-align-3"
+    },
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-gaps-1"
+    },
+    {
+      "shortname": "css-grid-2"
+    },
+    {
+      "shortname": "css-multicol-1"
+    },
+    {
+      "shortname": "css-multicol-2"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "mutationobserver": [
+    {
+      "shortname": "dom"
+    }
+  ],
+  "named-color": [
+    {
+      "shortname": "css-color-4"
+    }
+  ],
+  "namespace": [
+    {
+      "shortname": "css-namespaces-3"
+    },
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "nav": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "navigation": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "navigation-precommit-handlers": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "navigation-timing": [
+    {
+      "shortname": "navigation-timing-2"
+    }
+  ],
+  "navigation-timing-confidence": [
+    {
+      "shortname": "navigation-timing-2"
+    }
+  ],
+  "navigator": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "nesting": [
+    {
+      "shortname": "css-nesting-1"
+    },
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "network-information": [
+    {
+      "shortname": "netinfo"
+    }
+  ],
+  "non-cookie-storage-access": [
+    {
+      "shortname": "saa-non-cookie-storage"
+    }
+  ],
+  "not": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "notifications": [
+    {
+      "shortname": "notifications"
+    },
+    {
+      "shortname": "permissions"
+    }
+  ],
+  "nth-child": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "nth-child-of": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "nth-of-type": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "nullish-coalescing": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "number": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "numeric-factory-functions": [
+    {
+      "shortname": "css-typed-om-1"
+    }
+  ],
+  "numeric-separators": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "object": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "object-fit": [
+    {
+      "shortname": "css-images-3"
+    }
+  ],
+  "object-hasown": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "object-object": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "object-position": [
+    {
+      "shortname": "css-images-3"
+    }
+  ],
+  "object-view-box": [
+    {
+      "shortname": "css-images-5"
+    }
+  ],
+  "observable": [
+    {
+      "shortname": "observable"
+    }
+  ],
+  "oes-element-index-uint": [
+    {
+      "shortname": "OES_element_index_uint"
+    }
+  ],
+  "oes-fbo-render-mipmap": [
+    {
+      "shortname": "OES_fbo_render_mipmap"
+    }
+  ],
+  "oes-standard-derivatives": [
+    {
+      "shortname": "OES_standard_derivatives"
+    }
+  ],
+  "oes-texture-float": [
+    {
+      "shortname": "OES_texture_float"
+    }
+  ],
+  "oes-texture-float-linear": [
+    {
+      "shortname": "OES_texture_float_linear"
+    }
+  ],
+  "oes-texture-half-float": [
+    {
+      "shortname": "OES_texture_half_float"
+    }
+  ],
+  "oes-texture-half-float-linear": [
+    {
+      "shortname": "OES_texture_half_float_linear"
+    }
+  ],
+  "oes-vertex-array-object": [
+    {
+      "shortname": "OES_vertex_array_object"
+    }
+  ],
+  "offline-audio-context": [
+    {
+      "shortname": "webaudio-1.0"
+    },
+    {
+      "shortname": "webaudio-1.1"
+    }
+  ],
+  "offscreen-canvas": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "oklab": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "online": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "opacity": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "opacity-svg": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "fill-stroke-3"
+    }
+  ],
+  "open-pseudo": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "optional-catch-binding": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "orientation-sensor": [
+    {
+      "shortname": "generic-sensor"
+    },
+    {
+      "shortname": "orientation-sensor"
+    }
+  ],
+  "origin": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "origin-private-file-system": [
+    {
+      "shortname": "fs"
+    }
+  ],
+  "outline": [
+    {
+      "shortname": "css-borders-4"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "outlines": [
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-borders-4"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "output": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "overflow": [
+    {
+      "shortname": "mediaqueries-4"
+    }
+  ],
+  "overflow-anchor": [
+    {
+      "shortname": "css-scroll-anchoring-1"
+    }
+  ],
+  "overflow-clip": [
+    {
+      "shortname": "css-overflow-3"
+    }
+  ],
+  "overflow-clip-margin": [
+    {
+      "shortname": "css-box-3"
+    },
+    {
+      "shortname": "css-overflow-3"
+    }
+  ],
+  "overflow-overlay": [
+    {
+      "shortname": "css-overflow-3"
+    }
+  ],
+  "overflow-shorthand": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-overflow-3"
+    }
+  ],
+  "overflow-wrap": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "overlay": [
+    {
+      "shortname": "css-position-4"
+    }
+  ],
+  "overscroll-behavior": [
+    {
+      "shortname": "css-overscroll-1"
+    }
+  ],
+  "ovr-multiview2": [
+    {
+      "shortname": "OVR_multiview2"
+    }
+  ],
+  "p": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "padding": [
+    {
+      "shortname": "css-box-3"
+    }
+  ],
+  "page-break-aliases": [
+    {
+      "shortname": "CSS2"
+    },
+    {
+      "shortname": "css-break-3"
+    },
+    {
+      "shortname": "css-logical-1"
+    }
+  ],
+  "page-breaks": [
+    {
+      "shortname": "css-break-3"
+    },
+    {
+      "shortname": "css-multicol-1"
+    },
+    {
+      "shortname": "css-regions-1"
+    }
+  ],
+  "page-lifecycle": [
+    {
+      "shortname": "page-lifecycle"
+    }
+  ],
+  "page-orientation": [
+    {
+      "shortname": "css-page-3"
+    }
+  ],
+  "page-selectors": [
+    {
+      "shortname": "css-page-3"
+    }
+  ],
+  "page-setup": [
+    {
+      "shortname": "css-logical-1"
+    },
+    {
+      "shortname": "css-page-3"
+    }
+  ],
+  "page-transition-events": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "page-visibility": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "page-visibility-state": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "paint": [
+    {
+      "shortname": "css-paint-api-1"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "paint-order": [
+    {
+      "shortname": "SVG2"
+    }
+  ],
+  "paint-timing": [
+    {
+      "shortname": "paint-timing"
+    }
+  ],
+  "parse-html-unsafe": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "partitioned-cookies": [
+    {
+      "shortname": "cookiestore"
+    },
+    {
+      "shortname": "partitioned-cookies"
+    }
+  ],
+  "password-credentials": [
+    {
+      "shortname": "credential-management-1"
+    }
+  ],
+  "path-shape": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-masking-1"
+    },
+    {
+      "shortname": "css-shapes-1"
+    },
+    {
+      "shortname": "motion-1"
+    }
+  ],
+  "payment-handler": [
+    {
+      "shortname": "web-based-payment-handler"
+    }
+  ],
+  "payment-request": [
+    {
+      "shortname": "payment-request"
+    },
+    {
+      "shortname": "webidl"
+    }
+  ],
+  "pdf-viewer": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "performance": [
+    {
+      "shortname": "hr-time-3"
+    },
+    {
+      "shortname": "performance-timeline"
+    },
+    {
+      "shortname": "resource-timing"
+    },
+    {
+      "shortname": "user-timing"
+    }
+  ],
+  "performancetiming": [
+    {
+      "shortname": "navigation-timing-2"
+    }
+  ],
+  "periodic-background-sync": [
+    {
+      "shortname": "periodic-background-sync"
+    }
+  ],
+  "permissions": [
+    {
+      "shortname": "permissions"
+    },
+    {
+      "shortname": "permissions-request"
+    }
+  ],
+  "permissions-policy": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "permissions-policy-1"
+    }
+  ],
+  "physical-properties": [
+    {
+      "shortname": "css-position-3"
+    }
+  ],
+  "picture": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "picture-in-picture": [
+    {
+      "shortname": "mediaqueries-5"
+    },
+    {
+      "shortname": "picture-in-picture"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "ping": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "placeholder": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "placeholder-shown": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "png": [
+    {
+      "shortname": "png-4"
+    }
+  ],
+  "pointer-events": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "pointer-events-api": [
+    {
+      "shortname": "pointerevents3"
+    },
+    {
+      "shortname": "pointerevents4"
+    }
+  ],
+  "pointer-lock": [
+    {
+      "shortname": "pointerlock-2"
+    }
+  ],
+  "popover": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "popover-hint": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "position": [
+    {
+      "shortname": "css-position-3"
+    }
+  ],
+  "postmessage": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "pre": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "prefers-color-scheme": [
+    {
+      "shortname": "mediaqueries-5"
+    },
+    {
+      "shortname": "user-preference-media-features-headers"
+    }
+  ],
+  "prefers-contrast": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "prefers-reduced-data": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "prefers-reduced-motion": [
+    {
+      "shortname": "mediaqueries-5"
+    },
+    {
+      "shortname": "user-preference-media-features-headers"
+    }
+  ],
+  "prefers-reduced-transparency": [
+    {
+      "shortname": "mediaqueries-5"
+    },
+    {
+      "shortname": "user-preference-media-features-headers"
+    }
+  ],
+  "preloading-responsive-images": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "presentation-api": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "presentation-api"
+    }
+  ],
+  "preserves-pitch": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "print": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "print-color-adjust": [
+    {
+      "shortname": "css-color-adjust-1"
+    }
+  ],
+  "print-events": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "private-click-measurement": [
+    {
+      "shortname": "private-click-measurement"
+    }
+  ],
+  "private-network-access": [
+    {
+      "shortname": "local-network-access"
+    }
+  ],
+  "profiler": [
+    {
+      "shortname": "js-self-profiling"
+    }
+  ],
+  "progress": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "progress-function": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "promise": [
+    {
+      "shortname": "ecmascript"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "promise-allsettled": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "promise-any": [
+    {
+      "shortname": "ecmascript"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "promise-finally": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "promise-try": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "promise-withresolvers": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "proto": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "proxy-reflect": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "push": [
+    {
+      "shortname": "push-api"
+    },
+    {
+      "shortname": "service-workers"
+    }
+  ],
+  "q": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "q-unit": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "queuemicrotask": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "quotes": [
+    {
+      "shortname": "css-content-3"
+    }
+  ],
+  "random-function": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "rcap": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "rch": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "read-write-pseudos": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "readable-byte-streams": [
+    {
+      "shortname": "streams"
+    }
+  ],
+  "readablestream-from": [
+    {
+      "shortname": "streams"
+    }
+  ],
+  "reading-flow": [
+    {
+      "shortname": "css-display-4"
+    }
+  ],
+  "rect-xywh": [
+    {
+      "shortname": "css-shapes-1"
+    }
+  ],
+  "referrer-policy": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "referrer-policy"
+    }
+  ],
+  "regexp": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "regexp-compile": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "regexp-escape": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "region-capture": [
+    {
+      "shortname": "mediacapture-region"
+    }
+  ],
+  "registered-custom-properties": [
+    {
+      "shortname": "css-properties-values-api-1"
+    }
+  ],
+  "registerprotocolhandler": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "related-apps": [
+    {
+      "shortname": "get-installed-related-apps"
+    },
+    {
+      "shortname": "manifest-incubations"
+    }
+  ],
+  "relative-color": [
+    {
+      "shortname": "css-color-5"
+    }
+  ],
+  "relative-positioning": [
+    {
+      "shortname": "css-position-3"
+    }
+  ],
+  "rem": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "remote-playback": [
+    {
+      "shortname": "remote-playback"
+    }
+  ],
+  "reporting": [
+    {
+      "shortname": "reporting-1"
+    }
+  ],
+  "reporting-coep-violations": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "reporting-crashes": [
+    {
+      "shortname": "crash-reporting"
+    }
+  ],
+  "reporting-crashes-storage": [
+    {
+      "shortname": "crash-reporting"
+    }
+  ],
+  "reporting-csp-violations": [
+    {
+      "shortname": "CSP3"
+    }
+  ],
+  "reporting-deprecation": [
+    {
+      "shortname": "deprecation-reporting"
+    }
+  ],
+  "reporting-integrity-violations": [
+    {
+      "shortname": "sri-2"
+    }
+  ],
+  "reporting-interventions": [
+    {
+      "shortname": "intervention-reporting"
+    }
+  ],
+  "reporting-permissions-policy-violations": [
+    {
+      "shortname": "permissions-policy-1"
+    }
+  ],
+  "request-animation-frame": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "request-animation-frame-workers": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "request-video-frame-callback": [
+    {
+      "shortname": "video-rvfc"
+    }
+  ],
+  "requestclose": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "requestidlecallback": [
+    {
+      "shortname": "requestidlecallback"
+    }
+  ],
+  "resizable-buffers": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "resize": [
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "resize-observer": [
+    {
+      "shortname": "resize-observer-1"
+    }
+  ],
+  "resolution": [
+    {
+      "shortname": "css-values-4"
+    },
+    {
+      "shortname": "mediaqueries-4"
+    }
+  ],
+  "resolution-compat": [
+    {
+      "shortname": "compat"
+    }
+  ],
+  "resource-size": [
+    {
+      "shortname": "resource-timing"
+    }
+  ],
+  "resource-timing": [
+    {
+      "shortname": "resource-timing"
+    }
+  ],
+  "revert-value": [
+    {
+      "shortname": "css-cascade-4"
+    }
+  ],
+  "rex": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "rgb": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "ric": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "rlh": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "root": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "round-mod-rem": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "ruby": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "ruby-align": [
+    {
+      "shortname": "css-ruby-1"
+    }
+  ],
+  "ruby-overhang": [
+    {
+      "shortname": "css-ruby-1"
+    }
+  ],
+  "ruby-position": [
+    {
+      "shortname": "css-ruby-1"
+    }
+  ],
+  "s": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "safe-area-inset": [
+    {
+      "shortname": "css-env-1"
+    }
+  ],
+  "samp": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "sanitizer": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "savedata": [
+    {
+      "shortname": "savedata"
+    }
+  ],
+  "scheduler": [
+    {
+      "shortname": "scheduling-apis"
+    }
+  ],
+  "scope": [
+    {
+      "shortname": "css-cascade-6"
+    },
+    {
+      "shortname": "css-nesting-1"
+    }
+  ],
+  "scope-pseudo": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "scoped-custom-element-registries": [
+    {
+      "shortname": "dom"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "screen": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "screen-capture": [
+    {
+      "shortname": "screen-capture"
+    }
+  ],
+  "screen-orientation": [
+    {
+      "shortname": "screen-orientation"
+    }
+  ],
+  "screen-orientation-lock": [
+    {
+      "shortname": "screen-orientation"
+    }
+  ],
+  "screen-wake-lock": [
+    {
+      "shortname": "screen-wake-lock"
+    }
+  ],
+  "script": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "trusted-types"
+    }
+  ],
+  "scripting": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "scroll-behavior": [
+    {
+      "shortname": "css-overflow-3"
+    }
+  ],
+  "scroll-buttons": [
+    {
+      "shortname": "css-overflow-5"
+    }
+  ],
+  "scroll-driven-animations": [
+    {
+      "shortname": "css-animations-2"
+    },
+    {
+      "shortname": "scroll-animations-1"
+    }
+  ],
+  "scroll-elements": [
+    {
+      "shortname": "cssom-view-1"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "scroll-initial-target": [
+    {
+      "shortname": "css-scroll-snap-2"
+    }
+  ],
+  "scroll-into-view": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "scroll-into-view-container": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "scroll-marker-targets": [
+    {
+      "shortname": "css-overflow-5"
+    }
+  ],
+  "scroll-markers": [
+    {
+      "shortname": "css-overflow-5"
+    }
+  ],
+  "scroll-promises": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "scroll-snap": [
+    {
+      "shortname": "css-scroll-snap-1"
+    }
+  ],
+  "scroll-snap-events": [
+    {
+      "shortname": "css-scroll-snap-2"
+    }
+  ],
+  "scroll-target-group": [
+    {
+      "shortname": "css-overflow-5"
+    }
+  ],
+  "scroll-to-text-fragment": [
+    {
+      "shortname": "scroll-to-text-fragment"
+    }
+  ],
+  "scrollbar-color": [
+    {
+      "shortname": "css-scrollbars-1"
+    }
+  ],
+  "scrollbar-gutter": [
+    {
+      "shortname": "css-overflow-3"
+    }
+  ],
+  "scrollbar-width": [
+    {
+      "shortname": "css-scrollbars-1"
+    }
+  ],
+  "scrollend": [
+    {
+      "shortname": "cssom-view-1"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "search": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "search-input-type": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "section": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "secure-payment-confirmation": [
+    {
+      "shortname": "secure-payment-confirmation"
+    }
+  ],
+  "select": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "selection": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "selection-api": [
+    {
+      "shortname": "DOM-Parsing"
+    },
+    {
+      "shortname": "cssom-view-1"
+    },
+    {
+      "shortname": "dom"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selection-api"
+    }
+  ],
+  "selectors": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "serial": [
+    {
+      "shortname": "serial"
+    }
+  ],
+  "serializable-errors": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "server-sent-events": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "server-timing": [
+    {
+      "shortname": "server-timing"
+    }
+  ],
+  "service-workers": [
+    {
+      "shortname": "service-workers"
+    }
+  ],
+  "service-workers-static-routes": [
+    {
+      "shortname": "service-workers"
+    }
+  ],
+  "set": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "set-methods": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "setinterval": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "settimeout": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "shadow-dom": [
+    {
+      "shortname": "dom"
+    }
+  ],
+  "shadow-parts": [
+    {
+      "shortname": "css-shadow-1"
+    }
+  ],
+  "shape-function": [
+    {
+      "shortname": "css-shapes-2"
+    }
+  ],
+  "shape-outside": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-images-3"
+    },
+    {
+      "shortname": "css-shapes-1"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "shapes": [
+    {
+      "shortname": "css-shapes-1"
+    }
+  ],
+  "share": [
+    {
+      "shortname": "web-share"
+    }
+  ],
+  "shared-memory": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "shared-workers": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "shared-workers-extended-lifetime": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "show-picker-input": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "show-picker-select": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "sibling-count": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "signature-based-resource-integrity": [
+    {
+      "shortname": "rfc9421"
+    },
+    {
+      "shortname": "signature-based-sri"
+    },
+    {
+      "shortname": "unencoded-digest"
+    }
+  ],
+  "sizes-auto": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "slot": [
+    {
+      "shortname": "css-shadow-1"
+    },
+    {
+      "shortname": "dom"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "slot-assign": [
+    {
+      "shortname": "dom"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "small": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "smil-svg-animations": [
+    {
+      "shortname": "SVG11"
+    },
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "svg-animations"
+    }
+  ],
+  "smooth": [
+    {
+      "shortname": "css-images-3"
+    }
+  ],
+  "soft-navigations": [
+    {
+      "shortname": "paint-timing"
+    },
+    {
+      "shortname": "soft-navigations"
+    }
+  ],
+  "source": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "sourcemap-header": [
+    {
+      "shortname": "ecma-426"
+    }
+  ],
+  "span": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "speak": [
+    {
+      "shortname": "css-speech-1"
+    }
+  ],
+  "speak-as": [
+    {
+      "shortname": "css-speech-1"
+    }
+  ],
+  "speculation-rules": [
+    {
+      "shortname": "fenced-frame"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "prerendering-revamped"
+    }
+  ],
+  "speech-recognition": [
+    {
+      "shortname": "speech-api"
+    }
+  ],
+  "speech-recognition-grammar": [
+    {
+      "shortname": "speech-api"
+    }
+  ],
+  "speech-synthesis": [
+    {
+      "shortname": "speech-api"
+    }
+  ],
+  "spellcheck": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "spelling-grammar-error": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "spread": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "srcset": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "stable-array-sort": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "starting-style": [
+    {
+      "shortname": "css-transitions-2"
+    }
+  ],
+  "state": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "static-positioning": [
+    {
+      "shortname": "css-position-3"
+    }
+  ],
+  "steps-easing": [
+    {
+      "shortname": "css-easing-1"
+    },
+    {
+      "shortname": "css-easing-2"
+    }
+  ],
+  "sticky-positioning": [
+    {
+      "shortname": "css-position-3"
+    }
+  ],
+  "storage-access": [
+    {
+      "shortname": "storage-access"
+    }
+  ],
+  "storage-buckets": [
+    {
+      "shortname": "storage-buckets"
+    }
+  ],
+  "storage-manager": [
+    {
+      "shortname": "storage"
+    }
+  ],
+  "streams": [
+    {
+      "shortname": "streams"
+    }
+  ],
+  "stretch": [
+    {
+      "shortname": "css-sizing-3"
+    }
+  ],
+  "string-at": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-codepoint": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-includes": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-matchall": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-normalize": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-pad": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-raw": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-repeat": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-replaceall": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-startsends-with": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-trim-leftright": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-trim-startend": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "string-wellformed": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "strings": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "strong": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "structured-clone": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "style": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "style-attr": [
+    {
+      "shortname": "css-style-attr"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "style-query-range-syntax": [
+    {
+      "shortname": "css-conditional-5"
+    }
+  ],
+  "sub-sup": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "subgrid": [
+    {
+      "shortname": "css-grid-2"
+    }
+  ],
+  "subresource-integrity": [
+    {
+      "shortname": "fetch"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "sri-2"
+    }
+  ],
+  "summarizer": [
+    {
+      "shortname": "writing-assistance-apis"
+    }
+  ],
+  "supports": [
+    {
+      "shortname": "css-cascade-5"
+    },
+    {
+      "shortname": "css-conditional-3"
+    },
+    {
+      "shortname": "css-conditional-4"
+    },
+    {
+      "shortname": "css-conditional-5"
+    },
+    {
+      "shortname": "cssom-1"
+    }
+  ],
+  "supports-at-rule": [
+    {
+      "shortname": "css-conditional-5"
+    }
+  ],
+  "supports-compat": [
+    {
+      "shortname": "compat"
+    }
+  ],
+  "supports-named-feature": [
+    {
+      "shortname": "css-conditional-5"
+    }
+  ],
+  "svg": [
+    {
+      "shortname": "SVG11"
+    },
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-backgrounds-3"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-display-3"
+    },
+    {
+      "shortname": "css-fonts-4"
+    },
+    {
+      "shortname": "css-images-3"
+    },
+    {
+      "shortname": "css-inline-3"
+    },
+    {
+      "shortname": "css-masking-1"
+    },
+    {
+      "shortname": "css-overflow-3"
+    },
+    {
+      "shortname": "css-shapes-1"
+    },
+    {
+      "shortname": "css-text-3"
+    },
+    {
+      "shortname": "css-text-decor-3"
+    },
+    {
+      "shortname": "css-transforms-1"
+    },
+    {
+      "shortname": "css-typed-om-1"
+    },
+    {
+      "shortname": "css-writing-modes-4"
+    },
+    {
+      "shortname": "cssom-1"
+    },
+    {
+      "shortname": "fill-stroke-3"
+    },
+    {
+      "shortname": "filter-effects-1"
+    },
+    {
+      "shortname": "geometry-1"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "referrer-policy"
+    },
+    {
+      "shortname": "svg-animations"
+    },
+    {
+      "shortname": "svg-paths"
+    }
+  ],
+  "svg-discouraged": [
+    {
+      "shortname": "SVG11"
+    },
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-masking-1"
+    },
+    {
+      "shortname": "filter-effects-1"
+    }
+  ],
+  "svg-filters": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "filter-effects-1"
+    }
+  ],
+  "symbol": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "symbols-function": [
+    {
+      "shortname": "css-counter-styles-3"
+    }
+  ],
+  "system-color": [
+    {
+      "shortname": "css-color-4"
+    }
+  ],
+  "tab-size": [
+    {
+      "shortname": "css-text-3"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "tabindex": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "table": [
+    {
+      "shortname": "CSS2"
+    },
+    {
+      "shortname": "css-logical-1"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "table-discouraged": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "target": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "target-text": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "template": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "template-for": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "template-literals": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "temporal": [
+    {
+      "shortname": "tc39-temporal"
+    }
+  ],
+  "text-align": [
+    {
+      "shortname": "css-logical-1"
+    },
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "text-align-last": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "text-autospace": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "text-box": [
+    {
+      "shortname": "css-inline-3"
+    }
+  ],
+  "text-combine-upright": [
+    {
+      "shortname": "css-writing-modes-4"
+    }
+  ],
+  "text-decoration": [
+    {
+      "shortname": "CSS2"
+    },
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-text-decor-3"
+    },
+    {
+      "shortname": "css-text-decor-4"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "text-decoration-line-blink": [
+    {
+      "shortname": "css-text-decor-3"
+    }
+  ],
+  "text-decoration-selection": [
+    {
+      "shortname": "css-pseudo-4"
+    }
+  ],
+  "text-decoration-skip-ink": [
+    {
+      "shortname": "css-text-decor-4"
+    }
+  ],
+  "text-decoration-skip-ink-all": [
+    {
+      "shortname": "css-text-decor-4"
+    }
+  ],
+  "text-decoration-spelling-grammar": [
+    {
+      "shortname": "css-text-decor-4"
+    }
+  ],
+  "text-emphasis": [
+    {
+      "shortname": "css-color-4"
+    },
+    {
+      "shortname": "css-text-decor-3"
+    }
+  ],
+  "text-encoding": [
+    {
+      "shortname": "encoding"
+    },
+    {
+      "shortname": "streams"
+    }
+  ],
+  "text-fit": [
+    {
+      "shortname": "css-text-5"
+    }
+  ],
+  "text-indent": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "text-indent-each-line": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "text-indent-hanging": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "text-justify": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "text-modules": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "text-orientation": [
+    {
+      "shortname": "css-writing-modes-4"
+    }
+  ],
+  "text-overflow": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-overflow-3"
+    },
+    {
+      "shortname": "css-overflow-4"
+    }
+  ],
+  "text-shadow": [
+    {
+      "shortname": "css-text-decor-3"
+    },
+    {
+      "shortname": "css-text-decor-4"
+    }
+  ],
+  "text-size-adjust": [
+    {
+      "shortname": "css-size-adjust-1"
+    }
+  ],
+  "text-spacing-trim": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "text-stroke-fill": [
+    {
+      "shortname": "compat"
+    }
+  ],
+  "text-tracks": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "text-transform": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "text-underline-offset": [
+    {
+      "shortname": "css-text-decor-4"
+    }
+  ],
+  "text-underline-position": [
+    {
+      "shortname": "css-text-decor-3"
+    },
+    {
+      "shortname": "css-text-decor-4"
+    }
+  ],
+  "text-wrap": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "text-wrap-balance": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "text-wrap-pretty": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "textarea": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "time": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "time-relative-selectors": [
+    {
+      "shortname": "selectors-5"
+    }
+  ],
+  "title": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "title-attr": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "toggleevent-source": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "top-level-await": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "touch-action": [
+    {
+      "shortname": "compat"
+    },
+    {
+      "shortname": "pointerevents3"
+    },
+    {
+      "shortname": "pointerevents4"
+    }
+  ],
+  "touch-events": [
+    {
+      "shortname": "touch-events"
+    }
+  ],
+  "transferable-arraybuffer": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "transferable-streams": [
+    {
+      "shortname": "streams"
+    }
+  ],
+  "transform-box": [
+    {
+      "shortname": "css-transforms-1"
+    }
+  ],
+  "transforms2d": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-transforms-1"
+    },
+    {
+      "shortname": "css-transforms-2"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "transforms3d": [
+    {
+      "shortname": "css-transforms-2"
+    }
+  ],
+  "transformstream-transformer-cancel": [
+    {
+      "shortname": "streams"
+    }
+  ],
+  "transition-behavior": [
+    {
+      "shortname": "css-transitions-2"
+    }
+  ],
+  "transitions": [
+    {
+      "shortname": "css-easing-1"
+    },
+    {
+      "shortname": "css-easing-2"
+    },
+    {
+      "shortname": "css-images-4"
+    },
+    {
+      "shortname": "css-transitions-1"
+    },
+    {
+      "shortname": "css-transitions-2"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "translate": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "translator": [
+    {
+      "shortname": "translation-api"
+    },
+    {
+      "shortname": "writing-assistance-apis"
+    }
+  ],
+  "trig-functions": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "trusted-types": [
+    {
+      "shortname": "trusted-types"
+    }
+  ],
+  "two-value-display": [
+    {
+      "shortname": "css-display-3"
+    }
+  ],
+  "typed-array-iteration-methods": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "typed-array-iterators": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "typed-arrays": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "u": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "ua-client-hints": [
+    {
+      "shortname": "ua-client-hints"
+    }
+  ],
+  "uint8array-base64-hex": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "unicode-point-escapes": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "unset-value": [
+    {
+      "shortname": "css-cascade-4"
+    }
+  ],
+  "update": [
+    {
+      "shortname": "mediaqueries-4"
+    }
+  ],
+  "upgrade-insecure-requests": [
+    {
+      "shortname": "upgrade-insecure-requests"
+    }
+  ],
+  "url": [
+    {
+      "shortname": "url"
+    }
+  ],
+  "url-canparse": [
+    {
+      "shortname": "url"
+    }
+  ],
+  "url-cross-origin": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "url-integrity": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "url-referrer-policy": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
+  "urlpattern": [
+    {
+      "shortname": "urlpattern"
+    }
+  ],
+  "user-action-pseudos": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "user-activation": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "user-agent-sniffing": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "user-pseudos": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "user-select": [
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "var": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "vertical-align": [
+    {
+      "shortname": "CSS2"
+    },
+    {
+      "shortname": "css-inline-3"
+    }
+  ],
+  "vibration": [
+    {
+      "shortname": "vibration"
+    }
+  ],
+  "video": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "media-source-2"
+    }
+  ],
+  "video-dynamic-range": [
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "view-transition-class": [
+    {
+      "shortname": "css-view-transitions-2"
+    }
+  ],
+  "view-transitions": [
+    {
+      "shortname": "css-view-transitions-1"
+    },
+    {
+      "shortname": "css-view-transitions-2"
+    },
+    {
+      "shortname": "html"
+    }
+  ],
+  "view-transitions-element-scoped": [
+    {
+      "shortname": "css-view-transitions-2"
+    }
+  ],
+  "viewport-segments": [
+    {
+      "shortname": "css-env-1"
+    },
+    {
+      "shortname": "css-viewport-1"
+    },
+    {
+      "shortname": "mediaqueries-5"
+    }
+  ],
+  "viewport-unit-variants": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "viewport-units": [
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "virtual-keyboard": [
+    {
+      "shortname": "virtual-keyboard"
+    }
+  ],
+  "virtual-pressure-sources": [
+    {
+      "shortname": "compute-pressure"
+    }
+  ],
+  "virtual-sensors": [
+    {
+      "shortname": "generic-sensor"
+    }
+  ],
+  "visibility": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-display-3"
+    }
+  ],
+  "visual-viewport": [
+    {
+      "shortname": "cssom-view-1"
+    }
+  ],
+  "wasm": [
+    {
+      "shortname": "ecmascript"
+    },
+    {
+      "shortname": "wasm-js-api-2"
+    },
+    {
+      "shortname": "wasm-web-api-2"
+    }
+  ],
+  "wasm-bigint": [
+    {
+      "shortname": "wasm-js-api-2"
+    }
+  ],
+  "wasm-exception-handling": [
+    {
+      "shortname": "wasm-js-api-2"
+    },
+    {
+      "shortname": "wasm-js-api-2-fork-exception-handling"
+    }
+  ],
+  "wasm-garbage-collection": [
+    {
+      "shortname": "wasm-core-2-fork-gc"
+    }
+  ],
+  "wasm-mutable-globals": [
+    {
+      "shortname": "wasm-core-2"
+    },
+    {
+      "shortname": "wasm-js-api-2"
+    }
+  ],
+  "wasm-threads": [
+    {
+      "shortname": "wasm-js-api-2-fork-threads"
+    }
+  ],
+  "wbr": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "weak-references": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "weakmap": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "weakset": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "web-animations": [
+    {
+      "shortname": "css-animations-1"
+    },
+    {
+      "shortname": "web-animations-1"
+    },
+    {
+      "shortname": "web-animations-2"
+    }
+  ],
+  "web-animations-iterationcomposite": [
+    {
+      "shortname": "web-animations-2"
+    }
+  ],
+  "web-audio": [
+    {
+      "shortname": "webaudio-1.0"
+    },
+    {
+      "shortname": "webaudio-1.1"
+    }
+  ],
+  "web-bluetooth": [
+    {
+      "shortname": "bluetooth"
+    }
+  ],
+  "web-cryptography": [
+    {
+      "shortname": "webcrypto-2"
+    },
+    {
+      "shortname": "webcrypto-secure-curves"
+    }
+  ],
+  "web-locks": [
+    {
+      "shortname": "web-locks"
+    }
+  ],
+  "web-midi": [
+    {
+      "shortname": "webmidi"
+    }
+  ],
+  "web-nfc": [
+    {
+      "shortname": "web-nfc"
+    }
+  ],
+  "web-otp": [
+    {
+      "shortname": "web-otp"
+    }
+  ],
+  "webauthn": [
+    {
+      "shortname": "fido-client-to-authenticator-protocol-v2.2"
+    },
+    {
+      "shortname": "webauthn-3"
+    }
+  ],
+  "webauthn-public-key-easy": [
+    {
+      "shortname": "webauthn-3"
+    }
+  ],
+  "webauthn-signals": [
+    {
+      "shortname": "webauthn-3"
+    }
+  ],
+  "webcodecs": [
+    {
+      "shortname": "webcodecs"
+    },
+    {
+      "shortname": "webcodecs-opus-codec-registration"
+    }
+  ],
+  "webdriver": [
+    {
+      "shortname": "webdriver2"
+    }
+  ],
+  "webdriver-bidi": [
+    {
+      "shortname": "webdriver-bidi"
+    },
+    {
+      "shortname": "webdriver2"
+    }
+  ],
+  "webgl": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "webgl1"
+    },
+    {
+      "shortname": "webgl2"
+    }
+  ],
+  "webgl-color-buffer-float": [
+    {
+      "shortname": "WEBGL_color_buffer_float"
+    }
+  ],
+  "webgl-color-management": [
+    {
+      "shortname": "webgl1"
+    }
+  ],
+  "webgl-compressed-texture-astc": [
+    {
+      "shortname": "WEBGL_compressed_texture_astc"
+    }
+  ],
+  "webgl-compressed-texture-etc": [
+    {
+      "shortname": "WEBGL_compressed_texture_etc"
+    }
+  ],
+  "webgl-compressed-texture-etc1": [
+    {
+      "shortname": "WEBGL_compressed_texture_etc1"
+    }
+  ],
+  "webgl-compressed-texture-pvrtc": [
+    {
+      "shortname": "WEBGL_compressed_texture_pvrtc"
+    }
+  ],
+  "webgl-compressed-texture-s3tc": [
+    {
+      "shortname": "WEBGL_compressed_texture_s3tc"
+    }
+  ],
+  "webgl-compressed-texture-s3tc-srgb": [
+    {
+      "shortname": "WEBGL_compressed_texture_s3tc_srgb"
+    }
+  ],
+  "webgl-debug-renderer-info": [
+    {
+      "shortname": "WEBGL_debug_renderer_info"
+    }
+  ],
+  "webgl-debug-shaders": [
+    {
+      "shortname": "WEBGL_debug_shaders"
+    }
+  ],
+  "webgl-depth-texture": [
+    {
+      "shortname": "WEBGL_depth_texture"
+    }
+  ],
+  "webgl-desynchronized": [
+    {
+      "shortname": "webgl1"
+    }
+  ],
+  "webgl-draw-buffers": [
+    {
+      "shortname": "WEBGL_draw_buffers"
+    }
+  ],
+  "webgl-lose-context": [
+    {
+      "shortname": "WEBGL_lose_context"
+    }
+  ],
+  "webgl-multi-draw": [
+    {
+      "shortname": "WEBGL_multi_draw"
+    }
+  ],
+  "webgl-oes-draw-buffers-indexed": [
+    {
+      "shortname": "OES_draw_buffers_indexed"
+    }
+  ],
+  "webgl-sab": [
+    {
+      "shortname": "webidl"
+    }
+  ],
+  "webgl2": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "webgl1"
+    },
+    {
+      "shortname": "webgl2"
+    }
+  ],
+  "webgl2-color-management": [
+    {
+      "shortname": "webgl1"
+    }
+  ],
+  "webgl2-desynchronized": [
+    {
+      "shortname": "webgl1"
+    }
+  ],
+  "webgpu": [
+    {
+      "shortname": "WGSL"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "webgpu"
+    }
+  ],
+  "webgpu-subgroups": [
+    {
+      "shortname": "webgpu"
+    }
+  ],
+  "webhid": [
+    {
+      "shortname": "hid"
+    }
+  ],
+  "webnn": [
+    {
+      "shortname": "webnn"
+    }
+  ],
+  "webp": [
+    {
+      "shortname": "rfc6386"
+    }
+  ],
+  "webrtc": [
+    {
+      "shortname": "webrtc"
+    },
+    {
+      "shortname": "webrtc-identity"
+    },
+    {
+      "shortname": "websockets"
+    }
+  ],
+  "webrtc-encoded-transform": [
+    {
+      "shortname": "webrtc-encoded-transform"
+    }
+  ],
+  "webrtc-sctp": [
+    {
+      "shortname": "webrtc"
+    }
+  ],
+  "webrtc-stats": [
+    {
+      "shortname": "webidl"
+    },
+    {
+      "shortname": "webrtc"
+    },
+    {
+      "shortname": "webrtc-stats"
+    }
+  ],
+  "websockets": [
+    {
+      "shortname": "rfc6455"
+    },
+    {
+      "shortname": "websockets"
+    }
+  ],
+  "webtransport": [
+    {
+      "shortname": "webtransport"
+    }
+  ],
+  "webusb": [
+    {
+      "shortname": "usb"
+    }
+  ],
+  "webvtt": [
+    {
+      "shortname": "webvtt1"
+    }
+  ],
+  "webvtt-cue-alignment": [
+    {
+      "shortname": "webvtt1"
+    }
+  ],
+  "webvtt-cue-settings": [
+    {
+      "shortname": "webvtt1"
+    }
+  ],
+  "webvtt-regions": [
+    {
+      "shortname": "webvtt1"
+    }
+  ],
+  "webxr-anchors": [
+    {
+      "shortname": "anchors"
+    }
+  ],
+  "webxr-ar": [
+    {
+      "shortname": "webxr-ar-module-1"
+    }
+  ],
+  "webxr-camera": [
+    {
+      "shortname": "raw-camera-access"
+    }
+  ],
+  "webxr-depth-sensing": [
+    {
+      "shortname": "webxr-depth-sensing-1"
+    }
+  ],
+  "webxr-device": [
+    {
+      "shortname": "webxr"
+    }
+  ],
+  "webxr-dom-overlays": [
+    {
+      "shortname": "webxr-dom-overlays-1"
+    }
+  ],
+  "webxr-gamepads": [
+    {
+      "shortname": "webxr-gamepads-module-1"
+    }
+  ],
+  "webxr-hand-input": [
+    {
+      "shortname": "webxr-hand-input-1"
+    }
+  ],
+  "webxr-hit-test": [
+    {
+      "shortname": "webxr-hit-test-1"
+    }
+  ],
+  "webxr-layers": [
+    {
+      "shortname": "webxrlayers-1"
+    }
+  ],
+  "webxr-lighting-estimation": [
+    {
+      "shortname": "webxr-lighting-estimation-1"
+    }
+  ],
+  "wheel-events": [
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "pointerevents3"
+    },
+    {
+      "shortname": "pointerevents4"
+    }
+  ],
+  "where": [
+    {
+      "shortname": "selectors-4"
+    }
+  ],
+  "white-space": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-text-3"
+    },
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "white-space-collapse": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "widows-orphans": [
+    {
+      "shortname": "css-break-3"
+    },
+    {
+      "shortname": "css-multicol-1"
+    }
+  ],
+  "width-height": [
+    {
+      "shortname": "css-sizing-3"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "will-change": [
+    {
+      "shortname": "css-will-change-1"
+    }
+  ],
+  "window": [
+    {
+      "shortname": "cssom-view-1"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "uievents"
+    }
+  ],
+  "window-controls-overlay": [
+    {
+      "shortname": "window-controls-overlay"
+    }
+  ],
+  "window-drag": [
+    {
+      "shortname": "css-ui-4"
+    }
+  ],
+  "window-management": [
+    {
+      "shortname": "cssom-view-1"
+    },
+    {
+      "shortname": "html"
+    },
+    {
+      "shortname": "window-management"
+    }
+  ],
+  "with": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
+  "word-break": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "word-break-auto-phrase": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "word-break-break-word": [
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "word-spacing": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-text-3"
+    }
+  ],
+  "writing-mode": [
+    {
+      "shortname": "SVG2"
+    },
+    {
+      "shortname": "css-writing-modes-4"
+    }
+  ],
+  "writing-mode-svg-values": [
+    {
+      "shortname": "css-writing-modes-4"
+    }
+  ],
+  "writingsuggestions": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "xhr": [
+    {
+      "shortname": "fetch"
+    },
+    {
+      "shortname": "xhr"
+    }
+  ],
+  "xml-serializer": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "xpath": [
+    {
+      "shortname": "dom"
+    }
+  ],
+  "xslt": [
+    {
+      "shortname": "dom"
+    }
+  ],
+  "z-index": [
+    {
+      "shortname": "CSS2"
+    },
+    {
+      "shortname": "css-values-4"
+    }
+  ],
+  "zoom": [
+    {
+      "shortname": "css-viewport-1"
+    }
+  ],
+  "zstd": [
+    {
+      "shortname": "rfc8878"
+    },
+    {
+      "shortname": "rfc9659"
+    }
+  ]
+}
