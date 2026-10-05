@@ -106,7 +106,7 @@
       "type": "object",
       "patternProperties": {
         ".*": {
-          "$ref": "#/definitions/specShortnameArray"
+          "$ref": "#/definitions/webSpecArray"
         }
       }
     },
@@ -341,13 +341,26 @@
       ],
       "additionalProperties": false
     },
-    "specShortnameArray": {
+    "webSpecArray": {
       "type": "array",
-      "description": "An array of specification shortnames from web-specs.json.",
+      "description": "An array of specification references from web-specs.json.",
       "items": {
-        "type": "string"
+        "$ref": "#/definitions/webSpecRecord"
       },
       "minItems": 1
+    },
+    "webSpecRecord": {
+      "type": "object",
+      "description": "A reference to a specification in web-specs from web-specs.json",
+      "properties": {
+        "shortname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "shortname"
+      ],
+      "additionalProperties": false
     },
     "wptRecord": {
       "type": "object",
