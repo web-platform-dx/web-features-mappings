@@ -1,8 +1,78 @@
 # web-features-mappings
 
+## web-features mappings in this repo
+
+This repository maps the following information to [web-features](https://github.com/web-platform-dx/web-features) IDs:
+
+* **Bugs**
+
+  File: `/mappings/bugs.json`
+
+  A list of bug URLs per browser.
+
+* **Chrome status**
+
+  File: `/mappings/chrome-status.json`
+
+  Data from the corresponding chromestatus.com feature entries.
+
+* **Chrome use counters**
+
+  File: `/mappings/chrome-use-counters.json`
+
+  Percentage of page loads in Chrome which use a given feature, and a link to learn more from chromestatus.com.
+
+* **Developer signals**
+
+  File: `/mappings/developer-signals.json`
+
+  Links to corresponding issues on the web-platform-dx/developer-signals repo, and the number of votes.
+
+* **Interop**
+
+  File: `/mappings/interop.json`
+
+  The Interop projects in which features were included, together with their Web Platform Tests labels and WPT.fyi Interop dashboard URLs.
+
+* **MDN docs**
+
+  File: `/mappings/mdn-docs.json`
+
+  Links to relevant MDN documentation pages.
+
+* **Standards positions**
+
+  File: `/mappings/standards-positions.json`
+
+  Standards positions from Mozilla and Apple about features, with links to the relevant issues, final position, and possible concerns.
+
+* **State-of surveys**
+
+  File: `/mappings/state-of-surveys.json`
+
+  List of state-of surveys which mention a given feature, together with the specific survey section and question.
+
+* **Use cases**
+
+  File: `/mappings/use-cases.json`
+
+  List of use cases for which developers want to use a given feature, from the web-platform-dx/developer-signals repo.
+
+* **Web-specs**
+
+  File: `/mappings/web-specs.json`
+
+  List of spec shortnames for each feature, from the web-specs package at https://www.npmjs.com/package/web-specs.
+
+* **Web Platform Tests (WPT)**
+
+  File: `/mappings/wpt.json`
+
+  Links to relevant WPT tests, filtered by feature IDs.
+
 ## Mapping external data to web-features IDs
 
-The [web-features](https://github.com/web-platform-dx/web-features) project provides the minimum amount of data that's needed to support [Baseline](https://web-platform-dx.github.io/web-features/) and otherwise acts as a repository of unique feature IDs, which other projects can point to.
+The [web-features](https://github.com/web-platform-dx/web-features) project provides the minimum amount of data that's needed to support [Baseline](https://web-platform-dx.github.io/baseline/). As such, it mostly acts only as a repository of unique feature IDs, and other projects can point to these IDs.
 
 This was done for maintainability reasons, to avoid adding a lot of third-party data to the web-features project to support other use cases than Baseline. This means that third-party data sources can map their own data to web-features IDs, and are responsible for maintaining that mapping.
 
@@ -11,6 +81,8 @@ Examples of data sources which map to web-features include:
 * The [web-platform-tests project](https://wpt.fyi), which maps certain tests to web-features via search keywords, e.g. [the `feature:grid` keyword](https://wpt.fyi/results/?q=feature:grid).
 * The [browser-compat-data project](https://github.com/mdn/browser-compat-data/), which maps BCD keys to web-features via tags, e.g. [the `web-features:selection-api` tag](https://github.com/search?q=repo%3Amdn%2Fbrowser-compat-data%20web-features%3Aselection-api&type=code).
 * Chrome Platform Status' [Web features usage metrics](https://chromestatus.com/metrics/webfeature/popularity), which maps Chrome page loads to web-features.
+
+This repository maintains mappings from web-feature IDs to multiple other data sources.
 
 ## Adding new mappings
 
@@ -62,7 +134,7 @@ To update the mapping files:
 
    You can either update a single type of data, by running a single `update-*.js` script:
    
-   `node update-mdn-docs-mapping.js`
+   `npm run update:mdn-docs`
 
    Or update all the data at once by running:
 
@@ -136,15 +208,3 @@ The corresponding JSON schemas are exported too: `web-features-mappings/schema` 
 import combinedSchema from "web-features-mappings/schema" with { type: "json" };
 import schemas from "web-features-mappings/schemas" with { type: "json" };
 ```
-
-## TODO
-
-* Add mapping to origin trials.
-* Add mapping to TAG reviews.
-* Add mapping to chromestatus entries (via spec URLs?)
-* Try to find a better way than matching on spec URLs.
-* Find a way to detect new standards positions automatically.
-* Sometimes MDN doc pages get removed (:target-within was removed recently). Find a way to remove the mapping.
-* Publish consolidated data to NPM.
-* Also create releases on GitHub so consumers can download JSON from there too.
-* Migrate the explorer to use this data instead of its own.
