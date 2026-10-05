@@ -102,7 +102,7 @@
       "additionalProperties": false
     },
     "webSpecsFile": {
-      "description": "Schema for web-specs.json. An object where keys are feature IDs and values are an array of specification shortnames from the web-specs package.",
+      "description": "Schema for web-specs.json. An object where keys are feature IDs and values are an array of specification records (with a shortname from the web-specs package).",
       "type": "object",
       "patternProperties": {
         ".*": {
@@ -343,11 +343,24 @@
     },
     "specShortnameArray": {
       "type": "array",
-      "description": "An array of specification shortnames from web-specs.json.",
+      "description": "An array of specification records from web-specs.json.",
       "items": {
-        "type": "string"
+        "$ref": "#/definitions/specRecord"
       },
       "minItems": 1
+    },
+    "specRecord": {
+      "type": "object",
+      "description": "A specification record from web-specs.json.",
+      "properties": {
+        "shortname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "shortname"
+      ],
+      "additionalProperties": false
     },
     "wptRecord": {
       "type": "object",
