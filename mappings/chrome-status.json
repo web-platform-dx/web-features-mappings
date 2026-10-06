@@ -3398,7 +3398,7 @@
       "explainer-links": [],
       "updated": {
         "by": "fwang@igalia.com",
-        "when": "2026-10-03 05:00:28.043035"
+        "when": "2026-10-06 10:49:35.216191"
       }
     },
     {
@@ -13607,7 +13607,7 @@
       "explainer-links": [],
       "updated": {
         "by": "foolip@chromium.org",
-        "when": "2026-09-16 09:46:32.751071"
+        "when": "2026-10-05 19:32:55.681320"
       }
     }
   ],
@@ -14686,7 +14686,7 @@
     {
       "id": 5183481574850560,
       "name": "Web Install API",
-      "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The navigator.install() method enables cross-origin web app installation and provides a better developer experience than handling beforeinstallprompt events. This API is proposed to ship together with the <install> element, a declarative entry point to the same installation capability: https://chromestatus.com/feature/5152834368700416. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Starting in Chrome 157, the new Web Install API allows websites to prompt users to install a web app, given a manifest URL and optional manifest ID.  The `navigator.install()` method enables cross-origin web app installation and provides a better developer experience than handling `beforeinstallprompt` events. This API is launching in parallel with the `<install>` element, a declarative entry point to the same installation capability. \n\n\nIT Admins can control this in two ways:\n* (1) Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), would disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`. Or \n* (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5183481574850560",
       "bug-url": "https://issues.chromium.org/issues/333795265",
@@ -14695,8 +14695,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "liahiscock@microsoft.com",
-        "when": "2026-09-30 19:00:21.452567"
+        "by": "elmirakalali@google.com",
+        "when": "2026-10-05 18:25:46.437022"
       }
     }
   ],
@@ -25526,7 +25526,7 @@
       ],
       "updated": {
         "by": "gabrielbrito@microsoft.com",
-        "when": "2026-10-03 01:00:36.106756"
+        "when": "2026-10-06 01:24:59.066155"
       }
     },
     {
@@ -28278,7 +28278,7 @@
       ],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-09-28 17:37:29.832961"
+        "when": "2026-10-06 10:45:41.844132"
       }
     },
     {
@@ -29521,7 +29521,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-02 22:20:47.561623"
+        "when": "2026-10-06 07:02:05.959915"
       }
     },
     {
@@ -29619,7 +29619,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-30 18:47:35.544666"
+        "when": "2026-10-06 06:53:03.791436"
       }
     },
     {
@@ -30809,7 +30809,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-10-05 15:04:58.668000"
+        "when": "2026-10-06 06:37:57.115729"
       }
     },
     {
@@ -31130,7 +31130,7 @@
     {
       "id": 5152834368700416,
       "name": "HTML install element",
-      "summary": "Triggers a request for the browser to install a web app, given a manifest URL and optional manifest ID. The <install> element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling beforeinstallprompt events. The element is proposed to ship together with navigator.install(), the imperative entry point to the same installation capability: https://chromestatus.com/feature/5183481574850560. Enterprises can control this in two ways - (1) Enterprise policy, WebAppInstallByUserEnabled, can disable user web app installs broadly, including installs initiated via navigator.install() and <install>. Or (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Chrome would now trigger a request for the browser to install a web app, given a manifest URL and optional manifest ID. The `<install>` element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling `beforeinstallprompt` events. The element is launching in parallel with `navigator.install()`, the imperative entry point to the same installation capability. \n\nIT admins can control this in two ways:\n* (1) Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), can disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`. Or \n* (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5152834368700416",
       "bug-url": "https://issues.chromium.org/issues/454827186",
@@ -31139,8 +31139,8 @@
         "https://aka.ms/installelement"
       ],
       "updated": {
-        "by": "liahiscock@microsoft.com",
-        "when": "2026-09-30 18:59:47.165420"
+        "by": "elmirakalali@google.com",
+        "when": "2026-10-05 18:29:46.861473"
       }
     }
   ],
