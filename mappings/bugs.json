@@ -1628,7 +1628,7 @@
   },
   "ext-texture-norm16": {
     "firefox": [
-      "https://bugzil.la/1735401"
+      "https://bugzil.la/2079151"
     ]
   },
   "external": {
@@ -2274,11 +2274,6 @@
   "grid-animation": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=759665"
-    ]
-  },
-  "grid-lanes": {
-    "firefox": [
-      "https://bugzil.la/1981604"
     ]
   },
   "hanging-punctuation": {
@@ -3222,6 +3217,9 @@
   "masonry": {
     "chrome": [
       "https://issues.chromium.org/issues/343257585"
+    ],
+    "firefox": [
+      "https://bugzil.la/1981604"
     ]
   },
   "matchmedia": {

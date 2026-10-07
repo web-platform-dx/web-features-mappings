@@ -167,14 +167,14 @@
       "id": 6207138742534144,
       "name": "AccentColor & AccentColorText follows accent-color value",
       "summary": "AccentColor and AccentColorText reflect the element's effective `accent-color` value instead of only platform-provided system accent colors.\n\nThis allows CSS to reference the same colors used by `accent-color` styling, making it easier to keep custom styling consistent with form controls and other accented UI. It aligns Chromium's behavior with the CSS Color Module Level 4 specification.",
-      "motivation": null,
+      "motivation": "Currently, `AccentColor` and `AccentColorText` keywords have been implemented in a limited capacity for Chromium. They reflect the OS' chosen system accent color when `accent-color` is set to `auto` and return a default value otherwise. \n\nThe CSSWG resolved that the keywords should reflect the value of `accent-color`, allowing developers to use the keywords for intuitive styling of elements. Without this change, the keywords provide no additional value unless being used specifically for a system accent color.",
       "url": "https://chromestatus.com/feature/6207138742534144",
       "bug-url": "https://issues.chromium.org/issues/536420071",
       "spec-link": "https://www.w3.org/TR/css-color-4/#css-system-colors",
       "explainer-links": [],
       "updated": {
         "by": "akyereboah@microsoft.com",
-        "when": "2026-09-02 18:24:21.415380"
+        "when": "2026-10-06 22:34:03.322033"
       }
     },
     {
@@ -3398,7 +3398,7 @@
       "explainer-links": [],
       "updated": {
         "by": "fwang@igalia.com",
-        "when": "2026-10-06 10:49:35.216191"
+        "when": "2026-10-06 21:51:49.595722"
       }
     },
     {
@@ -12102,8 +12102,8 @@
     {
       "id": 5098001721851904,
       "name": "Prompt API Thinking Mode",
-      "summary": "Enables developers to control the reasoning effort and receive thoughts from the built-in AI Prompt API (window.LanguageModel).\n\nDevelopers opt in by passing options when creating session and/or prompting the model (e.g., { effort: \"high\", includeThoughts: true }). High-level semantic effort tiers (\"none\", \"low\", \"medium\", \"high\"), map to underlying configs (e.g. token budgets). Ephemeral reasoning tokens are automatically stripped from the persistent session context, and only surfaced to API clients when requested via `includeThoughts: true`, for flexible response ergonomics.\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).",
-      "motivation": "Current generation on-device language models (such as Gemma 4) are commonly trained as reasoners. By utilizing an internal scratchpad of intermediate thinking tokens prior to producing the final response, these models can achieve significantly higher accuracy on math, code generation, logical deduction, and multi-step planning tasks including those involving tool calling. Today, however, the Prompt API offers no API surface to configure or observe thinking mode, preventing web developers from leveraging a core capability of the model already present on the user's device.\n\nDeveloper opt-in is critical, since reasoning chains can increase token generation by 5× to 20× compared to visible answers, directly impacting latency and battery consumption on resource-constrained client devices. Major LLM APIs (e.g. Gemini, OpenAI, and Anthropic) have converged on exposing explicit reasoning control surfaces. Adding thinking options to the Prompt API unblocks reasoning-heavy web applications while giving developers fine-grained control over when to pay the compute cost of thinking (effort) and whether to stream the intermediate reasoning steps to their UI (includeThoughts).\n",
+      "summary": "Enables developers to control the reasoning effort and receive thoughts from the built-in AI Prompt API (window.LanguageModel).\n\nDevelopers opt in by passing `thinkingEffort` when creating a session and/or prompting the model (e.g., `{ thinkingEffort: \"high\", expectedOutputs: [{ type: \"text\", languages: [\"en\"] }, { type: \"thought\" }] }`). High-level semantic effort tiers (\"none\", \"low\", \"medium\", \"high\") map to underlying configs (e.g. token budgets). Ephemeral reasoning tokens are automatically stripped from the persistent session context, and only surfaced to API clients when requested via `{ type: \"thought\" }` in `expectedOutputs`, for flexible response ergonomics.\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).",
+      "motivation": "Current generation on-device language models (such as Gemma 4) are commonly trained as reasoners. By utilizing an internal scratchpad of intermediate thinking tokens prior to producing the final response, these models can achieve significantly higher accuracy on math, code generation, logical deduction, and multi-step planning tasks including those involving tool calling. Today, however, the Prompt API offers no API surface to configure or observe thinking mode, preventing web developers from leveraging a core capability of the model already present on the user's device.\n\nDeveloper opt-in is critical, since reasoning chains can increase token generation by 5× to 20× compared to visible answers, directly impacting latency and battery consumption on resource-constrained client devices. Major LLM APIs (e.g. Gemini, OpenAI, and Anthropic) have converged on exposing explicit reasoning control surfaces. Adding thinking options to the Prompt API unblocks reasoning-heavy web applications while giving developers fine-grained control over when to pay the compute cost of thinking (`thinkingEffort`) and whether to stream the intermediate reasoning steps to their UI (`expectedOutputs: [..., { type: \"thought\" }]`).\n",
       "url": "https://chromestatus.com/feature/5098001721851904",
       "bug-url": "https://crbug.com/546151578",
       "spec-link": "https://webmachinelearning.github.io/prompt-api",
@@ -12112,7 +12112,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-09-29 23:36:39.358316"
+        "when": "2026-10-06 16:56:29.327151"
       }
     },
     {
@@ -14686,7 +14686,7 @@
     {
       "id": 5183481574850560,
       "name": "Web Install API",
-      "summary": "Starting in Chrome 157, the new Web Install API allows websites to prompt users to install a web app, given a manifest URL and optional manifest ID.  The `navigator.install()` method enables cross-origin web app installation and provides a better developer experience than handling `beforeinstallprompt` events. This API is launching in parallel with the `<install>` element, a declarative entry point to the same installation capability. \n\n\nIT Admins can control this in two ways:\n* (1) Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), would disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`. Or \n* (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Starting in Chrome 157, the new Web Install API allows websites to prompt users to install a web app, given a manifest URL and optional manifest ID.  The `navigator.install()` method enables cross-origin web app installation and provides a better developer experience than handling `beforeinstallprompt` events. This API is launching in parallel with the `<install>` element, a declarative entry point to the same installation capability. \n\nAdmins can control this in two ways:\n1. Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), would disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`. Or \n2. [Permissions policy](https://www.w3.org/TR/permissions-policy/), web-app-installation, can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5183481574850560",
       "bug-url": "https://issues.chromium.org/issues/333795265",
@@ -14695,8 +14695,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-10-05 18:25:46.437022"
+        "by": "siobhankeating@google.com",
+        "when": "2026-10-07 12:54:43.191259"
       }
     }
   ],
@@ -25526,7 +25526,7 @@
       ],
       "updated": {
         "by": "gabrielbrito@microsoft.com",
-        "when": "2026-10-06 01:24:59.066155"
+        "when": "2026-10-07 11:36:38.504933"
       }
     },
     {
@@ -28155,8 +28155,8 @@
     },
     {
       "id": 5172464636133376,
-      "name": "Support for WebHID (Human Interface Device)",
-      "summary": "WebHID now allows web applications to interact with a wider range of devices. Standard Human Interface Device (HID) examples include mice, keyboards, touchscreens, and gamepads. Those are accessible with high-level input events. However, specialized HID devices and features (for example, custom keyboards, game controllers, and call control headsets) require extended access. \n\nWebHID allows web applications to request access, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, and ChromeOS). Support on Android is planned for Chrome 157. To read more, see [Connect to uncommon HID devices](https://developer.chrome.com/docs/extensions/how-to/web-platform/webhid).\n\nThis feature can be controlled by the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)",
+      "name": "Support for WebHID",
+      "summary": "WebHID allows web applications to interact with a wider range of devices. Standard examples of Human Interface Devices (HIDs)  include mice, keyboards, touchscreens, and gamepads. Those are accessible with high-level input events. However, specialized HIDs and HID features (for example, custom keyboards, game controllers, and call control headsets) require extended access. \n\nWebHID allows web applications to request access, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, and ChromeOS). Support on Android is planned for Chrome 157. To read more, see [Connect to uncommon HID devices](https://developer.chrome.com/docs/extensions/how-to/web-platform/webhid).\n\nThis feature can be controlled by the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)",
       "motivation": "",
       "url": "https://chromestatus.com/feature/5172464636133376",
       "bug-url": "http://crbug.com/40628009",
@@ -28165,8 +28165,8 @@
         "https://github.com/WICG/webhid/blob/master/EXPLAINER.md"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-09-29 17:27:07.001156"
+        "by": "siobhankeating@google.com",
+        "when": "2026-10-07 13:12:19.679578"
       }
     }
   ],
@@ -28238,15 +28238,15 @@
     {
       "id": 5160724576993280,
       "name": "Deprecate and remove WebRTC peer connection method",
-      "summary": "Starting in Chrome 160, Chrome will remove support for the `RTCPeerConnection.createDTMFSender()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official _Real-time communication for the web_ [WebRTC](https://webrtc.org/) standard. Removing it ensures better compatibility and security across different web browsers.\n\nIT Admins should ensure that any internal or third-party web communication applications that rely on WebRTC are tested before Chrome 160 is deployed.",
+      "summary": "Starting in Chrome 160, Chrome will remove support for the `RTCPeerConnection.createDTMFSender()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official _Real-time communication for the web_([WebRTC](https://webrtc.org/)) standard. Removing it ensures better compatibility and security across different web browsers.\n\n**Before Chrome 160** is deployed, admins should test any internal or third-party web communication applications that rely on WebRTC.",
       "motivation": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
       "url": "https://chromestatus.com/feature/5160724576993280",
       "bug-url": "http://crbug.com/553274713",
       "spec-link": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection",
       "explainer-links": [],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-09-30 14:56:17.361083"
+        "by": "siobhankeating@google.com",
+        "when": "2026-10-07 13:20:27.508327"
       }
     },
     {
@@ -28278,7 +28278,7 @@
       ],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-10-06 10:45:41.844132"
+        "when": "2026-10-07 09:55:39.745350"
       }
     },
     {
@@ -28340,7 +28340,7 @@
     {
       "id": 5091582546149376,
       "name": "WebRTC Diagnostic Logging API",
-      "summary": "The WebRTC Web Diagnostic Logging API allows authorized web applications to trigger the collection of WebRTC diagnostic data so that it can be used for local debugging. It also allows an application to share the WebRTC diagnostic data with the user agent vendor, subject to user authorization, with the purpose of providing information that can help fix bugs in or improve the user agent.\n\nDiagnostic logs are enabled with the enterprise policy  [WebRtcDiagnosticLogCollectionAllowedForOrigins](https://chromeenterprise.google/policies/#WebRtcDiagnosticLogCollectionAllowedForOrigins).",
+      "summary": "The Real-time Communication for the Web ([WebRTC](https://webrtc.org/)) Diagnostic Logging API allows authorized web applications to trigger the collection of WebRTC diagnostic data so that it can be used for local debugging. It also allows an application to share the WebRTC diagnostic data with the user agent vendor, subject to user authorization, with the purpose of providing information that can help fix bugs in or improve the user agent.\n\nAdmins can enable diagnostic logs with the enterprise policy [WebRtcDiagnosticLogCollectionAllowedForOrigins](https://chromeenterprise.google/policies/#WebRtcDiagnosticLogCollectionAllowedForOrigins).",
       "motivation": "WebRTC applications often encounter complex connectivity or media quality issues that are difficult to reproduce in local environments. To debug these issues in production, sometimes it is helpful for developers to have access to internal state and performance metrics. This also applies to issues in the user agent.\n\nThe WebRTC Web Diagnostic Logging API allows authorized web applications to trigger the collection of WebRTC diagnostic data so that it can be used for local debugging. It also allows an application to share the WebRTC diagnostic data with the user agent vendor, subject to user authorization, with the purpose of providing information that can help fix bugs in or improve the user agent.",
       "url": "https://chromestatus.com/feature/5091582546149376",
       "bug-url": "https://crbug.com/481412281",
@@ -28349,8 +28349,8 @@
         "https://github.com/WICG/webrtc-diagnostic-logging/blob/main/explainer.md"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-09-30 15:24:35.762789"
+        "by": "siobhankeating@google.com",
+        "when": "2026-10-07 12:13:54.753126"
       }
     },
     {
@@ -29521,7 +29521,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-06 07:02:05.959915"
+        "when": "2026-10-07 09:57:12.086798"
       }
     },
     {
@@ -29555,7 +29555,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-02 21:32:42.164237"
+        "when": "2026-10-07 10:32:36.065554"
       }
     },
     {
@@ -29619,7 +29619,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-06 06:53:03.791436"
+        "when": "2026-10-06 17:11:19.721777"
       }
     },
     {
@@ -29635,7 +29635,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-01 20:32:13.299700"
+        "when": "2026-10-06 21:53:58.532068"
       }
     },
     {
@@ -31130,7 +31130,7 @@
     {
       "id": 5152834368700416,
       "name": "HTML install element",
-      "summary": "Chrome would now trigger a request for the browser to install a web app, given a manifest URL and optional manifest ID. The `<install>` element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling `beforeinstallprompt` events. The element is launching in parallel with `navigator.install()`, the imperative entry point to the same installation capability. \n\nIT admins can control this in two ways:\n* (1) Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), can disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`. Or \n* (2) Permissions Policy, web-app-installation, can allow or disallow use of this feature on origins the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Chrome can now trigger a request for the browser to install a web app, given a manifest URL and optional manifest ID. The `<install>` element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling `beforeinstallprompt` events. The element is launching in parallel with `navigator.install()`, the imperative entry point to the same installation capability. \n\nAdmins can control this in two ways:\n1. Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), can disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`.  \n2. [Permissions policy](https://www.w3.org/TR/permissions-policy/), web-app-installation, can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5152834368700416",
       "bug-url": "https://issues.chromium.org/issues/454827186",
@@ -31139,8 +31139,8 @@
         "https://aka.ms/installelement"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-10-05 18:29:46.861473"
+        "by": "siobhankeating@google.com",
+        "when": "2026-10-07 12:57:33.191652"
       }
     }
   ],
