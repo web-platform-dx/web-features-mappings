@@ -22712,6 +22712,22 @@
     }
   },
   "focusgroup": {
+    "standards-positions": [
+      {
+        "vendor": "mozilla",
+        "url": "https://github.com/mozilla/standards-positions/issues/1348",
+        "position": "positive",
+        "concerns": []
+      },
+      {
+        "vendor": "apple",
+        "url": "https://github.com/WebKit/standards-positions/issues/171",
+        "position": "",
+        "concerns": [
+          "device independence"
+        ]
+      }
+    ],
     "developer-signals": {
       "url": "https://github.com/web-platform-dx/developer-signals/issues/546",
       "votes": 20
