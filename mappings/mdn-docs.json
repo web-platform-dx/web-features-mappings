@@ -11370,5 +11370,57 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/symbols"
     }
+  ],
+  "animations-css-animation-accessors": [
+    {
+      "slug": "Web/API/AnimationEvent/animation",
+      "title": "AnimationEvent: animation property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/AnimationEvent/animation"
+    },
+    {
+      "slug": "Web/API/TransitionEvent/animation",
+      "title": "TransitionEvent: animation property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/TransitionEvent/animation"
+    }
+  ],
+  "iterator-includes": [
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/Iterator/includes",
+      "title": "Iterator.prototype.includes()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/includes"
+    }
+  ],
+  "iterator-zip-zipkeyed": [
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/Iterator/zip",
+      "title": "Iterator.zip()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/zip"
+    },
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/Iterator/zipKeyed",
+      "title": "Iterator.zipKeyed()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/zipKeyed"
+    }
+  ],
+  "string-substr": [
+    {
+      "slug": "Web/JavaScript/Reference/Global_Objects/String/substr",
+      "title": "String.prototype.substr()",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substr"
+    }
+  ],
+  "x-frame-options": [
+    {
+      "slug": "Web/HTTP/Reference/Headers/X-Frame-Options",
+      "title": "X-Frame-Options header",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/X-Frame-Options"
+    }
   ]
 }

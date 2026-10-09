@@ -35,7 +35,6 @@
   },
   "accent-color": {
     "chrome": [
-      "https://issues.chromium.org/issues/536420071",
       "https://issues.chromium.org/issues/481353056",
       "https://issues.chromium.org/issues/40764875",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1092093"
@@ -1043,12 +1042,6 @@
     ],
     "firefox": [
       "https://bugzil.la/1726232"
-    ],
-    "safari": [
-      "https://webkit.org/b/277912"
-    ],
-    "safari_ios": [
-      "https://webkit.org/b/277912"
     ]
   },
   "cors": {
@@ -2788,6 +2781,11 @@
   "iterator-methods": {
     "chrome": [
       "https://bugs.chromium.org/p/v8/issues/detail?id=13558"
+    ]
+  },
+  "iterator-zip-zipkeyed": {
+    "safari": [
+      "https://webkit.org/b/303246"
     ]
   },
   "iterators": {

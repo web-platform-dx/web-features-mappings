@@ -545,6 +545,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/46#issuecomment-4747770101"
     }
   ],
+  "share": [
+    {
+      "description": "Share game result (\"view of the game board\") via a snapshot at the end of the game (a web app).",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6068355295"
+    }
+  ],
   "sibling-count": [
     {
       "description": "Animate in a row of cards with increasing `transition-delay`, so they appear one after another.",
@@ -617,6 +623,12 @@
     {
       "description": "To maintain web accessibility, and easily increase QoL for mobile users.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/61#issuecomment-4781700503"
+    }
+  ],
+  "transformstream-transformer-cancel": [
+    {
+      "description": "I use a `TransformStream` for encrypting large amounts of data in a streaming fashion. Because I need to support funky ECC curves (Brainpool) and authenticated encryption (AES-GCM) to adhere to regulatory guidelines, the encryption is performed using OpenSSL via WASM. To encrypt data, the `start` method of the transformer instantiates a new instance of the encryptor class implemented in C++ using Emscriptens Javascript glue code. Without a `cancel` callback method, the encryptor instance leaves behind a memory leak filling up the WASM heap until no more memory can be allocated. The encryption is only one step of a whole pipeline:\n\n* Compression using zip.js (readable stream)\n* SHA512 hashing of the unencrypted ZIP using hash-wasm (transform stream)\n* encryption using OpenSSL over WASM (transform stream)\n* SHA512 hashing of the encrypted ZIP using hash-wasm (transform stream)\n* writing to OPFS (writable stream)\n\nSince this process can be aborted by the user to make changes to the input files and the encryption transformer passes whole chunks to WASM, cancelling the stream pipeline multiple times in a row can leak a lot of memory pretty fast.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/321#issuecomment-6047671165"
     }
   ],
   "translator": [

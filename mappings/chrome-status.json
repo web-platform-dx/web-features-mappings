@@ -164,20 +164,6 @@
   ],
   "accent-color": [
     {
-      "id": 6207138742534144,
-      "name": "AccentColor & AccentColorText follows accent-color value",
-      "summary": "AccentColor and AccentColorText reflect the element's effective `accent-color` value instead of only platform-provided system accent colors.\n\nThis allows CSS to reference the same colors used by `accent-color` styling, making it easier to keep custom styling consistent with form controls and other accented UI. It aligns Chromium's behavior with the CSS Color Module Level 4 specification.",
-      "motivation": "Currently, `AccentColor` and `AccentColorText` keywords have been implemented in a limited capacity for Chromium. They reflect the OS' chosen system accent color when `accent-color` is set to `auto` and return a default value otherwise. \n\nThe CSSWG resolved that the keywords should reflect the value of `accent-color`, allowing developers to use the keywords for intuitive styling of elements. Without this change, the keywords provide no additional value unless being used specifically for a system accent color.",
-      "url": "https://chromestatus.com/feature/6207138742534144",
-      "bug-url": "https://issues.chromium.org/issues/536420071",
-      "spec-link": "https://www.w3.org/TR/css-color-4/#css-system-colors",
-      "explainer-links": [],
-      "updated": {
-        "by": "akyereboah@microsoft.com",
-        "when": "2026-10-06 22:34:03.322033"
-      }
-    },
-    {
       "id": 5106043975761920,
       "name": "Web app scope system accent color",
       "summary": "Restricts access to the system accent color for CSS keywords and `accent-color: auto` to be only within a web app and initial profile context.\n\nAccentColor and AccentColorText CSS keywords, pose a significant fingerprinting vector when exposing the user's system colors widely on the web. As such, they're only available in installed web app contexts. Form controls with `accent-color: auto` also match this scope with this feature launch. This introduces more consistent developer and user expectations for system colors and aligns with fingerprinting restrictions for AccentColor[Text].",
@@ -2006,7 +1992,7 @@
       "explainer-links": [],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-10-02 17:40:30.633160"
+        "when": "2026-10-07 17:59:02.028542"
       }
     },
     {
@@ -3398,7 +3384,7 @@
       "explainer-links": [],
       "updated": {
         "by": "fwang@igalia.com",
-        "when": "2026-10-06 21:51:49.595722"
+        "when": "2026-10-07 15:18:31.630244"
       }
     },
     {
@@ -12630,11 +12616,11 @@
       "motivation": "Header does not fit well into Content Security Policy, and it was deemed unnecessary given the alternative of using `--ip-address-space-overrides`\n\nMetrics show this is barely used:\n\nhttps://chromestatus.com/metrics/feature/timeline/popularity/5983\n",
       "url": "https://chromestatus.com/feature/5187021965492224",
       "bug-url": "https://issues.chromium.org/issues/527730705",
-      "spec-link": null,
+      "spec-link": "https://github.com/WICG/local-network-access/commit/314cb7ad46d6c10a9498551a445a7cd7f3cfbc0c",
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-09-30 10:02:46.595675"
+        "when": "2026-10-09 12:07:55.524507"
       }
     },
     {
@@ -18423,7 +18409,7 @@
       "explainer-links": [],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-10-02 18:33:51.285182"
+        "when": "2026-10-08 07:26:58.158057"
       }
     },
     {
@@ -19644,7 +19630,7 @@
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-10-05 13:16:46.054124"
+        "when": "2026-10-08 18:36:12.408213"
       }
     },
     {
@@ -21465,7 +21451,7 @@
       ],
       "updated": {
         "by": "lingqi@chromium.org",
-        "when": "2026-06-03 13:12:33.014682"
+        "when": "2026-10-07 15:42:05.359984"
       }
     },
     {
@@ -25526,7 +25512,7 @@
       ],
       "updated": {
         "by": "gabrielbrito@microsoft.com",
-        "when": "2026-10-07 11:36:38.504933"
+        "when": "2026-10-09 12:19:12.600184"
       }
     },
     {
@@ -26317,7 +26303,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-10-01 08:56:18.391594"
+        "when": "2026-10-07 15:03:01.524333"
       }
     },
     {
@@ -28349,8 +28335,8 @@
         "https://github.com/WICG/webrtc-diagnostic-logging/blob/main/explainer.md"
       ],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-10-07 12:13:54.753126"
+        "by": "guidou@google.com",
+        "when": "2026-10-08 12:41:19.315060"
       }
     },
     {
@@ -29521,7 +29507,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-07 09:57:12.086798"
+        "when": "2026-10-09 14:32:21.110060"
       }
     },
     {
@@ -29555,7 +29541,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-07 10:32:36.065554"
+        "when": "2026-10-09 14:31:36.612186"
       }
     },
     {
@@ -29587,7 +29573,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-09-30 19:17:02.806948"
+        "when": "2026-10-09 14:29:45.302914"
       }
     },
     {
@@ -29625,7 +29611,7 @@
     {
       "id": 5094058497277952,
       "name": "WebTransport reliability attributes",
-      "summary": "Adds the  WebTransport.reliability  instance attribute and static WebTransport.supportsReliableOnly attribute. These APIs indicate whether the user agent supports WebTransport over exclusively reliable connections and whether an established session supports unreliable transport such as datagrams.\n\nIn Chromium, reliability initially returns \"pending\" and changes to  \"supports-unreliable\" after an HTTP/3 WebTransport connection is established.  Since Chromium does not currently support HTTP/2 fallback,  WebTransport.supportsReliableOnly returns false; any successfully established session uses HTTP/3 and supports unreliable datagrams.",
+      "summary": "Adds the WebTransport.reliability instance attribute and static WebTransport.supportsReliableOnly attribute. These APIs indicate whether the user agent supports WebTransport over exclusively reliable connections and whether an established session supports unreliable transport such as datagrams.\n\nIn Chromium, reliability initially returns \"pending\" and changes to \"supports-unreliable\" after an HTTP/3 WebTransport connection is established.  Since Chromium does not currently support HTTP/2 fallback,  WebTransport.supportsReliableOnly returns false; any successfully established session uses HTTP/3 and supports unreliable datagrams.",
       "motivation": "WebTransport may operate over connections with different reliability capabilities. Applications such as games, interactive media, and real-time collaboration tools need to know whether unreliable datagrams are available before selecting their transport strategy.\n\nWebTransport.supportsReliableOnly  reports whether the user agent supports WebTransport over exclusively reliable connections. The per-session reliability attribute is \"pending\" while connecting and becomes \"reliable-only\" or  \"supports-unreliable\" once the transport is known.\n\nChromium currently implements WebTransport over HTTP/3 with unreliable datagram support, so established sessions report \"supports-unreliable\" and  supportsReliableOnly  returns false.",
       "url": "https://chromestatus.com/feature/5094058497277952",
       "bug-url": "https://issues.chromium.org/issues/545636884",
@@ -29635,7 +29621,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-06 21:53:58.532068"
+        "when": "2026-10-08 18:03:27.421096"
       }
     },
     {
@@ -30583,7 +30569,7 @@
       "explainer-links": [],
       "updated": {
         "by": "choiwonik91@gmail.com",
-        "when": "2026-10-01 10:49:33.787953"
+        "when": "2026-10-07 15:23:58.298801"
       }
     },
     {
@@ -30809,7 +30795,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-10-06 06:37:57.115729"
+        "when": "2026-10-08 07:51:41.022657"
       }
     },
     {
@@ -31130,7 +31116,7 @@
     {
       "id": 5152834368700416,
       "name": "HTML install element",
-      "summary": "Chrome can now trigger a request for the browser to install a web app, given a manifest URL and optional manifest ID. The `<install>` element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling `beforeinstallprompt` events. The element is launching in parallel with `navigator.install()`, the imperative entry point to the same installation capability. \n\nAdmins can control this in two ways:\n1. Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), can disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`.  \n2. [Permissions policy](https://www.w3.org/TR/permissions-policy/), web-app-installation, can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Chrome can now trigger a request for the browser to install a web app, given a manifest URL and optional manifest ID. The <install> element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling `beforeinstallprompt` events. The element is launching in parallel with `navigator.install()`, the imperative entry point to the same installation capability. \n\nAdmins can control this in two ways:\n1. Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), can disable user web app installs broadly, including installs initiated via `navigator.install()` and <install>.  \n2. [Permissions policy](https://www.w3.org/TR/permissions-policy/), web-app-installation, can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5152834368700416",
       "bug-url": "https://issues.chromium.org/issues/454827186",
@@ -31139,8 +31125,8 @@
         "https://aka.ms/installelement"
       ],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-10-07 12:57:33.191652"
+        "by": "elmirakalali@google.com",
+        "when": "2026-10-08 16:10:08.999049"
       }
     }
   ],
@@ -31174,7 +31160,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-10-02 17:00:53.537581"
+        "when": "2026-10-07 15:11:04.771556"
       }
     }
   ],

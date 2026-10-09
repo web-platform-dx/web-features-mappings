@@ -189,6 +189,14 @@
       "shortname": "scroll-animations-1"
     }
   ],
+  "animations-css-animation-accessors": [
+    {
+      "shortname": "css-animations-2"
+    },
+    {
+      "shortname": "css-transitions-2"
+    }
+  ],
   "app-file-handlers": [
     {
       "shortname": "manifest-incubations"
@@ -411,6 +419,9 @@
   "audio": [
     {
       "shortname": "html"
+    },
+    {
+      "shortname": "media-source-2"
     }
   ],
   "audio-session": [
@@ -1350,10 +1361,12 @@
       "shortname": "css-conditional-3"
     },
     {
-      "shortname": "css-pseudo-4"
-    },
-    {
       "shortname": "cssom-1"
+    }
+  ],
+  "css-object-model-csspseudoelement": [
+    {
+      "shortname": "css-pseudo-4"
     }
   ],
   "css-supports": [
@@ -1813,6 +1826,9 @@
     }
   ],
   "explicit-resource-management": [
+    {
+      "shortname": "ecmascript"
+    },
     {
       "shortname": "tc39-async-explicit-resource-management"
     }
@@ -2696,6 +2712,9 @@
     },
     {
       "shortname": "rfc9112"
+    },
+    {
+      "shortname": "rfc9113"
     }
   ],
   "hwb": [
@@ -3126,6 +3145,11 @@
       "shortname": "ecmascript"
     }
   ],
+  "iterator-includes": [
+    {
+      "shortname": "tc39-iterator-includes"
+    }
+  ],
   "iterator-join": [
     {
       "shortname": "tc39-iterator-join"
@@ -3134,6 +3158,11 @@
   "iterator-methods": [
     {
       "shortname": "ecmascript"
+    }
+  ],
+  "iterator-zip-zipkeyed": [
+    {
+      "shortname": "tc39-joint-iteration"
     }
   ],
   "iterators": [
@@ -4805,6 +4834,11 @@
       "shortname": "resource-timing"
     }
   ],
+  "retriable-module-loading": [
+    {
+      "shortname": "html"
+    }
+  ],
   "revert-value": [
     {
       "shortname": "css-cascade-4"
@@ -4950,6 +4984,11 @@
   "scripting": [
     {
       "shortname": "mediaqueries-5"
+    }
+  ],
+  "scroll-axis-lock": [
+    {
+      "shortname": "css-overflow-5"
     }
   ],
   "scroll-behavior": [
@@ -5465,6 +5504,11 @@
       "shortname": "ecmascript"
     }
   ],
+  "string-substr": [
+    {
+      "shortname": "ecmascript"
+    }
+  ],
   "string-trim-leftright": [
     {
       "shortname": "ecmascript"
@@ -5811,6 +5855,11 @@
     }
   ],
   "text-decoration-skip-ink-all": [
+    {
+      "shortname": "css-text-decor-4"
+    }
+  ],
+  "text-decoration-skip-spaces": [
     {
       "shortname": "css-text-decor-4"
     }
@@ -6740,6 +6789,14 @@
       "shortname": "pointerevents4"
     }
   ],
+  "wheel-events-momentum": [
+    {
+      "shortname": "pointerevents3"
+    },
+    {
+      "shortname": "pointerevents4"
+    }
+  ],
   "where": [
     {
       "shortname": "selectors-4"
@@ -6856,6 +6913,11 @@
     }
   ],
   "writingsuggestions": [
+    {
+      "shortname": "html"
+    }
+  ],
+  "x-frame-options": [
     {
       "shortname": "html"
     }
