@@ -3384,7 +3384,7 @@
       "explainer-links": [],
       "updated": {
         "by": "fwang@igalia.com",
-        "when": "2026-10-07 15:18:31.630244"
+        "when": "2026-10-09 16:48:09.769762"
       }
     },
     {
@@ -6641,8 +6641,8 @@
         "https://github.com/WICG/eyedropper-api/blob/main/README.md"
       ],
       "updated": {
-        "by": "foolip@google.com",
-        "when": "2025-08-22 07:10:12.272996"
+        "by": "pcupp@microsoft.com",
+        "when": "2026-10-09 22:28:03.901165"
       }
     }
   ],
@@ -10392,7 +10392,7 @@
       "explainer-links": [],
       "updated": {
         "by": "eui-sang.lim@samsung.com",
-        "when": "2026-10-02 17:01:48.025934"
+        "when": "2026-10-10 02:30:36.180831"
       }
     },
     {
@@ -16319,7 +16319,7 @@
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-10-02 17:46:11.871825"
+        "when": "2026-10-09 14:32:11.890955"
       }
     },
     {
@@ -25512,7 +25512,7 @@
       ],
       "updated": {
         "by": "gabrielbrito@microsoft.com",
-        "when": "2026-10-09 12:19:12.600184"
+        "when": "2026-10-09 21:55:44.020849"
       }
     },
     {
@@ -26309,7 +26309,7 @@
     {
       "id": 5177569273053184,
       "name": "Web Bluetooth: BluetoothRemoteGATTServer.maxWriteWithoutResponseSize",
-      "summary": "Adds BluetoothRemoteGATTServer.maxWriteWithoutResponseSize, which reports the largest payload that writeValueWithoutResponse() can send in one ATT packet. A maxwritewithoutresponsesizechanged event notifies applications when Chrome observes the value change, allowing applications to size chunks without assuming a 20-byte limit.\n\n\n\nimplementation: https://chromium-review.googlesource.com/c/chromium/src/+/7879985\n\nBug: 40265040, 40686244, 40163619\n",
+      "summary": "Adds BluetoothRemoteGATTServer.maxWriteWithoutResponseSize, which reports the largest payload that writeValueWithoutResponse() can send in one ATT packet. A maxwritewithoutresponsesizechanged event notifies applications when Chrome observes the value change, allowing applications to size chunks without assuming a 20-byte limit.\n\n\nit depends on: https://chromestatus.com/feature/5138797158334464 and will be shipped together.\n\nimplementation: https://chromium-review.googlesource.com/c/chromium/src/+/7879985\n\nBug: 40265040, 40686244, 40163619\n",
       "motivation": "Web Bluetooth applications currently cannot determine the largest payload accepted by writeValueWithoutResponse() for an active GATT connection. They must hard-code the 20-byte default, use platform-specific heuristics, or probe with writes and handle platform-dependent failures or truncation. Exposing the usable payload size allows applications to chunk transfers correctly and use larger ATT MTUs for substantially better throughput.",
       "url": "https://chromestatus.com/feature/5177569273053184",
       "bug-url": "https://issues.chromium.org/issues/40265040",
@@ -26319,7 +26319,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-08-28 12:04:55.317905"
+        "when": "2026-10-09 23:12:53.103256"
       }
     },
     {
@@ -29491,7 +29491,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-02 23:40:10.023232"
+        "when": "2026-10-10 01:04:25.662760"
       }
     },
     {
@@ -29507,12 +29507,12 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-09 14:32:21.110060"
+        "when": "2026-10-09 17:54:08.058363"
       }
     },
     {
       "id": 5109912169480192,
-      "name": "WebTransportReceiveStream",
+      "name": "WebTransport receive stream",
       "summary": "Adds the standardized WebTransportReceiveStream interface, a ReadableStream subclass used for incoming unidirectional streams and the readable side of bidirectional streams. Its getStats() method returns per-stream byte counters: bytesReceived reports bytes received from the network, while bytesRead reports bytes delivered to the application.",
       "motivation": "Incoming WebTransport streams have historically been exposed as generic ReadableStream objects in Chromium. The WebTransport specification defines a dedicated WebTransportReceiveStream subclass with stream-specific statistics.\n\nApplications that receive large or latency-sensitive streams need to distinguish bytes received by the browser from bytes actually consumed by JavaScript. This helps diagnose application backpressure, buffering, and slow-consumer behavior. Exposing the standardized subclass also aligns the runtime type of incoming streams with the WebTransport specification and other browser engines.",
       "url": "https://chromestatus.com/feature/5109912169480192",
@@ -29524,14 +29524,14 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-02 17:25:24.277234"
+        "when": "2026-10-10 00:52:18.681012"
       }
     },
     {
       "id": 5089961022980096,
       "name": "WebTransport anticipated concurrent incoming streams",
-      "summary": "Adds WebTransport constructor options and read-write attributes that let applications provide hints for the anticipated number of concurrently open server-initiated unidirectional and bidirectional streams. Constructor hints configure the initial QUIC stream allowance, reducing the risk that a server that needs high stream concurrency is blocked by the initial stream limit.",
-      "motivation": "Some WebTransport applications expect a server to create many streams concurrently. If the initial QUIC stream allowance is lower than the application's expected concurrency, the server can be blocked until additional stream credit becomes available, adding avoidable latency or preventing the desired concurrency.\n\nThese hints let the application communicate its expected concurrency when the connection is created, allowing the browser to advertise an appropriate initial stream allowance. Values above the required minimum are preserved. Values below 100 do not reduce the effective allowance because the WebTransport specification requires clients to initially permit at least 100 streams of each type.",
+      "summary": "Allows WebTransport applications to indicate how many incoming streams they expect to have open at once. Constructor hints configure the initial QUIC stream allowance, reducing the risk that a server that needs high stream concurrency is blocked by the initial stream limit.",
+      "motivation": "Some WebTransport applications expect a server to open many streams at once. If the initial QUIC stream allowance is too low, the server must wait for more stream credit before opening additional streams, adding avoidable latency or limiting the number of open streams. Constructor hints let the application state its expected stream count when creating the connection, so the browser can advertise an appropriate initial allowance. Values above the required minimum are preserved; values below 100 do not reduce the effective allowance because the specification requires clients to initially permit at least 100 streams of each type.",
       "url": "https://chromestatus.com/feature/5089961022980096",
       "bug-url": "https://issues.chromium.org/issues/565837025",
       "spec-link": "https://w3c.github.io/webtransport/#web-transport-configuration",
@@ -29541,7 +29541,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-09 14:31:36.612186"
+        "when": "2026-10-09 21:25:35.423913"
       }
     },
     {
@@ -29573,7 +29573,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-09 14:29:45.302914"
+        "when": "2026-10-09 21:05:00.591153"
       }
     },
     {
@@ -29589,7 +29589,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-01 18:17:09.395025"
+        "when": "2026-10-09 17:46:18.333541"
       }
     },
     {
@@ -29605,7 +29605,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-06 17:11:19.721777"
+        "when": "2026-10-09 17:48:28.722971"
       }
     },
     {
@@ -29637,7 +29637,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-05 13:11:46.923693"
+        "when": "2026-10-09 17:45:34.083594"
       }
     },
     {
@@ -30795,7 +30795,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-10-08 07:51:41.022657"
+        "when": "2026-10-09 14:29:54.600876"
       }
     },
     {
