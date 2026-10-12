@@ -9386,7 +9386,7 @@
       ],
       "updated": {
         "by": "antoniosartori@google.com",
-        "when": "2026-09-07 09:33:28.178292"
+        "when": "2026-10-12 09:18:20.283796"
       }
     },
     {
@@ -21283,6 +21283,20 @@
   ],
   "sizes-auto": [
     {
+      "id": 5135400531263488,
+      "name": "Make responsive image source selection aware of object-fit/2D",
+      "summary": "Use the `h` descriptor in the `srcset` attribute (so far ignored), as well as allowing an explicit object-fit inside `<img sizes>` for eager images, to let the browser choose the best source based on the resulting 2D size of the image.\n\n",
+      "motivation": "<img sizes=auto> currently dictates that the image element keeps a fixed aspect ratio. However, a CSS `object-fit` of contain/cover makes it so that the size of the image content itself can still be larger/smaller than that, resulting in a selected image that may be too big or too small.\n\nAllowing the author to also specify the height of the *source* (as opposed to the height of the container) gives the UA all it needs to pick an optimal source.",
+      "url": "https://chromestatus.com/feature/5135400531263488",
+      "bug-url": "https://issues.chromium.org/issues/572724710",
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "nrosenthal@chromium.org",
+        "when": "2026-10-12 13:17:51.205629"
+      }
+    },
+    {
       "id": 5191555708616704,
       "name": "Auto Sizes for Lazy Loaded Images with Srcset",
       "summary": "Auto Sizes allows developers to set the sizes attribute to auto (sizes=auto) for lazy loaded image elements with srcset. For this use case the image's width and height should be provided. The browser will use the layout width of the image in order to select the source url from the srcset.",
@@ -26319,7 +26333,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-10-09 23:12:53.103256"
+        "when": "2026-10-12 08:16:27.048070"
       }
     },
     {

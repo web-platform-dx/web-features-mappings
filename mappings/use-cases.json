@@ -201,6 +201,10 @@
     {
       "description": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862"
+    },
+    {
+      "description": "Embedding an external player for e.g. podcasts requires an iFrame-based rendering with all the known workaround downsides. Or if you have user-generated content and you want to isolate it into an iFrame, e.g. for chart rendering with Apache ECharts. The iFrame is the only easy way, since ECharts is too powerful and relies on sane user-generated content.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-6128600809"
     }
   ],
   "fullscreen": [
@@ -659,6 +663,10 @@
     {
       "description": "Exam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-5521162749"
+    },
+    {
+      "description": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation.\n\nThis requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6121214631"
     }
   ]
 }
