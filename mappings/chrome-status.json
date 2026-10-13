@@ -2528,7 +2528,7 @@
       ],
       "updated": {
         "by": "pdr@chromium.org",
-        "when": "2026-09-30 18:58:39.313756"
+        "when": "2026-10-12 18:31:49.907192"
       }
     },
     {
@@ -12620,7 +12620,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-10-09 12:07:55.524507"
+        "when": "2026-10-13 11:33:38.945139"
       }
     },
     {
@@ -14672,7 +14672,7 @@
     {
       "id": 5183481574850560,
       "name": "Web Install API",
-      "summary": "Starting in Chrome 157, the new Web Install API allows websites to prompt users to install a web app, given a manifest URL and optional manifest ID.  The `navigator.install()` method enables cross-origin web app installation and provides a better developer experience than handling `beforeinstallprompt` events. This API is launching in parallel with the `<install>` element, a declarative entry point to the same installation capability. \n\nAdmins can control this in two ways:\n1. Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), would disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`. Or \n2. [Permissions policy](https://www.w3.org/TR/permissions-policy/), web-app-installation, can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Starting in Chrome 158, the new Web Install API allows websites to prompt users to install a web app, given a manifest URL and optional manifest ID.  The `navigator.install()` method enables cross-origin web app installation and provides a better developer experience than handling `beforeinstallprompt` events. This API is launching in parallel with the `<install>` element, a declarative entry point to the same installation capability. \n\nAdmins can control this in two ways:\n1. Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), would disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`. Or \n2. [Permissions policy](https://www.w3.org/TR/permissions-policy/), web-app-installation, can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites/iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5183481574850560",
       "bug-url": "https://issues.chromium.org/issues/333795265",
@@ -14681,8 +14681,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-10-07 12:54:43.191259"
+        "by": "liahiscock@microsoft.com",
+        "when": "2026-10-12 18:03:38.528393"
       }
     }
   ],
@@ -18409,7 +18409,7 @@
       "explainer-links": [],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-10-08 07:26:58.158057"
+        "when": "2026-10-12 18:43:22.611457"
       }
     },
     {
@@ -26333,7 +26333,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-10-12 08:16:27.048070"
+        "when": "2026-10-13 13:50:50.411610"
       }
     },
     {
@@ -28278,7 +28278,7 @@
       ],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-10-07 09:55:39.745350"
+        "when": "2026-10-13 11:30:08.897896"
       }
     },
     {
@@ -29505,7 +29505,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-10 16:09:32.785777"
+        "when": "2026-10-13 11:55:39.701020"
       }
     },
     {
@@ -29538,7 +29538,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-10 16:10:48.275111"
+        "when": "2026-10-13 11:57:23.379936"
       }
     },
     {
@@ -29635,7 +29635,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-08 18:03:27.421096"
+        "when": "2026-10-12 18:46:36.765141"
       }
     },
     {
@@ -29650,8 +29650,8 @@
         "https://github.com/w3c/webtransport/blob/main/explainer.md#5-sending-and-receiving-datagrams"
       ],
       "updated": {
-        "by": "monicach@microsoft.com",
-        "when": "2026-10-09 17:45:34.083594"
+        "by": "nidhijaju@google.com",
+        "when": "2026-10-13 08:06:12.546546"
       }
     },
     {
@@ -30809,7 +30809,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-10-09 14:29:54.600876"
+        "when": "2026-10-12 18:47:39.638981"
       }
     },
     {
@@ -31104,7 +31104,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-09-03 15:28:44.298532"
+        "when": "2026-10-13 13:47:42.444368"
       }
     }
   ],
@@ -31139,8 +31139,8 @@
         "https://aka.ms/installelement"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-10-08 16:10:08.999049"
+        "by": "liahiscock@microsoft.com",
+        "when": "2026-10-12 18:03:58.600795"
       }
     }
   ],

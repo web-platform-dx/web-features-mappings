@@ -541,6 +541,10 @@
     {
       "description": "I want Firefox to natively support shared tab/window/system audio capture through `getDisplayMedia()` so a web app can record meeting audio together with microphone input without requiring Chrome.\n\nMy use case is browser-based meeting capture and transcription. In my app, the browser records:\n- the meeting audio from a shared tab/window/screen\n- the local microphone input\n\nThat lets users capture both sides of a meeting directly from a web app, without installing a native helper or joining meetings with a bot.\n\nThis is important because I want to use Firefox as my primary browser and still have access to the same browser-native capture workflow that currently only works reliably in Chromium-based browsers.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-4753265858"
+    },
+    {
+      "description": "On Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). \n\nIt would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6131907145"
     }
   ],
   "screen-orientation-lock": [
@@ -667,6 +671,10 @@
     {
       "description": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation.\n\nThis requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6121214631"
+    },
+    {
+      "description": "I want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform.\n\nFor this, I need to have a controlling window and a window that is shown on a projector.\nI want this window to be full-screen.\nMost of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\".\n\n(It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer.\n-AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory).\n\nI'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6130421057"
     }
   ]
 }
