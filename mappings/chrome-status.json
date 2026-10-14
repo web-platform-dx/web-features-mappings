@@ -2528,7 +2528,7 @@
       ],
       "updated": {
         "by": "pdr@chromium.org",
-        "when": "2026-10-12 18:31:49.907192"
+        "when": "2026-10-14 08:02:24.932287"
       }
     },
     {
@@ -3384,7 +3384,7 @@
       "explainer-links": [],
       "updated": {
         "by": "fwang@igalia.com",
-        "when": "2026-10-09 16:48:09.769762"
+        "when": "2026-10-14 07:47:29.351047"
       }
     },
     {
@@ -6641,8 +6641,8 @@
         "https://github.com/WICG/eyedropper-api/blob/main/README.md"
       ],
       "updated": {
-        "by": "pcupp@microsoft.com",
-        "when": "2026-10-09 22:28:03.901165"
+        "by": "jarhar@chromium.org",
+        "when": "2026-10-13 17:49:48.692424"
       }
     }
   ],
@@ -12620,7 +12620,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-10-13 11:33:38.945139"
+        "when": "2026-10-14 07:48:24.703917"
       }
     },
     {
@@ -14681,8 +14681,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "liahiscock@microsoft.com",
-        "when": "2026-10-12 18:03:38.528393"
+        "by": "elmirakalali@google.com",
+        "when": "2026-10-13 16:14:32.790946"
       }
     }
   ],
@@ -19630,7 +19630,7 @@
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-10-08 18:36:12.408213"
+        "when": "2026-10-14 08:02:01.059331"
       }
     },
     {
@@ -25526,7 +25526,7 @@
       ],
       "updated": {
         "by": "gabrielbrito@microsoft.com",
-        "when": "2026-10-09 21:55:44.020849"
+        "when": "2026-10-13 18:10:16.695059"
       }
     },
     {
@@ -28092,6 +28092,20 @@
   ],
   "webhid": [
     {
+      "id": 6220740243357696,
+      "name": " Support WebHID in Extension Service Workers on Android",
+      "summary": "Enable WebHID (navigator.hid) support in Manifest V3 extension service workers on Desktop Android, matching the behavior on other desktop platforms (Windows, macOS, Linux, and ChromeOS).",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/6220740243357696",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "alvinji@chromium.org",
+        "when": "2026-10-13 18:12:47.105210"
+      }
+    },
+    {
       "id": 5077348995825664,
       "name": "WebHID on Dedicated Workers",
       "summary": "WebHID is enabled inside dedicated worker contexts. This allows developers to perform heavy I/O and processing of data from a HID device on a separate thread to reduce the performance impact on the main thread.",
@@ -29505,7 +29519,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-13 11:55:39.701020"
+        "when": "2026-10-13 18:58:57.103764"
       }
     },
     {
@@ -29521,7 +29535,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-09 17:54:08.058363"
+        "when": "2026-10-13 16:50:28.553544"
       }
     },
     {
@@ -29538,7 +29552,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-13 11:57:23.379936"
+        "when": "2026-10-13 18:56:21.085865"
       }
     },
     {
@@ -29603,7 +29617,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-09 17:46:18.333541"
+        "when": "2026-10-13 22:10:47.012637"
       }
     },
     {
@@ -29619,7 +29633,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-09 17:48:28.722971"
+        "when": "2026-10-14 07:46:35.751331"
       }
     },
     {
@@ -30682,8 +30696,8 @@
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-09-30 18:32:02.571554"
+        "by": "masonfreed@google.com",
+        "when": "2026-10-13 18:46:22.710727"
       }
     },
     {
@@ -31104,7 +31118,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-10-13 13:47:42.444368"
+        "when": "2026-10-14 07:47:53.535775"
       }
     }
   ],
@@ -31139,8 +31153,8 @@
         "https://aka.ms/installelement"
       ],
       "updated": {
-        "by": "liahiscock@microsoft.com",
-        "when": "2026-10-12 18:03:58.600795"
+        "by": "elmirakalali@google.com",
+        "when": "2026-10-13 17:07:36.186195"
       }
     }
   ],
