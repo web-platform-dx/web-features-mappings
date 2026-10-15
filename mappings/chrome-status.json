@@ -3384,7 +3384,7 @@
       "explainer-links": [],
       "updated": {
         "by": "fwang@igalia.com",
-        "when": "2026-10-14 07:47:29.351047"
+        "when": "2026-10-15 12:27:33.453033"
       }
     },
     {
@@ -12104,7 +12104,7 @@
     {
       "id": 6325545693478912,
       "name": "Prompt API Sampling Parameters",
-      "summary": "The Prompt API Sampling Parameters allow developers to control the output variety of the built-in AI language model. Instead of exposing raw numerical parameters (e.g. topK and temperature) which can behave inconsistently across different underlying model families and versions, this feature introduces a categorical samplingMode enum. This allows the browser to handle the heavy lifting of mapping semantic presets to optimal raw parameters for a specific underlying model, providing developers with the necessary granularity to tune responses while maintaining cross-browser interoperability.\n\nenum AILanguageModelSamplingMode {\n  \"most-predictable\",      // For strict consistency/factual extraction\n  \"predictable\",           // For highly focused outputs\n  \"slightly-predictable\",  // For moderately focused, consistent outputs\n  \"balanced\",              // The default state for standard prompting\n  \"slightly-creative\",     // For moderately varied, expressive outputs\n  \"creative\",              // For tasks favoring variety over strict facts\n  \"most-creative\"          // For maximum token diversity and brainstorming\n};",
+      "summary": "The Prompt API Sampling Parameters allow developers to control the output variety of the built-in AI language model. Instead of exposing raw numerical parameters (e.g. topK and temperature) which can behave inconsistently across different underlying model families and versions, this feature introduces a categorical samplingMode enum. This allows the browser to handle the heavy lifting of mapping semantic presets to optimal raw parameters for a specific underlying model, providing developers with the necessary granularity to tune responses while maintaining cross-browser interoperability.\n\nenum LanguageModelSamplingMode {\n  \"most-predictable\",      // For strict consistency/factual extraction\n  \"predictable\",           // For highly focused outputs\n  \"slightly-predictable\",  // For moderately focused, consistent outputs\n  \"balanced\",              // The default state for standard prompting\n  \"slightly-creative\",     // For moderately varied, expressive outputs\n  \"creative\",              // For tasks favoring variety over strict facts\n  \"most-creative\"          // For maximum token diversity and brainstorming\n};\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).",
       "motivation": null,
       "url": "https://chromestatus.com/feature/6325545693478912",
       "bug-url": "https://issues.chromium.org/issues/502214118",
@@ -12114,7 +12114,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-08-23 02:01:15.769692"
+        "when": "2026-10-15 03:44:13.607903"
       }
     },
     {
@@ -12620,7 +12620,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-10-14 07:48:24.703917"
+        "when": "2026-10-15 12:26:59.187367"
       }
     },
     {
@@ -21469,6 +21469,22 @@
       }
     },
     {
+      "id": 5112398709129216,
+      "name": "Prerendering cross-origin iframes",
+      "summary": "Prerenders cross-origin iframes with an opt-in response header.  \n\nBrowsers will now prerender all cross-origin frames if the top-level frame's HTTP response includes the Supports-Loading-Mode: prerender-cross-origin-frames.",
+      "motivation": "By default, navigational prerendering delays the loading of all cross-origin iframes until the referring page activates the prerendered page.\n\nHowever, there are some cases where cross-origin iframes are particularly important to an application, such that delaying them negates many of the benefits of prerendering.",
+      "url": "https://chromestatus.com/feature/5112398709129216",
+      "bug-url": "https://issues.chromium.org/issues/440387014",
+      "spec-link": "https://wicg.github.io/nav-speculation/prerendering.html",
+      "explainer-links": [
+        "https://github.com/WICG/nav-speculation/blob/main/prerendering-cross-origin-iframes.md"
+      ],
+      "updated": {
+        "by": "yoichio@chromium.org",
+        "when": "2026-10-15 06:25:25.778056"
+      }
+    },
+    {
       "id": 5113430155591680,
       "name": "Speculation rules: desktop \"eager\" eagerness improvements",
       "summary": "On desktop, \"eager\" eagerness speculation rules prefetches and prerenders now trigger when users hover on a link for a shorter time than the \"moderate\" mouse hover time.\r\n\r\nThe previous behavior, of starting prefetch/prerenders as soon as possible, was the same as \"immediate\" eagerness. This new behavior is more useful as it better reflects the author's intent to be more eager than the \"moderate\" and less eager than \"immediate\".\r\n\r\nMore detail on this and other upcoming improvements to speculation rules eagerness are available at https://docs.google.com/document/d/1YPbtUPfZIDElzBZNx8IQMzRFvy8oauLG_i1XIr6jgTs/edit?usp=sharing.",
@@ -25526,7 +25542,7 @@
       ],
       "updated": {
         "by": "gabrielbrito@microsoft.com",
-        "when": "2026-10-13 18:10:16.695059"
+        "when": "2026-10-15 12:28:10.328079"
       }
     },
     {
@@ -26333,7 +26349,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-10-13 13:50:50.411610"
+        "when": "2026-10-15 12:31:21.760171"
       }
     },
     {
@@ -29505,6 +29521,22 @@
   ],
   "webtransport": [
     {
+      "id": 5120203192139776,
+      "name": "WebTransport connection statistics",
+      "summary": "WebTransport.getStats() provides asynchronous statistics for an existing connection: round-trip time measurements when available, an estimated sending rate when available, and counts of expired, lost, and dropped datagrams. Statistics remain accessible after the connection closes. Chromium does not currently expose connection byte or packet totals.",
+      "motivation": "WebTransport applications need to distinguish connection latency, congestion, and datagram loss or expiration from application-side delays. A single asynchronous call exposes a snapshot of the existing connection's health to help developers adapt sending behavior and troubleshoot problems. It does not create a connection or change how application data is transmitted.",
+      "url": "https://chromestatus.com/feature/5120203192139776",
+      "bug-url": "https://issues.chromium.org/issues/573538454",
+      "spec-link": "https://w3c.github.io/webtransport/#dictdef-webtransportconnectionstats",
+      "explainer-links": [
+        "https://github.com/w3c/webtransport/blob/main/explainer.md#stats"
+      ],
+      "updated": {
+        "by": "vbryhider@microsoft.com",
+        "when": "2026-10-15 00:21:28.044168"
+      }
+    },
+    {
       "id": 5235261159112704,
       "name": "WebTransport send groups and stream prioritization",
       "summary": "WebTransport already lets sites send data through WritableStreams. This feature will let applications group outgoing streams, prioritize data within each group, and view sending statistics for streams and groups, while preserving the ability to transfer streams.",
@@ -29519,7 +29551,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-13 18:58:57.103764"
+        "when": "2026-10-14 17:33:49.256731"
       }
     },
     {
@@ -29552,7 +29584,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-13 18:56:21.085865"
+        "when": "2026-10-14 17:09:43.796823"
       }
     },
     {
@@ -29569,7 +29601,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-09 21:25:35.423913"
+        "when": "2026-10-15 12:27:50.957480"
       }
     },
     {
@@ -29601,7 +29633,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-09 21:05:00.591153"
+        "when": "2026-10-15 12:30:49.994481"
       }
     },
     {
@@ -29633,7 +29665,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-14 07:46:35.751331"
+        "when": "2026-10-14 17:56:25.889426"
       }
     },
     {
@@ -30823,7 +30855,7 @@
       ],
       "updated": {
         "by": "elmirakalali@google.com",
-        "when": "2026-10-12 18:47:39.638981"
+        "when": "2026-10-14 15:19:45.600960"
       }
     },
     {
