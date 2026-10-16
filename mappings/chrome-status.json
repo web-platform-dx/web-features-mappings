@@ -3836,6 +3836,23 @@
   ],
   "content-visibility": [
     {
+      "id": 5121817965625344,
+      "name": "Mute media and defer media events in skipped content-visibility subtrees",
+      "summary": "Media elements inside a subtree skipped by content-visibility  (content-visibility: hidden, or content-visibility: auto while  off-screen) are muted, and their media events (play, pause, timeupdate, volumechange, ...) are deferred until the subtree is rendered again.\n\n\nPlayback itself continues; events are dispatched in order once the content stops being skipped. This prevents users from hearing audio  from content that is not rendered, without requiring authors to  manually pause or mute media they hide with content-visibility.",
+      "motivation": "Today, audio from a media element keeps playing audibly when its\nsubtree is skipped by content-visibility, even though the content is\nnot rendered. Authors who use content-visibility: hidden to implement\nshow/hide UI (or auto for long scrollable pages) must manually track\nand mute/pause every media element in the subtree to avoid audio from\ninvisible content.\n\nThe CSSWG resolved that media in skipped subtrees should be muted and\nits events deferred:\n\nhttps://github.com/w3c/csswg-drafts/issues/6468#issuecomment-887634200\n\n\nSpec text for the resolution has not landed yet; part of the goal of\nprototyping is to validate feasibility and inform the spec edits.",
+      "url": "https://chromestatus.com/feature/5121817965625344",
+      "bug-url": "https://issues.chromium.org/issues/40781006",
+      "spec-link": "https://drafts.csswg.org/css-contain-2/#content-visibility",
+      "explainer-links": [
+        "https://github.com/w3c/csswg-drafts/issues/6468",
+        "https://github.com/WICG/display-locking/blob/main/explainers/content-visibility.md"
+      ],
+      "updated": {
+        "by": "hjanuschka@gmail.com",
+        "when": "2026-10-15 22:26:57.538663"
+      }
+    },
+    {
       "id": 5179553291436032,
       "name": "ContentVisibilityAutoStateChanged event",
       "summary": "This proposal is to add an event that would fire on a content-visibility: auto element when the rendering state of the element changes due to any of the attributes that make the element relevant to the user (https://www.w3.org/TR/css-contain-2/#relevant-to-the-user)",
@@ -12114,7 +12131,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-10-15 03:44:13.607903"
+        "when": "2026-10-15 18:25:18.596002"
       }
     },
     {
@@ -12620,7 +12637,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hchao@chromium.org",
-        "when": "2026-10-15 12:26:59.187367"
+        "when": "2026-10-16 00:49:35.452313"
       }
     },
     {
@@ -17879,7 +17896,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-08-23 19:28:34.548775"
+        "when": "2026-10-16 08:21:34.005142"
       }
     },
     {
@@ -19815,7 +19832,7 @@
       ],
       "updated": {
         "by": "darwinyang@chromium.org",
-        "when": "2026-09-16 18:07:48.688348"
+        "when": "2026-10-15 14:06:09.219286"
       }
     },
     {
@@ -21665,7 +21682,7 @@
       ],
       "updated": {
         "by": "alanding@chromium.org",
-        "when": "2026-09-04 03:55:09.426411"
+        "when": "2026-10-15 23:00:39.105952"
       }
     },
     {
@@ -23199,7 +23216,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-09-23 09:56:56.536283"
+        "when": "2026-10-15 23:03:53.703981"
       }
     },
     {
@@ -25529,22 +25546,6 @@
     }
   ],
   "web-audio": [
-    {
-      "id": 5109900936085504,
-      "name": "OfflineAudioContext incremental rendering",
-      "summary": "This feature adds an incremental rendering mechanism to OfflineAudioContext so that the audio graph data can be incrementally processed rather than allocating the whole audio buffer up front. By incrementally delivering the data using data chunks, there is no need to have high memory requirements for the user's machine when processing high amounts of data.",
-      "motivation": "The OfflineAudioContext API works well for rendering small audio graphs, but it does not scale for larger projects because it allocates the full graph's AudioBuffer up front. For example, rendering a 2-hour video composition project in clipchamp.com in an OfflineAudioContext would require an extremely large AudioBuffer allocation. \n\nThe implication of this API is that a user's computer must have enough available memory to export the project even if the in-memory audio buffer will eventually be discarded after it is written to a file. In situations with limited hardware resources or low-powered devices, this limitation makes WebAudio unusable as an offline processor. If memory capacity is exceeded on a user's machine, then the processing will stop and the browser may terminate the tab/window leading to potential loss of data for the user and a poor user experience.",
-      "url": "https://chromestatus.com/feature/5109900936085504",
-      "bug-url": "https://issues.chromium.org/issues/530596178",
-      "spec-link": "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-startrendering",
-      "explainer-links": [
-        "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/OfflineAudioContext/explainer.md"
-      ],
-      "updated": {
-        "by": "gabrielbrito@microsoft.com",
-        "when": "2026-10-15 12:28:10.328079"
-      }
-    },
     {
       "id": 5078190552907776,
       "name": "WebAudio: Configurable render quantum",
@@ -29533,7 +29534,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-15 00:21:28.044168"
+        "when": "2026-10-15 23:52:32.304678"
       }
     },
     {
@@ -29551,7 +29552,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-14 17:33:49.256731"
+        "when": "2026-10-15 18:50:49.626468"
       }
     },
     {
@@ -29584,7 +29585,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-14 17:09:43.796823"
+        "when": "2026-10-15 18:50:26.644721"
       }
     },
     {
@@ -29633,7 +29634,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-15 12:30:49.994481"
+        "when": "2026-10-16 00:47:16.724259"
       }
     },
     {
@@ -29649,7 +29650,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-13 22:10:47.012637"
+        "when": "2026-10-15 21:09:35.823126"
       }
     },
     {
@@ -29696,8 +29697,8 @@
         "https://github.com/w3c/webtransport/blob/main/explainer.md#5-sending-and-receiving-datagrams"
       ],
       "updated": {
-        "by": "nidhijaju@google.com",
-        "when": "2026-10-13 08:06:12.546546"
+        "by": "monicach@microsoft.com",
+        "when": "2026-10-15 18:24:07.929866"
       }
     },
     {

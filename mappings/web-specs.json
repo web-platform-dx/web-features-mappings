@@ -1207,6 +1207,11 @@
       "shortname": "css-conditional-5"
     }
   ],
+  "container-timing": [
+    {
+      "shortname": "container-timing"
+    }
+  ],
   "content": [
     {
       "shortname": "css-content-3"
@@ -2651,6 +2656,9 @@
   "html-setters": [
     {
       "shortname": "html"
+    },
+    {
+      "shortname": "trusted-types"
     }
   ],
   "html-streaming-setters": [
@@ -3571,7 +3579,13 @@
   ],
   "masks": [
     {
+      "shortname": "css-backgrounds-3"
+    },
+    {
       "shortname": "css-masking-1"
+    },
+    {
+      "shortname": "css-values-5"
     }
   ],
   "matchmedia": [
@@ -4834,6 +4848,11 @@
       "shortname": "html"
     }
   ],
+  "revert-rule": [
+    {
+      "shortname": "css-cascade-5"
+    }
+  ],
   "revert-value": [
     {
       "shortname": "css-cascade-4"
@@ -5060,6 +5079,11 @@
   "scroll-to-text-fragment": [
     {
       "shortname": "scroll-to-text-fragment"
+    }
+  ],
+  "scroll-triggered-animations": [
+    {
+      "shortname": "animation-triggers-1"
     }
   ],
   "scrollbar-color": [
@@ -5724,6 +5748,11 @@
       "shortname": "css-color-4"
     }
   ],
+  "system-color-accentcolor": [
+    {
+      "shortname": "css-color-4"
+    }
+  ],
   "tab-size": [
     {
       "shortname": "css-text-3"
@@ -6122,6 +6151,9 @@
   ],
   "trusted-types": [
     {
+      "shortname": "CSP3"
+    },
+    {
       "shortname": "trusted-types"
     }
   ],
@@ -6358,6 +6390,11 @@
       "shortname": "wasm-js-api-2"
     }
   ],
+  "wasm-bulk-memory": [
+    {
+      "shortname": "wasm-core-2"
+    }
+  ],
   "wasm-exception-handling": [
     {
       "shortname": "wasm-js-api-2"
@@ -6377,6 +6414,11 @@
     },
     {
       "shortname": "wasm-js-api-2"
+    }
+  ],
+  "wasm-non-trapping-float-to-int": [
+    {
+      "shortname": "wasm-core-2"
     }
   ],
   "wasm-threads": [

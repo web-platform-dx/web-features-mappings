@@ -631,7 +631,7 @@
       "http://crbug.com/634542"
     ],
     "firefox": [
-      "https://bugzil.la/1841326"
+      "https://bugzil.la/2080815"
     ]
   },
   "canvas-2d-desynchronized": {
@@ -984,6 +984,7 @@
   },
   "content-visibility": {
     "chrome": [
+      "https://issues.chromium.org/issues/40781006",
       "https://bugs.chromium.org/p/chromium/issues/detail?id=1343432",
       "http://crbug.com/882663"
     ],
@@ -1752,9 +1753,6 @@
       "http://code.google.com/p/chromium/issues/detail?id=455116",
       "https://code.google.com/p/chromium/issues/detail?id=240603",
       "http://crbug.com/436770"
-    ],
-    "firefox": [
-      "https://bugzil.la/1792434"
     ]
   },
   "fetch-metadata": {
@@ -1791,9 +1789,6 @@
       "https://crbug.com/40505032"
     ],
     "firefox": [
-      "https://bugzil.la/1387483"
-    ],
-    "firefox_android": [
       "https://bugzil.la/1387483"
     ]
   },
@@ -2267,6 +2262,11 @@
   "grid-animation": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=759665"
+    ]
+  },
+  "grid-lanes": {
+    "firefox": [
+      "https://bugzil.la/1981604"
     ]
   },
   "hanging-punctuation": {
@@ -3215,9 +3215,6 @@
   "masonry": {
     "chrome": [
       "https://issues.chromium.org/issues/343257585"
-    ],
-    "firefox": [
-      "https://bugzil.la/1981604"
     ]
   },
   "matchmedia": {
@@ -4349,6 +4346,14 @@
       "https://issues.chromium.org/issues/358611259"
     ]
   },
+  "reporting-integrity-violations": {
+    "safari": [
+      "https://webkit.org/b/326340"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/326340"
+    ]
+  },
   "request-animation-frame": {
     "chrome": [
       "https://bugs.chromium.org/p/chromium/issues/detail?id=146849",
@@ -4977,10 +4982,10 @@
     ],
     "firefox": [
       "https://bugzil.la/1969396",
-      "https://bugzil.la/1969838"
+      "https://bugzil.la/1969838",
+      "https://bugzil.la/2020702"
     ],
     "firefox_android": [
-      "https://bugzil.la/1969396",
       "https://bugzil.la/1969838"
     ],
     "safari": [
@@ -5886,7 +5891,6 @@
   },
   "web-audio": {
     "chrome": [
-      "https://issues.chromium.org/issues/530596178",
       "https://crbug.com/40637820",
       "https://issues.chromium.org/issues/374805121",
       "https://crbug.com/41495720",

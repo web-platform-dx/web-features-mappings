@@ -253,6 +253,16 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/87#issuecomment-5848571708"
     }
   ],
+  "gamut-mapping": [
+    {
+      "description": "Create dynamic color scales from a single accent color",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/945#issuecomment-6202219569"
+    },
+    {
+      "description": "1. I wanted to build a theme editor from two hue inputs, for my CSS library [candy.css](https://candy.wavebeem.com/theme-editor/), that would output a full OKLCH color palette for UI\n\n2. I also wanted to use the OKLCH colors directly in my CSS to make defining [my website's theme](https://www.wavebeem.com/past-designs/) more logical (again, focusing more on hue and possibly allowing a theme selector later) back in 2024.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/945#issuecomment-6203438151"
+    }
+  ],
   "getboxquads": [
     {
       "description": "I created a designer application and need this to get the element positions to draw the overlays: https://node-projects.github.io/web-component-designer-demo/index.html",
