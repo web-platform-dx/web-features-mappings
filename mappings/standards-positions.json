@@ -197,11 +197,15 @@
   "bfcache-blocking-reasons": [
     {
       "vendor": "mozilla",
-      "url": "https://github.com/mozilla/standards-positions/issues/766"
+      "url": "https://github.com/mozilla/standards-positions/issues/766",
+      "position": "positive",
+      "concerns": []
     },
     {
       "vendor": "apple",
-      "url": "https://github.com/WebKit/standards-positions/issues/154"
+      "url": "https://github.com/WebKit/standards-positions/issues/154",
+      "position": "",
+      "concerns": []
     }
   ],
   "bigint": [

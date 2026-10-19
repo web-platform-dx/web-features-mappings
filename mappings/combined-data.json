@@ -6091,6 +6091,20 @@
         "shortname": "navigation-timing-2"
       }
     ],
+    "standards-positions": [
+      {
+        "vendor": "mozilla",
+        "url": "https://github.com/mozilla/standards-positions/issues/766",
+        "position": "positive",
+        "concerns": []
+      },
+      {
+        "vendor": "apple",
+        "url": "https://github.com/WebKit/standards-positions/issues/154",
+        "position": "",
+        "concerns": []
+      }
+    ],
     "mdn-docs": [
       {
         "slug": "Glossary/bfcache",
