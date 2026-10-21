@@ -1984,15 +1984,15 @@
     {
       "id": 6210300985606144,
       "name": "CORS enforcement for Background Fetch",
-      "summary": "Starting in Chrome 157, the Background Fetch API now enforces Cross-Origin Resource Sharing (CORS). \nThis update aligns Chromium's implementation with the intent of the [Background Fetch spec](https://wicg.github.io/background-fetch/). This ensures that Background Fetch requests are subject to the same security policies, such as Local Network Access checks. \n\nThis update prevents sites from bypassing CORS (and other security policy checks) by using Background Fetch instead of regular [Fetch](https://fetch.spec.whatwg.org/).",
+      "summary": "Starting in Chrome 157, the Background Fetch API now enforces Cross-Origin Resource Sharing (CORS). \nThis update aligns Chromium's implementation with the intent of the [Background Fetch spec](https://wicg.github.io/background-fetch/). This ensures that Background Fetch requests are subject to the same security policies as regular Fetch requests, such as Local Network Access checks. \n\nThis update prevents sites from bypassing CORS (and other security policy checks) by using Background Fetch instead of regular [Fetch](https://fetch.spec.whatwg.org/).",
       "motivation": "This fixes a security issue where Background Fetch unintentionally bypasses security policies such as CORS (and CORP/COEP/DIP).\n\n(crbug.com/515243254 is our meta bug tracking all of the different web platform security issues with Background Fetch.)",
       "url": "https://chromestatus.com/feature/6210300985606144",
       "bug-url": null,
       "spec-link": "https://wicg.github.io/background-fetch",
       "explainer-links": [],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-10-07 17:59:02.028542"
+        "by": "siobhankeating@google.com",
+        "when": "2026-10-21 10:45:08.808987"
       }
     },
     {
@@ -12120,8 +12120,8 @@
     },
     {
       "id": 6325545693478912,
-      "name": "Prompt API Sampling Parameters",
-      "summary": "The Prompt API Sampling Parameters allow developers to control the output variety of the built-in AI language model. Instead of exposing raw numerical parameters (e.g. topK and temperature) which can behave inconsistently across different underlying model families and versions, this feature introduces a categorical samplingMode enum. This allows the browser to handle the heavy lifting of mapping semantic presets to optimal raw parameters for a specific underlying model, providing developers with the necessary granularity to tune responses while maintaining cross-browser interoperability.\n\nenum LanguageModelSamplingMode {\n  \"most-predictable\",      // For strict consistency/factual extraction\n  \"predictable\",           // For highly focused outputs\n  \"slightly-predictable\",  // For moderately focused, consistent outputs\n  \"balanced\",              // The default state for standard prompting\n  \"slightly-creative\",     // For moderately varied, expressive outputs\n  \"creative\",              // For tasks favoring variety over strict facts\n  \"most-creative\"          // For maximum token diversity and brainstorming\n};\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).",
+      "name": "Prompt API Sampling Mode",
+      "summary": "Allows developers to configure language model output variety and creativity in the Prompt API using high-level samplingMode presets. Instead of exposing raw numerical parameters like topK and temperature that vary unpredictably across models, developers can choose semantic presets ranging from \"most-predictable\" for deterministic extraction to \"most-creative\" for open-ended brainstorming. The browser maps these presets to optimal sampling hyperparameters for the underlying model, providing developers with reliable response tuning while preserving cross-browser interoperability.\n\nenum LanguageModelSamplingMode {\n  \"most-predictable\",      // For strict consistency/factual extraction\n  \"predictable\",           // For highly focused outputs\n  \"slightly-predictable\",  // For moderately focused, consistent outputs\n  \"balanced\",              // The default state for standard prompting\n  \"slightly-creative\",     // For moderately varied, expressive outputs\n  \"creative\",              // For tasks favoring variety over strict facts\n  \"most-creative\"          // For maximum token diversity and brainstorming\n};\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).\n",
       "motivation": null,
       "url": "https://chromestatus.com/feature/6325545693478912",
       "bug-url": "https://issues.chromium.org/issues/502214118",
@@ -12131,7 +12131,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-10-15 18:25:18.596002"
+        "when": "2026-10-20 22:46:45.490935"
       }
     },
     {
@@ -15425,7 +15425,7 @@
     {
       "id": 6297362687066112,
       "name": "OpaqueRange",
-      "summary": "`OpaqueRange` represents a live span of text within a form control’s value, such as a `<textarea>` or text-based `<input>`, so developers can work with value text using range-like APIs.\n\nIt enables operations such as `getBoundingClientRect()`, `getClientRects()`, and integration with the CSS Custom Highlight API for UI such as inline suggestions, highlights, and anchored popovers. It preserves encapsulation by exposing only value offsets while returning `null` for `startContainer` and `endContainer`, so DOM endpoints and internal structure are not exposed.",
+      "summary": "`OpaqueRange` represents a live span of text within a form control’s value, such as a `<textarea>` or text-based `<input>`, so developers can work with value text using range-like APIs.\n\nIt enables operations such as `getBoundingClientRect()`, `getClientRects()`, and integration with the CSS Custom Highlight API for UI such as inline suggestions, highlights, and anchored popovers. It preserves encapsulation by exposing only value offsets and not `startContainer` and `endContainer`, so DOM endpoints and internal structure are private.",
       "motivation": "Currently, developers can’t get accurate text geometry or apply the CSS Custom Highlight API to text inside native `<textarea>` and text-based `<input>` controls.\n\nAs a result, they often avoid native form controls and build editable `<div>`-based workarounds to anchor UI, such as autocomplete popovers, or to highlight matches. These workarounds require reimplementing native editing behavior and can have accessibility gaps.\n\n`OpaqueRange` enables range-based operations on the control’s value text, so developers can measure text geometry and build text-anchored UI directly in native controls.\n\n",
       "url": "https://chromestatus.com/feature/6297362687066112",
       "bug-url": "https://issues.chromium.org/issues/421421332",
@@ -15435,7 +15435,7 @@
       ],
       "updated": {
         "by": "stephanie.zhang@microsoft.com",
-        "when": "2026-07-09 15:45:32.989438"
+        "when": "2026-10-20 21:07:16.086929"
       }
     }
   ],
@@ -15501,7 +15501,7 @@
       ],
       "updated": {
         "by": "freedebreuil@google.com",
-        "when": "2026-09-22 19:18:35.979325"
+        "when": "2026-10-20 13:04:00.664957"
       }
     },
     {
@@ -19002,8 +19002,8 @@
         "https://developer.mozilla.org/en-US/docs/Web/API/Screen"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-06-01 06:33:57.311907"
+        "by": "renkens@google.com",
+        "when": "2026-10-21 10:35:23.023265"
       }
     },
     {
@@ -21682,7 +21682,7 @@
       ],
       "updated": {
         "by": "alanding@chromium.org",
-        "when": "2026-10-19 20:17:56.818559"
+        "when": "2026-10-21 10:51:25.643854"
       }
     },
     {
@@ -26350,7 +26350,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-10-19 08:11:47.144349"
+        "when": "2026-10-20 18:19:59.902310"
       }
     },
     {
@@ -29534,7 +29534,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-17 00:07:25.393364"
+        "when": "2026-10-21 10:51:07.921453"
       }
     },
     {
@@ -29552,7 +29552,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-15 18:50:49.626468"
+        "when": "2026-10-21 01:11:03.483532"
       }
     },
     {
@@ -29585,7 +29585,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-15 18:50:26.644721"
+        "when": "2026-10-20 15:34:22.816691"
       }
     },
     {
@@ -31151,7 +31151,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-10-19 14:00:14.581094"
+        "when": "2026-10-21 08:28:03.012351"
       }
     }
   ],
@@ -31221,7 +31221,7 @@
       "explainer-links": [],
       "updated": {
         "by": "felipeerias@igalia.com",
-        "when": "2026-10-07 15:11:04.771556"
+        "when": "2026-10-20 13:25:22.283767"
       }
     }
   ],

@@ -39,6 +39,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/97#issuecomment-5212972415"
     }
   ],
+  "barcode": [
+    {
+      "description": "I'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. \nI want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. \nOr, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. \n\nOn mobile systems, it would make a great api.\nOn desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6311756871"
+    }
+  ],
   "beforeinstallprompt": [
     {
       "description": "We run [Rocely](https://www.rocely.com/en), a recipe and meal-planning PWA. Users\nwho install it to their home screen come back far more often than users who\njust bookmark it, so a reliable install step matters for retention.\n\nWe want one install flow that works the same way regardless of browser,\ninstead of branching our UI based on what the browser supports.",
@@ -261,6 +267,12 @@
     {
       "description": "1. I wanted to build a theme editor from two hue inputs, for my CSS library [candy.css](https://candy.wavebeem.com/theme-editor/), that would output a full OKLCH color palette for UI\n\n2. I also wanted to use the OKLCH colors directly in my CSS to make defining [my website's theme](https://www.wavebeem.com/past-designs/) more logical (again, focusing more on hue and possibly allowing a theme selector later) back in 2024.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/945#issuecomment-6203438151"
+    }
+  ],
+  "gap-decorations": [
+    {
+      "description": "Immediately I think of `grid` and `table` inner borders.\n- Add inner borders to tables that have `border-radius` (since they cannot have `border-collapse: collapsed`). \n- And grids that look like border-collapsed tables, such as a calendar's borders.\n- Gap color! \n- The potential for attractive plaid CSS.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/362#issuecomment-6297217739"
     }
   ],
   "getboxquads": [
