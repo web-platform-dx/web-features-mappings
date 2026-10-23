@@ -386,7 +386,7 @@
   ],
   "atomics-pause": [
     {
-      "shortname": "tc39-atomics-microwait"
+      "shortname": "ecmascript"
     }
   ],
   "atomics-wait-async": [
@@ -1089,6 +1089,11 @@
       "shortname": "css-multicol-1"
     }
   ],
+  "column-wrap": [
+    {
+      "shortname": "css-multicol-2"
+    }
+  ],
   "composed-ranges": [
     {
       "shortname": "selection-api"
@@ -1561,6 +1566,11 @@
   "digital-goods": [
     {
       "shortname": "digital-goods"
+    }
+  ],
+  "dir": [
+    {
+      "shortname": "html"
     }
   ],
   "dir-pseudo": [
@@ -3155,7 +3165,7 @@
   ],
   "iterator-join": [
     {
-      "shortname": "tc39-iterator-join"
+      "shortname": "ecmascript"
     }
   ],
   "iterator-methods": [
@@ -3165,7 +3175,7 @@
   ],
   "iterator-zip-zipkeyed": [
     {
-      "shortname": "tc39-joint-iteration"
+      "shortname": "ecmascript"
     }
   ],
   "iterators": [
@@ -3225,7 +3235,7 @@
   ],
   "json-raw": [
     {
-      "shortname": "tc39-json-parse-with-source"
+      "shortname": "ecmascript"
     }
   ],
   "justify-self-block": [
@@ -6390,6 +6400,11 @@
       "shortname": "wasm-js-api-2"
     }
   ],
+  "wasm-branch-hinting": [
+    {
+      "shortname": "wasm-core-2-fork-branch-hinting"
+    }
+  ],
   "wasm-bulk-memory": [
     {
       "shortname": "wasm-core-2"
@@ -6397,15 +6412,48 @@
   ],
   "wasm-exception-handling": [
     {
+      "shortname": "wasm-core-2"
+    },
+    {
       "shortname": "wasm-js-api-2"
     },
     {
       "shortname": "wasm-js-api-2-fork-exception-handling"
     }
   ],
+  "wasm-exnref-exceptions": [
+    {
+      "shortname": "wasm-core-2"
+    }
+  ],
+  "wasm-extended-constant-expressions": [
+    {
+      "shortname": "wasm-core-2-fork-extended-const"
+    }
+  ],
   "wasm-garbage-collection": [
     {
       "shortname": "wasm-core-2-fork-gc"
+    }
+  ],
+  "wasm-jspi": [
+    {
+      "shortname": "wasm-js-api-2-fork-js-promise-integration"
+    }
+  ],
+  "wasm-memory64": [
+    {
+      "shortname": "wasm-core-2-fork-memory64"
+    }
+  ],
+  "wasm-multi-memory": [
+    {
+      "shortname": "wasm-core-2"
+    }
+  ],
+  "wasm-multi-value": [
+    {
+      "shortname": "wasm-core-2"
     }
   ],
   "wasm-mutable-globals": [
@@ -6421,9 +6469,50 @@
       "shortname": "wasm-core-2"
     }
   ],
+  "wasm-reference-types": [
+    {
+      "shortname": "wasm-core-2"
+    }
+  ],
+  "wasm-sign-extension-operators": [
+    {
+      "shortname": "wasm-core-2"
+    }
+  ],
+  "wasm-simd": [
+    {
+      "shortname": "wasm-core-2"
+    }
+  ],
+  "wasm-simd-relaxed": [
+    {
+      "shortname": "wasm-core-2"
+    }
+  ],
+  "wasm-string-builtins": [
+    {
+      "shortname": "wasm-js-api-2"
+    },
+    {
+      "shortname": "wasm-js-api-2-fork-js-string-builtins"
+    },
+    {
+      "shortname": "wasm-web-api-2"
+    }
+  ],
+  "wasm-tail-call-optimization": [
+    {
+      "shortname": "wasm-core-2"
+    }
+  ],
   "wasm-threads": [
     {
       "shortname": "wasm-js-api-2-fork-threads"
+    }
+  ],
+  "wasm-typed-fun-refs": [
+    {
+      "shortname": "wasm-core-2-fork-function-references"
     }
   ],
   "wbr": [

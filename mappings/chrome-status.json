@@ -12124,14 +12124,14 @@
       "summary": "Allows developers to configure language model output variety and creativity in the Prompt API using high-level samplingMode presets. Instead of exposing raw numerical parameters like topK and temperature that vary unpredictably across models, developers can choose semantic presets ranging from \"most-predictable\" for deterministic extraction to \"most-creative\" for open-ended brainstorming. The browser maps these presets to optimal sampling hyperparameters for the underlying model, providing developers with reliable response tuning while preserving cross-browser interoperability.\n\nenum LanguageModelSamplingMode {\n  \"most-predictable\",      // For strict consistency/factual extraction\n  \"predictable\",           // For highly focused outputs\n  \"slightly-predictable\",  // For moderately focused, consistent outputs\n  \"balanced\",              // The default state for standard prompting\n  \"slightly-creative\",     // For moderately varied, expressive outputs\n  \"creative\",              // For tasks favoring variety over strict facts\n  \"most-creative\"          // For maximum token diversity and brainstorming\n};\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).\n",
       "motivation": null,
       "url": "https://chromestatus.com/feature/6325545693478912",
-      "bug-url": "https://issues.chromium.org/issues/502214118",
+      "bug-url": "https://issues.chromium.org/573612811",
       "spec-link": "https://webmachinelearning.github.io/prompt-api",
       "explainer-links": [
         "https://github.com/webmachinelearning/prompt-api#sampling-parameters"
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-10-20 22:46:45.490935"
+        "when": "2026-10-21 16:15:21.706327"
       }
     },
     {
@@ -13615,6 +13615,20 @@
     }
   ],
   "media-session": [
+    {
+      "id": 5188639100370944,
+      "name": "MediaSession: Return Promise<undefined> from setMicrophoneActive() and setCameraActive()",
+      "summary": "Updates navigator.mediaSession.setMicrophoneActive() and navigator.mediaSession.setCameraActive() to return a Promise<undefined> instead of undefined, matching the W3C Media Session specification. In a fully active document, the returned promise resolves with undefined; if the associated document is not fully active, it returns a promise rejected with an InvalidStateError DOMException.",
+      "motivation": "When MediaSession.setMicrophoneActive() and MediaSession.setCameraActive() were originally specified and shipped in Chrome 93, their WebIDL return type was void (undefined). The W3C Media Session specification was subsequently updated (https://github.com/w3c/mediasession/pull/312) so that both methods return Promise<undefined> to support user agents that apply a capture pause policy or prompt the user asynchronously.\n\nUpdating Chromium's implementation to return Promise<undefined> aligns Chrome with the W3C Media Session specification and fixes 4 failing subtests in WPT's mediasession/idlharness.window.html.",
+      "url": "https://chromestatus.com/feature/5188639100370944",
+      "bug-url": "https://crbug.com/576328036",
+      "spec-link": "https://w3c.github.io/mediasession/#dom-mediasession-setmicrophoneactive",
+      "explainer-links": [],
+      "updated": {
+        "by": "steimel@chromium.org",
+        "when": "2026-10-22 22:47:59.921810"
+      }
+    },
     {
       "id": 5110879395905536,
       "name": "Media Session API: transcripts",
@@ -19003,7 +19017,7 @@
       ],
       "updated": {
         "by": "renkens@google.com",
-        "when": "2026-10-21 10:35:23.023265"
+        "when": "2026-10-21 19:26:03.372367"
       }
     },
     {
@@ -21682,7 +21696,7 @@
       ],
       "updated": {
         "by": "alanding@chromium.org",
-        "when": "2026-10-21 10:51:25.643854"
+        "when": "2026-10-22 03:44:23.851520"
       }
     },
     {
@@ -28381,7 +28395,7 @@
       ],
       "updated": {
         "by": "guidou@google.com",
-        "when": "2026-10-08 12:41:19.315060"
+        "when": "2026-10-21 15:18:17.669503"
       }
     },
     {
@@ -29568,7 +29582,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-19 19:04:49.072909"
+        "when": "2026-10-22 20:52:06.722631"
       }
     },
     {
@@ -29585,7 +29599,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-20 15:34:22.816691"
+        "when": "2026-10-22 00:08:23.837039"
       }
     },
     {
@@ -29602,7 +29616,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-16 17:31:25.169258"
+        "when": "2026-10-21 15:48:50.043189"
       }
     },
     {
@@ -29666,7 +29680,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-16 16:50:10.152293"
+        "when": "2026-10-21 20:42:27.126384"
       }
     },
     {
