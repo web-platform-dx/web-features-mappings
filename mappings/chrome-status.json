@@ -1711,7 +1711,7 @@
       ],
       "updated": {
         "by": "hongchan@chromium.org",
-        "when": "2026-08-24 21:47:42.148516"
+        "when": "2026-10-29 08:39:09.992921"
       }
     },
     {
@@ -2528,7 +2528,7 @@
       ],
       "updated": {
         "by": "pdr@chromium.org",
-        "when": "2026-10-27 09:26:30.644634"
+        "when": "2026-10-28 11:51:08.338151"
       }
     },
     {
@@ -10409,7 +10409,7 @@
       "explainer-links": [],
       "updated": {
         "by": "eui-sang.lim@samsung.com",
-        "when": "2026-10-10 02:30:36.180831"
+        "when": "2026-10-28 15:11:29.248703"
       }
     },
     {
@@ -12131,7 +12131,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-10-27 11:04:25.675103"
+        "when": "2026-10-27 13:37:59.866146"
       }
     },
     {
@@ -13610,7 +13610,7 @@
       "explainer-links": [],
       "updated": {
         "by": "foolip@chromium.org",
-        "when": "2026-10-19 09:55:12.876228"
+        "when": "2026-10-28 15:35:07.576453"
       }
     }
   ],
@@ -13623,10 +13623,12 @@
       "url": "https://chromestatus.com/feature/5188639100370944",
       "bug-url": "https://crbug.com/576328036",
       "spec-link": "https://w3c.github.io/mediasession/#dom-mediasession-setmicrophoneactive",
-      "explainer-links": [],
+      "explainer-links": [
+        "https://github.com/w3c/mediasession/pull/312"
+      ],
       "updated": {
         "by": "steimel@chromium.org",
-        "when": "2026-10-27 11:05:47.201395"
+        "when": "2026-10-27 19:07:52.901164"
       }
     },
     {
@@ -19802,6 +19804,20 @@
   ],
   "search": [
     {
+      "id": 5190394852802560,
+      "name": "AIM Threads panel on the New Tab page (left rail)",
+      "summary": "The Chrome NTP serves hundreds of millions of users, with 3B loads per day. It’s critical that the left rail is consistent with the rest of the page on Chrome’s most prominent UI surface. Thread continuation should feel smooth across all surfaces where users search.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5190394852802560",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "meirav@google.com",
+        "when": "2026-10-29 13:11:30.291084"
+      }
+    },
+    {
       "id": 5126108151808000,
       "name": "HTML search element",
       "summary": "The <search> element applies a \"search\" role for accessibility. It is basically the same as <div role=search>.\r\n\r\nFrom the HTML spec:\r\nThe search element represents a part of a document or application that contains a set of form controls or other content related to performing a search or filtering operation. This could be a search of the web site or application; a way of searching or filtering search results on the current web page; or a global or Internet-wide search function.",
@@ -19846,7 +19862,7 @@
       ],
       "updated": {
         "by": "darwinyang@chromium.org",
-        "when": "2026-10-15 14:06:09.219286"
+        "when": "2026-10-28 05:16:16.571309"
       }
     },
     {
@@ -21512,7 +21528,7 @@
       ],
       "updated": {
         "by": "yoichio@chromium.org",
-        "when": "2026-10-15 06:25:25.778056"
+        "when": "2026-10-28 05:15:29.246916"
       }
     },
     {
@@ -26364,7 +26380,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-10-20 18:19:59.902310"
+        "when": "2026-10-27 18:56:54.521519"
       }
     },
     {
@@ -29541,14 +29557,14 @@
       "summary": "Updates Chromium WebTransportError to match the current WebTransport specification. Adds the standard (message, options) constructor while preserving the shipped dictionary constructor for compatibility; carries the full unsigned-long stream error code end to end; and makes WebTransportError structured-clonable while preserving its message, source, and nullable error code. Serialization is enabled by default behind a writer-side runtime kill switch, while decoding remains permanently enabled for persisted values.",
       "motivation": "Chromium's shipped WebTransportError implementation predates the current WebTransport specification.\n\nIt accepts a legacy dictionary-only constructor, narrows outgoing application stream error codes to 8 bits despite the API exposing an unsigned long, and does not support the structured serialization required by the specification.\n\nThe change aligns Chromium with the standardized API and improves WebTransport interoperability. The legacy constructor remains available so existing Chromium applications continue to work.",
       "url": "https://chromestatus.com/feature/5158277221580800",
-      "bug-url": null,
+      "bug-url": "https://issues.chromium.org/issues/577073049",
       "spec-link": "https://www.w3.org/TR/webtransport/#web-transport-error-interface",
       "explainer-links": [
         "https://github.com/w3c/webtransport/blob/main/explainer.md"
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-27 11:52:15.556637"
+        "when": "2026-10-28 11:55:43.306594"
       }
     },
     {
@@ -29564,14 +29580,14 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-27 11:05:13.607789"
+        "when": "2026-10-28 12:11:14.652273"
       }
     },
     {
       "id": 5235261159112704,
-      "name": "WebTransport send groups and stream prioritization",
-      "summary": "WebTransport already lets sites send data through WritableStreams. This feature will let applications group outgoing streams, prioritize data within each group, and view sending statistics for streams and groups, while preserving the ability to transfer streams.",
-      "motivation": "Applications commonly send multiple independent streams over one WebTransport session. Existing outgoing streams already support writing, but the plain WritableStream representation does not expose stream grouping, runtime prioritization, or per-stream delivery statistics. This feature adds WebTransportSendGroup to organize related streams, WebTransportSendStream to prioritize them, and getStats() for both individual streams and groups. The new subclass must retain the existing ability to transfer a send stream to a worker or other execution context.",
+      "name": "WebTransport send groups and send-stream prioritization",
+      "summary": "WebTransport already lets sites send data through WritableStreams. This feature lets applications assign outgoing streams to send groups and use sendOrder to prioritize streams within each group. It also provides sending statistics for streams and groups while preserving WritableStream transfer behavior.",
+      "motivation": "Real-time applications often send multiple independent flows over one WebTransport session. When those flows compete for bandwidth, applications need to keep one flow from dominating while deciding which streams within each flow should go first. They also need visibility into sending progress so they can understand how those flows are performing.",
       "url": "https://chromestatus.com/feature/5235261159112704",
       "bug-url": "https://crbug.com/568825278",
       "spec-link": "https://www.w3.org/TR/webtransport/#webtransportsendstream",
@@ -29582,7 +29598,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-27 11:04:11.611502"
+        "when": "2026-10-27 22:52:03.263689"
       }
     },
     {
@@ -29598,7 +29614,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-22 20:52:06.722631"
+        "when": "2026-10-28 15:28:46.761997"
       }
     },
     {
@@ -29615,7 +29631,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-22 00:08:23.837039"
+        "when": "2026-10-28 07:54:11.892944"
       }
     },
     {
@@ -29680,7 +29696,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-15 21:09:35.823126"
+        "when": "2026-10-28 07:55:05.507223"
       }
     },
     {
@@ -29696,7 +29712,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-21 20:42:27.126384"
+        "when": "2026-10-28 05:18:50.900683"
       }
     },
     {
@@ -29728,7 +29744,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-15 18:24:07.929866"
+        "when": "2026-10-28 05:21:07.251544"
       }
     },
     {
@@ -31173,7 +31189,7 @@
     {
       "id": 5144333908049920,
       "name": "Background layer count independence ",
-      "summary": "Makes the computed value of the background-* longhands keep the number of comma-separated values the author specified, instead of repeating or truncating it to the background-image layer count. Repeating and truncating are used-value behavior: \"The computed values of the coordinating list properties are not affected by such truncation or repetition.\" This feature would implement the behavior defined in the https://drafts.csswg.org/css-values-4/ Appendix A.\n",
+      "summary": "Makes the computed value of the background-* longhands keep the number of comma-separated values the author specified, instead of repeating or truncating it to the background-image layer count. Repeating and truncating are used-value behavior: \"The computed values of the coordinating list properties are not affected by such truncation or repetition.\" This feature implements the behavior defined in the https://drafts.csswg.org/css-values-4/ Appendix A.\n",
       "motivation": "The behavior defined in the \"Appendix A: Coordinating List-Valued Properties\" of the CSS Values And Units L4 specification has been discussed recently and agreed that it should stand. This makes Chrome the only browser diverging in the specified behavior. ",
       "url": "https://chromestatus.com/feature/5144333908049920",
       "bug-url": "https://issues.chromium.org/issues/40855581",
@@ -31181,7 +31197,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-10-26 21:53:42.483133"
+        "when": "2026-10-28 15:09:24.803799"
       }
     }
   ],

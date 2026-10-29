@@ -331,6 +331,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/303#issuecomment-5383524973"
     }
   ],
+  "input-date-time-month": [
+    {
+      "description": "We use this feature in our internal systems for billing purposes - whole month only and does not make sense to pick a day.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/925#issuecomment-6492534310"
+    }
+  ],
   "interest-invokers": [
     {
       "description": "tooltips",
@@ -697,6 +703,12 @@
     {
       "description": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332"
+    }
+  ],
+  "webauthn-signals": [
+    {
+      "description": "After a successful [key creation](https://developer.mozilla.org/en-US/docs/Web/API/CredentialsContainer/create) storing the key on the server might fail for a number of reasons:\n\n- Client-side network issues\n- Server-side downtime\n- The key does not meet the requirements and is rejected\n- Session timed out\n\nIn these cases, I would like to use the [`signalUnknownCredential`](https://developer.mozilla.org/en-US/docs/Web/API/PublicKeyCredential/signalUnknownCredential_static) to make sure the end-user does not end up with non-accepted Passkeys in their Credential Manager.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/381#issuecomment-6465181534"
     }
   ],
   "webgl-multi-draw": [
