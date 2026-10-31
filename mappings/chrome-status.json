@@ -1700,7 +1700,7 @@
     {
       "id": 5079784523694080,
       "name": "Shared MessagePort for AudioWorklet",
-      "summary": "Exposes the spec-defined shared MessagePort on AudioWorklet and AudioWorkletGlobalScope.\n\nThis lets web applications communicate directly between the main thread AudioWorklet and the AudioWorkletGlobalScope without creating a bootstrap AudioWorkletProcessor only for message passing.\n\nThis aligns Chromium with the current Web Audio specification and existing interoperable behavior.",
+      "summary": "Exposes a shared MessagePort on AudioWorklet and AudioWorkletGlobalScope. This lets web applications communicate directly between the main thread AudioWorklet and the AudioWorkletGlobalScope without creating a bootstrap AudioWorkletProcessor only for message passing.",
       "motivation": "The Web Audio specification defines a shared MessagePort on AudioWorklet and AudioWorkletGlobalScope. This lets web applications communicate directly between the main thread and the AudioWorkletGlobalScope without creating a bootstrap AudioWorkletProcessor or AudioWorkletNode only for message passing.\n\nWithout this capability, developers have to keep workaround code that instantiates dummy processors solely to transfer initialization data or control messages into the worklet global scope. This adds code complexity and runtime overhead, and prevents cleanup of compatibility hacks in upstream projects.\n\nThis change aligns Chromium with the current Web Audio specification and existing interoperable behavior. It also restores compatibility for real-world code that expects audioContext.audioWorklet.port to exist, including Emscripten-generated applications and demos such as the MOD player discussed in the linked issue.\n\nRelevant specification and ecosystem discussion:\n- https://github.com/WebAudio/web-audio-api/issues/2456\n- https://github.com/WebAudio/web-audio-api/pull/2507\n- https://github.com/emscripten-core/emscripten/pull/25354",
       "url": "https://chromestatus.com/feature/5079784523694080",
       "bug-url": "https://issues.chromium.org/issues/446920095",
@@ -1710,8 +1710,8 @@
         "https://github.com/WebAudio/web-audio-api/pull/2507"
       ],
       "updated": {
-        "by": "hongchan@chromium.org",
-        "when": "2026-10-29 08:39:09.992921"
+        "by": "hongchan@google.com",
+        "when": "2026-10-30 18:16:06.205147"
       }
     },
     {
@@ -2513,22 +2513,6 @@
       "updated": {
         "by": "tov@google.com",
         "when": "2025-03-17 23:08:39.940030"
-      }
-    },
-    {
-      "id": 5172548013916160,
-      "name": "HTML-in-canvas",
-      "summary": "HTML-in-canvas enables customizing the rendering of html using canvas with new primitives to manage canvas layout, drawing capabilities, rendering events for DOM-to-canvas synchronization, and geometry update capabilities for canvas-to-DOM synchronization.",
-      "motivation": "High-performance web applications rely on <canvas> for control over rendering that goes beyond standard HTML/CSS. However, by using <canvas>, they lose all the rich, built-in features of the web platform, including:\n* Advanced formatting, such as styled multi-line text.\n* Interactivity, such as copy&paste, forms, and text selection.\n* Accessibility.\nThis forces a bad trade-off: developers must either re-implement these fundamental browser features in JS, or simply not provide them, resulting in a sub-par, inaccessible user experience.",
-      "url": "https://chromestatus.com/feature/5172548013916160",
-      "bug-url": "https://crbug.com/500967896",
-      "spec-link": "https://github.com/whatwg/html/pull/11588",
-      "explainer-links": [
-        "https://github.com/WICG/html-in-canvas"
-      ],
-      "updated": {
-        "by": "pdr@chromium.org",
-        "when": "2026-10-28 11:51:08.338151"
       }
     },
     {
@@ -10409,7 +10393,7 @@
       "explainer-links": [],
       "updated": {
         "by": "eui-sang.lim@samsung.com",
-        "when": "2026-10-28 15:11:29.248703"
+        "when": "2026-10-30 17:13:11.921074"
       }
     },
     {
@@ -13628,7 +13612,7 @@
       ],
       "updated": {
         "by": "steimel@chromium.org",
-        "when": "2026-10-27 19:07:52.901164"
+        "when": "2026-10-30 19:50:21.911216"
       }
     },
     {
@@ -28217,17 +28201,17 @@
     {
       "id": 5172464636133376,
       "name": "Support for WebHID",
-      "summary": "WebHID allows web applications to interact with a wider range of devices. Standard examples of Human Interface Devices (HIDs)  include mice, keyboards, touchscreens, and gamepads. Those are accessible with high-level input events. However, specialized HIDs and HID features (for example, custom keyboards, game controllers, and call control headsets) require extended access. \n\nWebHID allows web applications to request access, send and receive HID reports, and retrieve information about the report descriptor. This feature was previously launched on desktop platforms (Windows, macOS, Linux, and ChromeOS). Support on Android is planned for Chrome 157. To read more, see [Connect to uncommon HID devices](https://developer.chrome.com/docs/extensions/how-to/web-platform/webhid).\n\nThis feature can be controlled by the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)",
+      "summary": "The WebHID API enables web applications to interact with Human Interface Devices (HIDs) over USB and Bluetooth beyond standard system input mappings (such as mice, keyboards, touchscreens, and standard gamepads). Web applications can request user permission to connect to HID devices, send and receive input, output, and feature reports, and inspect report descriptors.\n\nWebHID shipped on desktop platforms (Windows, macOS, Linux, and ChromeOS) in Chrome 89. This launch brings the existing WebHID API to Chrome on Android in Chrome 158 (relying on new OS support in Android 17 / API level 37 and later) with no changes to the web-exposed API surface.\n\nPopular uses today include customizing mechanical keyboards, keypads, and gaming mice, calibrating gamepads, and integrating hardware headset call controls in call centers. \n\nWebView is not supported, as it does not have a device chooser UI or permissions UX affordances.\n\nThis feature can be controlled by the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)",
       "motivation": "",
       "url": "https://chromestatus.com/feature/5172464636133376",
       "bug-url": "http://crbug.com/40628009",
-      "spec-link": "https://wicg.github.io/webhid/index.html",
+      "spec-link": "https://hid.spec.whatwg.org",
       "explainer-links": [
-        "https://github.com/WICG/webhid/blob/master/EXPLAINER.md"
+        "https://github.com/whatwg/hid/blob/main/EXPLAINER.md"
       ],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-10-07 13:12:19.679578"
+        "by": "elmirakalali@google.com",
+        "when": "2026-10-30 18:46:54.393652"
       }
     }
   ],
@@ -28339,7 +28323,7 @@
       ],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-10-26 11:10:01.852315"
+        "when": "2026-10-30 17:37:03.594203"
       }
     },
     {
@@ -29564,7 +29548,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-28 11:55:43.306594"
+        "when": "2026-10-30 18:12:38.731903"
       }
     },
     {
@@ -31304,6 +31288,24 @@
       "updated": {
         "by": "rahsin@microsoft.com",
         "when": "2026-10-03 03:20:09.999503"
+      }
+    }
+  ],
+  "canvas-html": [
+    {
+      "id": 5172548013916160,
+      "name": "HTML-in-canvas",
+      "summary": "HTML-in-canvas enables customizing the rendering of html using canvas with new primitives to manage canvas layout, drawing capabilities, rendering events for DOM-to-canvas synchronization, and geometry update capabilities for canvas-to-DOM synchronization.",
+      "motivation": "High-performance web applications rely on <canvas> for control over rendering that goes beyond standard HTML/CSS. However, by using <canvas>, they lose all the rich, built-in features of the web platform, including:\n* Advanced formatting, such as styled multi-line text.\n* Interactivity, such as copy&paste, forms, and text selection.\n* Accessibility.\nThis forces a bad trade-off: developers must either re-implement these fundamental browser features in JS, or simply not provide them, resulting in a sub-par, inaccessible user experience.",
+      "url": "https://chromestatus.com/feature/5172548013916160",
+      "bug-url": "https://crbug.com/500967896",
+      "spec-link": "https://github.com/whatwg/html/pull/11588",
+      "explainer-links": [
+        "https://github.com/WICG/html-in-canvas"
+      ],
+      "updated": {
+        "by": "daniel@ddbeck.com",
+        "when": "2026-10-30 10:06:16.561730"
       }
     }
   ]

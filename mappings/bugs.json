@@ -600,7 +600,6 @@
   "canvas": {
     "chrome": [
       "https://g-issues.chromium.org/issues/399653248",
-      "https://crbug.com/500967896",
       "https://code.google.com/p/chromium/issues/detail?id=67587"
     ]
   },
@@ -641,6 +640,11 @@
     ],
     "firefox": [
       "https://bugzil.la/1536809"
+    ]
+  },
+  "canvas-html": {
+    "chrome": [
+      "https://crbug.com/500967896"
     ]
   },
   "capture-stream-audio-video": {
