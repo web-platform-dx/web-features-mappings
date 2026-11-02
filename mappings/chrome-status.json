@@ -10393,7 +10393,7 @@
       "explainer-links": [],
       "updated": {
         "by": "eui-sang.lim@samsung.com",
-        "when": "2026-10-30 17:13:11.921074"
+        "when": "2026-11-02 10:47:49.605283"
       }
     },
     {
@@ -10994,6 +10994,20 @@
     }
   ],
   "insertable-streams": [
+    {
+      "id": 5079474436702208,
+      "name": "Implement MediaStreamTrackHandle",
+      "summary": "Adds a new interface called MediaStreamTrackHandle which can be both constructed and transferred to dedicated workers. This handle is connected to a MediaStreamTrack on the main thread and acts as its proxy.  This can be useful for constructing a MediaStreamTrackProcessor in a dedicated worker to receive the connected track's frames.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5079474436702208",
+      "bug-url": "https://issues.chromium.org/560113909",
+      "spec-link": "https://www.w3.org/TR/mediacapture-transform/#mediastreamtrackhandle",
+      "explainer-links": [],
+      "updated": {
+        "by": "agpalak@google.com",
+        "when": "2026-11-02 13:00:11.343688"
+      }
+    },
     {
       "id": 6267249280286720,
       "name": "MediaStreamTrackProcessor frame counters ",
@@ -13612,7 +13626,7 @@
       ],
       "updated": {
         "by": "steimel@chromium.org",
-        "when": "2026-10-30 19:50:21.911216"
+        "when": "2026-11-02 11:11:06.831840"
       }
     },
     {
@@ -19647,7 +19661,7 @@
       ],
       "updated": {
         "by": "lcdavid@google.com",
-        "when": "2026-10-14 08:02:01.059331"
+        "when": "2026-11-02 16:49:08.861551"
       }
     },
     {
@@ -29564,7 +29578,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-28 12:11:14.652273"
+        "when": "2026-11-02 07:55:48.477543"
       }
     },
     {
@@ -29582,7 +29596,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-10-27 22:52:03.263689"
+        "when": "2026-11-02 11:28:27.893807"
       }
     },
     {
@@ -30918,7 +30932,7 @@
       ],
       "updated": {
         "by": "fbeaufort@google.com",
-        "when": "2026-09-28 23:57:13.517191"
+        "when": "2026-11-02 16:04:35.890651"
       }
     }
   ],

@@ -11466,5 +11466,55 @@
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/dir"
     }
+  ],
+  "wasm-garbage-collection": [
+    {
+      "slug": "WebAssembly/Reference/Reference/cast",
+      "title": "cast: Wasm reference instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Reference/cast"
+    },
+    {
+      "slug": "WebAssembly/Reference/Reference/eq",
+      "title": "eq: Wasm reference instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Reference/eq"
+    }
+  ],
+  "wasm-reference-types": [
+    {
+      "slug": "WebAssembly/Reference/Reference/func",
+      "title": "func: Wasm reference instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Reference/func"
+    },
+    {
+      "slug": "WebAssembly/Reference/Reference/is_null",
+      "title": "is_null: Wasm reference instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Reference/is_null"
+    },
+    {
+      "slug": "WebAssembly/Reference/Reference/null",
+      "title": "null: Wasm reference instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Reference/null"
+    }
+  ],
+  "wasm-typed-fun-refs": [
+    {
+      "slug": "WebAssembly/Reference/Reference/as_non_null",
+      "title": "as_non_null: Wasm reference instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Reference/as_non_null"
+    }
+  ],
+  "window-management-resizing": [
+    {
+      "slug": "Web/API/Window/setResizable",
+      "title": "Window: setResizable() method",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/API/Window/setResizable"
+    }
   ]
 }

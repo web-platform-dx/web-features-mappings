@@ -793,7 +793,7 @@
   ],
   "calc-size": [
     {
-      "shortname": "css-values-5"
+      "shortname": "css-sizing-4"
     }
   ],
   "canvas": [
@@ -1518,11 +1518,6 @@
       "shortname": "dbsc-1"
     }
   ],
-  "device-memory": [
-    {
-      "shortname": "device-memory-1"
-    }
-  ],
   "device-orientation-events": [
     {
       "shortname": "orientation-event"
@@ -1630,6 +1625,11 @@
       "shortname": "css-ruby-1"
     }
   ],
+  "display-state": [
+    {
+      "shortname": "window-management"
+    }
+  ],
   "display-table": [
     {
       "shortname": "css-display-3"
@@ -1651,6 +1651,11 @@
   "document-colors": [
     {
       "shortname": "html"
+    }
+  ],
+  "document-isolation-policy": [
+    {
+      "shortname": "document-isolation-policy"
     }
   ],
   "document-picture-in-picture": [
@@ -2677,6 +2682,9 @@
     },
     {
       "shortname": "fetch"
+    },
+    {
+      "shortname": "trusted-types"
     }
   ],
   "html-wrapper-methods": [
@@ -3057,12 +3065,18 @@
   ],
   "interest-invokers": [
     {
+      "shortname": "css-pseudo-4"
+    },
+    {
+      "shortname": "css-ui-4"
+    },
+    {
       "shortname": "selectors-5"
     }
   ],
   "interpolate-size": [
     {
-      "shortname": "css-values-5"
+      "shortname": "css-sizing-4"
     }
   ],
   "intersection-observer": [
@@ -3510,11 +3524,6 @@
   "long-animation-frames": [
     {
       "shortname": "long-animation-frames"
-    }
-  ],
-  "longtasks": [
-    {
-      "shortname": "longtasks-1"
     }
   ],
   "magnetometer": [
@@ -4638,6 +4647,9 @@
   ],
   "random-function": [
     {
+      "shortname": "css-values-4"
+    },
+    {
       "shortname": "css-values-5"
     }
   ],
@@ -4813,6 +4825,11 @@
   "requestidlecallback": [
     {
       "shortname": "requestidlecallback"
+    }
+  ],
+  "resizable": [
+    {
+      "shortname": "window-management"
     }
   ],
   "resizable-buffers": [
@@ -6433,6 +6450,9 @@
   ],
   "wasm-garbage-collection": [
     {
+      "shortname": "wasm-core-2"
+    },
+    {
       "shortname": "wasm-core-2-fork-gc"
     }
   ],
@@ -6449,6 +6469,9 @@
   "wasm-multi-memory": [
     {
       "shortname": "wasm-core-2"
+    },
+    {
+      "shortname": "wasm-core-2-fork-multi-memory"
     }
   ],
   "wasm-multi-value": [
@@ -6511,6 +6534,9 @@
     }
   ],
   "wasm-typed-fun-refs": [
+    {
+      "shortname": "wasm-core-2"
+    },
     {
       "shortname": "wasm-core-2-fork-function-references"
     }
@@ -6993,6 +7019,11 @@
     {
       "shortname": "html"
     },
+    {
+      "shortname": "window-management"
+    }
+  ],
+  "window-management-resizing": [
     {
       "shortname": "window-management"
     }

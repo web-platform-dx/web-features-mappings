@@ -1437,6 +1437,20 @@
       "https://crbug.com/388976"
     ]
   },
+  "document-isolation-policy": {
+    "firefox": [
+      "https://bugzil.la/2063367"
+    ],
+    "firefox_android": [
+      "https://bugzil.la/2063367"
+    ],
+    "safari": [
+      "https://webkit.org/b/325516"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/325516"
+    ]
+  },
   "document-modelcontext": {
     "chrome": [
       "https://crbug.com/445637567"
@@ -2269,11 +2283,6 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=759665"
     ]
   },
-  "grid-lanes": {
-    "firefox": [
-      "https://bugzil.la/1981604"
-    ]
-  },
   "hanging-punctuation": {
     "chrome": [
       "https://crbug.com/41491716"
@@ -2373,6 +2382,12 @@
   "html-setters": {
     "firefox": [
       "https://bugzil.la/2075152"
+    ],
+    "safari": [
+      "https://webkit.org/b/303808"
+    ],
+    "safari_ios": [
+      "https://webkit.org/b/303808"
     ]
   },
   "html-streaming-setters": {
@@ -2636,6 +2651,7 @@
   },
   "insertable-streams": {
     "chrome": [
+      "https://issues.chromium.org/560113909",
       "https://issues.chromium.org/issues/513481577",
       "https://crbug.com/1300528",
       "https://crbug.com/1142955"
@@ -3220,6 +3236,9 @@
   "masonry": {
     "chrome": [
       "https://issues.chromium.org/issues/343257585"
+    ],
+    "firefox": [
+      "https://bugzil.la/1981604"
     ]
   },
   "matchmedia": {
