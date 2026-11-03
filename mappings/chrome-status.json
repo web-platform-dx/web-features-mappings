@@ -1711,7 +1711,7 @@
       ],
       "updated": {
         "by": "hongchan@google.com",
-        "when": "2026-10-30 18:16:06.205147"
+        "when": "2026-11-03 11:41:29.150724"
       }
     },
     {
@@ -6643,7 +6643,7 @@
       ],
       "updated": {
         "by": "jarhar@chromium.org",
-        "when": "2026-10-13 17:49:48.692424"
+        "when": "2026-11-02 17:35:04.907145"
       }
     }
   ],
@@ -10385,7 +10385,7 @@
     {
       "id": 5123480866783232,
       "name": "CSSImportRule.styleSheet ",
-      "summary": "Allow CSSImportRule.styleSheet to be nullable. The styleSheet attribute in CSSImportRule can be null if there is no associated CSS style sheet.",
+      "summary": "Returns null from CSSImportRule.styleSheet when an @import rule has no associated stylesheet, including when its supports() condition is false. This lets developers check whether a stylesheet is associated with the rule before accessing its properties.",
       "motivation": "CSS Cascade requires CSSImportRule.styleSheet to return null when an @import supports() condition does not match, and CSSOM declares the attribute nullable. This change aligns Chromium with those requirements.",
       "url": "https://chromestatus.com/feature/5123480866783232",
       "bug-url": "https://issues.chromium.org/issues/40266154",
@@ -10393,7 +10393,7 @@
       "explainer-links": [],
       "updated": {
         "by": "eui-sang.lim@samsung.com",
-        "when": "2026-11-02 10:47:49.605283"
+        "when": "2026-11-03 13:26:14.453720"
       }
     },
     {
@@ -14712,8 +14712,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-10-19 17:45:49.039339"
+        "by": "kristinlee@microsoft.com",
+        "when": "2026-11-02 18:17:34.379868"
       }
     }
   ],
@@ -18440,7 +18440,7 @@
       "explainer-links": [],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-10-20 09:04:42.112115"
+        "when": "2026-11-03 09:16:40.738953"
       }
     },
     {
@@ -21329,16 +21329,18 @@
   "sizes-auto": [
     {
       "id": 5135400531263488,
-      "name": "Make responsive image source selection aware of object-fit/2D",
-      "summary": "Use the `h` descriptor in the `srcset` attribute (so far ignored), as well as allowing an explicit object-fit inside `<img sizes>` for eager images, to let the browser choose the best source based on the resulting 2D size of the image.\n\n",
-      "motivation": "<img sizes=auto> currently dictates that the image element keeps a fixed aspect ratio. However, a CSS `object-fit` of contain/cover makes it so that the size of the image content itself can still be larger/smaller than that, resulting in a selected image that may be too big or too small.\n\nAllowing the author to also specify the height of the *source* (as opposed to the height of the container) gives the UA all it needs to pick an optimal source.",
+      "name": "Responsive Image Fine-Tuning Knobs",
+      "summary": "A cohesive set of responsive image improvements in HTML:\n1. Normative source selection algorithm (replacing \"implementation-defined\" selection with deterministic normalization, ascending density sort, and optional local-cache reuse of already-available higher-resolution candidates).\n2. Per-image density bounds (`mindensity` and `maxdensity` attributes on `<img>` and `<source>`).\n3. 2D `sizes` (`cover` / `contain`), `h` descriptors in `srcset`, `object-fit`-aware `sizes=\"auto\"`, and fixing unexpected upscaling under `object-fit: scale-down` / `none`.\n4. True unscaled intrinsic dimension and aspect ratio getters (`imageWidth`, `imageHeight`, and `imageAspectRatio` on `HTMLImageElement`).",
+      "motivation": "Responsive image selection in HTML currently gives authors only a 1D width hint (`sizes`), derives both candidate density and `img.naturalWidth` from that 1D width, and leaves source selection \"implementation-defined\".\n\n- Websites cannot cap density on decorative or below-the-fold images (e.g. `maxdensity=\"1.5\"` on 3x mobile displays cuts pixels by 75%) or request extra sharpness on hero/zoomable images (`mindensity`): https://github.com/whatwg/html/issues/13069\n- `<img sizes=\"auto\">` and eager `sizes` ignore CSS `object-fit` (`cover` / `contain`) and `h` descriptors, causing blurry crops or oversized letterboxed downloads, and `object-fit: none` / `scale-down` unexpectedly upscales `w`-descriptor images: https://github.com/whatwg/html/issues/12248, https://github.com/whatwg/html/issues/11428, https://github.com/whatwg/html/pull/13053\n- `naturalWidth` / `naturalHeight` return density-adjusted CSS sizes when `w` descriptors are used, leaving scripts and RUM unable to inspect true downloaded pixel dimensions (`imageWidth`, `imageHeight`, `imageAspectRatio`): https://github.com/whatwg/html/issues/12565, https://github.com/whatwg/html/pull/13046\n- Browser engines have converged on baseline selection, allowing HTML to specify selection normatively while permitting cached higher-resolution reuse: https://github.com/whatwg/html/issues/13077",
       "url": "https://chromestatus.com/feature/5135400531263488",
-      "bug-url": "https://issues.chromium.org/issues/572724710",
-      "spec-link": null,
-      "explainer-links": [],
+      "bug-url": "https://issues.chromium.org/issues/581018325",
+      "spec-link": "https://github.com/whatwg/html/pull/13053",
+      "explainer-links": [
+        "https://github.com/noamr/explainers/blob/main/responsive-images-explainer.md"
+      ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-10-12 13:17:51.205629"
+        "when": "2026-11-03 09:46:19.694301"
       }
     },
     {
@@ -28337,7 +28339,7 @@
       ],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-10-30 17:37:03.594203"
+        "when": "2026-11-03 11:42:05.430173"
       }
     },
     {
@@ -29562,7 +29564,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-30 18:12:38.731903"
+        "when": "2026-11-03 11:40:20.325336"
       }
     },
     {
@@ -31195,7 +31197,7 @@
       "explainer-links": [],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-10-28 15:09:24.803799"
+        "when": "2026-11-03 11:41:02.424777"
       }
     }
   ],
@@ -31230,8 +31232,8 @@
         "https://aka.ms/installelement"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-10-19 17:45:58.189617"
+        "by": "kristinlee@microsoft.com",
+        "when": "2026-11-02 18:19:03.481809"
       }
     }
   ],
