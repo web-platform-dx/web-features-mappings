@@ -1711,7 +1711,7 @@
       ],
       "updated": {
         "by": "hongchan@google.com",
-        "when": "2026-11-03 11:41:29.150724"
+        "when": "2026-11-04 04:19:47.734962"
       }
     },
     {
@@ -10393,7 +10393,7 @@
       "explainer-links": [],
       "updated": {
         "by": "eui-sang.lim@samsung.com",
-        "when": "2026-11-03 13:26:14.453720"
+        "when": "2026-11-04 15:18:10.443081"
       }
     },
     {
@@ -14703,7 +14703,7 @@
     {
       "id": 5183481574850560,
       "name": "Web Install API",
-      "summary": "Starting in Chrome 158, the new Web Install API allows websites to prompt users to install a web app, given a manifest URL and optional manifest ID.  The `navigator.install()` method enables cross-origin web app installation and provides a better developer experience than handling `beforeinstallprompt` events. This API is launching in parallel with the `<install>` element, a declarative entry point to the same installation capability. \n\nAdmins can control this in two ways:\n1. Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), would disable user web app installs broadly, including installs initiated via `navigator.install()` and `<install>`. Or \n2. [Permissions policy](https://www.w3.org/TR/permissions-policy/), web-app-installation, can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Starting in Chrome 158, the new Web Install API allows websites to prompt users to install a web app, given a manifest URL and optional manifest ID. The `navigator.install()` method enables cross-origin web app installation and provides a better developer experience than handling `beforeinstallprompt` events. This API is launching in parallel with the [HTML <install> element](https://chromeenterprise.google/resources/release-notes/?ver=158&featId=5152834368700416), a declarative entry point to the same installation capability. \n\nAdmins can control this in either of two ways:\n1. With the enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), to disable user web app installs in general, including installs initiated via `navigator.install()` and `<install>`.  \n2. With permissions policy, [web-app-installation](https://www.w3.org/TR/permissions-policy/), to allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites or iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5183481574850560",
       "bug-url": "https://issues.chromium.org/issues/333795265",
@@ -14712,8 +14712,8 @@
         "https://aka.ms/webinstall"
       ],
       "updated": {
-        "by": "kristinlee@microsoft.com",
-        "when": "2026-11-02 18:17:34.379868"
+        "by": "siobhankeating@google.com",
+        "when": "2026-11-04 12:31:56.764708"
       }
     }
   ],
@@ -21528,7 +21528,7 @@
       ],
       "updated": {
         "by": "yoichio@chromium.org",
-        "when": "2026-10-28 05:15:29.246916"
+        "when": "2026-11-04 04:12:00.862644"
       }
     },
     {
@@ -28217,7 +28217,7 @@
     {
       "id": 5172464636133376,
       "name": "Support for WebHID",
-      "summary": "The WebHID API enables web applications to interact with Human Interface Devices (HIDs) over USB and Bluetooth beyond standard system input mappings (such as mice, keyboards, touchscreens, and standard gamepads). Web applications can request user permission to connect to HID devices, send and receive input, output, and feature reports, and inspect report descriptors.\n\nWebHID shipped on desktop platforms (Windows, macOS, Linux, and ChromeOS) in Chrome 89. This launch brings the existing WebHID API to Chrome on Android in Chrome 158 (relying on new OS support in Android 17 / API level 37 and later) with no changes to the web-exposed API surface.\n\nPopular uses today include customizing mechanical keyboards, keypads, and gaming mice, calibrating gamepads, and integrating hardware headset call controls in call centers. \n\nWebView is not supported, as it does not have a device chooser UI or permissions UX affordances.\n\nThis feature can be controlled by the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)",
+      "summary": "The [WebHID API](https://developer.chrome.com/docs/extensions/how-to/web-platform/webhid) enables web applications to interact with Human Interface Devices (HIDs) over USB and Bluetooth beyond standard system input mappings (such as mice, keyboards, touchscreens, and standard gamepads). Web applications can request user permission to connect to HID devices, send and receive input, output, and feature reports, and inspect report descriptors. WebHID shipped on [desktop platforms](https://developer.chrome.com/docs/capabilities/web-apis/hid-examples) (Windows, macOS, Linux, and ChromeOS) in Chrome 89. \n\nChrome 158 brings the existing WebHID API to Chrome on Android (relying on new OS support in Android 17 / API level 37 and later) with no changes to the web-exposed API surface.\n\nPopular uses today include customizing mechanical keyboards, keypads, and gaming mice, calibrating gamepads, and integrating hardware headset call controls in call centers. \n\nWebView is not supported, as it does not have a device chooser UI or permissions UX controls.\n\nThis feature can be controlled using the following enterprise policies: \n* [DefaultWebHidGuardSetting](https://chromeenterprise.google/policies/#DefaultWebHidGuardSetting)\n* [WebHidAllowAllDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowAllDevicesForUrls)\n* [WebHidAllowDevicesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesForUrls)\n* [WebHidAllowDevicesWithHidUsagesForUrls](https://chromeenterprise.google/policies/#WebHidAllowDevicesWithHidUsagesForUrls)\n* [WebHidAskForUrls](https://chromeenterprise.google/policies/#WebHidAskForUrls)\n* [WebHidBlockedForUrls](https://chromeenterprise.google/policies/#WebHidBlockedForUrls)\n\nFor more details, see [Set ChromeOS devices policies](https://support.google.com/chrome/a/answer/1375678) in the Chrome Enterprise and Education Help Center.",
       "motivation": "",
       "url": "https://chromestatus.com/feature/5172464636133376",
       "bug-url": "http://crbug.com/40628009",
@@ -28226,8 +28226,8 @@
         "https://github.com/whatwg/hid/blob/main/EXPLAINER.md"
       ],
       "updated": {
-        "by": "elmirakalali@google.com",
-        "when": "2026-10-30 18:46:54.393652"
+        "by": "siobhankeating@google.com",
+        "when": "2026-11-04 12:05:51.949099"
       }
     }
   ],
@@ -28299,15 +28299,15 @@
     {
       "id": 5160724576993280,
       "name": "Deprecate and remove WebRTC peer connection method",
-      "summary": "Starting in Chrome 160, Chrome will remove support for the `RTCPeerConnection.createDTMFSender()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official _Real-time communication for the web_([WebRTC](https://webrtc.org/)) standard. Removing it ensures better compatibility and security across different web browsers.\n\n**Before Chrome 160** is deployed, admins should test any internal or third-party web communication applications that rely on WebRTC.",
+      "summary": "Starting in Chrome 160, Chrome will remove support for the `RTCPeerConnection.createDTMFSender()` method on Windows, macOS, Linux, ChromeOS, and Android. \n\nThis is a legacy, non-standard method that is obsolete and no longer conforms to the official _Real-time communication for the web_ ([WebRTC](https://webrtc.org/)) standard. Removing it ensures better compatibility and security across different web browsers.\n\n**Before Chrome 160** is deployed, admins should test any internal or third-party web communication applications that rely on WebRTC. For more details on rollout dates, see the [Chromium release schedule](https://chromiumdash.appspot.com/schedule).",
       "motivation": "This is a legacy and obsolete method that does not exist in the WebRTC spec and the only major engine implementing it is Blink.\n\nRemoving it is part of Interop 2026.",
       "url": "https://chromestatus.com/feature/5160724576993280",
       "bug-url": "http://crbug.com/553274713",
       "spec-link": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection",
       "explainer-links": [],
       "updated": {
-        "by": "guidou@google.com",
-        "when": "2026-10-19 09:14:32.849069"
+        "by": "siobhankeating@google.com",
+        "when": "2026-11-04 12:52:02.481092"
       }
     },
     {
@@ -29564,7 +29564,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-11-03 11:40:20.325336"
+        "when": "2026-11-03 17:35:20.472551"
       }
     },
     {
@@ -29580,7 +29580,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-11-02 07:55:48.477543"
+        "when": "2026-11-03 23:22:00.696634"
       }
     },
     {
@@ -30768,15 +30768,15 @@
     {
       "id": 4709671889534976,
       "name": "Deprecate and remove XSLT",
-      "summary": "[XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the **libxslt** library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines, Gecko and WebKit) plans to deprecate and remove XSLT from the web platform. The modern web is powered by three major browser engines: [Blink](https://www.chromium.org/blink/) (Chromium), [Gecko](https://firefox-source-docs.mozilla.org/overview/gecko.html) (Firefox), and [WebKit](https://webkit.org/) (Safari). They interpret code to render pages. \n\nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt).\n\nFrom Chrome 158, XSLT will stop functioning on Stable releases. ",
+      "summary": "Extensible Stylesheet Language Transformations [XSLT v1.0](https://www.w3.org/TR/xslt-10/), which all browsers adhere to, was standardized in 1999. In the meantime, XSLT has evolved to v2.0 and v3.0, adding features, and growing apart from the old version frozen into browsers. This lack of advancement, coupled with the rise of JavaScript libraries and frameworks that offer more flexible and powerful DOM manipulation, has led to a significant decline in the use of client-side XSLT. Its role within the web browser has been largely superseded by JavaScript-based technologies, such as JSON and React.\n\nChromium uses the **libxslt** library to process these transformations, and [libxslt was unmaintained](https://discourse.gnome.org/t/stepping-down-as-libxslt-maintainer/27615) for ~6 months of 2025. Libxslt is a complex, aging C codebase of the type notoriously susceptible to memory safety vulnerabilities like buffer overflows, which can lead to arbitrary code execution. Because client-side XSLT is now a niche, rarely-used feature, these libraries receive far less maintenance and security scrutiny than core JavaScript engines, yet they represent a direct, potent attack surface for processing untrusted web content. Indeed, XSLT is the source of several recent high-profile security exploits that continue to put browser users at risk. \n\nFor these reasons, Chromium (along with both other browser engines, Gecko and WebKit) plans to deprecate and remove XSLT from the web platform. The modern web is powered by three major browser engines: [Blink](https://www.chromium.org/blink/) (Chromium), [Gecko](https://firefox-source-docs.mozilla.org/overview/gecko.html) (Firefox), and [WebKit](https://webkit.org/) (Safari). They interpret code to render pages. \n\nFor more details, see this [Chrome for Developers article](https://developer.chrome.com/docs/web-platform/deprecating-xslt).\n\nFrom Chrome 158, XSLT will stop functioning on Stable releases. ",
       "motivation": "Security risks for all users outweigh the very small usage of this feature on the open web.\n\nUsage of XSLTProcessor (https://chromestatus.com/metrics/feature/timeline/popularity/79) is fairly volatile, registering somewhere between 0.01% and 0.1% of page loads, averaging around 0.05% over time. These numbers are above the typical 0.001% deprecation threshold. Again, we feel that the increased potential for breakage is balanced by the reduced security risk to 100% of Chromium users. And we are doing everything we can to mitigate this breakage and be proactive in reaching out to potentially affected sites and particularly libraries that might account for significant chunks of the overall usage. In addition, several sites we surveyed that use XSLTProcessor have feature detection code with fallbacks to JS libraries like Saxonica. Of the ~220 sites we've surveyed so far, roughly 72% of them are still functional even with XSLT disabled.\n\nThe usage of XSL Processing Instructions (https://chromestatus.com/metrics/feature/timeline/popularity/78) is significantly lower, around 0.001% for the last few years.",
       "url": "https://chromestatus.com/feature/4709671889534976",
       "bug-url": "https://crbug.com/435623334",
       "spec-link": null,
       "explainer-links": [],
       "updated": {
-        "by": "masonfreed@google.com",
-        "when": "2026-10-13 18:46:22.710727"
+        "by": "siobhankeating@google.com",
+        "when": "2026-11-04 11:45:25.003471"
       }
     },
     {
@@ -31223,7 +31223,7 @@
     {
       "id": 5152834368700416,
       "name": "HTML install element",
-      "summary": "Chrome can now trigger a request for the browser to install a web app, given a manifest URL and optional manifest ID. The <install> element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling `beforeinstallprompt` events. The element is launching in parallel with `navigator.install()`, the imperative entry point to the same installation capability. \n\nAdmins can control this in two ways:\n1. Enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), can disable user web app installs broadly, including installs initiated via `navigator.install()` and <install>.  \n2. [Permissions policy](https://www.w3.org/TR/permissions-policy/), web-app-installation, can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites/iframes).",
+      "summary": "Chrome can now trigger a request for the browser to install a web app, given a manifest URL and optional manifest ID. The `<install>` element enables cross-origin web app installation without JavaScript and provides a better developer experience than handling `beforeinstallprompt` events. The element is launching in parallel with [Web Install API](https://chromeenterprise.google/resources/release-notes/?ver=158&featId=5183481574850560), specifically the `navigator.install()` method, the imperative entry point to the same installation capability. \n\nAdmins can control this feature in either of two ways:\n1. With enterprise policy, [WebAppInstallByUserEnabled](https://chromeenterprise.google/policies/#WebAppInstallByUserEnabled), admins can disable user web app installs in general, including installs initiated via `navigator.install()` and <install>.  \n2. With permissions policy, [web-app-installation](https://www.w3.org/TR/permissions-policy/), admins can allow or disallow use of this feature on origins that the enterprise controls (for example, internal sites or iframes).",
       "motivation": "The web currently lacks the ability for a site to offer installation of a web app identified by a cross-origin manifest. Limited support exists for eligible same-origin web apps via ambient installation affordances and the beforeinstallprompt event. However, the existent browser-provided entry points are difficult for developers to use and users to discover.\n\nThis capability lets developers distribute web apps across the web without proprietary protocols or platform-specific stores. It brings web app distribution closer to the reach developers expect from other application models while preserving browser-controlled safeguards and explicit user choice.",
       "url": "https://chromestatus.com/feature/5152834368700416",
       "bug-url": "https://issues.chromium.org/issues/454827186",
@@ -31232,8 +31232,8 @@
         "https://aka.ms/installelement"
       ],
       "updated": {
-        "by": "kristinlee@microsoft.com",
-        "when": "2026-11-02 18:19:03.481809"
+        "by": "siobhankeating@google.com",
+        "when": "2026-11-04 12:15:24.323601"
       }
     }
   ],
