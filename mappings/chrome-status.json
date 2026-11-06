@@ -12120,7 +12120,7 @@
       "id": 6325545693478912,
       "name": "Prompt API Sampling Mode",
       "summary": "Allows developers to configure language model output variety and creativity in the Prompt API using high-level samplingMode presets. Instead of exposing raw numerical parameters like topK and temperature that vary unpredictably across models, developers can choose semantic presets ranging from \"most-predictable\" for deterministic extraction to \"most-creative\" for open-ended brainstorming. The browser maps these presets to optimal sampling hyperparameters for the underlying model, providing developers with reliable response tuning while preserving cross-browser interoperability.\n\nenum LanguageModelSamplingMode {\n  \"most-predictable\",      // For strict consistency/factual extraction\n  \"predictable\",           // For highly focused outputs\n  \"slightly-predictable\",  // For moderately focused, consistent outputs\n  \"balanced\",              // The default state for standard prompting\n  \"slightly-creative\",     // For moderately varied, expressive outputs\n  \"creative\",              // For tasks favoring variety over strict facts\n  \"most-creative\"          // For maximum token diversity and brainstorming\n};\n\nThis feature is an enhancement of the Prompt API (https://chromestatus.com/feature/5134603979063296).\n",
-      "motivation": null,
+      "motivation": "Web developers using the Prompt API often need to steer response variance to match their task, such as deterministic decoding for structured data extraction, classification, and tool calling, or higher output diversity for open-ended drafting and brainstorming. Raw numerical hyperparameters (`temperature` and `topK`) were excluded from the initial Prompt API launch due to cross-browser and cross-model interoperability concerns raised during TAG review (https://github.com/w3ctag/design-reviews/issues/1093), leaving web applications with no way to tune output variability beyond default session behavior.\n\n`samplingMode` bridges this gap with seven semantic presets (`\"most-predictable\"` through `\"most-creative\"`) that express developer intent without coupling web code to a single model's hyperparameter scale. User agents map each preset to model-specific sampling configurations and can apply mode-specific inference optimizations (such as greedy speculative decoding in `\"most-predictable\"` sessions). \n\nLive interactive demo: https://isaacahouma.github.io/prompt-api-sampling-presets/",
       "url": "https://chromestatus.com/feature/6325545693478912",
       "bug-url": "https://issues.chromium.org/573612811",
       "spec-link": "https://webmachinelearning.github.io/prompt-api",
@@ -12129,7 +12129,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-10-27 13:37:59.866146"
+        "when": "2026-11-05 23:21:12.674889"
       }
     },
     {
@@ -18468,7 +18468,7 @@
       "explainer-links": [],
       "updated": {
         "by": "suzukikeita@chromium.org",
-        "when": "2026-11-05 14:04:32.574032"
+        "when": "2026-11-05 23:29:25.495783"
       }
     },
     {
@@ -29580,7 +29580,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-11-04 19:12:44.919150"
+        "when": "2026-11-05 19:50:25.416341"
       }
     },
     {
