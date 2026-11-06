@@ -7,6 +7,7 @@
 //
 // BCD: some BCD keys have a `impl_url` property which points to a bugzilla bug.
 // We can use these links to find bugs related to web-features.
+// Bug tracker URLs mentioned in the `notes` of BCD support entries are also used.
 
 import { browsers, features } from "web-features";
 import bcd from "@mdn/browser-compat-data" with { type: "json" };
@@ -89,6 +90,22 @@ function getAllChromiumMappedBugs() {
   return bugsMappings;
 }
 
+const BUG_TRACKER_URL_REGEX =
+  /^https?:\/\/(?:(?:www\.)?crbug\.com|bugzil\.la|bugzilla\.mozilla\.org|bugs\.webkit\.org|webkit\.org\/b|(?:issues|bugs)\.chromium\.org|bugs\.chromium\.org|issues\.chromium\.org)(?:[/?#]|$)/i;
+
+// Extracts bug tracker URLs from hand-written BCD notes (a string or array of strings).
+function getBugURLsFromNotes(notes) {
+  if (!notes) {
+    return [];
+  }
+
+  const text = Array.isArray(notes) ? notes.join("\n") : String(notes);
+  const matches = text.match(/https?:\/\/[^\s<>()\[\]"'`]+/g) || [];
+  return matches
+    .map(url => url.replace(/[.,;:!?]+$/, ""))
+    .filter(url => BUG_TRACKER_URL_REGEX.test(url));
+}
+
 function getBugURLsFromBCDKeys() {
   const bugsMappings = {};
 
@@ -122,8 +139,17 @@ function getBugURLsFromBCDKeys() {
         }
 
         const browserSupportData = Array.isArray(support[browserId]) ? support[browserId] : [support[browserId]];
-        for (const entry of browserSupportData) {
-          if (entry.impl_url) {
+        // BCD lists the most recent support statement first; only that one reflects current support.
+        for (const [index, entry] of browserSupportData.entries()) {
+          const isCurrentlyUnsupportedOrPartial =
+            index === 0 &&
+            (entry.version_added === false || Boolean(entry.version_removed) || entry.partial_implementation);
+          const urls = [
+            ...(Array.isArray(entry.impl_url) ? entry.impl_url : entry.impl_url ? [entry.impl_url] : []),
+            ...(isCurrentlyUnsupportedOrPartial ? getBugURLsFromNotes(entry.notes) : [])
+          ];
+
+          if (urls.length) {
             if (!bugsMappings[id]) {
               bugsMappings[id] = {};
             }
@@ -132,7 +158,6 @@ function getBugURLsFromBCDKeys() {
               bugsMappings[id][browserId] = [];
             }
 
-            const urls = Array.isArray(entry.impl_url) ? entry.impl_url : [entry.impl_url];
             bugsMappings[id][browserId].push(...urls);
             bugsMappings[id][browserId] = [...new Set(bugsMappings[id][browserId])];
           }
