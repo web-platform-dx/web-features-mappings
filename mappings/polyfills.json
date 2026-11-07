@@ -1,0 +1,21 @@
+{
+  "focusgroup": {
+    "install": "https://www.npmjs.com/package/@microsoft/focusgroup-polyfill",
+    "source": "https://github.com/microsoft/polyfills/tree/main/packages/focusgroup",
+    "docs": "https://github.com/microsoft/polyfills/tree/main/packages/focusgroup",
+    "browser-support": {
+      "chrome": "86",
+      "chrome_android": "86",
+      "edge": "86",
+      "firefox": "85",
+      "firefox_android": "85",
+      "safari": "15.4",
+      "safari_ios": "15.4"
+    },
+    "quality": {
+      "match-spec": true,
+      "passes-wpt": true,
+      "is-maintained": true
+    }
+  }
+}
