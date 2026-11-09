@@ -12367,7 +12367,7 @@
       ],
       "updated": {
         "by": "abotella@igalia.com",
-        "when": "2026-09-29 17:35:41.207330"
+        "when": "2026-11-09 14:19:39.050141"
       }
     }
   ],
@@ -16340,17 +16340,17 @@
     {
       "id": 5107682460696576,
       "name": "Capability Elements Icon-only mode",
-      "summary": "Introduces a new attribute to render Capability Elements(<camera>, <microphone> and <geolocation>) as compact icon buttons without text using a `displaymode` attribute. This gives developers flexible UI density for spatial layouts such as map controls and video floating trays while preserving native security guarantees and full screen reader accessibility.\n\nThis is an extension to the recently released Capability Elements\nhttps://chromestatus.com/feature/5153829504024576",
+      "summary": "Introduces a new attribute to render Capability Elements(<camera>, <microphone> and <geolocation>) as compact icon buttons without text using a `displayhint` attribute. This gives developers flexible UI density for spatial layouts such as map controls and video floating trays while preserving native security guarantees and full screen reader accessibility.\n\nThis is an extension to the recently released Capability Elements\nhttps://chromestatus.com/feature/5153829504024576",
       "motivation": "Capability elements currently default to a horizontal button layout containing an icon and mandatory localized text that cannot be removed or customized. However, modern web layouts such as interactive maps and video conferencing floating trays rely heavily on compact, icon-only UI patterns. Providing a declarative display mode allows developers to integrate capability elements seamlessly into space-constrained designs while fully preserving browser-mediated security guarantees.",
       "url": "https://chromestatus.com/feature/5107682460696576",
-      "bug-url": null,
+      "bug-url": "https://g-issues.chromium.org/issues/583741580",
       "spec-link": "https://w3c.github.io/mediacapture-extensions/#media-capture-html-elements",
       "explainer-links": [
         "https://github.com/w3c/mediacapture-extensions/blob/main/media-capture-elements-explainer.md"
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-10-16 12:51:25.579278"
+        "when": "2026-11-09 13:46:55.712711"
       }
     },
     {
@@ -21712,7 +21712,7 @@
       ],
       "updated": {
         "by": "alanding@chromium.org",
-        "when": "2026-11-07 07:39:13.908411"
+        "when": "2026-11-09 14:20:11.916045"
       }
     },
     {
@@ -29696,7 +29696,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-11-04 16:27:45.640824"
+        "when": "2026-11-08 20:31:02.106892"
       }
     },
     {
@@ -29744,7 +29744,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-10-28 05:21:07.251544"
+        "when": "2026-11-08 20:24:47.915176"
       }
     },
     {
@@ -31240,8 +31240,8 @@
   "permissions-policy": [
     {
       "id": 5073502741856256,
-      "name": "Permissions Policy for shared workers",
-      "summary": "Extend the Permissions Policy infrastructure to shared workers.\n\nWeb developers will be able to delegate policy-controlled features to shared workers via Permissions Policy. This will enable browsers to expose features gated behind Permissions Policy to shared workers.",
+      "name": "Permissions Policy for workers",
+      "summary": "Extend the Permissions Policy infrastructure to workers.\n\nWeb developers will be able to delegate policy-controlled features to workers via Permissions Policy. This will enable browsers to expose features gated behind Permissions Policy to workers.",
       "motivation": "The goal of this proposal is to extend Permissions Policy to workers, in order to enable shipping Permissions Policy gated capabilities to those contexts.\n\nNote there are a number of proposals and use cases for extending Web APIs that are currently gated behind Permissions Policy to workers (see https://github.com/explainers-by-googlers/workers-permissions-policy#example-use-cases) which have been blocked until because Permissions Policy does not yet work in workers. This proposal aims at unblocking those. ",
       "url": "https://chromestatus.com/feature/5073502741856256",
       "bug-url": "https://issues.chromium.org/u/1/issues/562705553",
@@ -31251,7 +31251,7 @@
       ],
       "updated": {
         "by": "antoniosartori@chromium.org",
-        "when": "2026-09-24 10:48:20.429758"
+        "when": "2026-11-09 14:35:29.692296"
       }
     }
   ],
