@@ -1711,7 +1711,7 @@
       ],
       "updated": {
         "by": "kmaheshb@google.com",
-        "when": "2026-11-04 18:40:59.074771"
+        "when": "2026-11-09 19:36:14.306327"
       }
     },
     {
@@ -4056,7 +4056,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-11-07 20:37:31.754251"
+        "when": "2026-11-09 23:19:34.382688"
       }
     }
   ],
@@ -12129,7 +12129,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-11-05 23:21:12.674889"
+        "when": "2026-11-09 19:44:01.771854"
       }
     },
     {
@@ -12367,7 +12367,7 @@
       ],
       "updated": {
         "by": "abotella@igalia.com",
-        "when": "2026-11-09 14:19:39.050141"
+        "when": "2026-11-09 19:39:11.990445"
       }
     }
   ],
@@ -19017,7 +19017,7 @@
       ],
       "updated": {
         "by": "renkens@google.com",
-        "when": "2026-10-21 19:26:03.372367"
+        "when": "2026-11-09 19:35:42.494207"
       }
     },
     {
@@ -21712,7 +21712,7 @@
       ],
       "updated": {
         "by": "alanding@chromium.org",
-        "when": "2026-11-09 14:20:11.916045"
+        "when": "2026-11-10 00:47:28.015909"
       }
     },
     {
@@ -26818,18 +26818,18 @@
   "webauthn": [
     {
       "id": 5068149209825280,
-      "name": "Web Authentication Ambient UI",
-      "summary": "This is a new mode for navigator.credentials.get() when used to sign a user into a website with a passkey or a password.\n\nAmbient is similar to Conditional Mediation (also called Conditional UI). It can be called by a page and UI will only be shown if the user has credentials. If the user has no sign-in credentials available, the promise will never resolve.\n\nThe difference between Ambient and Conditional Mediation is that Ambient does not use autofill UI, and therefore does not require a login form be present on the page. Instead it provides the user a sign-in option as a non-modal suggestion. The intention is that the option should be clear enough that the user can recognize an opportunity for a low-friction sign-in, while unobtrusive enough that they can ignore it if they choose to.\n\nAmbient and Conditional Mediation are compatible. Credentials can be simultaneously made available in Ambient UI and autofill UI with a single JS call, if used on a page with a sign-in form.",
+      "name": "Web Authentication Conditional UI Passive Mode",
+      "summary": "This is a new mode for navigator.credentials.get() when used to sign a user into a website with a passkey or a password. Some documentation refers to this new mode as 'Ambient'.\n\nThe new mode is similar to Conditional Mediation (also called Conditional UI). It can be called by a page and UI will only be shown if the user has credentials. If the user has no sign-in credentials available, the promise will never resolve.\n\nThe difference between Passive Mode and Conditional Mediation is that Passive Mode does not use autofill UI, and therefore does not require a login form be present on the page. Instead it provides the user a sign-in option as a non-modal suggestion. The intention is that the option should be clear enough that the user can recognize an opportunity for a low-friction sign-in, while unobtrusive enough that they can ignore it if they choose to.\n\nPassive Mode and existing Conditional Mediation are compatible. Credentials can be simultaneously made available in Passive Mode UI and autofill UI with a single JavaScript call, if used on a page with a sign-in form.",
       "motivation": "This is an enhancement to the WebAuthn API that is useful in the following situation:\n* A user is visiting a website for which they have a passkey available in a credential manager, but is not currently signed in to the site.\n* The user is viewing a page on the site that displays some type of content, and in particular is not a sign-in page.\n* The content being displayed by the site could be improved if the user was signed in to their account.\n\nTypically a website will have a link to the sign-in page displayed in, for example, a header menu. The user can click on that and proceed to complete a sign-in flow. At that point they can get the signed-in experience on the site. Some causes of friction in this experience include requiring the user to realize that they are not signed in and finding the UI to initiate it.\n\nThis feature adds a mechanism for the site to prompt a sign-in without the user taking any specific action. An unobtrusive non-modal UI allows the user to ignore it if they don't want to sign in, and there is no UI show at all if the user has no credentials available.\n\nThis is very similar to what WebAuthn already provides with Conditional UI, but it does not require a sign-in form to be present on the page. That difference allows low-friction sign-in options to be added to pages where sign-in forms would not be appropriate, or would be awkward to add.",
       "url": "https://chromestatus.com/feature/5068149209825280",
       "bug-url": "https://issues.chromium.org/issues/532206357",
-      "spec-link": null,
+      "spec-link": "https://github.com/w3c/webauthn/pull/2485",
       "explainer-links": [
-        "https://github.com/kenrb/webauthn/blob/main/explainers/ambient-sign-in.md"
+        "https://github.com/w3c/webauthn/blob/main/explainers/conditional-ui-without-autofill.md"
       ],
       "updated": {
         "by": "kenrb@chromium.org",
-        "when": "2026-07-07 21:08:08.018404"
+        "when": "2026-11-10 14:54:56.029724"
       }
     },
     {
@@ -29580,7 +29580,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-11-05 19:50:25.416341"
+        "when": "2026-11-09 19:33:48.739996"
       }
     },
     {
