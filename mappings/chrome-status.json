@@ -1711,7 +1711,7 @@
       ],
       "updated": {
         "by": "kmaheshb@google.com",
-        "when": "2026-11-09 19:36:14.306327"
+        "when": "2026-11-10 17:20:42.394923"
       }
     },
     {
@@ -26829,7 +26829,7 @@
       ],
       "updated": {
         "by": "kenrb@chromium.org",
-        "when": "2026-11-10 14:54:56.029724"
+        "when": "2026-11-11 12:20:44.913523"
       }
     },
     {
@@ -27568,7 +27568,7 @@
       ],
       "updated": {
         "by": "fbeaufort@google.com",
-        "when": "2026-06-02 07:19:36.993536"
+        "when": "2026-11-11 15:29:06.728651"
       }
     },
     {
@@ -28307,7 +28307,7 @@
       "explainer-links": [],
       "updated": {
         "by": "siobhankeating@google.com",
-        "when": "2026-11-04 12:52:02.481092"
+        "when": "2026-11-11 12:22:38.585423"
       }
     },
     {
@@ -28339,7 +28339,7 @@
       ],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-11-03 11:42:05.430173"
+        "when": "2026-11-11 11:38:44.730684"
       }
     },
     {
@@ -29580,7 +29580,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-11-09 19:33:48.739996"
+        "when": "2026-11-10 18:28:56.171292"
       }
     },
     {
@@ -31322,6 +31322,40 @@
       "updated": {
         "by": "daniel@ddbeck.com",
         "when": "2026-10-30 10:06:16.561730"
+      }
+    }
+  ],
+  "color-mix-variadic": [
+    {
+      "id": 5009529854099456,
+      "name": "CSS color-mix() with one or more colors",
+      "summary": "The CSS color-mix() function accepts one or more colors, instead of exactly two. Each color can have an optional percentage, and the colors are mixed in order, so several colors can be blended in a single function, for example color-mix(in oklch, red, green 20%, blue). Before, this needed nested color-mix()  calls, whose percentages are hard to work out. A single color, as in color-mix(in hsl, teal), converts that color to the interpolation color space. As with two colors, percentages that add up to less than 100% make the result partially transparent.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5009529854099456",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "jfernandez@igalia.com",
+        "when": "2026-11-11 13:45:01.987219"
+      }
+    }
+  ],
+  "service-workers-static-routes": [
+    {
+      "id": 5124748525830144,
+      "name": "ServiceWorker Static Routing: Distinct TypeError message for cancelled race-network-and-fetch-handler fetch() requests",
+      "summary": "When a Service Worker matches a Static Routing rule with 'race-network-and-fetch-handler' and calls fetch(event.request) inside its fetch handler, Chromium deduplicates the network request. If that raced request is cancelled before response headers arrive (net::ERR_ABORTED)—for example, when an offline fallback timer resolves event.respondWith() first or the navigation is aborted—Chromium now rejects the fetch(event.request) promise with TypeError(\"The service worker race-network-and-fetch-handler request was cancelled before 'fetch()' settled.\") instead of the generic TypeError(\"Failed to fetch\"). This matches Service Worker Navigation Preload (event.preloadResponse) and allows web applications to distinguish expected pre-settlement race cancellations from genuine network errors.\n\nNote: This is a small behavioral refinement to the already-shipped Service Worker Static Routing API with no IDL or specification changes. Because web applications may observe the updated TypeError message string, we are sending an Intent to Ship directly for web compatibility review.",
+      "motivation": "In Service Worker Navigation Preload (event.preloadResponse), Chromium already distinguishes pre-settlement cancellation (net::ERR_ABORTED) from genuine network failures by rejecting event.preloadResponse with \"The service worker navigation preload request was cancelled before 'preloadResponse' settled.\". Offline-capable web applications migrating from Navigation Preload to Static Routing ('race-network-and-fetch-handler') inspect this cancellation message to suppress expected cancellation noise in client error telemetry while still alerting on genuine network outages. Because 'race-network-and-fetch-handler' currently collapses net::ERR_ABORTED into TypeError(\"Failed to fetch\"), migrating causes false-positive network error spikes and triggers unnecessary offline fallback paths.",
+      "url": "https://chromestatus.com/feature/5124748525830144",
+      "bug-url": "https://crbug.com/584504247",
+      "spec-link": "https://w3c.github.io/ServiceWorker/#dom-routersourceenum-race-network-and-fetch-handler",
+      "explainer-links": [
+        "https://crbug.com/584504247"
+      ],
+      "updated": {
+        "by": "sisidovski@chromium.org",
+        "when": "2026-11-11 07:57:51.678374"
       }
     }
   ]
