@@ -3887,6 +3887,11 @@
       "shortname": "html"
     }
   ],
+  "navigation-source": [
+    {
+      "shortname": "css-navigation-1"
+    }
+  ],
   "navigation-timing": [
     {
       "shortname": "navigation-timing-2"
@@ -4044,6 +4049,14 @@
     }
   ],
   "offline-audio-context": [
+    {
+      "shortname": "webaudio-1.0"
+    },
+    {
+      "shortname": "webaudio-1.1"
+    }
+  ],
+  "offline-audio-context-incremental-rendering": [
     {
       "shortname": "webaudio-1.0"
     },
@@ -5098,6 +5111,11 @@
       "shortname": "css-scroll-snap-2"
     }
   ],
+  "scroll-snap-type-pair": [
+    {
+      "shortname": "css-scroll-snap-1"
+    }
+  ],
   "scroll-target-group": [
     {
       "shortname": "css-overflow-5"
@@ -5268,6 +5286,11 @@
     }
   ],
   "shapes": [
+    {
+      "shortname": "css-shapes-1"
+    }
+  ],
+  "shapes-polygon-round": [
     {
       "shortname": "css-shapes-1"
     }
@@ -6808,6 +6831,9 @@
   "webrtc": [
     {
       "shortname": "webrtc"
+    },
+    {
+      "shortname": "webrtc-extensions"
     },
     {
       "shortname": "webrtc-identity"

@@ -675,6 +675,22 @@
   ],
   "app-launch-handler": [
     {
+      "id": 5191118118584320,
+      "name": "WebAppLaunch: user activation on focus-existing launch delivery",
+      "summary": "Grants transient user activation to an installed web app's existing window when a launch is delivered into it through the launch_handler \"focus-existing\" client mode. Today the launchQueue consumer runs without activation even though the user clicked a link, shortcut, file, or share that caused the launch, so the page cannot call activation-gated APIs such as window.open() or requestFullscreen() in response. With activation granted at delivery, apps that use focus-existing to avoid duplicate windows can still open a separate window when the launched URL belongs to a different document or workspace, in the same way a click on a Notification created by the page already activates that page.",
+      "motivation": "launch_handler \"focus-existing\" routes every launch into the most recently used app window and delivers LaunchParams with no user activation, so the launchQueue consumer cannot open a window for a launch that belongs to a different document or workspace, nor call other activation-gated APIs. Each launch is one user action outside the app. Precedent: a click on a Notification created by the page activates that page; notificationclick grants a service worker window interaction. Developer report: https://github.com/WICG/manifest-incubations/issues/141",
+      "url": "https://chromestatus.com/feature/5191118118584320",
+      "bug-url": "https://crbug.com/583976233",
+      "spec-link": "https://wicg.github.io/web-app-launch/#dfn-prepare-an-application-context",
+      "explainer-links": [
+        "https://github.com/WICG/web-app-launch/blob/main/launch_handler.md"
+      ],
+      "updated": {
+        "by": "dmurph@google.com",
+        "when": "2026-11-11 18:34:00.186101"
+      }
+    },
+    {
       "id": 5722383233056768,
       "name": "Web app launch handler",
       "summary": "Add a \"launch_handler\" web app manifest member that enables web apps to customize their launch behavior across all types of app launch triggers.\r\n\r\nExample usage:\r\n{\r\n  \"name\": \"Example app\",\r\n  \"start_url\": \"/index.html\",\r\n  \"launch_handler\": {\r\n    \"client_mode\": \"navigate-existing\"\r\n  }\r\n}\r\n\r\nThis will cause all launches of the Example app to focus an existing app window and navigate it (if it exists) instead of always launching a new app window.",
@@ -2896,7 +2912,7 @@
       ],
       "updated": {
         "by": "foolip@google.com",
-        "when": "2025-08-22 08:26:54.562489"
+        "when": "2026-11-11 15:34:31.844157"
       }
     },
     {
@@ -6755,7 +6771,7 @@
       ],
       "updated": {
         "by": "goto@google.com",
-        "when": "2026-03-30 21:41:49.504683"
+        "when": "2026-11-11 15:41:11.849483"
       }
     },
     {
@@ -11568,7 +11584,7 @@
       ],
       "updated": {
         "by": "foolip@google.com",
-        "when": "2025-08-22 08:29:24.781388"
+        "when": "2026-11-11 15:27:50.083148"
       }
     },
     {
@@ -12870,6 +12886,23 @@
     }
   ],
   "long-animation-frames": [
+    {
+      "id": 6225832942108672,
+      "name": "Long Animation Frames: PerformanceScriptTiming.stackTrace",
+      "summary": "Extends Long Animation Frames (\"long-animation-frame\") with an opt-in takeTracing option on PerformanceObserverInit and a stackTrace attribute on PerformanceScriptTiming that captures a one-shot JavaScript call stack when a script exceeds a predetermined execution threshold.",
+      "motivation": "PerformanceScriptTiming in Long Animation Frames currently reports only outer entry-point attribution, which often points to generic framework dispatchers or RUM wrappers rather than the inner function consuming CPU. Adding opt-in one-shot mid-execution call stack capture lets developers pinpoint main-thread jank without continuous sampling overhead or Document-Policy headers.",
+      "url": "https://chromestatus.com/feature/6225832942108672",
+      "bug-url": "https://issues.chromium.org/issues/487136777",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/explainers-by-googlers/task-interrupt-timing",
+        "https://github.com/WICG/proposals/issues/312"
+      ],
+      "updated": {
+        "by": "elkurin@google.com",
+        "when": "2026-11-13 04:37:19.254958"
+      }
+    },
     {
       "id": 5387465121726464,
       "name": "Support Long Animation Frames API in Web Workers",
@@ -15937,6 +15970,20 @@
   ],
   "payment-request": [
     {
+      "id": 5632603200815104,
+      "name": "PaymentHandlerAppError interface",
+      "summary": "Allows payment handlers to return structured error codes via the PaymentHandlerAppError interface, which extends DOMException. When a web-based payment handler rejects the promise passed to PaymentRequestEvent's respondWith() method with a PaymentHandlerAppError (or a native payment app reports an equivalent structured error), the browser rejects the promise returned by PaymentRequest's show() method with a PaymentHandlerAppError. This helps merchant sites distinguish between failure categories such as unsupported users, merchant configuration issues, temporary service outages, and internal payment app errors so they can show tailored recovery flows or log actionable diagnostics.",
+      "motivation": "When a payment handler fails to complete a transaction, the merchant site invoking PaymentRequest.show() often needs to understand why the transaction failed so it can respond appropriately (e.g., offering alternative checkout rails, displaying merchant-actionable error messages, or logging incident correlation IDs). Issue #1040 (https://github.com/w3c/payment-request/issues/1040) added the ability for payment handlers to indicate internal app error (throwing an OperationError) as a distinct failure state from user cancel (which throws AbortError). \n\nHowever, this does not allow payment handlers any method to communicate details or differentiate between different types of internal app errors. When a payment app encounters an unrecoverable failure and must close, the web layer (the merchant's checkout page or an embedded payment provider SDK) serves as the primary session coordinator, needing structured context to show the right follow-up to the user, know whether an error is temporary (worth retrying) or permanent for that session, update fallback flows without waiting for native app-store release cycles, and distinguish expected user drop-offs from real platform crashes in website telemetry.",
+      "url": "https://chromestatus.com/feature/5632603200815104",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "luisantunes@google.com",
+        "when": "2026-11-11 20:22:35.232250"
+      }
+    },
+    {
       "id": 5942637229113344,
       "name": "Payment Request: Allow payment handlers to report back internal errors",
       "summary": "Enables payment handlers that are accessed via the Payment Request API to return distinct errors for \"user cancelled\" vs \"internal payment app error\". This allows web developers to build better flows for users, e.g. by retrying or falling back to a different flow when an internal app error occurs, whilst properly stopping the flow if the user wants to cancel.\n\nThe Web-based Payment Handler API can indicate this difference based on what error they use to reject the promised passed to PaymentRequestEvent.respondWith. If the promise is rejected with an OperationError, then \"internal app error\" (OperationError) is returned to the merchant via the PaymentRequest.show(), otherwise \"user cancel\" (AbortError) is returned.\n\nNative app payment handler infrastructure is similarly updated, but is out of scope for web APIs.",
@@ -16344,13 +16391,13 @@
       "motivation": "Capability elements currently default to a horizontal button layout containing an icon and mandatory localized text that cannot be removed or customized. However, modern web layouts such as interactive maps and video conferencing floating trays rely heavily on compact, icon-only UI patterns. Providing a declarative display mode allows developers to integrate capability elements seamlessly into space-constrained designs while fully preserving browser-mediated security guarantees.",
       "url": "https://chromestatus.com/feature/5107682460696576",
       "bug-url": "https://g-issues.chromium.org/issues/583741580",
-      "spec-link": "https://w3c.github.io/mediacapture-extensions/#media-capture-html-elements",
+      "spec-link": "https://github.com/w3c/mediacapture-extensions/pull/184",
       "explainer-links": [
         "https://github.com/w3c/mediacapture-extensions/blob/main/media-capture-elements-explainer.md"
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-11-09 13:46:55.712711"
+        "when": "2026-11-12 15:49:30.833869"
       }
     },
     {
@@ -18440,7 +18487,7 @@
       "explainer-links": [],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-11-03 09:16:40.738953"
+        "when": "2026-11-11 16:05:37.050090"
       }
     },
     {
@@ -18468,7 +18515,7 @@
       "explainer-links": [],
       "updated": {
         "by": "suzukikeita@chromium.org",
-        "when": "2026-11-05 23:29:25.495783"
+        "when": "2026-11-11 16:52:35.559982"
       }
     },
     {
@@ -19017,7 +19064,7 @@
       ],
       "updated": {
         "by": "renkens@google.com",
-        "when": "2026-11-09 19:35:42.494207"
+        "when": "2026-11-11 15:48:33.655197"
       }
     },
     {
@@ -21005,7 +21052,7 @@
       "explainer-links": [],
       "updated": {
         "by": "cgqaq@chromium.org",
-        "when": "2026-06-01 06:35:57.908175"
+        "when": "2026-11-11 15:25:52.965642"
       }
     }
   ],
@@ -26829,7 +26876,7 @@
       ],
       "updated": {
         "by": "kenrb@chromium.org",
-        "when": "2026-11-11 12:20:44.913523"
+        "when": "2026-11-11 20:45:15.722334"
       }
     },
     {
@@ -28307,7 +28354,7 @@
       "explainer-links": [],
       "updated": {
         "by": "siobhankeating@google.com",
-        "when": "2026-11-11 12:22:38.585423"
+        "when": "2026-11-12 12:29:38.484055"
       }
     },
     {
@@ -28317,13 +28364,13 @@
       "motivation": "WebRTC applications cannot directly observe codec changes or terminal decoder failures as they occur. Developers must poll getStats() and infer failures from indirect signals, which produces unreliable heuristics and can create compatibility problems. When hardware decoding fails and no software decoder is available, as can occur with H.265, playback stops and only the application can ask the remote endpoint to send a different codec. Event-driven notifications let applications recover promptly by renegotiating codecs or adjusting playback, inform users, and diagnose changes that can affect latency, quality, and power consumption.",
       "url": "https://chromestatus.com/feature/5115054790934528",
       "bug-url": "https://issues.chromium.org/issues/546181655",
-      "spec-link": null,
+      "spec-link": "https://github.com/w3c/webrtc-extensions/pull/261",
       "explainer-links": [
         "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/RTCRtpReceiverDecoderFallback/explainer.md"
       ],
       "updated": {
         "by": "irzhou@microsoft.com",
-        "when": "2026-08-14 16:56:57.000647"
+        "when": "2026-11-11 16:39:27.655402"
       }
     },
     {
@@ -28332,14 +28379,14 @@
       "summary": "Allows using SRTP encryption to cover RTP header extensions and contributing source (CSRC) identifiers.",
       "motivation": "This provides an implementation of RFC 9335 which extends the encryption used by WebRTC to some fields that were so far transmitted in plain over the network.",
       "url": "https://chromestatus.com/feature/5177732519559168",
-      "bug-url": "https://issues.webrtc.org/issues/455813732",
+      "bug-url": "https://issues.chromium.org/issues/455813732",
       "spec-link": "https://w3c.github.io/webrtc-extensions/#rtp-header-extension-encryption",
       "explainer-links": [
         "https://github.com/fippo/webrtc-explainers/blob/gh-pages/rtp-header-extension-encryption/index.md"
       ],
       "updated": {
         "by": "philipp.hancke@googlemail.com",
-        "when": "2026-11-11 11:38:44.730684"
+        "when": "2026-11-12 17:25:41.347739"
       }
     },
     {
@@ -30934,7 +30981,7 @@
       ],
       "updated": {
         "by": "fbeaufort@google.com",
-        "when": "2026-11-02 16:04:35.890651"
+        "when": "2026-11-11 16:52:07.359680"
       }
     }
   ],
@@ -31330,14 +31377,17 @@
       "id": 5009529854099456,
       "name": "CSS color-mix() with one or more colors",
       "summary": "The CSS color-mix() function accepts one or more colors, instead of exactly two. Each color can have an optional percentage, and the colors are mixed in order, so several colors can be blended in a single function, for example color-mix(in oklch, red, green 20%, blue). Before, this needed nested color-mix()  calls, whose percentages are hard to work out. A single color, as in color-mix(in hsl, teal), converts that color to the interpolation color space. As with two colors, percentages that add up to less than 100% make the result partially transparent.",
-      "motivation": null,
+      "motivation": "Mixing more than two colors needs nested `color-mix()` calls today. Each inner mix becomes one color of the outer mix, so the percentage of every color has to be worked out by hand: an equal mix of three colors is\n`color-mix(in srgb, color-mix(in srgb, red, green), blue 33.3333%)` instead of `color-mix(in srgb, red, green, blue)`. The CSSWG resolved to let `color-mix()` take any number of colors (issue #11530). The spec also allows a single color, which converts it to the interpolation color space (issue #12234). Firefox and Safari ship both forms, so this closes an interop gap.\n",
       "url": "https://chromestatus.com/feature/5009529854099456",
-      "bug-url": null,
-      "spec-link": null,
-      "explainer-links": [],
+      "bug-url": "https://issues.chromium.org/issues/407806416",
+      "spec-link": "https://drafts.csswg.org/css-color-5/#color-mix",
+      "explainer-links": [
+        "https://github.com/w3c/csswg-drafts/issues/11530",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix"
+      ],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-11-11 13:45:01.987219"
+        "when": "2026-11-11 22:37:52.636715"
       }
     }
   ],
@@ -31355,7 +31405,7 @@
       ],
       "updated": {
         "by": "sisidovski@chromium.org",
-        "when": "2026-11-11 07:57:51.678374"
+        "when": "2026-11-12 19:32:30.980854"
       }
     }
   ]
