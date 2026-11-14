@@ -19849,20 +19849,6 @@
   ],
   "search": [
     {
-      "id": 5190394852802560,
-      "name": "AIM Threads panel on the New Tab page (left rail)",
-      "summary": "The Chrome NTP serves hundreds of millions of users, with 3B loads per day. It’s critical that the left rail is consistent with the rest of the page on Chrome’s most prominent UI surface. Thread continuation should feel smooth across all surfaces where users search.",
-      "motivation": null,
-      "url": "https://chromestatus.com/feature/5190394852802560",
-      "bug-url": null,
-      "spec-link": null,
-      "explainer-links": [],
-      "updated": {
-        "by": "meirav@google.com",
-        "when": "2026-10-29 13:11:30.291084"
-      }
-    },
-    {
       "id": 5126108151808000,
       "name": "HTML search element",
       "summary": "The <search> element applies a \"search\" role for accessibility. It is basically the same as <div role=search>.\r\n\r\nFrom the HTML spec:\r\nThe search element represents a part of a document or application that contains a set of form controls or other content related to performing a search or filtering operation. This could be a search of the web site or application; a way of searching or filtering search results on the current web page; or a global or Internet-wide search function.",
