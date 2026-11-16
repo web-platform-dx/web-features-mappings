@@ -33,6 +33,12 @@
       "url": "https://github.com/web-platform-dx/developer-signals/issues/293#issuecomment-3915950915"
     }
   ],
+  "audio-video-tracks": [
+    {
+      "description": "I'd like to serve a single video resource containing multiple audio tracks, with each audio source encoded as an independent track within the media container.\n\nThis would allow the browser to expose the available audio tracks through the native API, so that users are able to independently select, enable, or disable audio sources during playback.\n\nA practical use case is playing back some video footage where multiple microphones or audio sources were recorded simultaneously, with each source stored in its own audio track inside the media container.\n\nIdeally, the browser would handle track selection and synchronisation natively, keeping all tracks aligned with the main video timeline and media buffer.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/43#issuecomment-6908558711"
+    }
+  ],
   "background-fetch": [
     {
       "description": "Our PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.",
@@ -623,6 +629,10 @@
     {
       "description": "Share game result (\"view of the game board\") via a snapshot at the end of the game (a web app).",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6068355295"
+    },
+    {
+      "description": "I’m with Vellivex. In VRelay, tapping **Share package** passes a text package to the device’s native share sheet via `navigator.share()`, so the user can choose the destination. Our first-use tests exercise this path with fictional inputs. [Share handler](https://github.com/Vellivex/v-security-suite/blob/main/web/app.js#L68)",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6916271129"
     }
   ],
   "sibling-count": [

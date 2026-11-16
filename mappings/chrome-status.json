@@ -26413,7 +26413,7 @@
       ],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-11-04 16:16:38.321562"
+        "when": "2026-11-16 09:51:50.886626"
       }
     },
     {
@@ -29284,6 +29284,22 @@
   ],
   "webrtc-encoded-transform": [
     {
+      "id": 5191490363064320,
+      "name": "WebRTC Encoded Transform: generateKeyFrame",
+      "summary": "This feature allows a WebRTC application to generate a key frame as part of processing in WebRTC encoded transform.\nThere is already another API to generate key frames, but this version is more ergonomic for applications using WebRTC encoded transform.",
+      "motivation": "This method can be called by a transformer that is processing outgoing encoded video frames to force a new complete (key) frame to be sent. It might be needed by a WebRTC Encoded Transform that encrypts frames, to ensure that if a new encryption key is added, a key frame encrypted with that key is sent as soon as possible.\n",
+      "url": "https://chromestatus.com/feature/5191490363064320",
+      "bug-url": "https://crbug.com/399327934",
+      "spec-link": "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-generatekeyframe",
+      "explainer-links": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpScriptTransformer/generateKeyFrame"
+      ],
+      "updated": {
+        "by": "guidou@google.com",
+        "when": "2026-11-16 14:30:33.074704"
+      }
+    },
+    {
       "id": 5149398731456512,
       "name": "RTC EncodedFrame constructors",
       "summary": "The WebRTC Encoded Transform API allows processing of encoded data from RTCPeerConnections. However, one functionality is lacking: the ability to create new encoded frames from scratch.\n\nSo far, the only way to create a new frame has been to read a frame from an RTCPeerConnection. Some use cases require the ability to create frames from scratch. For example, applications that want to do encoding  using WebCodecs or some other custom mechanism (e.g., a WASM encoder). ",
@@ -31391,7 +31407,7 @@
       ],
       "updated": {
         "by": "sisidovski@chromium.org",
-        "when": "2026-11-12 19:32:30.980854"
+        "when": "2026-11-15 22:00:16.654095"
       }
     }
   ]

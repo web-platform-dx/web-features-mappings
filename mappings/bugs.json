@@ -2431,11 +2431,6 @@
       "https://bugs.chromium.org/p/chromium/issues/detail?id=759665"
     ]
   },
-  "grid-lanes": {
-    "firefox": [
-      "https://bugzil.la/1981604"
-    ]
-  },
   "hanging-punctuation": {
     "chrome": [
       "https://crbug.com/41491716"
@@ -2684,7 +2679,7 @@
   },
   "import-maps-multiple": {
     "firefox": [
-      "https://bugzil.la/2021012",
+      "https://bugzil.la/2093267",
       "https://bugzil.la/1916277"
     ]
   },
@@ -3434,6 +3429,9 @@
   "masonry": {
     "chrome": [
       "https://issues.chromium.org/issues/343257585"
+    ],
+    "firefox": [
+      "https://bugzil.la/1981604"
     ]
   },
   "matchmedia": {
@@ -6728,6 +6726,7 @@
   },
   "webrtc-encoded-transform": {
     "chrome": [
+      "https://crbug.com/399327934",
       "https://crbug.com/524901718",
       "https://crbug.com/391114797",
       "https://issues.chromium.org/issues/354881878",
