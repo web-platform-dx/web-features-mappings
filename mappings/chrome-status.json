@@ -2736,6 +2736,23 @@
       }
     },
     {
+      "id": 5077164932333568,
+      "name": "Canvas2D tone mapping",
+      "summary": "Adds a toneMapping option to CanvasRenderingContext2DSettings, allowing a 2D canvas context to specify 'standard' or 'extended' tone mapping behavior when displaying HDR content, unifying the tone mapping API across 2D canvas and WebGPU.",
+      "motivation": "By default, HTML canvas elements limit their contents to the standard dynamic range (SDR) color volume of the target display. While WebGPU already supports configuring canvas tone mapping via GPUCanvasToneMapping, 2D canvas contexts lack a way to opt into displaying extended dynamic range (HDR) pixel values (such as those in float16 canvases) or explicitly constrain output to SDR. Unifying CanvasToneMapping across 2D canvas, WebGL, and WebGPU gives web developers a consistent mechanism to control how HDR canvas contents are tone mapped to the output device.",
+      "url": "https://chromestatus.com/feature/5077164932333568",
+      "bug-url": "https://issues.chromium.org/issues/448552449",
+      "spec-link": "https://github.com/whatwg/html/pull/11734",
+      "explainer-links": [
+        "https://github.com/w3c/ColorWeb-CG/blob/main/canvas-tone-map.md",
+        "https://github.com/w3c/ColorWeb-CG/blob/main/hdr-big-picture.md"
+      ],
+      "updated": {
+        "by": "ccameron@chromium.org",
+        "when": "2026-11-16 18:37:13.826737"
+      }
+    },
+    {
       "id": 5858435803119616,
       "name": "Canvas2D Target HDR Headroom",
       "summary": "Adds a global HDR headroom attribute to CanvasRenderingContext2D. When drawing HDR content (e.g, gain map images), to the canvas' bitmap, this attribute will determine how much tone mapping should be performed (if any).",
@@ -12145,7 +12162,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-11-09 19:44:01.771854"
+        "when": "2026-11-18 16:05:49.603021"
       }
     },
     {
@@ -12383,7 +12400,7 @@
       ],
       "updated": {
         "by": "abotella@igalia.com",
-        "when": "2026-11-09 19:39:11.990445"
+        "when": "2026-11-16 18:44:45.045829"
       }
     }
   ],
@@ -12886,6 +12903,22 @@
     }
   ],
   "long-animation-frames": [
+    {
+      "id": 5152379853996032,
+      "name": "Long Animation Frames: Configurable durationThreshold",
+      "summary": "Allows PerformanceObserver.observe({ type: \"long-animation-frame\", durationThreshold }) to use the existing durationThreshold option (currently supported only for Event Timing) instead of a hardcoded 50ms threshold. Subject to a minimum UA floor (exploring 10ms–16ms), this lets developers observe sub-50ms dropped frames for 60Hz/120Hz smoothness budgets or raise the threshold to reduce noise.",
+      "motivation": "Long Animation Frames (LoAF) currently hardcodes a 50ms reporting threshold, which catches severe stalls but misses 16ms–49ms dropped frames on 60Hz/120Hz displays. Honoring durationThreshold (consistent with Event Timing) lets developers monitor tighter frame smoothness budgets with full LoAF script attributio both standalone and alongside the orthogonal PerformanceScriptTiming.stackTrace proposal (https://chromestatus.com/feature/6225832942108672).",
+      "url": "https://chromestatus.com/feature/5152379853996032",
+      "bug-url": "https://g-issues.chromium.org/issues/586752687",
+      "spec-link": null,
+      "explainer-links": [
+        "https://github.com/explainers-by-googlers/task-interrupt-timing#future-work-configurable-sub-50ms-durationthreshold-for-loaf"
+      ],
+      "updated": {
+        "by": "elkurin@google.com",
+        "when": "2026-11-17 06:27:49.073885"
+      }
+    },
     {
       "id": 6225832942108672,
       "name": "Long Animation Frames: PerformanceScriptTiming.stackTrace",
@@ -16397,7 +16430,7 @@
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-11-12 15:49:30.833869"
+        "when": "2026-11-18 16:22:40.202928"
       }
     },
     {
@@ -19064,7 +19097,7 @@
       ],
       "updated": {
         "by": "renkens@google.com",
-        "when": "2026-11-11 15:48:33.655197"
+        "when": "2026-11-16 18:45:34.163506"
       }
     },
     {
@@ -28356,7 +28389,7 @@
       ],
       "updated": {
         "by": "irzhou@microsoft.com",
-        "when": "2026-11-11 16:39:27.655402"
+        "when": "2026-11-17 23:26:29.791470"
       }
     },
     {
@@ -29629,7 +29662,7 @@
       ],
       "updated": {
         "by": "vbryhider@microsoft.com",
-        "when": "2026-11-10 18:28:56.171292"
+        "when": "2026-11-16 18:50:28.448929"
       }
     },
     {
@@ -31407,7 +31440,7 @@
       ],
       "updated": {
         "by": "sisidovski@chromium.org",
-        "when": "2026-11-15 22:00:16.654095"
+        "when": "2026-11-18 16:19:44.129844"
       }
     }
   ]

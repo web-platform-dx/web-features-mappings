@@ -653,6 +653,7 @@
   "canvas-2d-color-management": {
     "chrome": [
       "https://issuetracker.google.com/issues/454152417",
+      "https://issues.chromium.org/issues/448552449",
       "https://issues.chromium.org/issues/428575083",
       "https://crbug.com/1083693",
       "http://crbug.com/634542"
@@ -3332,6 +3333,7 @@
   },
   "long-animation-frames": {
     "chrome": [
+      "https://g-issues.chromium.org/issues/586752687",
       "https://issues.chromium.org/issues/487136777",
       "https://issues.chromium.org/issues/534893134",
       "https://issuetracker.google.com/issues/383157188",

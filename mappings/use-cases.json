@@ -729,6 +729,10 @@
     {
       "description": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
       "url": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332"
+    },
+    {
+      "description": "I want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play simplicity.\n\nThe web should be an open, zero-install platform for interactive music tools, live visuals, and digital instruments without requiring users to download native software. \n\nHaving this work reliably across all major browser engines—especially lightweight and privacy-focused alternatives like Firefox and Zen Browser is essential in my opinion.",
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6960778959"
     }
   ],
   "webauthn-signals": [
