@@ -220,11 +220,6 @@
       "shortname": "manifest-incubations"
     }
   ],
-  "app-share-targets": [
-    {
-      "shortname": "web-share-target"
-    }
-  ],
   "app-shortcuts": [
     {
       "shortname": "appmanifest"
@@ -1979,6 +1974,11 @@
       "shortname": "fetch"
     }
   ],
+  "field-content": [
+    {
+      "shortname": "css-forms-1"
+    }
+  ],
   "field-sizing": [
     {
       "shortname": "css-forms-1"
@@ -2377,30 +2377,16 @@
   "gamepad": [
     {
       "shortname": "gamepad"
-    },
-    {
-      "shortname": "gamepad-extensions"
     }
   ],
   "gamepad-haptics": [
     {
       "shortname": "gamepad"
-    },
-    {
-      "shortname": "gamepad-extensions"
     }
   ],
   "gamepad-touch": [
     {
       "shortname": "gamepad"
-    }
-  ],
-  "gamepad-vr": [
-    {
-      "shortname": "gamepad"
-    },
-    {
-      "shortname": "gamepad-extensions"
     }
   ],
   "gap-decorations": [
@@ -2684,6 +2670,9 @@
       "shortname": "fetch"
     },
     {
+      "shortname": "html"
+    },
+    {
       "shortname": "trusted-types"
     }
   ],
@@ -2752,6 +2741,11 @@
     }
   ],
   "hyphenate-limit-chars": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
+  "hyphenate-limit-lines": [
     {
       "shortname": "css-text-4"
     }
@@ -4666,6 +4660,11 @@
       "shortname": "css-values-5"
     }
   ],
+  "random-item": [
+    {
+      "shortname": "css-values-5"
+    }
+  ],
   "rcap": [
     {
       "shortname": "css-values-4"
@@ -5913,6 +5912,11 @@
       "shortname": "css-values-4"
     }
   ],
+  "text-decoration-inset": [
+    {
+      "shortname": "css-text-decor-4"
+    }
+  ],
   "text-decoration-line-blink": [
     {
       "shortname": "css-text-decor-3"
@@ -6996,6 +7000,11 @@
       "shortname": "css-text-4"
     }
   ],
+  "white-space-trim": [
+    {
+      "shortname": "css-text-4"
+    }
+  ],
   "widows-orphans": [
     {
       "shortname": "css-break-3"
@@ -7080,6 +7089,11 @@
     },
     {
       "shortname": "css-text-3"
+    }
+  ],
+  "wrap-inside": [
+    {
+      "shortname": "css-text-4"
     }
   ],
   "writing-mode": [

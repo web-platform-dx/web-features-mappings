@@ -9948,9 +9948,9 @@
     },
     {
       "slug": "Web/API/SpeechGrammarList/addFromUri",
-      "title": "SpeechGrammarList: addFromURI() method",
+      "title": "SpeechGrammarList: addFromUri() method",
       "anchor": null,
-      "url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/addFromURI"
+      "url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/addFromUri"
     },
     {
       "slug": "Web/API/SpeechGrammarList/item",
@@ -11515,6 +11515,40 @@
       "title": "Window: setResizable() method",
       "anchor": null,
       "url": "https://developer.mozilla.org/docs/Web/API/Window/setResizable"
+    }
+  ],
+  "text-decoration-inset": [
+    {
+      "slug": "Web/CSS/Reference/Properties/text-decoration-inset",
+      "title": "`text-decoration-inset` CSS property",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-inset"
+    }
+  ],
+  "wasm-wide-arithmetic": [
+    {
+      "slug": "WebAssembly/Reference/Numeric/add128",
+      "title": "add128: Wasm numeric instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Numeric/add128"
+    },
+    {
+      "slug": "WebAssembly/Reference/Numeric/mul_wide_s",
+      "title": "mul_wide_s: Wasm numeric instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Numeric/mul_wide_s"
+    },
+    {
+      "slug": "WebAssembly/Reference/Numeric/mul_wide_u",
+      "title": "mul_wide_u: Wasm numeric instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Numeric/mul_wide_u"
+    },
+    {
+      "slug": "WebAssembly/Reference/Numeric/sub128",
+      "title": "sub128: Wasm numeric instruction",
+      "anchor": null,
+      "url": "https://developer.mozilla.org/docs/WebAssembly/Reference/Numeric/sub128"
     }
   ]
 }

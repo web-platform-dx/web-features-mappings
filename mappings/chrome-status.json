@@ -2749,7 +2749,7 @@
       ],
       "updated": {
         "by": "ccameron@chromium.org",
-        "when": "2026-11-16 18:37:13.826737"
+        "when": "2026-11-18 16:23:06.026349"
       }
     },
     {
@@ -12162,7 +12162,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-11-18 16:05:49.603021"
+        "when": "2026-11-18 20:26:56.155949"
       }
     },
     {
@@ -17990,7 +17990,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-10-16 08:21:34.005142"
+        "when": "2026-11-19 23:10:55.206430"
       }
     },
     {
@@ -22700,6 +22700,20 @@
     }
   ],
   "svg": [
+    {
+      "id": 5168559834660864,
+      "name": "SVG Arc Path: flag interpolation threshold",
+      "summary": "Updates SVG arc path flag (large_arc_flag and sweep_flag) interpolation so that any non-zero interpolated value is treated as true, rather than only values greater than 0.5. This aligns Chromium with the SVG specification and with Firefox and Safari. Developers creating SVG path animations can expect consistent arc interpolation behavior across browsers.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5168559834660864",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "sahir.vellani@microsoft.com",
+        "when": "2026-11-19 23:24:44.388863"
+      }
+    },
     {
       "id": 5093348936384512,
       "name": "Add support for window-reflecting event handlers to SVGSVGElement",
@@ -28372,8 +28386,8 @@
       "spec-link": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection",
       "explainer-links": [],
       "updated": {
-        "by": "siobhankeating@google.com",
-        "when": "2026-11-12 12:29:38.484055"
+        "by": "guidou@google.com",
+        "when": "2026-11-18 22:58:08.529584"
       }
     },
     {
@@ -31182,17 +31196,17 @@
     {
       "id": 5106126157905920,
       "name": "Translator API on Android",
-      "summary": "Exposes the Translator JavaScript Web API on Chrome for Android (Clank). This allows web applications to perform text translation locally on mobile devices using fast, privacy-preserving, and offline-capable on-device machine learning models (via Android ML Kit) without relying on cloud endpoints or increasing Chrome's installed binary size.",
-      "motivation": "Exposing the Translator API on Chrome for Android allows web applications to perform fast, privacy-preserving, and offline-capable text translation directly within mobile browsers. ",
+      "summary": "Exposes the Translator JavaScript Web API on Chrome for Android (including Chrome Custom Tabs). Web applications can translate text locally using on-device models without sending page text to cloud endpoints. The TranslatorAPIAllowed enterprise policy (https://chromeenterprise.google/policies/translator-api-allowed/) is supported on Android to disable the API and prevent model downloads.",
+      "motivation": "Lets mobile web apps translate text locally with low latency and offline support, pairing with the Language Detector API shipped on Chrome for Android in M157.",
       "url": "https://chromestatus.com/feature/5106126157905920",
       "bug-url": "https://crbug.com/428227642",
-      "spec-link": "https://webmachinelearning.github.io/translation-api",
+      "spec-link": "https://webmachinelearning.github.io/translation-api/#translator-api",
       "explainer-links": [
         "https://github.com/webmachinelearning/translation-api"
       ],
       "updated": {
-        "by": "msw@google.com",
-        "when": "2026-08-27 21:33:47.371462"
+        "by": "jaeone@google.com",
+        "when": "2026-11-19 23:03:11.847463"
       }
     }
   ],
