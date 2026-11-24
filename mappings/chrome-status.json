@@ -16430,7 +16430,7 @@
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-11-18 16:22:40.202928"
+        "when": "2026-11-24 08:01:26.841858"
       }
     },
     {
@@ -17406,7 +17406,7 @@
       ],
       "updated": {
         "by": "monicach@microsoft.com",
-        "when": "2026-09-10 20:17:12.966403"
+        "when": "2026-11-23 22:46:58.579117"
       }
     },
     {
@@ -21778,7 +21778,7 @@
       ],
       "updated": {
         "by": "alanding@chromium.org",
-        "when": "2026-11-10 00:47:28.015909"
+        "when": "2026-11-23 19:48:48.341254"
       }
     },
     {
@@ -31206,7 +31206,7 @@
       ],
       "updated": {
         "by": "jaeone@google.com",
-        "when": "2026-11-23 17:58:21.160838"
+        "when": "2026-11-24 09:40:28.842846"
       }
     }
   ],
@@ -31425,7 +31425,7 @@
     {
       "id": 5009529854099456,
       "name": "CSS color-mix() with one or more colors",
-      "summary": "The CSS color-mix() function accepts one or more colors, instead of exactly two. Each color can have an optional percentage, and the colors are mixed in order, so several colors can be blended in a single function, for example color-mix(in oklch, red, green 20%, blue). Before, this needed nested color-mix()  calls, whose percentages are hard to work out. A single color, as in color-mix(in hsl, teal), converts that color to the interpolation color space. As with two colors, percentages that add up to less than 100% make the result partially transparent.",
+      "summary": "Extends the CSS color-mix() function to accept one or more colors, instead of exactly two. Each color can have an optional percentage, and the colors are mixed in order, so several colors can be blended in a single function, for example color-mix(in oklch, red, green 20%, blue). Before, this needed nested color-mix() calls, whose percentages are hard to work out. A single color, as in color-mix(in hsl, teal), converts that color to the interpolation color space. As with two colors, percentages that add up to less than 100% make the result partially transparent.",
       "motivation": "Mixing more than two colors needs nested `color-mix()` calls today. Each inner mix becomes one color of the outer mix, so the percentage of every color has to be worked out by hand: an equal mix of three colors is\n`color-mix(in srgb, color-mix(in srgb, red, green), blue 33.3333%)` instead of `color-mix(in srgb, red, green, blue)`. The CSSWG resolved to let `color-mix()` take any number of colors (issue #11530). The spec also allows a single color, which converts it to the interpolation color space (issue #12234). Firefox and Safari ship both forms, so this closes an interop gap.\n",
       "url": "https://chromestatus.com/feature/5009529854099456",
       "bug-url": "https://issues.chromium.org/issues/407806416",
@@ -31436,7 +31436,7 @@
       ],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-11-11 22:37:52.636715"
+        "when": "2026-11-24 18:19:56.844255"
       }
     }
   ],
