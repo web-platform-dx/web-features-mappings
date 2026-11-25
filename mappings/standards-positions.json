@@ -1412,6 +1412,20 @@
       "concerns": []
     }
   ],
+  "mixin": [
+    {
+      "vendor": "mozilla",
+      "url": "https://github.com/mozilla/standards-positions/issues/1459",
+      "position": "",
+      "concerns": []
+    },
+    {
+      "vendor": "apple",
+      "url": "https://github.com/WebKit/standards-positions/issues/727",
+      "position": "",
+      "concerns": []
+    }
+  ],
   "modulepreload": [
     {
       "vendor": "apple",
