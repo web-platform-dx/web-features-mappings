@@ -4809,6 +4809,20 @@
   ],
   "customizable-select": [
     {
+      "id": 5115032697438208,
+      "name": "Selectedcontent in select multiple",
+      "summary": "Today, the selectedcontent element works for single-selects but does nothing in a multi-select. This feature makes the selectedcontent element start working for multi-selects by cloning all options into the selectedcontent element and keeping their selectedness in sync in order to represent each selected option inside of the selectedcontent element. Authors can still style the cloned option and the original option independently, and the cloned but not selected options will be hidden by default in UA styles.",
+      "motivation": null,
+      "url": "https://chromestatus.com/feature/5115032697438208",
+      "bug-url": null,
+      "spec-link": null,
+      "explainer-links": [],
+      "updated": {
+        "by": "jarhar@chromium.org",
+        "when": "2026-11-24 21:10:41.911997"
+      }
+    },
+    {
       "id": 6270612585709568,
       "name": "Updated UA styles for customizable select",
       "summary": "New default CSS styles for customizable select have been standardized, and this feature adds them: https://github.com/w3c/csswg-drafts/issues/14256\n\nThese styles don't affect the functionality of customizable select, they just change minor things about the appearance like border-radius.",
@@ -12162,7 +12176,7 @@
       ],
       "updated": {
         "by": "iahouma@google.com",
-        "when": "2026-11-18 20:26:56.155949"
+        "when": "2026-11-25 15:51:10.579949"
       }
     },
     {
@@ -16430,7 +16444,7 @@
       ],
       "updated": {
         "by": "ravjit@google.com",
-        "when": "2026-11-24 08:01:26.841858"
+        "when": "2026-11-25 16:03:11.957580"
       }
     },
     {
@@ -17990,7 +18004,7 @@
       "explainer-links": [],
       "updated": {
         "by": "hjanuschka@gmail.com",
-        "when": "2026-11-20 18:26:51.481817"
+        "when": "2026-11-25 14:43:40.852827"
       }
     },
     {
@@ -24719,6 +24733,22 @@
   ],
   "view-transitions": [
     {
+      "id": 5206462350622720,
+      "name": "View Transitions: shadowRoots option in startViewTransition()",
+      "summary": "Adds a `shadowRoots` sequence to `StartViewTransitionOptions` (defaulting to `[]`). This allows `document.startViewTransition()` and `element.startViewTransition()` to discover participating elements (`view-transition-name`, `view-transition-class`, and `view-transition-group`) inside specified descendant `ShadowRoot`s while preserving shadow DOM encapsulation.",
+      "motivation": "View transition names are tree-scoped, so transitions started on a document or element cannot discover `view-transition-name` declarations inside shadow trees. Authors currently have to work around this using `::part()` or moving styling out of the shadow tree, which breaks encapsulation or prevents animating shadow internals alongside slotted light DOM content.",
+      "url": "https://chromestatus.com/feature/5206462350622720",
+      "bug-url": "https://issues.chromium.org/issues/584738355",
+      "spec-link": "https://drafts.csswg.org/css-view-transitions-2/#dom-startviewtransitionoptions-shadowroots",
+      "explainer-links": [
+        "https://github.com/w3c/csswg-drafts/issues/12953"
+      ],
+      "updated": {
+        "by": "nrosenthal@chromium.org",
+        "when": "2026-11-25 14:53:40.126178"
+      }
+    },
+    {
       "id": 4812903832223744,
       "name": "ViewTransitions waitUntil() method",
       "summary": "The ViewTransition automatically constructs a pseudo-element tree to display and animate participating elements in the transition. Per spec, this subtree is constructed when the view transition starts animating and is destroyed when the animations associated with all view transition pseudo-elements are in the finished state (or more precisely in a non-running non-paused state).\n\nThis works for a vast majority of cases and provides a seamless experience for the developers. However, for more advanced cases, this is insufficient as there are times when developers want the view transition pseudo-tree to persist beyond the animation finish state.\n\nOne example is tying view transitions with Scroll Driven Animations. When the animation is controlled by a scroll timeline, we don't want the subtree to be destroyed when the animations finish since scrolling back should still be able to animate the pseudo elements.\n\nIn order to enable advanced uses of view transition, this intent adds a waitUntil() function on the ViewTransition object which takes a promise. This promise then delays destruction of the pseudo-tree until it is settled.",
@@ -28387,7 +28417,7 @@
       "explainer-links": [],
       "updated": {
         "by": "guidou@google.com",
-        "when": "2026-11-18 22:58:08.529584"
+        "when": "2026-11-25 16:24:48.007596"
       }
     },
     {
@@ -28403,7 +28433,7 @@
       ],
       "updated": {
         "by": "irzhou@microsoft.com",
-        "when": "2026-11-17 23:26:29.791470"
+        "when": "2026-11-25 14:17:53.949254"
       }
     },
     {
@@ -31030,7 +31060,7 @@
       ],
       "updated": {
         "by": "fbeaufort@google.com",
-        "when": "2026-11-11 16:52:07.359680"
+        "when": "2026-11-25 05:59:19.025051"
       }
     }
   ],
@@ -31206,7 +31236,7 @@
       ],
       "updated": {
         "by": "jaeone@google.com",
-        "when": "2026-11-24 09:40:28.842846"
+        "when": "2026-11-25 14:46:55.099218"
       }
     }
   ],
@@ -31436,7 +31466,7 @@
       ],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-11-24 18:19:56.844255"
+        "when": "2026-11-25 12:45:04.570106"
       }
     }
   ],
