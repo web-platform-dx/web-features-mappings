@@ -4812,14 +4812,14 @@
       "id": 5115032697438208,
       "name": "Selectedcontent in select multiple",
       "summary": "Today, the selectedcontent element works for single-selects but does nothing in a multi-select. This feature makes the selectedcontent element start working for multi-selects by cloning all options into the selectedcontent element and keeping their selectedness in sync in order to represent each selected option inside of the selectedcontent element. Authors can still style the cloned option and the original option independently, and the cloned but not selected options will be hidden by default in UA styles.",
-      "motivation": null,
+      "motivation": "Customizable select didn't cover all of its different modes, including listboxes and multi-select, when it initially was launched. This is part of a change rounding out support to all select modes, specifically multi-select dropdowns.",
       "url": "https://chromestatus.com/feature/5115032697438208",
-      "bug-url": null,
-      "spec-link": null,
+      "bug-url": "https://issues.chromium.org/issues/483769482",
+      "spec-link": "https://github.com/whatwg/html/pull/12430",
       "explainer-links": [],
       "updated": {
         "by": "jarhar@chromium.org",
-        "when": "2026-11-24 21:10:41.911997"
+        "when": "2026-11-25 20:39:59.947352"
       }
     },
     {
@@ -6690,7 +6690,7 @@
       ],
       "updated": {
         "by": "jarhar@chromium.org",
-        "when": "2026-11-02 17:35:04.907145"
+        "when": "2026-11-25 23:02:19.254105"
       }
     }
   ],
@@ -24745,7 +24745,7 @@
       ],
       "updated": {
         "by": "nrosenthal@chromium.org",
-        "when": "2026-11-25 14:53:40.126178"
+        "when": "2026-11-25 20:41:34.856587"
       }
     },
     {
@@ -28433,7 +28433,7 @@
       ],
       "updated": {
         "by": "irzhou@microsoft.com",
-        "when": "2026-11-25 14:17:53.949254"
+        "when": "2026-11-26 16:28:13.538459"
       }
     },
     {
@@ -31236,7 +31236,7 @@
       ],
       "updated": {
         "by": "jaeone@google.com",
-        "when": "2026-11-25 14:46:55.099218"
+        "when": "2026-11-26 11:02:11.167520"
       }
     }
   ],
@@ -31466,7 +31466,7 @@
       ],
       "updated": {
         "by": "jfernandez@igalia.com",
-        "when": "2026-11-25 12:45:04.570106"
+        "when": "2026-11-25 22:54:08.485337"
       }
     }
   ],

@@ -220,6 +220,11 @@
       "shortname": "manifest-incubations"
     }
   ],
+  "app-share-targets": [
+    {
+      "shortname": "web-share-target"
+    }
+  ],
   "app-shortcuts": [
     {
       "shortname": "appmanifest"
@@ -2096,6 +2101,11 @@
       "shortname": "ecmascript"
     }
   ],
+  "flow-start-flow-end": [
+    {
+      "shortname": "css-align-3"
+    }
+  ],
   "focus-events": [
     {
       "shortname": "html"
@@ -3765,6 +3775,11 @@
   "mixed-content": [
     {
       "shortname": "mixed-content"
+    }
+  ],
+  "mixin": [
+    {
+      "shortname": "css-mixins-1"
     }
   ],
   "modal": [
